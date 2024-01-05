@@ -38,3 +38,17 @@ RELATIVE_URLS = True
 
 THEME = 'templates/cmput402'
 
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+        'markdown.extensions.toc': {
+            'toc_depth': '2-6',
+        },
+        'markdown.extensions.tables': {},
+    },
+    'output_format': 'html5',
+}
+PATH_METADATA = '(?P<path_no_ext>.*)\..*'
+ARTICLE_URL = ARTICLE_SAVE_AS = PAGE_URL = PAGE_SAVE_AS = '{path_no_ext}.html'
