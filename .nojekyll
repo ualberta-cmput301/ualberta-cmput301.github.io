@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <title>CMPUT 402 Software Quality - Authors</title>
+          <title>CMPUT 402 Software Quality - Disables Jekyll</title>
         <meta charset="utf-8" />
         <meta name="generator" content="Pelican" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +9,8 @@
 
   <link rel="icon" href="/theme/favicon.ico" />
   <link rel="stylesheet" type="text/css" href="/theme/style.css" />
+
+
 </head>
 
 <body>
@@ -20,9 +22,28 @@
         </ul></nav>
         </header>
         <main>
-    <h2>Authors on CMPUT 402 Software Quality</h2>
-    <ul>
-    </ul>
+<article>
+  <header>
+    <h2>Disables Jekyll</h2>
+  </header>
+    
+
+    <hr>
+<h1 id="disables-jekyll">Disables Jekyll</h1>
+
+</article>
+
+<hr>
+<footer>
+    <address>
+        Copyright © 
+        <ul>
+          <li>Dr. Hazel Campbell, Department of Computing Science, Faculty of Science, University of Alberta (2019, 2023, 2024).</li>
+          <li>Dr. Abram Hindle, Department of Computing Science, Faculty of Science, University of Alberta (2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023).</li>
+          <li>Alexander Wong, 2019.</li>
+        </ul>      
+    </address>
+</footer>
         </main>
         <footer>
                 <address>
