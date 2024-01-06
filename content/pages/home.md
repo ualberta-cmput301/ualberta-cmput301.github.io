@@ -4,11 +4,13 @@ save_as: index.html
 
 ----
 
-## Important Links
+# The Most Important Stuff
 
-* [Course Outline/Syllabus](pages/outline202401.html)
-    * [Grade Letter Information](pages/grade_letters.html)
-* [Course Schedule](https://docs.google.com/spreadsheets/d/1nI9E-naS2anf7boJF33eY43MlRjv1f0ymMJ3LdIinss/edit#gid=0)
+* [Course Outline/Syllabus]({filename}/general/outline.md)
+    * [Grade Letter Information]({filename}/general/grade_letters.md)
+* [How to get Help]({filename}/general/help.md)
+* [Course Schedule]({filename}/general/schedule.md)
+* [Reference Material, eBooks, & Resources]({filename}/general/resources.md)
 
-## Lecture Material
+# Lecture Material
 

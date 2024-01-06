@@ -1,5 +1,6 @@
 AUTHOR = 'University of Alberta'
-SITENAME = 'CMPUT 402 Software Quality'
+SITENAME = 'CMPUT 402'
+SITESUBTITLE = 'Software Quality'
 SITEURL = ""
 
 PATH = "content"
@@ -44,11 +45,34 @@ MARKDOWN = {
         'markdown.extensions.extra': {},
         'markdown.extensions.meta': {},
         'markdown.extensions.toc': {
-            'toc_depth': '2-6',
+            'toc_depth': '3-7',
+            'baselevel': '3'
         },
         'markdown.extensions.tables': {},
     },
     'output_format': 'html5',
 }
+DATE_FORMATS = {
+    'en': '%a, %d %b %Y at %H:%M %Z',
+}
+
+STATIC_PATHS=[]
+
 PATH_METADATA = '(?P<path_no_ext>.*)\..*'
 ARTICLE_URL = ARTICLE_SAVE_AS = PAGE_URL = PAGE_SAVE_AS = '{path_no_ext}.html'
+STATIC_URL = STATIC_SAVE_AS = '{path}'
+
+DISPLAY_CATEGORIES_ON_MENU=False
+DISPLAY_PAGES_ON_MENU=False
+
+INDEX_SAVE_AS="all.html"
+
+MENUITEMS=[
+    ("Outline", "/general/outline.html"),
+    ("eClass", "https://eclass.srv.ualberta.ca/course/view.php?id=95226"),
+    ("Schedule", "/general/schedule.html"),
+    ("Labs", "/general/labs.html"),
+    ("Project", "/general/project.html"),
+    ("Resources", "/general/resources.html"),
+    ("Help", "/general/help.html"),
+]
