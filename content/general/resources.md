@@ -11,7 +11,8 @@ summary: Resources, Reference Materials, Notes, Videos, Slides
 
 # Software
 
-* [ACTS 3.2]({attach}resources/ACTS3.2.zip)
+* [ACTS](https://csrc.nist.gov/Projects/automated-combinatorial-testing-for-software/downloadable-tools)
+    * [ACTS 3.2]({attach}resources/ACTS3.2.zip)
 
 # Video Tutorials
 
