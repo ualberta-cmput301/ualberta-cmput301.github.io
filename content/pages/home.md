@@ -15,3 +15,5 @@ save_as: index.html
 
 # Lecture Material
 
+* Lecture material is on [GDrive](https://drive.google.com/drive/folders/1ABouOWx-sq8U3VpnQ8tXMv1LRwgSvHwq?usp=drive_link)
+    * You must be logged into your UA account.

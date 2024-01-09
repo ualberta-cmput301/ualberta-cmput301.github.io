@@ -11,4 +11,8 @@ summary: Lab Procedure, Lab Assignments, Lab Marking
 
 # Lab Things Go Here
 
-The lab things should go here. We are still in the process of moving them from eClass.
+Lab material is on [Google Drive](https://drive.google.com/drive/folders/1bFzss045P-FRPCSXZpzdlLyLCHm29f4y?usp=drive_link) or eClass.
+
+You must be logged into your UA account to access the Google Drive.
+
+We are in the process of moving things to Google Drive, so if its not on eClass check there.
