@@ -10,3 +10,5 @@ summary: Lab Procedure, Lab Assignments, Lab Marking
 [TOC]
 
 # Lab Things Go Here
+
+The lab things should go here. We are still in the process of moving them from eClass.

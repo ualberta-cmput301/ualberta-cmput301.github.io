@@ -9,6 +9,6 @@ summary: Tartan Smart Home System
 
 # Tartan Smart Home System
 
-* [System Description PDF]({filename}/tartan/TartanSystemDescription.pdf)
+* [System Description PDF]({attach}/tartan/TartanSystemDescription.pdf)
     * **Warning** links are out of date!
 * [Tartan Build Instructions]({filename}/tartan/build.md)

@@ -80,7 +80,7 @@ Ammann and Jeff Offutt.
 
 ## On-Line Homework Disclaimer
 
-On-line homework is a component of this course and is provided by a third-party company.  Please be aware that this company will be storing assessment information that may be associated with you. Please be aware that this company will be storing assessment information that may be associated with you. You are not required to provide any additional personal information to this company.  If you have any concerns about this, please contact the instructor of the course.
+On-line homework is a component of this course and is provided by a third-party company.  Please be aware that this company will be storing assessment information that may be associated with you.  As a way to protect your personal information, you will invent or you will be assigned a random ID to enter into the system. Only the random ID, performance on the on-line homework and the affiliation to the University of Alberta for this random ID will be conveyed to the company.  You are not required to provide any additional personal information to this company.  If you have any concerns about this, please contact the instructor of the course.
 
 1. Registration in the system and any monetary transactions are of your own accord and not the responsibility of the University.
 2. Students should be mindful of protecting their personal information and should be aware of how their personal information might be used and/or shared.
