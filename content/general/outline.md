@@ -31,7 +31,7 @@ summary: University of Alberta <br> CMPUT 402/501 - Software Quality <br> LEC-B1
 * Lecturer: Dr. Hazel Victoria Campbell
     * E-mail: [hazel.campbell@ualberta.ca](mailto:hazel.campbell@ualberta.ca)
     * **Office:** [ATH](http://www.campusmap.ualberta.ca/?b=ath) 4-05
-    * **Office hours (ATH 4-05):** TBA
+    * **Office hours (ATH 4-05):** Monday, Wednesday, Friday 2:10-2:50PM
     * **Office hours (Zoom):** _(email to make an appointment)_
 * TA Contact Info and Office hours is on eClass
 
