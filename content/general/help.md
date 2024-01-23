@@ -69,7 +69,7 @@ If your question is related to content covered in class and you need further exp
 
 TA office hours are on the eClass.
 
- # Wellness Supports
+# Wellness Supports
 
 Welcome to 2024! I hope that you are happily settling into the winter semester at University of Alberta. If you’re still feeling the stress of exams or hoping to develop good health habits going into this new semester, we’re here to help! 
 
