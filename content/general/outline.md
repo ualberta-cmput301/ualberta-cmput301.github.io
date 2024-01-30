@@ -108,13 +108,14 @@ Note the last column, it shows collaboration models for each unit of work. These
 |Group Project 5         | 8%     | 8%     | Teamwork      |
 |Participation           | 5%     | 5%     | Solo Effort   |
 |In-Class Presentation   | N/A    | 6%     | Solo Effort   |
-| Extra Credit           | +1%    | +1%    | Solo Effort   | 
+|Extra Credit\*           | +1%    | +1%    | Solo Effort   | 
 
 
 * There is no final exam for this course.
 
 Grades are unofficial until approved by the Department and/or Faculty offering the course.
 
+\*Extra credit is recieved by submitting a helpfull PR to the website repo and emailing the course instructor
 ## Group Assignments
 
 * Group members for group projects will be randomly assigned. Groups for the group projects remain the same throughout the term.
