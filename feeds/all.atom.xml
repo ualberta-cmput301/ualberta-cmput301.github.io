@@ -1,5 +1,759 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>CMPUT 402</title><link href="https://cmput402.github.io/" rel="alternate"></link><link href="https://cmput402.github.io/feeds/all.atom.xml" rel="self"></link><id>https://cmput402.github.io/</id><updated>2024-01-30T00:00:00-07:00</updated><subtitle>Software Quality</subtitle><entry><title>Individual Assignment 1: Testing Theory</title><link href="https://cmput402.github.io/individual/testing-theory.html" rel="alternate"></link><published>2024-01-30T00:00:00-07:00</published><updated>2024-01-30T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput402.github.io,2024-01-30:/individual/testing-theory.html</id><summary type="html">&lt;p&gt;Individual Assignment 1: Testing Theory&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CMPUT 402</title><link href="https://cmput402.github.io/" rel="alternate"></link><link href="https://cmput402.github.io/feeds/all.atom.xml" rel="self"></link><id>https://cmput402.github.io/</id><updated>2024-01-30T00:00:00-07:00</updated><subtitle>Software Quality</subtitle><entry><title>Group Assignment 1: Basics</title><link href="https://cmput402.github.io/group/basics.html" rel="alternate"></link><published>2024-01-30T00:00:00-07:00</published><updated>2024-01-30T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput402.github.io,2024-01-30:/group/basics.html</id><summary type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#part-1-verification-of-existing-functionality"&gt;Part 1: Verification of Existing Functionality&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#part-2-test-automation-infrastructure"&gt;Part 2: Test Automation Infrastructure&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#infrastructure-setup"&gt;Infrastructure Setup&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#acceptance-criteria-for-g1"&gt;Acceptance criteria for G1&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#notes-on-screenshots"&gt;Notes on Screenshots&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#grading-summary"&gt;Grading Summary&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="overview"&gt;Overview&lt;/h3&gt;
+&lt;p&gt;The goal of this first group project is to familiarize yourself with the Tartan Home system, which you will eventually extend with new functionality
+and test …&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#part-1-verification-of-existing-functionality"&gt;Part 1: Verification of Existing Functionality&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#part-2-test-automation-infrastructure"&gt;Part 2: Test Automation Infrastructure&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#infrastructure-setup"&gt;Infrastructure Setup&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#acceptance-criteria-for-g1"&gt;Acceptance criteria for G1&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#notes-on-screenshots"&gt;Notes on Screenshots&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#grading-summary"&gt;Grading Summary&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="overview"&gt;Overview&lt;/h3&gt;
+&lt;p&gt;The goal of this first group project is to familiarize yourself with the Tartan Home system, which you will eventually extend with new functionality
+and test for functional correctness, code quality, and other quality attributes.&lt;/p&gt;
+&lt;p&gt;The learning goals of G1 are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Familiarize yourself with technologies/concepts such as gradle, DropWizard, Hibernate, and RESTful Web services.&lt;/li&gt;
+&lt;li&gt;Learn to to setup and manage a continuous integration strategy and supporting
+  technologies.&lt;/li&gt;
+&lt;li&gt;Get experience adding tests to an existing system&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following requirements must be satisfied to start this project:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A development environment with Java, gradle and docker support,
+  preferably together with a correctly configured IDE like Eclipse or
+  IntelliJ that allows to execute unit tests and perform coverage analysis
+  on Java projects. (IntelliJ is recommended but not required)&lt;/li&gt;
+&lt;li&gt;All members of the team must accept the assignment on GitHub classroom on the following link &lt;a href="https://classroom.github.com/a/v-Nv1id7"&gt;https://classroom.github.com/a/v-Nv1id7&lt;/a&gt;. This will create the private repository your team will work on. Please note that your teams are already created on eClass. Make sure to join your assigned team. &lt;strong&gt;The first person from your team to accept the assignment on GitHub classroom will create the team there. Use the same team name as on eClass (e.g., Group1, Group15 etc)&lt;/strong&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You will also likely need several additional tools to complete this assignment.
+Please identify and describe these tools in your report.&lt;/p&gt;
+&lt;p&gt;For all submissions, make sure to explicitly mention your group number and all group memeber names and CCIDs, as well as your team's GitHub repo. You should also edit your repo's ReadMe file to include your group name and members.&lt;/p&gt;
+&lt;h3 id="part-1-verification-of-existing-functionality"&gt;Part 1: Verification of Existing Functionality&lt;/h3&gt;
+&lt;p&gt;Write &lt;em&gt;four&lt;/em&gt; test cases for Tartan&lt;/p&gt;
+&lt;p&gt;The following describe Tartan's rule for making decisions about the house state. Your first tasks is to select &lt;strong&gt;&lt;em&gt;four&lt;/em&gt;&lt;/strong&gt; of these rules and assess that they are correctly implemented. You will write one unit test for each of selected rule.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;R1:&lt;/strong&gt; If the house is vacant, then the light cannot be turned on.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R2:&lt;/strong&gt; If the alarm is enabled, and the door gets opened, then sound the alarm.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R3:&lt;/strong&gt; If the house is vacant, then close the door.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R4:&lt;/strong&gt; If the alarm is enabled and the house gets suddenly occupied (i.e., someone is detected by the proximity sensor), then sound the alarm.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R5:&lt;/strong&gt; If the house is empty, then start the away timer.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R6:&lt;/strong&gt; When the away timer expires, then turn off the light, arm the alarm, and close the door.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R7:&lt;/strong&gt; If the house becomes occupied while the alarm is disabled, then turn on the lights for the legitimate user.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R8:&lt;/strong&gt; The alarm can be disabled &lt;em&gt;only&lt;/em&gt; when the house is occupied (i.e. it cannot be disabled remotely).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R9:&lt;/strong&gt; The correct passcode is required to disable the alarm.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R10:&lt;/strong&gt; If the target temperature is greater than the current temperature, then turn on the heater. Otherwise, turn off the heater&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R11:&lt;/strong&gt; If the target temperature is less than the current temperature, then turn on the air conditioner. Otherwise, turn off the air conditioner.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R12:&lt;/strong&gt; The heater and the dehumidifier cannot be run simultaneously.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;At this point, you need to only implement one unit test for each selected rule. In G2, you will be asked to implement additional tests as needed. For the purpose of G1, you can assume independence between the rules (i.e., you do not need to think about situations that combine multiple rules). You will think about that for G2. &lt;/p&gt;
+&lt;p&gt;If you find that any of the functionality are not correctly implemented, you must indicate the problem you found in your report and how you fixed it.&lt;/p&gt;
+&lt;h3 id="part-2-test-automation-infrastructure"&gt;Part 2: Test Automation Infrastructure&lt;/h3&gt;
+&lt;p&gt;Now that you have written your initial tests and understand how to build and run Tartan, you will set up the infrastructure necessary to automate building and testing. You will set up and configure
+&lt;a href="https://github.com/features/actions"&gt;GitHub (GH) Actions&lt;/a&gt; in your own
+repository to be used for the rest of the semester. &lt;/p&gt;
+&lt;h4 id="infrastructure-setup"&gt;Infrastructure Setup&lt;/h4&gt;
+&lt;p&gt;Set up and configure GH Actions workflow in your repository. As a minimum, your team should:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Set up GH Actions in the repository.&lt;/li&gt;
+&lt;li&gt;Automate the build and tests of the Tartan Home system using workflows (use the tests you wrote in Part 1 to try out and demonstrate the infrastructure)&lt;/li&gt;
+&lt;li&gt;Configure GH Actions to automatically trigger a new build whenever changes
+  are pushed to your GH repository (e.g., main branch).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;At this point, you are also welcome to explore additional GH Actions that may provide useful functionality, for example, actions that show statistics, test coverage, or track performance results. You may find this
+&lt;a href="https://github.com/sdras/awesome-actions"&gt;link&lt;/a&gt; useful if you want to set up
+additional workflows. This is not required for G1 but may prove useful for your next group projects.&lt;/p&gt;
+&lt;h3 id="acceptance-criteria-for-g1"&gt;Acceptance criteria for G1&lt;/h3&gt;
+&lt;p&gt;Submit a short (max. 3 pages) informal &lt;strong&gt;PDF&lt;/strong&gt; report on eClass that:
+- mentions the four rules you chose and the name/location of the corresponding tests
+- &lt;em&gt;briefly&lt;/em&gt; describes your infrastructure setup (i.e., the list of GH actions/workflows you set up and how these workflows build the code and run the tests). 
+- includes one or more screenshots that show (1) a successful build, (2) a failing build, and (3) the passing tests from Part 1. &lt;/p&gt;
+&lt;h4 id="notes-on-screenshots"&gt;Notes on Screenshots&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;For the passing build, it is enough to share a screenshot of a successful Github Actions workflow run.&lt;/li&gt;
+&lt;li&gt;For the failing build, it needs to be a result of a build failure (e.g., due to compilation issues) or test failure (i.e., a test did not pass). Failures caused by wrong setup of your workflow (e.g., permission issues, "No such file or directory" errors, etc.) are NOT examples of a failing build. These are examples of a failed setup.&lt;/li&gt;
+&lt;li&gt;For the passing tests, the screenshot must include the name of the passing test. Thus, it needs to be screenshot of either an IDE test execution window or the test report that gets generated by Gradle (located in the file &lt;code&gt;build/reports/tests/test/index.html&lt;/code&gt;) such that name of the passing test can be seen.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The following criteria must be satisfied for G1 to be accepted as
+complete. &lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left;"&gt;Criteria&lt;/th&gt;
+&lt;th style="text-align: left;"&gt;Grade&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;Four unit tests that verify the functionality of three rules and run successfully (i.e., passes)&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;40&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;A description of any bugs found in the system through the test &amp;amp; how they were fixed as applicable. If no bugs found, an explicit statement is required.&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;The test infrastructure is set up with automated building and testing.&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;Github Actions platform reports when the build (i.e., either compilation or tests) is passing/failing.&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Please tag your code with &lt;code&gt;G1_Done&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id="grading-summary"&gt;Grading Summary&lt;/h3&gt;
+&lt;p&gt;In total, G1 is worth 80 points with the following allocation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Acceptance criteria: 65 points&lt;/li&gt;
+&lt;li&gt;Report: 10 points&lt;/li&gt;
+&lt;li&gt;Peer assessment: 5 points (assigned individually)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The report is graded based on its presentation, organization, and how clearly things are described. All the items described in the Acceptance Criteria section above must appear in the report.&lt;/p&gt;
+&lt;p&gt;Each member must assess their team members' contributions on eClass. This is worth 5 points of the total assignment grade and is confidential (results go to the course staff). Note that if we find big discrepencies in contributions or if one team members is negatively rated by all other team members, then we will investigate and regrade team members as needed. &lt;/p&gt;
+&lt;p&gt;Copyright 2021, 2022 Dr. Sarah Nadi. Copyright 2023, 2024 Dr. Hazel Campbell. All rights reserved.&lt;/p&gt;</content><category term="group"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Group Assignment 2: Testing</title><link href="https://cmput402.github.io/group/testing.html" rel="alternate"></link><published>2024-01-30T00:00:00-07:00</published><updated>2024-01-30T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput402.github.io,2024-01-30:/group/testing.html</id><summary type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#part-1-improve-test-suite"&gt;Part 1: Improve Test Suite&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#acceptance-criteria-for-part-1"&gt;Acceptance criteria for Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#part-2-implementation-and-verification-of-a-smart-door-lock"&gt;Part 2: Implementation and Verification of a Smart Door Lock&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#acceptance-criteria-for-part-2"&gt;Acceptance criteria for Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#report-for-parts-1-2"&gt;Report for Parts 1 &amp;amp; 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#grading-summary"&gt;Grading Summary&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#questions-you-should-be-able-to-answer-after-this-assignment"&gt;Questions You Should Be Able to Answer After This Assignment&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="overview"&gt;Overview&lt;/h3&gt;
+&lt;p&gt;In this project, you will extend …&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#part-1-improve-test-suite"&gt;Part 1: Improve Test Suite&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#acceptance-criteria-for-part-1"&gt;Acceptance criteria for Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#part-2-implementation-and-verification-of-a-smart-door-lock"&gt;Part 2: Implementation and Verification of a Smart Door Lock&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#acceptance-criteria-for-part-2"&gt;Acceptance criteria for Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#report-for-parts-1-2"&gt;Report for Parts 1 &amp;amp; 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#grading-summary"&gt;Grading Summary&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#questions-you-should-be-able-to-answer-after-this-assignment"&gt;Questions You Should Be Able to Answer After This Assignment&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="overview"&gt;Overview&lt;/h3&gt;
+&lt;p&gt;In this project, you will extend the Tartan Home system with new functionality
+and test it for functional correctness, code quality, and quality attributes.
+You will conduct this testing at multiple levels (e.g., unit, integration, and
+system) primarily to verify functional correctness of existing and new code.
+You may also need to modify your testing infrastructure from G1, as needed. The assignment
+requires teams to extend the system to support a new smart door lock with
+several features and test that functionality. G2 has two parts.&lt;/p&gt;
+&lt;p&gt;The learning goals of this group project are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learn to to setup and manage a continuous testing strategy and supporting
+  technologies.&lt;/li&gt;
+&lt;li&gt;Gain experience using different test case design techniques.&lt;/li&gt;
+&lt;li&gt;Select and integrate appropriate testing techniques throughout the
+  engineering process, using appropriate technologies.&lt;/li&gt;
+&lt;li&gt;Select and assess various measures, including but not limited to code
+  coverage, for the adequacy of a test suite.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following requirements must be satisfied to start this project:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The team is familiar with collaborative development and code review
+  features of Github (a quick recap will also be provided in the lab).&lt;/li&gt;
+&lt;li&gt;A development environment with Java, gradle and docker support,
+  preferably together with a correctly configured IDE like Eclipse or
+  IntelliJ that allows to execute unit tests and perform coverage analysis
+  on Java projects.&lt;/li&gt;
+&lt;li&gt;Note that you must continue working on the same repository you created through GitHub classroom for group project 1. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You will also likely need several additional tools to complete this assignment.
+Please identify and describe these tools in your report.&lt;/p&gt;
+&lt;h3 id="part-1-improve-test-suite"&gt;Part 1: Improve Test Suite&lt;/h3&gt;
+&lt;p&gt;In G1, you were still starting out with Tartan and did not know of all the techniques that can help you choose meaningful test cases and also assess the quality of your tests. Additionally, you only implemented one test per feature. &lt;/p&gt;
+&lt;p&gt;In the first part of this assignment, your task is to improve the quality of your test suite for the four rules you chose in G1 as follows:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Use blackbox testing techniques to create better test cases and corresponding oracles (i.e., the concrete input values and expected output in your tests). You are advised to carefully read Tartan's specification and decide on whether there are additional scenarios you need to test for (e.g., now is time to think about whether the rules interact and if there are edge cases you need to think of). When selecting concrete oracles, some of your options include boundary value testing, random testing, or strong/weak equivalence class testing. You may think of other strategies too. &lt;/li&gt;
+&lt;li&gt;Use whitebox testing techniques to evaluate and improve the adequacy of your test suite. In this case, you are asked to write more tests that improve the coverage of your test suite to 80%.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;It does not need to be 80% of the entire system: you only need 80% coverage of the methods that implement your four rules. &lt;/p&gt;
+&lt;p&gt;Please refer to the code coverage tutorial posted on eClass and discussed in the lab to see how you can configure your coverage measurement tool to measure coverage only for your selected features. However, you must include &lt;em&gt;at least&lt;/em&gt; all methods your blackbox tests interact with either directly or indirectly.&lt;/p&gt;
+&lt;h4 id="acceptance-criteria-for-part-1"&gt;Acceptance criteria for Part 1&lt;/h4&gt;
+&lt;p&gt;The following criteria must be satisfied for Part 1 to be accepted as
+complete. A description of the report you must submit is provided at the end.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left;"&gt;Criteria&lt;/th&gt;
+&lt;th style="text-align: left;"&gt;Grade&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;Whitebox and blackbox test design and selection plans are completed and explained.&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;Automated measurement of coverage with each build is implemented&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;All tests pass.&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;Tests must achieve at least 80% statement and 80% branch coverage for the &lt;em&gt;features selected to test.&lt;/em&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;15&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id="part-2-implementation-and-verification-of-a-smart-door-lock"&gt;Part 2: Implementation and Verification of a Smart Door Lock&lt;/h3&gt;
+&lt;p&gt;Tartan Inc. would like your team to implement the software logic for a new smart
+door lock. The smart door lock hardware allows the door to be locked and
+unlocked automatically using a passcode, and it will provide many "smart"
+features that users can configure for additional security or convenience. Note that opening/closing the door is different from locking/unlocking a lock. The former refers to the physical state of the door while the latter refers to the state of the deadbolt on the door.
+Specifically, the smart lock must support the following features that users
+can enable or disable:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Electronic Operation:&lt;/em&gt; If a person requests a lock or unlock operation
+  from an access panel, first check if that operation requires a
+  passcode. If it does, read and check the passcode. If the passcode is refused, send a message to the access panel. Otherwise, perform the requested operation.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Keyless Entry:&lt;/em&gt; When sensors detect a resident arriving on the
+  property (e.g., proximity of a registered cell phone), automatically unlock the door.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Intruder Defense:&lt;/em&gt; When sensors in the house detect the possible presence
+  of an intruder, lock the door and send "possible intruder detected"
+  messages to the access panels. Keep the door locked until the sensors
+  provide an "all clear" signal, at which time "all clear" messages are
+  sent to the access panels.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Night Lock:&lt;/em&gt; Residents configure the time when night begins and ends. At
+  night, automatically lock the door and always relock it if it becomes
+  unlocked at any point during the night.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Note that the above feature requirements may be ambiguous. In addition, features
+may interact and the door lock should behave in a reasonable way, which can be
+resolved with timers, priorities, or other mechanisms. For example, what
+happens or should happen if an intruder is detected and a resident arrives at
+the door? You should ask for clarification about requirements if needed and
+explicitly document all assumptions you make about interactions.&lt;/p&gt;
+&lt;p&gt;Integrate the smart door lock and its features with the current system and test
+it thoroughly. You can add additional sensors and actuators to the house, if
+needed.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;While developing the new door lock features, you must follow a test-driven approach.&lt;/strong&gt;
+Use Pull Requests to integrate each new functionality and have another team member review your code. &lt;strong&gt;Each team member must perform a code review of
+at least 1 PR.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;To make it easier for us to spot your test-driven development, you must make your commits
+using a specific pattern that shows that you have worked using TDD. Make a
+git commit after each of the following steps:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Red: Write a test that fails. Make a commit with the word "RED" at the beginning of the commit message.&lt;/li&gt;
+&lt;li&gt;Green: Change the implementation so that the test succeeds. Make a commit with the word "GREEN".&lt;/li&gt;
+&lt;li&gt;Refactor: Rewrite the code. Make a commit with the word "REFACTOR". Your tests must still pass after this change.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You must conduct unit testing on the new code and carefully measure coverage.
+However, given that this is a new feature, you should also perform integration (i.e., tests that combine multiple classes/functionality) and system testing (i.e., end to end testing that treats the system as a black box). You must document the integration and system testing
+procedures in your report. &lt;/p&gt;
+&lt;h5 id="acceptance-criteria-for-part-2"&gt;Acceptance criteria for Part 2&lt;/h5&gt;
+&lt;p&gt;The following criteria must be satisfied for the assignment to be accepted as
+complete.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left;"&gt;Criteria&lt;/th&gt;
+&lt;th style="text-align: left;"&gt;Grade&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;Requirements for the smart door lock are documented. The documentation format is up to the team, but should be clear and complete and includes any assumptions the team made.&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;The software for the smart door lock successfully builds, runs, and implements stated requirements.&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;Integration and system testing strategy is implemented and described&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;Tests must achieve at least 80% statement and 80% branch coverage for &lt;strong&gt;&lt;em&gt;new&lt;/em&gt;&lt;/strong&gt; code.&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;15&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;The mutation score for the tests related to the new door lock functionality should be 90%&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;Test-driven development has been followed&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;New features underwent code review&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id="report-for-parts-1-2"&gt;Report for Parts 1 &amp;amp; 2&lt;/h3&gt;
+&lt;p&gt;Create a report as a single &lt;strong&gt;PDF&lt;/strong&gt; file that describes your verification
+activities, decisions, and results for both the existing functionality and the
+new door lock (max. 4 pages of text, not including screenshots/tables etc). You must upload your report to eClass by the specified deadline. While marking, we will verify all acceptance criteria by checking both your report and code repository.
+&lt;strong&gt;The final version of your code for all parts of this project must be in the master branch and tagged as &lt;code&gt;G2_Done&lt;/code&gt; by the deadline.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The following describe the required details of the report:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Part 1&lt;/strong&gt;:&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Chosen Rules&lt;/strong&gt;: For completeness, restate the four rules you chose for part 1 (they should be the same as those from G1).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Testing plan and test cases&lt;/strong&gt;: Describe the
+  process you used to design test cases and provide an overview of the tests
+  you wrote. How were test cases designed? How were test values selected? Which
+  testing techniques did you use (i.e. random testing, combinatorial testing,
+  BVA, other)? Mention how much additional testing you needed to add in G2 when compared to G1. Finally, provide a pointer to the actual test classes/methods scripts in your repository.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Coverage&lt;/strong&gt;: Provide a screenshot of your coverage report (you can focus only on the relevant parts of the system). While marking, we will look into the actual report ourselves and make sure you satisfy the coverage criteria.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Part 2&lt;/strong&gt;:&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Clarified requirements for smart door lock&lt;/strong&gt;:
+  Describe all assumptions you made about the requirements of the smart door
+  lock system and its features.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Software development processes&lt;/strong&gt;: Briefly indicate
+  the role of each group member in this process, describe how you planned and
+  organized the design, development, and evaluation of the smart door lock.
+  Include a description of how you coordinated implementation and
+  testing.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Overall testing strategy and implementation:&lt;/strong&gt; . Indicate where your unit, integration, and system tests are implemented. Mention what you chose to test for integration testing as well as system testing. Which tools/frameworks/techniques did you use to implement your integration and system testing?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Coverage and mutation score:&lt;/strong&gt; Provide a screenshot of your coverage report (you can focus only on the relevant parts of the system). While marking, we will look into the actual report ourselves and make sure you satisfy the coverage criteria. Also, provide a screenshot of your mutation score report. Please mention 2-3 examples of initially live mutations (i.e., mutants that your test suite did not initially kill) and how you improved your test suite to kill these mutants.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="grading-summary"&gt;Grading Summary&lt;/h3&gt;
+&lt;p&gt;In total, this project is worth 120 points with the following allocation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Part 1 (improving test suite): 40 points&lt;/li&gt;
+&lt;li&gt;Part 2 (implementation and verification): 65 points&lt;/li&gt;
+&lt;li&gt;Report: 10 points&lt;/li&gt;
+&lt;li&gt;Peer assessment: 5 points (Assigned individually)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The report is graded based on its presentation, organization, and how clearly things are described. All the items described in the Report section above must appear in the report.&lt;/p&gt;
+&lt;p&gt;Each member must assess their team members' contributions on eClass. This is worth 5 points of the total assignment grade and is confidential (results go to the course staff). Note that if we find big discrepencies in contributions or if one team members is negatively rated by all other team members, then we will investigate and regrade team members as needed.&lt;/p&gt;
+&lt;h3 id="questions-you-should-be-able-to-answer-after-this-assignment"&gt;Questions You Should Be Able to Answer After This Assignment&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;What is a unit?&lt;/li&gt;
+&lt;li&gt;How does TDD differ from standard types of testing?&lt;/li&gt;
+&lt;li&gt;What is an Oracle?&lt;/li&gt;
+&lt;li&gt;What might you need to change in the System Under Test in order to make good use of unit testing?&lt;/li&gt;
+&lt;li&gt;What makes black box testing different from white box testing?&lt;/li&gt;
+&lt;li&gt;Why might we want to use black box testing?&lt;/li&gt;
+&lt;li&gt;What is the purpose of unit-testing?&lt;/li&gt;
+&lt;li&gt;What are equivalence partitioning and boundary value analysis?&lt;/li&gt;
+&lt;li&gt;Why do we use TDD? What is its purpose?&lt;/li&gt;
+&lt;li&gt;Can we always have 100% code-coverage?&lt;/li&gt;
+&lt;li&gt;What are the different types of coverage criteria?&lt;/li&gt;
+&lt;li&gt;Does 100% coverage mean we are bug-free?&lt;/li&gt;
+&lt;li&gt;Does 100% MCDC coverage mean we are bug-free?&lt;/li&gt;
+&lt;li&gt;Can we prove that we’re 100% bug-free?&lt;/li&gt;
+&lt;li&gt;In TDD, Why do we go for RED first?&lt;/li&gt;
+&lt;li&gt;How did you handle interactions in the requirements in part 2?&lt;/li&gt;
+&lt;li&gt;How did you test for intereactions?&lt;/li&gt;
+&lt;li&gt;Do the computed adequacy criteria give you confidence that your software is thoroughly tested and of adequate quality?&lt;/li&gt;
+&lt;li&gt;If you could pick your own goals for test adequacy measures, what would you aim for?&lt;/li&gt;
+&lt;li&gt;Which testing techniques were most effective for you and why?&lt;/li&gt;
+&lt;li&gt;Which techniques were less effective and why?&lt;/li&gt;
+&lt;li&gt;Did mutation testing help you find weaknesses in your test suite? Can you give an example?&lt;/li&gt;
+&lt;li&gt;If you had to conduct a similar project again, would you change any of your testing or planning strategies?&lt;/li&gt;
+&lt;li&gt;What were the challenges you faced and how did you solve them?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Copyright 2021, 2022 Dr. Sarah Nadi. Copyright 2023, 2024 Dr. Hazel Campbell. All rights reserved.&lt;/p&gt;</content><category term="group"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Group Assignment 3: Testing in Production</title><link href="https://cmput402.github.io/group/testing-in-production.html" rel="alternate"></link><published>2024-01-30T00:00:00-07:00</published><updated>2024-01-30T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput402.github.io,2024-01-30:/group/testing-in-production.html</id><summary type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#tasks"&gt;Tasks&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#continuous-deployment"&gt;Continuous deployment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#ab-testing"&gt;AB testing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#acceptance-criteria"&gt;Acceptance Criteria&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#deliverables"&gt;Deliverables&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#code-and-scripts-and-documentation"&gt;Code and Scripts and Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#report"&gt;Report&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#grading-summary"&gt;Grading Summary&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="overview"&gt;Overview&lt;/h3&gt;
+&lt;p&gt;In this project, you will build infrastructure for Tartan in order to conduct tests in
+production. First, you will deploy your application with &lt;a href="https://www.docker.com/resources/what-container"&gt;Docker
+containers&lt;/a&gt; and automate
+deployment into production as well …&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#tasks"&gt;Tasks&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#continuous-deployment"&gt;Continuous deployment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#ab-testing"&gt;AB testing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#acceptance-criteria"&gt;Acceptance Criteria&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#deliverables"&gt;Deliverables&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#code-and-scripts-and-documentation"&gt;Code and Scripts and Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#report"&gt;Report&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#grading-summary"&gt;Grading Summary&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="overview"&gt;Overview&lt;/h3&gt;
+&lt;p&gt;In this project, you will build infrastructure for Tartan in order to conduct tests in
+production. First, you will deploy your application with &lt;a href="https://www.docker.com/resources/what-container"&gt;Docker
+containers&lt;/a&gt; and automate
+deployment into production as well as making it easy to roll back changes.
+Second, you will extend the project and build an AB testing infrastructure that
+can be used to assess specific changes.&lt;/p&gt;
+&lt;p&gt;Learning goals:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Design an AB-testing infrastructure to run tests in production.&lt;/li&gt;
+&lt;li&gt;Deploy the system through a virtualized infrastructure and support rapid updates and rollback operations with test automation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Note that you can continue to work on the same Tartan Home repository you created through GitHub classroom for the previous projects. Please check eClass for deadlines.&lt;/p&gt;
+&lt;h3 id="tasks"&gt;Tasks&lt;/h3&gt;
+&lt;h4 id="continuous-deployment"&gt;Continuous deployment&lt;/h4&gt;
+&lt;p&gt;Having learned about continuous deployment, members of your company are curious
+to try it. You will investigate Docker containers and run your infrastructure
+in containers. You can also run the house simulators in Docker containers if
+you like. Because your company does not have in-house server machines, your
+company is going to acquire VM resources from
+&lt;a href="https://cloud.cybera.ca/"&gt;Cybera&lt;/a&gt;.  Since Cybera uses
+&lt;a href="https://www.openstack.org/software/"&gt;OpenStack&lt;/a&gt; to manage its computing
+resources, you will also use it to create your own VM instance. After creating
+and configuring that instance (e.g., associate floating (public) IP address,
+install Docker), you will deploy and run your containers there. Note that we
+already provided a setup for Docker (&lt;code&gt;docker-compose.yml&lt;/code&gt; file) with the
+original release that you are welcome to use or modify.&lt;/p&gt;
+&lt;p&gt;You will need to extend your build and test automation, such that Docker containers for all
+backend services (controller, database, and possibly additional services you
+may create) are &lt;em&gt;created automatically&lt;/em&gt; every time you push a commit to GitHub
+and it passes all tests. You can either &lt;em&gt;launch&lt;/em&gt; the new containers
+automatically, replacing the currently running ones, or provide a lightweight
+mechanisms where a human operator can launch a new version with a single button
+or command-line instruction. (The house simulators are not part of the backend
+and should usually continue running while the controller is updated.)&lt;/p&gt;
+&lt;p&gt;Finally, implement a technique for how to undo a release and revert back
+to the previous version. Similar to releasing new versions, undoing a release
+should be possible with a single button click or command-line instruction. Make sure to test your roll-back technique and to fully document the exact steps that should be done to perform a roll back.&lt;/p&gt;
+&lt;p&gt;For the purpose of this assignment, it is not necessary to roll out changes
+incrementally or build a canary test infrastructure. However, you may possibly
+need to slightly modify controller or houses to deal with short-term connection failures during updates.&lt;/p&gt;
+&lt;h4 id="ab-testing"&gt;AB testing&lt;/h4&gt;
+&lt;p&gt;In addition to automating deployment, you will extend the Tartan Smart Home
+system with a &lt;strong&gt;reporting feature&lt;/strong&gt; that sends customers weekly or monthly reports
+about how they use their system. You will then design an experimentation
+infrastructure in which you test different versions of the reporting "in
+production" to see whether customers change their behavior.&lt;/p&gt;
+&lt;p&gt;You have significant flexibility in the assignment in deciding what kind of
+reporting you add and what kind of experiments you want to run. For example,
+you may find inspiration from decades of
+&lt;a href="https://www.sciencedirect.com/science/article/pii/0378778894009124"&gt;studies&lt;/a&gt;
+that analyze what kind of information in electricity bills actually encourage
+customers to reduce their electricity consumption, but you can also report on
+other behavior of the smart home, such as temperature, door locking status,
+etc. Note that building the experiment infrastructure is more important than
+the actual experiments and certainly more important than whether your new
+reporting feature looks pretty.&lt;/p&gt;
+&lt;p&gt;In this assignment, you may want to change multiple parts of the system or may
+be able to work only with modular additions (e.g., adding a new microservice
+for reporting and another one for configuration and analysis). Given that you
+cannot actually test with a production system yet (the team developing the
+hardware for the houses is still not ready, *sigh*), you may want to change the
+simulation infrastructure to have more houses and houses with different
+behavior to test your infrastructure in simulation.&lt;/p&gt;
+&lt;p&gt;Specifically:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Build a reporting system that creates reports for each customer with a Tartan Smart Home installation, reporting an aspect of your choice.&lt;/li&gt;
+&lt;li&gt;Build an experimentation infrastructure that (a) allows you to send different
+  versions of the reports to different customers or at different times, (b) analyzes whether these changes have an effect on outcomes of how these customers use the system. You may need to modify how you track different customers and you may need to collect additional data about outcomes.&lt;/li&gt;
+&lt;li&gt;At the end of the experimentaiton period, generate some form of visualization (e.g., chart, graph, table whether as an html page or as a downloadable file) that shows which report variant was sent to which customer and how it affected them. For example, perhaps they now turned their lights off more often or decreased the average temperature of their home.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="acceptance-criteria"&gt;Acceptance Criteria&lt;/h4&gt;
+&lt;p&gt;The following criteria must be satisfied for the assignment to be accepted as
+complete.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left;"&gt;Criteria (Continuous Deployment)&lt;/th&gt;
+&lt;th style="text-align: left;"&gt;Grade&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;The system, including the simulation of houses and the new experimentation infrastructure is deployed with Docker containers&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;All changes that pass the automated test suites are &lt;em&gt;automatically built&lt;/em&gt; as deployable Docker containers&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;15&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;The &lt;em&gt;deployment&lt;/em&gt; of newly built versions of the docker containers on the virtual machine is either fully automated or can be done with a single command that is described in the repository's readme file or wiki.&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;20&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;Reverting the running system to the previous version can be be achieved with a single command that is described in the repository's readme file or wiki.&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;15&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left;"&gt;Criteria (AB Testing)&lt;/th&gt;
+&lt;th style="text-align: left;"&gt;Grade&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;A reporting system has been implemented that can periodically send reports to customers.&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;15&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;An experimentation infrastructure has been implemented that tracks which customers should see which variants of the software.&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;20&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;An analysis infrastructure has been implemented that can evaluate the outcome of experiments (given one metric, how did customer's behavior change)&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;15&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left;"&gt;An experiment has been conducted using the experimentation infrastructure, sending different variants of the report to different customers and observing different outcomes.&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;20&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id="deliverables"&gt;Deliverables&lt;/h3&gt;
+&lt;h4 id="code-and-scripts-and-documentation"&gt;Code and Scripts and Documentation&lt;/h4&gt;
+&lt;p&gt;Commit all infrastructure configuration and scripts to your git repository. Commit your code of your reporting feature and experiment
+infrastructure to your git repository. &lt;strong&gt;The final version of your code should be
+in the master branch of each repository, and it should be tagged as &lt;code&gt;G3-done&lt;/code&gt;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Include technical documentation of how to launch containers, update containers after a build, and revert containers as part of your repositories README.md file or GitHub wiki. If you choose to use the wiki, make sure that you state that in the README. &lt;/p&gt;
+&lt;h4 id="report"&gt;Report&lt;/h4&gt;
+&lt;p&gt;Create a report as a single PDF file that describes your design and experiments
+(figures, screenshots, etc do not count toward the page limit). Describe the
+following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Reporting feature&lt;/strong&gt; (&amp;lt;1 page text): Describe your reporting feature and the
+  goal for which you are optimizing (e.g., reducing energy consumption);
+  include an example of a report.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Experiment design&lt;/strong&gt; (&amp;lt; 1 page text): Describe your experiment(s): what are the
+  experimental conditions (independent variables) and measured outcomes
+  (dependent variables) and how you measure those.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Experimentation infrastructure&lt;/strong&gt; (&amp;lt; 1 page text): Describe how you assign
+  experimental conditions: how you implement experimental conditions (e.g.,
+  branches, feature flags); how you assign control and treatment groups; and a
+  short justification why you chose this implementation/design.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Analysis infrastructure&lt;/strong&gt; (&amp;lt;1 page text): Describe how you analyze the outcome of the experiment. We encourage you to include a screenshot showing
+  the outcome of your experiment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="grading-summary"&gt;Grading Summary&lt;/h3&gt;
+&lt;p&gt;This project is graded out of 155 points according to the following breakdown. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Continuous Deployment: 60&lt;/li&gt;
+&lt;li&gt;AB Testing: 70&lt;/li&gt;
+&lt;li&gt;Report: 10&lt;/li&gt;
+&lt;li&gt;ReadMe: 10&lt;/li&gt;
+&lt;li&gt;Peer assessment: 5 (assigned individually)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The report is graded based on its presentation, organization, and how clearly things are described. All the items described in the Report section above must appear in the report. The ReadMe is graded based on whether all instructions we need to run things are there or not (Be very explicit. Do not assume we know how to run things)&lt;/p&gt;
+&lt;p&gt;Each member must assess their team members' contributions on eClass. This is worth 5 points of the total assignment grade and is confidential (results go to the course staff). Note that if we find big discrepencies in contributions or if one team members is negatively rated by all other team members, then we will investigate and regrade team members as needed.&lt;/p&gt;
+&lt;p&gt;Copyright 2021, 2022 Dr. Sarah Nadi. Copyright 2023, 2024 Dr. Hazel Campbell. All rights reserved.&lt;/p&gt;</content><category term="group"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Group Assignment 4: Static Analysis</title><link href="https://cmput402.github.io/group/static-analysis.html" rel="alternate"></link><published>2024-01-30T00:00:00-07:00</published><updated>2024-01-30T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput402.github.io,2024-01-30:/group/static-analysis.html</id><summary type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#resources"&gt;Resources&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#spotbugs"&gt;SpotBugs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#pmd"&gt;PMD&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#errorprone"&gt;ErrorProne&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#task"&gt;Task&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#questions-you-should-be-able-to-answer-after-this-assignment"&gt;Questions you should be able to answer after this assignment&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="overview"&gt;Overview&lt;/h3&gt;
+&lt;p&gt;The learning goals of this project are: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gain experience using a static analysis tool.&lt;/li&gt;
+&lt;li&gt;Understand what types of defects can and cannot be found with static analysis.&lt;/li&gt;
+&lt;li&gt;Critically evaluate the results of static …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#resources"&gt;Resources&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#spotbugs"&gt;SpotBugs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#pmd"&gt;PMD&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#errorprone"&gt;ErrorProne&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#task"&gt;Task&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#questions-you-should-be-able-to-answer-after-this-assignment"&gt;Questions you should be able to answer after this assignment&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="overview"&gt;Overview&lt;/h3&gt;
+&lt;p&gt;The learning goals of this project are: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gain experience using a static analysis tool.&lt;/li&gt;
+&lt;li&gt;Understand what types of defects can and cannot be found with static analysis.&lt;/li&gt;
+&lt;li&gt;Critically evaluate the results of static analysis tools.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You will run a static analysis tool on the same Tartan project your group has been using. &lt;/p&gt;
+&lt;h3 id="resources"&gt;Resources&lt;/h3&gt;
+&lt;p&gt;You will use the following static analysis tools to analyze your Tartan codebase for potential problems:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SpotBugs&lt;/li&gt;
+&lt;li&gt;PMD&lt;/li&gt;
+&lt;li&gt;ErrorProne&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="spotbugs"&gt;SpotBugs&lt;/h4&gt;
+&lt;p&gt;There are a couple of ways to integrate &lt;a href="https://spotbugs.github.io/"&gt;SpotBugs&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Through &lt;a href="https://plugins.gradle.org/plugin/com.github.spotbugs"&gt;Gradle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Standalone by downloading the binary distribution and running it as a Java application. See &lt;a href="https://spotbugs.readthedocs.io/en/stable/installing.html"&gt;installing&lt;/a&gt; and &lt;a href="https://spotbugs.readthedocs.io/en/stable/running.html"&gt;running&lt;/a&gt;. &lt;/li&gt;
+&lt;li&gt;As a &lt;a href="https://spotbugs.readthedocs.io/en/stable/links.html#ide-integration"&gt;plugin for IntelliJ IDEA or Eclipse&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="pmd"&gt;PMD&lt;/h4&gt;
+&lt;p&gt;Follow &lt;a href="https://docs.gradle.org/current/userguide/pmd_plugin.html"&gt;the guide for PMD Gradle Plugin&lt;/a&gt; to integrate &lt;a href="https://pmd.github.io/"&gt;PMD&lt;/a&gt; to your build system. You can also use the &lt;a href="https://pmd.github.io/latest/pmd_userdocs_installation.html#running-pmd-via-command-line"&gt;CLI option&lt;/a&gt; which does not require you to make changes to your &lt;code&gt;build.gradle&lt;/code&gt; file.&lt;/p&gt;
+&lt;h4 id="errorprone"&gt;ErrorProne&lt;/h4&gt;
+&lt;p&gt;Use &lt;a href="https://github.com/tbroyer/gradle-errorprone-plugin"&gt;the guide for Gradle ErrorProne Plugin&lt;/a&gt; to integrate &lt;a href="https://errorprone.info/"&gt;ErrorProne&lt;/a&gt; to your build. Please pay extra attention to the &lt;a href="https://github.com/tbroyer/gradle-errorprone-plugin#jdk-8-support"&gt;Java 8 support&lt;/a&gt; section as ErrorProne requires at least JDK 9.&lt;/p&gt;
+&lt;h3 id="task"&gt;Task&lt;/h3&gt;
+&lt;p&gt;Run SpotBugs, PMD and ErrorProne on your Tartan system and analyze the results. Specifically:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;(5 marks) Report how many errors/warnings were reported by each tool and in which categories (note that the category names or how errors/warnings are categorized in each tool may be different for each tool).&lt;/li&gt;
+&lt;li&gt;(5 marks) Report the similarities and discrepencies between the tools. Are there errors/warnings that one tool reports but the other doesn't (give at least 3 examples, if available)? Are there error/warnings that all three tools report? (give at least 3 examples, if available)&lt;/li&gt;
+&lt;li&gt;(5 marks) Report which Java class(es) from Tartan seems most problematic. Explain your result.&lt;/li&gt;
+&lt;li&gt;(60 marks total) Select 10 reported problems, distributed across the three tools, to analyze in more detail. For each problem, report&lt;ul&gt;
+&lt;li&gt;(2 marks) The identifying information for the bug, including its category, priority, file name, and line number.&lt;/li&gt;
+&lt;li&gt;(1 mark) A one-sentence description of the problem&lt;/li&gt;
+&lt;li&gt;(2 marks) A characterization of the bug in terms of whether it is an actual problem, false positive, or irrelevant true positive. Explain your reasoning.&lt;/li&gt;
+&lt;li&gt;(1 mark) How you fixed the problem (if you decided it was actually a problem)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;(5 marks) Peer-rating of group members. This is assigned individually. Note that if we find big discrepencies in contributions or if one team members is negatively rated by all other team members, then we will investigate and regrade team members as needed.&lt;/p&gt;
+&lt;p&gt;Your submission will include a PDF report with the above information. The total points for this assignment is 80 marks.&lt;/p&gt;
+&lt;h3 id="questions-you-should-be-able-to-answer-after-this-assignment"&gt;Questions you should be able to answer after this assignment&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;What is a false positive?&lt;/li&gt;
+&lt;li&gt;What is a false negative?&lt;/li&gt;
+&lt;li&gt;Are there problems in the code that the tool did not catch?&lt;/li&gt;
+&lt;li&gt;Does running a static analysis tool replace the need for testing?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Copyright 2021, 2022 Dr. Sarah Nadi. Copyright 2023, 2024 Dr. Hazel Campbell. All rights reserved.&lt;/p&gt;</content><category term="group"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Group Assignment 5: Technical Debt</title><link href="https://cmput402.github.io/group/technical-debt.html" rel="alternate"></link><published>2024-01-30T00:00:00-07:00</published><updated>2024-01-30T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput402.github.io,2024-01-30:/group/technical-debt.html</id><summary type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#tools"&gt;Tools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#task"&gt;Task&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#deliverables"&gt;Deliverables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#grading-expectations"&gt;Grading &amp;amp; Expectations&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="overview"&gt;Overview&lt;/h3&gt;
+&lt;p&gt;To complete your evaluation of the Tartan Home Platform and your enhancements, you will assess its technical debt and existing issues using SonarQube with an emphasis on how difficult the software will be to maintain going forward. &lt;/p&gt;
+&lt;p&gt;Major development is over and the …&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#tools"&gt;Tools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#task"&gt;Task&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#deliverables"&gt;Deliverables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#grading-expectations"&gt;Grading &amp;amp; Expectations&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="overview"&gt;Overview&lt;/h3&gt;
+&lt;p&gt;To complete your evaluation of the Tartan Home Platform and your enhancements, you will assess its technical debt and existing issues using SonarQube with an emphasis on how difficult the software will be to maintain going forward. &lt;/p&gt;
+&lt;p&gt;Major development is over and the software is nearly ready to ship. As part of project wrap-up, management wants to assess the overall quality of the project based on SonarQube’s metrics and recommendations so they can correct lingering issues and reduce technical debt. &lt;/p&gt;
+&lt;p&gt;The goals of this project are: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gain experience with a quality management tool.&lt;/li&gt;
+&lt;li&gt;Use technical debt to assess the quality of a software system.&lt;/li&gt;
+&lt;li&gt;Reflect how design and development decisions made impact quality.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="tools"&gt;Tools&lt;/h3&gt;
+&lt;p&gt;You will use SonarQube (&lt;a href="http://www.sonarqube.org"&gt;http://www.sonarqube.org&lt;/a&gt;) to analyze your software for this project. &lt;/p&gt;
+&lt;h3 id="task"&gt;Task&lt;/h3&gt;
+&lt;p&gt;In this project, you will evaluate the technical debt in the Tartan Home Platform. Given sensitive customer data in the system, the sponsor is still concerned about the possibility that hackers might spy on, or meddle with a home. On the other hand, after extending the system over the past few months, and with more enhancements expected in the future, the team is more concerned about how difficult it will be to change the code.  &lt;/p&gt;
+&lt;p&gt;Your goal is to evaluate and describe the current technical debt to the project's stakeholders and argue whether paying back (part of) the debt now is essential or not. To do so, you will evaluate your project with SonarQube, but you may choose to perform additional assessments.&lt;/p&gt;
+&lt;p&gt;To load the Tartan Home Platform into SonarQube, do the following: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;There are a number of ways to import the Tartan Home Platform into Sonar. Examples include: &lt;ul&gt;
+&lt;li&gt;Use a Sonar Scanner: &lt;a href="https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner"&gt;https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;(Recommended) Use Sonar Scanner with gradle: &lt;a href="https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+Gradle"&gt;https://docs.sonarqube.org/display/SCAN/&lt;/a&gt;. You may want to show the results of SonarQube in your CI build, but this is not required for this project.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Once loaded, open the project in SonarQube or view the results of the scan in your CI build (If you installed SonarQube locally this will be through a web browser; default url: &lt;a href="http://localhost:9000"&gt;http://localhost:9000&lt;/a&gt;). &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="deliverables"&gt;Deliverables&lt;/h3&gt;
+&lt;p&gt;This is the final assignment that involves analysis and development of the Tartan Home Platform. The focus is on reflecting on the quality assurance strategies used throughout the semester and the use of tools like SonarQube to assess and operationalize technical debt.&lt;/p&gt;
+&lt;p&gt;Your team must submit a report on the technical debt in the project. You will also present your findings in class. Your report should report the following:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Evaluate the quality of your project. You must analyze and explain the technical debt that may exist in your project. Make sure to include the results/snapshots from SonarQube.&lt;/li&gt;
+&lt;li&gt;Evaluate the usefulness of SonarQube's reports. &lt;ul&gt;
+&lt;li&gt;Do the ratings (Maintainability, Reliability, and Security) provided by SonarQube correspond to your intuition/impression of working with Tartan? &lt;/li&gt;
+&lt;li&gt;Which other SonarQube metrics or graphs were useful for your analysis of technical debt? &lt;/li&gt;
+&lt;li&gt;Which parts of your the code base (i.e., classes, modules, packages etc) were ranked the best and worst?&lt;/li&gt;
+&lt;li&gt;How do the new features or changes you made compare to the existing code that you started with? Have you added more debt or have you paid back some debt? (you will need to compare technical debt of the original Tartan code to the current version after the changes)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Similarly, evaluate whether your current CI pipeline (without use of SonarQube) and its logs are useful for assessing technical debt.&lt;/li&gt;
+&lt;li&gt;Based on the current metrics, would you advise your team to pay back (part of) the technical debt right now before developing the new features in the pipeline? Why or why not? Make sure to elaborate your recommendation.&lt;/li&gt;
+&lt;li&gt;How would you adjust SonarQube or GitHub actions (or any equivalent CI pipeline) to assess technical debt in the future? Would you continue to use these tools? Would you introduce/eliminate rules or reports? Change quality profiles and quality gates? Why? &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The report should be no more than five pages in length.&lt;/p&gt;
+&lt;p&gt;You must also prepare an &lt;strong&gt;8 minute presentation&lt;/strong&gt; that summarizes the report, addressing your team’s evaluation of technical debt in your system and a reflection on the overall quality of the Tartan Home System. &lt;strong&gt;All group members are expected to be part of the presentation.&lt;/strong&gt; Note that your presentation will be in the lab before your report is due. Your presentation should cover the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Start with a &lt;strong&gt;quick&lt;/strong&gt; overview of your CI pipeline and all the quality tools/measures you incorporated in your Tartan system throughout the term. Some teams may have chosen to use additional tools beyond what was required in the project assignments. Please discuss this tools and the rationale for using them, as applicable.&lt;/li&gt;
+&lt;li&gt;Present the above 5 points from your report. You do not need to present them in the same order, but you do need to provide a good summary of the complete reflection process. Choose the most entertaining way to do this.&lt;/li&gt;
+&lt;li&gt;Please upload a pdf of your slides to eClass along with your report.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="grading-expectations"&gt;Grading &amp;amp; Expectations&lt;/h3&gt;
+&lt;p&gt;This assignment is worth 90 points, allocated as follows. &lt;/p&gt;
+&lt;p&gt;Note that we will use both the content of your report and presentation to grade the following components.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Quality evaluation using SonarQube (points 1 &amp;amp; 2 above): 30 points &lt;/li&gt;
+&lt;li&gt;Discussion on using your current CI pipeline for technical debt assessment: 10 points&lt;/li&gt;
+&lt;li&gt;Advice on paying back current debt: 15 points&lt;/li&gt;
+&lt;li&gt;Discussion of metrics and tool adjustments/customizations: 10 points&lt;/li&gt;
+&lt;li&gt;Peer-rating of group members: 5 points (assigned individually). Ratings are confidential (results go to the course staff). Note that if we find big discrepencies in contributions or if one team members is negatively rated by all other team members, then we will investigate and regrade team members as needed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There will be an additional 20 points allocated to the presentation quality, based on the following crtieria:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Slides are well-designed (readable fonts, not cluttered, not completely text based, meaningful titles, slide numbers etc)&lt;/li&gt;
+&lt;li&gt;All team members speak clearly and loudly in an engaging way&lt;/li&gt;
+&lt;li&gt;Presentation flows well and the audience undertsands what is presented at each point&lt;/li&gt;
+&lt;li&gt;Use of well-explained figures/charts etc to backup presented points&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Points will be deducted if your report is unstructured or not understandable.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Copyright 2021, 2022 Dr. Sarah Nadi. Copyright 2023, 2024 Dr. Hazel Campbell. All rights reserved.&lt;/p&gt;</content><category term="group"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Individual Assignment 1: Testing Theory</title><link href="https://cmput402.github.io/individual/testing-theory.html" rel="alternate"></link><published>2024-01-30T00:00:00-07:00</published><updated>2024-01-30T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput402.github.io,2024-01-30:/individual/testing-theory.html</id><summary type="html">&lt;p&gt;Individual Assignment 1: Testing Theory&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#submission"&gt;Submission&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
@@ -220,7 +974,8 @@ be a part of the control-flow graph.&lt;/em&gt;&lt;/p&gt;
     show your intermediate work and how you arrived to your answer.
     Final answers only will not get a grade.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Hint: for each branch in the program, break it down into its
-conditions, then create the MC/DC table for each branch predicate.&lt;/em&gt;&lt;/p&gt;</content><category term="individual"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Individual Assignment 2: Testing with Mocks</title><link href="https://cmput402.github.io/individual/testing-mocks.html" rel="alternate"></link><published>2024-01-30T00:00:00-07:00</published><updated>2024-01-30T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput402.github.io,2024-01-30:/individual/testing-mocks.html</id><summary type="html">&lt;p&gt;Individual Assignment 2: Testing with Mocks&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+conditions, then create the MC/DC table for each branch predicate.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Copyright 2021, 2022 Dr. Sarah Nadi. Copyright 2023, 2024 Dr. Hazel Campbell. All rights reserved.&lt;/p&gt;</content><category term="individual"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Individual Assignment 2: Testing with Mocks</title><link href="https://cmput402.github.io/individual/testing-mocks.html" rel="alternate"></link><published>2024-01-30T00:00:00-07:00</published><updated>2024-01-30T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput402.github.io,2024-01-30:/individual/testing-mocks.html</id><summary type="html">&lt;p&gt;Individual Assignment 2: Testing with Mocks&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#learning-goals"&gt;Learning Goals&lt;/a&gt;&lt;/li&gt;
@@ -310,7 +1065,8 @@ Your code should only communicate with the GitHub servers if Main is run normall
 &lt;p&gt;Mockito and github-api both use Java bytecode manipulation. Mockito does this to help inject dependencies. However, this can come into conflict with methods in the github-api that are decorated with &lt;code&gt;@WithBridgeMethods&lt;/code&gt;. One example is the &lt;code&gt;GHIssue.comment&lt;/code&gt; method. This can result in an error like &lt;code&gt;Date cannot be returned by getCreatedAt() getCreatedAt() should return String&lt;/code&gt;. This error message doesn't really make sense because the application bytecode was manipulated &lt;em&gt;after&lt;/em&gt; being compiled. In order to solve this, you will need to create a wrapper for &lt;code&gt;GHIssue&lt;/code&gt;, use the wrapper in the production code, and then mock the wrapper instead of the wrapper class from github-api in the test code. You will also need to do this for any other methods that are decorated with &lt;code&gt;@WithBridgeMethods&lt;/code&gt; in the &lt;a href="https://github.com/hub4j/github-api/tree/main/src/main/java/org/kohsuke/github"&gt;github-api code&lt;/a&gt;. So if you get a strange error with impossible types, check the code of github-api to see if it uses such a decorator, and add a wrapper class as needed. This is not the only way to solve this problem, but it's the easiest way we've found so far. &lt;em&gt;Wrapper classes shouldn't do anything but just call the class they are wrapping.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Usually you should avoid modifying the production code to add wrappers that are only necessary for the test code to work. However, in this case it is unavoidable becuase the methods mockito and the github-api code use are in conflict. Similar conflicts can also arise in other programming languages such as Python.&lt;/p&gt;
 &lt;p&gt;Keep in mind that there are many different ways to solve everything in this assignment. For example, mockito has &lt;code&gt;@&lt;/code&gt; decorators that can make your code a lot cleaner than the provided sample code.&lt;/p&gt;
-&lt;p&gt;You can use the &lt;code&gt;try (MockedConstrcution&lt;/code&gt; pattern to intercept any constructor. This is using a Java feature called &lt;a href="https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html"&gt;try-with-resources&lt;/a&gt;. But its not necessary to do unless the "new" you're trying to intercept is in the production code (or somewhere inside of github-api). For any constructors called in the testing code, you can just &lt;code&gt;mock(Whatever.class)&lt;/code&gt;.&lt;/p&gt;</content><category term="individual"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Course Outline Winter 2024</title><link href="https://cmput402.github.io/general/outline.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput402.github.io,2024-01-06:/general/outline.html</id><summary type="html">&lt;p&gt;University of Alberta &lt;br&gt; CMPUT 402/501 - Software Quality &lt;br&gt; LEC-B1 &lt;br&gt; Winter 2024&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;You can use the &lt;code&gt;try (MockedConstrcution&lt;/code&gt; pattern to intercept any constructor. This is using a Java feature called &lt;a href="https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html"&gt;try-with-resources&lt;/a&gt;. But its not necessary to do unless the "new" you're trying to intercept is in the production code (or somewhere inside of github-api). For any constructors called in the testing code, you can just &lt;code&gt;mock(Whatever.class)&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Copyright 2021, 2022 Dr. Sarah Nadi. Copyright 2023, 2024 Dr. Hazel Campbell. All rights reserved.&lt;/p&gt;</content><category term="individual"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Course Outline Winter 2024</title><link href="https://cmput402.github.io/general/outline.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput402.github.io,2024-01-06:/general/outline.html</id><summary type="html">&lt;p&gt;University of Alberta &lt;br&gt; CMPUT 402/501 - Software Quality &lt;br&gt; LEC-B1 &lt;br&gt; Winter 2024&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
 &lt;h2&gt;University of Alberta &lt;br&gt; CMPUT 402/501 - Software Quality &lt;br&gt; LEC-B1 &lt;br&gt; Winter 2024&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -1115,14 +1871,21 @@ Labs                   10%   70%&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;a href="https://cmput402.github.io/general/resources/KanerSoftwareMetrics.pdf"&gt;Software Engineering Metrics: What Do They Measure and How Do We Know?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://cmput402.github.io/general/resources/PaperList.pdf"&gt;List of Related Research Papers for those interested to learn about SW Quality Research&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="general"></category><category term="resources"></category><category term="reading"></category><category term="references"></category><category term="videos"></category></entry><entry><title>Project</title><link href="https://cmput402.github.io/general/project.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput402.github.io,2024-01-06:/general/project.html</id><summary type="html">&lt;p&gt;Tartan Smart Home System&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
-&lt;h3 id="tartan-smart-home-system"&gt;Tartan Smart Home System&lt;/h3&gt;
+&lt;/ul&gt;</content><category term="general"></category><category term="resources"></category><category term="reading"></category><category term="references"></category><category term="videos"></category></entry><entry><title>Project</title><link href="https://cmput402.github.io/general/project.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput402.github.io,2024-01-06:/general/project.html</id><summary type="html">&lt;p&gt;Tartan Smart Home System&lt;/p&gt;</summary><content type="html">&lt;h3 id="tartan-smart-home-system"&gt;Tartan Smart Home System&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://drive.google.com/file/d/1PbZUAZezH3af_Fu7KQ3N2T6JpkIX15Yq/view?usp=drive_link"&gt;System Description PDF&lt;/a&gt; on GDrive you must be logged into your UA account&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Warning&lt;/strong&gt; links are out of date!&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;a href="https://cmput402.github.io/tartan/build.html"&gt;Tartan Build Instructions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="group-assignments"&gt;Group Assignments&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://cmput402.github.io/group/basics.html"&gt;Group Assignment 1: Basics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cmput402.github.io/group/testing.html"&gt;Group Assignment 2: Testing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cmput402.github.io/group/testing-in-production.html"&gt;Group Assignment 3: Testing in Production&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cmput402.github.io/group/static-analysis.html"&gt;Group Assignment 4: Static Analysis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cmput402.github.io/group/technical-debt.html"&gt;Group Assignment 5: Technical Debt&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><category term="general"></category><category term="project"></category><category term="grading"></category></entry><entry><title>Project: Tartan Smart Home System</title><link href="https://cmput402.github.io/tartan/build.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput402.github.io,2024-01-06:/tartan/build.html</id><summary type="html">&lt;p&gt;Tartan System&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
 &lt;h3 id="platform-installation-and-configuration"&gt;Platform Installation and Configuration&lt;/h3&gt;
 &lt;p&gt;The initial configuration for the Tartan Smart Home System is done via a YAML

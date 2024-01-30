@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>CMPUT 402 - Group Assignment 5: Technical Debt</title>
+        <meta charset="utf-8" />
+        <meta name="generator" content="Pelican" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Software Quality" />
+        <link href="https://cmput402.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 402 Full Atom Feed" />
+        <link href="https://cmput402.github.io/feeds/group.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 402 Categories Atom Feed" />
+
+  <link rel="icon" href="https://cmput402.github.io/theme/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="https://cmput402.github.io/theme/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://cmput402.github.io/theme/402.css" />
+
+
+
+
+    <meta name="tags" content="labs" />
+    <meta name="tags" content="policy" />
+    <meta name="tags" content="grading" />
+
+</head>
+
+<body>
+        <header>
+              <hgroup><h1><a href="https://cmput402.github.io/">CMPUT 402</a></h1><p>Software Quality</p></hgroup>
+        <nav><ul>
+            <li><a href="/general/outline.html">Outline</a></li>
+            <li><a href="https://eclass.srv.ualberta.ca/course/view.php?id=95226">eClass</a></li>
+            <li><a href="/general/schedule.html">Schedule</a></li>
+            <li><a href="/general/labs.html">Labs</a></li>
+            <li><a href="/general/project.html">Project</a></li>
+            <li><a href="/general/resources.html">Resources</a></li>
+            <li><a href="/general/help.html">Help</a></li>
+        </ul></nav>
+        </header>
+        <main>
+<article>
+  <header>
+    <h2>
+      <a href="https://cmput402.github.io/group/technical-debt.html" rel="bookmark"
+         title="Permalink to Group Assignment 5: Technical Debt">Group Assignment 5: Technical Debt</a></h2>
+ 
+  </header>
+  <div class="toc">
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#tools">Tools</a></li>
+<li><a href="#task">Task</a></li>
+<li><a href="#deliverables">Deliverables</a></li>
+<li><a href="#grading-expectations">Grading &amp; Expectations</a></li>
+</ul>
+</div>
+<h3 id="overview">Overview</h3>
+<p>To complete your evaluation of the Tartan Home Platform and your enhancements, you will assess its technical debt and existing issues using SonarQube with an emphasis on how difficult the software will be to maintain going forward. </p>
+<p>Major development is over and the software is nearly ready to ship. As part of project wrap-up, management wants to assess the overall quality of the project based on SonarQube’s metrics and recommendations so they can correct lingering issues and reduce technical debt. </p>
+<p>The goals of this project are: </p>
+<ul>
+<li>Gain experience with a quality management tool.</li>
+<li>Use technical debt to assess the quality of a software system.</li>
+<li>Reflect how design and development decisions made impact quality.</li>
+</ul>
+<h3 id="tools">Tools</h3>
+<p>You will use SonarQube (<a href="http://www.sonarqube.org">http://www.sonarqube.org</a>) to analyze your software for this project. </p>
+<h3 id="task">Task</h3>
+<p>In this project, you will evaluate the technical debt in the Tartan Home Platform. Given sensitive customer data in the system, the sponsor is still concerned about the possibility that hackers might spy on, or meddle with a home. On the other hand, after extending the system over the past few months, and with more enhancements expected in the future, the team is more concerned about how difficult it will be to change the code.  </p>
+<p>Your goal is to evaluate and describe the current technical debt to the project's stakeholders and argue whether paying back (part of) the debt now is essential or not. To do so, you will evaluate your project with SonarQube, but you may choose to perform additional assessments.</p>
+<p>To load the Tartan Home Platform into SonarQube, do the following: </p>
+<ul>
+<li>There are a number of ways to import the Tartan Home Platform into Sonar. Examples include: <ul>
+<li>Use a Sonar Scanner: <a href="https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner">https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner</a></li>
+<li>(Recommended) Use Sonar Scanner with gradle: <a href="https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+Gradle">https://docs.sonarqube.org/display/SCAN/</a>. You may want to show the results of SonarQube in your CI build, but this is not required for this project.</li>
+</ul>
+</li>
+<li>Once loaded, open the project in SonarQube or view the results of the scan in your CI build (If you installed SonarQube locally this will be through a web browser; default url: <a href="http://localhost:9000">http://localhost:9000</a>). </li>
+</ul>
+<h3 id="deliverables">Deliverables</h3>
+<p>This is the final assignment that involves analysis and development of the Tartan Home Platform. The focus is on reflecting on the quality assurance strategies used throughout the semester and the use of tools like SonarQube to assess and operationalize technical debt.</p>
+<p>Your team must submit a report on the technical debt in the project. You will also present your findings in class. Your report should report the following:</p>
+<ol>
+<li>Evaluate the quality of your project. You must analyze and explain the technical debt that may exist in your project. Make sure to include the results/snapshots from SonarQube.</li>
+<li>Evaluate the usefulness of SonarQube's reports. <ul>
+<li>Do the ratings (Maintainability, Reliability, and Security) provided by SonarQube correspond to your intuition/impression of working with Tartan? </li>
+<li>Which other SonarQube metrics or graphs were useful for your analysis of technical debt? </li>
+<li>Which parts of your the code base (i.e., classes, modules, packages etc) were ranked the best and worst?</li>
+<li>How do the new features or changes you made compare to the existing code that you started with? Have you added more debt or have you paid back some debt? (you will need to compare technical debt of the original Tartan code to the current version after the changes)</li>
+</ul>
+</li>
+<li>Similarly, evaluate whether your current CI pipeline (without use of SonarQube) and its logs are useful for assessing technical debt.</li>
+<li>Based on the current metrics, would you advise your team to pay back (part of) the technical debt right now before developing the new features in the pipeline? Why or why not? Make sure to elaborate your recommendation.</li>
+<li>How would you adjust SonarQube or GitHub actions (or any equivalent CI pipeline) to assess technical debt in the future? Would you continue to use these tools? Would you introduce/eliminate rules or reports? Change quality profiles and quality gates? Why? </li>
+</ol>
+<p>The report should be no more than five pages in length.</p>
+<p>You must also prepare an <strong>8 minute presentation</strong> that summarizes the report, addressing your team’s evaluation of technical debt in your system and a reflection on the overall quality of the Tartan Home System. <strong>All group members are expected to be part of the presentation.</strong> Note that your presentation will be in the lab before your report is due. Your presentation should cover the following:</p>
+<ul>
+<li>Start with a <strong>quick</strong> overview of your CI pipeline and all the quality tools/measures you incorporated in your Tartan system throughout the term. Some teams may have chosen to use additional tools beyond what was required in the project assignments. Please discuss this tools and the rationale for using them, as applicable.</li>
+<li>Present the above 5 points from your report. You do not need to present them in the same order, but you do need to provide a good summary of the complete reflection process. Choose the most entertaining way to do this.</li>
+<li>Please upload a pdf of your slides to eClass along with your report.</li>
+</ul>
+<h3 id="grading-expectations">Grading &amp; Expectations</h3>
+<p>This assignment is worth 90 points, allocated as follows. </p>
+<p>Note that we will use both the content of your report and presentation to grade the following components.</p>
+<ul>
+<li>Quality evaluation using SonarQube (points 1 &amp; 2 above): 30 points </li>
+<li>Discussion on using your current CI pipeline for technical debt assessment: 10 points</li>
+<li>Advice on paying back current debt: 15 points</li>
+<li>Discussion of metrics and tool adjustments/customizations: 10 points</li>
+<li>Peer-rating of group members: 5 points (assigned individually). Ratings are confidential (results go to the course staff). Note that if we find big discrepencies in contributions or if one team members is negatively rated by all other team members, then we will investigate and regrade team members as needed.</li>
+</ul>
+<p>There will be an additional 20 points allocated to the presentation quality, based on the following crtieria:</p>
+<ul>
+<li>Slides are well-designed (readable fonts, not cluttered, not completely text based, meaningful titles, slide numbers etc)</li>
+<li>All team members speak clearly and loudly in an engaging way</li>
+<li>Presentation flows well and the audience undertsands what is presented at each point</li>
+<li>Use of well-explained figures/charts etc to backup presented points</li>
+</ul>
+<p><strong>Points will be deducted if your report is unstructured or not understandable.</strong></p>
+<p>Copyright 2021, 2022 Dr. Sarah Nadi. Copyright 2023, 2024 Dr. Hazel Campbell. All rights reserved.</p>
+  <footer>
+    <p>Published: <time datetime="2024-01-30T00:00:00-07:00">
+      Tue, 30 Jan 2024 at 00:00 MST
+    </time></p>
+    <address>
+      By           <a href="https://cmput402.github.io/author/hazel-victoria-campbell.html">Hazel Victoria Campbell</a>
+          <a href="https://cmput402.github.io/author/sarah-nadi.html">Sarah Nadi</a>
+    </address>
+    <p>
+        Category: <a href="https://cmput402.github.io/category/group.html">group</a>
+    </p>
+    <p>
+        Tags:
+            <a href="https://cmput402.github.io/tag/labs.html">labs</a>
+            <a href="https://cmput402.github.io/tag/policy.html">policy</a>
+            <a href="https://cmput402.github.io/tag/grading.html">grading</a>
+    </p>
+  </footer>
+  </article>
+        </main>
+        <footer>
+                <address>
+                Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>,
+                which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
+                </address>
+        </footer>
+</body>
+</html>

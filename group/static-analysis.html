@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>CMPUT 402 - Group Assignment 4: Static Analysis</title>
+        <meta charset="utf-8" />
+        <meta name="generator" content="Pelican" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Software Quality" />
+        <link href="https://cmput402.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 402 Full Atom Feed" />
+        <link href="https://cmput402.github.io/feeds/group.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 402 Categories Atom Feed" />
+
+  <link rel="icon" href="https://cmput402.github.io/theme/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="https://cmput402.github.io/theme/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://cmput402.github.io/theme/402.css" />
+
+
+
+
+    <meta name="tags" content="labs" />
+    <meta name="tags" content="policy" />
+    <meta name="tags" content="grading" />
+
+</head>
+
+<body>
+        <header>
+              <hgroup><h1><a href="https://cmput402.github.io/">CMPUT 402</a></h1><p>Software Quality</p></hgroup>
+        <nav><ul>
+            <li><a href="/general/outline.html">Outline</a></li>
+            <li><a href="https://eclass.srv.ualberta.ca/course/view.php?id=95226">eClass</a></li>
+            <li><a href="/general/schedule.html">Schedule</a></li>
+            <li><a href="/general/labs.html">Labs</a></li>
+            <li><a href="/general/project.html">Project</a></li>
+            <li><a href="/general/resources.html">Resources</a></li>
+            <li><a href="/general/help.html">Help</a></li>
+        </ul></nav>
+        </header>
+        <main>
+<article>
+  <header>
+    <h2>
+      <a href="https://cmput402.github.io/group/static-analysis.html" rel="bookmark"
+         title="Permalink to Group Assignment 4: Static Analysis">Group Assignment 4: Static Analysis</a></h2>
+ 
+  </header>
+  <div class="toc">
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#resources">Resources</a><ul>
+<li><a href="#spotbugs">SpotBugs</a></li>
+<li><a href="#pmd">PMD</a></li>
+<li><a href="#errorprone">ErrorProne</a></li>
+</ul>
+</li>
+<li><a href="#task">Task</a></li>
+<li><a href="#questions-you-should-be-able-to-answer-after-this-assignment">Questions you should be able to answer after this assignment</a></li>
+</ul>
+</div>
+<h3 id="overview">Overview</h3>
+<p>The learning goals of this project are: </p>
+<ul>
+<li>Gain experience using a static analysis tool.</li>
+<li>Understand what types of defects can and cannot be found with static analysis.</li>
+<li>Critically evaluate the results of static analysis tools.</li>
+</ul>
+<p>You will run a static analysis tool on the same Tartan project your group has been using. </p>
+<h3 id="resources">Resources</h3>
+<p>You will use the following static analysis tools to analyze your Tartan codebase for potential problems:</p>
+<ul>
+<li>SpotBugs</li>
+<li>PMD</li>
+<li>ErrorProne</li>
+</ul>
+<h4 id="spotbugs">SpotBugs</h4>
+<p>There are a couple of ways to integrate <a href="https://spotbugs.github.io/">SpotBugs</a></p>
+<ul>
+<li>Through <a href="https://plugins.gradle.org/plugin/com.github.spotbugs">Gradle</a></li>
+<li>Standalone by downloading the binary distribution and running it as a Java application. See <a href="https://spotbugs.readthedocs.io/en/stable/installing.html">installing</a> and <a href="https://spotbugs.readthedocs.io/en/stable/running.html">running</a>. </li>
+<li>As a <a href="https://spotbugs.readthedocs.io/en/stable/links.html#ide-integration">plugin for IntelliJ IDEA or Eclipse</a></li>
+</ul>
+<h4 id="pmd">PMD</h4>
+<p>Follow <a href="https://docs.gradle.org/current/userguide/pmd_plugin.html">the guide for PMD Gradle Plugin</a> to integrate <a href="https://pmd.github.io/">PMD</a> to your build system. You can also use the <a href="https://pmd.github.io/latest/pmd_userdocs_installation.html#running-pmd-via-command-line">CLI option</a> which does not require you to make changes to your <code>build.gradle</code> file.</p>
+<h4 id="errorprone">ErrorProne</h4>
+<p>Use <a href="https://github.com/tbroyer/gradle-errorprone-plugin">the guide for Gradle ErrorProne Plugin</a> to integrate <a href="https://errorprone.info/">ErrorProne</a> to your build. Please pay extra attention to the <a href="https://github.com/tbroyer/gradle-errorprone-plugin#jdk-8-support">Java 8 support</a> section as ErrorProne requires at least JDK 9.</p>
+<h3 id="task">Task</h3>
+<p>Run SpotBugs, PMD and ErrorProne on your Tartan system and analyze the results. Specifically:</p>
+<ol>
+<li>(5 marks) Report how many errors/warnings were reported by each tool and in which categories (note that the category names or how errors/warnings are categorized in each tool may be different for each tool).</li>
+<li>(5 marks) Report the similarities and discrepencies between the tools. Are there errors/warnings that one tool reports but the other doesn't (give at least 3 examples, if available)? Are there error/warnings that all three tools report? (give at least 3 examples, if available)</li>
+<li>(5 marks) Report which Java class(es) from Tartan seems most problematic. Explain your result.</li>
+<li>(60 marks total) Select 10 reported problems, distributed across the three tools, to analyze in more detail. For each problem, report<ul>
+<li>(2 marks) The identifying information for the bug, including its category, priority, file name, and line number.</li>
+<li>(1 mark) A one-sentence description of the problem</li>
+<li>(2 marks) A characterization of the bug in terms of whether it is an actual problem, false positive, or irrelevant true positive. Explain your reasoning.</li>
+<li>(1 mark) How you fixed the problem (if you decided it was actually a problem)</li>
+</ul>
+</li>
+</ol>
+<p>(5 marks) Peer-rating of group members. This is assigned individually. Note that if we find big discrepencies in contributions or if one team members is negatively rated by all other team members, then we will investigate and regrade team members as needed.</p>
+<p>Your submission will include a PDF report with the above information. The total points for this assignment is 80 marks.</p>
+<h3 id="questions-you-should-be-able-to-answer-after-this-assignment">Questions you should be able to answer after this assignment</h3>
+<ul>
+<li>What is a false positive?</li>
+<li>What is a false negative?</li>
+<li>Are there problems in the code that the tool did not catch?</li>
+<li>Does running a static analysis tool replace the need for testing?</li>
+</ul>
+<p>Copyright 2021, 2022 Dr. Sarah Nadi. Copyright 2023, 2024 Dr. Hazel Campbell. All rights reserved.</p>
+  <footer>
+    <p>Published: <time datetime="2024-01-30T00:00:00-07:00">
+      Tue, 30 Jan 2024 at 00:00 MST
+    </time></p>
+    <address>
+      By           <a href="https://cmput402.github.io/author/hazel-victoria-campbell.html">Hazel Victoria Campbell</a>
+          <a href="https://cmput402.github.io/author/sarah-nadi.html">Sarah Nadi</a>
+    </address>
+    <p>
+        Category: <a href="https://cmput402.github.io/category/group.html">group</a>
+    </p>
+    <p>
+        Tags:
+            <a href="https://cmput402.github.io/tag/labs.html">labs</a>
+            <a href="https://cmput402.github.io/tag/policy.html">policy</a>
+            <a href="https://cmput402.github.io/tag/grading.html">grading</a>
+    </p>
+  </footer>
+  </article>
+        </main>
+        <footer>
+                <address>
+                Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>,
+                which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
+                </address>
+        </footer>
+</body>
+</html>
