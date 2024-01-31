@@ -1,7 +1,7 @@
 Title: Individual Assignment 1: Testing Theory
 date: 2024-01-30
 tags: labs, policy, grading
-authors: Hazel Victoria Campbell
+authors: Hazel Victoria Campbell, Sarah Nadi
 status: published
 summary: Individual Assignment 1: Testing Theory
 ----
@@ -240,3 +240,5 @@ be a part of the control-flow graph.*
 
 *Hint: for each branch in the program, break it down into its
 conditions, then create the MC/DC table for each branch predicate.*
+
+Copyright 2021, 2022 Dr. Sarah Nadi. Copyright 2023, 2024 Dr. Hazel Campbell. All rights reserved.

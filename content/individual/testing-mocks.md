@@ -1,7 +1,7 @@
 Title: Individual Assignment 2: Testing with Mocks
 date: 2024-01-30
 tags: labs, policy, grading
-authors: Hazel Victoria Campbell
+authors: Hazel Victoria Campbell, Sarah Nadi
 status: published
 summary: Individual Assignment 2: Testing with Mocks
 ----
@@ -98,4 +98,4 @@ Keep in mind that there are many different ways to solve everything in this assi
 
 You can use the `try (MockedConstrcution` pattern to intercept any constructor. This is using a Java feature called [try-with-resources](https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html). But its not necessary to do unless the "new" you're trying to intercept is in the production code (or somewhere inside of github-api). For any constructors called in the testing code, you can just `mock(Whatever.class)`.
 
-
+Copyright 2021, 2022 Dr. Sarah Nadi. Copyright 2023, 2024 Dr. Hazel Campbell. All rights reserved.
