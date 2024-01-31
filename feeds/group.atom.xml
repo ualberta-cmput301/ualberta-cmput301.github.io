@@ -70,6 +70,8 @@ Please identify and describe these tools in your report.&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;R12:&lt;/strong&gt; The heater and the dehumidifier cannot be run simultaneously.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;At this point, you need to only implement one unit test for each selected rule. In G2, you will be asked to implement additional tests as needed. For the purpose of G1, you can assume independence between the rules (i.e., you do not need to think about situations that combine multiple rules). You will think about that for G2. &lt;/p&gt;
+&lt;p&gt;For G1, in most cases you probably won't have to check the opposite scenario for the test cases. For example: for the test case "If the house is vacant, then the light cannot be turned on.", you can not assert the opposite scenario here that "if the house has occupants, turn off the lights". This does not work because an occupant of the house can turn off the lights while sleeping or keep them on while working. Make sure that you are keeping these things in mind while implementing the test cases.&lt;/p&gt;
+&lt;p&gt;Generally, you only have to implement whatever is required for the test cases and use your best judgement as to how to make the test cases work. But for some test cases, for example: R12, you will have to check both scenarios, like what happens if one is on and one is off and vice versa.&lt;/p&gt;
 &lt;p&gt;If you find that any of the functionality are not correctly implemented, you must indicate the problem you found in your report and how you fixed it.&lt;/p&gt;
 &lt;h3 id="part-2-test-automation-infrastructure"&gt;Part 2: Test Automation Infrastructure&lt;/h3&gt;
 &lt;p&gt;Now that you have written your initial tests and understand how to build and run Tartan, you will set up the infrastructure necessary to automate building and testing. You will set up and configure
@@ -202,7 +204,7 @@ Please identify and describe these tools in your report.&lt;/p&gt;
 &lt;p&gt;In G1, you were still starting out with Tartan and did not know of all the techniques that can help you choose meaningful test cases and also assess the quality of your tests. Additionally, you only implemented one test per feature. &lt;/p&gt;
 &lt;p&gt;In the first part of this assignment, your task is to improve the quality of your test suite for the four rules you chose in G1 as follows:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Use blackbox testing techniques to create better test cases and corresponding oracles (i.e., the concrete input values and expected output in your tests). You are advised to carefully read Tartan's specification and decide on whether there are additional scenarios you need to test for (e.g., now is time to think about whether the rules interact and if there are edge cases you need to think of). When selecting concrete oracles, some of your options include boundary value testing, random testing, or strong/weak equivalence class testing. You may think of other strategies too. &lt;/li&gt;
+&lt;li&gt;Use blackbox testing techniques to create better test cases and corresponding oracles (i.e., the concrete input values and expected output in your tests). You are advised to carefully read Tartan's specification and decide on whether there are additional scenarios you need to test for (e.g., now is time to think about whether the rules interact and if there are edge cases you need to think of). When selecting concrete oracles, some of your options include boundary value testing, random testing, or strong/weak equivalence class testing. You may think of other strategies too. Although you will work on your selected four rules for the blackbox testing, you need to think about all variables (old and new) of the evaluateState() function and how changing one particular state might affect your selected rules.&lt;/li&gt;
 &lt;li&gt;Use whitebox testing techniques to evaluate and improve the adequacy of your test suite. In this case, you are asked to write more tests that improve the coverage of your test suite to 80%.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;It does not need to be 80% of the entire system: you only need 80% coverage of the methods that implement your four rules. &lt;/p&gt;
@@ -258,6 +260,7 @@ can enable or disable:&lt;/p&gt;
   night, automatically lock the door and always relock it if it becomes
   unlocked at any point during the night.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;Please note that, the access panel is a physical object, you'll have to write necessary code for this to make it work. It is not the log that you have been using in G1.&lt;/p&gt;
 &lt;p&gt;Note that the above feature requirements may be ambiguous. In addition, features
 may interact and the door lock should behave in a reasonable way, which can be
 resolved with timers, priorities, or other mechanisms. For example, what
