@@ -47,7 +47,7 @@ In G1, you were still starting out with Tartan and did not know of all the techn
 
 In the first part of this assignment, your task is to improve the quality of your test suite for the four rules you chose in G1 as follows:
 
-1. Use blackbox testing techniques to create better test cases and corresponding oracles (i.e., the concrete input values and expected output in your tests). You are advised to carefully read Tartan's specification and decide on whether there are additional scenarios you need to test for (e.g., now is time to think about whether the rules interact and if there are edge cases you need to think of). When selecting concrete oracles, some of your options include boundary value testing, random testing, or strong/weak equivalence class testing. You may think of other strategies too. 
+1. Use blackbox testing techniques to create better test cases and corresponding oracles (i.e., the concrete input values and expected output in your tests). You are advised to carefully read Tartan's specification and decide on whether there are additional scenarios you need to test for (e.g., now is time to think about whether the rules interact and if there are edge cases you need to think of). When selecting concrete oracles, some of your options include boundary value testing, random testing, or strong/weak equivalence class testing. You may think of other strategies too. Although you will work on your selected four rules for the blackbox testing, you need to think about all variables (old and new) of the evaluateState() function and how changing one particular state might affect your selected rules.
 2. Use whitebox testing techniques to evaluate and improve the adequacy of your test suite. In this case, you are asked to write more tests that improve the coverage of your test suite to 80%.
 
 It does not need to be 80% of the entire system: you only need 80% coverage of the methods that implement your four rules. 
@@ -89,6 +89,8 @@ can enable or disable:
 - *Night Lock:* Residents configure the time when night begins and ends. At
   night, automatically lock the door and always relock it if it becomes
   unlocked at any point during the night.
+
+Please note that, for Tartan, access panel is the frontend of the application. By sending messages to the access panel, you are basically making sure that your messages are shown on the frontend log of the application. You can append the access panel messages to your log in your code and make sure it's showing up on the frontend.
 
 Note that the above feature requirements may be ambiguous. In addition, features
 may interact and the door lock should behave in a reasonable way, which can be
