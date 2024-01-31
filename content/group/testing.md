@@ -90,7 +90,7 @@ can enable or disable:
   night, automatically lock the door and always relock it if it becomes
   unlocked at any point during the night.
 
-Please note that, the access panel is a physical object, you'll have to write necessary code for this to make it work. It is not the log that you have been using in G1.
+Please note that, for Tartan, access panel is the frontend of the application. By sending messages to the access panel, you are basically making sure that your messages are shown on the frontend log of the application. You can append the access panel messages to your log in your code and make sure it's showing up on the frontend.
 
 Note that the above feature requirements may be ambiguous. In addition, features
 may interact and the door lock should behave in a reasonable way, which can be
