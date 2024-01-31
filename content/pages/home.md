@@ -16,6 +16,7 @@ save_as: index.html
 # Assignments
 
 * [Individual Assignment 1: Testing Theory]({filename}/individual/testing-theory.md)
+* [Individual Assignment 2: Testing with Mocks]({filename}/individual/testing-mocks.md)
 
 # Lecture Material
 
