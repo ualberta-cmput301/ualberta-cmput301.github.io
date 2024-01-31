@@ -53,6 +53,10 @@ The following describe Tartan's rule for making decisions about the house state.
 
 At this point, you need to only implement one unit test for each selected rule. In G2, you will be asked to implement additional tests as needed. For the purpose of G1, you can assume independence between the rules (i.e., you do not need to think about situations that combine multiple rules). You will think about that for G2. 
 
+For G1, in most cases you probably won't have to check the opposite scenario for the test cases. For example: for the test case "If the house is vacant, then the light cannot be turned on.", you can not assert the opposite scenario here that "if the house has occupants, turn off the lights". This does not work because an occupant of the house can turn off the lights while sleeping or keep them on while working. Make sure that you are keeping these things in mind while implementing the test cases.
+
+Generally, you only have to implement whatever is required for the test cases and use your best judgement as to how to make the test cases work. But for some test cases, for example: R12, you will have to check both scenarios, like what happens if one is on and one is off and vice versa.
+
 If you find that any of the functionality are not correctly implemented, you must indicate the problem you found in your report and how you fixed it.
 
 # Part 2: Test Automation Infrastructure
