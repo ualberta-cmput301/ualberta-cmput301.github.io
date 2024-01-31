@@ -91,7 +91,8 @@ can enable or disable:
   unlocked at any point during the night.
 
 An access panel is one of these: <br>
-<img id="access-panel" alt="access panel" src="{attach}adt-access-panel.jpg" style="width: 50%;">
+<img id="access-panel" alt="access panel" src="{attach}adt-access-panel.jpg" style="width: 50%;"><br>
+(Picture by Marco Albertini, https://securitycamcenter.com/how-to-reset-adt-alarm-system/).
 For the access panel you can add the functionality to the frontend, since we don't have any physical access panels.
 Make sure that your messages are shown on the frontend log of the application.
 You can append the access panel messages to your log in your code and make sure it's showing up on the frontend.
