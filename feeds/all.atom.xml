@@ -831,6 +831,7 @@ cases for them (remember that test cases include input and output), (5)
 Briefly (3-5 sentences), reflect on your experience in this process. Is
 this something you would use again? Did it help you think about the
 domain?&lt;/p&gt;
+&lt;p&gt;(For concrete test cases, psuedocode is okay.)&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Hint: Note that this question does not have a single correct answer.
 The goal is for you to think about criteria that make sense to partition
 your domain into equivalence classes and what these equivalence classes
