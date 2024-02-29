@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>CMPUT 402</title><link href="https://cmput402.github.io/" rel="alternate"></link><link href="https://cmput402.github.io/feeds/all.atom.xml" rel="self"></link><id>https://cmput402.github.io/</id><updated>2024-02-29T00:00:00-07:00</updated><subtitle>Software Quality</subtitle><entry><title>Individual Assignment 3: Performance Assessment</title><link href="https://cmput402.github.io/individual/research-presentation.html" rel="alternate"></link><published>2024-02-29T00:00:00-07:00</published><updated>2024-02-29T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput402.github.io,2024-02-29:/individual/research-presentation.html</id><summary type="html">&lt;p&gt;Individual Assignment 3: Performance Assessment&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CMPUT 402</title><link href="https://cmput402.github.io/" rel="alternate"></link><link href="https://cmput402.github.io/feeds/all.atom.xml" rel="self"></link><id>https://cmput402.github.io/</id><updated>2024-02-29T00:00:00-07:00</updated><subtitle>Software Quality</subtitle><entry><title>Graduate Assignment: Research Presentation</title><link href="https://cmput402.github.io/individual/research-presentation.html" rel="alternate"></link><published>2024-02-29T00:00:00-07:00</published><updated>2024-02-29T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput402.github.io,2024-02-29:/individual/research-presentation.html</id><summary type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#requirements"&gt;Requirements&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#marking"&gt;Marking&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="overview"&gt;Overview&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;This assignment is for graduate students (CMPUT 501) only. CMPUT 402 students do not complete this assignment.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The goal of this assignment is to read, understand, and present recent research related to the QA topics we've covered in class.&lt;/p&gt;
+&lt;h3 id="requirements"&gt;Requirements&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Choose a recent full length conference …&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#requirements"&gt;Requirements&lt;/a&gt;&lt;/li&gt;
@@ -207,215 +219,7 @@ description.&lt;/p&gt;
 &lt;li&gt;&lt;a href="https://www.guru99.com/jmeter-performance-testing.html"&gt;How to Use JMeter for Performance and Load Testing&lt;/a&gt;,&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.blazemeter.com/blog/how-perform-stress-test-jmeter"&gt;How to Run a Stress Test in Jmeter&lt;/a&gt;,&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.soapui.org/learn/load-testing/"&gt;API Load Testing Best Practices&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="individual"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Individual Assignment 3: Performance Assessment</title><link href="https://cmput402.github.io/individual/performance-assement.html" rel="alternate"></link><published>2024-02-29T00:00:00-07:00</published><updated>2024-02-29T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput402.github.io,2024-02-29:/individual/performance-assement.html</id><summary type="html">&lt;p&gt;Individual Assignment 3: Performance Assessment&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#performance-analysis-of-book-website"&gt;Performance analysis of book website&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="#notes"&gt;Notes&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="#acceptance-criteria-for-i3"&gt;Acceptance criteria for I3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#useful-resources"&gt;Useful resources&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;h3 id="overview"&gt;Overview&lt;/h3&gt;
-&lt;p&gt;In this assignment, you will assess the performance of a given system and
-reflect on how such assessment can be done effectively.&lt;/p&gt;
-&lt;p&gt;The learning goals of I3 are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Deciding which performance concerns are important for a system    &lt;/li&gt;
-&lt;li&gt;Deciding between different approaches to performance assessment and understanding their limitations&lt;/li&gt;
-&lt;li&gt;Learn how to use JMeter for load testing and performance assessment&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="performance-analysis-of-book-website"&gt;Performance analysis of book website&lt;/h3&gt;
-&lt;p&gt;In this assignment, you are being asked to assess the performance of a web site
-that can list and search book covers (with title, author, categories,
-publication date, cover image, etc.), for which we provide a runnable (through
-Docker Compose) setup in a &lt;a href="https://github.com/cmput402-w23/bookstore"&gt;GitHub repository&lt;/a&gt;
-with about 800 book covers. This assignment intentionally gives you a lot of
-flexibility in deciding what performance characteristics (e.g., throughput,
-latency) are important and how they should be assessed. Make sure to assess
-performance of all &lt;a href="https://github.com/cmput402-w23/bookstore#endpoints"&gt;endpoints&lt;/a&gt;.
-Justify your decisions, conduct a reasonable performance assessment with
-limited time, and discuss what additional steps you would take with more time.&lt;/p&gt;
-&lt;p&gt;The main deliverable is a report (4 pages, max) which should cover the
-following questions:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Performance concerns:&lt;/strong&gt; What are (likely) important performance concerns or
-  requirements for the system? Justify your answer.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Measures:&lt;/strong&gt; How can those performance concerns be assessed? (define the
-  measure, be clear about units, characterize how you would distinguish good
-  from bad performance with this measure).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Measurement process:&lt;/strong&gt; What measurements did you conduct to collect the
-  measures in the previous point and how? Justify your design (e.g., overall
-  setup, workload selection) and describe your process briefly but with
-  sufficient detail to reproduce it. You can attach screenshots of your JMeter
-  test plan, if that helps.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Measurement results:&lt;/strong&gt; What were the results from your performance
-  assessment? Discuss how well the system achieves the performance qualities.
-  Include plots (charts, graphs, etc.) if they help your discussion of results.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Next steps:&lt;/strong&gt; If you had more time, what additional steps would you take
-  for performance assessment of this system? Would you automate tasks or
-  integrate them in the development process? Why/why not?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id="notes"&gt;Notes&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;Resource limits.&lt;/strong&gt; You might see resource limits set up in
-&lt;code&gt;docker-compose.yml&lt;/code&gt; file. That is done on purpose. Do not modify the file,
-otherwise the results might not be what we expect. You should only work with
-JMeter and not change anything in the code. However, you are welcome to explore
-the source code, as well as the data set, if you want to.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Fatal errors&lt;/strong&gt;. It is possible that the application will crash due to too
-heavy load.  That's an example of stress testing where your goal is to estimate
-what is the maximum load that the system can handle before crashing. If you
-experience this issue, try to determine what is the maximum load it can handle
-before failing (e.g., number of requests) and mention that in the report. You
-do not need to find the exact number (e.g., "1227 requests"), but try to be as
-precise as possible (e.g., "about 1200 requests").&lt;/p&gt;
-&lt;h3 id="acceptance-criteria-for-i3"&gt;Acceptance criteria for I3&lt;/h3&gt;
-&lt;p&gt;Submit the report as a &lt;strong&gt;PDF&lt;/strong&gt; (max 4 pages including any screenshots, plots,
-etc.) with clear subsections to eClass. Keep all sections under half a page if
-possible, except for the process description, which might be longer and might
-include additionally screenshots or scripts if that simplifies your
-description.&lt;/p&gt;
-&lt;p&gt;The following criteria must be satisfied for I3 to be accepted as complete.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style="text-align: left;"&gt;Criteria&lt;/th&gt;
-&lt;th style="text-align: left;"&gt;Grade&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left;"&gt;Reasonable, comprehensive, and clearly justified performance goals.&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;5&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left;"&gt;Well defined performance measures.&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;5&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left;"&gt;Well described and reproducible measurement process.&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;10&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left;"&gt;Clearly described measurement results (in a form understandable by the target audience of your performance goals).&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;10&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left;"&gt;A plausible discussion of next steps.&lt;/td&gt;
-&lt;td style="text-align: left;"&gt;5&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id="useful-resources"&gt;Useful resources&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.guru99.com/jmeter-performance-testing.html"&gt;How to Use JMeter for Performance and Load Testing&lt;/a&gt;,&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.blazemeter.com/blog/how-perform-stress-test-jmeter"&gt;How to Run a Stress Test in Jmeter&lt;/a&gt;,&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.soapui.org/learn/load-testing/"&gt;API Load Testing Best Practices&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="individual"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Individual Assignment 3: Performance Assessment</title><link href="https://cmput402.github.io/individual/research-presentation.html" rel="alternate"></link><published>2024-02-29T00:00:00-07:00</published><updated>2024-02-29T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput402.github.io,2024-02-29:/individual/research-presentation.html</id><summary type="html">&lt;p&gt;Individual Assignment 3: Performance Assessment&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#requirements"&gt;Requirements&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="#marking"&gt;Marking&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;h3 id="overview"&gt;Overview&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;This assignment is for graduate students (CMPUT 501) only. CMPUT 402 students do not complete this assignment.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The goal of this assignment is to read, understand, and present recent research related to the QA topics we've covered in class.&lt;/p&gt;
-&lt;h3 id="requirements"&gt;Requirements&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Choose a recent full length conference paper or journal article about any of the topics we've covered in class.&lt;ul&gt;
-&lt;li&gt;Must be from the last two years.&lt;/li&gt;
-&lt;li&gt;Must focus on one of the QA topics we've covered in class.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Send your choice of paper to the instructor &lt;strong&gt;by March 15th.&lt;/strong&gt;&lt;ul&gt;
-&lt;li&gt;The instructor will approve or deny it based on its relevance to the course content, and the above requirements.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Read and understand the paper.&lt;ul&gt;
-&lt;li&gt;If you've never done this kind of thing before, you may also need to take a look at least at the abstracts of the important works it cites, so that you have a full understanding of the context.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Present the paper to the class. 
-    a. Your presentation must be targeted to the audience, which is the undergrads who are in the class.
-    b. Presentation should be at between 25-30 minutes, no more, no less.
-    c. Presentation should cover all the aspects of the paper: background, research questions/hypothesis, experimental design, results, conclusions the authors drew about it.
-    d. If you use diagrams or statements from the paper or other papers they must be cited.
-    e. You can use PowerPoint or Google Slides or whatever presentation software you like.
-    f. You will need to present in class.&lt;/li&gt;
-&lt;li&gt;You must be able to answer questions about the paper for 5-10 minutes afterwards.
-    d. Even if the undergrads decide to skip class or not ask any questions, rest assured that I will be asking you questions.
-    e. You are expected to attend each other's presentations and ask questions.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id="marking"&gt;Marking&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Timely proposal of research paper meeting the criteria is worth 1 mark.&lt;/li&gt;
-&lt;li&gt;Presentation is marked by the below rubric (out of 5):&lt;/li&gt;
-&lt;/ul&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Component&lt;/th&gt;
-&lt;th&gt;Excellent (5)&lt;/th&gt;
-&lt;th&gt;Good (4)&lt;/th&gt;
-&lt;th&gt;Satisfactory (3)&lt;/th&gt;
-&lt;th&gt;Unsatisfactory (2)&lt;/th&gt;
-&lt;th&gt;Poor (1)&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Slides&lt;/td&gt;
-&lt;td&gt;Slides are clear, readable, and well-designed. Text is large enough to be seen from the back of the room. Figures are appropriately sized and labeled. No more than five bullet points per slide.&lt;/td&gt;
-&lt;td&gt;Slides are mostly clear, readable, and well-designed. Text is large enough to be seen from most of the room. Figures are adequately sized and labeled. No more than seven bullet points per slide.&lt;/td&gt;
-&lt;td&gt;Slides are somewhat clear, readable, and well-designed. Text is large enough to be seen from the front of the room. Figures are somewhat sized and labeled. No more than nine bullet points per slide.&lt;/td&gt;
-&lt;td&gt;Slides are unclear, unreadable, or poorly designed. Text is too small to be seen from the back of the room. Figures are too large or too small and unlabeled. More than nine bullet points per slide.&lt;/td&gt;
-&lt;td&gt;Slides are missing, illegible, or incomprehensible. Text is too small to be seen from anywhere in the room. Figures are irrelevant or absent. Too many bullet points per slide or no bullet points at all.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Organization&lt;/td&gt;
-&lt;td&gt;Presentation has a clear introduction, body, and conclusion. Transitions between slides are smooth and logical. Main points are highlighted and supported by evidence.&lt;/td&gt;
-&lt;td&gt;Presentation has an introduction, body, and conclusion. Transitions between slides are mostly smooth and logical. Main points are stated and supported by some evidence.&lt;/td&gt;
-&lt;td&gt;Presentation has an introduction, body, and conclusion. Transitions between slides are somewhat smooth and logical. Main points are mentioned and supported by weak evidence.&lt;/td&gt;
-&lt;td&gt;Presentation lacks a clear introduction, body, or conclusion. Transitions between slides are abrupt or illogical. Main points are unclear or unsupported by evidence.&lt;/td&gt;
-&lt;td&gt;Presentation has no discernible structure or flow. Transitions between slides are nonexistent or confusing. Main points are missing or irrelevant.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Demonstration of knowledge&lt;/td&gt;
-&lt;td&gt;Presenter demonstrates a thorough and accurate understanding of the research paper and its background. Presenter explains the research question, methods, results, and implications in detail and with confidence. Presenter cites relevant sources and acknowledges limitations.&lt;/td&gt;
-&lt;td&gt;Presenter demonstrates a good understanding of the research paper and its background. Presenter explains the research question, methods, results, and implications with some detail and confidence. Presenter cites some sources and mentions limitations.&lt;/td&gt;
-&lt;td&gt;Presenter demonstrates a basic understanding of the research paper and its background. Presenter explains the research question, methods, results, and implications with minimal detail and confidence. Presenter cites few sources and ignores limitations.&lt;/td&gt;
-&lt;td&gt;Presenter demonstrates a poor understanding of the research paper and its background. Presenter fails to explain the research question, methods, results, or implications with any detail or confidence. Presenter cites no sources and makes false claims.&lt;/td&gt;
-&lt;td&gt;Presenter demonstrates no understanding of the research paper and its background. Presenter does not explain the research question, methods, results, or implications at all. Presenter provides incorrect or misleading information.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Ability to answer questions&lt;/td&gt;
-&lt;td&gt;Presenter answers all questions from the audience correctly and confidently. Presenter provides additional information or examples when appropriate. Presenter is respectful and courteous to the questioners.&lt;/td&gt;
-&lt;td&gt;Presenter answers most questions from the audience correctly and confidently. Presenter provides some additional information or examples when appropriate. Presenter is respectful and courteous to the questioners.&lt;/td&gt;
-&lt;td&gt;Presenter answers some questions from the audience correctly and confidently. Presenter provides little additional information or examples when appropriate. Presenter is respectful and courteous to the questioners.&lt;/td&gt;
-&lt;td&gt;Presenter answers few questions from the audience correctly and confidently. Presenter provides no additional information or examples when appropriate. Presenter is disrespectful or discourteous to the questioners.&lt;/td&gt;
-&lt;td&gt;Presenter answers no questions from the audience correctly and confidently. Presenter provides irrelevant or inaccurate information or examples when appropriate. Presenter is rude or hostile to the questioners.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Audience comprehensibility&lt;/td&gt;
-&lt;td&gt;Presenter uses appropriate language and terminology for the 402 students. Presenter defines and explains any unfamiliar terms or concepts. Presenter speaks clearly, loudly, and at a suitable pace. Presenter makes eye contact and uses gestures effectively.&lt;/td&gt;
-&lt;td&gt;Presenter uses mostly appropriate language and terminology for the 402 students. Presenter defines and explains most unfamiliar terms or concepts. Presenter speaks clearly, loudly, and at a reasonable pace. Presenter makes some eye contact and uses gestures moderately.&lt;/td&gt;
-&lt;td&gt;Presenter uses somewhat appropriate language and terminology for the 402 students. Presenter defines and explains some unfamiliar terms or concepts. Presenter speaks clearly, loudly, and at a fast or slow pace. Presenter makes little eye contact and uses gestures minimally.&lt;/td&gt;
-&lt;td&gt;Presenter uses inappropriate language and terminology for the 402 students. Presenter does not define or explain any unfamiliar terms or concepts. Presenter speaks unclearly, softly, or at an unsuitable pace. Presenter makes no eye contact and uses gestures poorly.&lt;/td&gt;
-&lt;td&gt;Presenter uses incomprehensible language and terminology for the 402 students. Presenter introduces or confuses unfamiliar terms or concepts. Presenter speaks inaudibly, unintelligibly, or at an erratic pace. Presenter avoids eye contact and uses gestures inappropriately.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Connection to class content&lt;/td&gt;
-&lt;td&gt;Presenter shows how the research paper is relevant and important to the class content. Presenter relates the research paper to the course objectives, themes, and topics. Presenter provides examples or applications of the research paper to the class content.&lt;/td&gt;
-&lt;td&gt;Presenter shows how the research paper is somewhat relevant and important to the class content. Presenter relates the research paper to some of the course objectives, themes, and topics. Presenter provides some examples or applications of the research paper to the class content.&lt;/td&gt;
-&lt;td&gt;Presenter shows how the research paper is vaguely relevant and important to the class content. Presenter relates the research paper to few of the course objectives, themes, and topics. Presenter provides few examples or applications of the research paper to the class content.&lt;/td&gt;
-&lt;td&gt;Presenter shows how the research paper is irrelevant or unimportant to the class content. Presenter does not relate the research paper to any of the course objectives, themes, and topics. Presenter provides no examples or applications of the research paper to the class content.&lt;/td&gt;
-&lt;td&gt;Presenter shows how the research paper is contrary or detrimental to the class content. Presenter contradicts or misrepresents the course objectives, themes, and topics. Presenter provides incorrect or misleading examples or applications of the research paper to the class content.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;</content><category term="individual"></category><category term="individual"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Group Assignment 1: Basics</title><link href="https://cmput402.github.io/group/basics.html" rel="alternate"></link><published>2024-01-30T00:00:00-07:00</published><updated>2024-01-30T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput402.github.io,2024-01-30:/group/basics.html</id><summary type="html">&lt;div class="toc"&gt;
+&lt;/ul&gt;</content><category term="individual"></category><category term="individual"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Group Assignment 1: Basics</title><link href="https://cmput402.github.io/group/basics.html" rel="alternate"></link><published>2024-01-30T00:00:00-07:00</published><updated>2024-01-30T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput402.github.io,2024-01-30:/group/basics.html</id><summary type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#part-1-verification-of-existing-functionality"&gt;Part 1: Verification of Existing Functionality&lt;/a&gt;&lt;/li&gt;

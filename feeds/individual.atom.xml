@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>CMPUT 402 - individual</title><link href="https://cmput402.github.io/" rel="alternate"></link><link href="https://cmput402.github.io/feeds/individual.atom.xml" rel="self"></link><id>https://cmput402.github.io/</id><updated>2024-02-29T00:00:00-07:00</updated><subtitle>Software Quality</subtitle><entry><title>Individual Assignment 3: Performance Assessment</title><link href="https://cmput402.github.io/individual/research-presentation.html" rel="alternate"></link><published>2024-02-29T00:00:00-07:00</published><updated>2024-02-29T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput402.github.io,2024-02-29:/individual/research-presentation.html</id><summary type="html">&lt;p&gt;Individual Assignment 3: Performance Assessment&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CMPUT 402 - individual</title><link href="https://cmput402.github.io/" rel="alternate"></link><link href="https://cmput402.github.io/feeds/individual.atom.xml" rel="self"></link><id>https://cmput402.github.io/</id><updated>2024-02-29T00:00:00-07:00</updated><subtitle>Software Quality</subtitle><entry><title>Graduate Assignment: Research Presentation</title><link href="https://cmput402.github.io/individual/research-presentation.html" rel="alternate"></link><published>2024-02-29T00:00:00-07:00</published><updated>2024-02-29T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput402.github.io,2024-02-29:/individual/research-presentation.html</id><summary type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#requirements"&gt;Requirements&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#marking"&gt;Marking&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="overview"&gt;Overview&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;This assignment is for graduate students (CMPUT 501) only. CMPUT 402 students do not complete this assignment.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The goal of this assignment is to read, understand, and present recent research related to the QA topics we've covered in class.&lt;/p&gt;
+&lt;h3 id="requirements"&gt;Requirements&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Choose a recent full length conference …&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#requirements"&gt;Requirements&lt;/a&gt;&lt;/li&gt;
@@ -207,7 +219,7 @@ description.&lt;/p&gt;
 &lt;li&gt;&lt;a href="https://www.guru99.com/jmeter-performance-testing.html"&gt;How to Use JMeter for Performance and Load Testing&lt;/a&gt;,&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.blazemeter.com/blog/how-perform-stress-test-jmeter"&gt;How to Run a Stress Test in Jmeter&lt;/a&gt;,&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.soapui.org/learn/load-testing/"&gt;API Load Testing Best Practices&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="individual"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Individual Assignment 1: Testing Theory</title><link href="https://cmput402.github.io/individual/testing-theory.html" rel="alternate"></link><published>2024-01-30T00:00:00-07:00</published><updated>2024-01-30T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput402.github.io,2024-01-30:/individual/testing-theory.html</id><summary type="html">&lt;p&gt;Individual Assignment 1: Testing Theory&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;/ul&gt;</content><category term="individual"></category><category term="individual"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Individual Assignment 1: Testing Theory</title><link href="https://cmput402.github.io/individual/testing-theory.html" rel="alternate"></link><published>2024-01-30T00:00:00-07:00</published><updated>2024-01-30T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput402.github.io,2024-01-30:/individual/testing-theory.html</id><summary type="html">&lt;p&gt;Individual Assignment 1: Testing Theory&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#submission"&gt;Submission&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
