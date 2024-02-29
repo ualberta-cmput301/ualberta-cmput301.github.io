@@ -78,7 +78,7 @@ Briefly (3-5 sentences), reflect on your experience in this process. Is
 this something you would use again? Did it help you think about the
 domain?
 
-(For concrete test cases, psuedocode is okay.)
+(For concrete test cases, pseudocode is okay.)
 
 *Hint: Note that this question does not have a single correct answer.
 The goal is for you to think about criteria that make sense to partition
