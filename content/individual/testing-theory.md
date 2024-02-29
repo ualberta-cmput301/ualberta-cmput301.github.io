@@ -1,6 +1,6 @@
 Title: Individual Assignment 1: Testing Theory
 date: 2024-01-30
-tags: labs, policy, grading
+tags: individual, policy, grading
 authors: Hazel Victoria Campbell, Sarah Nadi
 status: published
 summary: Individual Assignment 1: Testing Theory

@@ -89,7 +89,7 @@ Specifically:
 - Build a reporting system that creates reports for each customer with a Tartan Smart Home installation, reporting an aspect of your choice.
 - Build an experimentation infrastructure that (a) allows you to send different
   versions of the reports to different customers or at different times, (b) analyzes whether these changes have an effect on outcomes of how these customers use the system. You may need to modify how you track different customers and you may need to collect additional data about outcomes.
-- At the end of the experimentaiton period, generate some form of visualization (e.g., chart, graph, table whether as an html page or as a downloadable file) that shows which report variant was sent to which customer and how it affected them. For example, perhaps they now turned their lights off more often or decreased the average temperature of their home.
+- At the end of the experimentation period, generate some form of visualization (e.g., chart, graph, table whether as an html page or as a downloadable file) that shows which report variant was sent to which customer and how it affected them. For example, perhaps they now turned their lights off more often or decreased the average temperature of their home.
 
 ## Acceptance Criteria
 
@@ -100,8 +100,8 @@ complete.
 | :------------------------------- | :----|
 | The system, including the simulation of houses and the new experimentation infrastructure is deployed with Docker containers | 10 |
 | All changes that pass the automated test suites are *automatically built* as deployable Docker containers | 15 |
-| The *deployment* of newly built versions of the docker containers on the virtual machine is either fully automated or can be done with a single command that is described in the repository's readme file or wiki. | 20 |
-| Reverting the running system to the previous version can be be achieved with a single command that is described in the repository's readme file or wiki. | 15 |
+| The *deployment* of newly built versions of the docker containers on the virtual machine is either fully automated or can be done with a single command that is described in the repository's README file or wiki. | 20 |
+| Reverting the running system to the previous version can be achieved with a single command that is described in the repository's README file or wiki. | 15 |
 
 | Criteria (AB Testing) | Grade |
 | :-------------------- | :---- |

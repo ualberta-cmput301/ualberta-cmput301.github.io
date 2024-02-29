@@ -37,3 +37,4 @@ summary: Resources, Reference Materials, Notes, Videos, Slides
     * [PDF Copy]({attach}resources/STRIDE.pdf)
 * [Software Engineering Metrics: What Do They Measure and How Do We Know?]({attach}resources/KanerSoftwareMetrics.pdf)
 * [List of Related Research Papers for those interested to learn about SW Quality Research]({attach}resources/PaperList.pdf)
+* [Mocks aren't Stubs](https://www.martinfowler.com/articles/mocksArentStubs.html)

@@ -17,6 +17,9 @@ save_as: index.html
 
 * [Individual Assignment 1: Testing Theory]({filename}/individual/testing-theory.md)
 * [Individual Assignment 2: Testing with Mocks]({filename}/individual/testing-mocks.md)
+* [Individual Assignment 3: Performance Assessment]({filename}/individual/performance-assessment.md)
+* **Graduate students 501 only** [Research Presentations]({filename}/individual/research-presentation.md)
+
 
 # Lecture Material
 
