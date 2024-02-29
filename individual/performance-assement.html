@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>CMPUT 402 - Individual Assignment 3: Performance Assessment</title>
+        <meta charset="utf-8" />
+        <meta name="generator" content="Pelican" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Software Quality" />
+        <link href="https://cmput402.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 402 Full Atom Feed" />
+        <link href="https://cmput402.github.io/feeds/individual.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 402 Categories Atom Feed" />
+
+  <link rel="icon" href="https://cmput402.github.io/theme/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="https://cmput402.github.io/theme/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://cmput402.github.io/theme/402.css" />
+
+
+        <link rel="alternate" hreflang="en" href="https://cmput402.github.io/individual/research-presentation.html">
+
+
+
+    <meta name="tags" content="labs" />
+    <meta name="tags" content="policy" />
+    <meta name="tags" content="grading" />
+
+</head>
+
+<body>
+        <header>
+              <hgroup><h1><a href="https://cmput402.github.io/">CMPUT 402</a></h1><p>Software Quality</p></hgroup>
+        <nav><ul>
+            <li><a href="/general/outline.html">Outline</a></li>
+            <li><a href="https://eclass.srv.ualberta.ca/course/view.php?id=95226">eClass</a></li>
+            <li><a href="/general/schedule.html">Schedule</a></li>
+            <li><a href="/general/labs.html">Labs</a></li>
+            <li><a href="/general/project.html">Project</a></li>
+            <li><a href="/general/resources.html">Resources</a></li>
+            <li><a href="/general/help.html">Help</a></li>
+        </ul></nav>
+        </header>
+        <main>
+<article>
+  <header>
+    <h2>
+      <a href="https://cmput402.github.io/individual/performance-assement.html" rel="bookmark"
+         title="Permalink to Individual Assignment 3: Performance Assessment">Individual Assignment 3: Performance Assessment</a></h2>
+ Translations:
+<a href="https://cmput402.github.io/individual/research-presentation.html" hreflang="en">en</a>
+
+  </header>
+  <div class="toc">
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#performance-analysis-of-book-website">Performance analysis of book website</a><ul>
+<li><a href="#notes">Notes</a></li>
+</ul>
+</li>
+<li><a href="#acceptance-criteria-for-i3">Acceptance criteria for I3</a></li>
+<li><a href="#useful-resources">Useful resources</a></li>
+</ul>
+</div>
+<h3 id="overview">Overview</h3>
+<p>In this assignment, you will assess the performance of a given system and
+reflect on how such assessment can be done effectively.</p>
+<p>The learning goals of I3 are:</p>
+<ul>
+<li>Deciding which performance concerns are important for a system    </li>
+<li>Deciding between different approaches to performance assessment and understanding their limitations</li>
+<li>Learn how to use JMeter for load testing and performance assessment</li>
+</ul>
+<h3 id="performance-analysis-of-book-website">Performance analysis of book website</h3>
+<p>In this assignment, you are being asked to assess the performance of a web site
+that can list and search book covers (with title, author, categories,
+publication date, cover image, etc.), for which we provide a runnable (through
+Docker Compose) setup in a <a href="https://github.com/cmput402-w23/bookstore">GitHub repository</a>
+with about 800 book covers. This assignment intentionally gives you a lot of
+flexibility in deciding what performance characteristics (e.g., throughput,
+latency) are important and how they should be assessed. Make sure to assess
+performance of all <a href="https://github.com/cmput402-w23/bookstore#endpoints">endpoints</a>.
+Justify your decisions, conduct a reasonable performance assessment with
+limited time, and discuss what additional steps you would take with more time.</p>
+<p>The main deliverable is a report (4 pages, max) which should cover the
+following questions:</p>
+<ul>
+<li><strong>Performance concerns:</strong> What are (likely) important performance concerns or
+  requirements for the system? Justify your answer.</li>
+<li><strong>Measures:</strong> How can those performance concerns be assessed? (define the
+  measure, be clear about units, characterize how you would distinguish good
+  from bad performance with this measure).</li>
+<li><strong>Measurement process:</strong> What measurements did you conduct to collect the
+  measures in the previous point and how? Justify your design (e.g., overall
+  setup, workload selection) and describe your process briefly but with
+  sufficient detail to reproduce it. You can attach screenshots of your JMeter
+  test plan, if that helps.</li>
+<li><strong>Measurement results:</strong> What were the results from your performance
+  assessment? Discuss how well the system achieves the performance qualities.
+  Include plots (charts, graphs, etc.) if they help your discussion of results.</li>
+<li><strong>Next steps:</strong> If you had more time, what additional steps would you take
+  for performance assessment of this system? Would you automate tasks or
+  integrate them in the development process? Why/why not?</li>
+</ul>
+<h4 id="notes">Notes</h4>
+<p><strong>Resource limits.</strong> You might see resource limits set up in
+<code>docker-compose.yml</code> file. That is done on purpose. Do not modify the file,
+otherwise the results might not be what we expect. You should only work with
+JMeter and not change anything in the code. However, you are welcome to explore
+the source code, as well as the data set, if you want to.</p>
+<p><strong>Fatal errors</strong>. It is possible that the application will crash due to too
+heavy load.  That's an example of stress testing where your goal is to estimate
+what is the maximum load that the system can handle before crashing. If you
+experience this issue, try to determine what is the maximum load it can handle
+before failing (e.g., number of requests) and mention that in the report. You
+do not need to find the exact number (e.g., "1227 requests"), but try to be as
+precise as possible (e.g., "about 1200 requests").</p>
+<h3 id="acceptance-criteria-for-i3">Acceptance criteria for I3</h3>
+<p>Submit the report as a <strong>PDF</strong> (max 4 pages including any screenshots, plots,
+etc.) with clear subsections to eClass. Keep all sections under half a page if
+possible, except for the process description, which might be longer and might
+include additionally screenshots or scripts if that simplifies your
+description.</p>
+<p>The following criteria must be satisfied for I3 to be accepted as complete.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Criteria</th>
+<th style="text-align: left;">Grade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Reasonable, comprehensive, and clearly justified performance goals.</td>
+<td style="text-align: left;">5</td>
+</tr>
+<tr>
+<td style="text-align: left;">Well defined performance measures.</td>
+<td style="text-align: left;">5</td>
+</tr>
+<tr>
+<td style="text-align: left;">Well described and reproducible measurement process.</td>
+<td style="text-align: left;">10</td>
+</tr>
+<tr>
+<td style="text-align: left;">Clearly described measurement results (in a form understandable by the target audience of your performance goals).</td>
+<td style="text-align: left;">10</td>
+</tr>
+<tr>
+<td style="text-align: left;">A plausible discussion of next steps.</td>
+<td style="text-align: left;">5</td>
+</tr>
+</tbody>
+</table>
+<h3 id="useful-resources">Useful resources</h3>
+<ul>
+<li><a href="https://www.guru99.com/jmeter-performance-testing.html">How to Use JMeter for Performance and Load Testing</a>,</li>
+<li><a href="https://www.blazemeter.com/blog/how-perform-stress-test-jmeter">How to Run a Stress Test in Jmeter</a>,</li>
+<li><a href="https://www.soapui.org/learn/load-testing/">API Load Testing Best Practices</a></li>
+</ul>
+  <footer>
+    <p>Published: <time datetime="2024-02-29T00:00:00-07:00">
+      Thu, 29 Feb 2024 at 00:00 MST
+    </time></p>
+    <address>
+      By           <a href="https://cmput402.github.io/author/hazel-victoria-campbell.html">Hazel Victoria Campbell</a>
+          <a href="https://cmput402.github.io/author/sarah-nadi.html">Sarah Nadi</a>
+    </address>
+    <p>
+        Category: <a href="https://cmput402.github.io/category/individual.html">individual</a>
+    </p>
+    <p>
+        Tags:
+            <a href="https://cmput402.github.io/tag/labs.html">labs</a>
+            <a href="https://cmput402.github.io/tag/policy.html">policy</a>
+            <a href="https://cmput402.github.io/tag/grading.html">grading</a>
+    </p>
+  </footer>
+  </article>
+        </main>
+        <footer>
+                <address>
+                Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>,
+                which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
+                </address>
+        </footer>
+</body>
+</html>
