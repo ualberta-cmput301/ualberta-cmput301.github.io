@@ -94,7 +94,7 @@ The [Academic Success Centre](https://www.ualberta.ca/current-students/academic-
 
 Note the last column, it shows collaboration models for each unit of work. These styles are better described on the [CS course policy page](https://www.ualberta.ca/computing-science/resources/policy-information/department-course-policies.html).
 
-|Assesment               | 402 Wt | 501 Wt | Collaboration |
+|Assessment               | 402 Wt | 501 Wt | Collaboration |
 |------------------------|--------|--------|---------------|
 |Midterm 1               | 17%    | 17%    | Solo Effort   |
 |Midterm 2               | 17%    | 17%    | Solo Effort   |
@@ -103,7 +103,7 @@ Note the last column, it shows collaboration models for each unit of work. These
 |Individual Assignment 3 | 7%     | 5%     | Solo Effort   |
 |Group Project 1         | 6%     | 6%     | Teamwork      |
 |Group Project 2         | 11%    | 11%    | Teamwork      |
-|Group Project 3         | 8%     | 12%    | Teamwork      |
+|Group Project 3         | 8%     | 8%    | Teamwork      |
 |Group Project 4         | 7%     | 7%     | Teamwork      |
 |Group Project 5         | 8%     | 8%     | Teamwork      |
 |Participation           | 5%     | 5%     | Solo Effort   |
