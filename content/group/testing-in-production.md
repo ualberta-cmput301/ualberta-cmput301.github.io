@@ -86,10 +86,10 @@ behavior to test your infrastructure in simulation.
 
 Specifically:
 
-- Build a reporting system that creates reports for each customer with a Tartan Smart Home installation, reporting an aspect of your choice.
+- Build a reporting system that creates reports for each customer with a Tartan Smart Home installation, reporting an aspect of your choice. For example, how much electricity they are using or how long they are keeping their lights on. Users should be able to see this information on their UI.
 - Build an experimentation infrastructure that (a) allows you to send different
-  versions of the reports to different customers or at different times, (b) analyzes whether these changes have an effect on outcomes of how these customers use the system. You may need to modify how you track different customers and you may need to collect additional data about outcomes.
-- At the end of the experimentation period, generate some form of visualization (e.g., chart, graph, table whether as an html page or as a downloadable file) that shows which report variant was sent to which customer and how it affected them. For example, perhaps they now turned their lights off more often or decreased the average temperature of their home.
+  versions of the reports to different customers or at different times (For example, you can show one set of users their electricity usage using kWh and show another set of users their estimated cost of electricity), (b) analyzes whether these changes have an effect on outcomes of how these customers use the system. You may need to modify how you track different customers and you may need to collect additional data about outcomes.
+- At the end of the experimentation period, generate some form of visualization (e.g., chart, graph, table whether as an html page or as a downloadable file) that shows which report variant was sent to which customer and how it affected them. For example, the result can be that the users who were shown the cost of electricity usage is now using less electricity than the ones who were shown their kWh usage. You can have the downloadable file in your repository or in Google Drive, and mention the link to the file in your group assignment report. 
 
 ## Acceptance Criteria
 
