@@ -1,4 +1,4 @@
-title: Project
+title: Group Project
 date: 2024-01-06
 tags: project, grading
 authors: Hazel Victoria Campbell, Sarah Nadi
