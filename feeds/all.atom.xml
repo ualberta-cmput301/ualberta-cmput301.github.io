@@ -940,8 +940,8 @@ following:&lt;/p&gt;
 &lt;p&gt;To load the Tartan Home Platform into SonarQube, do the following: &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;There are a number of ways to import the Tartan Home Platform into Sonar. Examples include: &lt;ul&gt;
-&lt;li&gt;Use a Sonar Scanner: &lt;a href="https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner"&gt;https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;(Recommended) Use Sonar Scanner with gradle: &lt;a href="https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+Gradle"&gt;https://docs.sonarqube.org/display/SCAN/&lt;/a&gt;. You may want to show the results of SonarQube in your CI build, but this is not required for this project.&lt;/li&gt;
+&lt;li&gt;Use a Sonar Scanner: &lt;a href="https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner](https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/scanners/sonarscanner-for-gradle/)"&gt;https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/scanners/sonarscanner-for-gradle/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;(Recommended) Use Sonar Scanner with gradle: &lt;a href="https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/scanners/sonarscanner-for-gradle/"&gt;https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/scanners/sonarscanner-for-gradle/&lt;/a&gt;. You may want to show the results of SonarQube in your CI build, but this is not required for this project.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Once loaded, open the project in SonarQube or view the results of the scan in your CI build (If you installed SonarQube locally this will be through a web browser; default url: &lt;a href="http://localhost:9000"&gt;http://localhost:9000&lt;/a&gt;). &lt;/li&gt;
@@ -2122,6 +2122,7 @@ Labs                   10%   70%&lt;/p&gt;
 &lt;li&gt;&lt;a href="https://cmput402.github.io/general/resources/KanerSoftwareMetrics.pdf"&gt;Software Engineering Metrics: What Do They Measure and How Do We Know?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://cmput402.github.io/general/resources/PaperList.pdf"&gt;List of Related Research Papers for those interested to learn about SW Quality Research&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.martinfowler.com/articles/mocksArentStubs.html"&gt;Mocks aren't Stubs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://martinfowler.com/articles/workflowsOfRefactoring/"&gt;Martin Fowler's Refactoring Slides&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><category term="general"></category><category term="resources"></category><category term="reading"></category><category term="references"></category><category term="videos"></category></entry><entry><title>Project: Tartan Smart Home System</title><link href="https://cmput402.github.io/tartan/build.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput402.github.io,2024-01-06:/tartan/build.html</id><summary type="html">&lt;p&gt;Tartan System&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
 &lt;h3 id="platform-installation-and-configuration"&gt;Platform Installation and Configuration&lt;/h3&gt;
 &lt;p&gt;The initial configuration for the Tartan Smart Home System is done via a YAML
