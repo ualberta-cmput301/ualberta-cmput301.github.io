@@ -32,8 +32,8 @@ Your goal is to evaluate and describe the current technical debt to the project'
 To load the Tartan Home Platform into SonarQube, do the following: 
 
 *	There are a number of ways to import the Tartan Home Platform into Sonar. Examples include: 
-	* Use a Sonar Scanner: [https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner)
-	* (Recommended) Use Sonar Scanner with gradle: [https://docs.sonarqube.org/display/SCAN/](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+Gradle). You may want to show the results of SonarQube in your CI build, but this is not required for this project.
+	* Use a Sonar Scanner: [https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/scanners/sonarscanner-for-gradle/](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner](https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/scanners/sonarscanner-for-gradle/))
+	* (Recommended) Use Sonar Scanner with gradle: [https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/scanners/sonarscanner-for-gradle/](https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/scanners/sonarscanner-for-gradle/). You may want to show the results of SonarQube in your CI build, but this is not required for this project.
 *	Once loaded, open the project in SonarQube or view the results of the scan in your CI build (If you installed SonarQube locally this will be through a web browser; default url: [http://localhost:9000](http://localhost:9000)). 
 
 # Deliverables
