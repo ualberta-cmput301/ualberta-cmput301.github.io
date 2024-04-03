@@ -115,7 +115,7 @@ Note the last column, it shows collaboration models for each unit of work. These
 
 Grades are unofficial until approved by the Department and/or Faculty offering the course.
 
-\*Extra credit is recieved by submitting a helpfull PR to the website repo and emailing the course instructor
+\*Extra credit is recieved by submitting a helpful PR to the website repo and emailing the course instructor
 ## Group Assignments
 
 * Group members for group projects will be randomly assigned. Groups for the group projects remain the same throughout the term.
