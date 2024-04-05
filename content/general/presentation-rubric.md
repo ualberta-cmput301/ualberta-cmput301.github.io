@@ -48,3 +48,15 @@ The purpose of the presentation marking rubric is to outline precise evaluation 
 | Ability to answer questions | Presenters answer all questions from the audience correctly and confidently. Presenters provide additional information or examples when appropriate. Presenters are respectful and courteous to the questioners. | Presenters answer most questions from the audience correctly and confidently. Presenters provide some additional information or examples when appropriate. Presenters are respectful and courteous to the questioners. | Presenters answer some questions from the audience correctly and confidently. Presenters provide little additional information or examples when appropriate. Presenters are respectful and courteous to the questioners. | Presenters answer few questions from the audience correctly and confidently. Presenters provide no additional information or examples when appropriate. Presenters are disrespectful or discourteous to the questioners. | Presenters answer no questions from the audience correctly and confidently. Presenters provide irrelevant or inaccurate information or examples when appropriate. Presenters are rude or hostile to the questioners. |
 
 
+# Evaluating Deliverables Based on Presentation Content
+
+According to [Group Assignment 5: Technical Debt]({filename}/group/technical-debt.md), we will use both the content of your report and presentation to grade the 5 points from the deliverables. The weight of the content of the presentation for the main grading is given below:
+
+1. Quality evaluation using SonarQube (points 1 and 2):  7.5 out of 30
+2. Discussing current CI pipeline (point 3): 2.5 out of 10
+3. Advice on paying back current debt (point 4): 3.75 out of 15
+4. Discussion of metrics & tool changes (point 5): 2.5 out of 10
+
+Total presentation content grade: 16.25 out of 70
+
+**Please note that this section is separate from the presentation marks, which will be graded out of 20 according to the rubric in the [table above](#marking).**
