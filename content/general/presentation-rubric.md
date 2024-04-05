@@ -14,7 +14,6 @@ The purpose of the presentation marking rubric is to outline precise evaluation 
 # Requirements
 
 1. Slides
-    * You MUST finish your presentation within the time constraints so please rehearse properly. You will lose 2 marks if you run over time.
     * Make sure to use readable fonts.
     * Use short phrases instead of paragraphs of text. Avoid crowded text-only slides.
     * Use pictures, diagrams etc., whenever possible.
@@ -29,7 +28,7 @@ The purpose of the presentation marking rubric is to outline precise evaluation 
 3. Present the project to the class
     * Your presentation must be targeted to the audience who are in the class.
     * Presentations will be done by group.
-    * Presentation should be about 8 minutes, no more. Try NOT to wrap up the presentation really early.
+    * Presentation should be about 8 minutes, no more. Try NOT to wrap up the presentation really early. You MUST finish your presentation within the time constraints so please rehearse properly. You will lose 2 marks if you run over time.
     * Presentation should cover all the aspects of group assignment 5 including the five points which should be in the report.
     * You can use PowerPoint or Google Slides or whatever presentation software you like.
     * You will need to present in lab in person during lab time.
