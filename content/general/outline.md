@@ -76,7 +76,7 @@ Ammann and Jeff Offutt.
 
 **Recommended or Optional Learning Resources**: Additional resources may be provided by links from this site or the course eClass page.
 
-**Course Fees**: Students may be required to purchase online hosting if there are technical difficulties. We are planning to provide free hosing. 
+**Course Fees**: Students may be required to purchase online hosting if there are technical difficulties. We are planning to provide free hosting. 
 
 ## On-Line Homework Disclaimer
 
@@ -279,7 +279,7 @@ All students are expected to consult the [Academic Integrity website ](https://w
 
 Midterm Exams are confidential. No discussion of the contents of the exam is permitted except with instructors.
 
-# Apropriate Collaboration: Quizzes & Participation
+# Appropriate Collaboration: Quizzes & Participation
 
 Quizzes and Participation are **Solo Effort** and must be completed by the student registered in the course without external assistance from any individual or organization. *Students may only submit work authored by themselves.*
 
@@ -310,7 +310,7 @@ class Choice(models.Model):
 
 For programming assignments software tools are used to detect plagiarism. When the software tools indicate that there is similarity between two submissions, the submissions are reviewed by the instructor or teaching assistant. If the possibility that the standards for academic honesty were violated is confirmed, an investigation is started. Eventually the submitted solutions may be forwarded to the Faculty of Science Associate Dean of Students for further investigation and eventual sanctions. Submissions will be retained for future comparisons.
 
-# Apropriate Collaboration (Group Assignments)
+# Appropriate Collaboration (Group Assignments)
 
 * As long as you are a part of a group, you are responsible for everything in the group project, whether or not you participated in every component.
 * A group may only submit work authored by group members.
