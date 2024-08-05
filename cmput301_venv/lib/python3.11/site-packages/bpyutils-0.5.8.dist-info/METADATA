@@ -1,0 +1,138 @@
+Metadata-Version: 2.1
+Name: bpyutils
+Version: 0.5.8
+Summary: A collection of various common Python utilities.
+Home-page: https://github.com/achillesrasquinha/bpyutils
+Author: Achilles Rasquinha
+Author-email: achillesrasquinha@gmail.com
+License: MIT License
+Keywords: utilities python boilpy
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.md
+Provides-Extra: dev
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: recommonmark ; extra == 'dev'
+Requires-Dist: ipykernel ; extra == 'dev'
+Requires-Dist: nbsphinx ; extra == 'dev'
+Requires-Dist: renku-sphinx-theme ; extra == 'dev'
+Requires-Dist: sphinx-autobuild ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: autopep8 ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-xdist ; extra == 'dev'
+Requires-Dist: pytest-sugar ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+Requires-Dist: coveralls ; extra == 'dev'
+Requires-Dist: pluggy (<1,>=0.12.0) ; extra == 'dev'
+Requires-Dist: docstr-coverage ; extra == 'dev'
+Requires-Dist: pipenv ; extra == 'dev'
+Requires-Dist: jedi (<0.18) ; extra == 'dev'
+Requires-Dist: ipython ; extra == 'dev'
+Requires-Dist: bumpversion ; extra == 'dev'
+Requires-Dist: vulture ; extra == 'dev'
+Requires-Dist: safety ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: jupyter ; extra == 'dev'
+Requires-Dist: Flask ; extra == 'dev'
+Requires-Dist: cookiecutter ; extra == 'dev'
+Requires-Dist: pytest-clarity ; (python_version >= "3.6") and extra == 'dev'
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/boilpy/boilpy/develop/.github/assets/logo.png" height="128">
+  <h1>
+      bpyutils
+  </h1>
+  <h4>A collection of various common Python utilities.</h4>
+</div>
+
+<p align="center">
+  <a href='https://github.com/achillesrasquinha/bpyutils/actions?query=workflow:"Continuous Integration"'>
+    <img src="https://img.shields.io/github/workflow/status/achillesrasquinha/bpyutils/Continuous Integration?style=flat-square">
+  </a>
+  <a href="https://coveralls.io/github/achillesrasquinha/bpyutils">
+    <img src="https://img.shields.io/coveralls/github/achillesrasquinha/bpyutils.svg?style=flat-square">
+  </a>
+  <a href="https://pypi.org/project/bpyutils/">
+    <img src="https://img.shields.io/pypi/v/bpyutils.svg?style=flat-square">
+  </a>
+  <a href="https://pypi.org/project/bpyutils/">
+    <img src="https://img.shields.io/pypi/l/bpyutils.svg?style=flat-square">
+  </a>
+  <a href="https://pypi.org/project/bpyutils/">
+    <img src="https://img.shields.io/pypi/pyversions/bpyutils.svg?style=flat-square">
+  </a>
+  <a href="https://git.io/boilpy">
+    <img src="https://img.shields.io/badge/made%20with-boilpy-red.svg?style=flat-square">
+  </a>
+</p>
+
+### Table of Contents
+* [Features](#features)
+* [Quick Start](#quick-start)
+* [Usage](#usage)
+* [License](#license)
+
+### Features
+* Python 2.7+ and Python 3.4+ compatible.
+
+### Quick Start
+
+```shell
+$ pip install bpyutils
+```
+
+Check out [installation](docs/source/installation.md) for more details.
+
+### Usage
+
+#### Application Interface
+
+```python
+>>> import bpyutils
+```
+
+#### Command-Line Interface
+
+```console
+$ bpyutils
+Usage: bpyutils [OPTIONS] COMMAND [ARGS]...
+
+  A collection of various common Python utilities.
+
+Options:
+  --version   Show the version and exit.
+  -h, --help  Show this message and exit.
+
+Commands:
+  help     Show this message and exit.
+  version  Show version and exit.
+```
+
+#### License
+
+This repository has been released under the [MIT License](LICENSE).
+
+---
+
+<div align="center">
+  Made with ❤️ using <a href="https://git.io/boilpy">boilpy</a>.
+</div>

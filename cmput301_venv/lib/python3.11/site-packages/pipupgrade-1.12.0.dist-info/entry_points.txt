@@ -1,0 +1,3 @@
+[console_scripts]
+pipupgrade = pipupgrade.__main__:main
+
