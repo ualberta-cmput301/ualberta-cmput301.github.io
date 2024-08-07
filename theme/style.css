@@ -117,6 +117,18 @@ header > nav > ul > li.active {
   font-weight: bold;
 }
 
+/** Special **/
+
+.warning {
+  border-width: 0.5ch;
+  border-style: dashed;
+  border-color: yellow;
+  background: repeating-linear-gradient(#e66465, #e66465 20px, #9198e5 20px, #9198e5 25px);
+  border-image-source: repeating-linear-gradient(-45deg, black, black 10px, yellow 10px, yellow 20px);
+  border-image-repeat: round;
+  padding: 0.5ch 1ch;
+  border-image-slice: 5;
+}
 /** Pagination page contents */
 #content > :first-child {
   margin-top: 0;
