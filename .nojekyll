@@ -6,18 +6,18 @@
         <meta name="generator" content="Pelican" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Software Engineering" />
-        <link href="https://cmput301.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Full Atom Feed" />
+        <link href="https://ualberta-cmput301.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Full Atom Feed" />
 
-  <link rel="icon" href="https://cmput301.github.io/theme/favicon.png" />
-  <link rel="stylesheet" type="text/css" href="https://cmput301.github.io/theme/style.css" />
-  <link rel="stylesheet" type="text/css" href="https://cmput301.github.io/theme/301.css" />
+  <link rel="icon" href="https://ualberta-cmput301.github.io/theme/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/301.css" />
 
 
 </head>
 
 <body>
         <header>
-              <hgroup><h1><a href="https://cmput301.github.io/">CMPUT 301</a></h1><p>Software Engineering</p></hgroup>
+              <hgroup><h1><a href="https://ualberta-cmput301.github.io/">CMPUT 301</a></h1><p>Software Engineering</p></hgroup>
         <nav><ul>
             <li><a href="/general/outline.html">Outline</a></li>
             <li><a href="#TODO">eClass</a></li>
