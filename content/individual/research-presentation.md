@@ -22,16 +22,16 @@ The goal of this assignment is to read, understand, and present recent research 
     * The instructor will approve or deny it based on its relevance to the course content, and the above requirements.
 3. Read and understand the paper.
     * If you've never done this kind of thing before, you may also need to take a look at least at the abstracts of the important works it cites, so that you have a full understanding of the context.
-4. Present the paper to the class. 
-    a. Your presentation must be targeted to the audience, which is the undergrads who are in the class.
-    b. Presentation should be at between 25-30 minutes, no more, no less.
-    c. Presentation should cover all the aspects of the paper: background, research questions/hypothesis, experimental design, results, conclusions the authors drew about it.
-    d. If you use diagrams or statements from the paper or other papers they must be cited.
-    e. You can use PowerPoint or Google Slides or whatever presentation software you like.
-    f. You will need to present in class.
-5. You must be able to answer questions about the paper for 5-10 minutes afterwards.
-    d. Even if the undergrads decide to skip class or not ask any questions, rest assured that I will be asking you questions.
-    e. You are expected to attend each other's presentations and ask questions.
+4. Present the paper to the class:
+    * a. Your presentation must be targeted to the audience, which is the undergrads who are in the class.
+    * b. Presentation should be at between 25-30 minutes, no more, no less.
+    * c. Presentation should cover all the aspects of the paper: background, research questions/hypothesis, experimental design, results, conclusions the authors drew about it.
+    * d. If you use diagrams or statements from the paper or other papers they must be cited.
+    * e. You can use PowerPoint or Google Slides or whatever presentation software you like.
+    * f. You will need to present in class.
+5. You must be able to answer questions about the paper for 5-10 minutes afterwards:
+    * a. Even if the undergrads decide to skip class or not ask any questions, rest assured that I will be asking you questions.
+    * b. You are expected to attend each other's presentations and ask questions.
 
 # Marking
 

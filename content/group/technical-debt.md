@@ -79,6 +79,8 @@ There will be an additional 20 points allocated to the presentation quality, bas
 * Presentation flows well and the audience undertsands what is presented at each point
 * Use of well-explained figures/charts etc to backup presented points
 
+For more details on the presentation marking rubric, check [Group Assignment 5: Presentation Marking Rubric]({filename}/general/presentation-rubric.md)
+
 **Points will be deducted if your report is unstructured or not understandable.**
 
 Copyright 2021, 2022 Dr. Sarah Nadi. Copyright 2023, 2024 Dr. Hazel Campbell. All rights reserved.
