@@ -213,7 +213,8 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       id="g1">
+       id="g1"
+       style="opacity:0.5">
       <path
          style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#00aa00;stroke-width:1;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#ColoredDiamond);marker-end:url(#Triangle);paint-order:stroke fill markers"
          d="M 3.8183873,3.8183811 H 27.14952"
@@ -227,7 +228,8 @@
     </g>
     <g
        id="g2"
-       transform="translate(-14.700595,8.0000009)">
+       transform="translate(-14.700595,8.0000009)"
+       style="opacity:0.5">
       <path
          style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#00aa00;stroke-width:1;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#ColoredDiamond-2);marker-end:url(#Triangle-8);paint-order:stroke fill markers"
          d="M 3.8183873,3.8183811 H 27.14952"
