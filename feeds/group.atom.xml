@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>CMPUT 301 - group</title><link href="https://cmput402.github.io/" rel="alternate"></link><link href="https://cmput402.github.io/feeds/group.atom.xml" rel="self"></link><id>https://cmput402.github.io/</id><updated>2024-01-30T00:00:00-07:00</updated><subtitle>Software Engineering</subtitle><entry><title>Group Assignment 1: Basics</title><link href="https://cmput402.github.io/group/basics.html" rel="alternate"></link><published>2024-01-30T00:00:00-07:00</published><updated>2024-01-30T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput402.github.io,2024-01-30:/group/basics.html</id><summary type="html">&lt;div class="toc"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CMPUT 301 - group</title><link href="https://cmput301.github.io/" rel="alternate"></link><link href="https://cmput301.github.io/feeds/group.atom.xml" rel="self"></link><id>https://cmput301.github.io/</id><updated>2024-01-30T00:00:00-07:00</updated><subtitle>Software Engineering</subtitle><entry><title>Group Assignment 1: Basics</title><link href="https://cmput301.github.io/group/basics.html" rel="alternate"></link><published>2024-01-30T00:00:00-07:00</published><updated>2024-01-30T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput301.github.io,2024-01-30:/group/basics.html</id><summary type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#part-1-verification-of-existing-functionality"&gt;Part 1: Verification of Existing Functionality&lt;/a&gt;&lt;/li&gt;
@@ -137,7 +137,7 @@ complete. &lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;The report is graded based on its presentation, organization, and how clearly things are described. All the items described in the Acceptance Criteria section above must appear in the report.&lt;/p&gt;
 &lt;p&gt;Each member must assess their team members' contributions on eClass. This is worth 5 points of the total assignment grade and is confidential (results go to the course staff). Note that if we find big discrepencies in contributions or if one team members is negatively rated by all other team members, then we will investigate and regrade team members as needed. &lt;/p&gt;
-&lt;p&gt;Copyright 2021, 2022 Dr. Sarah Nadi. Copyright 2023, 2024 Dr. Hazel Campbell. All rights reserved.&lt;/p&gt;</content><category term="group"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Group Assignment 2: Testing</title><link href="https://cmput402.github.io/group/testing.html" rel="alternate"></link><published>2024-01-30T00:00:00-07:00</published><updated>2024-01-30T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput402.github.io,2024-01-30:/group/testing.html</id><summary type="html">&lt;div class="toc"&gt;
+&lt;p&gt;Copyright 2021, 2022 Dr. Sarah Nadi. Copyright 2023, 2024 Dr. Hazel Campbell. All rights reserved.&lt;/p&gt;</content><category term="group"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Group Assignment 2: Testing</title><link href="https://cmput301.github.io/group/testing.html" rel="alternate"></link><published>2024-01-30T00:00:00-07:00</published><updated>2024-01-30T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput301.github.io,2024-01-30:/group/testing.html</id><summary type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#part-1-improve-test-suite"&gt;Part 1: Improve Test Suite&lt;/a&gt;&lt;ul&gt;
@@ -261,7 +261,7 @@ can enable or disable:&lt;/p&gt;
   unlocked at any point during the night.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;An access panel is one of these: &lt;br&gt;
-&lt;img id="access-panel" alt="access panel" src="https://cmput402.github.io/group/adt-access-panel.jpg" style="width: 50%;"&gt;&lt;br&gt;
+&lt;img id="access-panel" alt="access panel" src="https://cmput301.github.io/group/adt-access-panel.jpg" style="width: 50%;"&gt;&lt;br&gt;
 (Picture by Marco Albertini, https://securitycamcenter.com/how-to-reset-adt-alarm-system/).
 For the access panel you can add the functionality to the frontend, since we don't have any physical access panels.
 Make sure that your messages are shown on the frontend log of the application.
@@ -398,7 +398,7 @@ new door lock (max. 4 pages of text, not including screenshots/tables etc). You 
 &lt;li&gt;If you had to conduct a similar project again, would you change any of your testing or planning strategies?&lt;/li&gt;
 &lt;li&gt;What were the challenges you faced and how did you solve them?&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Copyright 2021, 2022 Dr. Sarah Nadi. Copyright 2023, 2024 Dr. Hazel Campbell. All rights reserved.&lt;/p&gt;</content><category term="group"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Group Assignment 3: Testing in Production</title><link href="https://cmput402.github.io/group/testing-in-production.html" rel="alternate"></link><published>2024-01-30T00:00:00-07:00</published><updated>2024-01-30T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput402.github.io,2024-01-30:/group/testing-in-production.html</id><summary type="html">&lt;div class="toc"&gt;
+&lt;p&gt;Copyright 2021, 2022 Dr. Sarah Nadi. Copyright 2023, 2024 Dr. Hazel Campbell. All rights reserved.&lt;/p&gt;</content><category term="group"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Group Assignment 3: Testing in Production</title><link href="https://cmput301.github.io/group/testing-in-production.html" rel="alternate"></link><published>2024-01-30T00:00:00-07:00</published><updated>2024-01-30T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput301.github.io,2024-01-30:/group/testing-in-production.html</id><summary type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#tasks"&gt;Tasks&lt;/a&gt;&lt;ul&gt;
@@ -597,7 +597,7 @@ following:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;The report is graded based on its presentation, organization, and how clearly things are described. All the items described in the Report section above must appear in the report. The ReadMe is graded based on whether all instructions we need to run things are there or not (Be very explicit. Do not assume we know how to run things)&lt;/p&gt;
 &lt;p&gt;Each member must assess their team members' contributions on eClass. This is worth 5 points of the total assignment grade and is confidential (results go to the course staff). Note that if we find big discrepencies in contributions or if one team members is negatively rated by all other team members, then we will investigate and regrade team members as needed.&lt;/p&gt;
-&lt;p&gt;Copyright 2021, 2022 Dr. Sarah Nadi. Copyright 2023, 2024 Dr. Hazel Campbell. All rights reserved.&lt;/p&gt;</content><category term="group"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Group Assignment 4: Static Analysis</title><link href="https://cmput402.github.io/group/static-analysis.html" rel="alternate"></link><published>2024-01-30T00:00:00-07:00</published><updated>2024-01-30T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput402.github.io,2024-01-30:/group/static-analysis.html</id><summary type="html">&lt;div class="toc"&gt;
+&lt;p&gt;Copyright 2021, 2022 Dr. Sarah Nadi. Copyright 2023, 2024 Dr. Hazel Campbell. All rights reserved.&lt;/p&gt;</content><category term="group"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Group Assignment 4: Static Analysis</title><link href="https://cmput301.github.io/group/static-analysis.html" rel="alternate"></link><published>2024-01-30T00:00:00-07:00</published><updated>2024-01-30T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput301.github.io,2024-01-30:/group/static-analysis.html</id><summary type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#resources"&gt;Resources&lt;/a&gt;&lt;ul&gt;
@@ -677,7 +677,7 @@ following:&lt;/p&gt;
 &lt;li&gt;Are there problems in the code that the tool did not catch?&lt;/li&gt;
 &lt;li&gt;Does running a static analysis tool replace the need for testing?&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Copyright 2021, 2022 Dr. Sarah Nadi. Copyright 2023, 2024 Dr. Hazel Campbell. All rights reserved.&lt;/p&gt;</content><category term="group"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Group Assignment 5: Technical Debt</title><link href="https://cmput402.github.io/group/technical-debt.html" rel="alternate"></link><published>2024-01-30T00:00:00-07:00</published><updated>2024-01-30T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput402.github.io,2024-01-30:/group/technical-debt.html</id><summary type="html">&lt;div class="toc"&gt;
+&lt;p&gt;Copyright 2021, 2022 Dr. Sarah Nadi. Copyright 2023, 2024 Dr. Hazel Campbell. All rights reserved.&lt;/p&gt;</content><category term="group"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Group Assignment 5: Technical Debt</title><link href="https://cmput301.github.io/group/technical-debt.html" rel="alternate"></link><published>2024-01-30T00:00:00-07:00</published><updated>2024-01-30T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput301.github.io,2024-01-30:/group/technical-debt.html</id><summary type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#tools"&gt;Tools&lt;/a&gt;&lt;/li&gt;
@@ -760,6 +760,6 @@ following:&lt;/p&gt;
 &lt;li&gt;Presentation flows well and the audience undertsands what is presented at each point&lt;/li&gt;
 &lt;li&gt;Use of well-explained figures/charts etc to backup presented points&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;For more details on the presentation marking rubric, check &lt;a href="https://cmput402.github.io/general/presentation-rubric.html"&gt;Group Assignment 5: Presentation Marking Rubric&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For more details on the presentation marking rubric, check &lt;a href="https://cmput301.github.io/general/presentation-rubric.html"&gt;Group Assignment 5: Presentation Marking Rubric&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Points will be deducted if your report is unstructured or not understandable.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Copyright 2021, 2022 Dr. Sarah Nadi. Copyright 2023, 2024 Dr. Hazel Campbell. All rights reserved.&lt;/p&gt;</content><category term="group"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry></feed>
