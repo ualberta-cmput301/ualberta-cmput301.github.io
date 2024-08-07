@@ -70,7 +70,7 @@ INDEX_SAVE_AS="all.html"
 MENUITEMS=[
     ("Outline", "/general/outline.html"),
     ("eClass", "#TODO"),
-    ("Schedule", "/general/schedule.html"),
+    ("Schedule", "/#schedule"),
     ("Labs", "/general/labs.html"),
     ("Project", "/general/project.html"),
     ("Individual", "/general/individual.html"),
