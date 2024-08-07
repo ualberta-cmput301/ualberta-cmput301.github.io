@@ -1,2 +1,4 @@
-# cmput402.github.io
-CMPUT 402 Website
+# cmput301.github.io
+CMPUT 301 Website
+
+
