@@ -1,6 +1,6 @@
 AUTHOR = 'University of Alberta'
-SITENAME = 'CMPUT 402'
-SITESUBTITLE = 'Software Quality'
+SITENAME = 'CMPUT 301'
+SITESUBTITLE = 'Software Engineering'
 SITEURL = ""
 
 PATH = "content"
@@ -37,7 +37,7 @@ DEFAULT_PAGINATION = False
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
-THEME = 'templates/cmput402'
+THEME = 'templates/cmput301'
 
 MARKDOWN = {
     'extension_configs': {
@@ -69,7 +69,7 @@ INDEX_SAVE_AS="all.html"
 
 MENUITEMS=[
     ("Outline", "/general/outline.html"),
-    ("eClass", "https://eclass.srv.ualberta.ca/course/view.php?id=95226"),
+    ("eClass", "#TODO"),
     ("Schedule", "/general/schedule.html"),
     ("Labs", "/general/labs.html"),
     ("Project", "/general/project.html"),
