@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>CMPUT 402 - individual</title><link href="https://cmput402.github.io/" rel="alternate"></link><link href="https://cmput402.github.io/feeds/individual.atom.xml" rel="self"></link><id>https://cmput402.github.io/</id><updated>2024-02-29T00:00:00-07:00</updated><subtitle>Software Quality</subtitle><entry><title>Graduate Assignment: Research Presentation</title><link href="https://cmput402.github.io/individual/research-presentation.html" rel="alternate"></link><published>2024-02-29T00:00:00-07:00</published><updated>2024-02-29T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput402.github.io,2024-02-29:/individual/research-presentation.html</id><summary type="html">&lt;div class="toc"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CMPUT 301 - individual</title><link href="https://cmput402.github.io/" rel="alternate"></link><link href="https://cmput402.github.io/feeds/individual.atom.xml" rel="self"></link><id>https://cmput402.github.io/</id><updated>2024-02-29T00:00:00-07:00</updated><subtitle>Software Engineering</subtitle><entry><title>Graduate Assignment: Research Presentation</title><link href="https://cmput402.github.io/individual/research-presentation.html" rel="alternate"></link><published>2024-02-29T00:00:00-07:00</published><updated>2024-02-29T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:cmput402.github.io,2024-02-29:/individual/research-presentation.html</id><summary type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#requirements"&gt;Requirements&lt;/a&gt;&lt;/li&gt;
@@ -36,16 +36,20 @@
 &lt;li&gt;If you've never done this kind of thing before, you may also need to take a look at least at the abstracts of the important works it cites, so that you have a full understanding of the context.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Present the paper to the class. 
-    a. Your presentation must be targeted to the audience, which is the undergrads who are in the class.
-    b. Presentation should be at between 25-30 minutes, no more, no less.
-    c. Presentation should cover all the aspects of the paper: background, research questions/hypothesis, experimental design, results, conclusions the authors drew about it.
-    d. If you use diagrams or statements from the paper or other papers they must be cited.
-    e. You can use PowerPoint or Google Slides or whatever presentation software you like.
-    f. You will need to present in class.&lt;/li&gt;
-&lt;li&gt;You must be able to answer questions about the paper for 5-10 minutes afterwards.
-    d. Even if the undergrads decide to skip class or not ask any questions, rest assured that I will be asking you questions.
-    e. You are expected to attend each other's presentations and ask questions.&lt;/li&gt;
+&lt;li&gt;Present the paper to the class:&lt;ul&gt;
+&lt;li&gt;a. Your presentation must be targeted to the audience, which is the undergrads who are in the class.&lt;/li&gt;
+&lt;li&gt;b. Presentation should be at between 25-30 minutes, no more, no less.&lt;/li&gt;
+&lt;li&gt;c. Presentation should cover all the aspects of the paper: background, research questions/hypothesis, experimental design, results, conclusions the authors drew about it.&lt;/li&gt;
+&lt;li&gt;d. If you use diagrams or statements from the paper or other papers they must be cited.&lt;/li&gt;
+&lt;li&gt;e. You can use PowerPoint or Google Slides or whatever presentation software you like.&lt;/li&gt;
+&lt;li&gt;f. You will need to present in class.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;You must be able to answer questions about the paper for 5-10 minutes afterwards:&lt;ul&gt;
+&lt;li&gt;a. Even if the undergrads decide to skip class or not ask any questions, rest assured that I will be asking you questions.&lt;/li&gt;
+&lt;li&gt;b. You are expected to attend each other's presentations and ask questions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id="marking"&gt;Marking&lt;/h3&gt;
 &lt;ul&gt;
