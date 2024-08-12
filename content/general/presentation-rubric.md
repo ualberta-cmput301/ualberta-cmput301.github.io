@@ -7,6 +7,8 @@ status: published
 
 [TOC]
 
+# This is currently a copy of the 402 presentation requirements and needs to be updated for 301
+
 # Overview
 
 The purpose of the presentation marking rubric is to outline precise evaluation criteria for the assessment of the group assignment 5 presentation. Its aim is to provide clear guidance to presenters, ensuring they have a thorough understanding of what is expected of them.
