@@ -12,28 +12,27 @@ summary: Slides and per-topic resources
 # Objects UML Java
 
 * [Objects UML Java Slides]({attach}slides/02-OO.pdf)
-* [SDA Object-Oriented Design Notes]({attach}slides/OONotes.pdf)
-* [SDA Object-Oriented Design Glossary]({attach}slides/OOGlossary.pdf)
+* [OOP Notes]({attach}slides/OONotes.pdf)
 
 
-# Software Process
+# Object-Oriented Graphical User Interfaces
 
-* [SPM Introduction to Software Product Management Notes]({attach}slides/SPM.pdf)
-* [SPM Introduction to Software Product Management Glossary]({attach}slides/SPM_Gloss.pdf)
-* [SPM Software Processes and Agile Practices Notes]({attach}slides/SPAP.pdf)
-* [SPM Software Processes and Agile Practices Glossary]({attach}slides/SPAP_Gloss.pdf)
+* [Fixed MVC Android/Swing Slides]({attach}slides/MVCAndroid.pdf)
+* [MVC and Android Part I Draft Slides (4up)]({attach}slides/MVCAndroid4up.pdf)
+* [MVC and Android Part I Draft Slides (1up)]({attach}slides/MVCAndroidPart1.pdf)
+* [MVC and Android Part II Draft Slides (4up)]({attach}slides/MVCAndroid4up2.pdf)
+* [MVC and Android Part II Draft Slides (1up)]({attach}slides/MVC_AP2DS.pdf)
+* [MVC and Android Part II Draft Slides (4up)]({attach}slides/)
 
-# Requirements
+# Lab Slides 
 
-* [SPM Client Needs and Software Requirements Notes]({attach}slides/Requirements.pdf)
-* [SPM Client Needs and Software Requirements Glossary]({attach}slides/Requirements_Glossary.pdf)
+* [Lab 2 Introduction and OOP Slides]({attach}slides/lab002slides.pdf)
+* [Java Notes for Professionals]({attach}slides/JNP.pdf)
 
-# Agile Planning
 
-* [SPM Agile Planning for Software Products Notes]({attach}slides/AP.pdf)
-* [SPM Agile Planning for Software Products Glossary]({attach}slides/AP_Gloss.pdf)
+# Android Activities Resources 
 
-# Design Patterns
-
-* [SDA Design Patterns Notes]({attach}slides/DP.pdf)
+* [Android Studion Tips]({attach}slides/AST.pdf)
+* [Android Activities]({attach}slides/AA.pdf)
+* [Android Notes for Professionals]({attach}slides/ANP.pdf)
 
