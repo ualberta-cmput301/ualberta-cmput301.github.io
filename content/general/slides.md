@@ -1,9 +1,9 @@
-title: How to get Help
+title: Slides
 date: 2024-01-06
 tags: resources, policy, contact, wellness
 authors: Hazel Victoria Campbell
 status: published
-summary: Communications Expectations
+summary: Slides and per-topic resources
 
 ---
 
