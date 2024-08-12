@@ -1,9 +1,9 @@
-Title: Assignment 0
+Title: Assignment 0: Getting Started
 date: 2024-08-12
 tags: individual, policy, grading
 authors: Hazel Victoria Campbell, Ken Wong, Abram Hindle
 status: published
-summary: Assignment 0
+summary: Assignment 0: Getting Started
 ----
 
 [TOC]

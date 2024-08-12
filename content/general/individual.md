@@ -8,3 +8,4 @@ summary: Individual Assignments
 
 # Assignments
 
+[Assignment 0: Getting started]({filename}/individual/assignment0.mds)
