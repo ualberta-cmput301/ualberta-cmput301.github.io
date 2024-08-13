@@ -58,3 +58,63 @@ summary: Communications Expectations
 * [Software Process Draft Slides (4up)]({attach}slides/SP.pdf)
 * [Software Process Draft Slides (1up)]({attach}slides/SP2.pdf)
 * [MVC Slides - Campbell]({attach}slides/MVC2.pdf)
+
+# Lab 5 -- Firestore
+
+* [Firestore Introduction]({attach}slides/Firestore.pdf)
+* [Lab 5 Firestore Integration Instructions]({attach}slides/Lab5FInteg.pdf)
+
+# Software Process (Continued)
+
+* [Requirements Draft Slides (4up)]({attach}slides/SP05.pdf)
+* [Requirements Draft Slides (1up)]({attach}slides/SP05_2.pdf)
+
+# Lab 6 -- JUnit and TDD in Android, Javadoc
+
+* [Lab6_Instructions_W24]({attach}slides/L6Junit.pdf)
+* [Lab 6 Slides - Javadoc]({attach}slides/Javadoc.pdf)
+* [Lab 6 Slides - JUnit]({attach}slides/JUnit.pdf)
+* [Lab 6 Instructions for Javadoc and JUnit testing]({attach}slides/L6InsJavadoc.pdf)
+
+# Testing 
+
+* [Testing Draft Slides (4up)]({attach}slides/06_Testing_4up.pdf)
+* [Testing Draft Slides (1up)]({attach}slides/06_Testing.pdf)
+* [Newer Testing Slides (1up)]({attach}slides/06-Testing.pdf)
+
+# Lab 7 -- Intent Testing
+
+* [Lab7 Instructions]({attach}slides/L7IntentTesting.pdf)
+
+# Lab 8 -- GitHub Actions
+
+* [Lab 8 Slides - TDD and CI With GH Action (New)]({attach}slides/TDD.pdf)
+* [Lab 8 Slides - GitHub Actions (Old)]({attach}slides/GH.pdf)
+* [Lab 8 Instructions - GitHub Actions]({attach}slides/L8_Action.pdf)
+
+# Design Patterns
+
+* [Design Patterns Part I Draft Slides (4up)]({attach}slides/07-Patterns-01.4up.pdf)
+* [Design Patterns Part I Draft Slides (1up)]({attach}slides/07-Patterns-01.pdf)
+* [Design Patterns Part II Draft Slides (4up)]({attach}slides/07-Patterns-02.4up.pdf)
+* [Design Patterns Part II Draft Slides (1up)]({attach}slides/07-Patterns-02.pdf)
+* [Design Patterns Part III Draft Slides (4up)]({attach}slides/07-Patterns-03.4up.pdf)
+* [Design Patterns Part III Draft Slides (1up)]({attach}slides/07-Patterns-03.pdf)
+* [Design Patterns Part IV Draft Slides (4up)]({attach}slides/07-Patterns-04.4up.pdf)
+* [Design Patterns Part IV Draft Slides (1up)]({attach}slides/07-Patterns-04.pdf)
+* [Decorator Pattern Slides (4up)]({attach}slides/decorator-pattern-talk.pdf)
+
+
+# UML Sequence Diagram
+
+* [Sequence Diagram Draft Slides (4up)]({attach}slides/Sequence_Diagram_4up.pdf)
+* [Sequence Diagram Draft Slides (1up)]({attach}slides/Sequence_Diagram_1up.pdf)
+
+# Design Patterns (Continued)
+
+* [Refactoring Draft Slides (4up)]({attach}slides/08-Refactoring_4up.pdf)
+* [Refactoring Draft Slides (1up)]({attach}slides/08-Refactoring.pdf)
+
+# Refactoring 
+
+* [Review Slides (1up)]({attach}slides/10_Review.pdf)
