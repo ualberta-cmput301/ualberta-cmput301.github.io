@@ -22,12 +22,15 @@ summary: Communications Expectations
 * [MVC and Android Part I Draft Slides (1up)]({attach}slides/MVCAndroidPart1.pdf)
 * [MVC and Android Part II Draft Slides (4up)]({attach}slides/MVCAndroid4up2.pdf)
 * [MVC and Android Part II Draft Slides (1up)]({attach}slides/MVC_AP2DS.pdf)
-* [MVC and Android Part II Draft Slides (4up)]({attach}slides/)
 
-# Lab Slides 
+
+# Lab 2 -- More Java, Android 
 
 * [Lab 2 Introduction and OOP Slides]({attach}slides/lab002slides.pdf)
 * [Java Notes for Professionals]({attach}slides/JNP.pdf)
+* [Lab 2 Android Basics]({attach}slides/LAB.pdf)
+* [Lab 2 Android Basics [W 23]]({attach}slides/LAB2.pdf)
+* [Lab 2 ListView Demo Example - Instructions]({attach}slides/LC.pdf)
 
 
 # Android Activities Resources 
@@ -35,4 +38,10 @@ summary: Communications Expectations
 * [Android Studion Tips]({attach}slides/AST.pdf)
 * [Android Activities]({attach}slides/AA.pdf)
 * [Android Notes for Professionals]({attach}slides/ANP.pdf)
+
+
+# Objects, UML, Java (Continued)
+
+* [B2 OO Slides (has navigability)]({attach}slides/BOO.pdf)
+
 
