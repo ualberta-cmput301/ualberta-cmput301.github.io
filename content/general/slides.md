@@ -43,5 +43,18 @@ summary: Communications Expectations
 # Objects, UML, Java (Continued)
 
 * [B2 OO Slides (has navigability)]({attach}slides/BOO.pdf)
+* [B2 Mentis for Review]({attach}slides/MidRev.pdf)
 
 
+# Lab 4 -- Git and GitHub
+
+* [Lab 4 Slides]({attach}slides/Lab4_GitGithub.pdf)
+* [Git Introduction and Practices Notes (Wang)]({attach}slides/Git_Introduction_and_Practices.pdf)
+* [Hand drawn Models of Git: Wizard Towers versus Centralized]({attach}slides/HDMofG.pdf)
+
+
+# Software Process 
+
+* [Software Process Draft Slides (4up)]({attach}slides/SP.pdf)
+* [Software Process Draft Slides (1up)]({attach}slides/SP2.pdf)
+* [MVC Slides - Campbell]({attach}slides/MVC2.pdf)
