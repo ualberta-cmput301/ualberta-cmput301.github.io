@@ -8,6 +8,11 @@ summary: Resources, Reference Materials, Notes, Videos, Slides
 ----
 
 [TOC]
+This page lists selected videos and course resources from the [Software Product Management MOOC Specialization](https://www.coursera.org/specializations/product-management), and the [Software Design and Architecture MOOC Specialization](https://www.coursera.org/specializations/software-design-architecture), two of several [University of Alberta MOOCs](https://www.ualberta.ca/en/admissions-programs/online-courses/index.html#utm_campaign=vanity&utm_source=vanity&utm_medium=vanity&utm_content=uab.ca%2Fmoocs) available at [Coursera](https://www.coursera.org/).
+
+This material is copyrighted by the University of Alberta.
+
+**You must be authenticated with your @ualberta.ca Google account to access the links.**
 
 # Coursera
 

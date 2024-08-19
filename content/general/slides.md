@@ -13,7 +13,7 @@ summary: Communications Expectations
 
 * [Objects UML Java Slides]({attach}slides/02-OO.pdf)
 * [OOP Notes]({attach}slides/OONotes.pdf)
-
+* [Objects, UML, and Java Draft Slides (4up)]({attach}slides/02-OO.4up.pdf)
 
 # Object-Oriented Graphical User Interfaces
 
@@ -32,6 +32,14 @@ summary: Communications Expectations
 * [Lab 2 Android Basics [W 23]]({attach}slides/LAB2.pdf)
 * [Lab 2 ListView Demo Example - Instructions]({attach}slides/LC.pdf)
 
+# Lab3 -- Java Code Conventions, More Android 
+
+* [Lab 3 Slides [Winter 2024]]({attach}slides/Lab_3_Slides_Winter_2023.pdf)
+* [Lab 3 Instructions [Winter 2024]]({attach/Lab_3_Instructions_Winter_2023.pdf})
+* [Lab 3 Instructions - CustomList]({attach/Lab_3_instructions_CustomList.pdf})
+* [Lab 3 Instructions - Fragments]({attach}/Lab_3_Instructions_Fragments.pdf)
+* [Android Fragments Notes + Example]({attach/Android_Fragments_Notes_Example.pdf})
+* [Code Conventions (Schoepp)]({attach}/Code_Conventions_Schoepp.pdf)
 
 # Android Activities Resources 
 
@@ -48,6 +56,7 @@ summary: Communications Expectations
 
 # Lab 4 -- Git and GitHub
 
+* [Lab 4 Slides[Winter 2024]]({attach}slides/CMPUT_301_Lab4_Slides.pptx)
 * [Lab 4 Slides]({attach}slides/Lab4_GitGithub.pdf)
 * [Git Introduction and Practices Notes (Wang)]({attach}slides/Git_Introduction_and_Practices.pdf)
 * [Hand drawn Models of Git: Wizard Towers versus Centralized]({attach}slides/HDMofG.pdf)
