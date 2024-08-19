@@ -23,8 +23,7 @@ summary: Communications Expectations
 * [MVC and Android Part II Draft Slides (4up)]({attach}slides/MVCAndroid4up2.pdf)
 * [MVC and Android Part II Draft Slides (1up)]({attach}slides/MVC_AP2DS.pdf)
 
-# Lab 1 -- Java, OOP, Android Studio
-* [Lab 1 Slides]({attach}slides/CMPUT_301_LAB_2024_01_09.pdf)
+
 
 # Lab 2 -- More Java, Android 
 

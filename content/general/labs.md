@@ -9,81 +9,22 @@ summary: Lab Procedure, Lab Assignments, Lab Marking
 
 [TOC]
 
-# Lab Things Go Here
+# Lab 1
 
-# Lab 1 -- Java, OOP, Android Studio
+* [Lab 1 Slides]({attach}slides/CMPUT_301_LAB_2024_01_09.pdf)
+* [Lab 1 Instructions]({filename}lab1.md)
+* [Lab 1 Participation Exercise]({filename}lab_part.md)
 
-**Lab 1 Instructions**
+# Lab 2
 
-Download and install Android Studio from the official Android website
+* [Lab 2 Instructions]({filename}lab2_instructions.md)
+* [Lab 2 Participation Exercise]({filename}lab2_participation.md)
 
-https://developer.android.com/studio
+# Lab 3
 
-Check for specific installation guide unique to your Operating System
+* [Lab 3 Instructions - What we'll do in lab!]({filename}lab3_inst.md)
+* [Lab 3 Participation Exercise]({filename}lab3_part.md)
 
-**https://developer.android.com/studio/install**
+# Lab 4
 
-Follow the following instructions
-
-**############# LAB Demo #####################**
-
-1. Create a new LonelyTwitter project. Make sure that the project language is Java, not Kotlin!
-
-+ Create Tweet Class (Click > New > Java Class)
-+ Make attributes (Date date & String message) (use alt+enter to include)
-    + Note: Access modifiers
-        * private= class only
-        * No modifier = within package
-        * protected = through inheritance
-        * public = everyone!
-+ Create two Constructors (one with the only Message and the other with Date+Message as arguments) and use Date = new Date() (current date and time) for the first constructor (the Default value for date).
-+ Note: Java Object Class (everything extends it, calls its constructor and it has built-in methods like toString())
-+ Note: the this keyword (message = message doesn't do anything!)
-+ Make a regular tweet in LonelyTwitterActivity (pass in an empty string)
-
-2. Getters and setters
-
-3. Inheritance
-
-+ Make ImportantTweet child class (extends Tweet)
-    + call super in both of ImportantTweet's constructors
-+ Now have access to the parent's methods and attributes. except constructors! (try and make an important Tweet)
-
-```java
-ImportantTweet(String message){
-        super(message);
-    }
-```
-+ Super calls the parent's constructor (there is a hidden call to Object's constructor)
-+ Change the Tweet to an ImportantTweet in LonelyTwitterActivity
-
-4. Abstract Stuff
-
-+ Make Tweet Class Abstract
-
-    + public abstract class Tweet { ... }
-    + public abstract Boolean isImportant();
-+ What if they need to behave differently? @Override isImportant() to create a compile-time check
-
-+ Make a NormalTweet class, could have many types of tweets
-
-    + call super in both of  NormalTweet's constructors
-    + isImportant method should return Boolean.FALSE
-+ What if we want to use both in our list? (Implicit upcasting)
-
-ArrayList<Tweet> tweetList = new ArrayList<Tweet>();
-tweetList.add(normalTweet);
-
-+ Abstract method and base class so all the classes have the isImportant() method
-
-+ An interface can also be used to force the use of some methods
-
-```java
-public interface Tweetable {
-     public String getMessage();
-     public Date getDate();
-   }
-```
-+ Make Tweet implement Tweetable
-
-
+* [Lab 4 Participation Exercise]({filename}lab4_part.md)
