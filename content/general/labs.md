@@ -28,3 +28,4 @@ summary: Lab Procedure, Lab Assignments, Lab Marking
 # Lab 4
 
 * [Lab 4 Participation Exercise]({filename}lab4_part.md)
+* [PAST Lab Git Notes (Romansky)]({filename}past_notes.md)
