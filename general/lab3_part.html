@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>CMPUT 301 - Lab3 Participation Exercise</title>
+        <meta charset="utf-8" />
+        <meta name="generator" content="Pelican" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Software Engineering" />
+        <link href="https://ualberta-cmput301.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Full Atom Feed" />
+        <link href="https://ualberta-cmput301.github.io/feeds/general.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Categories Atom Feed" />
+
+  <link rel="icon" href="https://ualberta-cmput301.github.io/theme/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/301.css" />
+
+
+
+
+    <meta name="tags" content="labs" />
+    <meta name="tags" content="policy" />
+    <meta name="tags" content="grading" />
+
+</head>
+
+<body>
+        <header>
+              <hgroup><h1><a href="https://ualberta-cmput301.github.io/">CMPUT 301</a></h1><p>Software Engineering</p></hgroup>
+        <nav><ul>
+            <li><a href="/general/outline.html">Outline</a></li>
+            <li><a href="#TODO">eClass</a></li>
+            <li><a href="/#schedule">Schedule</a></li>
+            <li><a href="/general/labs.html">Labs</a></li>
+            <li><a href="/general/project.html">Project</a></li>
+            <li><a href="/general/individual.html">Individual</a></li>
+            <li><a href="/general/resources.html">Resources</a></li>
+            <li><a href="/general/help.html">Help</a></li>
+        </ul></nav>
+        </header>
+        <main>
+<article>
+  <header>
+    <h2>
+      <a href="https://ualberta-cmput301.github.io/general/lab3_part.html" rel="bookmark"
+         title="Permalink to Lab3 Participation Exercise">Lab3 Participation Exercise</a></h2>
+ 
+  </header>
+  <div class="toc">
+<ul>
+<li><a href="#lab-3-participation-exercise">Lab 3 Participation Exercise</a></li>
+</ul>
+</div>
+<h3 id="lab-3-participation-exercise">Lab 3 Participation Exercise</h3>
+<p>Due: Friday, 26 January 2024, 4:00 PM
+Note: Proper completion of this exercise is considered as part of course participation.</p>
+<p>Task: Add functionality to ListyCity to allow editing an existing city. The specifics of the design of this functionality are up to you.</p>
+<p>If you could not attend the labs or do not have the code for the updated Lab 3 ListyCity, follow Lab 3 Instructions for ListyCity CustomList and then ListyCity Fragment. You can also download the "Lab 3 Demo" code from eClass.</p>
+<p><strong>Your app does not need to look exactly like the screenshots. All that is required is the ability to edit an existing city. You can implement it and make it look like however you want.</strong></p>
+<p align="left">
+  <img src="/content/general/slides/img1_lab3.png" alt="Screen1" width="500" style="margin-right: 20px;"/>
+  <img src="/content/general/slides/img2_lab3.png" alt="Screen2" width="500" style="margin-right: 20px;"/>
+  <img src="/content/general/slides/img3_lab3.png" alt="Screen3" width="500" style="margin-right: 20px;"/>
+</p>
+
+<p align="left">
+  <img src="/content/general/slides/img4_lab3.png" alt="Screen4" width="500" style="margin-right: 20px;"/>
+</p>
+
+<p>Hints:
+1. <strong>Add setters</strong> to your City class so that you can modify its name and province.</p>
+<ol>
+<li>You may need to <strong>pass the City object that is clicked in the Activity into the Fragment.</strong> One way to do this is to <strong>make a constructor for the Fragment that takes in a City,</strong> and <strong>store the City in the Fragment as an instance variable.</strong> If you do this, make sure to also add an empty constructor to the Fragment so you can use it when adding a new City.
+Another way you can send a City object from the Activity to the Fragment is by adding a <strong>"newInstance" method in the Fragment,</strong> and use this method to create a new Fragment when editing a City. In this method, you <strong>take in a City and store it in the Fragment's Bundle object</strong> (if you do this, <strong>make sure that your City class implements the "Serializable" interface, so that it can be saved into the Bundle</strong>). Later on in your onCreateDialog method, you can <strong>access the Bundle using getArguments() and retrieve the City object there.</strong> Note that storing data in a Bundle is similar to storing data in an Intent using key-value pairs. (This is the preferred way to do it in Android, because you usually should not have custom constructors for your Fragments. See here for more info).</li>
+</ol>
+<p>Example of a newInstance method in AddCityFragment (Hint #3) </p>
+<p align="left">
+  <img src="/content/general/slides/img4_lab2.png" alt="Screen4" width="500" style="margin-right: 20px;"/>
+</p>
+
+<p>You should submit your exercise solution as a zip or tar archive.</p>
+  <footer>
+    <p>Published: <time datetime="2024-01-06T00:00:00-07:00">
+      Sat, 06 Jan 2024 at 00:00 MST
+    </time></p>
+    <address>
+      By           <a href="https://ualberta-cmput301.github.io/author/samuel-iwuchukwu.html">Samuel Iwuchukwu</a>
+          <a href="https://ualberta-cmput301.github.io/author/hazel-victoria-campbell.html">Hazel Victoria Campbell</a>
+    </address>
+    <p>
+        Category: <a href="https://ualberta-cmput301.github.io/category/general.html">general</a>
+    </p>
+    <p>
+        Tags:
+            <a href="https://ualberta-cmput301.github.io/tag/labs.html">labs</a>
+            <a href="https://ualberta-cmput301.github.io/tag/policy.html">policy</a>
+            <a href="https://ualberta-cmput301.github.io/tag/grading.html">grading</a>
+    </p>
+  </footer>
+  </article>
+        </main>
+        <footer>
+                <address>
+                Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>,
+                which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
+                </address>
+        </footer>
+</body>
+</html>
