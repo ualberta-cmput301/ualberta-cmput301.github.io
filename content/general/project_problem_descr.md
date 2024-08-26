@@ -26,21 +26,22 @@ Create an event management system where attendees check in using QR codes on the
 
 2. Firebase Integration:
 
-Utilize Firebase for storing event details, attendee lists, and real-time check-in status updates.
+    + Utilize Firebase for storing event details, attendee lists, and real-time check-in status updates.
 
-Multi-User Interaction:
+3. Multi-User Interaction:
 
-Distinguish between organizers and attendees with different app roles and permissions.
+    + Distinguish between organizers and attendees with different app roles and permissions.
 
-Geolocation Verification (Optional):
+4. Geolocation Verification (Optional):
 
-Optionally use geolocation to verify that attendees are physically present at the event location during check-in.
+    + Optionally use geolocation to verify that attendees are physically present at the event location during check-in.
 
-Image Upload:
+5. Image Upload:
 
-Allow organizers to upload event posters and attendees to upload profile pictures for a more personalized experience.
+    + Allow organizers to upload event posters and attendees to upload profile pictures for a more personalized experience.
 
-Scenario:
+**Scenario:**
+
 Update for Project 3:
 
 John, an event organizer, opens the QRCheckIn app for an upcoming tech conference. He generates a unique QR code for the event. Potential attendees browse the events and notice John's event, they view the event poster, and then click sign up to indicate they will attend the event as an attendee. As attendees arrive, they use the app to scan the QR code, automatically checking them into the conference. The app updates John's dashboard in real-time, showing the current attendance. John can also send push notifications to all attendees through the app.
@@ -48,25 +49,29 @@ John, an event organizer, opens the QRCheckIn app for an upcoming tech conferenc
 Scenario for Project 2:
  John, an event organizer, opens the QRCheckIn app for an upcoming tech conference. He generates a unique QR code for the event. As attendees arrive, they use the app to scan the QR code, automatically checking them into the conference. The app updates John's dashboard in real-time, showing the current attendance. John can also send push notifications to all attendees through the app.
 
-Actors:
-Organizer: a person who organizes the event and is in control of an event
+**Actors:**
 
-Attendee: a person who attends the event
++ Organizer: a person who organizes the event and is in control of an event
 
-Administrator: the entity that is responsible for the infrastructure that the game runs on.
++ Attendee: a person who attends the event
 
-Glossary:
-QR Code: a scannable code, either a barcode, a QR code, or other code scannable by Zebra crossing libraries or google QR code scanning libraries.
++ Administrator: the entity that is responsible for the infrastructure that the game runs on.
+
+**Glossary:**
+
++ QR Code: a scannable code, either a barcode, a QR code, or other code scannable by Zebra crossing libraries or google QR code scanning libraries.
 
 
-User Stories:
+**User Stories:**
+
 User needs are expressed in the form of partial user stories:
 
 As a <role>, I want <goal>.
 
 These descriptions may change to correct omissions and clarify noticed issues. New requirements will be introduced for the final project part.
 
-Organizer:
+**Organizer:**
+
 US 01.01.01 As an organizer, I want to create a new event and generate a unique QR code for attendee check-ins.
 
 US 01.01.02 As an organizer, I want the option to reuse an existing QR code for attendee check-ins.
@@ -91,7 +96,8 @@ US 01.09.01 As an organizer, I want to see how many times an attendee has checke
 
 [New for Part 3] US 01.11.01 As an organizer, I want to OPTIONALLY limit the number of attendees that can sign up for an event.
 
-Attendee:
+**Attendee:**
+
 US 02.01.01 As an attendee, I want to quickly check into an event by scanning the provided QR code.
 
 US 02.02.01 As an attendee, I want to upload a profile picture for a more personalized experience.
@@ -115,10 +121,12 @@ US 02.06.01 As an attendee, I do not want to login to the app. No username, no p
 [New for Part 3] US 02.09.01 As an attendee, I want to know what events I signed up for currently and in and in the future.
 
 
-Both:
+**Both:**
+
 US 03.02.01 As a user, I want the option to enable or disable geolocation tracking for event verification.
 
-Administrator:
+**Administrator:**
+
 US 04.01.01 As an administrator, I want to be able to remove events.
 
 US 04.02.01 As an administrator, I want to be able to remove profiles.
