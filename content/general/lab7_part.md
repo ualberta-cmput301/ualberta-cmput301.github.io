@@ -24,7 +24,12 @@ ShowActivity (create by yourself to have the following property)
     - Check whether the activity correctly switched
 
     - Test whether the city name is consistent
-    
+
     - Test the "back" button
 
 Submit the whole Project folder (not just source files or the 'app' directory)
+
+
+  <img src="/content/general/slides/lab7_img1.png" alt="Screen1" width="500" />
+  <img src="/content/general/slides/lab7_img2.png" alt="Screen2" width="500"/>
+  
