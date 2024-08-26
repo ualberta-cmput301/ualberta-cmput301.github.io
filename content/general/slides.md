@@ -101,6 +101,7 @@ summary: Slides and per-topic resources
 * [Lab 8 Slides - TDD and CI With GH Action (New)]({attach}slides/TDD.pdf)
 * [Lab 8 Slides - GitHub Actions (Old)]({attach}slides/GH.pdf)
 * [Lab 8 Instructions - GitHub Actions]({attach}slides/L8_Action.pdf)
+* [B2 Midterm 2 Mentis for Review]({attach}slides/301_Midterm2Review.pdf)
 
 # Design Patterns
 
