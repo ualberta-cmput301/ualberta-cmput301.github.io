@@ -17,3 +17,5 @@ summary: 301 Group Project
 [Project demo schedule](https://eclass.srv.ualberta.ca/mod/page/view.php?id=7590578)
 
 [Project Part 0]({filename}project_part0.md)
+
+[Project Part 1]({filename}project_part1.md)
