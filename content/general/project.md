@@ -10,14 +10,16 @@ summary: 301 Group Project
 
 # Project 
 
-[Project Problem Description]({filename}project_problem_descr.md)
+* [Project Problem Description]({filename}project_problem_descr.md)
 
-[Project Teams](https://eclass.srv.ualberta.ßca/mod/page/view.php?id=7590577)
+* [Project Teams](https://eclass.srv.ualberta.ßca/mod/page/view.php?id=7590577)
 
-[Project demo schedule](https://eclass.srv.ualberta.ca/mod/page/view.php?id=7590578)
+* [Project demo schedule](https://eclass.srv.ualberta.ca/mod/page/view.php?id=7590578)
 
-[Project Part 0]({filename}project_part0.md)
+* [Project Part 0]({filename}project_part0.md)
 
-[Project Part 1]({filename}project_part1.md)
+* [Project Part 1]({filename}project_part1.md)
 
-[Project Part 2 -- Preparation]({filename}project_part2.md)
+* [Project Part 2 -- Preparation]({filename}project_part2.md)
+
+* [Project Part 3 -- Half-Way Checkpoint]({filename}project_part3.md)
