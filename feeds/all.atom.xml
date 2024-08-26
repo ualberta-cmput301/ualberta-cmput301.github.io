@@ -11,7 +11,113 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#coming-soon"&gt;Coming soon&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/div&gt;</content><category term="general"></category><category term="outline"></category><category term="policy"></category><category term="grading"></category><category term="contact"></category></entry><entry><title>Lab 1 Instructions</title><link href="https://ualberta-cmput301.github.io/general/lab1.html" rel="alternate"></link><published>2024-08-19T00:00:00-06:00</published><updated>2024-08-19T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-19:/general/lab1.html</id><summary type="html">&lt;p&gt;Lab Instructions&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;/div&gt;</content><category term="general"></category><category term="outline"></category><category term="policy"></category><category term="grading"></category><category term="contact"></category></entry><entry><title>Lab 6 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/general/lab6_part.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/general/lab6_part.html</id><summary type="html">&lt;p&gt;Lab 6 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#lab-6-participation-exercise"&gt;Lab 6 Participation Exercise&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="lab-6-participation-exercise"&gt;Lab 6 Participation Exercise&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Due:&lt;/strong&gt; Friday, 16 February 2024, 4:00 PM&lt;/p&gt;
+&lt;p&gt;Proper completion of this exercise is considered as part of course participation.&lt;/p&gt;
+&lt;p&gt;In this exercise your task is to &lt;strong&gt;implement and test&lt;/strong&gt; the following methods in the CityList class &lt;strong&gt;AND create Javadocs&lt;/strong&gt; for the main source files (not tests):&lt;/p&gt;
+&lt;p&gt;1) Implement and test these methods:
+    - hasCity(City city)
+        - When given a city, return whether or not it belongs in the list&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;    &lt;span class="k"&gt;-&lt;/span&gt; Test to see whether your method is correct (Read https://www.infoworld.com/article/3305792/comparing-java-objects-with-equals-and-hashcode.html) delete(City city)
+
+    &lt;span class="k"&gt;-&lt;/span&gt; Check if a city is present in the list. If it does then remove it from the list, if not then **throw an exception**
+
+    &lt;span class="k"&gt;-&lt;/span&gt; Test to see if your method actually removes it from the list
+
+    &lt;span class="k"&gt;-&lt;/span&gt; Test to see if the exception is actually thrown (Read more here https://howtodoinjava.com/junit5/expected-exception-example/) countCities()
+
+    &lt;span class="k"&gt;-&lt;/span&gt; Return how many cities are in the list
+
+    &lt;span class="k"&gt;-&lt;/span&gt;  Test to see whether your method is correct
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;2) Add Javadocs to all methods in CityList class and City class &lt;strong&gt;AND&lt;/strong&gt; generate the javadocs to &lt;project-name&gt;/app/javadocs&lt;/p&gt;
+&lt;p&gt;Submit the whole Project folder (not just source files or 'app')directory&lt;/p&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 7 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/general/lab7_part.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/general/lab7_part.html</id><summary type="html">&lt;p&gt;Lab 7 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#lab-7-participation-exercise"&gt;Lab 7 Participation Exercise&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="lab-7-participation-exercise"&gt;Lab 7 Participation Exercise&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Due:&lt;/strong&gt; Friday, 1 March 2024, 4:00 PM&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;# Implement and test activity:&lt;/strong&gt;
+ShowActivity (create by yourself to have the following property)&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;- By clicking on the city list, the UI should change to another activity which is &amp;quot;ShowActivity&amp;quot;
+
+- The activity shows the city name you have clicked on
+
+- Create a back button which goes back to MainActivity
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;# Test: (create 3 test cases/functions to test the 3 following functionalities)&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;- Check whether the activity correctly switched
+
+- Test whether the city name is consistent
+
+- Test the &amp;quot;back&amp;quot; button
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Submit the whole Project folder (not just source files or the 'app' directory)&lt;/p&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab5 Instructions</title><link href="https://ualberta-cmput301.github.io/general/lab5_instruct.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/general/lab5_instruct.html</id><summary type="html">&lt;p&gt;Lab5 Instructions&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#lab-5-instructions"&gt;Lab 5 Instructions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="lab-5-instructions"&gt;Lab 5 Instructions&lt;/h3&gt;
+&lt;p&gt;Read &lt;a href="https://ualberta-cmput301.github.io/general/slides/Firestore.pdf"&gt;Firestore 🔥.pdf&lt;/a&gt; for introduction of Firestore
+Follow instructions on &lt;a href="https://ualberta-cmput301.github.io/general/slides/Lab5FInteg.pdf"&gt;Lab 5 Firestore Integration Instructions.pdf&lt;/a&gt; along with the TA.
+Complete Lab Exercise.&lt;/p&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab5 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/general/lab5_part.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/general/lab5_part.html</id><summary type="html">&lt;p&gt;Lab5 Instructions&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#lab-5-participation-exercise"&gt;Lab 5 Participation Exercise&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#note-the-design-of-the-deletion-functionality-is-up-to-you-however-we-have-uploaded-a-few-mockups-to-give-you-some-ideas"&gt;Note: the design of the deletion functionality is up to you, however, we have uploaded a few mockups to give you some ideas.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="lab-5-participation-exercise"&gt;Lab 5 Participation Exercise&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Due:&lt;/strong&gt; Friday, 9 February 2024, 4:00 PM&lt;/p&gt;
+&lt;p&gt;Proper completion of this exercise is considered as part of course participation.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;In this exercise it is your task to add the ability to delete Cities and integrate this functionality with the Firestore database, allowing for the persistence of deletions.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;After applying the changes in the lab demo &lt;a href="https://ualberta-cmput301.github.io/general/slides/Lab5FInteg.pdf"&gt;(LINK TO INSTRUCTIONS)&lt;/a&gt; to &lt;a href="https://github.com/simpleParadox/CMPUT-301-CustomList"&gt;CustomList&lt;/a&gt;, add the ability to delete cities from the ListView and apply these same deletions to your instance of the Firestore database. If you have implemented this functionality correctly, restarting your app should not have an impact on what cities are displayed in your ListView after any addition or deletion actions.&lt;/p&gt;
+&lt;h4 id="note-the-design-of-the-deletion-functionality-is-up-to-you-however-we-have-uploaded-a-few-mockups-to-give-you-some-ideas"&gt;&lt;strong&gt;Note: the design of the deletion functionality is up to you, however, we have uploaded a few mockups to give you some ideas.&lt;/strong&gt;&lt;/h4&gt;
+&lt;p align="left"&gt;
+  &lt;img src="/content/general/slides/lab5_img1.png" alt="Screen1" width="500" style="margin-right: 20px;"/&gt;
+  &lt;img src="/content/general/slides/lab5_img2.png" alt="Screen2" width="500" style="margin-right: 20px;"/&gt;
+  &lt;img src="/content/general/slides/lab5_img3.png" alt="Screen3" width="500" style="margin-right: 20px;"/&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;When submitting, please upload the whole Android Studio Project Folder (not just the source files or the 'app' directory), and give it a unique name.&lt;/strong&gt;&lt;/p&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab6 Instructions</title><link href="https://ualberta-cmput301.github.io/general/lab6_instruct.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/general/lab6_instruct.html</id><summary type="html">&lt;p&gt;Lab6 Instructions&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#lab-6-instructions"&gt;Lab 6 Instructions&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#some-known-issues"&gt;Some known issues:&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="lab-6-instructions"&gt;Lab 6 Instructions&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Follow the slides on Javadoc and JUnit&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Follow instructions on this &lt;a href="https://ualberta-cmput301.github.io/general/slides/L6Junit.pdf"&gt;link&lt;/a&gt; along with the TA.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Complete Lab Exercise.  &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id="some-known-issues"&gt;Some known issues:&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;"test events were not received" --&amp;gt; Solution: &lt;a href="https://stackoverflow.com/a/73009440/1496554"&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;"Erro creating JavaDoc" --&amp;gt; Solution: &lt;a href="https://stackoverflow.com/a/73102343/1496554"&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 1 Instructions</title><link href="https://ualberta-cmput301.github.io/general/lab1.html" rel="alternate"></link><published>2024-08-19T00:00:00-06:00</published><updated>2024-08-19T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-19:/general/lab1.html</id><summary type="html">&lt;p&gt;Lab Instructions&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
 &lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#lab-1-java-oop-android-studio"&gt;Lab 1 -- Java, OOP, Android Studio&lt;/a&gt;&lt;/li&gt;
@@ -639,6 +745,10 @@ to origin&lt;/p&gt;
 &lt;li&gt;&lt;a href="#lab-2"&gt;Lab 2&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#lab-3"&gt;Lab 3&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#lab-4"&gt;Lab 4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#lab-5"&gt;Lab 5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#lab-6"&gt;Lab 6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#lab-7"&gt;Lab 7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#lab-8"&gt;Lab 8&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;h3 id="lab-1"&gt;Lab 1&lt;/h3&gt;
@@ -661,7 +771,24 @@ to origin&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/lab4_part.html"&gt;Lab 4 Participation Exercise&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/past_notes.html"&gt;PAST Lab Git Notes (Romansky)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Learning Resources &amp; Reference Materials</title><link href="https://ualberta-cmput301.github.io/general/resources.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/resources.html</id><summary type="html">&lt;p&gt;Resources, Reference Materials, Notes, Videos, Slides&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;/ul&gt;
+&lt;h3 id="lab-5"&gt;Lab 5&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/lab5_instruct.html"&gt;Lab 5 Instructions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/lab5_part.html"&gt;Lab 5 Participation Exercise&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="lab-6"&gt;Lab 6&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/lab6_instruct.html"&gt;Lab 6 Instructions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/lab6_part.html"&gt;Lab 6 Participation Exercise&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="lab-7"&gt;Lab 7&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="{filename}lab7_instruct.md"&gt;Lab 7 Instructions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="./slides/Lab_7_starter_code.zip"&gt;Lab 7 Starter Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/lab7_part.html"&gt;Lab 7 Participation Exercise&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="lab-8"&gt;Lab 8&lt;/h3&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Learning Resources &amp; Reference Materials</title><link href="https://ualberta-cmput301.github.io/general/resources.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/resources.html</id><summary type="html">&lt;p&gt;Resources, Reference Materials, Notes, Videos, Slides&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
 &lt;p&gt;[TOC]
 This page lists selected videos and course resources from the &lt;a href="https://www.coursera.org/specializations/product-management"&gt;Software Product Management MOOC Specialization&lt;/a&gt;, and the &lt;a href="https://www.coursera.org/specializations/software-design-architecture"&gt;Software Design and Architecture MOOC Specialization&lt;/a&gt;, two of several &lt;a href="https://www.ualberta.ca/en/admissions-programs/online-courses/index.html#utm_campaign=vanity&amp;amp;utm_source=vanity&amp;amp;utm_medium=vanity&amp;amp;utm_content=uab.ca%2Fmoocs"&gt;University of Alberta MOOCs&lt;/a&gt; available at &lt;a href="https://www.coursera.org/"&gt;Coursera&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;This material is copyrighted by the University of Alberta.&lt;/p&gt;
