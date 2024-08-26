@@ -53,7 +53,8 @@ For example, the URL could be:
 
 https://github.com/CMPUT301F22T86/NukeItFromOrbit
 
-Hints
+## **Hints**
+
 This exercise can be completed with your team in the labs that cover git and GitHub.
 
 Emails using the wrong subject line may be missed as submissions.
