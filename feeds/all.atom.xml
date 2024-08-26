@@ -37,7 +37,25 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;2) Add Javadocs to all methods in CityList class and City class &lt;strong&gt;AND&lt;/strong&gt; generate the javadocs to &lt;project-name&gt;/app/javadocs&lt;/p&gt;
-&lt;p&gt;Submit the whole Project folder (not just source files or 'app')directory&lt;/p&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 7 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/general/lab7_part.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/general/lab7_part.html</id><summary type="html">&lt;p&gt;Lab 7 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;p&gt;Submit the whole Project folder (not just source files or 'app')directory&lt;/p&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 7 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/general/lab7_instruct.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/general/lab7_instruct.html</id><summary type="html">&lt;p&gt;Lab 7 Instructions&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#lab-7-instructions"&gt;Lab 7 Instructions&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#lab-topicdemo"&gt;Lab Topic/Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#lab-exercise"&gt;Lab Exercise&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="lab-7-instructions"&gt;Lab 7 Instructions&lt;/h3&gt;
+&lt;h4 id="lab-topicdemo"&gt;&lt;strong&gt;Lab Topic/Demo&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/L7IntentTesting.pdf"&gt;Lab7 Instructions-Android UI Testing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/iAniket23/Android-UI-testing"&gt;Lab 7 Starter Code&lt;/a&gt; (clone this repo)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="lab-exercise"&gt;&lt;strong&gt;Lab Exercise&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/lab7_part.html"&gt;Lab 7 Participation Exercise&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 7 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/general/lab7_part.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/general/lab7_part.html</id><summary type="html">&lt;p&gt;Lab 7 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#lab-7-participation-exercise"&gt;Lab 7 Participation Exercise&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -61,7 +79,20 @@ ShowActivity (create by yourself to have the following property)&lt;/p&gt;
 - Test the &amp;quot;back&amp;quot; button
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;Submit the whole Project folder (not just source files or the 'app' directory)&lt;/p&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab5 Instructions</title><link href="https://ualberta-cmput301.github.io/general/lab5_instruct.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/general/lab5_instruct.html</id><summary type="html">&lt;p&gt;Lab5 Instructions&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;p&gt;Submit the whole Project folder (not just source files or the 'app' directory)&lt;/p&gt;
+&lt;p&gt;&lt;img src="/content/general/slides/lab7_img1.png" alt="Screen1" width="500" /&gt;
+  &lt;img src="/content/general/slides/lab7_img2.png" alt="Screen2" width="500"/&gt;&lt;/p&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 8 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/general/lab8_part.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/general/lab8_part.html</id><summary type="html">&lt;p&gt;Lab 8 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#lab-8-participation-exercise"&gt;Lab 8 Participation Exercise&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="lab-8-participation-exercise"&gt;Lab 8 Participation Exercise&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Due:&lt;/strong&gt; Friday, 8 March 2024, 4:00 PM&lt;/p&gt;
+&lt;p&gt;Lab Exercise&lt;/p&gt;
+&lt;p&gt;• Implement has city, delete city, and count cities (same as lab 6), however, this time using TDD.&lt;/p&gt;
+&lt;p&gt;• Create each functionality one at a time, creating (and pushing) a test to create a failing build, before adding functionality to make it pass.&lt;/p&gt;
+&lt;p&gt;• e.g., create hasCity test, push for failing build, write functionality for hasCity to make passing build. Repeat for delete city and count cities.&lt;/p&gt;
+&lt;p&gt;Please submit the link to your repo/fork.&lt;/p&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab5 Instructions</title><link href="https://ualberta-cmput301.github.io/general/lab5_instruct.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/general/lab5_instruct.html</id><summary type="html">&lt;p&gt;Lab5 Instructions&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#lab-5-instructions"&gt;Lab 5 Instructions&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -117,7 +148,562 @@ Complete Lab Exercise.&lt;/p&gt;</content><category term="general"></category><c
 &lt;li&gt;
 &lt;p&gt;"Erro creating JavaDoc" --&amp;gt; Solution: &lt;a href="https://stackoverflow.com/a/73102343/1496554"&gt;link&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 1 Instructions</title><link href="https://ualberta-cmput301.github.io/general/lab1.html" rel="alternate"></link><published>2024-08-19T00:00:00-06:00</published><updated>2024-08-19T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-19:/general/lab1.html</id><summary type="html">&lt;p&gt;Lab Instructions&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;/ol&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Project Part 0</title><link href="https://ualberta-cmput301.github.io/general/project_part0.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/general/project_part0.html</id><summary type="html">&lt;p&gt;Project Part 0&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#project-part-0"&gt;Project Part 0&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#team-members"&gt;Team Members&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#submission-procedure"&gt;Submission Procedure&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="project-part-0"&gt;Project Part 0&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Due:&lt;/strong&gt; Monday, 22 January 2024, 4:00 PM&lt;/p&gt;
+&lt;h4 id="team-members"&gt;&lt;strong&gt;Team Members&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Project teams consist of 6 members and each member must be registered in the same lab section.&lt;/p&gt;
+&lt;p&gt;The intent is that all members are available together for a good block of time during the week, to regularly meet their assigned TA, and to attend their project demos in their registered lab, without potentially overloading the lab section.&lt;/p&gt;
+&lt;p&gt;You can propose a partial team if you need the instructor to fill in the missing members.&lt;/p&gt;
+&lt;h4 id="submission-procedure"&gt;&lt;strong&gt;Submission Procedure&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;One member of your team must send a plaintext email to both instructors with the specific subject line:
+CMPUT301 Team
+and a message body that lists the CCIDs of the members, one per line prefixed by the weekday of the lab section. For example:&lt;/p&gt;
+&lt;p&gt;Tuesday&lt;/p&gt;
+&lt;p&gt;gorman
+bishop
+hicks
+ferro
+drake
+vasquez&lt;/p&gt;</content><category term="general"></category><category term="projects"></category><category term="teams"></category><category term="grading"></category></entry><entry><title>Project Part 1</title><link href="https://ualberta-cmput301.github.io/general/project_part1.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/general/project_part1.html</id><summary type="html">&lt;p&gt;Project Part 1&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#project-part-1"&gt;Project Part 1&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#submission-procedure"&gt;Submission Procedure&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#hints"&gt;Hints&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="project-part-1"&gt;Project Part 1&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Due:&lt;/strong&gt; Monday, 5 February 2024, 4:00 PM&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Set up and use collaborative tools for team-based project development.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Collaborate in a team.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Exercise&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Your team is expected to use GitHub for a git repository and wiki to share, manage, and store your project artifacts.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;See the Project Teams page for the assigned name of your organization (e.g., CMPUT301W24T86).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Come up with a class project name, something interesting but respectful and professional.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Make a public git repository that is accessible at all times to team members, the TAs, and the instructor via GitHub. Record the repo URL.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create a doc/ directory in your repository, create a team.txt file within doc/, and have each of your team members make a distinct, versioned edit to that file. For each member, that edit must be a line with their CCID and GitHub username separated by a space.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(Later in the course, project documentation will be done using the GitHub wiki.)&lt;/p&gt;
+&lt;h4 id="submission-procedure"&gt;&lt;strong&gt;Submission Procedure&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;NEW PROCEDURE: ONE MEMBER OF THE TEAM uses this google form to submit project part 1 &lt;a href="https://forms.gle/b15gtms6s4Jodpj89"&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Alternatively you can do this, but the google form is preferred:&lt;/p&gt;
+&lt;p&gt;One member of the team must send a plaintext email to the course instructor with the subject line:
+CMPUT301 Repo
+and a message body with your team's repo URL.&lt;/p&gt;
+&lt;p&gt;The URL should be formatted like this:&lt;/p&gt;
+&lt;p&gt;https://github.com/Organization/ClassProjectName&lt;/p&gt;
+&lt;p&gt;This should be the git URL such that the TA can run:&lt;/p&gt;
+&lt;p&gt;git clone https://github.com/Organization/ClassProjectName&lt;/p&gt;
+&lt;p&gt;For example, the URL could be:&lt;/p&gt;
+&lt;p&gt;https://github.com/CMPUT301F22T86/NukeItFromOrbit&lt;/p&gt;
+&lt;h4 id="hints"&gt;&lt;strong&gt;Hints&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;This exercise can be completed with your team in the labs that cover git and GitHub.&lt;/p&gt;
+&lt;p&gt;Emails using the wrong subject line may be missed as submissions.&lt;/p&gt;</content><category term="general"></category><category term="projects"></category><category term="teams"></category><category term="grading"></category></entry><entry><title>Project Part 2</title><link href="https://ualberta-cmput301.github.io/general/project_part2.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/general/project_part2.html</id><summary type="html">&lt;p&gt;Project Part 2&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#project-part-2-preparation"&gt;Project Part 2 -- Preparation&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#learning-objectives"&gt;Learning Objectives&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#deliverables"&gt;Deliverables&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#product-backlog"&gt;Product Backlog:&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#user-interface-mockups-and-storyboard-sequences"&gt;User Interface Mockups and Storyboard Sequences:&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#object-oriented-analysis"&gt;Object-Oriented Analysis:&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#tool-use"&gt;Tool use:&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#hints"&gt;Hints&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#submission-procedure"&gt;Submission Procedure&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#individual-task-and-peer-review-form"&gt;Individual Task and Peer Review Form&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#marking"&gt;Marking&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="project-part-2-preparation"&gt;Project Part 2 -- Preparation&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Due:&lt;/strong&gt; Friday, 16 February 2024, 4:00 PM&lt;/p&gt;
+&lt;h4 id="learning-objectives"&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Refine requirements&lt;/li&gt;
+&lt;li&gt;Apply object-oriented analysis and design&lt;/li&gt;
+&lt;li&gt;Prototype a user interface.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="overview"&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;The project description outlines the problem and a set of needs. The entire project has several deliverables. Subsequent deliverables may be further refinements of earlier ones, and should address any TA feedback or concerns. This project part focuses on some initial preparations.&lt;/p&gt;
+&lt;h4 id="deliverables"&gt;&lt;strong&gt;Deliverables&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;The following components are required for this project part.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;h5 id="product-backlog"&gt;&lt;strong&gt;Product Backlog:&lt;/strong&gt;&lt;/h5&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Form the initial partial user stories into a backlog of the product's requirements. For each user story, estimate its size in story points, and denote its risk level (i.e., low, medium, or high). These requirements will likely evolve and should be maintained up-to-date throughout the project. Make sure they are numbered for easy reference. Note which stories will be released for the half-way checkpoint.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;h5 id="user-interface-mockups-and-storyboard-sequences"&gt;&lt;strong&gt;User Interface Mockups and Storyboard Sequences:&lt;/strong&gt;&lt;/h5&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Diagram the layout of your main user interface and major dialogs, with comments describing the important elements. Also, diagram storyboard sequences of using your application, with transitions between different states of the user interface, caused by the user manipulating the controls or providing input. Within the diagrams, reference the relevant requirements. Convincingly show all the requirements are covered.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;h5 id="object-oriented-analysis"&gt;&lt;strong&gt;Object-Oriented Analysis:&lt;/strong&gt;&lt;/h5&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Document your initial object-oriented analysis using CRC cards, focusing on the most important anticipated classes, their responsibilities, and collaborators.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;h5 id="tool-use"&gt;&lt;strong&gt;&lt;em&gt;Tool use:&lt;/em&gt;&lt;/strong&gt;&lt;/h5&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Regular and consistent use of GitHub by all team members to share files for the project deliverables, to effectively track issues, and to manage tasks.&lt;/p&gt;
+&lt;h4 id="hints"&gt;&lt;strong&gt;Hints&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Ask questions about the requirements. Your interpretation of a need or task may be more complex or sophisticated than what is actually desired. Involve the TA mentor for your team to gain feedback on your deliverables.&lt;/p&gt;
+&lt;p&gt;For neatness and readability, diagrams must be drawn well using a computer tool at a suitably legible scale for insertion into your document(s). Submitted diagram(s) must be embedded as image(s) in your team wiki, not linked externally.&lt;/p&gt;
+&lt;p&gt;You should look ahead to the future project parts and their deliverables to know what is coming. Do not wait until this part's deliverables are due before working on the next part.&lt;/p&gt;
+&lt;p&gt;Very likely, the requirements and user interface design will need to evolve during the project. You should keep this information up-to-date so that your team members are properly coordinated.&lt;/p&gt;
+&lt;h4 id="submission-procedure"&gt;&lt;strong&gt;Submission Procedure&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Use GitHub. Your team repo must be self-contained, i.e., not link to external content that might change.&lt;/p&gt;
+&lt;h4 id="individual-task-and-peer-review-form"&gt;&lt;strong&gt;Individual Task and Peer Review Form&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;After the due date, each member must complete an assessment form to describe his or her individual contribution to the project for this stage, and to review the performance of the other members.&lt;/p&gt;
+&lt;h4 id="marking"&gt;&lt;strong&gt;Marking&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Marking is holistically on the quality of the results. &lt;/p&gt;
+&lt;p&gt;No part marks, no extra marks. No half marks.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Failure (0) : &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Incomplete (such as lacking CRC cards) Or no submission&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Unsatisfactory (4)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A project that effort has been put into and doesn't meet the requirements described.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Satisfactory (5)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A project submission that is missing components.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Good (7)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A not-quite excellent submission that meets the the majority of all the requirements without problem. Very minor issues.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Excellent (8)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A excellent submission that meets the all the requirements without problem.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content><category term="general"></category><category term="projects"></category><category term="teams"></category><category term="grading"></category></entry><entry><title>Project Part 3</title><link href="https://ualberta-cmput301.github.io/general/project_part3.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/general/project_part3.html</id><summary type="html">&lt;p&gt;Project Part 3&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#project-part-3-half-way-checkpoint"&gt;Project Part 3 -- Half-Way Checkpoint&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#learning-objectives"&gt;Learning Objectives&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#deliverables"&gt;Deliverables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#restrictions"&gt;Restrictions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#hints"&gt;Hints&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#submission-procedure"&gt;Submission Procedure&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#individual-task-and-peer-review-form"&gt;Individual Task and Peer Review Form&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#marking"&gt;Marking&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="project-part-3-half-way-checkpoint"&gt;Project Part 3 -- Half-Way Checkpoint&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Due:&lt;/strong&gt; Friday, 8 March 2024, 4:00 PM&lt;/p&gt;
+&lt;h4 id="learning-objectives"&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Develop a usable, interactive, mobile application.&lt;/li&gt;
+&lt;li&gt;Refine object-oriented design.&lt;/li&gt;
+&lt;li&gt;Produce tests.&lt;/li&gt;
+&lt;li&gt;Follow scrum practices.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="overview"&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;This project part focuses on a working prototype with about half of the requirements. You must have some server connectivity working by this part.&lt;/p&gt;
+&lt;h4 id="deliverables"&gt;&lt;strong&gt;Deliverables&lt;/strong&gt;&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Addressing Feedback:&lt;/strong&gt;
+Address any TA feedback on the previous project part.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Code Base of Prototype:&lt;/strong&gt;
+Your source code will be inspected. The code should conform to some consistent coding convention. Your prototype should provide something tangible to the user, supporting about half the requirements. Maintain the source code in your source repository.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Code Documentation:&lt;/strong&gt;
+For each source code file, you should have a brief introductory comment describing its purpose or role within the application or a design pattern, as well as any currently outstanding issues. Provide Javadoc interface documentation for your model classes and their public methods (at least).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Test Cases:&lt;/strong&gt;
+Write runnable tests for your model and control classes. Provide intent tests for the requirements you have done. Deliver the test code to your source repository. If you have test data files, also include those. Test data should be realistic.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Object-Oriented Design:&lt;/strong&gt;
+Document your object-oriented design using a UML class diagram (or diagrams), including details on key attributes and methods. Add notes as appropriate to clarify. The diagram(s) will likely evolve.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Product Backlog:&lt;/strong&gt;
+Update the requirements as appropriate. Note which user stories are done at this checkpoint.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;User Interface Mockups and Storyboard Sequences:&lt;/strong&gt;
+Update these diagrams as appropriate.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Sprint Planning and Reviews:&lt;/strong&gt;
+Maintain a record of what user stories are planned for each weekly sprint at its start, including who is to work on them. For each intermediate week, in the lab, have a sprint review with your TA mentor and all team members present to review the completed user stories.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Demonstration:&lt;/strong&gt;
+During your team's assigned lab section after the due date (or possibly at a mutually arranged time), you must demo your working prototype to your TA mentor. All team members have to attend the demo.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Tool use:&lt;/strong&gt;
+Regular and consistent use of GitHub by all team members to share files for the project deliverables, to effectively track issues, and to manage tasks.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;There must be consistency across the deliverables at this checkpoint.&lt;/p&gt;
+&lt;p&gt;The evaluation of this project part will also include a component called "relative quality". This is used to differentiate projects that meet the minimum from projects that go "the extra mile".&lt;/p&gt;
+&lt;h4 id="restrictions"&gt;&lt;strong&gt;Restrictions&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Use Java, with Android, and Firestore.&lt;/p&gt;
+&lt;h4 id="hints"&gt;&lt;strong&gt;Hints&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Integrate early and often, even if some parts may have to be stubbed out to return canned data. Think about issues like server connectivity early in the design, rather than trying to retrofit them later.&lt;/p&gt;
+&lt;h4 id="submission-procedure"&gt;&lt;strong&gt;Submission Procedure&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Use GitHub. Your team repo must be self-contained, i.e., not link to external content that might change.&lt;/p&gt;
+&lt;p&gt;Please make sure your repository has the right version of code by the deadline. The TA will try to build your program from the submitted code. The TA may contact you if there are build issues.&lt;/p&gt;
+&lt;p&gt;If you reuse software, give proper credit to the original developers. Obtain approval for the use of third-party libraries as appropriate.&lt;/p&gt;
+&lt;h4 id="individual-task-and-peer-review-form"&gt;&lt;strong&gt;Individual Task and Peer Review Form&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;After the due date, each member must complete an assessment form to describe his or her individual contribution to the project for this stage, and to review the performance of the other members.&lt;/p&gt;
+&lt;h4 id="marking"&gt;&lt;strong&gt;Marking&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;No part marks, no extra marks. No half marks.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Failure (0) : &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Incomplete. Missing important components.&lt;/li&gt;
+&lt;li&gt;Or no submission&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Unsatisfactory (6)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A project that effort has been put into and doesn't meet the requirements described. Most deliverable points have been met.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Satisfactory (8)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A project submission that is missing components. Inconsistency is key. Missing important test cases. Lack of planning or adherence. Lack of attendance etc. Must demonstrate clear understanding of purpose and rationale behind deliverables.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Good (10)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A not-quite excellent submission that meets the the majority of all the requirements without problem.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Excellent (12)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A excellent submission that meets the all the requirements without problem.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content><category term="general"></category><category term="projects"></category><category term="teams"></category><category term="grading"></category></entry><entry><title>Project Part 4</title><link href="https://ualberta-cmput301.github.io/general/project_part4.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/general/project_part4.html</id><summary type="html">&lt;p&gt;Project Part 3&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#project-part-3-final-checkpoint"&gt;Project Part 3 -- Final Checkpoint&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#learning-objectives"&gt;Learning Objectives&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#deliverables"&gt;Deliverables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#restrictions"&gt;Restrictions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#submission-procedure"&gt;Submission Procedure&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#individual-task-and-peer-review-form"&gt;Individual Task and Peer Review Form&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#rubric"&gt;Rubric&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="project-part-3-final-checkpoint"&gt;Project Part 3 -- Final Checkpoint&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Due:&lt;/strong&gt; Monday, 8 April 2024, 4:00 PM&lt;/p&gt;
+&lt;h4 id="learning-objectives"&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Develop a usable, interactive, mobile application.&lt;/li&gt;
+&lt;li&gt;Produce a product demonstration.&lt;/li&gt;
+&lt;li&gt;Follow scrum practices.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="overview"&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Your product is ready to be released!&lt;/p&gt;
+&lt;p&gt;Most deliverables are final, consistent updates of what was initiated for the previous project part.&lt;/p&gt;
+&lt;h4 id="deliverables"&gt;&lt;strong&gt;Deliverables&lt;/strong&gt;&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Addressing feedback:&lt;/strong&gt;
+Address any TA feedback on the previous project part.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Code Base of Prototype:&lt;/strong&gt;
+Your source code will be inspected. The code should conform to some consistent coding convention. Maintain the source code in your source repository.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Code Documentation:&lt;/strong&gt;
+For each source file, you should have a brief introductory comment describing its purpose or role within the application or a design pattern, as well as any currently outstanding issues. Provide Javadoc interface documentation for your model classes and their public methods (at least).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Test Cases:&lt;/strong&gt;
+Write runnable tests for your model and control classes. Provide intent tests for the requirements you have done. Deliver the test code to your source repository. If you have test data files, also include those. Test data should be realistic.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Object-Oriented Design:&lt;/strong&gt;
+Update your object-oriented design using a UML class diagram (or diagrams), including details on key attributes and methods. Add notes as appropriate to clarify. Include notes on the use of design patterns among the classes.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Product Backlog:&lt;/strong&gt;
+Update the requirements as appropriate. Note which user stories are done at this checkpoint.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;User Interface Mockups and Storyboards:&lt;/strong&gt;
+Update these diagrams as appropriate.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Sprint Planning and Reviews:&lt;/strong&gt;
+Maintain a record of what user stories are planned for each weekly sprint at its start, including who is to work on them. For each intermediate week, in the lab, have a sprint review with your TA mentor and all team members present to review the completed user stories.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Demonstration:&lt;/strong&gt;
+Present an engaging demo. The final demo of your final prototype should show the usability of its user interface and the degree to which its functionality fulfills the user's needs. All team members must contribute to the demo. &lt;em&gt;20240327 clarification&lt;/em&gt;: During the last week of labs you and your team will present this demo in less than 4 minutes to the entire lab. It will be your app live, with your team members. No videos, audio, or powerpoint. Just your live app. Make backup videos of the functionality in case your demo fails. Practice your demo in the lab room ahead of time. Make sure you can present your app by testing the projector and your devices the week of April 2,3,4. All teams should participate.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Tool Use:&lt;/strong&gt;
+Regular and consistent use of GitHub by all team members to share files for the project deliverables, to effectively track issues, and to manage tasks.
+There must be consistency across the deliverables at this checkpoint.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The evaluation of this project part will also include a component called "relative quality". This is used to differentiate projects that meet the minimum from projects that go "the extra mile".&lt;/p&gt;
+&lt;h4 id="restrictions"&gt;&lt;strong&gt;Restrictions&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Use Java, with Android, and Firestore.&lt;/p&gt;
+&lt;h4 id="submission-procedure"&gt;&lt;strong&gt;Submission Procedure&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Use GitHub. Your team repo must be self-contained, i.e., not link to external content that might change.&lt;/p&gt;
+&lt;p&gt;Please make sure your repository has the right version of code by the deadline. The TA will try to build your program from the submitted code. The TA may contact you if there are build issues.&lt;/p&gt;
+&lt;p&gt;If you reuse software, give proper credit to the original developers. Obtain approval for the use of third-party libraries as appropriate.&lt;/p&gt;
+&lt;p&gt;This demo should have a logical flow in what is presented (following a story about what a user would naturally do, not just enumerating assorted features).&lt;/p&gt;
+&lt;h4 id="individual-task-and-peer-review-form"&gt;&lt;strong&gt;Individual Task and Peer Review Form&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;After the due date, each member must complete an assessment form to describe his or her individual contribution to the project for this stage, and to review the performance of the other members.&lt;/p&gt;
+&lt;h4 id="rubric"&gt;&lt;strong&gt;Rubric&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;No part marks, no extra marks. No half marks.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Failure (0) : &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Incomplete. Missing important components.&lt;/li&gt;
+&lt;li&gt;Or no submission&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Unsatisfactory (10)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A project that effort has been put into and doesn't meet the requirements described. Most deliverable points have been met.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Satisfactory (14)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A project submission that is missing components. Inconsistency is key. Missing important test cases. Lack of planning or adherence. Lack of attendance etc. Must demonstrate clear understanding of purpose and rationale behind deliverables.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Good (17)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A not-quite excellent submission that meets the majority of all the requirements without problem.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Excellent (20)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A flawless project that meets the requirements described.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content><category term="general"></category><category term="projects"></category><category term="teams"></category><category term="grading"></category></entry><entry><title>Project Problem Description</title><link href="https://ualberta-cmput301.github.io/general/project_problem_descr.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/general/project_problem_descr.html</id><summary type="html">&lt;p&gt;Project Problem Description&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#project-problem-description"&gt;Project Problem Description&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#qr-code-event-check-in-system"&gt;QR Code Event Check-In System&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#description"&gt;**Description: **&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#features"&gt;Features:&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="project-problem-description"&gt;Project Problem Description&lt;/h3&gt;
+&lt;p&gt;Warning: This is subject to change!&lt;/p&gt;
+&lt;h4 id="qr-code-event-check-in-system"&gt;&lt;strong&gt;QR Code Event Check-In System&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;You are to design and implement a simple, attractive, and easy-to-use Android application to satisfy the following goals. Your design must be flexible enough to allow developers to extend or migrate it.&lt;/p&gt;
+&lt;h4 id="description"&gt;**Description: **&lt;/h4&gt;
+&lt;p&gt;Create an event management system where attendees check in using QR codes on their mobile devices. Organizers can track attendance, manage event details, and send notifications.&lt;/p&gt;
+&lt;h4 id="features"&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;QR Code Scanning:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Attendees can use the app to scan event-specific QR codes for quick and seamless check-ins.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Firebase Integration:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Utilize Firebase for storing event details, attendee lists, and real-time check-in status updates.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Multi-User Interaction:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Distinguish between organizers and attendees with different app roles and permissions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Geolocation Verification (Optional):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Optionally use geolocation to verify that attendees are physically present at the event location during check-in.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Image Upload:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Allow organizers to upload event posters and attendees to upload profile pictures for a more personalized experience.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Scenario:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Update for Project 3:&lt;/p&gt;
+&lt;p&gt;John, an event organizer, opens the QRCheckIn app for an upcoming tech conference. He generates a unique QR code for the event. Potential attendees browse the events and notice John's event, they view the event poster, and then click sign up to indicate they will attend the event as an attendee. As attendees arrive, they use the app to scan the QR code, automatically checking them into the conference. The app updates John's dashboard in real-time, showing the current attendance. John can also send push notifications to all attendees through the app.&lt;/p&gt;
+&lt;p&gt;Scenario for Project 2:
+ John, an event organizer, opens the QRCheckIn app for an upcoming tech conference. He generates a unique QR code for the event. As attendees arrive, they use the app to scan the QR code, automatically checking them into the conference. The app updates John's dashboard in real-time, showing the current attendance. John can also send push notifications to all attendees through the app.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Actors:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Organizer: a person who organizes the event and is in control of an event&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Attendee: a person who attends the event&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Administrator: the entity that is responsible for the infrastructure that the game runs on.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Glossary:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;QR Code: a scannable code, either a barcode, a QR code, or other code scannable by Zebra crossing libraries or google QR code scanning libraries.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;User Stories:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;User needs are expressed in the form of partial user stories:&lt;/p&gt;
+&lt;p&gt;As a &lt;role&gt;, I want &lt;goal&gt;.&lt;/p&gt;
+&lt;p&gt;These descriptions may change to correct omissions and clarify noticed issues. New requirements will be introduced for the final project part.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Organizer:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;US 01.01.01 As an organizer, I want to create a new event and generate a unique QR code for attendee check-ins.&lt;/p&gt;
+&lt;p&gt;US 01.01.02 As an organizer, I want the option to reuse an existing QR code for attendee check-ins.&lt;/p&gt;
+&lt;p&gt;US 01.02.01 As an organizer, I want to view the list of attendees who have checked in to my event.&lt;/p&gt;
+&lt;p&gt;US 01.03.01 As an organizer, I want to send notifications to all attendees through the app.&lt;/p&gt;
+&lt;p&gt;US 01.04.01 As an organizer, I want to upload an event poster to provide visual information to attendees.&lt;/p&gt;
+&lt;p&gt;US 01.05.01 As an organizer, I want to track real-time attendance and receive alerts for important milestones.&lt;/p&gt;
+&lt;p&gt;US 01.06.01 As an organizer, I want to share a generator QR code image to other apps so I can email or update other documents with the QR code.&lt;/p&gt;
+&lt;p&gt;US 01.07.01 As an organizer, I want to create a new event and generate a unique promotion QR code that links to the event description and event poster in the app.&lt;/p&gt;
+&lt;p&gt;US 01.08.01 As an organizer, I want to see on a map where users are checking in from.&lt;/p&gt;
+&lt;p&gt;US 01.09.01 As an organizer, I want to see how many times an attendee has checked into an event.&lt;/p&gt;
+&lt;p&gt;[New for Part 3] US 01.10.01 As an organizer, I want to see who is signed up to attend my event.&lt;/p&gt;
+&lt;p&gt;[New for Part 3] US 01.11.01 As an organizer, I want to OPTIONALLY limit the number of attendees that can sign up for an event.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Attendee:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;US 02.01.01 As an attendee, I want to quickly check into an event by scanning the provided QR code.&lt;/p&gt;
+&lt;p&gt;US 02.02.01 As an attendee, I want to upload a profile picture for a more personalized experience.&lt;/p&gt;
+&lt;p&gt;US 02.02.02 As an attendee, I want to remove profile pictures if need be.&lt;/p&gt;
+&lt;p&gt;US 02.02.03 As an attendee, I want to update information such as name, homepage, and contact information on my profile.&lt;/p&gt;
+&lt;p&gt;US 02.03.01 As an attendee, I want to receive push notifications with important updates from the event organizers.&lt;/p&gt;
+&lt;p&gt;US 02.04.01 As an attendee, I want to view event details and announcements within the app.&lt;/p&gt;
+&lt;p&gt;US 02.05.01 As an attendee, I want my profile picture to be deterministically generated from my profile name if I haven't uploaded an profile image yet.&lt;/p&gt;
+&lt;p&gt;US 02.06.01 As an attendee, I do not want to login to the app. No username, no password.&lt;/p&gt;
+&lt;p&gt;[New for Part 3] US 02.07.01 As an attendee, I want to sign up to attend an event from the event details (as in I promise to go).&lt;/p&gt;
+&lt;p&gt;[New for Part 3] US 02.08.01 As an attendee, I want to browse event posters/event details of other events.&lt;/p&gt;
+&lt;p&gt;[New for Part 3] US 02.09.01 As an attendee, I want to know what events I signed up for currently and in and in the future.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Both:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;US 03.02.01 As a user, I want the option to enable or disable geolocation tracking for event verification.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Administrator:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;US 04.01.01 As an administrator, I want to be able to remove events.&lt;/p&gt;
+&lt;p&gt;US 04.02.01 As an administrator, I want to be able to remove profiles.&lt;/p&gt;
+&lt;p&gt;US 04.03.01 As an administrator, I want to be able to remove images.&lt;/p&gt;
+&lt;p&gt;US 04.04.01 As an administrator, I want to be able to browse events.&lt;/p&gt;
+&lt;p&gt;US 04.05.01 As an administrator, I want to be able to browse profiles.&lt;/p&gt;
+&lt;p&gt;US 04.06.01 As an administrator, I want to be able to browse images.&lt;/p&gt;
+&lt;p&gt;[New for Part 3 stories do not need to be addressed in Part 2]&lt;/p&gt;</content><category term="general"></category><category term="projects"></category><category term="teams"></category><category term="grading"></category></entry><entry><title>Lab 7 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/general/lab7_part.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/general/lab7_part.html</id><summary type="html">&lt;p&gt;Lab 7 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#lab-7-participation-exercise"&gt;Lab 7 Participation Exercise&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="lab-7-participation-exercise"&gt;Lab 7 Participation Exercise&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Due:&lt;/strong&gt; Friday, 1 March 2024, 4:00 PM&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;# Implement and test activity:&lt;/strong&gt;
+ShowActivity (create by yourself to have the following property)&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;- By clicking on the city list, the UI should change to another activity which is &amp;quot;ShowActivity&amp;quot;
+
+- The activity shows the city name you have clicked on
+
+- Create a back button which goes back to MainActivity
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;# Test: (create 3 test cases/functions to test the 3 following functionalities)&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;- Check whether the activity correctly switched
+
+- Test whether the city name is consistent
+
+- Test the &amp;quot;back&amp;quot; button
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Submit the whole Project folder (not just source files or the 'app' directory)&lt;/p&gt;
+&lt;p&gt;&lt;img src="/content/general/slides/lab7_img1.png" alt="Screen1" width="500" /&gt;
+  &lt;img src="/content/general/slides/lab7_img2.png" alt="Screen2" width="500"/&gt;&lt;/p&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 7 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/general/lab7_instruct.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/general/lab7_instruct.html</id><summary type="html">&lt;p&gt;Lab 7 Instructions&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#lab-7-instructions"&gt;Lab 7 Instructions&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#lab-topicdemo"&gt;Lab Topic/Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#lab-exercise"&gt;Lab Exercise&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="lab-7-instructions"&gt;Lab 7 Instructions&lt;/h3&gt;
+&lt;h4 id="lab-topicdemo"&gt;&lt;strong&gt;Lab Topic/Demo&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/L7IntentTesting.pdf"&gt;Lab7 Instructions-Android UI Testing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/iAniket23/Android-UI-testing"&gt;Lab 7 Starter Code&lt;/a&gt; (clone this repo)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="lab-exercise"&gt;&lt;strong&gt;Lab Exercise&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/lab7_part.html"&gt;Lab 7 Participation Exercise&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 1 Instructions</title><link href="https://ualberta-cmput301.github.io/general/lab1.html" rel="alternate"></link><published>2024-08-19T00:00:00-06:00</published><updated>2024-08-19T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-19:/general/lab1.html</id><summary type="html">&lt;p&gt;Lab Instructions&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
 &lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#lab-1-java-oop-android-studio"&gt;Lab 1 -- Java, OOP, Android Studio&lt;/a&gt;&lt;/li&gt;
@@ -420,10 +1006,36 @@ classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version"&
 &lt;p&gt;&lt;strong&gt;Please note that this section is separate from the presentation marks, which will be graded out of 20 according to the rubric in the &lt;a href="#marking"&gt;table above&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Individual</title><link href="https://ualberta-cmput301.github.io/general/individual.html" rel="alternate"></link><published>2024-03-20T00:00:00-06:00</published><updated>2024-03-20T00:00:00-06:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:ualberta-cmput301.github.io,2024-03-20:/general/individual.html</id><summary type="html">&lt;p&gt;Individual Assignments&lt;/p&gt;</summary><content type="html">&lt;h3 id="assignments"&gt;Assignments&lt;/h3&gt;
 &lt;p&gt;&lt;a href="{filename}/individual/assignment0.mds"&gt;Assignment 0: Getting started&lt;/a&gt;&lt;/p&gt;</content><category term="general"></category><category term="assignment"></category><category term="grading"></category></entry><entry><title>Group Project</title><link href="https://ualberta-cmput301.github.io/general/project.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/project.html</id><summary type="html">&lt;p&gt;301 Group Project&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="#group-project"&gt;Group Project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#project"&gt;Project&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-&lt;h3 id="group-project"&gt;Group Project&lt;/h3&gt;</content><category term="general"></category><category term="project"></category><category term="grading"></category></entry><entry><title>How to get Help</title><link href="https://ualberta-cmput301.github.io/general/help.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/help.html</id><summary type="html">&lt;p&gt;Communications Expectations&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;h3 id="project"&gt;Project&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://ualberta-cmput301.github.io/general/project_problem_descr.html"&gt;Project Problem Description&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://eclass.srv.ualberta.ßca/mod/page/view.php?id=7590577"&gt;Project Teams&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://eclass.srv.ualberta.ca/mod/page/view.php?id=7590578"&gt;Project demo schedule&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://ualberta-cmput301.github.io/general/project_part0.html"&gt;Project Part 0&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://ualberta-cmput301.github.io/general/project_part1.html"&gt;Project Part 1&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://ualberta-cmput301.github.io/general/project_part2.html"&gt;Project Part 2 -- Preparation&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://ualberta-cmput301.github.io/general/project_part3.html"&gt;Project Part 3 -- Half-Way Checkpoint&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://ualberta-cmput301.github.io/general/project_part4.html"&gt;Project Part 4 -- Final Checkpoint&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content><category term="general"></category><category term="project"></category><category term="grading"></category></entry><entry><title>How to get Help</title><link href="https://ualberta-cmput301.github.io/general/help.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/help.html</id><summary type="html">&lt;p&gt;Communications Expectations&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
 &lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#communication-expectations"&gt;Communication Expectations&lt;/a&gt;&lt;/li&gt;
@@ -553,18 +1165,7 @@ This adds a new city name to the listview.                                      
   &lt;img src="/content/general/slides/img4_lab2.png" alt="Screen4" width="500" style="margin-right: 20px;"/&gt;
 &lt;/p&gt;
 
-&lt;p&gt;You should submit your exercise as the project folder in the format of a zip archive.&lt;/p&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab2 Instructions</title><link href="https://ualberta-cmput301.github.io/general/lab2_instructions.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/lab2_instructions.html</id><summary type="html">&lt;p&gt;Lab2 Instructions&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
-&lt;div class="toc"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="#lab-2-instructions"&gt;Lab 2 Instructions&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;h3 id="lab-2-instructions"&gt;Lab 2 Instructions&lt;/h3&gt;
-&lt;p&gt;In Lab 2, we'll be doing the following: &lt;/p&gt;
-&lt;p&gt;Quick review of OOP principles
-Android Basics (Lab 2 Android Basics PDF under Lab 2)
-Displaying a list of items using ListView/ListAdapter (Lab 2 ListView Demo Example - Instructions PDF under Lab 2)
-Lab Exercise - adding and removing items from ListAdapter (see the Lab 2 Participation Exercise page for more details)&lt;/p&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab2 Instructions</title><link href="https://ualberta-cmput301.github.io/general/lab3_inst.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/lab3_inst.html</id><summary type="html">&lt;p&gt;Lab2 Instructions&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;p&gt;You should submit your exercise as the project folder in the format of a zip archive.&lt;/p&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab2 Instructions</title><link href="https://ualberta-cmput301.github.io/general/lab3_inst.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/lab3_inst.html</id><summary type="html">&lt;p&gt;Lab2 Instructions&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#lab-3-instructions-what-well-do-in-lab"&gt;Lab 3 Instructions - What we'll do in lab!&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -586,7 +1187,18 @@ Lab Exercise - adding and removing items from ListAdapter (see the Lab 2 Partici
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Read about Java code conventions (see the Code Conventions (Schoepp) PDF).
-Editing existing cities in ListyCity (see the Lab 3 Participation Exercise page for more details)&lt;/p&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab3 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/general/lab3_part.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/lab3_part.html</id><summary type="html">&lt;p&gt;Lab3 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+Editing existing cities in ListyCity (see the Lab 3 Participation Exercise page for more details)&lt;/p&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab2 Instructions</title><link href="https://ualberta-cmput301.github.io/general/lab2_instructions.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/lab2_instructions.html</id><summary type="html">&lt;p&gt;Lab2 Instructions&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#lab-2-instructions"&gt;Lab 2 Instructions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="lab-2-instructions"&gt;Lab 2 Instructions&lt;/h3&gt;
+&lt;p&gt;In Lab 2, we'll be doing the following: &lt;/p&gt;
+&lt;p&gt;Quick review of OOP principles
+Android Basics (Lab 2 Android Basics PDF under Lab 2)
+Displaying a list of items using ListView/ListAdapter (Lab 2 ListView Demo Example - Instructions PDF under Lab 2)
+Lab Exercise - adding and removing items from ListAdapter (see the Lab 2 Participation Exercise page for more details)&lt;/p&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab3 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/general/lab3_part.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/lab3_part.html</id><summary type="html">&lt;p&gt;Lab3 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#lab-3-participation-exercise"&gt;Lab 3 Participation Exercise&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -618,67 +1230,7 @@ Another way you can send a City object from the Activity to the Fragment is by a
   &lt;img src="/content/general/slides/img4_lab2.png" alt="Screen4" width="500" style="margin-right: 20px;"/&gt;
 &lt;/p&gt;
 
-&lt;p&gt;You should submit your exercise solution as a zip or tar archive.&lt;/p&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab4 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/general/lab4_part.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/lab4_part.html</id><summary type="html">&lt;p&gt;Lab4 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="#lab-4-participation-exercise"&gt;Lab 4 Participation Exercise&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;h3 id="lab-4-participation-exercise"&gt;Lab 4 Participation Exercise&lt;/h3&gt;
-&lt;p&gt;Due: Friday, 2 February 2024, 4:00 PM
-This task is for teams. &lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;As a team:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Create an Organization in GitHub and then create a repository (repo name: Team name) under this organization. &lt;/li&gt;
-&lt;li&gt;Add your members as collaborators so the whole team will be able to commit to their branches.&lt;/li&gt;
-&lt;li&gt;Create a new Android Studio project (1 project per team) with the same name as the repo name (Team name).&lt;/li&gt;
-&lt;li&gt;Your android project folder is your local repository and write all the commands within this repo/directory.&lt;/li&gt;
-&lt;li&gt;Use 'git init', 'git add', 'git commit', and 'git push' to push your code to the remote&lt;/li&gt;
-&lt;li&gt;Use 'git remote add origin' to add the URL of your remote repo to this local repo.&lt;/li&gt;
-&lt;li&gt;The repository should include .gitignore to not include Android Studio settings files (.idea) and the project build folder.&lt;/li&gt;
-&lt;li&gt;Create an abstract class Shape (java file) with x and y  integer fields (as a team).&lt;/li&gt;
-&lt;li&gt;Commit the change and push it to GitHub.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;As a member, on your local machine:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;(Do not fork) Clone the repository and create a branch with your name (do not use CCID).&lt;/li&gt;
-&lt;li&gt;Create a model class (ex. circle, rectangle, star, etc) (new java file) that extends Shape in your own branch.&lt;/li&gt;
-&lt;li&gt;Commit the change and push the branch to GitHub.&lt;/li&gt;
-&lt;li&gt;Create a pull request to main in Github.&lt;/li&gt;
-&lt;li&gt;Ask another member to merge it.&lt;/li&gt;
-&lt;li&gt;Edit the Shape class by adding a color string field. (String color = "blue";) (local your-own branch)&lt;/li&gt;
-&lt;li&gt;Commit the change. (Don't push it)&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;As a team:&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Edit the Shape class in the main branch &lt;strong&gt;on GitHub&lt;/strong&gt; by adding a &lt;strong&gt;color&lt;/strong&gt; string field. (String color = "$PUT_YOUR_CHOICE_OF_COLOR";)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;Commit the change in GitHub.&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;As a member, on your local machine:&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Pull the main branch from GitHub. You should have a conflict. (&lt;strong&gt;Origin/main -&amp;gt; local your-own&lt;/strong&gt;)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;Resolve the conflict.&lt;/li&gt;
-&lt;li&gt;Commit the change.&lt;/li&gt;
-&lt;li&gt;Push the branch to GitHub.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Please submit:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Your CCID (not your student id number!)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Link to your branch in the repository at eClass&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab4 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/general/past_notes.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/past_notes.html</id><summary type="html">&lt;p&gt;Lab4 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;p&gt;You should submit your exercise solution as a zip or tar archive.&lt;/p&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab4 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/general/past_notes.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/past_notes.html</id><summary type="html">&lt;p&gt;Lab4 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#past-lab-git-notes-romansky"&gt;PAST Lab Git Notes (Romansky)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -738,7 +1290,67 @@ cmd: git push
 description: fetch the latest commits from origin, or push your latest changes
 to origin&lt;/p&gt;
 &lt;p&gt;Other commands, git remote, git rebase, and git fetch&lt;/p&gt;
-&lt;p&gt;Last modified: Tuesday, 3 September 2019, 11:58 PM&lt;/p&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Labs</title><link href="https://ualberta-cmput301.github.io/general/labs.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/labs.html</id><summary type="html">&lt;p&gt;Lab Procedure, Lab Assignments, Lab Marking&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;Last modified: Tuesday, 3 September 2019, 11:58 PM&lt;/p&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab4 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/general/lab4_part.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/lab4_part.html</id><summary type="html">&lt;p&gt;Lab4 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#lab-4-participation-exercise"&gt;Lab 4 Participation Exercise&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="lab-4-participation-exercise"&gt;Lab 4 Participation Exercise&lt;/h3&gt;
+&lt;p&gt;Due: Friday, 2 February 2024, 4:00 PM
+This task is for teams. &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;As a team:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create an Organization in GitHub and then create a repository (repo name: Team name) under this organization. &lt;/li&gt;
+&lt;li&gt;Add your members as collaborators so the whole team will be able to commit to their branches.&lt;/li&gt;
+&lt;li&gt;Create a new Android Studio project (1 project per team) with the same name as the repo name (Team name).&lt;/li&gt;
+&lt;li&gt;Your android project folder is your local repository and write all the commands within this repo/directory.&lt;/li&gt;
+&lt;li&gt;Use 'git init', 'git add', 'git commit', and 'git push' to push your code to the remote&lt;/li&gt;
+&lt;li&gt;Use 'git remote add origin' to add the URL of your remote repo to this local repo.&lt;/li&gt;
+&lt;li&gt;The repository should include .gitignore to not include Android Studio settings files (.idea) and the project build folder.&lt;/li&gt;
+&lt;li&gt;Create an abstract class Shape (java file) with x and y  integer fields (as a team).&lt;/li&gt;
+&lt;li&gt;Commit the change and push it to GitHub.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;As a member, on your local machine:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;(Do not fork) Clone the repository and create a branch with your name (do not use CCID).&lt;/li&gt;
+&lt;li&gt;Create a model class (ex. circle, rectangle, star, etc) (new java file) that extends Shape in your own branch.&lt;/li&gt;
+&lt;li&gt;Commit the change and push the branch to GitHub.&lt;/li&gt;
+&lt;li&gt;Create a pull request to main in Github.&lt;/li&gt;
+&lt;li&gt;Ask another member to merge it.&lt;/li&gt;
+&lt;li&gt;Edit the Shape class by adding a color string field. (String color = "blue";) (local your-own branch)&lt;/li&gt;
+&lt;li&gt;Commit the change. (Don't push it)&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;As a team:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Edit the Shape class in the main branch &lt;strong&gt;on GitHub&lt;/strong&gt; by adding a &lt;strong&gt;color&lt;/strong&gt; string field. (String color = "$PUT_YOUR_CHOICE_OF_COLOR";)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;Commit the change in GitHub.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;As a member, on your local machine:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Pull the main branch from GitHub. You should have a conflict. (&lt;strong&gt;Origin/main -&amp;gt; local your-own&lt;/strong&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;Resolve the conflict.&lt;/li&gt;
+&lt;li&gt;Commit the change.&lt;/li&gt;
+&lt;li&gt;Push the branch to GitHub.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Please submit:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Your CCID (not your student id number!)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Link to your branch in the repository at eClass&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Labs</title><link href="https://ualberta-cmput301.github.io/general/labs.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/labs.html</id><summary type="html">&lt;p&gt;Lab Procedure, Lab Assignments, Lab Marking&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
 &lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#lab-1"&gt;Lab 1&lt;/a&gt;&lt;/li&gt;
@@ -784,11 +1396,14 @@ to origin&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h3 id="lab-7"&gt;Lab 7&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="{filename}lab7_instruct.md"&gt;Lab 7 Instructions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/lab7_instruct.html"&gt;Lab 7 Instructions&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="./slides/Lab_7_starter_code.zip"&gt;Lab 7 Starter Code&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/lab7_part.html"&gt;Lab 7 Participation Exercise&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="lab-8"&gt;Lab 8&lt;/h3&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Learning Resources &amp; Reference Materials</title><link href="https://ualberta-cmput301.github.io/general/resources.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/resources.html</id><summary type="html">&lt;p&gt;Resources, Reference Materials, Notes, Videos, Slides&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;h3 id="lab-8"&gt;Lab 8&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/lab8_part.html"&gt;Lab 8 Participation Exercise&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Learning Resources &amp; Reference Materials</title><link href="https://ualberta-cmput301.github.io/general/resources.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/resources.html</id><summary type="html">&lt;p&gt;Resources, Reference Materials, Notes, Videos, Slides&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
 &lt;p&gt;[TOC]
 This page lists selected videos and course resources from the &lt;a href="https://www.coursera.org/specializations/product-management"&gt;Software Product Management MOOC Specialization&lt;/a&gt;, and the &lt;a href="https://www.coursera.org/specializations/software-design-architecture"&gt;Software Design and Architecture MOOC Specialization&lt;/a&gt;, two of several &lt;a href="https://www.ualberta.ca/en/admissions-programs/online-courses/index.html#utm_campaign=vanity&amp;amp;utm_source=vanity&amp;amp;utm_medium=vanity&amp;amp;utm_content=uab.ca%2Fmoocs"&gt;University of Alberta MOOCs&lt;/a&gt; available at &lt;a href="https://www.coursera.org/"&gt;Coursera&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;This material is copyrighted by the University of Alberta.&lt;/p&gt;
@@ -1025,6 +1640,7 @@ This page lists selected videos and course resources from the &lt;a href="https:
 &lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/TDD.pdf"&gt;Lab 8 Slides - TDD and CI With GH Action (New)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/GH.pdf"&gt;Lab 8 Slides - GitHub Actions (Old)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/L8_Action.pdf"&gt;Lab 8 Instructions - GitHub Actions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/301_Midterm2Review.pdf"&gt;B2 Midterm 2 Mentis for Review&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="design-patterns"&gt;Design Patterns&lt;/h3&gt;
 &lt;ul&gt;
@@ -1051,18 +1667,7 @@ This page lists selected videos and course resources from the &lt;a href="https:
 &lt;h3 id="refactoring"&gt;Refactoring&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/10_Review.pdf"&gt;Review Slides (1up)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="general"></category><category term="resources"></category><category term="policy"></category><category term="contact"></category><category term="wellness"></category></entry><entry><title>Lab2 Instructions</title><link href="https://ualberta-cmput301.github.io/general/lab2_instructions.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/lab2_instructions.html</id><summary type="html">&lt;p&gt;Lab2 Instructions&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
-&lt;div class="toc"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="#lab-2-instructions"&gt;Lab 2 Instructions&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;h3 id="lab-2-instructions"&gt;Lab 2 Instructions&lt;/h3&gt;
-&lt;p&gt;In Lab 2, we'll be doing the following: &lt;/p&gt;
-&lt;p&gt;Quick review of OOP principles
-Android Basics (Lab 2 Android Basics PDF under Lab 2)
-Displaying a list of items using ListView/ListAdapter (Lab 2 ListView Demo Example - Instructions PDF under Lab 2)
-Lab Exercise - adding and removing items from ListAdapter (see the Lab 2 Participation Exercise page for more details)&lt;/p&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab2 Instructions</title><link href="https://ualberta-cmput301.github.io/general/lab3_inst.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/lab3_inst.html</id><summary type="html">&lt;p&gt;Lab2 Instructions&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;/ul&gt;</content><category term="general"></category><category term="resources"></category><category term="policy"></category><category term="contact"></category><category term="wellness"></category></entry><entry><title>Lab2 Instructions</title><link href="https://ualberta-cmput301.github.io/general/lab3_inst.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/lab3_inst.html</id><summary type="html">&lt;p&gt;Lab2 Instructions&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#lab-3-instructions-what-well-do-in-lab"&gt;Lab 3 Instructions - What we'll do in lab!&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1084,7 +1689,65 @@ Lab Exercise - adding and removing items from ListAdapter (see the Lab 2 Partici
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Read about Java code conventions (see the Code Conventions (Schoepp) PDF).
-Editing existing cities in ListyCity (see the Lab 3 Participation Exercise page for more details)&lt;/p&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab2 Instructions</title><link href="https://ualberta-cmput301.github.io/general/lab2_participation.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/lab2_participation.html</id><summary type="html">&lt;p&gt;Lab2 Instructions&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+Editing existing cities in ListyCity (see the Lab 3 Participation Exercise page for more details)&lt;/p&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab2 Instructions</title><link href="https://ualberta-cmput301.github.io/general/lab2_instructions.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/lab2_instructions.html</id><summary type="html">&lt;p&gt;Lab2 Instructions&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#lab-2-instructions"&gt;Lab 2 Instructions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="lab-2-instructions"&gt;Lab 2 Instructions&lt;/h3&gt;
+&lt;p&gt;In Lab 2, we'll be doing the following: &lt;/p&gt;
+&lt;p&gt;Quick review of OOP principles
+Android Basics (Lab 2 Android Basics PDF under Lab 2)
+Displaying a list of items using ListView/ListAdapter (Lab 2 ListView Demo Example - Instructions PDF under Lab 2)
+Lab Exercise - adding and removing items from ListAdapter (see the Lab 2 Participation Exercise page for more details)&lt;/p&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab2 Instructions</title><link href="https://ualberta-cmput301.github.io/general/lab2_participation.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/lab2_participation.html</id><summary type="html">&lt;p&gt;Lab2 Instructions&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#lab-2-participation-exercise"&gt;Lab 2 Participation Exercise&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="lab-2-participation-exercise"&gt;Lab 2 Participation Exercise&lt;/h3&gt;
+&lt;p&gt;Due: Friday, 19 January 2024, 4:00 PM
+Note: Proper completion of this exercise is considered as part of course participation.&lt;/p&gt;
+&lt;p&gt;Task: Modify/Expand ListyCity to allow for the addition of new cities as well as the deletion of existing ones in the ListView. The specifics of the design of this functionality are up to you.&lt;/p&gt;
+&lt;p&gt;If you could not attend the labs or do not have the code for ListyCity, follow the instructions in Lab 2 ListView Example - Instructions. &lt;/p&gt;
+&lt;p&gt;Hints:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;You may want to use the OnClickListener methods discussed in the lab.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ideally you should consider treating the cities as objects, however, in this exercise it may not be necessary.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Here are some screenshots from an example application that demonstrate the required functionality. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Your app does not need to look exactly like this demo！！！&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Press "ADD CITY" then type the name and press "CONFIRM".          2. Tap a city name to select it and then press "DELETE CITY" to remove
+This adds a new city name to the listview.                                               the city from the listview.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p align="left"&gt;
+  &lt;img src="/content/general/slides/img1_lab2.png" alt="Screen1" width="500" style="margin-right: 20px;"/&gt;
+  &lt;img src="/content/general/slides/img2_lab2.png" alt="Screen2" width="500" style="margin-right: 20px;"/&gt;
+  &lt;img src="/content/general/slides/img3_lab2.png" alt="Screen3" width="500" style="margin-right: 20px;"/&gt;
+&lt;/p&gt;
+
+&lt;p align="left"&gt;
+  &lt;img src="/content/general/slides/img4_lab2.png" alt="Screen4" width="500" style="margin-right: 20px;"/&gt;
+&lt;/p&gt;
+
+&lt;p&gt;You should submit your exercise as the project folder in the format of a zip archive.&lt;/p&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab2 Instructions</title><link href="https://ualberta-cmput301.github.io/general/lab2_instructions.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/lab2_instructions.html</id><summary type="html">&lt;p&gt;Lab2 Instructions&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#lab-2-instructions"&gt;Lab 2 Instructions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="lab-2-instructions"&gt;Lab 2 Instructions&lt;/h3&gt;
+&lt;p&gt;In Lab 2, we'll be doing the following: &lt;/p&gt;
+&lt;p&gt;Quick review of OOP principles
+Android Basics (Lab 2 Android Basics PDF under Lab 2)
+Displaying a list of items using ListView/ListAdapter (Lab 2 ListView Demo Example - Instructions PDF under Lab 2)
+Lab Exercise - adding and removing items from ListAdapter (see the Lab 2 Participation Exercise page for more details)&lt;/p&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab2 Instructions</title><link href="https://ualberta-cmput301.github.io/general/lab2_participation.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/lab2_participation.html</id><summary type="html">&lt;p&gt;Lab2 Instructions&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
 &lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#lab-2-participation-exercise"&gt;Lab 2 Participation Exercise&lt;/a&gt;&lt;/li&gt;
@@ -1142,114 +1805,7 @@ This adds a new city name to the listview.                                      
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Read about Java code conventions (see the Code Conventions (Schoepp) PDF).
-Editing existing cities in ListyCity (see the Lab 3 Participation Exercise page for more details)&lt;/p&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab2 Instructions</title><link href="https://ualberta-cmput301.github.io/general/lab2_participation.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/lab2_participation.html</id><summary type="html">&lt;p&gt;Lab2 Instructions&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
-&lt;div class="toc"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="#lab-2-participation-exercise"&gt;Lab 2 Participation Exercise&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;h3 id="lab-2-participation-exercise"&gt;Lab 2 Participation Exercise&lt;/h3&gt;
-&lt;p&gt;Due: Friday, 19 January 2024, 4:00 PM
-Note: Proper completion of this exercise is considered as part of course participation.&lt;/p&gt;
-&lt;p&gt;Task: Modify/Expand ListyCity to allow for the addition of new cities as well as the deletion of existing ones in the ListView. The specifics of the design of this functionality are up to you.&lt;/p&gt;
-&lt;p&gt;If you could not attend the labs or do not have the code for ListyCity, follow the instructions in Lab 2 ListView Example - Instructions. &lt;/p&gt;
-&lt;p&gt;Hints:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;You may want to use the OnClickListener methods discussed in the lab.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Ideally you should consider treating the cities as objects, however, in this exercise it may not be necessary.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Here are some screenshots from an example application that demonstrate the required functionality. &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Your app does not need to look exactly like this demo！！！&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Press "ADD CITY" then type the name and press "CONFIRM".          2. Tap a city name to select it and then press "DELETE CITY" to remove
-This adds a new city name to the listview.                                               the city from the listview.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p align="left"&gt;
-  &lt;img src="/content/general/slides/img1_lab2.png" alt="Screen1" width="500" style="margin-right: 20px;"/&gt;
-  &lt;img src="/content/general/slides/img2_lab2.png" alt="Screen2" width="500" style="margin-right: 20px;"/&gt;
-  &lt;img src="/content/general/slides/img3_lab2.png" alt="Screen3" width="500" style="margin-right: 20px;"/&gt;
-&lt;/p&gt;
-
-&lt;p align="left"&gt;
-  &lt;img src="/content/general/slides/img4_lab2.png" alt="Screen4" width="500" style="margin-right: 20px;"/&gt;
-&lt;/p&gt;
-
-&lt;p&gt;You should submit your exercise as the project folder in the format of a zip archive.&lt;/p&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab2 Instructions</title><link href="https://ualberta-cmput301.github.io/general/lab2_instructions.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/lab2_instructions.html</id><summary type="html">&lt;p&gt;Lab2 Instructions&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
-&lt;div class="toc"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="#lab-2-instructions"&gt;Lab 2 Instructions&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;h3 id="lab-2-instructions"&gt;Lab 2 Instructions&lt;/h3&gt;
-&lt;p&gt;In Lab 2, we'll be doing the following: &lt;/p&gt;
-&lt;p&gt;Quick review of OOP principles
-Android Basics (Lab 2 Android Basics PDF under Lab 2)
-Displaying a list of items using ListView/ListAdapter (Lab 2 ListView Demo Example - Instructions PDF under Lab 2)
-Lab Exercise - adding and removing items from ListAdapter (see the Lab 2 Participation Exercise page for more details)&lt;/p&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab4 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/general/past_notes.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/past_notes.html</id><summary type="html">&lt;p&gt;Lab4 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="#past-lab-git-notes-romansky"&gt;PAST Lab Git Notes (Romansky)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;h3 id="past-lab-git-notes-romansky"&gt;PAST Lab Git Notes (Romansky)&lt;/h3&gt;
-&lt;p&gt;Preliminaries: Git has two modes it runs in. You can run it as a client which
-is what most uses will be. Or, you can run it as a server service. Github
-runs git as a service. As a client, you can connect your computer to the
-service. The computer offering git as a service is after referred to as a
-remote, or remote computer.
-You should setup a Github account for this course.
-Your Github account should be professional. Please be safe for work!
-Your git repositories in this class should all use a FOSS license!
-You can read about .gitignore files if you want git to ignore files matching
-regular expressions like backup files that end in a ~.&lt;/p&gt;
-&lt;p&gt;cmd: git config --global user.name "yourUserName"
-cmd: git config --global user.email "your@email.com"
-cmd: git config --global core.editor nano
-cmd: git config --list
-description: these commands setup your workstation git configurations which
-will be associated with each of the file changes you make through git. So, you
-should set them before you do anything.&lt;/p&gt;
-&lt;p&gt;cmd: git clone &lt;repository address&gt;
-description: allows a developer to make a copy of a git repository from a remote
-location to the developers local work station.
-example: git clone https://github.com/bpython/bpython.git
-result: makes a copy of the bpython repo on your computer!&lt;/p&gt;
-&lt;p&gt;cmd: git branch &lt;branch-name&gt;
-description: create a new code branch. The new branch will contain a copy
-of the current branches code.
-example: git branch bug444
-result: creates a branch named bug444&lt;/p&gt;
-&lt;p&gt;cmd: git branch -a
-description: shows all current branches associated with the current working
-repo. This will list branches that exist on the local work station and the
-remote repositories associated with the repo.&lt;/p&gt;
-&lt;p&gt;cmd: git push -u origin &lt;branch&gt;
-description: this will push a local branch to a given remote git service.
-You have to run this command when you make a new local branch that you would
-also like to track on the remote server.&lt;/p&gt;
-&lt;p&gt;cmd: git add &lt;file&gt;
-cmd: git rm &lt;file&gt;
-description: add or remove a file from gits file tracking system&lt;/p&gt;
-&lt;p&gt;cmd: git status
-description: print the current changes that git can track or is not tracking&lt;/p&gt;
-&lt;p&gt;cmd: git checkout &lt;branch_name&gt;
-cmd: git checkout --branch &lt;branch_name&gt;
-description: git checkout lets you change which branch you are working in. The
-latter usage changes your current branch and creates a new branch with the
-given name.&lt;/p&gt;
-&lt;p&gt;cmd: git merge &lt;branch_name&gt;
-description: git merge will take a given branch name and merge it into your
-current working branch. This is useful if you would like to grab features from
-another branch of code.&lt;/p&gt;
-&lt;p&gt;cmd: git pull
-cmd: git push
-description: fetch the latest commits from origin, or push your latest changes
-to origin&lt;/p&gt;
-&lt;p&gt;Other commands, git remote, git rebase, and git fetch&lt;/p&gt;
-&lt;p&gt;Last modified: Tuesday, 3 September 2019, 11:58 PM&lt;/p&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab4 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/general/lab4_part.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/lab4_part.html</id><summary type="html">&lt;p&gt;Lab4 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+Editing existing cities in ListyCity (see the Lab 3 Participation Exercise page for more details)&lt;/p&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab4 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/general/lab4_part.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/lab4_part.html</id><summary type="html">&lt;p&gt;Lab4 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#lab-4-participation-exercise"&gt;Lab 4 Participation Exercise&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1309,4 +1865,64 @@ This task is for teams. &lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;Link to your branch in the repository at eClass&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry></feed>
+&lt;/ol&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab4 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/general/past_notes.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/past_notes.html</id><summary type="html">&lt;p&gt;Lab4 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#past-lab-git-notes-romansky"&gt;PAST Lab Git Notes (Romansky)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="past-lab-git-notes-romansky"&gt;PAST Lab Git Notes (Romansky)&lt;/h3&gt;
+&lt;p&gt;Preliminaries: Git has two modes it runs in. You can run it as a client which
+is what most uses will be. Or, you can run it as a server service. Github
+runs git as a service. As a client, you can connect your computer to the
+service. The computer offering git as a service is after referred to as a
+remote, or remote computer.
+You should setup a Github account for this course.
+Your Github account should be professional. Please be safe for work!
+Your git repositories in this class should all use a FOSS license!
+You can read about .gitignore files if you want git to ignore files matching
+regular expressions like backup files that end in a ~.&lt;/p&gt;
+&lt;p&gt;cmd: git config --global user.name "yourUserName"
+cmd: git config --global user.email "your@email.com"
+cmd: git config --global core.editor nano
+cmd: git config --list
+description: these commands setup your workstation git configurations which
+will be associated with each of the file changes you make through git. So, you
+should set them before you do anything.&lt;/p&gt;
+&lt;p&gt;cmd: git clone &lt;repository address&gt;
+description: allows a developer to make a copy of a git repository from a remote
+location to the developers local work station.
+example: git clone https://github.com/bpython/bpython.git
+result: makes a copy of the bpython repo on your computer!&lt;/p&gt;
+&lt;p&gt;cmd: git branch &lt;branch-name&gt;
+description: create a new code branch. The new branch will contain a copy
+of the current branches code.
+example: git branch bug444
+result: creates a branch named bug444&lt;/p&gt;
+&lt;p&gt;cmd: git branch -a
+description: shows all current branches associated with the current working
+repo. This will list branches that exist on the local work station and the
+remote repositories associated with the repo.&lt;/p&gt;
+&lt;p&gt;cmd: git push -u origin &lt;branch&gt;
+description: this will push a local branch to a given remote git service.
+You have to run this command when you make a new local branch that you would
+also like to track on the remote server.&lt;/p&gt;
+&lt;p&gt;cmd: git add &lt;file&gt;
+cmd: git rm &lt;file&gt;
+description: add or remove a file from gits file tracking system&lt;/p&gt;
+&lt;p&gt;cmd: git status
+description: print the current changes that git can track or is not tracking&lt;/p&gt;
+&lt;p&gt;cmd: git checkout &lt;branch_name&gt;
+cmd: git checkout --branch &lt;branch_name&gt;
+description: git checkout lets you change which branch you are working in. The
+latter usage changes your current branch and creates a new branch with the
+given name.&lt;/p&gt;
+&lt;p&gt;cmd: git merge &lt;branch_name&gt;
+description: git merge will take a given branch name and merge it into your
+current working branch. This is useful if you would like to grab features from
+another branch of code.&lt;/p&gt;
+&lt;p&gt;cmd: git pull
+cmd: git push
+description: fetch the latest commits from origin, or push your latest changes
+to origin&lt;/p&gt;
+&lt;p&gt;Other commands, git remote, git rebase, and git fetch&lt;/p&gt;
+&lt;p&gt;Last modified: Tuesday, 3 September 2019, 11:58 PM&lt;/p&gt;</content><category term="general"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry></feed>
