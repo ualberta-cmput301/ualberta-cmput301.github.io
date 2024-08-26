@@ -3,10 +3,10 @@ date: 2024-08-26
 tags: projects, teams, grading
 authors: Samuel Iwuchukwu,Hazel Victoria Campbell
 status: published
-summary: Project Part 3
+summary: Project Part 4
 [TOC]
 
-# Project Part 3 -- Final Checkpoint
+# Project Part 4 -- Final Checkpoint
 
 **Due:** Monday, 8 April 2024, 4:00 PM
 
