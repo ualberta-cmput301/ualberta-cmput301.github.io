@@ -75,3 +75,19 @@ After the due date, each member must complete an assessment form to describe his
 
 ## **Marking**
 No part marks, no extra marks. No half marks.
+
+- Failure (0) : 
+    - Incomplete. Missing important components.
+    - Or no submission
+
+- Unsatisfactory (6)
+    - A project that effort has been put into and doesn't meet the requirements described. Most deliverable points have been met.
+
+- Satisfactory (8)
+    - A project submission that is missing components. Inconsistency is key. Missing important test cases. Lack of planning or adherence. Lack of attendance etc. Must demonstrate clear understanding of purpose and rationale behind deliverables.
+
+- Good (10)
+    - A not-quite excellent submission that meets the the majority of all the requirements without problem.
+
+- Excellent (12)
+    - A excellent submission that meets the all the requirements without problem.
