@@ -63,3 +63,21 @@ After the due date, each member must complete an assessment form to describe his
 Marking is holistically on the quality of the results. 
 
 No part marks, no extra marks. No half marks.
+
+
+- Failure (0) : 
+    - Incomplete (such as lacking CRC cards) Or no submission
+
+- Unsatisfactory (4)
+    - A project that effort has been put into and doesn't meet the requirements described.
+
+- Satisfactory (5)
+    - A project submission that is missing components.
+
+- Good (7)
+    - A not-quite excellent submission that meets the the majority of all the requirements without problem. Very minor issues.
+
+- Excellent (8)
+    - A excellent submission that meets the all the requirements without problem.
+
+
