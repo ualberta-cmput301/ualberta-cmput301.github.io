@@ -47,3 +47,5 @@ summary: Lab Procedure, Lab Assignments, Lab Marking
 * [Lab 7 Participation Exercise]({filename}lab7_part.md)
 
 # Lab 8
+
+* [Lab 8 Participation Exercise]({filename}lab8_part.md)
