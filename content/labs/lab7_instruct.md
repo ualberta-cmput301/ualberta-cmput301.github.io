@@ -1,4 +1,4 @@
-Title: Lab 7 Participation Exercise
+Title: Lab 7 Instructions
 date: 2024-08-26
 tags: labs, policy, grading
 authors: Samuel Iwuchukwu,Hazel Victoria Campbell
