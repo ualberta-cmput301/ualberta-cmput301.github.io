@@ -8,4 +8,5 @@ summary: Individual Assignments
 
 # Assignments
 
-[Assignment 0: Getting started]({filename}/individual/assignment0.mds)
+* [Assignment 0: Getting started]({filename}individual/assignment0.md)
+* [Assignment 1]({filename}individual/assignment1.md)
