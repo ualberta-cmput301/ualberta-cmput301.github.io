@@ -23,3 +23,5 @@ summary: 301 Group Project
 * [Project Part 2 -- Preparation]({filename}project_part2.md)
 
 * [Project Part 3 -- Half-Way Checkpoint]({filename}project_part3.md)
+
+* [Project Part 4 -- Final Checkpoint]({filename}project_part4.md)
