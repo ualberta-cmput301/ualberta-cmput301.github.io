@@ -130,7 +130,60 @@
 &lt;p&gt;Copyright regulations, however, prohibit me from distributing complete copies of the lecture slides on the course eClass site.&lt;/p&gt;
 &lt;p&gt;You may assume that any code examples we provide to you are public domain and free for you to take without attribution, unless they are licensed.&lt;/p&gt;
 &lt;h4 id="recommended-or-optional-learning-resources"&gt;Recommended or Optional Learning Resources&lt;/h4&gt;
-&lt;p&gt;See &lt;a href="https://ualberta-cmput301.github.io/general/resources.html"&gt;the resources page&lt;/a&gt;.&lt;/p&gt;</content><category term="general"></category><category term="outline"></category><category term="policy"></category><category term="grading"></category><category term="contact"></category></entry><entry><title>Lab 6 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/lab6_part.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/labs/lab6_part.html</id><summary type="html">&lt;p&gt;Lab 6 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;p&gt;See &lt;a href="https://ualberta-cmput301.github.io/general/resources.html"&gt;the resources page&lt;/a&gt;.&lt;/p&gt;</content><category term="general"></category><category term="outline"></category><category term="policy"></category><category term="grading"></category><category term="contact"></category></entry><entry><title>Lab 5 Instructions</title><link href="https://ualberta-cmput301.github.io/labs/lab5_instruct.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/labs/lab5_instruct.html</id><summary type="html">&lt;p&gt;Lab 5 Instructions&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#lab-5-instructions"&gt;Lab 5 Instructions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="lab-5-instructions"&gt;Lab 5 Instructions&lt;/h3&gt;
+&lt;p&gt;Read &lt;a href="https://ualberta-cmput301.github.io/labs/slides/Firestore.pdf"&gt;Firestore 🔥.pdf&lt;/a&gt; for introduction of Firestore
+Follow instructions on &lt;a href="https://ualberta-cmput301.github.io/labs/slides/Lab5FInteg.pdf"&gt;Lab 5 Firestore Integration Instructions.pdf&lt;/a&gt; along with the TA.
+Complete Lab Exercise.&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 5 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/lab5_part.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/labs/lab5_part.html</id><summary type="html">&lt;p&gt;Lab 5 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#lab-5-participation-exercise"&gt;Lab 5 Participation Exercise&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#note-the-design-of-the-deletion-functionality-is-up-to-you-however-we-have-uploaded-a-few-mockups-to-give-you-some-ideas"&gt;Note: the design of the deletion functionality is up to you, however, we have uploaded a few mockups to give you some ideas.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="lab-5-participation-exercise"&gt;Lab 5 Participation Exercise&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Due:&lt;/strong&gt; Friday, 9 February 2024, 4:00 PM&lt;/p&gt;
+&lt;p&gt;Proper completion of this exercise is considered as part of course participation.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;In this exercise it is your task to add the ability to delete Cities and integrate this functionality with the Firestore database, allowing for the persistence of deletions.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;After applying the changes in the lab demo &lt;a href="https://ualberta-cmput301.github.io/labs/slides/Lab5FInteg.pdf"&gt;(LINK TO INSTRUCTIONS)&lt;/a&gt; to &lt;a href="https://github.com/simpleParadox/CMPUT-301-CustomList"&gt;CustomList&lt;/a&gt;, add the ability to delete cities from the ListView and apply these same deletions to your instance of the Firestore database. If you have implemented this functionality correctly, restarting your app should not have an impact on what cities are displayed in your ListView after any addition or deletion actions.&lt;/p&gt;
+&lt;h4 id="note-the-design-of-the-deletion-functionality-is-up-to-you-however-we-have-uploaded-a-few-mockups-to-give-you-some-ideas"&gt;&lt;strong&gt;Note: the design of the deletion functionality is up to you, however, we have uploaded a few mockups to give you some ideas.&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="Screen1" src="https://ualberta-cmput301.github.io/labs/lab5_img1.png" style="margin: 20px;" width="300"&gt;
+&lt;img alt="Screen2" src="https://ualberta-cmput301.github.io/labs/lab5_img2.png" style="margin: 20px;" width="300"&gt;
+&lt;img alt="Screen3" src="https://ualberta-cmput301.github.io/labs/lab5_img3.png" style="margin: 20px;" width="300"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;When submitting, please upload the whole Android Studio Project Folder (not just the source files or the 'app' directory), and give it a unique name.&lt;/strong&gt;&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 6 Instructions</title><link href="https://ualberta-cmput301.github.io/labs/lab6_instruct.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/labs/lab6_instruct.html</id><summary type="html">&lt;p&gt;Lab 6 Instructions&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#lab-6-instructions"&gt;Lab 6 Instructions&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#some-known-issues"&gt;Some known issues:&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="lab-6-instructions"&gt;Lab 6 Instructions&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Follow the slides on Javadoc and JUnit&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Follow instructions on this &lt;a href="https://ualberta-cmput301.github.io/labs/slides/L6Junit.pdf"&gt;link&lt;/a&gt; along with the TA.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Complete Lab Exercise.  &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id="some-known-issues"&gt;Some known issues:&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;"test events were not received" --&amp;gt; Solution: &lt;a href="https://stackoverflow.com/a/73009440/1496554"&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;"Erro creating JavaDoc" --&amp;gt; Solution: &lt;a href="https://stackoverflow.com/a/73102343/1496554"&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 6 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/lab6_part.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/labs/lab6_part.html</id><summary type="html">&lt;p&gt;Lab 6 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#lab-6-participation-exercise"&gt;Lab 6 Participation Exercise&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -199,8 +252,8 @@ ShowActivity (create by yourself to have the following property)&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Submit the whole Project folder (not just source files or the 'app' directory)&lt;/p&gt;
-&lt;p&gt;&lt;img src="/content/general/slides/lab7_img1.png" alt="Screen1" width="500" /&gt;
-  &lt;img src="/content/general/slides/lab7_img2.png" alt="Screen2" width="500"/&gt;&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 8 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/lab8_part.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/labs/lab8_part.html</id><summary type="html">&lt;p&gt;Lab 8 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;p&gt;&lt;img alt="Screen1" src="https://ualberta-cmput301.github.io/labs/lab7_img1.png" style="margin: 20px;" width="300"&gt;
+&lt;img alt="Screen2" src="https://ualberta-cmput301.github.io/labs/lab7_img2.png" style="margin: 20px;" width="300"&gt;&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 8 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/lab8_part.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/labs/lab8_part.html</id><summary type="html">&lt;p&gt;Lab 8 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#lab-8-participation-exercise"&gt;Lab 8 Participation Exercise&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -211,63 +264,7 @@ ShowActivity (create by yourself to have the following property)&lt;/p&gt;
 &lt;p&gt;• Implement has city, delete city, and count cities (same as lab 6), however, this time using TDD.&lt;/p&gt;
 &lt;p&gt;• Create each functionality one at a time, creating (and pushing) a test to create a failing build, before adding functionality to make it pass.&lt;/p&gt;
 &lt;p&gt;• e.g., create hasCity test, push for failing build, write functionality for hasCity to make passing build. Repeat for delete city and count cities.&lt;/p&gt;
-&lt;p&gt;Please submit the link to your repo/fork.&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab5 Instructions</title><link href="https://ualberta-cmput301.github.io/labs/lab5_instruct.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/labs/lab5_instruct.html</id><summary type="html">&lt;p&gt;Lab5 Instructions&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="#lab-5-instructions"&gt;Lab 5 Instructions&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;h3 id="lab-5-instructions"&gt;Lab 5 Instructions&lt;/h3&gt;
-&lt;p&gt;Read &lt;a href="https://ualberta-cmput301.github.io/labs/slides/Firestore.pdf"&gt;Firestore 🔥.pdf&lt;/a&gt; for introduction of Firestore
-Follow instructions on &lt;a href="https://ualberta-cmput301.github.io/labs/slides/Lab5FInteg.pdf"&gt;Lab 5 Firestore Integration Instructions.pdf&lt;/a&gt; along with the TA.
-Complete Lab Exercise.&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab5 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/lab5_part.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/labs/lab5_part.html</id><summary type="html">&lt;p&gt;Lab5 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="#lab-5-participation-exercise"&gt;Lab 5 Participation Exercise&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="#note-the-design-of-the-deletion-functionality-is-up-to-you-however-we-have-uploaded-a-few-mockups-to-give-you-some-ideas"&gt;Note: the design of the deletion functionality is up to you, however, we have uploaded a few mockups to give you some ideas.&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;h3 id="lab-5-participation-exercise"&gt;Lab 5 Participation Exercise&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Due:&lt;/strong&gt; Friday, 9 February 2024, 4:00 PM&lt;/p&gt;
-&lt;p&gt;Proper completion of this exercise is considered as part of course participation.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;In this exercise it is your task to add the ability to delete Cities and integrate this functionality with the Firestore database, allowing for the persistence of deletions.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;After applying the changes in the lab demo &lt;a href="https://ualberta-cmput301.github.io/labs/slides/Lab5FInteg.pdf"&gt;(LINK TO INSTRUCTIONS)&lt;/a&gt; to &lt;a href="https://github.com/simpleParadox/CMPUT-301-CustomList"&gt;CustomList&lt;/a&gt;, add the ability to delete cities from the ListView and apply these same deletions to your instance of the Firestore database. If you have implemented this functionality correctly, restarting your app should not have an impact on what cities are displayed in your ListView after any addition or deletion actions.&lt;/p&gt;
-&lt;h4 id="note-the-design-of-the-deletion-functionality-is-up-to-you-however-we-have-uploaded-a-few-mockups-to-give-you-some-ideas"&gt;&lt;strong&gt;Note: the design of the deletion functionality is up to you, however, we have uploaded a few mockups to give you some ideas.&lt;/strong&gt;&lt;/h4&gt;
-&lt;p align="left"&gt;
-  &lt;img src="/content/general/slides/lab5_img1.png" alt="Screen1" width="500" style="margin-right: 20px;"/&gt;
-  &lt;img src="/content/general/slides/lab5_img2.png" alt="Screen2" width="500" style="margin-right: 20px;"/&gt;
-  &lt;img src="/content/general/slides/lab5_img3.png" alt="Screen3" width="500" style="margin-right: 20px;"/&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;When submitting, please upload the whole Android Studio Project Folder (not just the source files or the 'app' directory), and give it a unique name.&lt;/strong&gt;&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab6 Instructions</title><link href="https://ualberta-cmput301.github.io/labs/lab6_instruct.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/labs/lab6_instruct.html</id><summary type="html">&lt;p&gt;Lab6 Instructions&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="#lab-6-instructions"&gt;Lab 6 Instructions&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="#some-known-issues"&gt;Some known issues:&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;h3 id="lab-6-instructions"&gt;Lab 6 Instructions&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Follow the slides on Javadoc and JUnit&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Follow instructions on this &lt;a href="https://ualberta-cmput301.github.io/labs/slides/L6Junit.pdf"&gt;link&lt;/a&gt; along with the TA.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Complete Lab Exercise.  &lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h4 id="some-known-issues"&gt;Some known issues:&lt;/h4&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;"test events were not received" --&amp;gt; Solution: &lt;a href="https://stackoverflow.com/a/73009440/1496554"&gt;link&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;"Erro creating JavaDoc" --&amp;gt; Solution: &lt;a href="https://stackoverflow.com/a/73102343/1496554"&gt;link&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Project Part 0</title><link href="https://ualberta-cmput301.github.io/general/project_part0.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/general/project_part0.html</id><summary type="html">&lt;p&gt;Project Part 0&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;p&gt;Please submit the link to your repo/fork.&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Project Part 0</title><link href="https://ualberta-cmput301.github.io/general/project_part0.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/general/project_part0.html</id><summary type="html">&lt;p&gt;Project Part 0&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#project-part-0"&gt;Project Part 0&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href="#team-members"&gt;Team Members&lt;/a&gt;&lt;/li&gt;
@@ -1460,7 +1457,7 @@ These are brown M&amp;amp;M rules.&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Multiple lies like the above happen on Discord or another unofficial site for this class &lt;strong&gt;every semester&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Behavior such as harassment, bullying, threats, intimidation, insults, racism, lying are still subject to sanctions by the &lt;a href="https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/DispPol.aspx?PID=190&amp;amp;s=https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/Academic.aspx"&gt;Student Conduct Policy&lt;/a&gt; and the &lt;a href="https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/DispPol.aspx?PID=193&amp;amp;s=https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/Academic.aspx"&gt;Student Academic Integrity Policy&lt;/a&gt;. However, because the instructor and University has no control of these platforms we also do not have any way to stop or control harassment, bullying, threats, intimidation, insults, racism, lying&lt;/p&gt;</content><category term="general"></category><category term="resources"></category><category term="policy"></category><category term="contact"></category><category term="wellness"></category></entry><entry><title>Lab2 Instructions</title><link href="https://ualberta-cmput301.github.io/labs/lab2_instructions.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/labs/lab2_instructions.html</id><summary type="html">&lt;p&gt;Lab2 Instructions&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;Behavior such as harassment, bullying, threats, intimidation, insults, racism, lying are still subject to sanctions by the &lt;a href="https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/DispPol.aspx?PID=190&amp;amp;s=https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/Academic.aspx"&gt;Student Conduct Policy&lt;/a&gt; and the &lt;a href="https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/DispPol.aspx?PID=193&amp;amp;s=https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/Academic.aspx"&gt;Student Academic Integrity Policy&lt;/a&gt;. However, because the instructor and University has no control of these platforms we also do not have any way to stop or control harassment, bullying, threats, intimidation, insults, racism, lying&lt;/p&gt;</content><category term="general"></category><category term="resources"></category><category term="policy"></category><category term="contact"></category><category term="wellness"></category></entry><entry><title>Lab 2 Instructions</title><link href="https://ualberta-cmput301.github.io/labs/lab2_instructions.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/labs/lab2_instructions.html</id><summary type="html">&lt;p&gt;Lab 2 Instructions&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
 &lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#lab-2-instructions"&gt;Lab 2 Instructions&lt;/a&gt;&lt;/li&gt;
@@ -1471,7 +1468,7 @@ These are brown M&amp;amp;M rules.&lt;/p&gt;
 &lt;p&gt;Quick review of OOP principles
 Android Basics (Lab 2 Android Basics PDF under Lab 2)
 Displaying a list of items using ListView/ListAdapter (Lab 2 ListView Demo Example - Instructions PDF under Lab 2)
-Lab Exercise - adding and removing items from ListAdapter (see the Lab 2 Participation Exercise page for more details)&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab2 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/lab2_participation.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/labs/lab2_participation.html</id><summary type="html">&lt;p&gt;Lab2 Participation&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+Lab Exercise - adding and removing items from ListAdapter (see the Lab 2 Participation Exercise page for more details)&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 2 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/lab2_participation.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/labs/lab2_participation.html</id><summary type="html">&lt;p&gt;Lab 2 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
 &lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#lab-2-participation-exercise"&gt;Lab 2 Participation Exercise&lt;/a&gt;&lt;/li&gt;
@@ -1497,17 +1494,11 @@ Note: Proper completion of this exercise is considered as part of course partici
 &lt;li&gt;Press "ADD CITY" then type the name and press "CONFIRM".          2. Tap a city name to select it and then press "DELETE CITY" to remove
 This adds a new city name to the listview.                                               the city from the listview.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p align="left"&gt;
-  &lt;img src="/content/general/slides/img1_lab2.png" alt="Screen1" width="500" style="margin-right: 20px;"/&gt;
-  &lt;img src="/content/general/slides/img2_lab2.png" alt="Screen2" width="500" style="margin-right: 20px;"/&gt;
-  &lt;img src="/content/general/slides/img3_lab2.png" alt="Screen3" width="500" style="margin-right: 20px;"/&gt;
-&lt;/p&gt;
-
-&lt;p align="left"&gt;
-  &lt;img src="/content/general/slides/img4_lab2.png" alt="Screen4" width="500" style="margin-right: 20px;"/&gt;
-&lt;/p&gt;
-
-&lt;p&gt;You should submit your exercise as the project folder in the format of a zip archive.&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab3 Instructions</title><link href="https://ualberta-cmput301.github.io/labs/lab3_inst.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/labs/lab3_inst.html</id><summary type="html">&lt;p&gt;Lab3 Instructions&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;p&gt;&lt;img alt="Screen1" src="https://ualberta-cmput301.github.io/labs/img1_lab2.png" style="margin: 20px;" width="300"&gt;
+&lt;img alt="Screen2" src="https://ualberta-cmput301.github.io/labs/img2_lab2.png" style="margin: 20px;" width="300"&gt;
+&lt;img alt="Screen3" src="https://ualberta-cmput301.github.io/labs/img3_lab2.png" style="margin: 20px;" width="300"&gt;
+&lt;img alt="Screen4" src="https://ualberta-cmput301.github.io/labs/img1_lab2.png" style="margin: 20px;" width="300"&gt;&lt;/p&gt;
+&lt;p&gt;You should submit your exercise as the project folder in the format of a zip archive.&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 3 Instructions</title><link href="https://ualberta-cmput301.github.io/labs/lab3_inst.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/labs/lab3_inst.html</id><summary type="html">&lt;p&gt;Lab 3 Instructions&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#lab-3-instructions-what-well-do-in-lab"&gt;Lab 3 Instructions - What we'll do in lab!&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1529,7 +1520,7 @@ This adds a new city name to the listview.                                      
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Read about Java code conventions (see the Code Conventions (Schoepp) PDF).
-Editing existing cities in ListyCity (see the Lab 3 Participation Exercise page for more details)&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab3 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/lab3_part.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/labs/lab3_part.html</id><summary type="html">&lt;p&gt;Lab3 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+Editing existing cities in ListyCity (see the Lab 3 Participation Exercise page for more details)&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 3 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/lab3_part.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/labs/lab3_part.html</id><summary type="html">&lt;p&gt;Lab 3 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#lab-3-participation-exercise"&gt;Lab 3 Participation Exercise&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1561,7 +1552,7 @@ Another way you can send a City object from the Activity to the Fragment is by a
   &lt;img src="/content/general/slides/img4_lab2.png" alt="Screen4" width="500" style="margin-right: 20px;"/&gt;
 &lt;/p&gt;
 
-&lt;p&gt;You should submit your exercise solution as a zip or tar archive.&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab4 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/lab4_part.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/labs/lab4_part.html</id><summary type="html">&lt;p&gt;Lab4 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;p&gt;You should submit your exercise solution as a zip or tar archive.&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 4 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/lab4_part.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/labs/lab4_part.html</id><summary type="html">&lt;p&gt;Lab 4 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#lab-4-participation-exercise"&gt;Lab 4 Participation Exercise&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1621,7 +1612,7 @@ This task is for teams. &lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;Link to your branch in the repository at eClass&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab4 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/past_notes.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/labs/past_notes.html</id><summary type="html">&lt;p&gt;Lab4 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;/ol&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 4 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/past_notes.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/labs/past_notes.html</id><summary type="html">&lt;p&gt;Lab 4 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#past-lab-git-notes-romansky"&gt;PAST Lab Git Notes (Romansky)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1998,7 +1989,7 @@ This page lists selected videos and course resources from the &lt;a href="https:
 &lt;h3 id="refactoring"&gt;Refactoring&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/10_Review.pdf"&gt;Review Slides (1up)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="general"></category><category term="resources"></category><category term="policy"></category><category term="contact"></category><category term="wellness"></category></entry><entry><title>Lab4 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/past_notes.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/labs/past_notes.html</id><summary type="html">&lt;p&gt;Lab4 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;/ul&gt;</content><category term="general"></category><category term="resources"></category><category term="policy"></category><category term="contact"></category><category term="wellness"></category></entry><entry><title>Lab 4 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/past_notes.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/labs/past_notes.html</id><summary type="html">&lt;p&gt;Lab 4 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#past-lab-git-notes-romansky"&gt;PAST Lab Git Notes (Romansky)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -2058,7 +2049,7 @@ cmd: git push
 description: fetch the latest commits from origin, or push your latest changes
 to origin&lt;/p&gt;
 &lt;p&gt;Other commands, git remote, git rebase, and git fetch&lt;/p&gt;
-&lt;p&gt;Last modified: Tuesday, 3 September 2019, 11:58 PM&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab4 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/lab4_part.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/labs/lab4_part.html</id><summary type="html">&lt;p&gt;Lab4 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;p&gt;Last modified: Tuesday, 3 September 2019, 11:58 PM&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 4 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/lab4_part.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/labs/lab4_part.html</id><summary type="html">&lt;p&gt;Lab 4 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#lab-4-participation-exercise"&gt;Lab 4 Participation Exercise&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
