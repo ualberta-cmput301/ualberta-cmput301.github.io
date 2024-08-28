@@ -32,14 +32,11 @@ Here are some screenshots from an example application that demonstrate the requi
 1. Press "ADD CITY" then type the name and press "CONFIRM".          2. Tap a city name to select it and then press "DELETE CITY" to remove
 This adds a new city name to the listview.                                               the city from the listview.
 
-<p align="left">
-  <img src="/content/general/slides/img1_lab2.png" alt="Screen1" width="500" style="margin-right: 20px;"/>
-  <img src="/content/general/slides/img2_lab2.png" alt="Screen2" width="500" style="margin-right: 20px;"/>
-  <img src="/content/general/slides/img3_lab2.png" alt="Screen3" width="500" style="margin-right: 20px;"/>
-</p>
+![Screen1]({attach}/content/images/lab2/img1_lab2.png)
+![Screen2]({attach}/content/images/lab2/img2_lab2.png)
+![Screen3]({attach}/content/images/lab2/img3_lab2.png)
+![Screen4]({attach}/content/images/lab2/img1_lab2.png)
 
-<p align="left">
-  <img src="/content/general/slides/img4_lab2.png" alt="Screen4" width="500" style="margin-right: 20px;"/>
-</p>
+
 
 You should submit your exercise as the project folder in the format of a zip archive.
