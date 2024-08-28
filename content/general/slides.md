@@ -84,7 +84,7 @@ summary: Slides and per-topic resources
 * [Lab6_Instructions_W24]({attach}slides/L6Junit.pdf)
 * [Lab 6 Slides - Javadoc]({attach}slides/Javadoc.pdf)
 * [Lab 6 Slides - JUnit]({attach}slides/JUnit.pdf)
-* [Lab 6 Instructions for Javadoc and JUnit testing]({attach}slides/L6InsJavadoc.pdf)
+* [Lab 6 Instructions for Javadoc and JUnit testing]({attach}slides/Lab_6_Instructions_4JDoc_Junit.pdf)
 
 # Testing 
 
