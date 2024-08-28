@@ -1,9 +1,9 @@
-Title: Lab4 Participation Exercise
+Title: Lab 4 Participation Exercise
 date: 2024-01-06
 tags: labs, policy, grading
 authors: Samuel Iwuchukwu,Hazel Victoria Campbell
 status: published
-summary: Lab4 Participation Exercise
+summary: Lab 4 Participation Exercise
 
 [TOC]
 

@@ -1,9 +1,9 @@
-Title: Lab5 Instructions
+Title: Lab 5 Instructions
 date: 2024-08-26
 tags: labs, policy, grading
 authors: Samuel Iwuchukwu,Hazel Victoria Campbell
 status: published
-summary: Lab5 Instructions
+summary: Lab 5 Instructions
 [TOC]
 
 # Lab 5 Instructions

@@ -1,9 +1,9 @@
-Title: Lab3 Instructions
+Title: Lab 3 Instructions
 date: 2024-01-06
 tags: labs, policy, grading
 authors: Samuel Iwuchukwu,Hazel Victoria Campbell
 status: published
-summary: Lab3 Instructions
+summary: Lab 3 Instructions
 
 [TOC]
 
