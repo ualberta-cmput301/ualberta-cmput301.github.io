@@ -36,11 +36,11 @@ summary: Slides and per-topic resources
 # Lab3 -- Java Code Conventions, More Android 
 
 * [Lab 3 Slides [Winter 2024]]({attach}slides/Lab_3_Slides_Winter_2023.pdf)
-* [Lab 3 Instructions [Winter 2024]]({attach/Lab_3_Instructions_Winter_2023.pdf})
-* [Lab 3 Instructions - CustomList]({attach/Lab_3_instructions_CustomList.pdf})
-* [Lab 3 Instructions - Fragments]({attach}/Lab_3_Instructions_Fragments.pdf)
-* [Android Fragments Notes + Example]({attach/Android_Fragments_Notes_Example.pdf})
-* [Code Conventions (Schoepp)]({attach}/Code_Conventions_Schoepp.pdf)
+* [Lab 3 Instructions [Winter 2024]]({attach}slides/Lab_3_Instructions_Winter_2023.pdf)
+* [Lab 3 Instructions - CustomList]({attach}slides/Lab_3_instructions_CustomList.pdf)
+* [Lab 3 Instructions - Fragments]({attach}slides/Lab_3_Instructions_Fragments.pdf)
+* [Android Fragments Notes + Example]({attach}slides/Android_Fragments_Notes_Example.pdf)
+* [Code Conventions (Schoepp)]({attach}slides/Code_Conventions_Schoepp.pdf)
 
 # Android Activities Resources 
 
