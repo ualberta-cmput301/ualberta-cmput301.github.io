@@ -18,15 +18,11 @@ If you could not attend the labs or do not have the code for the updated Lab 3 L
 
 **Your app does not need to look exactly like the screenshots. All that is required is the ability to edit an existing city. You can implement it and make it look like however you want.**
 
-<p align="left">
-  <img src="/content/general/slides/img1_lab3.png" alt="Screen1" width="500" style="margin-right: 20px;"/>
-  <img src="/content/general/slides/img2_lab3.png" alt="Screen2" width="500" style="margin-right: 20px;"/>
-  <img src="/content/general/slides/img3_lab3.png" alt="Screen3" width="500" style="margin-right: 20px;"/>
-</p>
+![Screen1]({attach}../images/lab3/img1_lab3.png){width=300 style="margin: 20px;"}
+![Screen2]({attach}../images/lab3/img2_lab3.png){width=300 style="margin: 20px;"}
+![Screen3]({attach}../images/lab3/img3_lab3.png){width=300 style="margin: 20px;"}
+![Screen4]({attach}../images/lab3/img4_lab3.png){width=300 style="margin: 20px;"}
 
-<p align="left">
-  <img src="/content/general/slides/img4_lab3.png" alt="Screen4" width="500" style="margin-right: 20px;"/>
-</p>
 
 Hints:
 1. **Add setters** to your City class so that you can modify its name and province.
@@ -36,8 +32,6 @@ Another way you can send a City object from the Activity to the Fragment is by a
 
 Example of a newInstance method in AddCityFragment (Hint #3) 
 
-<p align="left">
-  <img src="/content/general/slides/img4_lab2.png" alt="Screen4" width="500" style="margin-right: 20px;"/>
-</p>
+![Screen5]({attach}../images/lab3/img5_lab3.png){width=300 style="margin: 20px;"}
 
 You should submit your exercise solution as a zip or tar archive.
