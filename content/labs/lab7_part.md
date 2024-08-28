@@ -29,7 +29,7 @@ ShowActivity (create by yourself to have the following property)
 
 Submit the whole Project folder (not just source files or the 'app' directory)
 
-![Screen1]({attach}/content/images/lab7/lab7_img1.png)
-![Screen2]({attach}/content/images/lab7/lab7_img2.png)
+![Screen1]({attach}../images/lab7/lab7_img1.png){width=300 style="margin: 20px;"}
+![Screen2]({attach}../images/lab7/lab7_img2.png){width=300 style="margin: 20px;"}
   
   

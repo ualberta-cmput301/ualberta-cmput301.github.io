@@ -32,10 +32,10 @@ Here are some screenshots from an example application that demonstrate the requi
 1. Press "ADD CITY" then type the name and press "CONFIRM".          2. Tap a city name to select it and then press "DELETE CITY" to remove
 This adds a new city name to the listview.                                               the city from the listview.
 
-![Screen1]({attach}/content/images/lab2/img1_lab2.png)
-![Screen2]({attach}/content/images/lab2/img2_lab2.png)
-![Screen3]({attach}/content/images/lab2/img3_lab2.png)
-![Screen4]({attach}/content/images/lab2/img1_lab2.png)
+![Screen1]({attach}../images/lab2/img1_lab2.png){ width=300 style="margin: 20px;"}
+![Screen2]({attach}../images/lab2/img2_lab2.png){ width=300 style="margin: 20px;" }
+![Screen3]({attach}../images/lab2/img3_lab2.png){ width=300 style="margin: 20px;"}
+![Screen4]({attach}../images/lab2/img1_lab2.png){ width=300 style="margin: 20px;" }
 
 
 

@@ -19,8 +19,8 @@ After applying the changes in the lab demo [(LINK TO INSTRUCTIONS)]({attach}slid
 
 ## **Note: the design of the deletion functionality is up to you, however, we have uploaded a few mockups to give you some ideas.**
 
-![Screen1]({attach}/content/images/lab5/lab5_img1.png)
-![Screen2]({attach}/content/images/lab5/lab5_img2.png)
-![Screen3]({attach}/content/images/lab5/lab5_img3.png)
+![Screen1]({attach}../images/lab5/lab5_img1.png){width=300 style="margin: 20px;"}
+![Screen2]({attach}../images/lab5/lab5_img2.png){width=300 style="margin: 20px;"}
+![Screen3]({attach}../images/lab5/lab5_img3.png){width=300 style="margin: 20px;"}
 
 **When submitting, please upload the whole Android Studio Project Folder (not just the source files or the 'app' directory), and give it a unique name.**
