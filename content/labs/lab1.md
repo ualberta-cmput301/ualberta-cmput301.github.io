@@ -3,7 +3,7 @@ date: 2024-08-19
 tags: labs, policy, grading
 authors: Samuel Iwuchukwu, Hazel Victoria Campbell
 status: published
-summary: Lab Instructions
+summary: Lab 1 Instructions
 
 ----
 

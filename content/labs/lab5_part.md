@@ -1,9 +1,9 @@
-Title: Lab5 Participation Exercise
+Title: Lab 5 Participation Exercise
 date: 2024-08-26
 tags: labs, policy, grading
 authors: Samuel Iwuchukwu,Hazel Victoria Campbell
 status: published
-summary: Lab5 Instructions
+summary: Lab 5 Participation Exercise
 [TOC]
 
 # Lab 5 Participation Exercise
@@ -19,10 +19,8 @@ After applying the changes in the lab demo [(LINK TO INSTRUCTIONS)]({attach}slid
 
 ## **Note: the design of the deletion functionality is up to you, however, we have uploaded a few mockups to give you some ideas.**
 
-<p align="left">
-  <img src="/content/general/slides/lab5_img1.png" alt="Screen1" width="500" style="margin-right: 20px;"/>
-  <img src="/content/general/slides/lab5_img2.png" alt="Screen2" width="500" style="margin-right: 20px;"/>
-  <img src="/content/general/slides/lab5_img3.png" alt="Screen3" width="500" style="margin-right: 20px;"/>
-</p>
+![Screen1]({attach}../images/lab5/lab5_img1.png){width=300 style="margin: 20px;"}
+![Screen2]({attach}../images/lab5/lab5_img2.png){width=300 style="margin: 20px;"}
+![Screen3]({attach}../images/lab5/lab5_img3.png){width=300 style="margin: 20px;"}
 
 **When submitting, please upload the whole Android Studio Project Folder (not just the source files or the 'app' directory), and give it a unique name.**

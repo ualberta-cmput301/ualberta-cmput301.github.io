@@ -1,9 +1,9 @@
-Title: Lab2 Instructions
+Title: Lab 2 Instructions
 date: 2024-01-06
 tags: labs, policy, grading
 authors: Samuel Iwuchukwu,Hazel Victoria Campbell
 status: published
-summary: Lab2 Instructions
+summary: Lab 2 Instructions
 
 ----
 
