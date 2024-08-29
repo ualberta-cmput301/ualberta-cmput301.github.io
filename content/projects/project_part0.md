@@ -8,8 +8,7 @@ summary: Project Part 0
 
 [TOC]
 
-**Due:** See schedule
-**Worth:** See outline
+* **Due date:** Check the [schedule]({filename}/pages/home.md#schedule).
 
 # Team Members
 

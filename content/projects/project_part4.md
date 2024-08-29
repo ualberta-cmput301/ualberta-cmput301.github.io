@@ -8,7 +8,7 @@ summary: Project Part 4
 
 # Project Part 4 -- Final Checkpoint
 
-**Due:** Monday, 8 April 2024, 4:00 PM
+* **Due date:** Check the [schedule]({filename}/pages/home.md#schedule).
 
 ## **Learning Objectives**
 

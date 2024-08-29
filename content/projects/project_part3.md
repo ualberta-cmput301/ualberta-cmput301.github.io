@@ -8,7 +8,7 @@ summary: Project Part 3
 
 # Project Part 3 -- Half-Way Checkpoint
 
-**Due:** Friday, 8 March 2024, 4:00 PM
+* **Due date:** Check the [schedule]({filename}/pages/home.md#schedule).
 
 
 ## **Learning Objectives**

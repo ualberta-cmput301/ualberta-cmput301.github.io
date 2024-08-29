@@ -64,21 +64,20 @@ ARTICLE_URL = ARTICLE_SAVE_AS = PAGE_URL = PAGE_SAVE_AS = '{path_no_ext}.html'
 STATIC_URL = STATIC_SAVE_AS = '{path}'
 
 DISPLAY_CATEGORIES_ON_MENU=False
-DISPLAY_PAGES_ON_MENU=False
+DISPLAY_PAGES_ON_MENU=True
 
 INDEX_SAVE_AS="all.html"
 
 MENUITEMS=[
-    ("Outline", "/general/outline.html"),
-    ("eClass & Grades", "https://eclass.srv.ualberta.ca/course/view.php?id=98584"),
+    ("eClass & Grades", "/home.html#eclass"),
     ("Schedule", "/#schedule"),
     ("Labs", "/general/labs.html"),
     ("Project", "/general/project.html"),
     ("Individual", "/general/individual.html"),
     ("Resources", "/general/resources.html"),
-    ("Help", "/general/help.html"),
     ("Discussion Forum", "https://eclass.srv.ualberta.ca/mod/forum/view.php?id=8037429"),
     ("News & Notices", "https://eclass.srv.ualberta.ca/mod/forum/view.php?id=8037428"),
     ("Lecture Zoom", "https://eclass.srv.ualberta.ca/mod/lti/view.php?id=8037420"),
     ("Slides", "/general/slides.html"),
 ]
+ 

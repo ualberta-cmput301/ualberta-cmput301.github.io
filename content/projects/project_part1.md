@@ -8,7 +8,7 @@ summary: Project Part 1
 
 # Project Part 1
 
-**Due:** Monday, 5 February 2024, 4:00 PM
+* **Due date:** Check the [schedule]({filename}/pages/home.md#schedule).
 
 **Learning Objectives**
 

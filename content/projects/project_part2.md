@@ -8,8 +8,7 @@ summary: Project Part 2
 
 # Project Part 2 -- Preparation
 
-**Due:** Friday, 16 February 2024, 4:00 PM
-
+* **Due date:** Check the [schedule]({filename}/pages/home.md#schedule).
 
 ## **Learning Objectives**
 

@@ -8,6 +8,8 @@ summary: Assignment 0: Getting Started
 
 [TOC]
 
+* **Due date:** Check the [schedule]({filename}/pages/home.md#schedule).
+
 # Learning Objectives
 
 * Learn how to use Android Studio on your computer.

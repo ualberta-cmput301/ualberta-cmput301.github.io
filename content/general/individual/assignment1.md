@@ -8,8 +8,7 @@ summary: Assignment 1
 
 [TOC]
 
-**Due:** Monday, 5 February 2024, 4:00 PM
-
+* **Due date:** Check the [schedule]({filename}/pages/home.md#schedule).
 
 # **Learning Objectives**
 Solve a problem by constructing a simple, interactive application using Android and Java.
