@@ -10,9 +10,8 @@ summary: Assignment 0: Getting Started
 
 # Learning Objectives
 
-    Learn how to use Android Studio on your computer.
-
-    Learn to create, build, and run a simple Android app.
+* Learn how to use Android Studio on your computer.
+* Learn to create, build, and run a simple Android app.
 
 # Problem Description
 
@@ -48,12 +47,14 @@ Upload your zip file to eClass under "Assignment 0".
 
 IF you have build.gradle.ktx files, for the last step instead of
 
+```
 def nav_version = "2.3.0-alpha04"
 classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version"
+```
 
+in your `build.gradle.ktx` (Project: My Frist App), You need
 
-in your build.gradle.ktx (Project: My Frist App), You need
-
+```
 buildscript {
     repositories {
         google()
@@ -63,22 +64,26 @@ buildscript {
         classpath("androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version")
     }
 }
-
+```
 
 And instead of:
 
+```
 apply plugin: 'androidx.navigation.safeargs'
-
+```
 
 You need in your build.gradle.ktx (module: app):
 
+```
 plugins {
     id("androidx.navigation.safeargs")
 }
-
+```
 
 There is also an error step 8 of task 9 that if you get an error about an unresolved inport
 
+```
 "import androidx.navigation.fragment.navArgs" 
+```
 
 but you can just remove that import its not needed for Java code.
