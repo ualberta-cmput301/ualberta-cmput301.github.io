@@ -125,4 +125,77 @@ You may assume that any code examples we provide to you are public domain and fr
 
 See [the resources page]({filename}/general/resources.md).
 
+## Course Fees
+
+Students will be required to use the online service [Firebase](https://firebase.google.com/pricing?authuser=0) in order to complete the coursework and course project. The expected fees are $0, however, Firebase may assess fees if storage, bandwidth, user, or operation limits are exceeded. In this case it is the responsibility of the student to pay for any Firebase charges. If you are unable to pay these fees, you must contact your TA and instructor immediately.
+
+## On-Line Homework Disclaimer
+
+On-line homework submission is a component of this course and is provided by a third-party company.  Please be aware that this company will be storing assessment information that may be associated with you. As a way to protect your personal information, you will create your own ID or be assigned a random ID to enter into the system. Only the random ID, performance on the on-line homework and the affiliation to the University of Alberta for this random ID will be conveyed to the company. You are not required to provide any additional personal information to this company. If you have any concerns about this, please contact the instructor of the course.
+
+* GitHub Classroom (Microsoft) - You can to create your own ID as long as it is not offensive. GitHub will be storing your submissions (homework), but it will not have access to your marks, feedback, or grades.
+* Firebase (Google) - See "Course Fees" above.
+* Mentimeter - You will be assigned a random, non-identifying ID. The system does not require creating an account. Do not enter your real name.
+
+1. Registration in the system and any monetary transactions are of your own accord and not the responsibility of the University.
+2. Students should be mindful of protecting their personal information and should be aware of how their personal information might be used and/or shared.
+3. Students MUST NOT use their @ualberta email address or CCID to register into the system and instead should use a non-identifying email address or account.
+
+## Academic Success Centre
+
+The [Academic Success Centre](https://www.ualberta.ca/current-students/academic-success-centre/index.html) provides professional academic support to help students strengthen their academic skills and achieve their academic goals. Individual advising, appointments, and group workshops are available year round in the areas of Accessibility, Communication, Learning, and Writing Resources. Modest fees apply for some services.
+
+## Faculty of Science Student Services
+
+The [Faculty of Science Student Services](https://www.ualberta.ca/science/student-services/index.html) office is located on the main floor of the [Centennial Centre for Interdisciplinary Sciences](https://www.ualberta.ca/science/about-us/facilities/index.html) (CCIS). This office can assist with the planning of [Your Academics](https://www.ualberta.ca/science/student-services/your-academics/index.html), and provide information related to [Student Life & Engagement](https://www.ualberta.ca/science/student-services/student-life-engagement/index.html), [Internship & Careers](https://www.ualberta.ca/science/student-services/internship-careers/index.html), and [Study Abroad](https://www.ualberta.ca/science/student-services/study-abroad/index.html) opportunities. Please visit [Advising](https://www.ualberta.ca/science/student-services/your-academics/advising.html) for more information about what Faculty Academic Advisors in the Student Services Office can assist you with.
+
+# Grade Evaluation
+
+Note the last column, it shows collaboration models for each unit of work. These styles are better described on the [CS course policy page](https://www.ualberta.ca/computing-science/resources/policy-information/department-course-policies.html).
+
+| What                    | Weight   | Collaboration | Due Date
+|-------------------------|----------|---------------|---------
+| Lecture Participation   | 5%       | Solo Effort   | Most Lectures
+| Labs                    | 5%       | Consultation  | Fridays 4PM
+| Assignment 0            | 4%       | Consultation  | 2024-09-17
+| Project Part 0          | 4%       | Teamwork      | 2024-09-17
+| Assignment 1            | 8%       | Consultation  | 2024-10-01
+| Project Part 1          | 4%       | Teamwork      | 2024-10-01
+| Project Part 2          | 8%       | Teamwork      | 2024-10-11
+| Project Part 3          | 12%      | Teamwork      | 2024-11-01
+| Project Part 4          | 20%      | Teamwork      | 2024-12-02
+| Final Exam              | 30%      | Solo Effort   | See Beartracks
+| Extra Credit            | +1%      | Solo Effort   | 
+
+Students must verify this date on BearTracks when the Final Exam Schedule is posted.
+
+### Labs
+
+Labs are due Friday at 4PM on the same week the lab was presented.
+
+### Letter Grades
+
+|Letter|Descriptor   | CS Department Interpretation
+|------|-------------|----------------------------------------------------------
+|A     |Excellent    |Consistently original thinking that extends the material, demonstrated depth and breadth in the material, ability to integrate material with other subjects, ability to analyze and synthesize material at various levels of abstraction.
+|B     |Good         |Like an A, but not consistent over time, or weak in a specific area.
+|C     |Satisfactory |Understand the core material but not its subtleties, can apply it to simple situations on own and to more complex situations with hints, evidence that the material has changed the way of thinking.
+|D+    |Poor         |Understands some of the core material but not its subtleties, can apply it to simple situations but often needs assistance, evidence that the material has had some change on the way of thinking.
+|D     |Minimal Pass |Shows some understanding of parts of the material, cannot apply it without some direction, little evidence that the material has changed the way of thinking
+|F     |Failure      |Little evidence of understanding of even the surface issues, poor analysis and synthesis, inability to apply the material.
+
+|        %| UA Letter | UA Descriptor |UA GPA      |
+|---------|-----------|---------------|------------|
+| ≥ 96.25%| A+        | Excellent     | 4.0        |
+| ≥ 91.25%| A         | Excellent     | 4.0        |
+|  ≥ 87.5%| A-        | Excellent     | 3.7        |
+| ≥ 83.75%| B+        | Good          | 3.3        |
+| ≥ 78.75%| B         | Good          | 3.0        |
+|    ≥ 75%| B-        | Good          | 2.7        |
+| ≥ 71.25%| C+        | Satisfactory  | 2.3        |
+| ≥ 66.25%| C         | Satsifactory  | 2.0        |
+| ≥ 62.5% | C-        | Satisfactory  | 1.7        |
+| ≥ 58.75%| D+        | Poor          | 1.3        |
+|    ≥ 50%| D         | Minimal Pass  | 1.0        |
+|     ≥ 0%| F         | Fail          | 0.0        |
 
