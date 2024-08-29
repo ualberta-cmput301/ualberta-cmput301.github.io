@@ -8,11 +8,10 @@
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;h3 id="learning-objectives"&gt;Learning Objectives&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nx"&gt;Learn&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;how&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;use&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;Android&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;Studio&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;on&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;your&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;computer&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;
-
-&lt;span class="nx"&gt;Learn&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;create&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;build&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;and&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;run&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;a&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;simple&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;Android&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;app&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
+&lt;ul&gt;
+&lt;li&gt;Learn how to use Android Studio on your computer.&lt;/li&gt;
+&lt;li&gt;Learn to create, build, and run a simple Android app.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id="problem-description"&gt;Problem Description&lt;/h3&gt;
 &lt;p&gt;Install Android Studio on your own computer.&lt;/p&gt;
 &lt;p&gt;Make and run a simple hello world app according to the Build your first app in java tutorial: https://developer.android.com/codelabs/build-your-first-android-app?hl=en#0  . Ensure you do all of this tutorial, including the final section on Fragments.&lt;/p&gt;
@@ -35,26 +34,36 @@ Screenshots:&lt;/p&gt;
 &lt;p&gt;Upload your zip file to eClass under "Assignment 0".&lt;/p&gt;
 &lt;h3 id="hints"&gt;Hints&lt;/h3&gt;
 &lt;p&gt;IF you have build.gradle.ktx files, for the last step instead of&lt;/p&gt;
-&lt;p&gt;def nav_version = "2.3.0-alpha04"
-classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version"&lt;/p&gt;
-&lt;p&gt;in your build.gradle.ktx (Project: My Frist App), You need&lt;/p&gt;
-&lt;p&gt;buildscript {
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;def nav_version = &amp;quot;2.3.0-alpha04&amp;quot;
+classpath &amp;quot;androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;in your &lt;code&gt;build.gradle.ktx&lt;/code&gt; (Project: My Frist App), You need&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;buildscript {
     repositories {
         google()
     }
     dependencies {
-        val nav_version = "2.7.6"
-        classpath("androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version")
+        val nav_version = &amp;quot;2.7.6&amp;quot;
+        classpath(&amp;quot;androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version&amp;quot;)
     }
-}&lt;/p&gt;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 &lt;p&gt;And instead of:&lt;/p&gt;
-&lt;p&gt;apply plugin: 'androidx.navigation.safeargs'&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;apply plugin: &amp;#39;androidx.navigation.safeargs&amp;#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 &lt;p&gt;You need in your build.gradle.ktx (module: app):&lt;/p&gt;
-&lt;p&gt;plugins {
-    id("androidx.navigation.safeargs")
-}&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;plugins {
+    id(&amp;quot;androidx.navigation.safeargs&amp;quot;)
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 &lt;p&gt;There is also an error step 8 of task 9 that if you get an error about an unresolved inport&lt;/p&gt;
-&lt;p&gt;"import androidx.navigation.fragment.navArgs" &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="s2"&gt;&amp;quot;import androidx.navigation.fragment.navArgs&amp;quot;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 &lt;p&gt;but you can just remove that import its not needed for Java code.&lt;/p&gt;</content><category term="individual"></category><category term="individual"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Assignment 1</title><link href="https://ualberta-cmput301.github.io/general/individual/assignment1.html" rel="alternate"></link><published>2024-08-12T00:00:00-06:00</published><updated>2024-08-12T00:00:00-06:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:ualberta-cmput301.github.io,2024-08-12:/general/individual/assignment1.html</id><summary type="html">&lt;p&gt;Assignment 1&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#learning-objectives"&gt;Learning Objectives&lt;/a&gt;&lt;/li&gt;

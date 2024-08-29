@@ -27,13 +27,17 @@
               <hgroup><h1><a href="https://ualberta-cmput301.github.io/">CMPUT 301</a></h1><p>Software Engineering</p></hgroup>
         <nav><ul>
             <li><a href="/general/outline.html">Outline</a></li>
-            <li><a href="#TODO">eClass</a></li>
+            <li><a href="https://eclass.srv.ualberta.ca/course/view.php?id=98584">eClass & Grades</a></li>
             <li><a href="/#schedule">Schedule</a></li>
             <li><a href="/general/labs.html">Labs</a></li>
             <li><a href="/general/project.html">Project</a></li>
             <li><a href="/general/individual.html">Individual</a></li>
             <li><a href="/general/resources.html">Resources</a></li>
             <li><a href="/general/help.html">Help</a></li>
+            <li><a href="https://eclass.srv.ualberta.ca/mod/forum/view.php?id=8037429">Discussion Forum</a></li>
+            <li><a href="https://eclass.srv.ualberta.ca/mod/forum/view.php?id=8037428">News & Notices</a></li>
+            <li><a href="https://eclass.srv.ualberta.ca/mod/lti/view.php?id=8037420">Lecture Zoom</a></li>
+            <li><a href="/general/slides.html">Slides</a></li>
         </ul></nav>
         </header>
         <main>
@@ -53,11 +57,10 @@
 </ul>
 </div>
 <h3 id="learning-objectives">Learning Objectives</h3>
-<div class="highlight"><pre><span></span><code><span class="nx">Learn</span><span class="w"> </span><span class="nx">how</span><span class="w"> </span><span class="nx">to</span><span class="w"> </span><span class="nx">use</span><span class="w"> </span><span class="nx">Android</span><span class="w"> </span><span class="nx">Studio</span><span class="w"> </span><span class="nx">on</span><span class="w"> </span><span class="nx">your</span><span class="w"> </span><span class="nx">computer</span><span class="p">.</span>
-
-<span class="nx">Learn</span><span class="w"> </span><span class="nx">to</span><span class="w"> </span><span class="nx">create</span><span class="p">,</span><span class="w"> </span><span class="nx">build</span><span class="p">,</span><span class="w"> </span><span class="k">and</span><span class="w"> </span><span class="nx">run</span><span class="w"> </span><span class="nx">a</span><span class="w"> </span><span class="nx">simple</span><span class="w"> </span><span class="nx">Android</span><span class="w"> </span><span class="nx">app</span><span class="p">.</span>
-</code></pre></div>
-
+<ul>
+<li>Learn how to use Android Studio on your computer.</li>
+<li>Learn to create, build, and run a simple Android app.</li>
+</ul>
 <h3 id="problem-description">Problem Description</h3>
 <p>Install Android Studio on your own computer.</p>
 <p>Make and run a simple hello world app according to the Build your first app in java tutorial: https://developer.android.com/codelabs/build-your-first-android-app?hl=en#0  . Ensure you do all of this tutorial, including the final section on Fragments.</p>
@@ -80,26 +83,36 @@ Screenshots:</p>
 <p>Upload your zip file to eClass under "Assignment 0".</p>
 <h3 id="hints">Hints</h3>
 <p>IF you have build.gradle.ktx files, for the last step instead of</p>
-<p>def nav_version = "2.3.0-alpha04"
-classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version"</p>
-<p>in your build.gradle.ktx (Project: My Frist App), You need</p>
-<p>buildscript {
+<div class="highlight"><pre><span></span><code>def nav_version = &quot;2.3.0-alpha04&quot;
+classpath &quot;androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version&quot;
+</code></pre></div>
+
+<p>in your <code>build.gradle.ktx</code> (Project: My Frist App), You need</p>
+<div class="highlight"><pre><span></span><code>buildscript {
     repositories {
         google()
     }
     dependencies {
-        val nav_version = "2.7.6"
-        classpath("androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version")
+        val nav_version = &quot;2.7.6&quot;
+        classpath(&quot;androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version&quot;)
     }
-}</p>
+}
+</code></pre></div>
+
 <p>And instead of:</p>
-<p>apply plugin: 'androidx.navigation.safeargs'</p>
+<div class="highlight"><pre><span></span><code>apply plugin: &#39;androidx.navigation.safeargs&#39;
+</code></pre></div>
+
 <p>You need in your build.gradle.ktx (module: app):</p>
-<p>plugins {
-    id("androidx.navigation.safeargs")
-}</p>
+<div class="highlight"><pre><span></span><code>plugins {
+    id(&quot;androidx.navigation.safeargs&quot;)
+}
+</code></pre></div>
+
 <p>There is also an error step 8 of task 9 that if you get an error about an unresolved inport</p>
-<p>"import androidx.navigation.fragment.navArgs" </p>
+<div class="highlight"><pre><span></span><code><span class="s2">&quot;import androidx.navigation.fragment.navArgs&quot;</span><span class="w"> </span>
+</code></pre></div>
+
 <p>but you can just remove that import its not needed for Java code.</p>
   <footer>
     <p>Published: <time datetime="2024-08-12T00:00:00-06:00">

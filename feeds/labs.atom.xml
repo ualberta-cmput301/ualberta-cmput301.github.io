@@ -348,67 +348,7 @@ Another way you can send a City object from the Activity to the Fragment is by a
 &lt;/ol&gt;
 &lt;p&gt;Example of a newInstance method in AddCityFragment (Hint #3) &lt;/p&gt;
 &lt;p&gt;&lt;img alt="Screen5" src="https://ualberta-cmput301.github.io/labs/img5_lab3.png" style="margin: 20px;" width="300"&gt;&lt;/p&gt;
-&lt;p&gt;You should submit your exercise solution as a zip or tar archive.&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 4 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/past_notes.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/labs/past_notes.html</id><summary type="html">&lt;p&gt;Lab 4 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="#past-lab-git-notes-romansky"&gt;PAST Lab Git Notes (Romansky)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;h3 id="past-lab-git-notes-romansky"&gt;PAST Lab Git Notes (Romansky)&lt;/h3&gt;
-&lt;p&gt;Preliminaries: Git has two modes it runs in. You can run it as a client which
-is what most uses will be. Or, you can run it as a server service. Github
-runs git as a service. As a client, you can connect your computer to the
-service. The computer offering git as a service is after referred to as a
-remote, or remote computer.
-You should setup a Github account for this course.
-Your Github account should be professional. Please be safe for work!
-Your git repositories in this class should all use a FOSS license!
-You can read about .gitignore files if you want git to ignore files matching
-regular expressions like backup files that end in a ~.&lt;/p&gt;
-&lt;p&gt;cmd: git config --global user.name "yourUserName"
-cmd: git config --global user.email "your@email.com"
-cmd: git config --global core.editor nano
-cmd: git config --list
-description: these commands setup your workstation git configurations which
-will be associated with each of the file changes you make through git. So, you
-should set them before you do anything.&lt;/p&gt;
-&lt;p&gt;cmd: git clone &lt;repository address&gt;
-description: allows a developer to make a copy of a git repository from a remote
-location to the developers local work station.
-example: git clone https://github.com/bpython/bpython.git
-result: makes a copy of the bpython repo on your computer!&lt;/p&gt;
-&lt;p&gt;cmd: git branch &lt;branch-name&gt;
-description: create a new code branch. The new branch will contain a copy
-of the current branches code.
-example: git branch bug444
-result: creates a branch named bug444&lt;/p&gt;
-&lt;p&gt;cmd: git branch -a
-description: shows all current branches associated with the current working
-repo. This will list branches that exist on the local work station and the
-remote repositories associated with the repo.&lt;/p&gt;
-&lt;p&gt;cmd: git push -u origin &lt;branch&gt;
-description: this will push a local branch to a given remote git service.
-You have to run this command when you make a new local branch that you would
-also like to track on the remote server.&lt;/p&gt;
-&lt;p&gt;cmd: git add &lt;file&gt;
-cmd: git rm &lt;file&gt;
-description: add or remove a file from gits file tracking system&lt;/p&gt;
-&lt;p&gt;cmd: git status
-description: print the current changes that git can track or is not tracking&lt;/p&gt;
-&lt;p&gt;cmd: git checkout &lt;branch_name&gt;
-cmd: git checkout --branch &lt;branch_name&gt;
-description: git checkout lets you change which branch you are working in. The
-latter usage changes your current branch and creates a new branch with the
-given name.&lt;/p&gt;
-&lt;p&gt;cmd: git merge &lt;branch_name&gt;
-description: git merge will take a given branch name and merge it into your
-current working branch. This is useful if you would like to grab features from
-another branch of code.&lt;/p&gt;
-&lt;p&gt;cmd: git pull
-cmd: git push
-description: fetch the latest commits from origin, or push your latest changes
-to origin&lt;/p&gt;
-&lt;p&gt;Other commands, git remote, git rebase, and git fetch&lt;/p&gt;
-&lt;p&gt;Last modified: Tuesday, 3 September 2019, 11:58 PM&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 4 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/lab4_part.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/labs/lab4_part.html</id><summary type="html">&lt;p&gt;Lab 4 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;p&gt;You should submit your exercise solution as a zip or tar archive.&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 4 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/lab4_part.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/labs/lab4_part.html</id><summary type="html">&lt;p&gt;Lab 4 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#lab-4-participation-exercise"&gt;Lab 4 Participation Exercise&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -468,4 +408,64 @@ This task is for teams. &lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;Link to your branch in the repository at eClass&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry></feed>
+&lt;/ol&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 4 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/past_notes.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/labs/past_notes.html</id><summary type="html">&lt;p&gt;Lab 4 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#past-lab-git-notes-romansky"&gt;PAST Lab Git Notes (Romansky)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="past-lab-git-notes-romansky"&gt;PAST Lab Git Notes (Romansky)&lt;/h3&gt;
+&lt;p&gt;Preliminaries: Git has two modes it runs in. You can run it as a client which
+is what most uses will be. Or, you can run it as a server service. Github
+runs git as a service. As a client, you can connect your computer to the
+service. The computer offering git as a service is after referred to as a
+remote, or remote computer.
+You should setup a Github account for this course.
+Your Github account should be professional. Please be safe for work!
+Your git repositories in this class should all use a FOSS license!
+You can read about .gitignore files if you want git to ignore files matching
+regular expressions like backup files that end in a ~.&lt;/p&gt;
+&lt;p&gt;cmd: git config --global user.name "yourUserName"
+cmd: git config --global user.email "your@email.com"
+cmd: git config --global core.editor nano
+cmd: git config --list
+description: these commands setup your workstation git configurations which
+will be associated with each of the file changes you make through git. So, you
+should set them before you do anything.&lt;/p&gt;
+&lt;p&gt;cmd: git clone &lt;repository address&gt;
+description: allows a developer to make a copy of a git repository from a remote
+location to the developers local work station.
+example: git clone https://github.com/bpython/bpython.git
+result: makes a copy of the bpython repo on your computer!&lt;/p&gt;
+&lt;p&gt;cmd: git branch &lt;branch-name&gt;
+description: create a new code branch. The new branch will contain a copy
+of the current branches code.
+example: git branch bug444
+result: creates a branch named bug444&lt;/p&gt;
+&lt;p&gt;cmd: git branch -a
+description: shows all current branches associated with the current working
+repo. This will list branches that exist on the local work station and the
+remote repositories associated with the repo.&lt;/p&gt;
+&lt;p&gt;cmd: git push -u origin &lt;branch&gt;
+description: this will push a local branch to a given remote git service.
+You have to run this command when you make a new local branch that you would
+also like to track on the remote server.&lt;/p&gt;
+&lt;p&gt;cmd: git add &lt;file&gt;
+cmd: git rm &lt;file&gt;
+description: add or remove a file from gits file tracking system&lt;/p&gt;
+&lt;p&gt;cmd: git status
+description: print the current changes that git can track or is not tracking&lt;/p&gt;
+&lt;p&gt;cmd: git checkout &lt;branch_name&gt;
+cmd: git checkout --branch &lt;branch_name&gt;
+description: git checkout lets you change which branch you are working in. The
+latter usage changes your current branch and creates a new branch with the
+given name.&lt;/p&gt;
+&lt;p&gt;cmd: git merge &lt;branch_name&gt;
+description: git merge will take a given branch name and merge it into your
+current working branch. This is useful if you would like to grab features from
+another branch of code.&lt;/p&gt;
+&lt;p&gt;cmd: git pull
+cmd: git push
+description: fetch the latest commits from origin, or push your latest changes
+to origin&lt;/p&gt;
+&lt;p&gt;Other commands, git remote, git rebase, and git fetch&lt;/p&gt;
+&lt;p&gt;Last modified: Tuesday, 3 September 2019, 11:58 PM&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry></feed>
