@@ -9,6 +9,12 @@ summary: Slides and per-topic resources
 
 [TOC]
 
+# Welcome
+
+* Old slides (dates, times, assignments, exams, will be out of date)
+    * [Welcome - Prof. Wong]({attach}slides/00_Welcome_Wong.pdf) [2]({attach}slides/00_Welcome_Wong2.pdf")
+    * [Welcome - Prof. Hindle]({attach}slides/00_Welcome_Hindle.pdf)
+
 # Objects UML Java
 
 * [Objects UML Java Slides]({attach}slides/02-OO.pdf)

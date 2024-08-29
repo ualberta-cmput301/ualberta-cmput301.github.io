@@ -9,11 +9,7 @@ summary: Lab Procedure, Lab Assignments, Lab Marking
 
 [TOC]
 
-# Lab 1
-
-* [Lab 1 Slides]({attach}slides/CMPUT_301_LAB_2024_01_09.pdf)
-* [Lab 1 Instructions]({filename}/labs/lab1.md)
-* [Lab 1 Participation Exercise]({filename}/labs/lab_part.md)
+* [Lab 1]({filename}/labs/lab1.md)
 
 # Lab 2
 

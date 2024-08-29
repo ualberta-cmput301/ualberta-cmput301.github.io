@@ -1,29 +1,37 @@
-Title: Lab 1 Instructions
+Title: Lab 1
 date: 2024-08-19
 tags: labs, policy, grading
 authors: Samuel Iwuchukwu, Hazel Victoria Campbell
 status: published
-summary: Lab 1 Instructions
+summary: Lab 1 -- Java, OOP, Android Studio
 
 ----
 
 [TOC]
 
-# Lab 1 -- Java, OOP, Android Studio
+* **Due Date:** See the schedule. (Usually Friday after the lab at 4PM)
+* [Lab 1 Slides]({attach}slides/CMPUT_301_LAB_2024_01_09.pdf)
 
-**Lab 1 Instructions**
+# Requirements
+
+1. Add three new model classes to LonelyTwitter: the first should be an abstract base class which represents the current mood. The second and third should be non-abstract classes which represent different moods (Ex: happy, sad, etc.) and inherit from the abstract class.
+2. Each mood should have a date and getters and setters to access the date.
+3. A constructor which sets the date to a default and a constructor which takes a date as an argument should be provided. 
+4. Encapsulation should be followed.
+5. Each mood should have a method which returns a string representing that mood.
+6. Your new code should have examples of classes, methods, attributes, access modifiers, encapsulation, constructors, inheritance and abstract base classes.
+
+# Instructions
 
 Download and install Android Studio from the official Android website
 
-https://developer.android.com/studio
+<https://developer.android.com/studio>
 
 Check for specific installation guide unique to your Operating System
 
-**https://developer.android.com/studio/install**
+<https://developer.android.com/studio/install>
 
-Follow the following instructions
-
-**############# LAB Demo #####################**
+## Walkthrough
 
 1. Create a new LonelyTwitter project. Make sure that the project language is Java, not Kotlin!
 
@@ -84,4 +92,9 @@ public interface Tweetable {
 ```
 + Make Tweet implement Tweetable
 
+# Submission
+
+Note: Running the project is not necessary.
+
+Zip the project and upload it to eClass.
 
