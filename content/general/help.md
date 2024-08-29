@@ -19,6 +19,8 @@ We will not tolerate harassment, bullying, threats, intimidation, insults, lying
 
 # Where to get help?
 
+## Absences Extensions
+
 * Absences
     * Missed final exam:
         * Request a deferred exam from your faculty (Faculty of Science, Faculty of Arts, Faculty of Business, etc.)
@@ -26,6 +28,9 @@ We will not tolerate harassment, bullying, threats, intimidation, insults, lying
         * Fill in the [absence declaration form](https://docs.google.com/forms/d/e/1FAIpQLSc7SvrcZQ3CJJ6gR7oJgkKn1xD_zurT0rwN7snen9fqLefjMw/viewform?usp=sf_link) within 2 days of absence.
 * Extensions
     * No individual extensions are ever granted for any reason.
+
+## Exams Assignments Quizzes Labs Participation Projects
+
 * Question about exam/assignment/quiz/lab/participation
     * Before due date / not due yet: [Discussion Forum](#discussion-forum)
     * After due date / already due: [Contact instructor form](#contact-instructor)
