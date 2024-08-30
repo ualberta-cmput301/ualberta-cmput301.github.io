@@ -50,3 +50,7 @@ Please submit:
 1. Your CCID (not your student id number!)
 
 2. Link to your branch in the repository at eClass
+
+**Due Date**
+
+Friday after the Thursday lab at 4PM

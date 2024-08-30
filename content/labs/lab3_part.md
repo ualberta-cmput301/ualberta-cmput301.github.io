@@ -35,3 +35,7 @@ Example of a newInstance method in AddCityFragment (Hint #3)
 ![Screen5]({attach}../images/lab3/img5_lab3.png){width=300 style="margin: 20px;"}
 
 You should submit your exercise solution as a zip or tar archive.
+
+**Due Date**
+
+Friday after the lab at 4PM

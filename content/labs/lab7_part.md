@@ -33,3 +33,6 @@ Submit the whole Project folder (not just source files or the 'app' directory)
 ![Screen2]({attach}../images/lab7/lab7_img2.png){width=300 style="margin: 20px;"}
   
   
+**Due Date**
+
+Friday after the Thursday lab at 4PM
