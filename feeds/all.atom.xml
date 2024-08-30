@@ -771,7 +771,9 @@ Complete Lab Exercise.&lt;/p&gt;</content><category term="labs"></category><cate
 &lt;p&gt;&lt;img alt="Screen1" src="https://ualberta-cmput301.github.io/labs/lab5_img1.png" style="margin: 20px;" width="300"&gt;
 &lt;img alt="Screen2" src="https://ualberta-cmput301.github.io/labs/lab5_img2.png" style="margin: 20px;" width="300"&gt;
 &lt;img alt="Screen3" src="https://ualberta-cmput301.github.io/labs/lab5_img3.png" style="margin: 20px;" width="300"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;When submitting, please upload the whole Android Studio Project Folder (not just the source files or the 'app' directory), and give it a unique name.&lt;/strong&gt;&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 6 Instructions</title><link href="https://ualberta-cmput301.github.io/labs/lab6_instruct.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/labs/lab6_instruct.html</id><summary type="html">&lt;p&gt;Lab 6 Instructions&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;p&gt;&lt;strong&gt;When submitting, please upload the whole Android Studio Project Folder (not just the source files or the 'app' directory), and give it a unique name.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Due Date&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Friday after the Thursday lab at 4PM&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 6 Instructions</title><link href="https://ualberta-cmput301.github.io/labs/lab6_instruct.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/labs/lab6_instruct.html</id><summary type="html">&lt;p&gt;Lab 6 Instructions&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#lab-6-instructions"&gt;Lab 6 Instructions&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href="#some-known-issues"&gt;Some known issues:&lt;/a&gt;&lt;/li&gt;
@@ -825,7 +827,9 @@ Complete Lab Exercise.&lt;/p&gt;</content><category term="labs"></category><cate
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;2) Add Javadocs to all methods in CityList class and City class &lt;strong&gt;AND&lt;/strong&gt; generate the javadocs to &lt;project-name&gt;/app/javadocs&lt;/p&gt;
-&lt;p&gt;Submit the whole Project folder (not just source files or 'app')directory&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 7 Instructions</title><link href="https://ualberta-cmput301.github.io/labs/lab7_instruct.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/labs/lab7_instruct.html</id><summary type="html">&lt;p&gt;Lab 7 Instructions&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;p&gt;Submit the whole Project folder (not just source files or 'app')directory&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Due Date&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Friday after the Thursday lab at 4PM&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 7 Instructions</title><link href="https://ualberta-cmput301.github.io/labs/lab7_instruct.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/labs/lab7_instruct.html</id><summary type="html">&lt;p&gt;Lab 7 Instructions&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#lab-7-instructions"&gt;Lab 7 Instructions&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href="#lab-topicdemo"&gt;Lab Topic/Demo&lt;/a&gt;&lt;/li&gt;
@@ -869,7 +873,9 @@ ShowActivity (create by yourself to have the following property)&lt;/p&gt;
 
 &lt;p&gt;Submit the whole Project folder (not just source files or the 'app' directory)&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Screen1" src="https://ualberta-cmput301.github.io/labs/lab7_img1.png" style="margin: 20px;" width="300"&gt;
-&lt;img alt="Screen2" src="https://ualberta-cmput301.github.io/labs/lab7_img2.png" style="margin: 20px;" width="300"&gt;&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 8 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/lab8_part.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/labs/lab8_part.html</id><summary type="html">&lt;p&gt;Lab 8 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;img alt="Screen2" src="https://ualberta-cmput301.github.io/labs/lab7_img2.png" style="margin: 20px;" width="300"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Due Date&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Friday after the Thursday lab at 4PM&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 8 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/lab8_part.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/labs/lab8_part.html</id><summary type="html">&lt;p&gt;Lab 8 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#lab-8-participation-exercise"&gt;Lab 8 Participation Exercise&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -880,7 +886,9 @@ ShowActivity (create by yourself to have the following property)&lt;/p&gt;
 &lt;p&gt;• Implement has city, delete city, and count cities (same as lab 6), however, this time using TDD.&lt;/p&gt;
 &lt;p&gt;• Create each functionality one at a time, creating (and pushing) a test to create a failing build, before adding functionality to make it pass.&lt;/p&gt;
 &lt;p&gt;• e.g., create hasCity test, push for failing build, write functionality for hasCity to make passing build. Repeat for delete city and count cities.&lt;/p&gt;
-&lt;p&gt;Please submit the link to your repo/fork.&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Project Part 0</title><link href="https://ualberta-cmput301.github.io/projects/project_part0.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/projects/project_part0.html</id><summary type="html">&lt;p&gt;Project Part 0&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;p&gt;Please submit the link to your repo/fork.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Due Date&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Friday after the Thursday lab at 4PM&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Project Part 0</title><link href="https://ualberta-cmput301.github.io/projects/project_part0.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/projects/project_part0.html</id><summary type="html">&lt;p&gt;Project Part 0&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#team-members"&gt;Team Members&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#what-to-submit"&gt;What to submit&lt;/a&gt;&lt;/li&gt;
@@ -2169,7 +2177,9 @@ This adds a new city name to the listview.                                      
 &lt;img alt="Screen2" src="https://ualberta-cmput301.github.io/labs/img2_lab2.png" style="margin: 20px;" width="300"&gt;
 &lt;img alt="Screen3" src="https://ualberta-cmput301.github.io/labs/img3_lab2.png" style="margin: 20px;" width="300"&gt;
 &lt;img alt="Screen4" src="https://ualberta-cmput301.github.io/labs/img1_lab2.png" style="margin: 20px;" width="300"&gt;&lt;/p&gt;
-&lt;p&gt;You should submit your exercise as the project folder in the format of a zip archive.&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 3 Instructions</title><link href="https://ualberta-cmput301.github.io/labs/lab3_inst.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/labs/lab3_inst.html</id><summary type="html">&lt;p&gt;Lab 3 Instructions&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;p&gt;You should submit your exercise as the project folder in the format of a zip archive.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Due Date&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Friday after the Thursday lab at 4PM&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 3 Instructions</title><link href="https://ualberta-cmput301.github.io/labs/lab3_inst.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/labs/lab3_inst.html</id><summary type="html">&lt;p&gt;Lab 3 Instructions&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#lab-3-instructions-what-well-do-in-lab"&gt;Lab 3 Instructions - What we'll do in lab!&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -2214,67 +2224,9 @@ Another way you can send a City object from the Activity to the Fragment is by a
 &lt;/ol&gt;
 &lt;p&gt;Example of a newInstance method in AddCityFragment (Hint #3) &lt;/p&gt;
 &lt;p&gt;&lt;img alt="Screen5" src="https://ualberta-cmput301.github.io/labs/img5_lab3.png" style="margin: 20px;" width="300"&gt;&lt;/p&gt;
-&lt;p&gt;You should submit your exercise solution as a zip or tar archive.&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 4 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/lab4_part.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/labs/lab4_part.html</id><summary type="html">&lt;p&gt;Lab 4 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="#lab-4-participation-exercise"&gt;Lab 4 Participation Exercise&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;h3 id="lab-4-participation-exercise"&gt;Lab 4 Participation Exercise&lt;/h3&gt;
-&lt;p&gt;Due: Friday, 2 February 2024, 4:00 PM
-This task is for teams. &lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;As a team:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Create an Organization in GitHub and then create a repository (repo name: Team name) under this organization. &lt;/li&gt;
-&lt;li&gt;Add your members as collaborators so the whole team will be able to commit to their branches.&lt;/li&gt;
-&lt;li&gt;Create a new Android Studio project (1 project per team) with the same name as the repo name (Team name).&lt;/li&gt;
-&lt;li&gt;Your android project folder is your local repository and write all the commands within this repo/directory.&lt;/li&gt;
-&lt;li&gt;Use 'git init', 'git add', 'git commit', and 'git push' to push your code to the remote&lt;/li&gt;
-&lt;li&gt;Use 'git remote add origin' to add the URL of your remote repo to this local repo.&lt;/li&gt;
-&lt;li&gt;The repository should include .gitignore to not include Android Studio settings files (.idea) and the project build folder.&lt;/li&gt;
-&lt;li&gt;Create an abstract class Shape (java file) with x and y  integer fields (as a team).&lt;/li&gt;
-&lt;li&gt;Commit the change and push it to GitHub.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;As a member, on your local machine:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;(Do not fork) Clone the repository and create a branch with your name (do not use CCID).&lt;/li&gt;
-&lt;li&gt;Create a model class (ex. circle, rectangle, star, etc) (new java file) that extends Shape in your own branch.&lt;/li&gt;
-&lt;li&gt;Commit the change and push the branch to GitHub.&lt;/li&gt;
-&lt;li&gt;Create a pull request to main in Github.&lt;/li&gt;
-&lt;li&gt;Ask another member to merge it.&lt;/li&gt;
-&lt;li&gt;Edit the Shape class by adding a color string field. (String color = "blue";) (local your-own branch)&lt;/li&gt;
-&lt;li&gt;Commit the change. (Don't push it)&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;As a team:&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Edit the Shape class in the main branch &lt;strong&gt;on GitHub&lt;/strong&gt; by adding a &lt;strong&gt;color&lt;/strong&gt; string field. (String color = "$PUT_YOUR_CHOICE_OF_COLOR";)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;Commit the change in GitHub.&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;As a member, on your local machine:&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Pull the main branch from GitHub. You should have a conflict. (&lt;strong&gt;Origin/main -&amp;gt; local your-own&lt;/strong&gt;)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;Resolve the conflict.&lt;/li&gt;
-&lt;li&gt;Commit the change.&lt;/li&gt;
-&lt;li&gt;Push the branch to GitHub.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Please submit:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Your CCID (not your student id number!)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Link to your branch in the repository at eClass&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 4 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/past_notes.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/labs/past_notes.html</id><summary type="html">&lt;p&gt;Lab 4 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;p&gt;You should submit your exercise solution as a zip or tar archive.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Due Date&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Friday after the lab at 4PM&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 4 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/past_notes.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/labs/past_notes.html</id><summary type="html">&lt;p&gt;Lab 4 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#past-lab-git-notes-romansky"&gt;PAST Lab Git Notes (Romansky)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -2334,7 +2286,69 @@ cmd: git push
 description: fetch the latest commits from origin, or push your latest changes
 to origin&lt;/p&gt;
 &lt;p&gt;Other commands, git remote, git rebase, and git fetch&lt;/p&gt;
-&lt;p&gt;Last modified: Tuesday, 3 September 2019, 11:58 PM&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Labs</title><link href="https://ualberta-cmput301.github.io/general/labs.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/labs.html</id><summary type="html">&lt;p&gt;Lab Procedure, Lab Assignments, Lab Marking&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;p&gt;Last modified: Tuesday, 3 September 2019, 11:58 PM&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 4 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/lab4_part.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/labs/lab4_part.html</id><summary type="html">&lt;p&gt;Lab 4 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#lab-4-participation-exercise"&gt;Lab 4 Participation Exercise&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="lab-4-participation-exercise"&gt;Lab 4 Participation Exercise&lt;/h3&gt;
+&lt;p&gt;Due: Friday, 2 February 2024, 4:00 PM
+This task is for teams. &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;As a team:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create an Organization in GitHub and then create a repository (repo name: Team name) under this organization. &lt;/li&gt;
+&lt;li&gt;Add your members as collaborators so the whole team will be able to commit to their branches.&lt;/li&gt;
+&lt;li&gt;Create a new Android Studio project (1 project per team) with the same name as the repo name (Team name).&lt;/li&gt;
+&lt;li&gt;Your android project folder is your local repository and write all the commands within this repo/directory.&lt;/li&gt;
+&lt;li&gt;Use 'git init', 'git add', 'git commit', and 'git push' to push your code to the remote&lt;/li&gt;
+&lt;li&gt;Use 'git remote add origin' to add the URL of your remote repo to this local repo.&lt;/li&gt;
+&lt;li&gt;The repository should include .gitignore to not include Android Studio settings files (.idea) and the project build folder.&lt;/li&gt;
+&lt;li&gt;Create an abstract class Shape (java file) with x and y  integer fields (as a team).&lt;/li&gt;
+&lt;li&gt;Commit the change and push it to GitHub.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;As a member, on your local machine:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;(Do not fork) Clone the repository and create a branch with your name (do not use CCID).&lt;/li&gt;
+&lt;li&gt;Create a model class (ex. circle, rectangle, star, etc) (new java file) that extends Shape in your own branch.&lt;/li&gt;
+&lt;li&gt;Commit the change and push the branch to GitHub.&lt;/li&gt;
+&lt;li&gt;Create a pull request to main in Github.&lt;/li&gt;
+&lt;li&gt;Ask another member to merge it.&lt;/li&gt;
+&lt;li&gt;Edit the Shape class by adding a color string field. (String color = "blue";) (local your-own branch)&lt;/li&gt;
+&lt;li&gt;Commit the change. (Don't push it)&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;As a team:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Edit the Shape class in the main branch &lt;strong&gt;on GitHub&lt;/strong&gt; by adding a &lt;strong&gt;color&lt;/strong&gt; string field. (String color = "$PUT_YOUR_CHOICE_OF_COLOR";)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;Commit the change in GitHub.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;As a member, on your local machine:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Pull the main branch from GitHub. You should have a conflict. (&lt;strong&gt;Origin/main -&amp;gt; local your-own&lt;/strong&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;Resolve the conflict.&lt;/li&gt;
+&lt;li&gt;Commit the change.&lt;/li&gt;
+&lt;li&gt;Push the branch to GitHub.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Please submit:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Your CCID (not your student id number!)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Link to your branch in the repository at eClass&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Due Date&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Friday after the Thursday lab at 4PM&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Labs</title><link href="https://ualberta-cmput301.github.io/general/labs.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/general/labs.html</id><summary type="html">&lt;p&gt;Lab Procedure, Lab Assignments, Lab Marking&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
 &lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#lab-2"&gt;Lab 2&lt;/a&gt;&lt;/li&gt;
@@ -2711,67 +2725,7 @@ to origin&lt;/p&gt;
 &lt;h3 id="reference-materials"&gt;Reference Materials&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://eclass.srv.ualberta.ca/mod/page/view.php?id=7590565"&gt;SPM and SDA MOOC Resources&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><category term="resources"></category><category term="resources"></category><category term="reading"></category><category term="references"></category><category term="videos"></category></entry><entry><title>Lab 4 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/past_notes.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/labs/past_notes.html</id><summary type="html">&lt;p&gt;Lab 4 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="#past-lab-git-notes-romansky"&gt;PAST Lab Git Notes (Romansky)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;h3 id="past-lab-git-notes-romansky"&gt;PAST Lab Git Notes (Romansky)&lt;/h3&gt;
-&lt;p&gt;Preliminaries: Git has two modes it runs in. You can run it as a client which
-is what most uses will be. Or, you can run it as a server service. Github
-runs git as a service. As a client, you can connect your computer to the
-service. The computer offering git as a service is after referred to as a
-remote, or remote computer.
-You should setup a Github account for this course.
-Your Github account should be professional. Please be safe for work!
-Your git repositories in this class should all use a FOSS license!
-You can read about .gitignore files if you want git to ignore files matching
-regular expressions like backup files that end in a ~.&lt;/p&gt;
-&lt;p&gt;cmd: git config --global user.name "yourUserName"
-cmd: git config --global user.email "your@email.com"
-cmd: git config --global core.editor nano
-cmd: git config --list
-description: these commands setup your workstation git configurations which
-will be associated with each of the file changes you make through git. So, you
-should set them before you do anything.&lt;/p&gt;
-&lt;p&gt;cmd: git clone &lt;repository address&gt;
-description: allows a developer to make a copy of a git repository from a remote
-location to the developers local work station.
-example: git clone https://github.com/bpython/bpython.git
-result: makes a copy of the bpython repo on your computer!&lt;/p&gt;
-&lt;p&gt;cmd: git branch &lt;branch-name&gt;
-description: create a new code branch. The new branch will contain a copy
-of the current branches code.
-example: git branch bug444
-result: creates a branch named bug444&lt;/p&gt;
-&lt;p&gt;cmd: git branch -a
-description: shows all current branches associated with the current working
-repo. This will list branches that exist on the local work station and the
-remote repositories associated with the repo.&lt;/p&gt;
-&lt;p&gt;cmd: git push -u origin &lt;branch&gt;
-description: this will push a local branch to a given remote git service.
-You have to run this command when you make a new local branch that you would
-also like to track on the remote server.&lt;/p&gt;
-&lt;p&gt;cmd: git add &lt;file&gt;
-cmd: git rm &lt;file&gt;
-description: add or remove a file from gits file tracking system&lt;/p&gt;
-&lt;p&gt;cmd: git status
-description: print the current changes that git can track or is not tracking&lt;/p&gt;
-&lt;p&gt;cmd: git checkout &lt;branch_name&gt;
-cmd: git checkout --branch &lt;branch_name&gt;
-description: git checkout lets you change which branch you are working in. The
-latter usage changes your current branch and creates a new branch with the
-given name.&lt;/p&gt;
-&lt;p&gt;cmd: git merge &lt;branch_name&gt;
-description: git merge will take a given branch name and merge it into your
-current working branch. This is useful if you would like to grab features from
-another branch of code.&lt;/p&gt;
-&lt;p&gt;cmd: git pull
-cmd: git push
-description: fetch the latest commits from origin, or push your latest changes
-to origin&lt;/p&gt;
-&lt;p&gt;Other commands, git remote, git rebase, and git fetch&lt;/p&gt;
-&lt;p&gt;Last modified: Tuesday, 3 September 2019, 11:58 PM&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 4 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/lab4_part.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/labs/lab4_part.html</id><summary type="html">&lt;p&gt;Lab 4 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;/ul&gt;</content><category term="resources"></category><category term="resources"></category><category term="reading"></category><category term="references"></category><category term="videos"></category></entry><entry><title>Lab 4 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/lab4_part.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/labs/lab4_part.html</id><summary type="html">&lt;p&gt;Lab 4 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#lab-4-participation-exercise"&gt;Lab 4 Participation Exercise&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -2831,4 +2785,66 @@ This task is for teams. &lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;Link to your branch in the repository at eClass&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry></feed>
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Due Date&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Friday after the Thursday lab at 4PM&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 4 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/past_notes.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/labs/past_notes.html</id><summary type="html">&lt;p&gt;Lab 4 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#past-lab-git-notes-romansky"&gt;PAST Lab Git Notes (Romansky)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="past-lab-git-notes-romansky"&gt;PAST Lab Git Notes (Romansky)&lt;/h3&gt;
+&lt;p&gt;Preliminaries: Git has two modes it runs in. You can run it as a client which
+is what most uses will be. Or, you can run it as a server service. Github
+runs git as a service. As a client, you can connect your computer to the
+service. The computer offering git as a service is after referred to as a
+remote, or remote computer.
+You should setup a Github account for this course.
+Your Github account should be professional. Please be safe for work!
+Your git repositories in this class should all use a FOSS license!
+You can read about .gitignore files if you want git to ignore files matching
+regular expressions like backup files that end in a ~.&lt;/p&gt;
+&lt;p&gt;cmd: git config --global user.name "yourUserName"
+cmd: git config --global user.email "your@email.com"
+cmd: git config --global core.editor nano
+cmd: git config --list
+description: these commands setup your workstation git configurations which
+will be associated with each of the file changes you make through git. So, you
+should set them before you do anything.&lt;/p&gt;
+&lt;p&gt;cmd: git clone &lt;repository address&gt;
+description: allows a developer to make a copy of a git repository from a remote
+location to the developers local work station.
+example: git clone https://github.com/bpython/bpython.git
+result: makes a copy of the bpython repo on your computer!&lt;/p&gt;
+&lt;p&gt;cmd: git branch &lt;branch-name&gt;
+description: create a new code branch. The new branch will contain a copy
+of the current branches code.
+example: git branch bug444
+result: creates a branch named bug444&lt;/p&gt;
+&lt;p&gt;cmd: git branch -a
+description: shows all current branches associated with the current working
+repo. This will list branches that exist on the local work station and the
+remote repositories associated with the repo.&lt;/p&gt;
+&lt;p&gt;cmd: git push -u origin &lt;branch&gt;
+description: this will push a local branch to a given remote git service.
+You have to run this command when you make a new local branch that you would
+also like to track on the remote server.&lt;/p&gt;
+&lt;p&gt;cmd: git add &lt;file&gt;
+cmd: git rm &lt;file&gt;
+description: add or remove a file from gits file tracking system&lt;/p&gt;
+&lt;p&gt;cmd: git status
+description: print the current changes that git can track or is not tracking&lt;/p&gt;
+&lt;p&gt;cmd: git checkout &lt;branch_name&gt;
+cmd: git checkout --branch &lt;branch_name&gt;
+description: git checkout lets you change which branch you are working in. The
+latter usage changes your current branch and creates a new branch with the
+given name.&lt;/p&gt;
+&lt;p&gt;cmd: git merge &lt;branch_name&gt;
+description: git merge will take a given branch name and merge it into your
+current working branch. This is useful if you would like to grab features from
+another branch of code.&lt;/p&gt;
+&lt;p&gt;cmd: git pull
+cmd: git push
+description: fetch the latest commits from origin, or push your latest changes
+to origin&lt;/p&gt;
+&lt;p&gt;Other commands, git remote, git rebase, and git fetch&lt;/p&gt;
+&lt;p&gt;Last modified: Tuesday, 3 September 2019, 11:58 PM&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry></feed>
