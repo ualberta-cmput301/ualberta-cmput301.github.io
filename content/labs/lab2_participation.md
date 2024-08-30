@@ -40,3 +40,7 @@ This adds a new city name to the listview.                                      
 
 
 You should submit your exercise as the project folder in the format of a zip archive.
+
+**Due Date**
+
+Friday after the Thursday lab at 4PM

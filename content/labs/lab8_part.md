@@ -19,3 +19,7 @@ Lab Exercise
 • e.g., create hasCity test, push for failing build, write functionality for hasCity to make passing build. Repeat for delete city and count cities.
 
 Please submit the link to your repo/fork.
+
+**Due Date**
+
+Friday after the Thursday lab at 4PM
