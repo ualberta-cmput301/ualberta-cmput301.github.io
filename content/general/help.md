@@ -1,4 +1,4 @@
-title: How to get Help
+Title: How to get Help
 date: 2024-01-06
 tags: resources, policy, contact, wellness
 authors: Hazel Victoria Campbell
@@ -15,7 +15,7 @@ Ask questions well before Assignment due dates. Although you have nothing to los
 
 Please be polite, courteous, and professional. Follow the [online etiquette guidelines]({attach}online_etiquette_guidelines.pdf).
 
-We will not tolerate harassment, bullying, threats, intimidation, insults, lying, or creating any kind of environment that might discourage participation. Any such behavior is a violation of the [Student Conduct Policy](https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/DispPol.aspx?PID=190&s=https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/Academic.aspx) and subject to sanctions. Plagiarism, cheating, and lying are also violations of the [Student Academic Integrity Policy](https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/DispPol.aspx?PID=193&s=https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/Academic.aspx), and will be subject to sanctions.
+We will not tolerate harassment, bullying, threats, intimidation, insults, lying, or creating any kind of environment that might discourage participation. Any such behaviour is a violation of the [Student Conduct Policy](https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/DispPol.aspx?PID=190&s=https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/Academic.aspx) and subject to sanctions. Plagiarism, cheating, and lying are also violations of the [Student Academic Integrity Policy](https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/DispPol.aspx?PID=193&s=https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/Academic.aspx), and will be subject to sanctions.
 
 # Where to get help?
 
@@ -89,21 +89,21 @@ Unless your question is personal (E.g., you are feeling unwell and require an EA
 
 If your question is related to implementation/configuration issues in the projects/assignments, the TAs are best suited to help you. You can attend TA office hours remotely. **TAs do not provide help outside of Labs and Scheduled Office Hours.**
 
-If your question is related to content covered in class and you need further explanation, please post on the disucssion forum.
+If your question is related to content covered in class, and you need further explanation, please post on the discussion forum.
 
 TAs are not allowed to change your marks. If you disagree with your marks, [contact instructor](#contact-instructor) instead.
 
 ## Instructor Office Hours
 
 * [Instructor office hours]({filename}/general/outline.md#contact-information) is in the course outline.
-* Do not eMail instructor, use the [Contact instructor form](#contact-instructor), instead.
+* Do not email instructor, use the [Contact instructor form](#contact-instructor), instead.
 
 ## TAs
 
-**If you need help with your projects/assignment code, or help getting something working, the TAs are best suited to help you.**
+**If you need help with your projects/assignment code, or help to get something working, the TAs are best suited to help you.**
 
 * You can attend TA office hours remotely.
-* **Do not eMail TAs** unless you're having a hard time joining their Zoom/Meet.
+* **Do not email TAs,** unless you're having a hard time joining their Zoom/Meet.
 * TAs do not provide help outside of Labs and Scheduled Office Hours.
 * Please be polite and courteous.
 * TAs will not re-grade your work or deal with extensions, excuses, illness, etc.
@@ -114,13 +114,13 @@ TA office hours are on the eClass.
 
 Do not email the instructor. Use the contact instructor form. 
 
-Replies may take several days because there are hundreds of students. Currently there are more than 600 students. If you are asking about something that isn't due yet (before due date) please ask a TA instead, or use the discussion forum. You might not get a response before the due date. You will not get an extension, even if the instructor does not reply before the due date.
+Replies may take several days because there are hundreds of students. Currently, there are more than 600 students. If you are asking about something that isn't due yet (before due date) please ask a TA instead, or use the discussion forum. You might not get a response before the due date. You will not get an extension, even if the instructor does not reply before the due date.
 
 # Wellness Supports
 
 Welcome to 2024! I hope that you are happily settling into the winter semester at University of Alberta. If you’re still feeling the stress of exams or hoping to develop good health habits going into this new semester, we’re here to help! 
 
-Did you know that there are many services available, both in person and virtually, for students to help with physical well being? Whether you need a new exercise class, access to more affordable groceries, or mental health supports, read on to discover what is available at U  of A! Taking care of your physical self can help improve your mental well-being and increase your success in your classes as well.
+Did you know that there are many services available, both in person and virtually, for students to help with physical well-being? Whether you need a new exercise class, access to more affordable groceries, or mental health supports, read on to discover what is available at U of A! Taking care of your physical self can help improve your mental well-being and increase your success in your classes as well.
 
 Here are a few key places to connect with resources:
 
@@ -129,7 +129,7 @@ Here are a few key places to connect with resources:
 *   **[Campus Food Bank](https://campusfoodbank.com/)** 
 *   **[WECAN Food Basket](https://internalcomms.cmail19.com/t/d-l-vuytlz-ihirhlhytl-k/)** (affordable groceries)
 *   **[Campus and Community Recreation Winter 2024 schedule](https://www.ualberta.ca/campus-community-recreation/our-programs/rec-guide/index.html)** 
-*   **[Campus and Community Recreation Youtube Channel](https://www.youtube.com/@CampusCommunityRecreation)**
+*   **[Campus and Community Recreation YouTube Channel](https://www.youtube.com/@CampusCommunityRecreation)**
 *   **[Weekly free mindfulness and yoga class through Counselling & Clinical Services](https://www.ualberta.ca/current-students/counselling/workshops.html?utm_medium=email&utm_campaign=WCSI_Jan%202024&utm_content=WCSI_Jan%202024+CID_ba92968704987d94bc0c32e21ef6d5c6&utm_source=cm_internal_comms&utm_term=Weekly%20free%20mindfulness%20and%20yoga%20class%20through%20Counselling%20%20Clinical%20Services)**
 *   **[Use a treadmill desk when studying in the library](https://guides.library.ualberta.ca/wellbeing)**
 
@@ -165,7 +165,7 @@ The only official communications are:
 * eClass
 * Canvas University of Alberta (future)
 
-Additionally, you can submit assignments/projects/labs/participation on Github Classroom and Mentimeter, but do not use them to ask questions.
+Additionally, you can submit assignments/projects/labs/participation on GitHub Classroom and Mentimeter, but do not use them to ask questions.
 
 The instructor/TA are not responsible for and completely disown any unofficial communications.
 
@@ -181,5 +181,5 @@ People on unofficial discussion forums such as discord **sometimes lie**. There 
 
 Multiple lies like the above happen on Discord or another unofficial site for this class **every semester**.
 
-Behavior such as harassment, bullying, threats, intimidation, insults, racism, lying are still subject to sanctions by the [Student Conduct Policy](https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/DispPol.aspx?PID=190&s=https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/Academic.aspx) and the [Student Academic Integrity Policy](https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/DispPol.aspx?PID=193&s=https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/Academic.aspx). However, because the instructor and University has no control of these platforms we also do not have any way to stop or control harassment, bullying, threats, intimidation, insults, racism, lying.
+Behaviour such as harassment, bullying, threats, intimidation, insults, racism, lying are still subject to sanctions by the [Student Conduct Policy](https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/DispPol.aspx?PID=190&s=https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/Academic.aspx) and the [Student Academic Integrity Policy](https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/DispPol.aspx?PID=193&s=https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/Academic.aspx). However, because the instructor and University has no control of these platforms we also do not have any way to stop or control harassment, bullying, threats, intimidation, insults, racism, lying.
 

@@ -1,5 +1,5 @@
 Title: Home
-url:
+URL:
 save_as: index.html
 
 ----
@@ -10,7 +10,7 @@ save_as: index.html
 * [Lecture Slides]({filename}/general/slides.md)
 * [How to get Help]({filename}/general/help.md)
     * [Wellness Supports]({filename}/general/help.md#wellness-supports)
-* [Reference Material, eBooks, & Resources]({filename}/general/resources.md)
+* [Reference Material, e-books, & Resources]({filename}/general/resources.md)
 * [Absences]({filename}/general/help.md#absences-extensions)
 * [Discord]({filename}/general/help.md#where-to-not-get-help)
 
@@ -18,7 +18,7 @@ save_as: index.html
 
 # Schedule 
 
-**You need to be logged in as your University of Alberta CCID/eMail account to view it.** The course schedule is updated in this [Google Sheet](https://docs.google.com/spreadsheets/d/1NJSj_uFSG9sE1mGcw3waoCcOmzNzPcI_I2tbFiA9aYY/). Please remember that this is only a plan, and sometimes plans change.
+**You need to be logged in as your University of Alberta CCID/email account to view it.** The course schedule is updated in this [Google Sheet](https://docs.google.com/spreadsheets/d/1NJSj_uFSG9sE1mGcw3waoCcOmzNzPcI_I2tbFiA9aYY/). Please remember that this is only a plan, and sometimes plans change.
 
 # eClass
 

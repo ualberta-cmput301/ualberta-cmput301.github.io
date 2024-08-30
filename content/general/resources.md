@@ -21,7 +21,7 @@ If you find broken links, please file a GitHub issue.
 
 * [IBM - An introduction to UML](https://developer.ibm.com/articles/an-introduction-to-uml/)
 * <https://www.uml-diagrams.org/>
-* [Modeling Style Guidelines: Strategies for Better Diagrams](http://agilemodeling.com/style/)
+* [Modelling Style Guidelines: Strategies for Better Diagrams](http://agilemodeling.com/style/)
 * [Allen Holub’s UML Quick Reference](https://holub.com/uml/)
-* [UML Distilled: A Brief Guide to the Standard Object Modeling Language, Third Edition - Martin Fowler](https://learning.oreilly.com/library/view/uml-distilled-a/0321193687/)
+* [UML Distilled: A Brief Guide to the Standard Object Modelling Language, Third Edition - Martin Fowler](https://learning.oreilly.com/library/view/uml-distilled-a/0321193687/)
 * [Book: Head First Object-Oriented Analysis and Design](https://learning.oreilly.com/library/view/head-first-object-oriented/0596008678/)
