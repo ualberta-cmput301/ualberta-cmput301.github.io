@@ -78,7 +78,7 @@ Unless your question is personal (E.g., you are feeling unwell and require an EA
 * Post only questions related to **this course**.
 * Be polite, this is not a complaint forum.
 
-The discussion forum is on the eClass.
+[The discussion forum is on the eClass.](https://eclass.srv.ualberta.ca/mod/forum/view.php?id=8037429)
 
 # Labs Office Hours
 
@@ -150,7 +150,7 @@ Protective Services [780-492-5050](tel:780-492-5050)
 
 # Where to NOT get help
 
-<p class="warning">Do not ask for help on sites such as Discord, Telegram, WeChat, Snapchat...</p>
+<p class="warning">Do not ask for help on sites such as Discord, Telegram, WeChat, Snapchat... Ask on the <a href="#discussion-forum">Discussion Forum</a> instead! Or ask a TA!</p>
 
 The only official communications are:
 
@@ -164,15 +164,15 @@ The instructor/TA are not responsible for and completely disown any unofficial c
 
 People on unofficial discussion forums such as discord **sometimes lie**. There is no way to verify the people on Discord are even actually in the class. Previously on unofficial communications like Discord:
 
-    * Multiple times, someone lied about a due date was later than it was, leading to students missing deadline and getting a zero.
-    * Multiple times, Someone lied about something being required that was not, leading to students doing extra work for no reason.
-    * Multiple times, Someone lied about something not being required that actually was, leading to students failing assignments.
-    * A student gave someone on discord access to their computer, leading to money from their bank account being stolen.
-    * Multiple times, someone lied about an instructor retiring when they actually weren't.
-    * Someone lied about something being impossible, when it was actually easy, leading to multiple students doing a bunch of extra work.
-    * Multiple times, someone pasted code, leading to Plagiarism sanctions against multiple students by the University such as grade reductions, academic probation, being denied graduation.
+* Multiple times, someone lied about a due date was later than it was, leading to students missing deadline and getting a zero.
+* Multiple times, Someone lied about something being required that was not, leading to students doing extra work for no reason.
+* Multiple times, Someone lied about something not being required that actually was, leading to students failing assignments.
+* A student gave someone on discord access to their computer, leading to money from their bank account being stolen.
+* Multiple times, someone lied about an instructor retiring when they actually weren't.
+* Someone lied about something being impossible, when it was actually easy, leading to multiple students doing a bunch of extra work.
+* Multiple times, someone pasted code, leading to Plagiarism sanctions against multiple students by the University such as grade reductions, academic probation, being denied graduation.
 
 Multiple lies like the above happen on Discord or another unofficial site for this class **every semester**.
 
-Behavior such as harassment, bullying, threats, intimidation, insults, racism, lying are still subject to sanctions by the [Student Conduct Policy](https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/DispPol.aspx?PID=190&s=https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/Academic.aspx) and the [Student Academic Integrity Policy](https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/DispPol.aspx?PID=193&s=https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/Academic.aspx). However, because the instructor and University has no control of these platforms we also do not have any way to stop or control harassment, bullying, threats, intimidation, insults, racism, lying
+Behavior such as harassment, bullying, threats, intimidation, insults, racism, lying are still subject to sanctions by the [Student Conduct Policy](https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/DispPol.aspx?PID=190&s=https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/Academic.aspx) and the [Student Academic Integrity Policy](https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/DispPol.aspx?PID=193&s=https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/Academic.aspx). However, because the instructor and University has no control of these platforms we also do not have any way to stop or control harassment, bullying, threats, intimidation, insults, racism, lying.
 

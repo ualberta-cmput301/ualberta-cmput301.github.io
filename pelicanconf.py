@@ -69,15 +69,17 @@ DISPLAY_PAGES_ON_MENU=True
 INDEX_SAVE_AS="all.html"
 
 MENUITEMS=[
-    ("eClass & Grades", "/home.html#eclass"),
+    ("Outline", "/general/outline.html"),
+    ("eClass & Grades", "/#eclass"),
     ("Schedule", "/#schedule"),
     ("Labs", "/general/labs.html"),
     ("Project", "/general/project.html"),
     ("Individual", "/general/individual.html"),
     ("Resources", "/general/resources.html"),
-    ("Discussion Forum", "https://eclass.srv.ualberta.ca/mod/forum/view.php?id=8037429"),
-    ("News & Notices", "https://eclass.srv.ualberta.ca/mod/forum/view.php?id=8037428"),
-    ("Lecture Zoom", "https://eclass.srv.ualberta.ca/mod/lti/view.php?id=8037420"),
+    ("Discussion Forum", "/general/help.html#discussion-forum"),
+    ("News & Notices", "/#news-notices"),
+    ("Lecture Zoom", "/#lecture-zoom"),
     ("Slides", "/general/slides.html"),
+    ("Help", "/general/help.html"),
 ]
  

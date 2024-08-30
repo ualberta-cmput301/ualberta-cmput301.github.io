@@ -15,6 +15,7 @@ save_as: index.html
 * [How to get Help]({filename}/general/help.md)
     * [Wellness Supports]({filename}/general/help.md#wellness-supports)
 * [Reference Material, eBooks, & Resources]({filename}/general/resources.md)
+* [Discord]({filename}/general/help.html#where-to-not-get-help)
 
 # Schedule 
 
@@ -22,10 +23,21 @@ save_as: index.html
 
 # eClass
 
-The current semester eClass is linked at the top of the page.
+[The current eClass page is here.](https://eclass.srv.ualberta.ca/course/view.php?id=98584#section-0)
 
-* Discussion Forum
-* News & Announcements
 * Grades
-* Submission boxes
+* Submissions
+* Discussion Forum
 
+We are in the process of moving things off of eClass, because eventually University of Alberta will get rid of eClass.
+
+## News & Notices
+
+[The latest news and notices for students.](https://eclass.srv.ualberta.ca/mod/forum/view.php?id=8037428) Check this regularly!
+
+## Lecture Zoom
+
+* You MUST be logged into your University of Alberta account to view the Zoom! 
+* [How to use Zoom for Students](https://support.eclass.ualberta.ca/index.php?/Knowledgebase/Article/View/422/23/using-zoom-for-students)
+
+[The lecture zoom is connected through eClass.](https://eclass.srv.ualberta.ca/mod/forum/view.php?id=8037428)
