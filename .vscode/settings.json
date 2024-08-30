@@ -1,3 +1,6 @@
 {
-    "makefile.configureOnOpen": false
+    "makefile.configureOnOpen": false,
+    "languageToolLinter.languageTool.ignoredWordsInWorkspace": [
+        "beq"
+    ]
 }

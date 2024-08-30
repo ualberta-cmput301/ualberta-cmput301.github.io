@@ -3,7 +3,7 @@ date: 2024-09-01
 tags: outline, policy, grading, contact
 authors: Hazel Victoria Campbell
 status: published
-summary: University of Alberta <br> CMPUT 301 - Software Engineering <br> LEC- <br> Fall 2024
+summary: University of Alberta <br> CMPUT 301 - Software Engineering <br> LEC- <br> Fall 2024 <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
 
 ----
 
@@ -59,10 +59,10 @@ Lecturer: Dr. Hazel Campbell
 * **Office hours (ATH 4-05):** Monday, Wednesday, Friday 2:10-2:50PM (in-person only)
 * **Office hours (Zoom):** Tuesday, Thursday 2:10-2:50PM (zoom only)
     * [You must be logged into Zoom with your UAlberta GMail](https://support.eclass.ualberta.ca/index.php?/Knowledgebase/Article/View/422/23/using-zoom-for-students).
-    * [Zoom link to join once you're logged in](https://ualberta-ca.zoom.us/j/99296332583)
+    * [Zoom link to join once you're logged-in](https://ualberta-ca.zoom.us/j/99296332583)
 * **Email:** Students must use the [contact form]({filename}/general/help.md#contact-instructor). It may take several days to respond due the large number of students. 
 
-## TAs
+## Teaching Assistants
 
 TA Contact Info and Office hours will be added on eClass.
 
@@ -131,9 +131,9 @@ Students will be required to use the online service [Firebase](https://firebase.
 
 ## On-Line Homework Disclaimer
 
-On-line homework submission is a component of this course and is provided by a third-party company.  Please be aware that this company will be storing assessment information that may be associated with you. As a way to protect your personal information, you will create your own ID or be assigned a random ID to enter into the system. Only the random ID, performance on the on-line homework and the affiliation to the University of Alberta for this random ID will be conveyed to the company. You are not required to provide any additional personal information to this company. If you have any concerns about this, please contact the instructor of the course.
+Online homework submission is a component of this course and is provided by a third-party company.  Please be aware that this company will be storing assessment information that may be associated with you. As a way to protect your personal information, you will create your own ID or be assigned a random ID to enter into the system. Only the random ID, performance on the online homework and the affiliation to the University of Alberta for this random ID will be conveyed to the company. You are not required to provide any additional personal information to this company. If you have any concerns about this, please contact the instructor of the course.
 
-* GitHub Classroom (Microsoft) - You can to create your own ID as long as it is not offensive. GitHub will be storing your submissions (homework), but it will not have access to your marks, feedback, or grades.
+* GitHub Classroom (Microsoft) - You can create your own ID as long as it is not offensive. GitHub will be storing your submissions (homework), but it will not have access to your marks, feedback, or grades.
 * Firebase (Google) - See "Course Fees" above.
 * Mentimeter - You will be assigned a random, non-identifying ID. The system does not require creating an account. Do not enter your real name.
 
@@ -153,19 +153,19 @@ The [Faculty of Science Student Services](https://www.ualberta.ca/science/studen
 
 Note the last column, it shows collaboration models for each unit of work. These styles are better described on the [CS course policy page](https://www.ualberta.ca/computing-science/resources/policy-information/department-course-policies.html).
 
-| What                    | Weight   | Collaboration | Due Date
+| What                    | Weight   | Collaboration | Due Date <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
 |-------------------------|----------|---------------|---------
-| Lecture Participation   | 5%       | Solo Effort   | Most Lectures
-| Labs                    | 5%       | Consultation  | Fridays 4PM
-| Assignment 0            | 4%       | Consultation  | ~ Week 3
-| Project Part 0          | 4%       | Teamwork      | ~ Week 3
-| Assignment 1            | 8%       | Consultation  | ~ Week 4
-| Project Part 1          | 4%       | Teamwork      | ~ Week 4
-| Project Part 2          | 8%       | Teamwork      | ~ Week 6
-| Project Part 3          | 12%      | Teamwork      | ~ Week 9
-| Project Part 4          | 20%      | Teamwork      | ~ Week 13
-| Final Exam              | 30%      | Solo Effort   | See Beartracks
-| Extra Credit            | +1%      | Solo Effort   | 
+| Lecture Participation   | 5%       | Solo Effort   | Most Lectures <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| Labs                    | 5%       | Consultation  | Fridays 4PM <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| Assignment 0            | 4%       | Consultation  | ~ Week 3 <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| Project Part 0          | 4%       | Teamwork      | ~ Week 3 <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| Assignment 1            | 8%       | Consultation  | ~ Week 4 <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| Project Part 1          | 4%       | Teamwork      | ~ Week 4 <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| Project Part 2          | 8%       | Teamwork      | ~ Week 6 <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| Project Part 3          | 12%      | Teamwork      | ~ Week 9 <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| Project Part 4          | 20%      | Teamwork      | ~ Week 13 <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| Final Exam              | 30%      | Solo Effort   | See BearTracks <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| Extra Credit            | +1%      | Solo Effort   | <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
 
 `~ Please see the [live schedule]({filename}/pages/home.md#schedule) for exact due dates.`
 
@@ -175,33 +175,33 @@ Grades are unofficial until approved by the Department and/or Faculty offering t
 
 ## Letter Grades
 
-|Letter|Descriptor   | CS Department Interpretation
+|Letter|Descriptor   | CS Department Interpretation <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
 |------|-------------|----------------------------------------------------------
-|A     |Excellent    |Consistently original thinking that extends the material, demonstrated depth and breadth in the material, ability to integrate material with other subjects, ability to analyze and synthesize material at various levels of abstraction.
-|B     |Good         |Like an A, but not consistent over time, or weak in a specific area.
-|C     |Satisfactory |Understand the core material but not its subtleties, can apply it to simple situations on own and to more complex situations with hints, evidence that the material has changed the way of thinking.
-|D+    |Poor         |Understands some of the core material but not its subtleties, can apply it to simple situations but often needs assistance, evidence that the material has had some change on the way of thinking.
-|D     |Minimal Pass |Shows some understanding of parts of the material, cannot apply it without some direction, little evidence that the material has changed the way of thinking
+|A     |Excellent    |Consistently original thinking that extends the material, demonstrated depth and breadth in the material, ability to integrate material with other subjects, ability to analyze and synthesize material at various levels of abstraction. <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+|B     |Good         |Like an A, but not consistent over time, or weak in a specific area. <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+|C     |Satisfactory |Understand the core material but not its subtleties, can apply it to simple situations on own and to more complex situations with hints, evidence that the material has changed the way of thinking. <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+|D+    |Poor         |Understands some of the core material but not its subtleties, can apply it to simple situations but often needs assistance, evidence that the material has had some change on the way of thinking. <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+|D     |Minimal Pass |Shows some understanding of parts of the material, cannot apply it without some direction, little evidence that the material has changed the way of thinking. <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
 |F     |Failure      |Little evidence of understanding of even the surface issues, poor analysis and synthesis, inability to apply the material.
 
-|        %| UA Letter | UA Descriptor |UA GPA      |
-|---------|-----------|---------------|------------|
-| ≥ 96.25%| A+        | Excellent     | 4.0        |
-| ≥ 91.25%| A         | Excellent     | 4.0        |
-|  ≥ 87.5%| A-        | Excellent     | 3.7        |
-| ≥ 83.75%| B+        | Good          | 3.3        |
-| ≥ 78.75%| B         | Good          | 3.0        |
-|    ≥ 75%| B-        | Good          | 2.7        |
-| ≥ 71.25%| C+        | Satisfactory  | 2.3        |
-| ≥ 66.25%| C         | Satsifactory  | 2.0        |
-| ≥ 62.5% | C-        | Satisfactory  | 1.7        |
-| ≥ 58.75%| D+        | Poor          | 1.3        |
-|    ≥ 50%| D         | Minimal Pass  | 1.0        |
-|     ≥ 0%| F         | Fail          | 0.0        |
+|        %| UA Letter | UA Descriptor |UA GPA      | <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+|---------|-----------|---------------|------------| <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| ≥ 96.25%| A+        | Excellent     | 4.0        | <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| ≥ 91.25%| A         | Excellent     | 4.0        | <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+|  ≥ 87.5%| A-        | Excellent     | 3.7        | <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| ≥ 83.75%| B+        | Good          | 3.3        | <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| ≥ 78.75%| B         | Good          | 3.0        | <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+|    ≥ 75%| B-        | Good          | 2.7        | <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| ≥ 71.25%| C+        | Satisfactory  | 2.3        | <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| ≥ 66.25%| C         | Satisfactory  | 2.0        | <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| ≥ 62.5% | C-        | Satisfactory  | 1.7        | <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| ≥ 58.75%| D+        | Poor          | 1.3        | <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+|    ≥ 50%| D         | Minimal Pass  | 1.0        | <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+|     ≥ 0%| F         | Fail          | 0.0        | <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
 
 ## Statement of Expectations for AI Use
 
-**You MUST not submit work by LLMs as your own, that is plagiarism.** This also applies to other "AI" and Generative Models: ChatGPT, Lex.page, DALL-E2, Google BARD/Gemini, Microsoft Bing/Copilot, and others. If you use LLMs you must cite it. This includes the corporation that made the AI, the AI, Subject, and Date. For example:
+**You MUST not submit work by LLMs as your own, that is plagiarism.** This also applies to other "AI" and Generative Models: ChatGPT, Lex, Page, DALL-E2, Google BARD/Gemini, Microsoft Bing/Copilot, and others. If you use LLMs you must cite it. This includes the corporation that made the AI, the AI, Subject, and Date. For example:
 
 ```.js
 // The following function from Microsoft, Bing, "How do I write a merge sort in JavaScript?", 2023-08-31
@@ -212,7 +212,7 @@ If you use LLMs **you must cite it**, but it's probably better to Google what it
 
 **LLMs like ChatGPT are wrong a lot.** It does not understand computer science. It understands how to form sentences and paragraphs well enough to be convincing, but it doesn't actually understand what anything it is saying **means.** When it has the choice between two answers, with opposite meanings, it will pick the answer that looks more like things it has seen before, **not** the answer that is more **correct.** This means you need to double-check that what it tells you is actually correct.
 
-**StackOverflow is always a better resource than Large Language Models such as ChatGPT, Copilot, Bard/Gemini, etc.**, but of course if you use code from Stackoverflow or any other website, **you must cite it.** This is because other human programmers will usually check and downvote, remove, or fix bad information on StackOverflow. No one is checking the output of LLMs: if an LLM lies to you, no one will ever know.
+**StackOverflow is always a better resource than Large Language Models such as ChatGPT, Copilot, Bard/Gemini, etc.**, but of course if you use code from StackOverflow or any other website, **you must cite it.** This is because other human programmers will usually check and downvote, remove, or fix bad information on StackOverflow. No one is checking the output of LLMs: if an LLM lies to you, no one will ever know.
 
 ChatGPT and similar services are recording everything you tell it, and tracking you.
 Using ChatGPT/Bing/Bard etc. they are recording everything you say and how the LLM responds
@@ -224,7 +224,7 @@ to you. There is no privacy.
     * There are 3 problems with this answer:
         1. b is not shorthand for beq: RARS replaces it with jal -- the actual replacement depends on the assembler used and the situation it is used in.
         2. This also makes ChatGPT's conclusion about relative limited range jumps and absolute jumps wrong. All jumps and branches in RISC-V are relative, short range jumps except jalr. RARS also (at least in every case I've seen) translates j to jal, not jalr, and jal is also a short-range, relative jump.
-        3. If b gets translated to beq x0, Y, label then what guarantees that the other register isn't also zero? The comparison with beq x0, Y cannot always be false, despite what ChatGPT claimed. This really doesn't make any sense. It would make more sense for it to be translated to bne x0, x0, label   ... but that's the opposite instruction of what ChatGPT claimed.
+        3. If b gets translated to beq x0, Y, label then what guarantees that the other register isn't also zero? The comparison with beq x0, Y cannot always be false, despite what ChatGPT claimed. This really doesn't make any sense. It would make more sense for it to be translated to bne x0, x0, label ... but that's the opposite instruction of what ChatGPT claimed.
 
 ## Re-Evaluation of Term Work
 
@@ -251,7 +251,7 @@ Absolutely no late work will be accepted. No extensions will be granted to indiv
 ## Missed Term Work
 
 **Missed Term Work or Final Exam Due to Non-medical Protected Grounds (e.g., religious beliefs):**  
-When a term assessment or final exam presents a conflict based on [non-medical protected grounds](https://www.ualberta.ca/current-students/academic-success-centre/accessibility-resources/register/eligibility.html), students must apply to the Academic Success Centre for accommodations via their [Register for Accommodations website](https://www.ualberta.ca/current-students/academic-success-centre/accessibility-resources/register/index.html). Students can review their eligibility and choose the application process specific for *Accommodations Based on Non-medical Protected Grounds*. 
+When a term assessment or final exam presents a conflict based on [nonmedical protected grounds](https://www.ualberta.ca/current-students/academic-success-centre/accessibility-resources/register/eligibility.html), students must apply to the Academic Success Centre for accommodations via their [Register for Accommodations website](https://www.ualberta.ca/current-students/academic-success-centre/accessibility-resources/register/index.html). Students can review their eligibility and choose the application process specific for *Accommodations Based on Non-medical Protected Grounds*. 
 
 It is imperative that students review the dates of all course assessments upon receipt of the course syllabus, and apply ***AS SOON AS POSSIBLE*** to ensure the timely application of the accommodation. Students who apply later in the term may experience unavoidable delays in the processing of the application, which can affect the accommodation.  
 
@@ -273,7 +273,7 @@ No late participation will be accepted.
 Failure to complete a participation exercise on time for any reason will result in a mark of zero.
 Please note that you can miss 6 lectures without penalty.
 
-Submitting a participation exercise or mentimeter without attending the lecture will be considered a breach of the [Student Academic Integrity Policy](https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/DispPol.aspx?PID=193\&s=https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/Academic.aspx).
+Submitting a participation exercise or Mentimeter without attending the lecture will be considered a breach of the [Student Academic Integrity Policy](https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/DispPol.aspx?PID=193\&s=https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/Academic.aspx).
 
 ## Assignments and Project Parts
 
@@ -285,11 +285,11 @@ Failure to complete an assignment or contribute to a project part without an exc
 
 A student who cannot write the final examination due to incapacitating illness, severe domestic affliction or other compelling reasons can apply for a deferred final examination. Such an application must be made to the student’s Faculty office within two working days of the missed examination and must be supported by appropriate documentation or a Statutory Declaration (see calendar on [Attendance](https://calendar.ualberta.ca/content.php?catoid=44\&navoid=13550\#attendance)). Deferred examinations are a privilege and not a right; there is no guarantee that a deferred examination will be granted. The Faculty may deny deferral requests in cases where less than 50% of term work has been completed. Misrepresentation of facts to gain a deferred examination is a serious breach of the Student Academic Integrity Policy. 
 
-# Required Techology
+# Required Technology
 
 This course requires a Mac, Windows, or Linux laptop computer capable of:
 
-1. Running Android Studio. [The current Android Studio minimum system requiremtns are listed here.](https://developer.android.com/codelabs/basic-android-kotlin-compose-install-android-studio#0)
+1. Running Android Studio. [The current Android Studio minimum system requirements are listed here.](https://developer.android.com/codelabs/basic-android-kotlin-compose-install-android-studio#0)
     1. Including the Android Phone Emulator
 2. Running git and other software development tools.
 3. Working for the 3-hour duration of LAB sections.
@@ -300,7 +300,7 @@ Please contact the instructor by the add/drop deadline 2024-09-16 if you do not 
 
 ## Hybrid Synchronous Delivery
 
-Unless otherwise stated by an instructor, **this course requires attendance in-person or via Zoom during the scheduled lectures** All labs require in-person attendance. Some lectures also require in-person attendenace, such as exam days, guest lectures, student presentations, and all labs.
+Unless otherwise stated by an instructor, **this course requires attendance in-person or via Zoom during the scheduled lectures** All labs require in-person attendance. Some lectures also require in-person attendance, such as exam days, guest lectures, student presentations, and all labs.
 
 * **Some Lectures** will be given in **hybrid** format. The lecture will be given in the lecture room on campus. At the same time, the lecture will also be streamed via Zoom and a recording of the lecture content will be made.
     * Zoom access is provided as a convenience only.
@@ -311,7 +311,7 @@ Unless otherwise stated by an instructor, **this course requires attendance in-p
     * You must be **available** to attend lectures in person.
         * You must be in Edmonton.
         * You must not have a scheduling conflict with this course.
-        * Scheduling conflicts and travel **will not** be accomodated.
+        * Scheduling conflicts and travel **will not** be accommodated.
 * **Labs** must be attended **in-person**.
 * **Exams** must be taken **in-person**. They will not be online. You must bring your Student ID (One Card).
 * **Scheduled office hours** will be available **in-person**.
@@ -531,6 +531,7 @@ Students must conduct themselves according to the University of Alberta [Calenda
     * You may not have them near you, in your pocket, or take them to the washroom.
     * If you brought electronics with you, you must leave them in your bag.
     * If you are distracted by the sound of other students, bring ear plugs, not ear buds.
+* If you do not stop writing the exam when the instructor or proctor announces the end of the exam, your exam will not be graded, and you will recieve a mark of zero.
 
 ## Cell phones
 
@@ -565,17 +566,17 @@ It's normal for us to have different mental health experiences throughout the ye
 
 This [Self-Care Guide](https://drive.google.com/file/d/1t5fqgXCG369tt5hDxrzQuvlTdy2W46RB/view?usp=sharing), originally designed by the Faculty of Native Studies, has broader application for use during students’ learning. It provides some ideas and strategies to consider that can help navigate emotionally challenging or triggering material.
 
+# Land Acknowledgement
+
+The University of Alberta respectfully acknowledges that we are situated on Treaty 6 territory, traditional lands of First Nations and Métis people. 
+
+To learn more about the significance of this land acknowledgement, please read [this](https://toronto.citynews.ca/2022/06/24/what-are-land-acknowledgements-and-why-do-they-matter/) useful article and associated links to more information.
+
 # Administrative
 
 ## Policy about Course Outlines
 
 Policy about course outlines can be found in [Course Requirements, Evaluations Procedures and Grading](https://calendar.ualberta.ca/content.php?catoid=44\&navoid=13550\#evaluation-procedures-and-grading-system) of the University Calendar.
-
-## Land Acknowledgement
-
-The University of Alberta respectfully acknowledges that we are situated on Treaty 6 territory, traditional lands of First Nations and Métis people. 
-
-To learn more about the significance of this land acknowledgement, please read [this](https://toronto.citynews.ca/2022/06/24/what-are-land-acknowledgements-and-why-do-they-matter/) useful article and associated links to more information.
 
 ## Disclaimer
 
