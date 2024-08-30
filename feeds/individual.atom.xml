@@ -7,6 +7,9 @@
 &lt;li&gt;&lt;a href="#hints"&gt;Hints&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Due date:&lt;/strong&gt; Check the &lt;a href="https://ualberta-cmput301.github.io/#schedule"&gt;schedule&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id="learning-objectives"&gt;Learning Objectives&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Learn how to use Android Studio on your computer.&lt;/li&gt;
@@ -75,7 +78,9 @@ classpath &amp;quot;androidx.navigation:navigation-safe-args-gradle-plugin:$nav_
 &lt;li&gt;&lt;a href="#submission-procedure"&gt;Submission Procedure&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Due:&lt;/strong&gt; Monday, 5 February 2024, 4:00 PM&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Due date:&lt;/strong&gt; Check the &lt;a href="https://ualberta-cmput301.github.io/#schedule"&gt;schedule&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id="learning-objectives"&gt;&lt;strong&gt;Learning Objectives&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;Solve a problem by constructing a simple, interactive application using Android and Java.&lt;/p&gt;
 &lt;p&gt;Document an object-oriented design in Unified Modeling Language.&lt;/p&gt;
