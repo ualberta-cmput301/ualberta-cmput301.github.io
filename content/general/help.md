@@ -13,7 +13,7 @@ summary: Communications Expectations
 
 Ask questions well before Assignment due dates. Although you have nothing to lose by trying, realize that while the course staff try to provide as much support as possible, they are not obliged to answer last-minute questions (i.e., those within less than 2 business days from the assignment due date). 
 
-Please be polite, courteous, and professional.
+Please be polite, courteous, and professional. Follow the [online etiquette guidelines]({attach}online_etiquette_guidelines.pdf).
 
 We will not tolerate harassment, bullying, threats, intimidation, insults, lying, or creating any kind of environment that might discourage participation. Any such behavior is a violation of the [Student Conduct Policy](https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/DispPol.aspx?PID=190&s=https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/Academic.aspx) and subject to sanctions. Plagiarism, cheating, and lying are also violations of the [Student Academic Integrity Policy](https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/DispPol.aspx?PID=193&s=https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/Academic.aspx), and will be subject to sanctions.
 
@@ -77,6 +77,7 @@ Unless your question is personal (E.g., you are feeling unwell and require an EA
 * Do not post your solutions.
 * Post only questions related to **this course**.
 * Be polite, this is not a complaint forum.
+* Follow the [online etiquette guidelines]({attach}online_etiquette_guidelines.pdf).
 
 [The discussion forum is on the eClass.](https://eclass.srv.ualberta.ca/mod/forum/view.php?id=8037429)
 
@@ -138,9 +139,15 @@ All mental health & wellbeing supports offered to undergraduate students are lis
 
 If you are unsure how to access a resource, please contact the **[Office of the Dean of Students](https://www.ualberta.ca/dean-of-students/index.html?utm_medium=email&utm_campaign=WCSI_Jan%202024&utm_content=WCSI_Jan%202024+CID_ba92968704987d94bc0c32e21ef6d5c6&utm_source=cm_internal_comms&utm_term=Office%20of%20the%20Dean%20of%20Students)** for a full listing of services.
 
-## Immediate Assistance
+## Need Help Now?
+
+It's normal for us to have different mental health experiences throughout the year. Know that there are people who want to help. You can reach out to your friends and access a variety of supports available on and off campus at the **[Need Help Now](https://www.ualberta.ca/current-students/need-help-now.html)** webpage or by calling the **24-hour Distress Line: 780-482-4357 (HELP)**. 
 
 If you or someone you know is in need of immediate assistance, please reach out to a friend, professor, or staff member. Find a list of immediate support services **[here](https://www.ualberta.ca/current-students/need-help-now.html?utm_medium=email&utm_campaign=WCSI_Jan%202024&utm_content=WCSI_Jan%202024+CID_ba92968704987d94bc0c32e21ef6d5c6&utm_source=cm_internal_comms&utm_term=here)**.
+
+## Student Self-Care Guide
+
+This [Self-Care Guide](https://drive.google.com/file/d/1t5fqgXCG369tt5hDxrzQuvlTdy2W46RB/view?usp=sharing), originally designed by the Faculty of Native Studies, has broader application for use during students’ learning. It provides some ideas and strategies to consider that can help navigate emotionally challenging or triggering material.
 
 ## Safety and Security for Students
 

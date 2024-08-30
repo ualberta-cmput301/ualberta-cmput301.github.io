@@ -4,10 +4,6 @@ save_as: index.html
 
 ----
 
-[TOC]
-
-# The Most Important Stuff
-
 * [Course Outline]({filename}/general/outline.md) (Syllabus)
 * [Contact Info]({filename}/general/outline.md#contact-information)
     * Students: see [How to get Help]({filename}/general/help.md)
@@ -15,7 +11,10 @@ save_as: index.html
 * [How to get Help]({filename}/general/help.md)
     * [Wellness Supports]({filename}/general/help.md#wellness-supports)
 * [Reference Material, eBooks, & Resources]({filename}/general/resources.md)
-* [Discord]({filename}/general/help.html#where-to-not-get-help)
+* [Absences]({filename}/general/help.md#absences-extensions)
+* [Discord]({filename}/general/help.md#where-to-not-get-help)
+
+[TOC]
 
 # Schedule 
 
@@ -27,7 +26,7 @@ save_as: index.html
 
 * Grades
 * Submissions
-* Discussion Forum
+* [Discussion Forum]({filename}/general/help.md#discussion-forum)
 
 We are in the process of moving things off of eClass, because eventually University of Alberta will get rid of eClass.
 
