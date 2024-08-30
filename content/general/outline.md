@@ -94,7 +94,7 @@ Students are expected to participate in all classes and labs.
 
 * software engineering
 * object-oriented analysis and development
-* Unified Modeling Language
+* Unified Modelling Language
 * software processes
 * requirements
 * testing
@@ -184,27 +184,28 @@ Grades are unofficial until approved by the Department and/or Faculty offering t
 |D     |Minimal Pass |Shows some understanding of parts of the material, cannot apply it without some direction, little evidence that the material has changed the way of thinking. <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
 |F     |Failure      |Little evidence of understanding of even the surface issues, poor analysis and synthesis, inability to apply the material.
 
-|        %| UA Letter | UA Descriptor |UA GPA      | <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
-|---------|-----------|---------------|------------| <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
-| ≥ 96.25%| A+        | Excellent     | 4.0        | <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
-| ≥ 91.25%| A         | Excellent     | 4.0        | <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
-|  ≥ 87.5%| A-        | Excellent     | 3.7        | <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
-| ≥ 83.75%| B+        | Good          | 3.3        | <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
-| ≥ 78.75%| B         | Good          | 3.0        | <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
-|    ≥ 75%| B-        | Good          | 2.7        | <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
-| ≥ 71.25%| C+        | Satisfactory  | 2.3        | <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
-| ≥ 66.25%| C         | Satisfactory  | 2.0        | <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
-| ≥ 62.5% | C-        | Satisfactory  | 1.7        | <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
-| ≥ 58.75%| D+        | Poor          | 1.3        | <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
-|    ≥ 50%| D         | Minimal Pass  | 1.0        | <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
-|     ≥ 0%| F         | Fail          | 0.0        | <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+<!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+|        %| UA Letter | UA Descriptor |UA GPA
+|---------|-----------|---------------|------
+| ≥ 96.25%| A+        | Excellent     | 4.0   <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| ≥ 91.25%| A         | Excellent     | 4.0   <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+|  ≥ 87.5%| A-        | Excellent     | 3.7   <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| ≥ 83.75%| B+        | Good          | 3.3   <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| ≥ 78.75%| B         | Good          | 3.0   <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+|    ≥ 75%| B-        | Good          | 2.7   <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| ≥ 71.25%| C+        | Satisfactory  | 2.3   <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| ≥ 66.25%| C         | Satisfactory  | 2.0   <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| ≥ 62.5% | C-        | Satisfactory  | 1.7   <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| ≥ 58.75%| D+        | Poor          | 1.3   <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+|    ≥ 50%| D         | Minimal Pass  | 1.0   <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+|     ≥ 0%| F         | Fail          | 0.0   <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
 
 ## Statement of Expectations for AI Use
 
 **You MUST not submit work by LLMs as your own, that is plagiarism.** This also applies to other "AI" and Generative Models: ChatGPT, Lex, Page, DALL-E2, Google BARD/Gemini, Microsoft Bing/Copilot, and others. If you use LLMs you must cite it. This includes the corporation that made the AI, the AI, Subject, and Date. For example:
 
 ```.js
-// The following function from Microsoft, Bing, "How do I write a merge sort in JavaScript?", 2023-08-31
+// The following function from Microsoft, Copilot, "How do I write a merge sort in JavaScript?", 2023-08-31
 function mergeSort(array) {
 ```
 
@@ -328,7 +329,7 @@ Please contact the instructor by the add/drop deadline 2024-09-16 if you do not 
 
 Recordings are provided for review and for students with an excused absence **only.** You must attend this class **live, while the lectures are happening** unless you have an acceptable excuse (incapacitating illness, severe domestic affliction). You must be in Edmonton and available to attend in-person. If you are not available to attend in person do not take this course. Following University policy, we absolutely do not provide any accommodations for travel. <https://calendar.ualberta.ca/content.php?catoid=44&navoid=13550#attendance> "Unacceptable reasons include, but are not limited to personal events such as vacations, weddings, or travel arrangements. When a student is absent without acceptable excuse, a final grade will be computed using a raw score of zero for the work missed."
 
-* Please note that class times for this course will be recorded. Recordings of this course will be used for the purposes of allowing review and providing lectures to students with an excused absence. Recordings will be disclosed to other students enrolled in this section of the class, other sections of the class, Teaching Assitants, other instructors, and University of Alberta officials. 
+* Please note that class times for this course will be recorded. Recordings of this course will be used for the purposes of allowing review and providing lectures to students with an excused absence. Recordings will be disclosed to other students enrolled in this section of the class, other sections of the class, Teaching Assistants, other instructors, and University of Alberta officials. 
 * Students have the right to not participate in the recording and are advised to turn off their cameras and audio prior to recording; they can still participate through text-based chat. It is recommended that students remove all identifiable and personal belongings from the space in which they will be participating.  
 * Recordings will be made available until final exam day, and accessible by zoom cloud storage. Please direct any questions about this collection to the instructor of this course.
 
@@ -349,7 +350,7 @@ Students are particularly urged to familiarize themselves with the provisions of
 
 All students are expected to consult the [Academic Integrity website](https://www.ualberta.ca/current-students/academic-resources/academic-integrity) for clarification on the various academic offences. All forms of academic dishonesty are unacceptable at the University. Unfamiliarity of the rules, procrastination or personal pressures are not acceptable excuses for committing an offence. Listen to your instructor, be a good person, ask for help when you need it, and do your own work \-- this will lead you toward a path to success. Any academic integrity concern in this course will be reported to the College of Natural and Applied Sciences. Suspected cases of non-academic misconduct will be reported to the Dean of Students. The College, the Faculty, and the Dean of Students are committed to student rights and responsibilities, and adhere to due process and administrative fairness, as outlined in the [Student Academic Integrity Policy](https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/DispPol.aspx?PID=193\&s=https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/Academic.aspx) and the [Student Conduct Policy](https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/DispPol.aspx?PID=190\&s=https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/Academic.aspx). Please refer to the policy websites for details on inappropriate behaviours and possible sanctions.
 
-The College of Natural and Applied Sciences (CNAS) has created an [Academic Integrity for CNAS Students](https://eclass.srv.ualberta.ca/course/view.php?id=88399) eClass site. Students can self enroll and review the various resources provided, including the importance of academic integrity, examples of academic misconduct & possible sanctions, and the academic misconduct & appeal process. They can also complete assessments to test their knowledge and earn a completion certificate.
+The College of Natural and Applied Sciences (CNAS) has created an [Academic Integrity for CNAS Students](https://eclass.srv.ualberta.ca/course/view.php?id=88399) eClass site. Students can self enrol and review the various resources provided, including the importance of academic integrity, examples of academic misconduct & possible sanctions, and the academic misconduct & appeal process. They can also complete assessments to test their knowledge and earn a completion certificate.
 
 *"Integrity is doing the right thing, even when no one is watching."* — C.S. Lewis
 
@@ -373,7 +374,7 @@ Contract cheating companies thrive on making students believe that they cannot s
 
 Uploading the instructor’s teaching materials (e.g. course outlines, lecture slides, assignment or exam questions, etc.) to tutorial, study or note-sharing websites or public servers is a copyright infringement and constitutes the misuse of University academic materials or other assets.
 
-Receiving assignment solutions or answers to exam questions from an unauthorised source puts you at risk of receiving inaccurate information.
+Receiving assignment solutions or answers to exam questions from an unauthorized source puts you at risk of receiving inaccurate information.
 
 ### Academic Integrity Issues Related to Minor Formative Assessments
 
@@ -409,7 +410,7 @@ For programming assignments software tools are used to detect plagiarism. When t
 
 ### Citation
 
-If you include code or ideas from someone who isn't you (including from an Generative AI or LLM) you must cite it. Here is an example of an appropriate citation:
+If you include code or ideas from someone who isn't you (including from a Generative AI or LLM) you must cite it. Here is an example of an appropriate citation:
 
 ```.py
 # The following function from Django Software Foundation and contributors, "Writing your first Django app, part 2", 2024-01-05
@@ -459,7 +460,7 @@ Assignments and Labs are under the department's *Consultation* model. That means
     * All suspected cases of plagiarism will be forwarded to the Dean's office and thoroughly investigated. Receiving a low mark for work not completed is a far superior alternative to this process and its possible long-term consequences for your career.
 * Each student must be able to verbally describe their exam answers and code, line by line, to a professor or TA, if asked to do so. Your mark may be reduced if you aren't able to explain your own work satisfactorily.
 
-Students may only submit work authored by themselves, or with approved co-authors. Work submitted by a student that is the work of someone else (e.g. another student or a tutor) either in part or in entirety is considered plagiarism. Cases of plagiarism and other forms of cheating are immediately referred to the Dean of Science, who determines what course of action is appropriate. We do not hesitate to send ALL cases of cheating to the Dean's office. Please do not put yourself or us into such an unpleasant situation. Please read the Code of Student Behavior carefully. 
+Students may only submit work authored by themselves, or with approved co-authors. Work submitted by a student that is the work of someone else (e.g. another student or a tutor) either in part or in entirety is considered plagiarism. Cases of plagiarism and other forms of cheating are immediately referred to the Dean of Science, who determines what course of action is appropriate. We do not hesitate to send ALL cases of cheating to the Dean's office. Please do not put yourself or us into such an unpleasant situation. Please read the [Student Conduct Policy](https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/DispPol.aspx?PID=190&s=https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/Academic.aspx) carefully. 
 
 Examples of collaboration:
 
@@ -492,10 +493,10 @@ For some substantial programming assignments and homework questions, students ma
 
 The semester project falls under the department's *Teamwork* model.
 
-* As long as you are a part of a group, you are responsible for everything in the group project, whether or not you participated in every component.
+* As long as you are a part of a group, you are responsible for everything in the group project, not just the parts you wrote.
 * A group may only submit work authored by group members or appropriately cited and credited code that does not violate the author's license.
 * Modifying, removing, or forging `git` history will be considered an academic integrity violation.
-* Bullying or hassment of team members will be brought to the Dean of Students under the Student Conduct Policy.
+* Bullying or harassment of team members will be brought to the Dean of Students under the Student Conduct Policy.
 
 ### Intellectual Violence
 
@@ -508,7 +509,7 @@ In this course, *Intellectual Violence* is considered bullying. Intellectual vio
 * Rejecting contributions without constructive feedback.
 * Imposing overly strict code standards.
 * Ignoring or delaying code reviews, pull requests, or commits.
-* Favoring contributions from certain team members.
+* Favouring contributions from certain team members.
 * Using harsh or condescending language in comments, code reviews, pull requests, issues, commit messages, ...
 * Making contributors feel unwelcome.
 
@@ -531,7 +532,7 @@ Students must conduct themselves according to the University of Alberta [Calenda
     * You may not have them near you, in your pocket, or take them to the washroom.
     * If you brought electronics with you, you must leave them in your bag.
     * If you are distracted by the sound of other students, bring ear plugs, not ear buds.
-* If you do not stop writing the exam when the instructor or proctor announces the end of the exam, your exam will not be graded, and you will recieve a mark of zero.
+* If you do not stop writing the exam when the instructor or proctor announces the end of the exam, your exam will not be graded, and you will receive a mark of zero.
 
 ## Cell phones
 
@@ -539,7 +540,7 @@ Cell phones may be used to complete participation exercises. Otherwise, cell pho
 
 ## Students Eligible for Accessibility-Related Accommodations
 
-In accordance with the University of Alberta’s [Discrimination, Harassment,and Duty to Accommodate policy](https://policiesonline.ualberta.ca/PoliciesProcedures/Policies/Discrimination-Harassment-and-Duty-to-Accommodate-Policy.pdf), accommodation support is available to eligible students who encounter limitations or restrictions to their ability to perform the daily activities necessary to pursue studies at a post-secondary level due to medical conditions and/or non-medical protected grounds. Accommodations are coordinated through the [Academic Success Centre](https://www.ualberta.ca/current-students/academic-success-centre/index.html), and students can learn more about eligibility on the [Register for Accommodations website](https://www.ualberta.ca/current-students/academic-success-centre/accessibility-resources/register/index.html).  
+In accordance with the University of Alberta’s [Discrimination, Harassment, and Duty to Accommodate policy](https://policiesonline.ualberta.ca/PoliciesProcedures/Policies/Discrimination-Harassment-and-Duty-to-Accommodate-Policy.pdf), accommodation support is available to eligible students who encounter limitations or restrictions to their ability to perform the daily activities necessary to pursue studies at a post-secondary level due to medical conditions and/or nonmedical protected grounds. Accommodations are coordinated through the [Academic Success Centre](https://www.ualberta.ca/current-students/academic-success-centre/index.html), and students can learn more about eligibility on the [Register for Accommodations website](https://www.ualberta.ca/current-students/academic-success-centre/accessibility-resources/register/index.html).  
 
 It is recommended that students apply ***AS SOON AS POSSIBLE*** in order to ensure sufficient time to complete accommodation registration and coordination. Students are advised to review and adhere to published deadlines for accommodation approval and for specific accommodation requests (e.g., exam registration submission deadlines). Students who request accommodations less than a month in advance of the academic term for which they require accommodations may experience unavoidable delays or consequences in their academic programs, and may need to consider alternative academic schedules.
 
