@@ -3,7 +3,7 @@ date: 2024-09-01
 tags: outline, policy, grading, contact
 authors: Hazel Victoria Campbell
 status: published
-summary: University of Alberta <br> CMPUT 301 - Software Engineering <br> LEC- <br> Fall 2024 <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+summary: Lecture, Labs, Contact Information, Lecturer, Teaching Assistants, Course Content, Course Description, Prerequisites, Objectives and Learning Outcomes, Course Topics, Learning Resources, Course Schedule, Required Textbook and/or Other Major Course Materials, Recommended or Optional Learning Resources, Course Fees, On-Line Homework Disclaimer, Academic Success Centre, Faculty of Science Student Services, Grade Evaluation, Letter Grades, Statement of Expectations for AI Use, Re-Evaluation of Term Work, Re-examination, Past or Representative Evaluative Material, Labs, Participation, Policies for Late and Missed Work, Late Policy, Non-medical Protected Grounds, Missed Term Work: Assignments, Labs, Quizzes, Project Parts, Midterm Exams, Missed Term Work: Participation, Deferred Final Examination, Required Technology, Labs Assignments and Project, Lecture Participation, Remote Delivery Considerations, Technology Requirements, Recordings of Synchronous Activities, Home-Based Lab Activities, Student Resources for Remote Learning, Student Responsibilities, Academic Integrity and Student Conduct, Contract Cheating and Misuse of University Academic Materials or Other Assets, Contract Cheating: CS Courses, Academic Integrity Issues Related to Minor Formative Assessments, Appropriate Collaboration, Citation, Solo Effort: Participation Exercises, Quizzes, Exams, Confidential: Exams, Consultation: Assignments, Labs, Teamwork: Group Projects, Intellectual Violence, Exam Conduct, Lecture Conduct, Students Eligible for Accessibility-Related Accommodations, Recording and/or Distribution of Course Materials, On-Campus Computer Labs, Recording and/or Distribution of Course Materials, Learning and Working Environment, Feeling Stressed, Anxious, or Upset?, Student Self-Care Guide, Land Acknowledgement, Administrative, Policy about Course Outlines, Disclaimer, Update History, Copyright
 
 ----
 
@@ -22,17 +22,17 @@ summary: University of Alberta <br> CMPUT 301 - Software Engineering <br> LEC- <
 
 * Some lectures will also be available over Zoom.
     * You must attend live.
-    * You will be required to attend in person for some lectures/labs. 
+    * You will be required to attend in person for some lectures, all labs, and all exams.
     * You must be in Edmonton to take this course.
 * A1 / EA1 
     * Monday Wednesday Friday 10:00AM - 10:50AM 
     * [ED 2-115](http://www.campusmap.ualberta.ca/?b=edNorth)
-    * Zoom link
+    * Zoom link coming soon
         * [You must be logged into Zoom with your UAlberta GMail](https://support.eclass.ualberta.ca/index.php?/Knowledgebase/Article/View/422/23/using-zoom-for-students).
 * A2 / EA2
     * Monday Wednesday Friday 11:00AM - 11:50AM
     * [ED 2-115](http://www.campusmap.ualberta.ca/?b=edNorth)
-    * Zoom link
+    * Zoom link coming
         * [You must be logged into Zoom with your UAlberta GMail](https://support.eclass.ualberta.ca/index.php?/Knowledgebase/Article/View/422/23/using-zoom-for-students).
 
 # Lab
@@ -64,7 +64,7 @@ Lecturer: Dr. Hazel Campbell
 
 ## Teaching Assistants
 
-TA Contact Info and Office hours will be added on eClass.
+TA office hours will be added on eClass.
 
 # Course Content
 
@@ -151,27 +151,24 @@ The [Faculty of Science Student Services](https://www.ualberta.ca/science/studen
 
 # Grade Evaluation
 
-Note the last column, it shows collaboration models for each unit of work. These styles are better described on the [CS course policy page](https://www.ualberta.ca/computing-science/resources/policy-information/department-course-policies.html).
+Note the Collaboration column, it shows collaboration models for each unit of work. These styles are better described on the [CS course policy page](https://www.ualberta.ca/computing-science/resources/policy-information/department-course-policies.html).
 
 | What                    | Weight   | Collaboration | Due Date <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
 |-------------------------|----------|---------------|---------
-| Lecture Participation   | 5%       | Solo Effort   | Most Lectures <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
-| Labs                    | 5%       | Consultation  | Fridays 4PM <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
-| Assignment 0            | 4%       | Consultation  | ~ Week 3 <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
-| Project Part 0          | 4%       | Teamwork      | ~ Week 3 <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
-| Assignment 1            | 8%       | Consultation  | ~ Week 4 <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
-| Project Part 1          | 4%       | Teamwork      | ~ Week 4 <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
-| Project Part 2          | 8%       | Teamwork      | ~ Week 6 <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
-| Project Part 3          | 12%      | Teamwork      | ~ Week 9 <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
-| Project Part 4          | 20%      | Teamwork      | ~ Week 13 <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
-| Final Exam              | 30%      | Solo Effort   | See BearTracks <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
-| Extra Credit            | +1%      | Solo Effort   | <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| Lecture Participation   | 5%       | [Solo Effort](#solo-effort) | Most Lectures <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| Labs                    | 5%       | [Consultation](#consultation) | Fridays 4PM <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| Assignment 0            | 4%       | [Consultation](#consultation) | ~ Week 3 <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| Project Part 0          | 4%       | [Teamwork](#teamwork) | ~ Week 3 <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| Assignment 1            | 8%       | [Consultation](#consultation) | ~ Week 4 <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| Project Part 1          | 4%       | [Teamwork](#teamwork) | ~ Week 4 <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| Project Part 2          | 8%       | [Teamwork](#teamwork) | ~ Week 6 <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| Project Part 3          | 12%      | [Teamwork](#teamwork) | ~ Week 9 <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| Project Part 4          | 20%      | [Teamwork](#teamwork) | ~ Week 13 <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
+| Final Exam              | 30%      | [Solo Effort](#solo-effort) | See BearTracks <!-- @LT-IGNORE:CONSECUTIVE_SPACES@ @LT-IGNORE:WHITESPACE_RULE@ -->
 
-`~ Please see the [live schedule]({filename}/pages/home.md#schedule) for exact due dates.`
-
-Students must verify this date on BearTracks when the Final Exam Schedule is posted.
-
-Grades are unofficial until approved by the Department and/or Faculty offering the course.
+* Please see the [live schedule]({filename}/pages/home.md#schedule) for exact due dates.
+* Students must verify the exam date on BearTracks when the Final Exam Schedule is posted.
+* Grades are unofficial until approved by the Department and/or Faculty offering the course.
 
 ## Letter Grades
 
@@ -233,30 +230,19 @@ Re-Evaluation of Term Work follows the [Computing Science department course poli
 
 However, clerical errors such as incorrectly computing or recording a mark may be raised at any time prior to 2 working days following the final exam. It is the student's responsibility to confirm that their term work has been recorded properly.
 
-## Re-examination
-
-This course is not eligible for re-examination.
-
-## Past or Representative Evaluative Material
-
-Will be provided. Some of it includes answer keys, most exam material does not include an answer key.
-
-As of this writing, we are currently in the process of moving this material off of eClass to make it available. We plan to have it available by Week 10 on the course website. However, we may make it available on eClass instead, depending on how well the move is going.
-
 # Policies for Late and Missed Work
 
 ## Late Policy
 
 Absolutely no late work will be accepted. No extensions will be granted to individual students for any reason.
 
-## Missed Term Work
+## Non-medical Protected Grounds
 
-**Missed Term Work or Final Exam Due to Non-medical Protected Grounds (e.g., religious beliefs):**  
 When a term assessment or final exam presents a conflict based on [nonmedical protected grounds](https://www.ualberta.ca/current-students/academic-success-centre/accessibility-resources/register/eligibility.html), students must apply to the Academic Success Centre for accommodations via their [Register for Accommodations website](https://www.ualberta.ca/current-students/academic-success-centre/accessibility-resources/register/index.html). Students can review their eligibility and choose the application process specific for *Accommodations Based on Non-medical Protected Grounds*. 
 
 It is imperative that students review the dates of all course assessments upon receipt of the course syllabus, and apply ***AS SOON AS POSSIBLE*** to ensure the timely application of the accommodation. Students who apply later in the term may experience unavoidable delays in the processing of the application, which can affect the accommodation.  
 
-## Labs
+## Missed Labs
 
 Labs are due Friday at 4PM on the same week the lab was presented. Project meetings are due at the time of the meeting, and they are included in the lab mark. Failure to attend and actively participate in project meetings will result in a lab mark of zero.
 
@@ -265,7 +251,7 @@ No late labs will be accepted.
 Failure to complete a lab (or to attend project a project meeting) on time for any reason will result in a mark of zero.
 Please note that you can miss 2 labs (or project meetings) without penalty.
 
-## Lecture Participation
+## Missed Lecture Participation
 
 Participation exercises will be available most lectures.
 
@@ -274,11 +260,9 @@ No late participation will be accepted.
 Failure to complete a participation exercise on time for any reason will result in a mark of zero.
 Please note that you can miss 6 lectures without penalty.
 
-Submitting a participation exercise or Mentimeter without attending the lecture will be considered a breach of the [Student Academic Integrity Policy](https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/DispPol.aspx?PID=193\&s=https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/Academic.aspx).
+## Missed Assignments, Project Parts, Quizzes, Midterm Exams
 
-## Assignments and Project Parts
-
-A student who cannot complete an assignment or contribute to a project part due to incapacitating illness, severe domestic affliction or other compelling reasons must contact the instructor **within two working days** of missing the assessment, or as soon as possible, to request an excused absence. If an excused absence is granted, then weight will be transferred to the final exam. An excused absence is a privilege and not a right. There is no guarantee that an absence will be excused. Misrepresentation of facts to gain an excused absence is a serious breach of the Student Academic Integrity Policy. In all cases, instructors may request adequate documentation to substantiate the reason for the absence at their discretion.
+A student who cannot complete an assignment, project part, quiz, or midterm exam, due to incapacitating illness, severe domestic affliction or other compelling reasons must contact the instructor **within two working days** of missing the assessment, or as soon as possible, to request an excused absence. If an excused absence is granted, then weight will be transferred to the final exam. An excused absence is a privilege and not a right. There is no guarantee that an absence will be excused. Misrepresentation of facts to gain an excused absence is a serious breach of the Student Academic Integrity Policy. In all cases, instructors may request adequate documentation to substantiate the reason for the absence at their discretion.
 
 Failure to complete an assignment or contribute to a project part without an excused absence will result in a raw score of zero or a proportional score reduction.
 
@@ -287,6 +271,8 @@ Failure to complete an assignment or contribute to a project part without an exc
 A student who cannot write the final examination due to incapacitating illness, severe domestic affliction or other compelling reasons can apply for a deferred final examination. Such an application must be made to the student’s Faculty office within two working days of the missed examination and must be supported by appropriate documentation or a Statutory Declaration (see calendar on [Attendance](https://calendar.ualberta.ca/content.php?catoid=44\&navoid=13550\#attendance)). Deferred examinations are a privilege and not a right; there is no guarantee that a deferred examination will be granted. The Faculty may deny deferral requests in cases where less than 50% of term work has been completed. Misrepresentation of facts to gain a deferred examination is a serious breach of the Student Academic Integrity Policy. 
 
 # Required Technology
+
+## Labs Assignments and Project
 
 This course requires a Mac, Windows, or Linux laptop computer capable of:
 
@@ -297,25 +283,28 @@ This course requires a Mac, Windows, or Linux laptop computer capable of:
 
 Please contact the instructor by the add/drop deadline 2024-09-16 if you do not have access to the minimum technology recommended. The instructor will make arrangements for accommodating students who contact the instructor before this date. Failure to do so may result in a zero in any assessment that depends on the minimum technology. 
 
+## Lecture Participation
+
+A working smartphone, tablet, or laptop computer with an up-to-date web browser and working Wi-Fi.
+
 # Remote Delivery Considerations
 
 ## Hybrid Synchronous Delivery
 
-Unless otherwise stated by an instructor, **this course requires attendance in-person or via Zoom during the scheduled lectures** All labs require in-person attendance. Some lectures also require in-person attendance, such as exam days, guest lectures, student presentations, and all labs.
+This course requires **live attendance** in-person. All labs, all exams, all presentations, and some lectures require in-person attendance. 
 
-* **Some Lectures** will be given in **hybrid** format. The lecture will be given in the lecture room on campus. At the same time, the lecture will also be streamed via Zoom and a recording of the lecture content will be made.
+* **Some Lectures** will be available in **hybrid synchronous** format. All lectures will be given in the lecture room on campus. At the same time, some lecture will also be streamed via Zoom and a recording of the lecture content will be made.
     * Zoom access is provided as a convenience only.
     * Zoom access is provided on a best-effort basis.
-    * Students are expected to attend during the lecture either on Zoom or in-person.
-    * **Presentations and Guest Lectures** will be given **in-person only.**
+    * Students are expected to attend **during the lecture** either on Zoom or in-person.
     * Zoom access may be cancelled at any time.
     * You must be **available** to attend lectures in person.
         * You must be in Edmonton.
         * You must not have a scheduling conflict with this course.
         * Scheduling conflicts and travel **will not** be accommodated.
-* **Labs** must be attended **in-person**.
-* **Exams** must be taken **in-person**. They will not be online. You must bring your Student ID (One Card).
-* **Scheduled office hours** will be available **in-person**.
+* **Labs** must be attended **in-person only**.
+* **Exams** must be taken **in-person only**. They will not be online. You must bring your Student ID (One Card).
+* **Presentations and Guest Lectures** will be given **in-person only**.
 
 ## Technology Requirements
 
@@ -334,6 +323,7 @@ Recordings are provided for review and for students with an excused absence **on
 * Recordings will be made available until final exam day, and accessible by zoom cloud storage. Please direct any questions about this collection to the instructor of this course.
 
 ## Home-Based Lab Activities
+
 As part of the learning experience in this course, you will be required to undertake certain activities in or around your place of residence. To ensure that you undertake the activity safely and fully informed of the risks, please review the University of Alberta’s [Remote Learning Lab-Based Assignment Information Advisory](https://www.ualberta.ca/finance-procurement-planning/media-library/insurance-risk-assessment/remote-learning-lab-based-assignment-information-advisory.pdf). If you have questions or concerns, contact your instructor.
 
 ## Student Resources for Remote Learning
@@ -354,7 +344,7 @@ The College of Natural and Applied Sciences (CNAS) has created an [Academic Inte
 
 *"Integrity is doing the right thing, even when no one is watching."* — C.S. Lewis
 
-## Contract Cheating and Misuse of University Academic Materials or Other Assets
+### Contract Cheating and Misuse of University Academic Materials or Other Assets
 
 Contract cheating describes the form of academic dishonesty where students get academic work completed on their behalf, which they then submit for academic credit as if they had created it themselves.
 
@@ -367,14 +357,42 @@ Examples include:
 3. Posting an essay, assignment or exam question to a tutorial or study website; the question is answered by a “content expert”, then you copy it and submit it as your own answer.
 4. Posting your solutions to a tutorial/study website, public server or group chat and/or copying solutions that were posted to a tutorial/study website public server or group chat.
 5. Sharing your login credentials to the course management system (e.g. eClass) and allowing someone else to complete your assignment or exam remotely.
-6. Using an artificial intelligence bot or text generator tool to complete your essay, research paper, assignment or exam solutions for you (without the instructor’s permission).
-7. Using an online grammar checker to “fix” your essay, research paper, assignment or exam solutions for you (without the instructor’s permission).
+6. Using an artificial intelligence bot or text generator tool to help with assignments is allowed in this course but may not be allowed in other courses. (It is not allowed on exams.)
+7. Using an online grammar checker is allowed in this course but may not be allowed in other courses.
 
 Contract cheating companies thrive on making students believe that they cannot succeed without their help; they attempt to convince students that cheating is the only way to succeed.
 
 Uploading the instructor’s teaching materials (e.g. course outlines, lecture slides, assignment or exam questions, etc.) to tutorial, study or note-sharing websites or public servers is a copyright infringement and constitutes the misuse of University academic materials or other assets.
 
 Receiving assignment solutions or answers to exam questions from an unauthorized source puts you at risk of receiving inaccurate information.
+
+### Contract Cheating: CS Courses
+
+These are also contract cheating:
+
+* On other UAlberta services and linked services as someone else:
+    * Zoom
+    * gmail
+    * Google Chat, Drive, ...
+    * Lab computers
+    * Wi-Fi
+    * ...
+* Sharing your login credentials or anonymous ID for an external service, website, or app. Examples:
+    * Repository hosting services: GitHub, GitHub Classroom, Bitbucket, GitLab, etc.
+    * Mentimeter
+    * online quizzes
+    * textbook websites/apps
+    * KnowledgeTree/MasteryGrids
+    * online tutorials
+    * online practice systems
+    * online homework systems
+    * ...
+* Misrepresenting authorship to a version control system such as git:
+    * Forging git commit metadata (author, time, etc.)
+    * Creating git commits where the author recorded did not create the changes being committed.
+    * ...
+* Submitting participation exercises for someone else.
+* Representing yourself as someone else, or having someone else represent themselves as you to an instructor, TA, or other UA employee.
 
 ### Academic Integrity Issues Related to Minor Formative Assessments
 
@@ -384,15 +402,13 @@ The instructor may assign a full or partial deduction along with a standardized 
 
 Subsequent offences on minor assessments, and ALL suspected academic misconduct on formative assessments (e.g. quizzes, exams, assessments worth more than 5%), will be reported to the Faculty of Science as a possible breach of the [Student Academic Integrity Policy](https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/DispPol.aspx?PID=193\&s=https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/Academic.aspx) following the usual process.
 
-## Appropriate Collaboration
+### Appropriate Collaboration
 
-### General
-
-Appropriate collaboration follows the [CS course policy](https://www.ualberta.ca/computing-science/resources/policy-information/department-course-policies.html). See the above table under [Grade Evaluation](#grade-evaluation).
+Appropriate collaboration follows the [CS course policy](https://www.ualberta.ca/computing-science/resources/policy-information/department-course-policies.html).
 
 Students need to be able to recognize when they’ve crossed the line between appropriate collaboration and inappropriate collaboration. If students are unsure, they need to ask the instructors to clarify what’s allowed and what’s not allowed. 
 
-Here are some tips to avoid copying on assessments:
+Students are not permitted to copy solutions on homework assignments. Here are some tips to avoid copying on assessments:
 
 1. Do not write down something that you cannot explain to your instructor.
 2. When you are helping other students, avoid showing them your work directly. Instead, explain your solution verbally. Allowing your work to be copied is also considered inappropriate collaboration.
@@ -403,10 +419,14 @@ Here are some tips to avoid copying on assessments:
 
 An additional link that may be useful is "How to Avoid Inappropriate Collaboration": <https://www.ualberta.ca/campus-life/academic-success/academic-integrity/collaboration.html>
 
-For programming assignments software tools are used to detect plagiarism. When the software tools indicate that there is similarity between two submissions, the submissions are reviewed by the instructor or teaching assistant. If the possibility that the standards for academic honesty were violated is confirmed, an investigation is started. Eventually the submitted solutions may be forwarded to the Faculty of Science Associate Dean of Students for further investigation and eventual sanctions.
+For programming assignments, powerful software tools are used to detect plagiarism. When the software tools indicate that there is similarity between two submissions, the submissions are reviewed by the instructor or teaching assistant. If the possibility that the standards for academic honesty were violated is confirmed, an investigation is started. Eventually the submitted solutions may be forwarded to the Faculty of Science Associate Dean of Students for further investigation and eventual sanctions.
 
 * Each student must be able to verbally describe their exam answers and code, line by line, to a professor or TA, if asked to do so. Your mark may be reduced if you aren't able to explain your own work satisfactorily.
 * For some substantial programming assignments and homework questions, students may discuss the concepts covered by the assignment with other students registered in the course as long as they do not share actual solutions or programming code.
+* All suspected cases of plagiarism will be forwarded to the Dean's office and thoroughly investigated. Receiving a low mark for work not completed is a far superior alternative to this process and its possible long-term consequences for your career.
+
+All suspected cases of plagiarism and other forms of cheating are immediately referred to the College of Natural and Applied Sciences (CNAS). CNAS, not your instructor, will determine what course of action is appropriate. We do not hesitate to send ALL cases of cheating to CNAS. Please do not put yourself or us into such an unpleasant situation. Please read the [Student Conduct Policy](https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/DispPol.aspx?PID=190&s=https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/Academic.aspx) carefully. 
+
 
 ### Citation
 
@@ -427,78 +447,86 @@ Example:
 flat_list = [item for sublist in l for item in sublist]
 ```
 
-### Solo Effort
+### <a id="solo-effort" href="#solo-effort">Solo Effort</a>: Participation Exercises, Quizzes, Exams
 
-* Participation Exercises (unless otherwise announced during lecture)
+Participation exercises fall under the departments *Solo Effort* model unless announced by the instructor. *Solo Effort* must be completed by the student registered in the course without external assistance from any individual or organization. 
 
-Participation exercises fall under the departments *Solo Effort* model unless announced by the instructor. *Solo Effort* must be completed by the student registered in the course without external assistance from any individual or organization. *Students may only submit work authored by themselves.*
+* Students may only submit work authored by themselves.
+* Students **may not** discuss or exchange solutions, steps, strategies, code, links, code, images, videos, output, comments, repositories, answers, etc.
+* Students **may not** consult with other students on how to solve the problem, unlike the consultation model described below.
+* Students **may not** submit a participation exercise, quiz, or exam without attending the relevant lecture, lab, seminar, or exam.
+* Students **may not** share a participation exercise, quiz, or exam link (URL).
+* Students **may not** represent themselves as someone else, (or have someone else represent themselves as the student) during lectures, labs, seminars, or exams.
+    * Including in-person or over Zoom, or any other remote video, voice call, chat, or email service.
+    * See [Contract Cheating](#contract-cheating-and-misuse-of-university-academic-materials-or-other-assets) above.
 
-#### Exams
+Violation of the above will be considered a breach of the [Student Academic Integrity Policy](https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/DispPol.aspx?PID=193\&s=https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/Academic.aspx).
 
-Midterm and Final Exams are confidential and *Solo Effort*. No discussion of the contents of the exam is permitted except with instructors.
 
-* Each student must be able to verbally describe their exam answers and code, line by line, to a professor or TA, if asked to do so. Your mark may be reduced if you aren't able to explain your own work satisfactorily.
+### <a id="confidential" href="#confidential">Confidential</a>: Exams
 
-### Consultation
+Midterm and Final Exams are also *Confidential* in addition to *Solo Effort* as listed above.
 
-* Assignments
-* Labs
+* Students **may not** discuss the contents of the exam, except with instructors.
+    * Students are not always able to take the exam at the same time, so do not discuss the contents of the exam even if you have already taken it!
+* No human, computer, electronic assistance is allowed of any sort, including AI chatbots, calculators, tutors, etc.
 
-Assignments and Labs are under the department's *Consultation* model. That means you may discuss the labs with others, but you must write up the solution on your own. If you consult with other students, you must list their names in a comment at the top of your submission, along with a brief description of the part(s) of the assignment you discussed.  All sources used must be cited. Moreover, each student is responsible for what is handed-in and must be able to explain it.
+### <a id="consultation" href="#consultation">Consultation</a>: Assignments, Labs
 
-* Consultation - you can talk to anyone else, but you must submit your own code, and acknowledge who you talked to. All sources used must be cited.
-    * You can freely discuss the concepts and solutions with your 175 classmates on an informal verbal level.
-    * **Do not** exchange any written text, code, or detailed step-by-step procedures.
-    * Limit discussion to be among students taking the current 175 course, not students who took 175 in earlier terms or other students. Consultation is a two-way process that benefits both sides.
-    * Individually develop your own solution for assignments and exercises. **Submit only your own work for evaluation.**
-    * **Do not** give other students access to your solutions and do not seek access to other's solutions. This is considered plagiarism.
-        * Do not show your code to classmates.
-        * Do not look at a classmate's code.
-    * All sources of information used, e.g., books, websites, students you talked to etc., must be cited in your submitted file for each assignment. If student A cites student B, then B should also cite A as consulted.
-    * Study the Computing Science policy regarding Academic Integrity, Collaboration Policy and Plagiarism and make sure that you are familiar with the definition of plagiarism and cheating in the Code of Student Behaviour.
-    * We will use powerful automated tools to compare submitted work from current as well as previous courses and flag potential cases of plagiarism.
-    * All suspected cases of plagiarism will be forwarded to the Dean's office and thoroughly investigated. Receiving a low mark for work not completed is a far superior alternative to this process and its possible long-term consequences for your career.
-* Each student must be able to verbally describe their exam answers and code, line by line, to a professor or TA, if asked to do so. Your mark may be reduced if you aren't able to explain your own work satisfactorily.
+Individual assignments and labs are under the department's *Consultation* model. That means you may discuss the labs with others, but you must create and submit a solution that is entirely your own work. If you consult with other students, you must list their names in a comment at the top of your submission or in your repository `README`, along with a brief description of the part(s) of the assignment you discussed. 
 
-Students may only submit work authored by themselves, or with approved co-authors. Work submitted by a student that is the work of someone else (e.g. another student or a tutor) either in part or in entirety is considered plagiarism. Cases of plagiarism and other forms of cheating are immediately referred to the Dean of Science, who determines what course of action is appropriate. We do not hesitate to send ALL cases of cheating to the Dean's office. Please do not put yourself or us into such an unpleasant situation. Please read the [Student Conduct Policy](https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/DispPol.aspx?PID=190&s=https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/Academic.aspx) carefully. 
+How to consult with other students without plagiarizing:
 
-Examples of collaboration:
+* Study the Course, Computing Science Department, CNAS, and University [policies listed above](#appropriate-collaboration) regarding Academic Integrity.
+* All sources used must be cited.
+    *  If you use code snippets you must cite them, please see the examples above.
+    * All sources of information used, e.g., books, websites, students you talked to etc., must be cited in your submitted file or repo `README` for each assignment.
+    * If student A cites student B, then B should also cite A as consulted.
+* Individually develop your own solution for assignments and exercises. **Submit only your own work for evaluation.**
+    * Each student is responsible for what is handed-in and must be able to explain it.
+    * Students may only submit work authored by themselves. Work submitted by a student that is the work of someone else (e.g. another student or a tutor) either in part or in entirety is considered plagiarism. 
+* You can freely discuss the steps and solutions with your classmates on a conceptual verbal level.
+* Limit discussion to be among students taking the current course, not students who took in earlier terms or other students. Consultation is a two-way process that benefits both sides.
+* **Do not** exchange any text, code, images, videos, output, comments, repositories, or detailed (low-level) step-by-step procedures. <!-- @LT-IGNORE:ENGLISH_WORD_REPEAT_BEGINNING_RULE@ -->
+    * **Do not** share solutions.
+* **Do not** give other students access to your solutions and do not seek access to other's solutions. This is considered plagiarism.
+    * Do not show your code to classmates.
+    * Do not look at a classmate's code.
 
-* Acceptable collaboration example:
+Examples of consultation:
+
+* Acceptable consultation example:
     * Student A has a problem with the code
     * Student A asks Student B for help
-    * Student B assists Student A to fix the code
+    * Student B explains the steps, concepts, or techniques they used to get their code working
     * Student A understands the fix
     * Student A can reproduce and explain the fix.
     * Student A submits the code
-* Acceptable collaboration example:
-    * Student A has a problem with the code
-    * Student A asks Student B for help
-    * Student B provides Student A with small snippet of code and explains it
-    * Student A understands the code and integrates it with his/her code
-    * Student A references Student B as a comment in the code
+* Acceptable consultation example:
+    * Student A needs to make a grid for a board game program.
+    * Student A asks Student B for help.
+    * Student B explains that they "used two nested for loops, one for the vertical and one for the horizontal."
+    * Student A implements two nested for loops using their own unique code.
+    * Student A can use the for loops to fix similar problems, and they can explain why each piece of code is needed, along with how it works to solve the problem.
     * Student A submits the code
-* **Unacceptable** collaboration example:
+* **Unacceptable** consultation example:
+    * Student A needs to make a grid for a board game program.
+    * Student A asks Student B for help.
+    * Student B sends the code they used to make the board game grid for their solution.
+    * Student A copies Student B's code into their own solution, changing it a little.
+    * Student A submits the code
+* **Unacceptable** plagiarism example:
     * Student A has a problem with the code
     * Student A asks Student B for help
     * Student B provides Student A with the code
     * Student A submits the code
 
-For some substantial programming assignments and homework questions, students may discuss the concepts covered by the assignment with other students registered in the course as long as they do not share actual solutions or programming code.
+### <a id="teamwork" href="#teamwork">Teamwork</a>: Group Projects
 
-### Teamwork
-
-* Project
-* Some participation exercises (only when announced by the instructor during lecture)
-
-The semester project falls under the department's *Teamwork* model.
-
-* As long as you are a part of a group, you are responsible for everything in the group project, not just the parts you wrote.
+* As long as you are a part of a group, you are responsible for everything in the group project, whether you participated in every component or not.
 * A group may only submit work authored by group members or appropriately cited and credited code that does not violate the author's license.
-* Modifying, removing, or forging `git` history will be considered an academic integrity violation.
-* Bullying or harassment of team members will be brought to the Dean of Students under the Student Conduct Policy.
 
-### Intellectual Violence
+## Intellectual Violence
 
 In this course, *Intellectual Violence* is considered bullying. Intellectual violence is when one teammate uses their skill, knowledge, or experience, to intimidate or control the other teammate(s) rather than sharing and helping them learn. Examples of *Intellectual Violence*
 
@@ -531,8 +559,13 @@ Students must conduct themselves according to the University of Alberta [Calenda
     * Cell phones must be turned off.
     * You may not have them near you, in your pocket, or take them to the washroom.
     * If you brought electronics with you, you must leave them in your bag.
-    * If you are distracted by the sound of other students, bring ear plugs, not ear buds.
+    * If noise distracts you, bring ear plugs, not ear buds.
 * If you do not stop writing the exam when the instructor or proctor announces the end of the exam, your exam will not be graded, and you will receive a mark of zero.
+* Do not write down letters for multiple-choice exams.
+* You must leave your bag at the front of the classroom.
+    * You may be able to see it, but it must be out of reach.
+* You are not allowed to keep any part of the exam, scratch paper, or your notes.
+* You must sign the class list and the exam.
 
 ## Cell phones
 
@@ -547,6 +580,10 @@ It is recommended that students apply ***AS SOON AS POSSIBLE*** in order to ensu
 ## Recording and/or Distribution of Course Materials
 
 Audio or video recording, digital or otherwise, of lectures, labs, seminars or any other teaching environment by students is allowed only with the prior written consent of the instructor or as a part of an approved accommodation plan. Student or instructor content, digital or otherwise, created and/or used within the context of the course is to be used solely for personal study, and is not to be used or distributed for any other purpose without prior written consent from the content author(s).  
+
+## On-Campus Computer Labs
+
+See the [Undergraduate Conditions of Use](https://www.ualberta.ca/computing-science/resources/policy-information/undergraduate-conditions-of-use.html) and [Lab Policies](https://www.ualberta.ca/computing-science/resources/policy-information/lab-policies.html) for information about undergraduate labs.
 
 ## Learning and Working Environment
 
@@ -583,6 +620,10 @@ Policy about course outlines can be found in [Course Requirements, Evaluations P
 
 * Any typographical errors in this Course Outline are subject to change and will be announced in class.
 * The date of the final examination is set by the Registrar and takes precedence over the final examination date reported in this syllabus.
+
+## Update History
+
+* 2024-09-02: Initial version.
 
 ## Copyright
 
