@@ -10,7 +10,7 @@ summary: Lab 1 -- Java, OOP, Android Studio
 [TOC]
 
 * **Due date:** Check the [schedule]({filename}/pages/home.md#schedule). (Usually Friday after the lab at 4PM)
-* [Lab 1 Slides]({attach}slides/CMPUT_301_LAB_2024_01_09.pdf)
+* [Lab 1 Slides]({attach}slides/CMPUT_301_LAB_1.pdf)
 
 # Requirements
 
@@ -97,4 +97,8 @@ public interface Tweetable {
 Note: Running the project is not necessary.
 
 Zip the project and upload it to eClass.
+
+**Due Date**
+
+Friday after the Thursday lab at 4PM
 
