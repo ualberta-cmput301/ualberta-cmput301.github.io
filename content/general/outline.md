@@ -7,9 +7,7 @@ summary: Lecture, Labs, Contact Information, Lecturer, Teaching Assistants, Cour
 
 ----
 
-<h2>DRAFT OUTLINE</h2>
 <h2>University of Alberta <br> CMPUT 301 - Software Engineering <br> LEC A1 EA1 A2 EA2 <br> Fall 2024</h2>
-<h2>DRAFT OUTLINE</h2>
 
 [TOC]
 
