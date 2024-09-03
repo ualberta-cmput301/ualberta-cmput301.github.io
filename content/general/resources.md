@@ -1,4 +1,4 @@
-title: Learning Resources & Reference Materials
+Title: Learning Resources & Reference Materials
 date: 2024-01-06
 tags: resources, reading, references, videos
 authors: Hazel Victoria Campbell
@@ -13,7 +13,9 @@ If you find broken links, please file a GitHub issue.
 
 # General Resources
 
+* [Exam Practice Questions]({filename}/resources/practice.md)
 * [SPM and SDA MOOC Resources]({filename}/resources/mooc.md)
+* [Old Lecture and Lab Recordings]({filename}/resources/oldrecordings.md)
 * [Safari O'Reilly Books](http://go.oreilly.com/university-of-alberta)
     * You must log in with the University of Alberta Library to get free access to O'Reilly books
 
