@@ -1,5 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>CMPUT 301 - resources</title><link href="https://ualberta-cmput301.github.io/" rel="alternate"></link><link href="https://ualberta-cmput301.github.io/feeds/resources.atom.xml" rel="self"></link><id>https://ualberta-cmput301.github.io/</id><updated>2024-01-06T00:00:00-07:00</updated><subtitle>Software Engineering</subtitle><entry><title>SPM and SDA MOOC Resources</title><link href="https://ualberta-cmput301.github.io/resources/mooc.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/resources/mooc.html</id><summary type="html">&lt;p&gt;Resources, Reference Materials, Notes, Videos, Slides&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CMPUT 301 - resources</title><link href="https://ualberta-cmput301.github.io/" rel="alternate"></link><link href="https://ualberta-cmput301.github.io/feeds/resources.atom.xml" rel="self"></link><id>https://ualberta-cmput301.github.io/</id><updated>2024-09-03T00:00:00-06:00</updated><subtitle>Software Engineering</subtitle><entry><title>Exam Practice Questions</title><link href="https://ualberta-cmput301.github.io/resources/practice.html" rel="alternate"></link><published>2024-09-03T00:00:00-06:00</published><updated>2024-09-03T00:00:00-06:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:ualberta-cmput301.github.io,2024-09-03:/resources/practice.html</id><summary type="html">&lt;p&gt;Exam Practice Questions&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/resources/practice/w23am3q2.html"&gt;W23AM3Q2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/resources/practice/w23am3q3.html"&gt;W23AM3Q3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="resources"></category><category term="resources"></category><category term="reading"></category><category term="references"></category><category term="videos"></category><category term="practice"></category><category term="exams"></category></entry><entry><title>Old Lecture Recordings</title><link href="https://ualberta-cmput301.github.io/resources/oldrecordings.html" rel="alternate"></link><published>2024-09-03T00:00:00-06:00</published><updated>2024-09-03T00:00:00-06:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:ualberta-cmput301.github.io,2024-09-03:/resources/oldrecordings.html</id><summary type="html">&lt;p&gt;Old Lecture Recordings 2020-2022&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
+&lt;div class="toc"&gt;
+&lt;ul&gt;&lt;/ul&gt;
+&lt;/div&gt;
+&lt;aside class="warning" role="paragraph"&gt;
+All information about 
+&lt;ul&gt;
+    &lt;li&gt;dates,&lt;/li&gt;
+    &lt;li&gt;labs,&lt;/li&gt;
+    &lt;li&gt;requirements,&lt;/li&gt;
+    &lt;li&gt;project,&lt;/li&gt;
+    &lt;li&gt;deadlines,&lt;/li&gt;
+    &lt;li&gt;what's on the final,&lt;/li&gt;
+    &lt;li&gt;grading,&lt;/li&gt;
+    &lt;li&gt;policy,&lt;/li&gt;
+    &lt;li&gt;...&lt;/li&gt;
+&lt;/ul&gt;
+only applied to the semester they were recorded, so it's wrong for this year!
+This material is provided as extra study material ONLY.
+&lt;/aside&gt;
+
+&lt;p&gt;You must be authenticated with your @ualberta.ca Google account to access the links.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://drive.google.com/drive/folders/109xOY3KrpAWL65nvRynCtqtVFxBS1OYD?usp=sharing"&gt;Winter 2022 Labs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://drive.google.com/drive/folders/1LoQFNzvkY-kGFVAyvDbg_CvaZhDNC63Y?usp=sharing"&gt;Winter 2022 Lectures - Akhmetov&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://drive.google.com/drive/folders/1oBuCRaPAt3fQy-uu_PQEWx3I0ytaSEBY?usp=sharing"&gt;Winter 2022 Lectures - Hindle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.google.com/document/d/1isx26hd_oihDgiauv_IyfuRRsN6qMJ5IJpoxVoa8Vdk/edit?usp=sharing"&gt;Fall 2022 Lectures&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://drive.google.com/drive/folders/1IX1Y_XOC8AJEHsAJftL7kjaIZf3SUefu?usp=sharing"&gt;Winter 2021 Lectures&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.google.com/document/d/1pff1pFhtF-H2EmY4V0azfTN0E81ESHAuNsVaJMuGgSw/edit?usp=sharing"&gt;Fall 2021 Lectures&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.google.com/document/d/1rr7ptZtb7CiAOOjajyq_VTNXxF9ty5W81YaGcPyVL2s/edit?usp=sharing"&gt;Fall 2021 Labs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://drive.google.com/drive/folders/1xztnqWR1BfcgO6hi99P3mQlkoxP5e2m0?usp=sharing"&gt;Winter 2020 Lectures&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.google.com/document/d/1wjBVtsqbt48LU0ddDTcRaRBUNE-j4PHutx8z7AMBQ_k/edit?usp=sharing"&gt;Fall 2020 Lectures&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.google.com/document/d/1Oqy_YPqsctJzYU9kLt0GamkoMiqJ5_si-ZS-6us9SCM/edit?usp=sharing"&gt;Fall 2020 Labs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="resources"></category><category term="resources"></category><category term="reading"></category><category term="references"></category><category term="videos"></category></entry><entry><title>SPM and SDA MOOC Resources</title><link href="https://ualberta-cmput301.github.io/resources/mooc.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/resources/mooc.html</id><summary type="html">&lt;p&gt;Resources, Reference Materials, Notes, Videos, Slides&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
 &lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#how-to-access"&gt;How to access&lt;/a&gt;&lt;/li&gt;
