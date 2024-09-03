@@ -19,9 +19,9 @@ summary: Assignment 0: Getting Started
 
 Install Android Studio on your own computer.
 
-Make and run a simple hello world app according to the Build your first app in java tutorial: https://developer.android.com/codelabs/build-your-first-android-app?hl=en#0  . Ensure you do all of this tutorial, including the final section on Fragments.
+Make and run a simple hello world app according to the Build your first app in this [tutorial:](https://developer.android.com/codelabs/build-your-first-android-app?hl=en#0). Ensure you do all of this tutorial, including the final section on Fragments.
 
-In Step 6.10 where it says type in 0 into your TextView type in your student number instead. So the count button will increment your student number. Do not prefix your student number with zeros. 6.10 is section 10 of https://developer.android.com/codelabs/build-your-first-android-app?hl=en#5
+In Step 6.10 where it says type in 0 into your TextView type in your student number instead. So the count button will increment your student number. Do not prefix your student number with zeros. 6.10 is section 10 [of this link](https://developer.android.com/codelabs/build-your-first-android-app?hl=en#5)
 Deliverables
 Screenshots:
 
