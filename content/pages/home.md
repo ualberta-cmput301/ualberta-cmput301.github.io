@@ -38,5 +38,9 @@ We are in the process of moving things off of eClass, because eventually Univers
 
 * You MUST be logged into your University of Alberta account to view the Zoom! 
 * [How to use Zoom for Students](https://support.eclass.ualberta.ca/index.php?/Knowledgebase/Article/View/422/23/using-zoom-for-students)
+* [The lecture zoom is connected through eClass.](https://eclass.srv.ualberta.ca/mod/forum/view.php?id=8037428)
+* [Direct Link](https://ualberta-ca.zoom.us/j/91841598364)
 
-[The lecture zoom is connected through eClass.](https://eclass.srv.ualberta.ca/mod/forum/view.php?id=8037428)
+# More Stuff
+
+[All pages]({index})

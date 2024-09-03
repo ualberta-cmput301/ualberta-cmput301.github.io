@@ -112,7 +112,7 @@ TA office hours are on the eClass.
 
 # Contact Instructor
 
-Do not email the instructor. Use the contact instructor form. 
+Do not email the instructor. Use the [contact instructor form](https://docs.google.com/forms/d/e/1FAIpQLSfMcgrLR4nCgfK1qJW9P5sDJp3-sTnQ9hKC94H7wojdaPaTjw/viewform?usp=sf_link). 
 
 Replies may take several days because there are hundreds of students. Currently, there are more than 600 students. If you are asking about something that isn't due yet (before due date) please ask a TA instead, or use the discussion forum. You might not get a response before the due date. You will not get an extension, even if the instructor does not reply before the due date.
 
