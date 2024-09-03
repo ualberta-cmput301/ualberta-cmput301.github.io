@@ -5,7 +5,7 @@ save_as: index.html
 ----
 
 * [Course Outline]({filename}/general/outline.md) (Syllabus)
-* [Contact Info]({filename}/general/outline.md#contact-information)
+* [Contact Info]({filename}/general/help.md#contact-instructor)
     * Students: see [How to get Help]({filename}/general/help.md)
 * [Lecture Slides]({filename}/general/slides.md)
 * [How to get Help]({filename}/general/help.md)
