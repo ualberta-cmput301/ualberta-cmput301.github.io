@@ -12,7 +12,7 @@ summary: Lab 1 -- Java, OOP, Android Studio
 * **Due date:** Check the [schedule]({filename}/pages/home.md#schedule). (Usually Friday after the lab at 4PM)
 * [Lab 1 Slides]({attach}slides/CMPUT_301_LAB_1.pdf)
 
-# Requirements
+# Lab1 Participation Exercise Requirements
 
 1. Add three new model classes to LonelyTwitter: the first should be an abstract base class which represents the current mood. The second and third should be non-abstract classes which represent different moods (Ex: happy, sad, etc.) and inherit from the abstract class.
 2. Each mood should have a date and getters and setters to access the date.
