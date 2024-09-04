@@ -1,4 +1,4 @@
-title: Individual
+[title: Individual
 date: 2024-03-20
 tags: assignment, grading
 authors: Hazel Victoria Campbell
@@ -10,10 +10,12 @@ summary: Individual Assignments, Participation
 
 # Assignments
 
-* [Assignment 0: Getting started]({filename}individual/assignment0.md)
-* [Assignment 1]({filename}individual/assignment1.md)
+* [Assignment 0: Getting started]({filename}/individual/assignment0.md)
+* [Assignment 1]({filename}/individual/assignment1.md)
 
 # Participation
+
+You can earn lecture participation credit by attending lecture on time. Instructions will be given during lecture.
 
 <p class="warning">Do <em>not</em> enter your real name, CCID, or student ID into Mentimeter.</p>
 
@@ -24,4 +26,3 @@ summary: Individual Assignments, Participation
     * Entering answers for someone else will be considered a violation of the SAIP.
     * Sharing the Menti link with other students will be considered a violation of the SAIP.
     * See the [outline section on contract cheating]({filename}/general/outline.md#contract-cheating-cs-courses) for more information.
-
