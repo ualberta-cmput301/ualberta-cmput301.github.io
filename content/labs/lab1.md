@@ -45,7 +45,7 @@ Check for specific installation guide unique to your Operating System
 + Create two Constructors (one with the only Message and the other with Date+Message as arguments) and use Date = new Date() (current date and time) for the first constructor (the Default value for date).
 + Note: Java Object Class (everything extends it, calls its constructor and it has built-in methods like toString())
 + Note: the this keyword (message = message doesn't do anything!)
-+ Make a regular tweet in LonelyTwitterActivity (pass in an empty string)
++ Make a regular tweet in MainActivity (pass in an empty string)
 
 2. Getters and setters
 
@@ -61,7 +61,7 @@ ImportantTweet(String message){
     }
 ```
 + Super calls the parent's constructor (there is a hidden call to Object's constructor)
-+ Change the Tweet to an ImportantTweet in LonelyTwitterActivity
++ Change the Tweet to an ImportantTweet in MainActivity
 
 4. Abstract Stuff
 
