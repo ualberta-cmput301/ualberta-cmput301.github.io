@@ -24,6 +24,6 @@ Please file an issue if you find anything wrong or missing on the site.
 
 - Deploy live (**make github**)
 
-# N.B Please ensure you are work on a seperate branch and deploy to main when you tested it locally with no errors
+# N.B Please ensure you make changes on a seperate branch, test it locally before deploying to main branch
 
 
