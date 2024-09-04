@@ -33,7 +33,7 @@ Check for specific installation guide unique to your Operating System
 
 ## Walkthrough
 
-1. Create a new LonelyTwitter project. Make sure that the project language is Java, not Kotlin!
+1. Create a new LonelyTwitter project (File > New > New Project > Select "Empty Views Activity"). Make sure that the project language is **Java**, not Kotlin!
 
 + Create Tweet Class (Click > New > Java Class)
 + Make attributes (Date date & String message) (use alt+enter to include)
