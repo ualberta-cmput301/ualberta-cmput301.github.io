@@ -40,7 +40,7 @@ Check for specific installation guide unique to your Operating System
     + Note: Access modifiers
         * private= class only
         * No modifier = within package
-        * protected = through inheritance
+        * protected = within package and through inheritance
         * public = everyone!
 + Create two Constructors (one with the only Message and the other with Date+Message as arguments) and use Date = new Date() (current date and time) for the first constructor (the Default value for date).
 + Note: Java Object Class (everything extends it, calls its constructor and it has built-in methods like toString())
