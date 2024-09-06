@@ -22,6 +22,7 @@ summary: Slides and per-topic resources
 * [Objects UML Java Slides]({attach}slides/02-OO.pdf)
 * [OOP Notes]({attach}slides/OONotes.pdf)
 * [Objects, UML, and Java Draft Slides (4up)]({attach}slides/02-OO.4up.pdf)
+* [Objects, UML, and Java Draft Slides (1up)]({attach}slides/02-OO.pdf)
 
 # Object-Oriented Graphical User Interfaces
 
