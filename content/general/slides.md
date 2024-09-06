@@ -18,6 +18,7 @@ summary: Slides and per-topic resources
 
 # Objects UML Java
 
+* [Objects UML Java - Campbell]({attach}slides/010oo-campbell.pdf)
 * [Objects UML Java Slides]({attach}slides/02-OO.pdf)
 * [OOP Notes]({attach}slides/OONotes.pdf)
 * [Objects, UML, and Java Draft Slides (4up)]({attach}slides/02-OO.4up.pdf)
