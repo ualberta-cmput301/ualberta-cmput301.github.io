@@ -69,7 +69,13 @@ ImportantTweet(String message){
 
     + public abstract class Tweet { ... }
     + public abstract Boolean isImportant();
+        + This is an abstract method, it has no implementation and must be overridden by child classes (to add functionality).
+
 + What if they need to behave differently? @Override isImportant() to create a compile-time check
+    + You need to override the method in the child class as it is an abstract method in the parent class that has no implementation.
+    + Overriding the method allows the child class to have its own implementation of the method.
+        + ex. the Normal Tweet is not important, so it returns false. The ImportantTweet is important, so it returns true.
+    + The methods in the child classes need to be overridden to behave differently.
 
 + Make a NormalTweet class, could have many types of tweets
 
