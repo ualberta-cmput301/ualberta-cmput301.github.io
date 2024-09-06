@@ -18,6 +18,15 @@ If you find broken links, please file a GitHub issue.
 * [Old Lecture and Lab Recordings]({filename}/resources/oldrecordings.md)
 * [Safari O'Reilly Books](http://go.oreilly.com/university-of-alberta)
     * You must log in with the University of Alberta Library to get free access to O'Reilly books
+    * [Also try this link](https://login.ezproxy.library.ualberta.ca/login?url=https://go.oreilly.com/university-of-alberta/)
+
+# Java + UML + OO Textbooks
+
+You already paid for these full e-textbooks with your tuition!
+
+* [Book: Developing applications with Java and UML](https://login.ezproxy.library.ualberta.ca/login?url=https://go.oreilly.com/university-of-alberta/library/view/-/0201702525/?ar)
+* [Book: Java Design: Objects, UML and Process](https://login.ezproxy.library.ualberta.ca/login?url=https://go.oreilly.com/university-of-alberta/library/view/-/0201750449/?ar)
+* [Book: Object-oriented design with UML and Java](https://login.ezproxy.library.ualberta.ca/login?url=https://ebookcentral.proquest.com/lib/ualberta/detail.action?docID=297134)
 
 # Java
 
