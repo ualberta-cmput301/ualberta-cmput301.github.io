@@ -40,7 +40,7 @@ You already paid for these full e-textbooks with your tuition!
 * [Java Style Guide by Google](https://google.github.io/styleguide/javaguide.html)
 * [A Good Interactive Course](https://www.codecademy.com/learn/learn-java)
 * [Java Quick Look](https://www.w3schools.com/java)
-* [A Good Video Tutorial](https://www.youtube.com/watch?v=NBIUbTddde4&list=PLZPZq0r_RZOMhCAyywfnYLlrjiVOkdAI1&ab_channel=BroCode))
+* [A Good Video Tutorial](https://www.youtube.com/watch?v=NBIUbTddde4&list=PLZPZq0r_RZOMhCAyywfnYLlrjiVOkdAI1&ab_channel=BroCode)
 * [Official Tutorial](https://docs.oracle.com/javase/tutorial/java/index.html)
 
 # UML
