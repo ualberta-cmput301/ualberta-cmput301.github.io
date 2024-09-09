@@ -8,12 +8,13 @@ summary: Lab 7 Instructions
 
 # Lab 7 Instructions
 
-## **Lab Topic/Demo**
+## Lab Topic/Demo
 
-- [Lab7 Instructions-Android UI Testing]({attach}slides/L7IntentTesting.pdf)
+- [Lab7 Instructions-Android UI Testing]({attach}/labs/slides/L7IntentTesting.pdf)
 - [Lab 7 Starter Code](https://github.com/iAniket23/Android-UI-testing) (clone this repo)
+- [Lab 7 Starter Code Download]({attach}slides/Lab_7_starter_code.zip)
 
-## **Lab Exercise**
+## Lab Exercise
 
 - [Lab 7 Participation Exercise]({filename}lab7_part.md)
 
