@@ -18,8 +18,8 @@ summary: Lab Procedure, Lab Assignments, Lab Marking
 
 # Lab 3
 
-* [Lab 3 Instructions - What we'll do in lab!]({filename}/labs/lab3_inst.md)
-* [Lab 3 Participation Exercise]({filename}/labs/lab3_part.md)
+* [Lab 3]({filename}/labs/lab3_inst.md)
+
 
 # Lab 4
 
