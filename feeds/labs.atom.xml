@@ -2,12 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>CMPUT 301 - labs</title><link href="https://ualberta-cmput301.github.io/" rel="alternate"></link><link href="https://ualberta-cmput301.github.io/feeds/labs.atom.xml" rel="self"></link><id>https://ualberta-cmput301.github.io/</id><updated>2024-08-26T00:00:00-06:00</updated><subtitle>Software Engineering</subtitle><entry><title>Lab 5 Instructions</title><link href="https://ualberta-cmput301.github.io/labs/lab5_instruct.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/labs/lab5_instruct.html</id><summary type="html">&lt;p&gt;Lab 5 Instructions&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#lab-5-instructions"&gt;Lab 5 Instructions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#lab-5-participation-exercise"&gt;Lab 5 Participation Exercise&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#note-the-design-of-the-deletion-functionality-is-up-to-you-however-we-have-uploaded-a-few-mockups-to-give-you-some-ideas"&gt;Note: the design of the deletion functionality is up to you, however, we have uploaded a few mockups to give you some ideas.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;h3 id="lab-5-instructions"&gt;Lab 5 Instructions&lt;/h3&gt;
 &lt;p&gt;Read &lt;a href="https://ualberta-cmput301.github.io/labs/slides/Firestore.pdf"&gt;Firestore 🔥.pdf&lt;/a&gt; for introduction of Firestore
 Follow instructions on &lt;a href="https://ualberta-cmput301.github.io/labs/slides/Lab5FInteg.pdf"&gt;Lab 5 Firestore Integration Instructions.pdf&lt;/a&gt; along with the TA.
-Complete Lab Exercise.&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 5 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/lab5_part.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/labs/lab5_part.html</id><summary type="html">&lt;p&gt;Lab 5 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+Complete Lab Exercise.&lt;/p&gt;
+&lt;h3 id="lab-5-participation-exercise"&gt;Lab 5 Participation Exercise&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Due:&lt;/strong&gt; Friday, 9 February 2024, 4:00 PM&lt;/p&gt;
+&lt;p&gt;Proper completion of this exercise is considered as part of course participation.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;In this exercise it is your task to add the ability to delete Cities and integrate this functionality with the Firestore database, allowing for the persistence of deletions.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;After applying the changes in the lab demo &lt;a href="https://ualberta-cmput301.github.io/labs/slides/Lab5FInteg.pdf"&gt;(LINK TO INSTRUCTIONS)&lt;/a&gt; to &lt;a href="https://github.com/simpleParadox/CMPUT-301-CustomList"&gt;CustomList&lt;/a&gt;, add the ability to delete cities from the ListView and apply these same deletions to your instance of the Firestore database. If you have implemented this functionality correctly, restarting your app should not have an impact on what cities are displayed in your ListView after any addition or deletion actions.&lt;/p&gt;
+&lt;h4 id="note-the-design-of-the-deletion-functionality-is-up-to-you-however-we-have-uploaded-a-few-mockups-to-give-you-some-ideas"&gt;&lt;strong&gt;Note: the design of the deletion functionality is up to you, however, we have uploaded a few mockups to give you some ideas.&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="Screen1" src="https://ualberta-cmput301.github.io/labs/lab5_img1.png" style="margin: 20px;" width="300"&gt;
+&lt;img alt="Screen2" src="https://ualberta-cmput301.github.io/labs/lab5_img2.png" style="margin: 20px;" width="300"&gt;
+&lt;img alt="Screen3" src="https://ualberta-cmput301.github.io/labs/lab5_img3.png" style="margin: 20px;" width="300"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;When submitting, please upload the whole Android Studio Project Folder (not just the source files or the 'app' directory), and give it a unique name.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Due Date&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Friday after the Thursday lab at 4PM&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 5 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/lab5_part.html" rel="alternate"></link><published>2024-08-26T00:00:00-06:00</published><updated>2024-08-26T00:00:00-06:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-08-26:/labs/lab5_part.html</id><summary type="html">&lt;p&gt;Lab 5 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#lab-5-participation-exercise"&gt;Lab 5 Participation Exercise&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href="#note-the-design-of-the-deletion-functionality-is-up-to-you-however-we-have-uploaded-a-few-mockups-to-give-you-some-ideas"&gt;Note: the design of the deletion functionality is up to you, however, we have uploaded a few mockups to give you some ideas.&lt;/a&gt;&lt;/li&gt;
