@@ -35,8 +35,7 @@ summary: Lab Procedure, Lab Assignments, Lab Marking
 
 # Lab 6
 
-* [Lab 6 Instructions]({filename}/labs/lab6_instruct.md)
-* [Lab 6 Participation Exercise]({filename}/labs/lab6_part.md)
+* [Lab 6]({filename}/labs/lab6_instruct.md)
 
 # Lab 7
 
