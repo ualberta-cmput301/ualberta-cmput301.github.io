@@ -13,8 +13,8 @@ summary: Lab Procedure, Lab Assignments, Lab Marking
 
 # Lab 2
 
-* [Lab 2 Instructions]({filename}/labs/lab2_instructions.md)
-* [Lab 2 Participation Exercise]({filename}/labs/lab2_participation.md)
+* [Lab 2]({filename}/labs/lab2_instructions.md)
+
 
 # Lab 3
 
