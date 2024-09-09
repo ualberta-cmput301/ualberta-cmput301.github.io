@@ -68,8 +68,10 @@ ImportantTweet(String message){
 + Make Tweet Class Abstract
 
     + public abstract class Tweet { ... }
+        + Note: Abstract classes cannot be instantiated.
     + public abstract Boolean isImportant();
         + This is an abstract method, it has no implementation and must be overridden by child classes (to add functionality).
+        + Note: Abstract methods cannot be called using any objects.
 
 + What if they need to behave differently? @Override isImportant() to create a compile-time check
     + You need to override the method in the child class as it is an abstract method in the parent class that has no implementation.
