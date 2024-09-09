@@ -303,6 +303,7 @@ This adds a new city name to the listview.                                      
 &lt;p&gt;Friday after the Thursday lab at 4PM&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 3 Instructions</title><link href="https://ualberta-cmput301.github.io/labs/lab3_inst.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/labs/lab3_inst.html</id><summary type="html">&lt;p&gt;Lab 3 Instructions&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#lab-3-instructions-what-well-do-in-lab"&gt;Lab 3 Instructions - What we'll do in lab!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#lab-3-participation-exercise"&gt;Lab 3 Participation Exercise&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;h3 id="lab-3-instructions-what-well-do-in-lab"&gt;Lab 3 Instructions - What we'll do in lab!&lt;/h3&gt;
@@ -322,11 +323,7 @@ This adds a new city name to the listview.                                      
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Read about Java code conventions (see the Code Conventions (Schoepp) PDF).
-Editing existing cities in ListyCity (see the Lab 3 Participation Exercise page for more details)&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 3 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/lab3_part.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/labs/lab3_part.html</id><summary type="html">&lt;p&gt;Lab 3 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="#lab-3-participation-exercise"&gt;Lab 3 Participation Exercise&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
+Editing existing cities in ListyCity (see the Lab 3 Participation Exercise page for more details)&lt;/p&gt;
 &lt;h3 id="lab-3-participation-exercise"&gt;Lab 3 Participation Exercise&lt;/h3&gt;
 &lt;p&gt;Due: Friday, 26 January 2024, 4:00 PM
 Note: Proper completion of this exercise is considered as part of course participation.&lt;/p&gt;
