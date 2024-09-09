@@ -9,6 +9,8 @@ summary: Lab Procedure, Lab Assignments, Lab Marking
 
 [TOC]
 
+# Lab 1
+
 * [Lab 1]({filename}/labs/lab1.md)
 
 # Lab 2
