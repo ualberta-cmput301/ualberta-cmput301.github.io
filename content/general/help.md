@@ -25,7 +25,7 @@ We will not tolerate harassment, bullying, threats, intimidation, insults, lying
     * Missed final exam:
         * Request a deferred exam from your faculty (Faculty of Science, Faculty of Arts, Faculty of Business, etc.)
     * Missed assignment/lab/project/quiz/lecture... everything except final exam:
-        * Fill in the [absence declaration form](https://docs.google.com/forms/d/e/1FAIpQLSc7SvrcZQ3CJJ6gR7oJgkKn1xD_zurT0rwN7snen9fqLefjMw/viewform?usp=sf_link) within 2 days of absence.
+        * Fill in the <span style="font-size: 200%">🔗</span> [absence declaration form](https://docs.google.com/forms/d/e/1FAIpQLSc7SvrcZQ3CJJ6gR7oJgkKn1xD_zurT0rwN7snen9fqLefjMw/viewform?usp=sf_link) within 2 days of absence.
 * Extensions
     * No individual extensions are ever granted for any reason.
 
@@ -79,7 +79,7 @@ Unless your question is personal (E.g., you are feeling unwell and require an EA
 * Be polite, this is not a complaint forum.
 * Follow the [online etiquette guidelines]({attach}online_etiquette_guidelines.pdf).
 
-[The discussion forum is on the eClass.](https://eclass.srv.ualberta.ca/mod/forum/view.php?id=8037429)
+<span style="font-size: 200%">🔗</span> [The discussion forum is on the eClass.](https://eclass.srv.ualberta.ca/mod/forum/view.php?id=8037429)
 
 # Labs Office Hours
 
@@ -95,7 +95,7 @@ TAs are not allowed to change your marks. If you disagree with your marks, [cont
 
 ## Instructor Office Hours
 
-* [Instructor office hours]({filename}/general/outline.md#contact-information) is in the course outline.
+* <span style="font-size: 200%">🔗</span> [Instructor office hours]({filename}/general/outline.md#contact-information) are in the course outline.
 * Do not email instructor, use the [Contact instructor form](#contact-instructor), instead.
 
 ## TAs
@@ -108,11 +108,11 @@ TAs are not allowed to change your marks. If you disagree with your marks, [cont
 * Please be polite and courteous.
 * TAs will not re-grade your work or deal with extensions, excuses, illness, etc.
 
-TA office hours are on the eClass.
+<span style="font-size: 200%">🔗</span> [TA office hours are on the eClass.](https://eclass.srv.ualberta.ca/mod/page/view.php?id=8129757)
 
 # Contact Instructor
 
-Do not email the instructor. Use the [contact instructor form](https://docs.google.com/forms/d/e/1FAIpQLSfMcgrLR4nCgfK1qJW9P5sDJp3-sTnQ9hKC94H7wojdaPaTjw/viewform?usp=sf_link). 
+<span style="font-size: 200%">🔗</span> Do not email the instructor. Use the [contact instructor form](https://docs.google.com/forms/d/e/1FAIpQLSfMcgrLR4nCgfK1qJW9P5sDJp3-sTnQ9hKC94H7wojdaPaTjw/viewform?usp=sf_link). 
 
 Replies may take several days because there are hundreds of students. Currently, there are more than 600 students. If you are asking about something that isn't due yet (before due date) please ask a TA instead, or use the discussion forum. You might not get a response before the due date. You will not get an extension, even if the instructor does not reply before the due date.
 
