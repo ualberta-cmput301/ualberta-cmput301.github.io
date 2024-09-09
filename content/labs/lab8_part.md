@@ -4,13 +4,20 @@ tags: labs, policy, grading
 authors: Samuel Iwuchukwu,Hazel Victoria Campbell
 status: published
 summary: Lab 8 Participation Exercise
+
 [TOC]
+
+# Lab 8 Slides 
+
+* [Lab 8 Slides]({attach}/labs/slides/Lab8_Slides.pdf)
+
+# Lab 8 Instructions
+
+* [Lab 8 Instructions]({attach}/labs/slides/Lab8_Instructions.pdf)
 
 # Lab 8 Participation Exercise
 
-**Due:** Friday, 8 March 2024, 4:00 PM
-
-Lab Exercise
+**Lab Exercise**
 
 • Implement has city, delete city, and count cities (same as lab 6), however, this time using TDD.
 
