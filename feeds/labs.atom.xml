@@ -265,19 +265,15 @@ tweetList.add(normalTweet);&lt;/p&gt;
 &lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#lab-2-instructions"&gt;Lab 2 Instructions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#lab-2-participation-exercise"&gt;Lab 2 Participation Exercise&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;h3 id="lab-2-instructions"&gt;Lab 2 Instructions&lt;/h3&gt;
 &lt;p&gt;In Lab 2, we'll be doing the following: &lt;/p&gt;
-&lt;p&gt;Quick review of OOP principles
-Android Basics (Lab 2 Android Basics PDF under Lab 2)
-Displaying a list of items using ListView/ListAdapter (Lab 2 ListView Demo Example - Instructions PDF under Lab 2)
-Lab Exercise - adding and removing items from ListAdapter (see the Lab 2 Participation Exercise page for more details)&lt;/p&gt;</content><category term="labs"></category><category term="labs"></category><category term="policy"></category><category term="grading"></category></entry><entry><title>Lab 2 Participation Exercise</title><link href="https://ualberta-cmput301.github.io/labs/lab2_participation.html" rel="alternate"></link><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/labs/lab2_participation.html</id><summary type="html">&lt;p&gt;Lab 2 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
-&lt;div class="toc"&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="#lab-2-participation-exercise"&gt;Lab 2 Participation Exercise&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
+&lt;p&gt;Quick review of &lt;a href="https://ualberta-cmput301.github.io/labs/slides/CMPUT_301_LAB_2_OOP_PRINCIPLES.pdf"&gt;OOP principles&lt;/a&gt;
+Android Basics (&lt;a href="https://ualberta-cmput301.github.io/labs/slides/CMPUT_301_LAB_2_ANDROID_BASICS.pdf"&gt;Lab 2 Android Basics PDF under Lab 2&lt;/a&gt;)
+Displaying a list of items using ListView/ListAdapter (&lt;a href="https://ualberta-cmput301.github.io/labs/slides/CMPUT_301_LAB_2_INSTRUCTIONS.pdf"&gt;Lab 2 ListView Demo Example - Instructions PDF under Lab 2&lt;/a&gt;)
+Lab Exercise - adding and removing items from ListAdapter (see the Lab 2 Participation Exercise page for more details)&lt;/p&gt;
 &lt;h3 id="lab-2-participation-exercise"&gt;Lab 2 Participation Exercise&lt;/h3&gt;
 &lt;p&gt;Due: Friday, 19 January 2024, 4:00 PM
 Note: Proper completion of this exercise is considered as part of course participation.&lt;/p&gt;
