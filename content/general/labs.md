@@ -41,7 +41,7 @@ summary: Lab Procedure, Lab Assignments, Lab Marking
 
 * [Lab 7 Instructions]({filename}/labs/lab7_instruct.md)
 * [Lab 7 Starter Code]({attach}slides/Lab_7_starter_code.zip)
-* [Lab 7 Participation Exercise]({filename}/labs/lab7_part.md)
+
 
 # Lab 8
 
