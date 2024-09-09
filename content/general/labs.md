@@ -45,4 +45,4 @@ summary: Lab Procedure, Lab Assignments, Lab Marking
 
 # Lab 8
 
-* [Lab 8 Participation Exercise]({filename}/labs/lab8_part.md)
+* [Lab 8]({filename}/labs/lab8_part.md)
