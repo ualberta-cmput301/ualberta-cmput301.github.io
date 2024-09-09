@@ -55,7 +55,7 @@ summary: Slides and per-topic resources
 
 * [Git Introduction and Practices Notes (Wang)]({attach}slides/Git_Introduction_and_Practices.pdf)
 * [Hand drawn Models of Git: Wizard Towers versus Centralized]({attach}slides/HDMofG.pdf)
-
+* [PAST Lab Git Notes (Romansky)]({filename}/labs/past_notes.md)
 
 # Software Process 
 
