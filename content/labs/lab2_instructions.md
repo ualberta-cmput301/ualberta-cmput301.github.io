@@ -20,8 +20,6 @@ Lab Exercise - adding and removing items from ListAdapter (see the Lab 2 Partici
 
 # Lab 2 Participation Exercise
 
-Due: Friday, 19 January 2024, 4:00 PM
-Note: Proper completion of this exercise is considered as part of course participation.
 
 Task: Modify/Expand ListyCity to allow for the addition of new cities as well as the deletion of existing ones in the ListView. The specifics of the design of this functionality are up to you.
 
