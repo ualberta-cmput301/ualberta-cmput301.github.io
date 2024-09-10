@@ -7,6 +7,10 @@ summary: Lab 4 Participation Exercise
 
 [TOC]
 
+# Lab 4 Slides
+
+[Lab 4 Slides]({attach}slides/Github_Slides.pdf)
+
 # Lab 4 Participation Exercise
 
 Due: Friday, 2 February 2024, 4:00 PM

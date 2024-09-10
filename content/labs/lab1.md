@@ -9,17 +9,9 @@ summary: Lab 1 -- Java, OOP, Android Studio
 
 [TOC]
 
-* **Due date:** Check the [schedule]({filename}/pages/home.md#schedule). (Usually Friday after the lab at 4PM)
+# Lab 1 Slides
+
 * [Lab 1 Slides]({attach}slides/CMPUT_301_LAB_1.pdf)
-
-# Lab1 Participation Exercise Requirements
-
-1. Add three new model classes to LonelyTwitter: the first should be an abstract base class which represents the current mood. The second and third should be non-abstract classes which represent different moods (Ex: happy, sad, etc.) and inherit from the abstract class.
-2. Each mood should have a date and getters and setters to access the date.
-3. A constructor which sets the date to a default and a constructor which takes a date as an argument should be provided. 
-4. Encapsulation should be followed.
-5. Each mood should have a method which returns a string representing that mood.
-6. Your new code should have examples of classes, methods, attributes, access modifiers, encapsulation, constructors, inheritance and abstract base classes.
 
 # Instructions
 
@@ -100,13 +92,21 @@ public interface Tweetable {
 ```
 + Make Tweet implement Tweetable
 
+
+
+# Lab1 Participation Exercise Requirements
+
+1. Add three new model classes to LonelyTwitter: the first should be an abstract base class which represents the current mood. The second and third should be non-abstract classes which represent different moods (Ex: happy, sad, etc.) and inherit from the abstract class.
+2. Each mood should have a date and getters and setters to access the date.
+3. A constructor which sets the date to a default and a constructor which takes a date as an argument should be provided. 
+4. Encapsulation should be followed.
+5. Each mood should have a method which returns a string representing that mood.
+6. Your new code should have examples of classes, methods, attributes, access modifiers, encapsulation, constructors, inheritance and abstract base classes.
+
 # Submission
 
 Note: Running the project is not necessary.
 
 Zip the project and upload it to eClass.
 
-**Due Date**
-
-Friday after the Thursday lab at 4PM
-
+* **Due date:** Check the [schedule]({filename}/pages/home.md#schedule). (Usually Friday after the lab at 4PM)
