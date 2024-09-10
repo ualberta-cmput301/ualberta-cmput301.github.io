@@ -278,8 +278,6 @@ Android Basics (&lt;a href="https://ualberta-cmput301.github.io/labs/slides/CMPU
 Displaying a list of items using ListView/ListAdapter (&lt;a href="https://ualberta-cmput301.github.io/labs/slides/CMPUT_301_LAB_2_INSTRUCTIONS.pdf"&gt;Lab 2 ListView Demo Example - Instructions PDF under Lab 2&lt;/a&gt;)
 Lab Exercise - adding and removing items from ListAdapter (see the Lab 2 Participation Exercise page for more details)&lt;/p&gt;
 &lt;h3 id="lab-2-participation-exercise"&gt;Lab 2 Participation Exercise&lt;/h3&gt;
-&lt;p&gt;Due: Friday, 19 January 2024, 4:00 PM
-Note: Proper completion of this exercise is considered as part of course participation.&lt;/p&gt;
 &lt;p&gt;Task: Modify/Expand ListyCity to allow for the addition of new cities as well as the deletion of existing ones in the ListView. The specifics of the design of this functionality are up to you.&lt;/p&gt;
 &lt;p&gt;If you could not attend the labs or do not have the code for ListyCity, follow the instructions in Lab 2 ListView Example - Instructions. &lt;/p&gt;
 &lt;p&gt;Hints:&lt;/p&gt;
