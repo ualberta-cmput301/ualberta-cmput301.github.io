@@ -7,5 +7,6 @@ summary: Exam Practice Questions
 
 ----
 
+* [W23AM2Q3]({filename}/resources/practice/w23am2q3.md)
 * [W23AM3Q2]({filename}/resources/practice/w23am3q2.md)
 * [W23AM3Q3]({filename}/resources/practice/w23am3q3.md)
