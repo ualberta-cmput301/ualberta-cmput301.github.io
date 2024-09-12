@@ -72,9 +72,18 @@ publish:
 	rm -rvf $(OUTPUTDIR)
 	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(PUBLISHCONF)" $(PELICANOPTS)
 
+webdocs:
+	rm -rvf $(OUTPUTDIR)
+	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s webdocs.py $(PELICANOPTS)
+	rsync -aP output/ login.cs.ualberta.ca:/compsci/webdocs/hazelcam/web_docs/301/
+
+buttercup:
+	rm -rvf $(OUTPUTDIR)
+	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s buttercup.py $(PELICANOPTS)
+	rsync -aP output/ buttercup:cmput301/
+
 github: publish
 	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) "$(OUTPUTDIR)"
 	git push origin $(GITHUB_PAGES_BRANCH)
-
 
 .PHONY: html help clean regenerate serve serve-global devserver devserver-global publish github
