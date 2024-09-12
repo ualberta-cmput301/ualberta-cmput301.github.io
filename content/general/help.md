@@ -129,23 +129,23 @@ Protective Services [780-492-5050](tel:780-492-5050)
 ## Physical Well-being Supports
 
 *   **[Campus Food Bank](https://campusfoodbank.com/)** 
-*   **[WECAN Food Basket](https://internalcomms.cmail19.com/t/d-l-vuytlz-ihirhlhytl-k/)** (affordable groceries)
+*   **[WECAN Food Basket](https://campusfoodbank.com/wecan)** (affordable groceries)
 *   **[Campus and Community Recreation](https://www.ualberta.ca/campus-community-recreation/our-programs/rec-guide/index.html)** 
 *   **[Campus and Community Recreation YouTube Channel](https://www.youtube.com/@CampusCommunityRecreation)**
-*   **[Weekly free mindfulness and yoga class through Counselling & Clinical Services](https://www.ualberta.ca/current-students/counselling/workshops.html?utm_medium=email&utm_campaign=WCSI_Jan%202024&utm_content=WCSI_Jan%202024+CID_ba92968704987d94bc0c32e21ef6d5c6&utm_source=cm_internal_comms&utm_term=Weekly%20free%20mindfulness%20and%20yoga%20class%20through%20Counselling%20%20Clinical%20Services)**
+*   **[Weekly free mindfulness and yoga class through Counselling & Clinical Services](https://www.ualberta.ca/current-students/counselling/workshops.html)**
 *   **[Use a treadmill desk when studying in the library](https://guides.library.ualberta.ca/wellbeing)**
 
 ## Mental Health Supports
 
-All mental health & wellbeing supports offered to undergraduate students are listed on the **[Health + Wellness](https://www.ualberta.ca/campus-life/health-wellness/index.html?utm_medium=email&utm_campaign=WCSI_Jan%202024&utm_content=WCSI_Jan%202024+CID_ba92968704987d94bc0c32e21ef6d5c6&utm_source=cm_internal_comms&utm_term=Health%20%20Wellness#mental-health-support)** page, including options for peer support programs, medical care, and other wellness programs open to you. Counselling & Clinical Services also offers a range of **[workshops](https://www.ualberta.ca/current-students/counselling/workshops.html?utm_medium=email&utm_campaign=WCSI_Jan%202024&utm_content=WCSI_Jan%202024+CID_ba92968704987d94bc0c32e21ef6d5c6&utm_source=cm_internal_comms&utm_term=workshops)** for you to learn how to be a peer support for other students. 
+All mental health & wellbeing supports offered to undergraduate students are listed on the **[Health + Wellness](https://www.ualberta.ca/campus-life/health-wellness/index.html)** page, including options for peer support programs, medical care, and other wellness programs open to you. Counselling & Clinical Services also offers a range of **[workshops](https://www.ualberta.ca/current-students/counselling/workshops.html)** for you to learn how to be a peer support for other students. 
 
-If you are unsure how to access a resource, please contact the **[Office of the Dean of Students](https://www.ualberta.ca/dean-of-students/index.html?utm_medium=email&utm_campaign=WCSI_Jan%202024&utm_content=WCSI_Jan%202024+CID_ba92968704987d94bc0c32e21ef6d5c6&utm_source=cm_internal_comms&utm_term=Office%20of%20the%20Dean%20of%20Students)** for a full listing of services.
+If you are unsure how to access a resource, please contact the **[Office of the Dean of Students](https://www.ualberta.ca/dean-of-students/index.html)** for a full listing of services.
 
 ## Need Help Now?
 
 It's normal for us to have different mental health experiences throughout the year. Know that there are people who want to help. You can reach out to your friends and access a variety of supports available on and off campus at the **[Need Help Now](https://www.ualberta.ca/current-students/need-help-now.html)** webpage or by calling the **24-hour Distress Line: 780-482-4357 (HELP)**. 
 
-If you or someone you know is in need of immediate assistance, please reach out to a friend, professor, or staff member. Find a list of immediate support services **[here](https://www.ualberta.ca/current-students/need-help-now.html?utm_medium=email&utm_campaign=WCSI_Jan%202024&utm_content=WCSI_Jan%202024+CID_ba92968704987d94bc0c32e21ef6d5c6&utm_source=cm_internal_comms&utm_term=here)**.
+If you or someone you know is in need of immediate assistance, please reach out to a friend, professor, or staff member. Find a list of immediate support services **[here](https://www.ualberta.ca/current-students/need-help-now.html)**.
 
 ## Student Self-Care Guide
 
@@ -155,9 +155,9 @@ This [Self-Care Guide](https://drive.google.com/file/d/1t5fqgXCG369tt5hDxrzQuvlT
 
 Building a strong social network can greatly benefit your mental health.
 
-- **Students Groups: [BearsDen](https://alberta.campuslabs.ca/engage/)** is a one-stop online spot for all student groups on campus. Students can search for events or groups that suit their interests.
-- **Campus Events:** Campus events are posted by a variety of groups. Commonly, students can find events on **[uab.ca/events](https://www.ualberta.ca/en/events/index.html#sort=relevancy), [uasuevents.ca,](https://www.su.ualberta.ca/events/)** or go to their respective **[faculty association's web page](https://www2.su.ualberta.ca/governance/cofa/)** for upcoming events.
-- **Unitea**: Connection starts with a conversation, and what better way to connect than over a cup of tea or coffee? You can book either a 1-on-1, or a group tea time led by Unitea hosts. <https://www.ualberta.ca/en/current-students/wellness-supports/community-engagement/unitea/index.html>
+-   **Students Groups: [BearsDen](https://alberta.campuslabs.ca/engage/)** is a one-stop online spot for all student groups on campus. Students can search for events or groups that suit their interests.
+
+-   **Campus Events:** Campus events are posted by a variety of groups. Commonly, students can find events on **[uab.ca/events](https://www.ualberta.ca/en/events/index.html#sort=relevancy), [uasuevents.ca,](https://www.su.ualberta.ca/events/)** or go to their respective **[faculty association's web page](https://www2.su.ualberta.ca/governance/cofa/)** for upcoming events.
 
 # Where to NOT get help
 
