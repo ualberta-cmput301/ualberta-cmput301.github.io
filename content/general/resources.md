@@ -43,6 +43,10 @@ You already paid for these full e-textbooks with your tuition!
 * [A Good Video Tutorial](https://www.youtube.com/watch?v=NBIUbTddde4&list=PLZPZq0r_RZOMhCAyywfnYLlrjiVOkdAI1&ab_channel=BroCode)
 * [Official Tutorial](https://docs.oracle.com/javase/tutorial/java/index.html)
 
+# Android Studio
+
+* [Android Studio Tips]({attach}/general/slides/Android_Studio_Tips.pdf)
+
 # UML
 
 * [IBM - An introduction to UML](https://developer.ibm.com/articles/an-introduction-to-uml/)

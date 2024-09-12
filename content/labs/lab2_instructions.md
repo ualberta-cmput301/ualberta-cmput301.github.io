@@ -41,10 +41,10 @@ Here are some screenshots from an example application that demonstrate the requi
 2. Tap a city name to select it  then press "DELETE CITY" to remove the city from the listview.
 
 
-![Screen1]({attach}../images/lab2/img1_lab2.png){ width=300 style="margin: 20px;"}
+![Screen1]({attach}../images/lab2/img1_lab2_main.jpeg){ width=300 style="margin: 20px;"}
 ![Screen2]({attach}../images/lab2/img2_lab2.png){ width=300 style="margin: 20px;" }
 ![Screen3]({attach}../images/lab2/img3_lab2.png){ width=300 style="margin: 20px;"}
-![Screen4]({attach}../images/lab2/img1_lab2.png){ width=300 style="margin: 20px;" }
+![Screen4]({attach}../images/lab2/img4_lab2.jpeg){ width=300 style="margin: 20px;" }
 
 
 
