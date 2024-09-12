@@ -124,9 +124,26 @@
 <li>
 <p>Make Tweet Class Abstract</p>
 <ul>
-<li>public abstract class Tweet { ... }</li>
-<li>public abstract Boolean isImportant();</li>
-<li>What if they need to behave differently? @Override isImportant() to create a compile-time check</li>
+<li>public abstract class Tweet { ... }<ul>
+<li>Note: Abstract classes cannot be instantiated.</li>
+</ul>
+</li>
+<li>public abstract Boolean isImportant();<ul>
+<li>This is an abstract method, it has no implementation and must be overridden by child classes (to add functionality).</li>
+<li>Note: Abstract methods cannot be called using any objects.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>What if they need to behave differently? @Override isImportant() to create a compile-time check</p>
+<ul>
+<li>You need to override the method in the child class as it is an abstract method in the parent class that has no implementation.</li>
+<li>Overriding the method allows the child class to have its own implementation of the method.<ul>
+<li>ex. the Normal Tweet is not important, so it returns false. The ImportantTweet is important, so it returns true.</li>
+</ul>
+</li>
+<li>The methods in the child classes need to be overridden to behave differently.</li>
 </ul>
 </li>
 <li>
