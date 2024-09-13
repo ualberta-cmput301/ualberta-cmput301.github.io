@@ -14,6 +14,7 @@ If you find broken links, please file a GitHub issue.
 # General Resources
 
 * [Exam Practice Questions]({filename}/resources/practice.md)
+* [Old Participation Exercise]({filename}/resources/participation.md)
 * [SPM and SDA MOOC Resources]({filename}/resources/mooc.md)
 * [Old Lecture and Lab Recordings]({filename}/resources/oldrecordings.md)
 * [Safari O'Reilly Books](http://go.oreilly.com/university-of-alberta)
