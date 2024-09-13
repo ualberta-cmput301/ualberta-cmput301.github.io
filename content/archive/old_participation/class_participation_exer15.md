@@ -15,14 +15,14 @@ Consider the following (partial) implementation of a Person class.
 
 ```.java
 class Person {
-    …
+    ...
 
     public String getName() {
         return name;
     }
 
     public String getTelephoneNumber() {
-        return “(“ + officeAreaCode + “) “ + officeNumber;
+        return "(" + officeAreaCode + ") " + officeNumber;
     }
 
     String getOfficeAreaCode() {
