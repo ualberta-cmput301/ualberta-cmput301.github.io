@@ -1,4 +1,4 @@
-Title: Practice Midterm W23 Q1
+Title: Practice w23apmq1
 date: 2024-09-11
 tags: resources, reading, references, practice, exams
 authors: Ildar Akhmetov
