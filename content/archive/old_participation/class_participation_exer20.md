@@ -1,4 +1,4 @@
-Title: participation 20
+Title: Class Participation Exercise 20
 date: 2024-09-10
 tags: resources, reading, references, practice
 authors: Ildar Akhmetov

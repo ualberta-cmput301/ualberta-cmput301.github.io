@@ -1,4 +1,4 @@
-Title: participation 15
+Title: Class Participation Exercise 15
 date: 2024-09-12
 tags: resources, reading, references, practice
 authors: Ildar Akhmetov
