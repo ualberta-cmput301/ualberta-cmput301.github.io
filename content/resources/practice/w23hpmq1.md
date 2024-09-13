@@ -1,16 +1,17 @@
-Title: Practice w23apmq1
+Title: Practice w23hpmq1
 date: 2024-09-11
 tags: resources, reading, references, practice, exams
-authors: Ildar Akhmetov
+authors: Abram Hindle
 status: published
 summary: Practice Exam Question
 
 ----
 
-Convert this Java code to a UML class diagram. This Java code is meant to represent a hospital. Draw a well-designed UML class diagram to represent this information. Provide the basic abstractions, attributes, methods, relationships, multiplicities, and navigabilities as appropriate.
+Convert this Java code to a UML class diagram. This Java code is meant to represent a animals. Draw a well-designed UML class diagram to represent this information. Provide the basic abstractions, attributes, methods, relationships, multiplicities, and navigabilities as appropriate.
+
 "..." means much code is omitted.
 
-```.java
+```java
 class Animal {
     protected String name;
     protected int age;
