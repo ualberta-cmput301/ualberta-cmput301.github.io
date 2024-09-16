@@ -25,9 +25,6 @@ summary: Lab 6 Instructions
 
 # Lab 6 Participation Exercise
 
-**Due:** Friday, 16 February 2024, 4:00 PM
-
-
 Proper completion of this exercise is considered as part of course participation.
 
 In this exercise your task is to **implement and test** the following methods in the CityList class **AND create Javadocs** for the main source files (not tests):
