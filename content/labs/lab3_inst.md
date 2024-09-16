@@ -14,6 +14,7 @@ summary: Lab 3 Instructions
 
 1. Going through Lab 3 Slides PDF  ([customize ArrayAdapter and Fragments]({attach}slides/Lab_3_Slides_Winter_2023.pdf))
 2. Supporting a ListView with items that have multiple views using a custom ArrayAdapter and Using a Fragment to add new cities to ListyCity ([customize ArrayAdapter and Fragments code & walkthrough]({attach}slides/Lab_3_Instructions_Winter_2023.pdf))
+3. Download the Starter code [here]({attach}slides/ListyCity.zip)
 
 + Lab Exercise:
 
