@@ -23,7 +23,6 @@ Editing existing cities in ListyCity (see the Lab 3 Participation Exercise below
 
 # Lab 3 Participation Exercise
 
-Due: Friday, 26 January 2024, 4:00 PM
 Note: Proper completion of this exercise is considered as part of course participation.
 
 Task: Add functionality to ListyCity to allow editing an existing city. The specifics of the design of this functionality are up to you.
