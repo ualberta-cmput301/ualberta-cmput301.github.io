@@ -15,9 +15,6 @@ Complete Lab Exercise.
 
 # Lab 5 Participation Exercise
 
-**Due:** Friday, 9 February 2024, 4:00 PM
-
-
 Proper completion of this exercise is considered as part of course participation.
 
 **In this exercise it is your task to add the ability to delete Cities and integrate this functionality with the Firestore database, allowing for the persistence of deletions.**
