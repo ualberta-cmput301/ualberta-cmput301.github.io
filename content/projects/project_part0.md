@@ -18,6 +18,8 @@ The intent is that all members are available together for a good block of time d
 
 For an initial teamwork exercise you will be asked to pick a team name according to the exact specifications below.
 
+* If you have fewer than 6 members, you may be split up and assigned to other teams.
+
 # What to submit
 
 Every team member will need to submit the following:
@@ -32,7 +34,7 @@ Every team member will need to submit the following:
     * A single english word
     * Must be professional
         * Sexism/Racism/etc. or any other harassment will be brought to the Dean of Students for sanctions
-        * Must not contain any insults
+        * Must not contain any insults or negativity. Examples: `suckers`, `copium`, `haters`, `betray`, `regret`, `losers`...
     * Must not contain anyone's name as a substring
     * Should be unique
         * Words like `heroes`, `awesome`,  are overused: they'll be accepted but might conflict with another team, if they conflict, the second team to submit will be assigned a different name.
