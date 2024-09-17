@@ -1,7 +1,7 @@
 Title: Class Participation Exercise 3
 date: 2024-09-17
 tags: resources, reading, references, practice
-authors: ?
+authors: Nathan Wu, Hazel Victoria Campbell
 status: published
 summary: Individual, Assignments, Participation
 
