@@ -15,7 +15,7 @@ In Lab 3, together we'll go through the following:
 1. Going through Lab 3 Slides PDF  ([customize ArrayAdapter and Fragments]({attach}slides/Lab_3_Slides_Winter_2023.pdf))
 2. Supporting a ListView with items that have multiple views using a custom ArrayAdapter and Using a Fragment to add new cities to ListyCity ([customize ArrayAdapter and Fragments code & walkthrough]({attach}slides/Lab_3_Instructions_Winter_2023.pdf))
 
-Download the Starter code [here]({attach}slides/ListyCity.zip)
+Download the Starter code [here]({attach}slides/ListyCityLab3.zip)
 
 Read about Java code conventions (see the [Code Conventions (Schoepp) PDF]({attach}slides/Code_Conventions_Schoepp.pdf)).
 
