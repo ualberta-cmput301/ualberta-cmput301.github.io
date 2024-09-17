@@ -8,7 +8,7 @@ summary: Lab 6 Instructions
 
 # Lab 6 Instructions
 
-1. Follow the slides on Javadoc and JUnit
+1. Follow the slides on [Javadoc]({attach}slides/Javadoc.pdf) and [JUnit]({attach}slides/JUnit.pdf)
 
 2. Follow instructions on this [link]({attach}slides/L6Junit.pdf) along with the TA.
 
@@ -24,9 +24,6 @@ summary: Lab 6 Instructions
 
 
 # Lab 6 Participation Exercise
-
-**Due:** Friday, 16 February 2024, 4:00 PM
-
 
 Proper completion of this exercise is considered as part of course participation.
 

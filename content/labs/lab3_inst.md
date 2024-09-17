@@ -9,20 +9,20 @@ summary: Lab 3 Instructions
 
 # Lab 3 Instructions - What we'll do in lab!
 
-+ In Lab 3, together we'll go through the following:
+In Lab 3, together we'll go through the following:
 
-1. Going through Lab 3 Slides PDF (customize ArrayAdapter and Fragments)
-2. Supporting a ListView with items that have multiple views using a custom ArrayAdapter (**Lab 3 Instructions - Part 1 Customize ListView**)
-3. Using a Fragment to add new cities to ListyCity (Lab 3 Instructions - Part 2 Fragments)
 
-+ Lab Exercise:
+1. Going through Lab 3 Slides PDF  ([customize ArrayAdapter and Fragments]({attach}slides/Lab_3_Slides_Winter_2023.pdf))
+2. Supporting a ListView with items that have multiple views using a custom ArrayAdapter and Using a Fragment to add new cities to ListyCity ([customize ArrayAdapter and Fragments code & walkthrough]({attach}slides/Lab_3_Instructions_Winter_2023.pdf))
 
-Read about Java code conventions (see the Code Conventions (Schoepp) PDF).
-Editing existing cities in ListyCity (see the Lab 3 Participation Exercise page for more details)
+Download the Starter code [here]({attach}slides/ListyCityLab3.zip)
+
+Read about Java code conventions (see the [Code Conventions (Schoepp) PDF]({attach}slides/Code_Conventions_Schoepp.pdf)).
+
+Editing existing cities in ListyCity (see the Lab 3 Participation Exercise below for more details)
 
 # Lab 3 Participation Exercise
 
-Due: Friday, 26 January 2024, 4:00 PM
 Note: Proper completion of this exercise is considered as part of course participation.
 
 Task: Add functionality to ListyCity to allow editing an existing city. The specifics of the design of this functionality are up to you.

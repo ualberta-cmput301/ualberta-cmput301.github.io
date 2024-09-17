@@ -12,11 +12,9 @@ Read [Firestore 🔥.pdf]({attach}slides/Firestore.pdf) for introduction of Fire
 Follow instructions on [Lab 5 Firestore Integration Instructions.pdf]({attach}slides/Lab5FInteg.pdf) along with the TA.
 Complete Lab Exercise.
 
+Download Starter Code [here]({attach}slides/Lab5_W24.zip)
 
 # Lab 5 Participation Exercise
-
-**Due:** Friday, 9 February 2024, 4:00 PM
-
 
 Proper completion of this exercise is considered as part of course participation.
 

@@ -13,7 +13,6 @@ summary: Lab 4 Participation Exercise
 
 # Lab 4 Participation Exercise
 
-Due: Friday, 2 February 2024, 4:00 PM
 This task is for teams. 
 
 1. As a team:

@@ -14,6 +14,7 @@ If you find broken links, please file a GitHub issue.
 # General Resources
 
 * [Exam Practice Questions]({filename}/resources/practice.md)
+* [Old Participation Exercise]({filename}/resources/participation.md)
 * [SPM and SDA MOOC Resources]({filename}/resources/mooc.md)
 * [Old Lecture and Lab Recordings]({filename}/resources/oldrecordings.md)
 * [Safari O'Reilly Books](http://go.oreilly.com/university-of-alberta)
@@ -42,6 +43,10 @@ You already paid for these full e-textbooks with your tuition!
 * [Java Quick Look](https://www.w3schools.com/java)
 * [A Good Video Tutorial](https://www.youtube.com/watch?v=NBIUbTddde4&list=PLZPZq0r_RZOMhCAyywfnYLlrjiVOkdAI1&ab_channel=BroCode)
 * [Official Tutorial](https://docs.oracle.com/javase/tutorial/java/index.html)
+
+# Android Studio
+
+* [Android Studio Tips]({attach}/general/slides/Android_Studio_Tips.pdf)
 
 # UML
 

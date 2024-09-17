@@ -14,14 +14,7 @@ summary: Lab 7 Instructions
 - [Lab 7 Starter Code](https://github.com/iAniket23/Android-UI-testing) (clone this repo)
 - [Lab 7 Starter Code Download]({attach}slides/Lab_7_starter_code.zip)
 
-## Lab Exercise
-
-- [Lab 7 Participation Exercise]({filename}lab7_part.md)
-
-
 # Lab 7 Participation Exercise
-
-**Due:** Friday, 1 March 2024, 4:00 PM
 
 **# Implement and test activity:**
 ShowActivity (create by yourself to have the following property)
