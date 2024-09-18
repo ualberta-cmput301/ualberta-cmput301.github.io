@@ -66,7 +66,7 @@ public class ResponseObtainerObtainer {
 }
 ```
 
-## List 1: Code Smell
+#### List 1: Code Smell
 
 Evident in this code:
 
