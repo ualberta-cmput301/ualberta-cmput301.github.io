@@ -1,7 +1,7 @@
 Title: Class Participation Exercise 15
 date: 2024-09-12
-tags: resources, reading, references, practice
-authors: Ildar Akhmetov
+tags: resources, participation, references, practice
+authors: Hazel Victoria Campbell
 status: published
 summary: Individual, Assignments, Participation
 
