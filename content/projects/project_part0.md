@@ -31,23 +31,23 @@ Every team member will need to submit the following:
 * A proposed team name
     * Good examples: `kakuna`, `helium`, `orchid`, `magnet`, `indigo`
     * Exactly six (6) ASCII lowercase letters
-    * A single english word
+    * A single English word
     * Must be professional
         * Sexism/Racism/etc. or any other harassment will be brought to the Dean of Students for sanctions
         * Must not contain any insults or negativity. Examples: `suckers`, `copium`, `haters`, `betray`, `regret`, `losers`...
     * Must not contain anyone's name as a substring
     * Should be unique
-        * Words like `heroes`, `awesome`,  are overused: they'll be accepted but might conflict with another team, if they conflict, the second team to submit will be assigned a different name.
+        * Words like `heroes`, `awesome`, are overused: they'll be accepted but might conflict with another team, if they conflict, the second team to submit will be assigned a different name.
 
 # Submission Procedure
 
-All members of the team must submit the google form... link coming soon.
+All members of the team must submit the Google Form: https://eclass.srv.ualberta.ca/mod/assign/view.php?id=8037454 (we hide it in eClass so that spambots don't fill it out)
 
 # Marking
 
-* If you do not form a team before the due date, you will recieve a mark of zero.
-* If you do not submit on time, you will recieve a mark of zero. No late submissions are allowed. No extensions will be granted.
-* Every team member must submit. If you don't submit you will recieve a mark of zero even if your other team members submitted.
+* If you do not form a team before the due date, you will receive a mark of zero.
+* If you do not submit on time, you will receive a mark of zero. No late submissions are allowed. No extensions will be granted.
+* Every team member must submit. If you don't submit you will receive a mark of zero even if your other team members submitted.
 * You will be deducted one mark for each violation of the required submission format!
     * This includes using a student ID instead of a CCID, or using a name instead of a CCID, or using an email account instead of a CCID... etc.
     * This also includes violating the team name format
