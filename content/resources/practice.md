@@ -8,6 +8,12 @@ summary: Exam Practice Questions
 ----
 # Exam Practice
 
+* [F22PMQ]({attach}practice/f22pmq.pdf)
+* [F22PMA]({attach}practice/f22pma.pdf)
+* [F22PFQ]({attach}practice/f22pfq.pdf)
+* [F22PFA]({attach}practice/f22pfa.pdf)
+* [F22PF2Q]({attach}practice/f22pf2q.pdf)
+* [F22PF2A]({attach}practice/f22pf2a.pdf)
 * [W23AM1Q1]({filename}/resources/practice/w23am1q1.md)
 * [W23AM1Q2]({filename}/resources/practice/w23am1q2.md)
 * [W23AM1Q3]({filename}/resources/practice/w23am1q3.md)
@@ -21,6 +27,7 @@ summary: Exam Practice Questions
 * [W23HM1Q2]({filename}/resources/practice/w23hm1q2.md)
 * [W23HM1Q3]({filename}/resources/practice/w23hm1q3.md)
 * [W23HPMQ1]({filename}/resources/practice/w23hpmq1.md)
+* [W23HM1A]({filename}/resources/practice/w23hm1a.md)
 
 # Old Participation Exercises
 
