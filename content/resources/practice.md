@@ -17,6 +17,7 @@ summary: Exam Practice Questions
 * [W23AM3Q1]({filename}/resources/practice/w23am3q1.md)
 * [W23AM3Q2]({filename}/resources/practice/w23am3q2.md)
 * [W23AM3Q3]({filename}/resources/practice/w23am3q3.md)
+* [W23HM1A]({filename}/resources/practice/w23hm1a.md)
 * [W23HM1Q1]({filename}/resources/practice/w23hm1q1.md)
 * [W23HM1Q2]({filename}/resources/practice/w23hm1q2.md)
 * [W23HM1Q3]({filename}/resources/practice/w23hm1q3.md)
