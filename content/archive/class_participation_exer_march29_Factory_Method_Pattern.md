@@ -17,7 +17,7 @@
     - Add MyApplication and MyDocument subclasses
     - add YourApplication and YourDocument subclasses
 
-## Write a general newDocument method in Application that ultimately instantiates a MyDocument if your application is a MyApplication.
+### Write a general newDocument method in Application that ultimately instantiates a MyDocument if your application is a MyApplication.
 
 1. Draw the UML class diagram for the above problem using the Factory Method Pattern using concrete and abstract classes.
 2. What is the code in MyApplication for the method newDocument?
