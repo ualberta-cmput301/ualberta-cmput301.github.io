@@ -2,7 +2,7 @@
 
 **Date:** 2024-09-17  
 **Tags:** resources, reading, references, practice  
-**Authors:** Hazel Victoria Campbell, Tina Nguyen
+**Authors:** Hazel Victoria Campbell, Tina Nguyen  
 **Status:** published  
 **Summary:** Individual, Assignments, Participation
 
