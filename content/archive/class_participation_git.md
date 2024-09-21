@@ -1,4 +1,4 @@
-Title: Class Participation Exercise Git
+Title: Class Participation Exercise (Git)
 date: 2024-09-21
 tags: resources, participation, references, practice
 authors: Hazel Victoria Campbell
