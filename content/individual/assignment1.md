@@ -56,7 +56,10 @@ Your complete source code and compiled binary, implementing the working app and 
 The video is a demonstration of the app. The video file must be included in the submission. The video is meant to show that the demonstration actions below actually work. No audio is needed. Maximum duration is 3 minutes. Focus on just the screen of the app, not the whole desktop. For visual clarity, do not use a handheld camera.
 
 3. **System Documentation:**
-Describe the structure of your app's object-oriented design using UML class diagram(s), saved as non-lossy image file(s). Focus on the most important classes that you designed and implemented. Add notes to describe the main responsibilities of these classes.
+
+Describe the structure of your app's object-oriented design using UML class diagram(s), saved as non-lossy image file(s).` Focus on the most important classes that you designed and implemented. Add notes to describe the main responsibilities of these classes.
+
+You do not need to include classes from android or java standard library in your UML.
 
 # **Demonstration Actions**
 
