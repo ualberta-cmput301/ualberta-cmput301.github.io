@@ -24,8 +24,9 @@ summary: Slides and per-topic resources
 * [Objects, UML, and Java Draft Slides (4up)]({attach}slides/02-OO.4up.pdf)
 * [Objects, UML, and Java Draft Slides (1up)]({attach}slides/02-OO.pdf)
 
-# Object-Oriented Graphical User Interfaces
+# <a id="mvc" href="#mvc">MVC</a> & Object-Oriented Graphical User Interfaces
 
+* [MVC vs MVC]({attach}slides/MVC2.pdf)
 * [Fixed MVC Android/Swing Slides]({attach}slides/MVCAndroid.pdf)
 * [MVC and Android Part I Draft Slides (4up)]({attach}slides/MVCAndroid4up.pdf)
 * [MVC and Android Part I Draft Slides (1up)]({attach}slides/MVCAndroidPart1.pdf)
@@ -61,7 +62,6 @@ summary: Slides and per-topic resources
 
 * [Software Process Draft Slides (4up)]({attach}slides/SP.pdf)
 * [Software Process Draft Slides (1up)]({attach}slides/SP2.pdf)
-* [MVC Slides - Campbell]({attach}slides/MVC2.pdf)
 
 
 # Software Process (Continued)
