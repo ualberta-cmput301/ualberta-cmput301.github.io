@@ -15,7 +15,7 @@ Consider the basic command design pattern, with Invoker, ConcreteCommand, and Re
 
 Draw the UML sequence diagram that depicts:
 
-    the command creation and its binding to an invoker, and
-    the behavior of the command pattern to have the invoker execute the command, which runs an action on a receiver
+- the command creation and its binding to an invoker, and
+- the behavior of the command pattern to have the invoker execute the command, which runs an action on a receiver
 
 Submit your sequence diagram as a PDF, PNG, or JPEG file.
