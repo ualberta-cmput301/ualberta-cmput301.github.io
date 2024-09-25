@@ -61,3 +61,10 @@ You already paid for these full e-textbooks with your tuition!
 # MVC
 
 * [Java SE Application Design With MVC](https://www.oracle.com/technical-resources/articles/javase/application-design-with-mvc.html)
+
+
+# Git and GitHub Resoirces
+
+* [Distributed Git: Contributing to a Project](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project)
+* [GitHub Help](https://support.github.com/)
+* [Wikipedia: Git](https://en.wikipedia.org/wiki/Git)
