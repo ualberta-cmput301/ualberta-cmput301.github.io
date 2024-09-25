@@ -11,6 +11,28 @@ summary: Lab 4 Participation Exercise
 
 [Lab 4 Slides]({attach}slides/Github_Slides.pdf)
 
+## Extra Information
+
+### Command Line Authentication to GitHub
+
+- In the slides, authentication with GitHub is done using a token you generate with our account.
+- GitHub has a command line tool which makes this process easier, and will generate and manage the token for you.
+- GitHub has documentation about how to do this [here](https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git).
+  - The summary of these steps is to first install the GitHub CLI, which will depend on what operating system you are using. The instructions for installation is [here](https://github.com/cli/cli#installation).
+  - Then, with the CLI tool installed, run the command `gh auth login`. The terminal will guide you through what you need to do. Please make sure to select that you want a **GitHub.com** account and want to use **SSH** as your protocol.
+  - The documentation for the authentication command is located [here](https://cli.github.com/manual/gh_auth_login)
+
+## Sensitive Information and Git
+
+### What is Sensitive Information
+
+- Git is a version control system which tracks all files, past and current, that you commit to it.
+- This means that even if you remove a file or part of a file from your repository, it is still tracked and accessible in the history of your repository.
+- As such, if you commit sensitive data, it is very difficult, if not impossible, to remove it.
+  - Sensitive data includes anything like ID numbers (like your CCID), API keys, passwords, etc.
+-  GitHub as some excellent documentation about best practices for avoiding this, located [here](https://docs.github.com/en/code-security/getting-started/best-practices-for-preventing-data-leaks-in-your-organization).
+- There is also information about removing sensitive information from your repository, but this should only be used in an emergency as it can have severe consequences if not done properly.
+
 # Lab 4 Participation Exercise
 
 This task is for teams. 
