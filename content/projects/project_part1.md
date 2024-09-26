@@ -1,9 +1,11 @@
 Title: Project Part 1
 date: 2024-08-26
 tags: projects, teams, grading
-authors: Samuel Iwuchukwu,Hazel Victoria Campbell
+authors: Samuel Iwuchukwu, Hazel Victoria Campbell
 status: published
 summary: Project Part 1
+----
+
 [TOC]
 
 * **Due date:** Check the [schedule]({filename}/pages/home.md#schedule).
