@@ -6,16 +6,14 @@ status: published
 summary: Project Part 1
 [TOC]
 
-# Project Part 1
-
 * **Due date:** Check the [schedule]({filename}/pages/home.md#schedule).
 
-**Learning Objectives**
+# Learning Objectives
 
 * Set up and use collaborative tools for team-based project development.
 * Collaborate in a team.
 
-**Exercise**
+# Exercise
 
 Your team is expected to use GitHub for a git repository and wiki to share, manage, and store your project artifacts.
 
@@ -27,11 +25,11 @@ Your team is expected to use GitHub for a git repository and wiki to share, mana
 
 (Later in the course, project documentation will be done using the GitHub wiki.)
 
-## **Submission Procedure**
+# **Submission Procedure**
 
 One team member uses [the Google form]() to submit project part 1.
 
-## **Hints**
+# **Hints**
 
 This exercise can be completed with your team in the labs that cover git and GitHub.
 
