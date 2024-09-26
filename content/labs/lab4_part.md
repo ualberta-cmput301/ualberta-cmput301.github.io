@@ -29,7 +29,7 @@ summary: Lab 4 Participation Exercise
 - Git is a version control system which tracks all files, past and current, that you commit to it.
 - This means that even if you remove a file or part of a file from your repository, it is still tracked and accessible in the history of your repository.
 - As such, if you commit sensitive data, it is very difficult, if not impossible, to remove it.
-  - Sensitive data includes anything like ID numbers (like your CCID), API keys, passwords, etc.
+  - Sensitive data includes anything such as ID numbers (like your student ID number), API keys, passwords, etc.
 -  GitHub as some excellent documentation about best practices for avoiding this, located [here](https://docs.github.com/en/code-security/getting-started/best-practices-for-preventing-data-leaks-in-your-organization).
 - There is also information about removing sensitive information from your repository, but this should only be used in an emergency as it can have severe consequences if not done properly.
 
