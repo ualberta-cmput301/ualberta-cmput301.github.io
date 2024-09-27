@@ -27,6 +27,7 @@ summary: Slides and per-topic resources
 # <a id="mvc" href="#mvc">MVC</a> & Object-Oriented Graphical User Interfaces
 
 * [🦾 MVC vs MVC 💪]({attach}slides/MVC2.pdf)
+* [MVC - Campbell]({attach}slides/020mvc.pdf)
 * [Fixed MVC Android/Swing Slides]({attach}slides/MVCAndroid.pdf)
 * [MVC and Android Part I Draft Slides (4up)]({attach}slides/MVCAndroid4up.pdf)
 * [MVC and Android Part I Draft Slides (1up)]({attach}slides/MVCAndroidPart1.pdf)
