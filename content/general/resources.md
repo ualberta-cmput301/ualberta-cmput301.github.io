@@ -74,3 +74,5 @@ You already paid for these full e-textbooks with your tuition!
 
 * [Android Guide: The Activity LIfecycle](https://developer.android.com/guide/components/activities/activity-lifecycle.html)
 * [Android Guide: Common LayoutsURL](https://developer.android.com/develop/ui/views/layout/declaring-layout#CommonLayouts)
+* [Android Guide: Accessing Resources](https://developer.android.com/guide/topics/resources/providing-resources#Accessing)
+
