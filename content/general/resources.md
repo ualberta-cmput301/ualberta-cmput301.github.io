@@ -84,3 +84,7 @@ You already paid for these full e-textbooks with your tuition!
 # Code Conventions Resources
 
 * [Code Conventions for the Java Programming Language](https://www.oracle.com/java/technologies/javase/codeconventions-contents.html)
+
+# Software Process
+
+* [Agile Manifesto](https://agilemanifesto.org/)
