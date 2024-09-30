@@ -106,3 +106,12 @@ You already paid for these full e-textbooks with your tuition!
 
 * [Android Testing Concepts](https://developer.android.com/studio/test)
 * [Android Automating User Interface Tests](https://developer.android.com/training/testing/instrumented-tests/ui-tests)
+
+# Design Patterns
+
+* [Huston Design Patterns](http://www.vincehuston.org/dp/)
+* [SourceMaking](https://sourcemaking.com/)
+* [SourceMaking Design Patterns](https://sourcemaking.com/design_patterns)
+* [Book: Design Patterns: Elements of Reusable Object-Oriented Software](https://www.oreilly.com/library/view/design-patterns-elements/0201633612/)
+* [SourceMaking Refactoring](https://sourcemaking.com/refactoring)
+* [Book: Refactoring Improving the Design of Existing Code](https://www.oreilly.com/library/view/refactoring-improving-the/9780134757681/)
