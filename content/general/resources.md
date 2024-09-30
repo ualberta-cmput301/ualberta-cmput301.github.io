@@ -81,3 +81,6 @@ You already paid for these full e-textbooks with your tuition!
 
 * [Android Studio: Debug Your App](https://developer.android.com/studio/debug/index.html)
 
+# Code Conventions Resources
+
+* [Code Conventions for the Java Programming Language](https://www.oracle.com/java/technologies/javase/codeconventions-contents.html)
