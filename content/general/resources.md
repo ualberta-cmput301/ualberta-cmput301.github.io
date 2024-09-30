@@ -106,3 +106,8 @@ You already paid for these full e-textbooks with your tuition!
 
 * [Android Testing Concepts](https://developer.android.com/studio/test)
 * [Android Automating User Interface Tests](https://developer.android.com/training/testing/instrumented-tests/ui-tests)
+
+# Design Patterns
+
+* [Huston Design Patterns](http://www.vincehuston.org/dp/)
+* [SourceMaking](https://sourcemaking.com/)
