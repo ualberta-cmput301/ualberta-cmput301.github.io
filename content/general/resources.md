@@ -69,3 +69,7 @@ You already paid for these full e-textbooks with your tuition!
 * [Distributed Git: Contributing to a Project](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project)
 * [GitHub Help](https://support.github.com/)
 * [Wikipedia: Git](https://en.wikipedia.org/wiki/Git)
+
+# Android Activity Resources
+
+* [Android Guide: The Activity LIfecycle](https://developer.android.com/guide/components/activities/activity-lifecycle.html)
