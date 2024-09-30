@@ -100,3 +100,9 @@ You already paid for these full e-textbooks with your tuition!
 # Testing
 
 * [Book: Test-Driven DevelopmentURL](https://www.oreilly.com/library/view/test-driven-development/0321146530/)
+
+
+# Intent Testing in Android
+
+* [Android Testing Concepts](https://developer.android.com/studio/test)
+* [Android Automating User Interface Tests](https://developer.android.com/training/testing/instrumented-tests/ui-tests)
