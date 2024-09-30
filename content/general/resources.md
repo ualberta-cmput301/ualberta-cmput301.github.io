@@ -88,3 +88,11 @@ You already paid for these full e-textbooks with your tuition!
 # Software Process
 
 * [Agile Manifesto](https://agilemanifesto.org/)
+* [Extreme Programming: A Gentle Introduction](http://www.extremeprogramming.org/)
+* [Scrum Guide](https://www.scrum.org/resources/scrum-guide)
+* [Book: User Stories Applied](https://www.oreilly.com/library/view/user-stories-applied/0321205685/)
+
+# Unit Testing in Android with JUnit
+
+* [Android JUnit Assert API](https://developer.android.com/training/testing/local-tests)
+* [Unit Testing with the JUnit Testing Framework](https://code.tutsplus.com/android-sdk-unit-testing-with-the-junit-testing-framework--mobile-421t)
