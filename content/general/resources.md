@@ -22,6 +22,8 @@ If you find broken links, please file a GitHub issue.
     * [Also try this link](https://login.ezproxy.library.ualberta.ca/login?url=https://go.oreilly.com/university-of-alberta/)
 
 * [Folder icon B2 Car Example]({attach}slides/carExampleCampbell.zip) 
+* [StackOverflow](https://stackoverflow.com/)
+
 # Java + UML + OO Textbooks
 
 You already paid for these full e-textbooks with your tuition!
