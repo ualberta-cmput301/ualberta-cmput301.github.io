@@ -22,6 +22,8 @@ If you find broken links, please file a GitHub issue.
     * [Also try this link](https://login.ezproxy.library.ualberta.ca/login?url=https://go.oreilly.com/university-of-alberta/)
 
 * [Folder icon B2 Car Example]({attach}slides/carExampleCampbell.zip) 
+* [StackOverflow](https://stackoverflow.com/)
+
 # Java + UML + OO Textbooks
 
 You already paid for these full e-textbooks with your tuition!
@@ -69,3 +71,49 @@ You already paid for these full e-textbooks with your tuition!
 * [Distributed Git: Contributing to a Project](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project)
 * [GitHub Help](https://support.github.com/)
 * [Wikipedia: Git](https://en.wikipedia.org/wiki/Git)
+
+# Android Activity Resources
+
+* [Android Guide: The Activity LIfecycle](https://developer.android.com/guide/components/activities/activity-lifecycle.html)
+* [Android Guide: Common LayoutsURL](https://developer.android.com/develop/ui/views/layout/declaring-layout#CommonLayouts)
+* [Android Guide: Accessing Resources](https://developer.android.com/guide/topics/resources/providing-resources#Accessing)
+* [Android ArrayAdapter API](https://developer.android.com/reference/android/widget/ArrayAdapter.html#notifyDataSetChanged%28%29)
+
+# Android Debugging Resources
+
+* [Android Studio: Debug Your App](https://developer.android.com/studio/debug/index.html)
+
+# Code Conventions Resources
+
+* [Code Conventions for the Java Programming Language](https://www.oracle.com/java/technologies/javase/codeconventions-contents.html)
+
+# Software Process
+
+* [Agile Manifesto](https://agilemanifesto.org/)
+* [Extreme Programming: A Gentle Introduction](http://www.extremeprogramming.org/)
+* [Scrum Guide](https://www.scrum.org/resources/scrum-guide)
+* [Book: User Stories Applied](https://www.oreilly.com/library/view/user-stories-applied/0321205685/)
+
+# Unit Testing in Android with JUnit
+
+* [Android JUnit Assert API](https://developer.android.com/training/testing/local-tests)
+* [Unit Testing with the JUnit Testing Framework](https://code.tutsplus.com/android-sdk-unit-testing-with-the-junit-testing-framework--mobile-421t)
+
+# Testing
+
+* [Book: Test-Driven DevelopmentURL](https://www.oreilly.com/library/view/test-driven-development/0321146530/)
+
+
+# Intent Testing in Android
+
+* [Android Testing Concepts](https://developer.android.com/studio/test)
+* [Android Automating User Interface Tests](https://developer.android.com/training/testing/instrumented-tests/ui-tests)
+
+# Design Patterns
+
+* [Huston Design Patterns](http://www.vincehuston.org/dp/)
+* [SourceMaking](https://sourcemaking.com/)
+* [SourceMaking Design Patterns](https://sourcemaking.com/design_patterns)
+* [Book: Design Patterns: Elements of Reusable Object-Oriented Software](https://www.oreilly.com/library/view/design-patterns-elements/0201633612/)
+* [SourceMaking Refactoring](https://sourcemaking.com/refactoring)
+* [Book: Refactoring Improving the Design of Existing Code](https://www.oreilly.com/library/view/refactoring-improving-the/9780134757681/)

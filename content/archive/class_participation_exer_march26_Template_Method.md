@@ -1,4 +1,4 @@
-# Class Participation Exercise: Template Method Pattern (Mar 29)
+# Class Participation Exercise: Template Method Pattern (Mar 26)
 
 **Date:** 2024-09-19  
 **Tags:** resources, reading, references, practice  
