@@ -59,13 +59,15 @@ summary: Slides and per-topic resources
 * [Hand drawn Models of Git: Wizard Towers versus Centralized]({attach}slides/HDMofG.pdf)
 * [PAST Lab Git Notes (Romansky)]({filename}/labs/past_notes.md)
 * [Past Git Ignore Repo](https://github.com/github/gitignore)
+
 # Software Process 
 
+* [Software Process - Campbell]({attach}slides/030process-campbell.pdf)
 * [Software Process Draft Slides (4up)]({attach}slides/SP.pdf)
 * [Software Process Draft Slides (1up)]({attach}slides/SP2.pdf)
 
 
-# Software Process (Continued)
+## Requirements
 
 * [Requirements Draft Slides (4up)]({attach}slides/SP05.pdf)
 * [Requirements Draft Slides (1up)]({attach}slides/SP05_2.pdf)
