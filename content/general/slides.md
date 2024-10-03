@@ -24,7 +24,7 @@ summary: Slides and per-topic resources
 * [Objects, UML, and Java Draft Slides (4up)]({attach}slides/02-OO.4up.pdf)
 * [Objects, UML, and Java Draft Slides (1up)]({attach}slides/02-OO.pdf)
 
-# <a id="mvc" href="#mvc">MVC</a> & Object-Oriented Graphical User Interfaces
+## <a id="mvc" href="#mvc">MVC</a> & Object-Oriented Graphical User Interfaces
 
 * [🦾 MVC vs MVC 💪]({attach}slides/MVC2.pdf)
 * [MVC - Campbell]({attach}slides/020mvc.pdf)
@@ -34,24 +34,24 @@ summary: Slides and per-topic resources
 * [MVC and Android Part II Draft Slides (4up)]({attach}slides/MVCAndroid4up2.pdf)
 * [MVC and Android Part II Draft Slides (1up)]({attach}slides/MVC_AP2DS.pdf)
 
-
-# Android Fragments
-
-* [Android Fragments Notes + Example]({attach}slides/Android_Fragments_Notes_Example.pdf)
-* [Code Conventions (Schoepp)]({attach}slides/Code_Conventions_Schoepp.pdf)
-
-# Android Activities Resources 
-
-* [Android Studion Tips]({attach}slides/AST.pdf)
-* [Android Activities]({attach}slides/AA.pdf)
-* [Android Notes for Professionals]({attach}slides/ANP.pdf)
-
-
-# Objects, UML, Java (Continued)
+## More Objects UML & Java
 
 * [B2 OO Slides (has navigability)]({attach}slides/BOO.pdf)
 * [B2 Mentis for Review]({attach}slides/MidRev.pdf)
 
+
+# Android
+
+## Android Fragments
+
+* [Android Fragments Notes + Example]({attach}slides/Android_Fragments_Notes_Example.pdf)
+* [Code Conventions (Schoepp)]({attach}slides/Code_Conventions_Schoepp.pdf)
+
+## Android Activities Resources 
+
+* [Android Studion Tips]({attach}slides/AST.pdf)
+* [Android Activities]({attach}slides/AA.pdf)
+* [Android Notes for Professionals]({attach}slides/ANP.pdf)
 
 # Git
 
@@ -66,19 +66,16 @@ summary: Slides and per-topic resources
 * [Software Process Draft Slides (4up)]({attach}slides/SP.pdf)
 * [Software Process Draft Slides (1up)]({attach}slides/SP2.pdf)
 
-
 ## Requirements
 
 * [Requirements Draft Slides (4up)]({attach}slides/SP05.pdf)
 * [Requirements Draft Slides (1up)]({attach}slides/SP05_2.pdf)
-
 
 # Testing 
 
 * [Testing Draft Slides (4up)]({attach}slides/06_Testing_4up.pdf)
 * [Testing Draft Slides (1up)]({attach}slides/06_Testing.pdf)
 * [Newer Testing Slides (1up)]({attach}slides/06-Testing.pdf)
-
 
 * [B2 Midterm 2 Mentis for Review]({attach}slides/301_Midterm2Review.pdf)
 
