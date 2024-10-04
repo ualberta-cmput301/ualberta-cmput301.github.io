@@ -19,7 +19,7 @@ summary: Assignment 0: Getting Started
 
 Install Android Studio on your own computer.
 
-Make and run a simple hello world app according to the Build your first app in this [tutorial](https://docs.google.com/document/d/1xFcRrNIeQ6Y5HUTQg7nbna9SAwBA1G-D4TIFICZ2NCo/edit#heading=h.vgkbuzrkdpiw). Ensure you do all of this tutorial, including the final section on Fragments.
+Make and run a simple hello world app according to the Build your first app in this [tutorial]({attach}/content/general/slides/Build_Your_First_Android_App_in_Java.pdf).Ensure you do all of this tutorial, including the final section on Fragments.
 
 In Section 6 step 10 where it says change the text of the TextView to 0, type in your student number instead. So the count button will increment your student number. Do not prefix your student number with zeros.
 Deliverables
