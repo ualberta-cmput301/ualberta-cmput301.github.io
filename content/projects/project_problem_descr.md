@@ -149,11 +149,11 @@ US 02.05.03 As an organizer I want to be able to draw a replacement applicant fr
 
 US 02.06.03 As an organizer I want to view a list of all chosen entrants who are invited to apply
 
-US 02.06.03 As an organizer I want to see a list of all the canceled entrants
+US 02.06.04 As an organizer I want to see a list of all the canceled entrants
 
-US 02.06.04 As an organizer I want to see a final list of entrants who enrolled for the event
+US 02.06.05 As an organizer I want to see a final list of entrants who enrolled for the event
 
-US 02.06.05 As an organizer I want to cancel entrants that declined signing up for the event
+US 02.06.06 As an organizer I want to cancel entrants that declined signing up for the event
 
 US 02.07.01 As an organizer I want to send notifications to all entrants on the waiting list
 
