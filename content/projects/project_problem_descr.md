@@ -129,9 +129,9 @@ US 01.07.01 As an entrant, I want to be identified by my device, so that I don't
 
 US 02.01.01 As a an organizer I want to create a new event and generate a unique promotional QR code that links to the event description and event poster in the app
 
-US 02.01.02 As an organizer, I want to create and manage my facility profile.
+US 02.01.02 As an organizer I want to store hash data of the generated QR code in my database
 
-US 02.01.04 As an organizer I want to store hash data of the generated QR code in my database
+US 02.01.03 As an organizer, I want to create and manage my facility profile.
 
 US 02.02.01 As an organizer I want to view the list of entrants who joined my event waiting list
 
@@ -149,13 +149,13 @@ US 02.05.02 As an organizer I want to set the system to sample a specified numbe
 
 US 02.05.03 As an organizer I want to be able to draw a replacement applicant from the pooling system when a previously selected applicant cancels or rejects the invitation
 
-US 02.06.03 As an organizer I want to view a list of all chosen entrants who are invited to apply
+US 02.06.01 As an organizer I want to view a list of all chosen entrants who are invited to apply
 
-US 02.06.03 As an organizer I want to see a list of all the canceled entrants
+US 02.06.02 As an organizer I want to see a list of all the canceled entrants
 
-US 02.06.04 As an organizer I want to see a final list of entrants who enrolled for the event
+US 02.06.03 As an organizer I want to see a final list of entrants who enrolled for the event
 
-US 02.06.05 As an organizer I want to cancel entrants that declined signing up for the event
+US 02.06.04 As an organizer I want to cancel entrants that declined signing up for the event
 
 US 02.07.01 As an organizer I want to send notifications to all entrants on the waiting list
 
