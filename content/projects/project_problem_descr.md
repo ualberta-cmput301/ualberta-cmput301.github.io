@@ -155,7 +155,7 @@ US 02.06.02 As an organizer I want to see a list of all the canceled entrants
 
 US 02.06.03 As an organizer I want to see a final list of entrants who enrolled for the event
 
-US 02.06.04 As an organizer I want to cancel entrants that declined signing up for the event
+US 02.06.04 As an organizer I want to cancel entrants that did not sign up for the event
 
 US 02.07.01 As an organizer I want to send notifications to all entrants on the waiting list
 
