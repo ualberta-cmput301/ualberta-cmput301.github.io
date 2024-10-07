@@ -39,7 +39,7 @@ Lottery systems are great because you don’t have to first get a chance to go t
 
 4. Multi-User Interaction:
 
-    + Distinguish between entrants,organizers and admin with special roles and privileges granted to each actor
+    + Distinguish between entrants, organizers, and admin with special roles and privileges granted to each actor.
 
 5. Image Upload:
 
@@ -128,6 +128,8 @@ US 01.07.01 As an entrant, I want to be identified by my device, so that I don't
 **Organizer:**
 
 US 02.01.01 As a an organizer I want to create a new event and generate a unique promotional QR code that links to the event description and event poster in the app
+
+US 02.01.02 As an organizer, I want to create and manage my facility profile.
 
 US 02.01.04 As an organizer I want to store hash data of the generated QR code in my database
 
