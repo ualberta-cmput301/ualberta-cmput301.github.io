@@ -1,11 +1,11 @@
+---
 Title: A1/A2 18th September Class Exercise
 date: 2024-10-08
 tags: resources, reading, references, practice
 authors: Hazel Victoria Campbell, Tina Nguyen  
 status: published
 summary: Individual, Assignments, Participation
-
-----
+---
 
 **Class Participation Exercise Sept 18**
 
@@ -33,6 +33,6 @@ You can screenshot a diagrammer of your choice, or draw it on paper and take a p
 
 Here are some free diagrammers:
 
-Here's a handy diagrammer online: *https://app.diagrams.net/*
-IF that one doesn't work for you, try a different one.
+Here's a handy diagrammer online: *https://app.diagrams.net/*  
+IF that one doesn't work for you, try a different one.  
 Here's a Java one: *https://www.umlet.com/changes.htm* (download the stand alone)

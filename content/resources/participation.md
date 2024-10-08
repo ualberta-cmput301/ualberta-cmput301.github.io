@@ -16,4 +16,4 @@ summary: Old Participation Exercise
 * [Class Participation Exercise 20]({filename}../archive/class_participation_exer20.md)
 * [Class Participation Exercise (Code to UML)]({filename}../archive/class_participation_exer_codeToUML.md)
 * [Class Participation Exercise (Proxy Pattern)]({filename}../archive/Class_Participation_Exercise_Proxy_Pattern.md)
-* [Class Participation Exercise September 18th] ({filename}../archive/class_participation_exer_sept18.md)
+* [Class Participation Exercise September 18th]({filename}../archive/class_participation_exer_sept18.md)
