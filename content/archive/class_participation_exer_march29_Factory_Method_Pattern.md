@@ -15,7 +15,7 @@ Design a framework using the Factory Method Pattern for:
 - Application and Document superclasses 
 - And an actual application would make these:
     - Add MyApplication and MyDocument subclasses
-    - add YourApplication and YourDocument subclasses
+    - Add YourApplication and YourDocument subclasses
 
 Write a general newDocument method in Application that ultimately instantiates a MyDocument if your application is a MyApplication.
 
