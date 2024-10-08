@@ -1,10 +1,9 @@
----
-Title: A1/A2 18th September Class Exercise
-date: 2024-10-08
-tags: resources, reading, references, practice
+Title: A1/A2 18th September Class Exercise  
+date: 2024-10-08  
+tags: resources, reading, references, practice  
 authors: Hazel Victoria Campbell, Tina Nguyen  
-status: published
-summary: Individual, Assignments, Participation
+status: published  
+summary: Individual, Assignments, Participation  
 ---
 
 **Class Participation Exercise Sept 18**
