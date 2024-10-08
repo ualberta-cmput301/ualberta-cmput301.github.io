@@ -19,11 +19,9 @@ Do not submit Java, submit UML **Sequence Diagram**.
 
 
 
-Add your name and your partner's name (if you have one) to the diagram. If you don't, you won't get credit.
-
+* **Add your name and your partner's name (if you have one) to the diagram. If you don't, you won't get credit.**
 
 Upload a screenshot. If you worked in a pair, get the screenshot from your partner and upload the same screenshot.
-
 
 You can screenshot a diagrammer of your choice, or draw it on paper and take a photo.
 Here's a handy diagrammer online: https://app.diagrams.net/ IF that one doesn't work for you, try a different one.
