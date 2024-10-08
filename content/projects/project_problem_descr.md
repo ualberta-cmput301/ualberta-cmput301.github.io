@@ -76,6 +76,7 @@ Lottery systems are great because you don’t have to first get a chance to go t
 + Waiting List: a record of entrants that showed interest in a specific event
 
 + Sign Up : An action of registering/confirming for an event when successfully selected
+    * You can think of this like accepting an invitation.
 
 + Profile : A screen on the application that holds information about an entrant
 
@@ -155,7 +156,7 @@ US 02.06.02 As an organizer I want to see a list of all the canceled entrants
 
 US 02.06.03 As an organizer I want to see a final list of entrants who enrolled for the event
 
-US 02.06.04 As an organizer I want to cancel entrants that did not sign up for the event
+US 02.06.04 As an organizer I want to cancel entrants that did not sign up for the event 
 
 US 02.07.01 As an organizer I want to send notifications to all entrants on the waiting list
 
