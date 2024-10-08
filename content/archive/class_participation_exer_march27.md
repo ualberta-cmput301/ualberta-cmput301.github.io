@@ -19,7 +19,7 @@ Do not submit Java, submit UML **Sequence Diagram**.
 
 
 
-* **Add your name and your partner's name (if you have one) to the diagram. If you don't, you won't get credit.**
+**Add your name and your partner's name (if you have one) to the diagram. If you don't, you won't get credit.**
 
 Upload a screenshot. If you worked in a pair, get the screenshot from your partner and upload the same screenshot.
 
