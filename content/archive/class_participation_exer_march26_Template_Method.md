@@ -17,8 +17,6 @@ Write code for one of the following subclasses:
 * `WordCounterNoStopWords`
 * `LowerCaseWordCounter`
 
-### Code
-
 ```java
 public class WordCounter {
 ...
