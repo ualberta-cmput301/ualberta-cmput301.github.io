@@ -1,4 +1,4 @@
-Title: Class Participation Exercise 2020-04-06 Long Method Refactoring
+Title: Class Participation Exercise 2020-04-06 Long Method Refactoring  
 date: 2024-09-17    
 tags: resources, reading, references, practice  
 authors: Hazel Victoria Campbell, Tina Nguyen  

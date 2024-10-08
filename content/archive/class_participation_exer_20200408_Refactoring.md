@@ -1,4 +1,4 @@
-Title: Class Participation Exercise 2020-04-08 Refactoring
+Title: Class Participation Exercise 2020-04-08 Refactoring  
 date: 2024-09-17   
 tags: resources, reading, references, practice  
 authors: Neil Borle, Mitchell Home, Bronte Lee, Aaron Padlesky, Eddie Santos, Hazel Victoria Campbell, Tina Nguyen  

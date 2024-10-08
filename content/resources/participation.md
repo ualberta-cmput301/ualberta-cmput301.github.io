@@ -20,5 +20,6 @@ summary: Old Participation Exercise
 * [Class Participation Exercise (Refactoring)](../archive/class_participation_exer_20200408_Refactoring.md)
 * [Class Participation Exercise September 18th](../archive/class_participation_exer_sept18.md)
 * [Class Participation Exercise March 26th (Template Method)](../archive/class_participation_exer_march26_Template_Method.md)
+* [Class Participation Exercise March 27th](../archive/class_participation_exer_march27.md)
 * [Class Participation Exercise March 29th (Factory Method Pattern)](../archive/class_participation_exer_march29_Factory_Method_Pattern.md)
 
