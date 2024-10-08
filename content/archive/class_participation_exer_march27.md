@@ -17,7 +17,7 @@ Make a sequence diagram that shows the interaction between the objects when it c
 
 Do not submit Java, submit UML **Sequence Diagram**. 
 
-<br><br><br>
+<br><br>
 
 **Add your name and your partner's name (if you have one) to the diagram. If you don't, you won't get credit.**
 
