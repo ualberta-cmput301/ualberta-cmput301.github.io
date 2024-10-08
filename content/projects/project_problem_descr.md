@@ -80,8 +80,7 @@ Lottery systems are great because you don’t have to first get a chance to go t
 
 + Profile : A screen on the application that holds information about an entrant
 
-+ Choosing: Randomly selecting a number entrants in the waiting list to be invited to sign up
-
++ Choosing: Randomly selecting a number of entrants in the waiting list to be invited to sign up
 
 
 **User Stories:**
