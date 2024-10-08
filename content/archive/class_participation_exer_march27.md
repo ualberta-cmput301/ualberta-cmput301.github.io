@@ -15,9 +15,7 @@ Use the decorator pattern to implement a simulator, a car and some upgrades that
 
 Make a sequence diagram that shows the interaction between the objects when it constructs a car with at least 2 upgrades and then computes its price.
 
-Do not submit Java, submit UML **Sequence Diagram**.
-
-
+Do not submit Java, submit UML **Sequence Diagram**. <br><br><br>
 
 **Add your name and your partner's name (if you have one) to the diagram. If you don't, you won't get credit.**
 
