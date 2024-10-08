@@ -6,18 +6,17 @@ status: published
 summary: Individual, Assignments, Participation  
 
 ----
-**Class Participation Exercise: Factory Method Pattern**
 
-Problem
+**Class Participation Exercise: Factory Method Pattern**
 
 Design a framework using the Factory Method Pattern for:
 
-- Application and Document superclasses 
-- And an actual application would make these:
+* Application and Document superclasses 
+* And an actual application would make these:
     - Add MyApplication and MyDocument subclasses
     - Add YourApplication and YourDocument subclasses
 
 Write a general newDocument method in Application that ultimately instantiates a MyDocument if your application is a MyApplication.
 
-1. Draw the UML class diagram for the above problem using the Factory Method Pattern using concrete and abstract classes.
-2. What is the code in MyApplication for the method newDocument?
+* Draw the UML class diagram for the above problem using the Factory Method Pattern using concrete and abstract classes.
+* What is the code in MyApplication for the method newDocument?

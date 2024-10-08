@@ -4,7 +4,8 @@ tags: resources, reading, references, practice
 authors: Hazel Victoria Campbell, Tina Nguyen  
 status: published  
 summary: Individual, Assignments, Participation  
----
+
+----
 
 **Class Participation Exercise Sept 18**
 
