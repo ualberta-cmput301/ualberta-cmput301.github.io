@@ -13,6 +13,7 @@ If you find broken links, please file a GitHub issue.
 
 # General Resources
 
+* [Assignment FAQ]({attach}/resources/assignment/CMPUT301-AssignmentFAQ.pdf)
 * [Exam Practice Questions]({filename}/resources/practice.md)
 * [Old Participation Exercise]({filename}/resources/participation.md)
 * [SPM and SDA MOOC Resources]({filename}/resources/mooc.md)
