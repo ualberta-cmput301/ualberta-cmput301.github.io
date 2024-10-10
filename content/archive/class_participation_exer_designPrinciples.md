@@ -7,10 +7,8 @@ Proper completion of this exercise is considered as part of course participation
    - [ ] classes and objects
 
 2. Abstraction is the idea of simplifying a concept in the problem domain to its essentials within some __________.
-<textarea rows="1" cols="50" placeholder="Complete the sentence"></textarea>
 
 3. Using encapsulation is sometimes called __________ thinking.
-<textarea rows="1" cols="50" placeholder="Complete the sentence"></textarea>
 
 4. Decomposition of a whole thing into parts mainly involves thinking about:
    - [ ] fixed or dynamic number of parts
