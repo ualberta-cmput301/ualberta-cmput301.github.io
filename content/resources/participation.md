@@ -22,4 +22,5 @@ summary: Old Participation Exercise
 * [Class Participation Exercise March 26th (Template Method)]({filename}../archive/class_participation_exer_march26_Template_Method.md)
 * [Class Participation Exercise March 27th]({filename}../archive/class_participation_exer_march27.md)
 * [Class Participation Exercise March 29th (Factory Method Pattern)]({filename}../archive/class_participation_exer_march29_Factory_Method_Pattern.md)
+* [Class Participation Exercise Simple Factory]({filename}../archive/class_participation_exer_20200327_SimpleFactory.md)
 
