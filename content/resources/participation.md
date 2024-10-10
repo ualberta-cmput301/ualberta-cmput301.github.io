@@ -23,5 +23,6 @@ summary: Old Participation Exercise
 * [Class Participation Exercise March 27th]({filename}../archive/class_participation_exer_march27.md)
 * [Class Participation Exercise March 29th (Factory Method Pattern)]({filename}../archive/class_participation_exer_march29_Factory_Method_Pattern.md)
 * [Class Participation Exercise Simple Factory]({filename}../archive/class_participation_exer_20200327_SimpleFactory.md)
-* [Class Participation Exercise Mock Objects]({filename}../archive/class_participation_20200323MockObjects.md)
+* [Class Participation Exercise Mock Objects]({filename}../archive/class_participation_20200323_MockObjects.md)
+* [Class Participation Exercise Command Pattern]({filename}../archive/class_participation_20200320_CommandPattern.md)
 
