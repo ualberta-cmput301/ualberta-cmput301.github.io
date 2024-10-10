@@ -274,52 +274,35 @@ class lineItem {
 What code smells are evident? For each, briefly describe its occurrence(s) in the code.
 
 Occurrence(s) of "comments" code smell:
-<textarea rows="5" cols="80" placeholder="Answer"></textarea>
 
 Occurrence(s) of "duplicated code" code smell:
-<textarea rows="5" cols="80" placeholder="Answer"></textarea>
 
 Occurrence(s) of "long method" code smell:
-<textarea rows="5" cols="80" placeholder="Answer"></textarea>
 
 Occurrence(s) of "large class" code smell:
-<textarea rows="5" cols="80" placeholder="Answer"></textarea>
 
 Occurrence(s) of "data classes" code smell:
-<textarea rows="5" cols="80" placeholder="Answer"></textarea>
 
 Occurrence(s) of "data clumps" code smell:
-<textarea rows="5" cols="80" placeholder="Answer"></textarea>
 
 Occurrence(s) of "large parameter list" code smell:
-<textarea rows="5" cols="80" placeholder="Answer"></textarea>
 
 Occurrence(s) of "divergent change" code smell:
-<textarea rows="5" cols="80" placeholder="Answer"></textarea>
 
 Occurrence(s) of "shotgun surgery" code smell:
-<textarea rows="5" cols="80" placeholder="Answer"></textarea>
 
 Occurrence(s) of "feature envy" code smell:
-<textarea rows="5" cols="80" placeholder="Answer"></textarea>
 
 Occurrence(s) of "inappropriate intimacy" code smell:
-<textarea rows="5" cols="80" placeholder="Answer"></textarea>
 
 Occurrence(s) of "message chains" code smell:
-<textarea rows="5" cols="80" placeholder="Answer"></textarea>
 
 Occurrence(s) of "primitive obsession" code smell:
-<textarea rows="5" cols="80" placeholder="Answer"></textarea>
 
 Occurrence(s) of "switch statements" code smell:
-<textarea rows="5" cols="80" placeholder="Answer"></textarea>
 
 Occurrence(s) of "speculative generality" code smell:
-<textarea rows="5" cols="80" placeholder="Answer"></textarea>
 
 Occurrence(s) of "refused bequest" code smell:
-<textarea rows="5" cols="80" placeholder="Answer"></textarea>
 
 Other occurrence(s) of inconsistent or nonstandard coding:
-<textarea rows="5" cols="80" placeholder="Answer"></textarea>
