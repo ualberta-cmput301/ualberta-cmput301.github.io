@@ -47,7 +47,7 @@ Lottery systems are great because you don’t have to first get a chance to go t
 
 6. Geolocation Verification (Optional)
 
-    + Optionally use geolocation to verify where users are joining the waiting list from
+    + Optionally use geolocation to verify where users are joining the waiting list from. This is the location provided by the device.
 
 **Scenario:**
 
