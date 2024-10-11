@@ -122,6 +122,8 @@ US 01.06.02 As an entrant I want to be able to be sign up for an event by scanni
 
 US 01.07.01 As an entrant, I want to be identified by my device, so that I don't have to use a username and password
 
+US 01.08.01 As an entrant, I want to be warned before joining a waiting list that requires geolocation.
+
 **Organizer:**
 
 US 02.01.01 As an organizer I want to create a new event and generate a unique promotional QR code that links to the event description and event poster in the app
@@ -133,6 +135,8 @@ US 02.01.03 As an organizer, I want to create and manage my facility profile.
 US 02.02.01 As an organizer I want to view the list of entrants who joined my event waiting list
 
 US 02.02.02 As an organizer I want to see on a map where entrants joined my event waiting list from.
+
+US 02.02.03 As an organizer I want to enable or disable the geolocation requirement for my event.
 
 US 02.03.01 As an organizer I want to OPTIONALLY limit the number of entrants who can join my waiting list
 
