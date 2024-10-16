@@ -13,6 +13,7 @@ If you find broken links, please file a GitHub issue.
 
 # General Resources
 
+* [Assignment FAQ]({attach}/resources/assignment/CMPUT301-AssignmentFAQ.pdf)
 * [Exam Practice Questions]({filename}/resources/practice.md)
 * [Old Participation Exercise]({filename}/resources/participation.md)
 * [SPM and SDA MOOC Resources]({filename}/resources/mooc.md)
@@ -82,6 +83,16 @@ You already paid for these full e-textbooks with your tuition!
 # Android Debugging Resources
 
 * [Android Studio: Debug Your App](https://developer.android.com/studio/debug/index.html)
+
+# Android Student Picker Example App
+
+- An example of developing an Android app that randomly picks students in a class.
+
+* [Part 1: Storyboarding](https://www.youtube.com/watch?v=5PPD0ncJU1g)
+* [Part 2: Laying Put the User Interface Screens](https://www.youtube.com/watch?v=VKVYUXNuDDg)
+* [Part 3: Developing and Testing the Model](https://www.youtube.com/watch?v=k9ZNbsc0Qgo)
+* [Part 4: Navigating between Activities](https://www.youtube.com/watch?v=fxjIA4HIruU)
+* [Part 5: Controllers and Adding Students](https://www.youtube.com/watch?v=uLnoI7mbuEo)
 
 # Code Conventions Resources
 

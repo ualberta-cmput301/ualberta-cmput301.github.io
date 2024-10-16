@@ -47,4 +47,5 @@ We are in the process of moving things off of eClass, because eventually Univers
 
 # More Stuff
 
-[All pages]({index})
+* [All pages]({index})
+* [GitHub source](https://github.com/ualberta-cmput301/ualberta-cmput301.github.io/commits/main/)
