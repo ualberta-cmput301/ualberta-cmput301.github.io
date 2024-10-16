@@ -68,6 +68,7 @@ summary: Slides and per-topic resources
 
 ## Requirements
 
+* [Requirements - Campbell]({attach}slides/040requirements-campbell.pdf)
 * [Requirements Draft Slides (4up)]({attach}slides/SP05.pdf)
 * [Requirements Draft Slides (1up)]({attach}slides/SP05_2.pdf)
 
