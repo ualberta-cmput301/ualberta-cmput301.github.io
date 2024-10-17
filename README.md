@@ -13,7 +13,7 @@ Please file an issue if you find anything wrong or missing on the site.
 
 - Create a virtual environment (**virtualenv venv --python=python3**)
 
-- Activate the virtual environment (**source venv/bin/activate**)
+- Activate the virtual environment (Mac **source venv/bin/activate** Windows **venv/bin/activate**)
 
 - Install requirements (**pip install -r requirements.txt**)
 
