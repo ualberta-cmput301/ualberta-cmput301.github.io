@@ -104,6 +104,8 @@ You already paid for these full e-textbooks with your tuition!
 * [Extreme Programming: A Gentle Introduction](http://www.extremeprogramming.org/)
 * [Scrum Guide](https://www.scrum.org/resources/scrum-guide)
 * [Book: User Stories Applied](https://www.oreilly.com/library/view/user-stories-applied/0321205685/)
+* [Book: Extreme Programming Explained](https://learning.oreilly.com/library/view/extreme-programming-explained/0321278658/)
+* [Book: Agile Development in the Real World](https://www.oreilly.com/library/view/agile-development-in/9781484216798/)
 
 # Unit Testing in Android with JUnit
 
