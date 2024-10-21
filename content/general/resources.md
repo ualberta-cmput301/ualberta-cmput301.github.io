@@ -117,3 +117,4 @@ You already paid for these full e-textbooks with your tuition!
 * [Book: Design Patterns: Elements of Reusable Object-Oriented Software](https://www.oreilly.com/library/view/design-patterns-elements/0201633612/)
 * [SourceMaking Refactoring](https://sourcemaking.com/refactoring)
 * [Book: Refactoring Improving the Design of Existing Code](https://www.oreilly.com/library/view/refactoring-improving-the/9780134757681/)
+* [Book: Head First Design Patterns](https://www.oreilly.com/library/view/head-first-design/9781492077992/)
