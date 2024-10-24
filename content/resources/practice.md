@@ -29,6 +29,7 @@ summary: Exam Practice Questions
 * [W23HM1Q3]({filename}/resources/practice/w23hm1q3.md)
 * [W23HM3Q1]({filename}/resources/practice/w23hm3q1.md)
 * [W23HM3Q3]({filename}/resources/practice/w23hm3q3.md)
+* [W23HM2Q3]({filename}/resources/practice/w23hm2q3.md)
 * [W23HPMQ1]({filename}/resources/practice/w23hpmq1.md)
 * [W23HM1A]({filename}/resources/practice/w23hm1a.md)
 * [W20Final]({attach}practice/CMPUT301W20B1:EB1-Final.pdf)
