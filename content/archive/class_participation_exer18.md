@@ -1,3 +1,14 @@
+Title: Class Participation Exercise 18
+date: 2024-10-24
+tags: resources, participation, references, practice
+authors: Hazel Victoria Campbell
+status: published
+summary: Individual, Assignments, Participation
+
+----
+
+**Class Participation Exercise 18**
+
 Proper completion of this exercise is considered as part of course participation.
 
 Which of these code smells are signs of "bloat", i.e., code, methods, and classes that have increased to an extent that they become hard to work with.
