@@ -130,6 +130,10 @@ You already paid for these full e-textbooks with your tuition!
 * [Book: Refactoring Improving the Design of Existing Code](https://www.oreilly.com/library/view/refactoring-improving-the/9780134757681/)
 * [Book: Head First Design Patterns](https://www.oreilly.com/library/view/head-first-design/9781492077992/)
 
+# User Interface Design
+
+* [Bad Designs](http://baddesigns.com/examples.html)
+
 # Human Error
 
 * [Book: GUI Bloopers](https://www.oreilly.com/library/view/gui-bloopers-20/9780123706430/)
