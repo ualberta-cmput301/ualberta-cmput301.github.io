@@ -106,7 +106,7 @@ You already paid for these full e-textbooks with your tuition!
 * [Book: User Stories Applied](https://www.oreilly.com/library/view/user-stories-applied/0321205685/)
 * [Book: The Build Master](https://www.oreilly.com/library/view/build-master-the/0321332059/)
 * [Essential XP: Card, Conversation, Confirmation](https://ronjeffries.com/xprog/articles/expcardconversationconfirmation/)
-
+* [INVEST in Good Stories, and SMART Tasks](https://xp123.com/invest-in-good-stories-and-smart-tasks/)
 
 # Unit Testing in Android with JUnit
 
