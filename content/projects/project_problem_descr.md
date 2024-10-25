@@ -1,7 +1,7 @@
 Title: Project Problem Description
 date: 2024-08-26
 tags: projects, teams, grading
-authors: Samuel Iwuchukwu,Hazel Victoria Campbell
+authors: Samuel Iwuchukwu, Hazel Victoria Campbell
 status: published
 summary: Project Problem Description
 [TOC]
@@ -16,7 +16,7 @@ You are to design and implement a simple, attractive, and easy-to-use Android ap
 
 ## **Description:**
 
-We want a mobile application where people can sign up for events at community centers that are popular and fill up fast. We want to allow people with limitations such as work, disability, etc. to be able to sign up for these events fairly and not have to sit refreshing a webpage until they can get a chance at reserving a spot.
+We want a mobile application where people can sign up for events at community centres that are popular and fill up fast. We want to allow people with limitations such as work, disability, etc. to be able to sign up for these events fairly and not have to sit refreshing a webpage until they can get a chance at reserving a spot.
 
 How? Lottery! If I am running swimming lessons for 20 kids, I will post my event or series of events and I will let everyone join the waiting list for a period of a week. After the week is up, I will ask the system to choose 20 kids to sign up. The system will then notify these kids (or their guardians), if they say no they don’t want swimming lessons, then the system will sample another child to sign up. I can monitor the progress and then get access to the final list of everyone who signs up. If perhaps someone cancels later I can cancel them in the app and a new applicant is drawn.
 
@@ -39,7 +39,7 @@ Lottery systems are great because you don’t have to first get a chance to go t
 
 4. Multi-User Interaction:
 
-    + Distinguish between entrants,organizers and admin with special roles and privileges granted to each actor
+    + Distinguish between entrants, organizers, and admin with special roles and privileges granted to each actor.
 
 5. Image Upload:
 
@@ -47,17 +47,15 @@ Lottery systems are great because you don’t have to first get a chance to go t
 
 6. Geolocation Verification (Optional)
 
-    + Optionally use geolocation to verify where users are joining the waiting list from
+    + Optionally use geolocation to verify where users are joining the waiting list from. This is the location provided by the device.
 
 **Scenario:**
 
-1. I want to sign my partner up to swim lessons, they need to learn how to swim if they are going to go canoeing with me. I go to the app, I find my local rec center, I see they have listed swimming lessons for beginners, and it is open to register for 2 more days. I click register. 2 days later when it is closed the system samples people, but not me. It notifies me that I wasn’t sampled in the first draw, but there might be a chance if someone declines. Nobody declines. Boo.
+1. I want to sign my partner up to swim lessons, they need to learn how to swim if they are going to go canoeing with me. I go to the local rec centre, I see they have listed swimming lessons for beginners, I scan the QR code. I see that it is open to register for 2 more days. I click register. 2 days later when it is closed the system samples people, but not me. It notifies me that I wasn’t sampled in the first draw, but there might be a chance if someone declines. Nobody declines. Boo.
 
 2. I am running an interpretive dance class where I teach the safety basics of dance (no eye gouging, that kind of stuff). I tell the app that I have classes every monday From 2025-01-01 to 2025-03-01, and that you need to register by 2024-12-15 and registration opens on 2024-12-01. The price is $60 and I can accommodate 60 people. I click publish and now an event is made where people can join the waiting list and they get this basic information. Also a QR code is generated that will lead them to this page.
 
-3. I want to sign my partner up to piano lessons, they need to learn how to play if they are going to play piano with me. I go to the app, I find my local rec center, I see they have listed piano lessons for beginners, and it is open to register for 2 more days. I click register. 2 days later when it is closed the system samples people, but not me. It notifies me that I was sampled
-
-
+3. I want to sign my partner up to piano lessons, they need to learn how to play if they are going to play piano with me. I go to the app, I go to my local rec centre, I see they have listed piano lessons for beginners, I scan the QR code. I see that it is open to register for 2 more days. I click register. 2 days later when it is closed the system samples people, but not me. It notifies me that I was sample.
 
 **Actors:**
 
@@ -76,26 +74,25 @@ Lottery systems are great because you don’t have to first get a chance to go t
 + Waiting List: a record of entrants that showed interest in a specific event
 
 + Sign Up : An action of registering/confirming for an event when successfully selected
+    * You can think of this like accepting an invitation.
 
 + Profile : A screen on the application that holds information about an entrant
 
-+ Choosing: Randomly selecting a number entrants in the waiting list to be invited to sign up
-
-
++ Choosing: Randomly selecting a number of entrants in the waiting list to be invited to sign up
 
 **User Stories:**
 
 User needs are expressed in the form of partial user stories:
 
-As a <role>, I want <goal>.
+As a (role), I want (goal).
 
 These descriptions may change to correct omissions and clarify noticed issues. New requirements will be introduced for the final project part.
 
 **User:**
 
-US 01.01.01 As an entrant, I want to join the waiting list  for a specific event
+US 01.01.01 As an entrant, I want to join the waiting list for a specific event
 
-US 01.01.02 As an entrant, I want to unjoin a waiting list for a specific event 
+US 01.01.02 As an entrant, I want to leave the waiting list for a specific event 
 
 US 01.02.01 As an entrant, I want to provide my personal information such as name, email and optional phone number in the app
 
@@ -125,15 +122,21 @@ US 01.06.02 As an entrant I want to be able to be sign up for an event by scanni
 
 US 01.07.01 As an entrant, I want to be identified by my device, so that I don't have to use a username and password
 
+US 01.08.01 As an entrant, I want to be warned before joining a waiting list that requires geolocation.
+
 **Organizer:**
 
-US 02.01.01 As a an organizer I want to create a new event and generate a unique promotional QR code that links to the event description and event poster in the app
+US 02.01.01 As an organizer I want to create a new event and generate a unique promotional QR code that links to the event description and event poster in the app
 
-US 02.01.04 As an organizer I want to store hash data of the generated QR code in my database
+US 02.01.02 As an organizer I want to store hash data of the generated QR code in my database
+
+US 02.01.03 As an organizer, I want to create and manage my facility profile.
 
 US 02.02.01 As an organizer I want to view the list of entrants who joined my event waiting list
 
 US 02.02.02 As an organizer I want to see on a map where entrants joined my event waiting list from.
+
+US 02.02.03 As an organizer I want to enable or disable the geolocation requirement for my event.
 
 US 02.03.01 As an organizer I want to OPTIONALLY limit the number of entrants who can join my waiting list
 
@@ -147,19 +150,19 @@ US 02.05.02 As an organizer I want to set the system to sample a specified numbe
 
 US 02.05.03 As an organizer I want to be able to draw a replacement applicant from the pooling system when a previously selected applicant cancels or rejects the invitation
 
-US 02.06.03 As an organizer I want to view a list of all chosen entrants who are invited to apply
+US 02.06.01 As an organizer I want to view a list of all chosen entrants who are invited to apply
 
-US 02.06.03 As an organizer I want to see a list of all the canceled entrants
+US 02.06.02 As an organizer I want to see a list of all the cancelled entrants
 
-US 02.06.04 As an organizer I want to see a final list of entrants who enrolled for the event
+US 02.06.03 As an organizer I want to see a final list of entrants who enrolled for the event
 
-US 02.06.05 As an organizer I want to cancel entrants that declined signing up for the event
+US 02.06.04 As an organizer I want to cancel entrants that did not sign up for the event 
 
 US 02.07.01 As an organizer I want to send notifications to all entrants on the waiting list
 
 US 02.07.02 As an organizer I want to send notifications to all selected entrants
 
-US 02.07.03 As an organizer I want to send a notification to all canceled entrants
+US 02.07.03 As an organizer I want to send a notification to all cancelled entrants
 
 
 **Admin:**

@@ -5,7 +5,8 @@ authors: Hazel Victoria Campbell
 status: published
 summary: Exam Practice Questions
 
-----
+---
+
 # Exam Practice
 
 * [F22PMQ]({attach}practice/f22pmq.pdf)
@@ -26,8 +27,28 @@ summary: Exam Practice Questions
 * [W23HM1Q1]({filename}/resources/practice/w23hm1q1.md)
 * [W23HM1Q2]({filename}/resources/practice/w23hm1q2.md)
 * [W23HM1Q3]({filename}/resources/practice/w23hm1q3.md)
+* [W23HM2Q1]({filename}/resources/practice/w23hm2q1.md)
+* [W23HM2Q2]({filename}/resources/practice/w23hm2q2.md)
+* [W23HM3Q3]({filename}/resources/practice/w23hm3q3.md)
 * [W23HPMQ1]({filename}/resources/practice/w23hpmq1.md)
 * [W23HM1A]({filename}/resources/practice/w23hm1a.md)
+* [W20Final]({attach}practice/CMPUT301W20B1:EB1-Final.pdf)
+* [W21Midterm1]({attach}practice/CMPUT301-Winter-2021-Midterm.pdf)
+* [W21Midterm2]({attach}practice/CMPUT301-Winter-2021-Midterm2.pdf)
+* [W21Midterm3]({attach}practice/CMPUT301-Winter-2021-Midterm3.pdf)
+* [W22Midterm1]({attach}practice/CMPUT301W22Midterm1.pdf)
+* [W22Midterm2]({attach}practice/CMPUT301W22Midterm2.pdf)
+* [W22Midterm3]({attach}practice/CMPUT301W22Midterm3.pdf)
+* [F15Final]({attach}practice/Final-2015-Fall.pdf)
+* [W15Final]({attach}practice/Final-2015-Winter.pdf)
+* [F16Final]({attach}practice/Final-2016-Fall.pdf)
+* [F18Final]({attach}practice/Final-2018-Fall.pdf)
+* [F15Midterm]({attach}practice/Final-2018-Fall.pdf)
+* [F16Midterm]({attach}practice/Midterm9-2016-Fall.pdf)
+* [F18Midterm]({attach}practice/Midterm10-2018-Fall.pdf)
+* [W20Midterm]({attach}practice/Midterm11-2020-Winter.pdf)
+* [MidtermPractice]({attach}practice/Midterm11-2020-Winter.pdf)
+
 
 # Old Participation Exercises
 

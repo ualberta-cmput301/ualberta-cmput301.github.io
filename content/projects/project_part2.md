@@ -20,29 +20,29 @@ summary: Project Part 2
 
 The project description outlines the problem and a set of needs. The entire project has several deliverables. Subsequent deliverables may be further refinements of earlier ones, and should address any TA feedback or concerns. This project part focuses on some initial preparations.
 
-## **Deliverables**
+## Deliverables
 
 The following components are required for this project part.
 
-1. ### **Product Backlog:**
+**1. Product Backlog:**
 
 Form the initial partial user stories into a backlog of the product's requirements. For each user story, estimate its size in story points, and denote its risk level (i.e., low, medium, or high). These requirements will likely evolve and should be maintained up-to-date throughout the project. Make sure they are numbered for easy reference. Note which stories will be released for the half-way checkpoint.
 
-2. ### **User Interface Mockups and Storyboard Sequences:**
+**2. User Interface Mockups and Storyboard Sequences:**
 
 Diagram the layout of your main user interface and major dialogs, with comments describing the important elements. Also, diagram storyboard sequences of using your application, with transitions between different states of the user interface, caused by the user manipulating the controls or providing input. Within the diagrams, reference the relevant requirements. Convincingly show all the requirements are covered.
 
-3. ### **Object-Oriented Analysis:**
+**3. Object-Oriented Analysis:**
 
 Document your initial object-oriented analysis using CRC cards, focusing on the most important anticipated classes, their responsibilities, and collaborators.
 
-4. ### ***Tool use:***
+**4. Tool use:**
 
 Regular and consistent use of GitHub by all team members to share files for the project deliverables, to effectively track issues, and to manage tasks.
 
-## **Hints**
+## Hints
 
-Ask questions about the requirements. Your interpretation of a need or task may be more complex or sophisticated than what is actually desired. Involve the TA mentor for your team to gain feedback on your deliverables.
+Ask questions about the requirements. Your interpretation of a need or task may be more complex or sophisticated than what is actually desired. Involve the TA for your team to gain feedback on your deliverables.
 
 For neatness and readability, diagrams must be drawn well using a computer tool at a suitably legible scale for insertion into your document(s). Submitted diagram(s) must be embedded as image(s) in your team wiki, not linked externally.
 
@@ -50,33 +50,34 @@ You should look ahead to the future project parts and their deliverables to know
 
 Very likely, the requirements and user interface design will need to evolve during the project. You should keep this information up-to-date so that your team members are properly coordinated.
 
-## **Submission Procedure**
+## Submission Procedure
 
 Use GitHub. Your team repo must be self-contained, i.e., not link to external content that might change.
 
-## **Individual Task and Peer Review Form**
+## Individual Task and Peer Review Form
 
 After the due date, each member must complete an assessment form to describe his or her individual contribution to the project for this stage, and to review the performance of the other members.
 
-## **Marking**
-Marking is holistically on the quality of the results. 
-
+## Marking
 No part marks, no extra marks. No half marks.
 
-
 - Failure (0) : 
-    - Incomplete (such as lacking CRC cards) Or no submission
+    - Incomplete. Missing important components.
+    - Or no submission
 
-- Unsatisfactory (4)
-    - A project that effort has been put into and doesn't meet the requirements described.
+- Poor (4)
+    - A project that effort has been put into and doesn't meet the requirements described. Most deliverable points have been met.
 
-- Satisfactory (5)
-    - A project submission that is missing components.
+- Unsatisfactory (5)
+    - A project submission that is missing components. Inconsistency is key. Missing important test cases. Lack of planning or adherence. Lack of attendance etc. Must demonstrate clear understanding of purpose and rationale behind deliverables.
+
+- Satisfactory (6)
+    - A project submission that is missing minor components and contains some rough elements, but is NOT missing anything major. 
 
 - Good (7)
-    - A not-quite excellent submission that meets the the majority of all the requirements without problem. Very minor issues.
+    - A not-quite excellent submission that meets the majority of all the requirements without problem.
 
 - Excellent (8)
     - A excellent submission that meets the all the requirements without problem.
-
+    - A flawless project that meets the requirements described. 
 

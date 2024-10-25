@@ -24,32 +24,34 @@ summary: Slides and per-topic resources
 * [Objects, UML, and Java Draft Slides (4up)]({attach}slides/02-OO.4up.pdf)
 * [Objects, UML, and Java Draft Slides (1up)]({attach}slides/02-OO.pdf)
 
-# Object-Oriented Graphical User Interfaces
+## <a id="mvc" href="#mvc">MVC</a> & Object-Oriented Graphical User Interfaces
 
+* [🦾 MVC vs MVC 💪]({attach}slides/MVC2.pdf)
+* [MVC - Campbell]({attach}slides/020mvc.pdf)
 * [Fixed MVC Android/Swing Slides]({attach}slides/MVCAndroid.pdf)
 * [MVC and Android Part I Draft Slides (4up)]({attach}slides/MVCAndroid4up.pdf)
 * [MVC and Android Part I Draft Slides (1up)]({attach}slides/MVCAndroidPart1.pdf)
 * [MVC and Android Part II Draft Slides (4up)]({attach}slides/MVCAndroid4up2.pdf)
 * [MVC and Android Part II Draft Slides (1up)]({attach}slides/MVC_AP2DS.pdf)
 
-
-# Android Fragments
-
-* [Android Fragments Notes + Example]({attach}slides/Android_Fragments_Notes_Example.pdf)
-* [Code Conventions (Schoepp)]({attach}slides/Code_Conventions_Schoepp.pdf)
-
-# Android Activities Resources 
-
-* [Android Studion Tips]({attach}slides/AST.pdf)
-* [Android Activities]({attach}slides/AA.pdf)
-* [Android Notes for Professionals]({attach}slides/ANP.pdf)
-
-
-# Objects, UML, Java (Continued)
+## More Objects UML & Java
 
 * [B2 OO Slides (has navigability)]({attach}slides/BOO.pdf)
 * [B2 Mentis for Review]({attach}slides/MidRev.pdf)
 
+
+# Android
+
+## Android Fragments
+
+* [Android Fragments Notes + Example]({attach}slides/Android_Fragments_Notes_Example.pdf)
+* [Code Conventions (Schoepp)]({attach}slides/Code_Conventions_Schoepp.pdf)
+
+## Android Activities Resources 
+
+* [Android Studion Tips]({attach}slides/AST.pdf)
+* [Android Activities]({attach}slides/AA.pdf)
+* [Android Notes for Professionals]({attach}slides/ANP.pdf)
 
 # Git
 
@@ -57,25 +59,24 @@ summary: Slides and per-topic resources
 * [Hand drawn Models of Git: Wizard Towers versus Centralized]({attach}slides/HDMofG.pdf)
 * [PAST Lab Git Notes (Romansky)]({filename}/labs/past_notes.md)
 * [Past Git Ignore Repo](https://github.com/github/gitignore)
+
 # Software Process 
 
+* [Software Process - Campbell]({attach}slides/030process-campbell.pdf)
 * [Software Process Draft Slides (4up)]({attach}slides/SP.pdf)
 * [Software Process Draft Slides (1up)]({attach}slides/SP2.pdf)
-* [MVC Slides - Campbell]({attach}slides/MVC2.pdf)
 
+## Requirements
 
-# Software Process (Continued)
-
+* [Requirements - Campbell]({attach}slides/040requirements-campbell.pdf)
 * [Requirements Draft Slides (4up)]({attach}slides/SP05.pdf)
 * [Requirements Draft Slides (1up)]({attach}slides/SP05_2.pdf)
-
 
 # Testing 
 
 * [Testing Draft Slides (4up)]({attach}slides/06_Testing_4up.pdf)
 * [Testing Draft Slides (1up)]({attach}slides/06_Testing.pdf)
 * [Newer Testing Slides (1up)]({attach}slides/06-Testing.pdf)
-
 
 * [B2 Midterm 2 Mentis for Review]({attach}slides/301_Midterm2Review.pdf)
 
@@ -105,3 +106,27 @@ summary: Slides and per-topic resources
 # Refactoring 
 
 * [Review Slides (1up)]({attach}slides/10_Review.pdf)
+
+# Human Error
+
+* [Human Error Draft Slides (4up)]({attach}slides/09-Human-Error.4up.pdf)
+* [Human Error Slides (4up)]({attach}slides/09_Human_Error_4up.pdf)
+
+# Optimization
+
+* [Optimization Draft Slides (4up)]({attach}slides/10-Optimization.4up.pdf)
+* [Optimization Draft Slides (1up)]({attach}slides/10-Optimization.pdf)
+* [Optimization Slides (4up)]({attach}slides/10_Optimization_4up.pdf)
+
+# Retrospectives
+
+* [Retrospectives Slides (4up)]({attach}slides/11-Retrospectives.4up.pdf)
+
+# Review
+
+* [Review Draft Slides (4up)]({attach}slides/10-Review.4up.pdf)
+* [Review Draft Slides (1up)]({attach}slides/10-Review.pdf)
+
+# Future
+
+* [Future Draft Slides (4up)]({attach}slides/12-Future.4up.pdf)
