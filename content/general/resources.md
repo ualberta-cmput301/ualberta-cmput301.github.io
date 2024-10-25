@@ -132,6 +132,7 @@ You already paid for these full e-textbooks with your tuition!
 
 # User Interface Design
 
+* [A Software Design Manifesto](https://hci.stanford.edu/publications/bds/1-kapor.html)
 * [Joel on Software](https://www.joelonsoftware.com/)
 * [User Interface Design for Programmers](https://www.joelonsoftware.com/2001/10/24/user-interface-design-for-programmers/)
 * [Android Design Principles](https://developer.android.com/design)
