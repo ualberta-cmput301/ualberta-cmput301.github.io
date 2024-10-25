@@ -107,6 +107,7 @@ You already paid for these full e-textbooks with your tuition!
 * [Book: The Build Master](https://www.oreilly.com/library/view/build-master-the/0321332059/)
 * [Essential XP: Card, Conversation, Confirmation](https://ronjeffries.com/xprog/articles/expcardconversationconfirmation/)
 * [INVEST in Good Stories, and SMART Tasks](https://xp123.com/invest-in-good-stories-and-smart-tasks/)
+* [Cause of AT&T Network Failure](http://catless.ncl.ac.uk/Risks/9.62.html#subj2)
 
 # Unit Testing in Android with JUnit
 
