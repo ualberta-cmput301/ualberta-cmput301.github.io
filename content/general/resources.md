@@ -132,6 +132,7 @@ You already paid for these full e-textbooks with your tuition!
 
 # User Interface Design
 
+* [Android Design Principles](https://developer.android.com/design)
 * [Interface Hall of Shame](http://hallofshame.gp.co.at/shame.htm)
 * [Bad Designs](http://baddesigns.com/examples.html)
 
