@@ -105,6 +105,7 @@ You already paid for these full e-textbooks with your tuition!
 * [Scrum Guide](https://www.scrum.org/resources/scrum-guide)
 * [Book: User Stories Applied](https://www.oreilly.com/library/view/user-stories-applied/0321205685/)
 * [Book: The Build Master](https://www.oreilly.com/library/view/build-master-the/0321332059/)
+* [Essential XP: Card, Conversation, Confirmation](https://ronjeffries.com/xprog/articles/expcardconversationconfirmation/)
 
 
 # Unit Testing in Android with JUnit
