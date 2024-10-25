@@ -59,24 +59,25 @@ Use GitHub. Your team repo must be self-contained, i.e., not link to external co
 After the due date, each member must complete an assessment form to describe his or her individual contribution to the project for this stage, and to review the performance of the other members.
 
 ## Marking
-Marking is holistically on the quality of the results. 
-
 No part marks, no extra marks. No half marks.
 
-
 - Failure (0) : 
-    - Incomplete (such as lacking CRC cards) Or no submission
+    - Incomplete. Missing important components.
+    - Or no submission
 
-- Unsatisfactory (4)
-    - A project that effort has been put into and doesn't meet the requirements described.
+- Poor (4)
+    - A project that effort has been put into and doesn't meet the requirements described. Most deliverable points have been met.
 
-- Satisfactory (5)
-    - A project submission that is missing components.
+- Unsatisfactory (5)
+    - A project submission that is missing components. Inconsistency is key. Missing important test cases. Lack of planning or adherence. Lack of attendance etc. Must demonstrate clear understanding of purpose and rationale behind deliverables.
+
+- Satisfactory (6)
+    - A project submission that is missing minor components and contains some rough elements, but is NOT missing anything major. 
 
 - Good (7)
-    - A not-quite excellent submission that meets the the majority of all the requirements without problem. Very minor issues.
+    - A not-quite excellent submission that meets the majority of all the requirements without problem.
 
 - Excellent (8)
     - A excellent submission that meets the all the requirements without problem.
-
+    - A flawless project that meets the requirements described. 
 
