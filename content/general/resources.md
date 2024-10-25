@@ -129,3 +129,16 @@ You already paid for these full e-textbooks with your tuition!
 * [SourceMaking Refactoring](https://sourcemaking.com/refactoring)
 * [Book: Refactoring Improving the Design of Existing Code](https://www.oreilly.com/library/view/refactoring-improving-the/9780134757681/)
 * [Book: Head First Design Patterns](https://www.oreilly.com/library/view/head-first-design/9781492077992/)
+
+# User Interface Design
+
+* [A Software Design Manifesto](https://hci.stanford.edu/publications/bds/1-kapor.html)
+* [Joel on Software](https://www.joelonsoftware.com/)
+* [User Interface Design for Programmers](https://www.joelonsoftware.com/2001/10/24/user-interface-design-for-programmers/)
+* [Android Design Principles](https://developer.android.com/design)
+* [Interface Hall of Shame](http://hallofshame.gp.co.at/shame.htm)
+* [Bad Designs](http://baddesigns.com/examples.html)
+
+# Human Error
+
+* [Book: GUI Bloopers](https://www.oreilly.com/library/view/gui-bloopers-20/9780123706430/)
