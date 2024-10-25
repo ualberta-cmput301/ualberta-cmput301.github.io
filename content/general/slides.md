@@ -109,6 +109,7 @@ summary: Slides and per-topic resources
 
 # Review
 
+* [Review Draft Slides (4up)]({attach}slides/10-Review.4up.pdf)
 * [Review Draft Slides (1up)]({attach}slides/10-Review.pdf)
 
 # Future
