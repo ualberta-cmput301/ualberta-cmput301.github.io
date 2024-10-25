@@ -109,6 +109,7 @@ summary: Slides and per-topic resources
 
 # Human Error
 
+* [Human Error Draft Slides (4up)]({attach}slides/09-Human-Error.4up.pdf)
 * [Human Error Slides (4up)]({attach}slides/09_Human_Error_4up.pdf)
 
 # Optimization
