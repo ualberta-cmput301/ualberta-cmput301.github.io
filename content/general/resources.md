@@ -56,7 +56,7 @@ You already paid for these full e-textbooks with your tuition!
 * [Allen Holub’s UML Quick Reference](https://holub.com/uml/)
 * [UML Distilled: A Brief Guide to the Standard Object Modelling Language, Third Edition - Martin Fowler](https://learning.oreilly.com/library/view/uml-distilled-a/0321193687/)
 * [Book: Head First Object-Oriented Analysis and Design](https://learning.oreilly.com/library/view/head-first-object-oriented/0596008678/)
-
+* [Book: Learning UML 2.0](https://www.oreilly.com/library/view/learning-uml-20/0596009828/)
 
 # MVC
 
