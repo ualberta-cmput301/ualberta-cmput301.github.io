@@ -106,3 +106,7 @@ summary: Slides and per-topic resources
 # Refactoring 
 
 * [Review Slides (1up)]({attach}slides/10_Review.pdf)
+
+# Future
+
+* [Future Draft Slides (4up)]({attach}slides/12-Future.4up.pdf)
