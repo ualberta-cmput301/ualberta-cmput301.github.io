@@ -107,6 +107,10 @@ summary: Slides and per-topic resources
 
 * [Review Slides (1up)]({attach}slides/10_Review.pdf)
 
+# Optimization
+
+* [Optimization Slides (4up)]({attach}slides/10_Optimization_4up.pdf)
+
 # Retrospectives
 
 * [Retrospectives Slides (4up)]({attach}slides/11-Retrospectives.4up.pdf)
