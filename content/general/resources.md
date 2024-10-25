@@ -117,6 +117,8 @@ You already paid for these full e-textbooks with your tuition!
 # Testing
 
 * [Book: Test-Driven DevelopmentURL](https://www.oreilly.com/library/view/test-driven-development/0321146530/)
+* [The Way of Testivus](https://drive.google.com/file/d/0B0QztbuDlKs_M2ZiMWU2NjQtNjExYS00M2ZmLThmNWUtYmU5MGYwNjRhNjYz/view?hl=en&pli=1&resourcekey=0-9Lfn2uW_C7zFtnc-ukDrKg)
+
 
 
 # Intent Testing in Android
