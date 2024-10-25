@@ -146,3 +146,4 @@ You already paid for these full e-textbooks with your tuition!
 # Human Error
 
 * [Book: GUI Bloopers](https://www.oreilly.com/library/view/gui-bloopers-20/9780123706430/)
+* [Medical Devices: The Therac-25](http://sunnyday.mit.edu/papers/therac.pdf)
