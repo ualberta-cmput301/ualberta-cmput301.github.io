@@ -107,6 +107,10 @@ summary: Slides and per-topic resources
 
 * [Review Slides (1up)]({attach}slides/10_Review.pdf)
 
+# Retrospectives
+
+* [Retrospectives Slides (4up)]({attach}slides/11-Retrospectives.4up.pdf)
+
 # Review
 
 * [Review Draft Slides (4up)]({attach}slides/10-Review.4up.pdf)
