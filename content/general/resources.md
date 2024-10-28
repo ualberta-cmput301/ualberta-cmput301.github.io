@@ -104,6 +104,8 @@ You already paid for these full e-textbooks with your tuition!
 * [Extreme Programming: A Gentle Introduction](http://www.extremeprogramming.org/)
 * [Scrum Guide](https://www.scrum.org/resources/scrum-guide)
 * [Book: User Stories Applied](https://www.oreilly.com/library/view/user-stories-applied/0321205685/)
+* [Book: The Build Master](https://www.oreilly.com/library/view/build-master-the/0321332059/)
+
 
 # Unit Testing in Android with JUnit
 
@@ -128,3 +130,17 @@ You already paid for these full e-textbooks with your tuition!
 * [Book: Design Patterns: Elements of Reusable Object-Oriented Software](https://www.oreilly.com/library/view/design-patterns-elements/0201633612/)
 * [SourceMaking Refactoring](https://sourcemaking.com/refactoring)
 * [Book: Refactoring Improving the Design of Existing Code](https://www.oreilly.com/library/view/refactoring-improving-the/9780134757681/)
+* [Book: Head First Design Patterns](https://www.oreilly.com/library/view/head-first-design/9781492077992/)
+
+# User Interface Design
+
+* [A Software Design Manifesto](https://hci.stanford.edu/publications/bds/1-kapor.html)
+* [Joel on Software](https://www.joelonsoftware.com/)
+* [User Interface Design for Programmers](https://www.joelonsoftware.com/2001/10/24/user-interface-design-for-programmers/)
+* [Android Design Principles](https://developer.android.com/design)
+* [Interface Hall of Shame](http://hallofshame.gp.co.at/shame.htm)
+* [Bad Designs](http://baddesigns.com/examples.html)
+
+# Human Error
+
+* [Book: GUI Bloopers](https://www.oreilly.com/library/view/gui-bloopers-20/9780123706430/)

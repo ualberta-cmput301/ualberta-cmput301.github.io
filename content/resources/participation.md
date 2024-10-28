@@ -9,9 +9,15 @@ summary: Old Participation Exercise
 
 # Old Participation Exercises
 
+* [Class Participation Exercise 3]({filename}../archive/class_participation_exer3.md)
+* [Class Participation Exercise 8]({filename}../archive/class_participation_exer8.md)
 * [Class Participation Exercise 9]({filename}../archive/class_participation_exer9.md)
+* [Class Participation Exercise 10]({filename}../archive/class_participation_exer10.md)
 * [Class Participation Exercise 11]({filename}../archive/class_participation_exer11.md)
+* [Class Participation Exercise 12]({filename}../archive/class_participation_exer12.md)
+* [Class Participation Exercise 13]({filename}../archive/class_participation_exer13.md)
 * [Class Participation Exercise 15]({filename}../archive/class_participation_exer15.md)
+* [Class Participation Exercise 18]({filename}../archive/class_participation_exer18.md)
 * [Class Participation Exercise 19]({filename}../archive/class_participation_exer19.md)
 * [Class Participation Exercise 20]({filename}../archive/class_participation_exer20.md)
 * [Class Participation Exercise (Code to UML)]({filename}../archive/class_participation_exer_codeToUML.md)
