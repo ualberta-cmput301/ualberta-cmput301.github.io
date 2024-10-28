@@ -95,6 +95,7 @@ summary: Slides and per-topic resources
 
 # UML Sequence Diagram
 
+* [Sequence Diagrams - Campbell]({attach}slides/050sequenceDiagrams-campbell.pdf)
 * [Sequence Diagram Draft Slides (4up)]({attach}slides/Sequence_Diagram_4up.pdf)
 * [Sequence Diagram Draft Slides (1up)]({attach}slides/Sequence_Diagram_1up.pdf)
 
