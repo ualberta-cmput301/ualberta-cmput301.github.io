@@ -66,7 +66,7 @@ You already paid for these full e-textbooks with your tuition!
 * [Allen Holub’s UML Quick Reference](https://holub.com/uml/)
 * [UML Distilled: A Brief Guide to the Standard Object Modelling Language, Third Edition - Martin Fowler](https://learning.oreilly.com/library/view/uml-distilled-a/0321193687/)
 * [Book: Head First Object-Oriented Analysis and Design](https://learning.oreilly.com/library/view/head-first-object-oriented/0596008678/)
-
+* [Book: Learning UML 2.0](https://www.oreilly.com/library/view/learning-uml-20/0596009828/)
 
 # MVC
 
@@ -110,8 +110,23 @@ You already paid for these full e-textbooks with your tuition!
 * [Extreme Programming: A Gentle Introduction](http://www.extremeprogramming.org/)
 * [Scrum Guide](https://www.scrum.org/resources/scrum-guide)
 * [Book: User Stories Applied](https://www.oreilly.com/library/view/user-stories-applied/0321205685/)
+* [Book: Extreme Programming Explained](https://learning.oreilly.com/library/view/extreme-programming-explained/0321278658/)
+* [Book: Agile Development in the Real World](https://www.oreilly.com/library/view/agile-development-in/9781484216798/)
+* Processes Used in Industry
+    - [Eclipse Foundation Development Process](https://eclipse.org/projects/dev_process/development_process.php)
+    - [Triage Guide](https://wiki.gnome.org/Bugsquad/TriageGuide)
+    - [Bugzilla Configuration and Bug Tracking](https://wiki.yoctoproject.org/wiki/Bugzilla_Configuration_and_Bug_Tracking)
+    - [Bug triage](https://docs.moodle.org/dev/Bug_triage)
+    - [SWT/Devel/Triage](https://wiki.eclipse.org/SWT/Devel/Triage)
+    - [ASF Development Process¶](https://www.apache.org/foundation/how-it-works/legal.html)
+* [Intro to Version Control Slides (1up)](https://drive.google.com/file/d/1CDlc7fxvI1qhz1fa7xKIvpWTV82Jp2if/view?usp=drive_link)
+* [Continuous Integration Guest Lecture (Pang)](https://drive.google.com/file/d/1GKoNS-_kyL9eVVGiWs7e-AsCRPIz7fXq/view?usp=drive_link)
+* [Software in the Real World Guest Lecture (Tariq Masters)](https://drive.google.com/file/d/1wj76ZPtV0JxRiM7H1HPqpRWvCyAVxtBp/view?usp=drive_link)
+* [How Microsoft Builds Software](https://dl-acm-org.login.ezproxy.library.ualberta.ca/doi/10.1145/255656.255698)
 * [Book: The Build Master](https://www.oreilly.com/library/view/build-master-the/0321332059/)
-
+* [Essential XP: Card, Conversation, Confirmation](https://ronjeffries.com/xprog/articles/expcardconversationconfirmation/)
+* [INVEST in Good Stories, and SMART Tasks](https://xp123.com/invest-in-good-stories-and-smart-tasks/)
+* [Cause of AT&T Network Failure](http://catless.ncl.ac.uk/Risks/9.62.html#subj2)
 
 # Unit Testing in Android with JUnit
 
@@ -121,6 +136,8 @@ You already paid for these full e-textbooks with your tuition!
 # Testing
 
 * [Book: Test-Driven DevelopmentURL](https://www.oreilly.com/library/view/test-driven-development/0321146530/)
+* [The Way of Testivus](https://drive.google.com/file/d/0B0QztbuDlKs_M2ZiMWU2NjQtNjExYS00M2ZmLThmNWUtYmU5MGYwNjRhNjYz/view?hl=en&pli=1&resourcekey=0-9Lfn2uW_C7zFtnc-ukDrKg)
+
 
 
 # Intent Testing in Android
@@ -150,3 +167,4 @@ You already paid for these full e-textbooks with your tuition!
 # Human Error
 
 * [Book: GUI Bloopers](https://www.oreilly.com/library/view/gui-bloopers-20/9780123706430/)
+* [Medical Devices: The Therac-25](http://sunnyday.mit.edu/papers/therac.pdf)
