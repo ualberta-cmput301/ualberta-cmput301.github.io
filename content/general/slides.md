@@ -95,6 +95,7 @@ summary: Slides and per-topic resources
 
 # UML Sequence Diagram
 
+* [Sequence Diagrams - Campbell]({attach}slides/050sequenceDiagrams-campbell.pdf)
 * [Sequence Diagram Draft Slides (4up)]({attach}slides/Sequence_Diagram_4up.pdf)
 * [Sequence Diagram Draft Slides (1up)]({attach}slides/Sequence_Diagram_1up.pdf)
 
@@ -106,3 +107,27 @@ summary: Slides and per-topic resources
 # Refactoring 
 
 * [Review Slides (1up)]({attach}slides/10_Review.pdf)
+
+# Human Error
+
+* [Human Error Draft Slides (4up)]({attach}slides/09-Human-Error.4up.pdf)
+* [Human Error Slides (4up)]({attach}slides/09_Human_Error_4up.pdf)
+
+# Optimization
+
+* [Optimization Draft Slides (4up)]({attach}slides/10-Optimization.4up.pdf)
+* [Optimization Draft Slides (1up)]({attach}slides/10-Optimization.pdf)
+* [Optimization Slides (4up)]({attach}slides/10_Optimization_4up.pdf)
+
+# Retrospectives
+
+* [Retrospectives Slides (4up)]({attach}slides/11-Retrospectives.4up.pdf)
+
+# Review
+
+* [Review Draft Slides (4up)]({attach}slides/10-Review.4up.pdf)
+* [Review Draft Slides (1up)]({attach}slides/10-Review.pdf)
+
+# Future
+
+* [Future Draft Slides (4up)]({attach}slides/12-Future.4up.pdf)

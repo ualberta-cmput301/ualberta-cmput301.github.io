@@ -60,7 +60,7 @@ You already paid for these full e-textbooks with your tuition!
 * [Allen Holub’s UML Quick Reference](https://holub.com/uml/)
 * [UML Distilled: A Brief Guide to the Standard Object Modelling Language, Third Edition - Martin Fowler](https://learning.oreilly.com/library/view/uml-distilled-a/0321193687/)
 * [Book: Head First Object-Oriented Analysis and Design](https://learning.oreilly.com/library/view/head-first-object-oriented/0596008678/)
-
+* [Book: Learning UML 2.0](https://www.oreilly.com/library/view/learning-uml-20/0596009828/)
 
 # MVC
 
@@ -117,7 +117,10 @@ You already paid for these full e-textbooks with your tuition!
 * [Continuous Integration Guest Lecture (Pang)](https://drive.google.com/file/d/1GKoNS-_kyL9eVVGiWs7e-AsCRPIz7fXq/view?usp=drive_link)
 * [Software in the Real World Guest Lecture (Tariq Masters)](https://drive.google.com/file/d/1wj76ZPtV0JxRiM7H1HPqpRWvCyAVxtBp/view?usp=drive_link)
 * [How Microsoft Builds Software](https://dl-acm-org.login.ezproxy.library.ualberta.ca/doi/10.1145/255656.255698)
-
+* [Book: The Build Master](https://www.oreilly.com/library/view/build-master-the/0321332059/)
+* [Essential XP: Card, Conversation, Confirmation](https://ronjeffries.com/xprog/articles/expcardconversationconfirmation/)
+* [INVEST in Good Stories, and SMART Tasks](https://xp123.com/invest-in-good-stories-and-smart-tasks/)
+* [Cause of AT&T Network Failure](http://catless.ncl.ac.uk/Risks/9.62.html#subj2)
 
 # Unit Testing in Android with JUnit
 
@@ -127,6 +130,8 @@ You already paid for these full e-textbooks with your tuition!
 # Testing
 
 * [Book: Test-Driven DevelopmentURL](https://www.oreilly.com/library/view/test-driven-development/0321146530/)
+* [The Way of Testivus](https://drive.google.com/file/d/0B0QztbuDlKs_M2ZiMWU2NjQtNjExYS00M2ZmLThmNWUtYmU5MGYwNjRhNjYz/view?hl=en&pli=1&resourcekey=0-9Lfn2uW_C7zFtnc-ukDrKg)
+
 
 
 # Intent Testing in Android
@@ -142,3 +147,18 @@ You already paid for these full e-textbooks with your tuition!
 * [Book: Design Patterns: Elements of Reusable Object-Oriented Software](https://www.oreilly.com/library/view/design-patterns-elements/0201633612/)
 * [SourceMaking Refactoring](https://sourcemaking.com/refactoring)
 * [Book: Refactoring Improving the Design of Existing Code](https://www.oreilly.com/library/view/refactoring-improving-the/9780134757681/)
+* [Book: Head First Design Patterns](https://www.oreilly.com/library/view/head-first-design/9781492077992/)
+
+# User Interface Design
+
+* [A Software Design Manifesto](https://hci.stanford.edu/publications/bds/1-kapor.html)
+* [Joel on Software](https://www.joelonsoftware.com/)
+* [User Interface Design for Programmers](https://www.joelonsoftware.com/2001/10/24/user-interface-design-for-programmers/)
+* [Android Design Principles](https://developer.android.com/design)
+* [Interface Hall of Shame](http://hallofshame.gp.co.at/shame.htm)
+* [Bad Designs](http://baddesigns.com/examples.html)
+
+# Human Error
+
+* [Book: GUI Bloopers](https://www.oreilly.com/library/view/gui-bloopers-20/9780123706430/)
+* [Medical Devices: The Therac-25](http://sunnyday.mit.edu/papers/therac.pdf)
