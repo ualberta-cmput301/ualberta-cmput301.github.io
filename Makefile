@@ -54,6 +54,7 @@ clean:
 	[ ! -d "$(OUTPUTDIR)" ] || rm -rf "$(OUTPUTDIR)"
 
 regenerate:
+	rm -rvf $(OUTPUTDIR)
 	"$(PELICAN)" -r "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(CONFFILE)" $(PELICANOPTS)
 
 serve:

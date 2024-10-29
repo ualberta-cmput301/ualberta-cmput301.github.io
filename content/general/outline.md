@@ -236,6 +236,8 @@ Absolutely no late work will be accepted. No extensions will be granted to indiv
 
 ## Non-medical Protected Grounds
 
+**This includes Religious Holidays!**
+
 When a term assessment or final exam presents a conflict based on [nonmedical protected grounds](https://www.ualberta.ca/current-students/academic-success-centre/accessibility-resources/register/eligibility.html), students must apply to the Academic Success Centre for accommodations via their [Register for Accommodations website](https://www.ualberta.ca/current-students/academic-success-centre/accessibility-resources/register/index.html). Students can review their eligibility and choose the application process specific for *Accommodations Based on Non-medical Protected Grounds*. 
 
 It is imperative that students review the dates of all course assessments upon receipt of the course syllabus, and apply ***AS SOON AS POSSIBLE*** to ensure the timely application of the accommodation. Students who apply later in the term may experience unavoidable delays in the processing of the application, which can affect the accommodation.  
@@ -642,6 +644,7 @@ Policy about course outlines can be found in [Course Requirements, Evaluations P
 * 2024-09-02: Initial version.
 * 2024-09-02: Clarify formatting of contract cheating: cs courses section.
 * 2024-10-10: Fix some broken links
+* 2024-10-29: Clarify religious holidays.
 
 ## Copyright
 
