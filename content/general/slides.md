@@ -33,6 +33,8 @@ summary: Slides and per-topic resources
 * [MVC and Android Part I Draft Slides (1up)]({attach}slides/MVCAndroidPart1.pdf)
 * [MVC and Android Part II Draft Slides (4up)]({attach}slides/MVCAndroid4up2.pdf)
 * [MVC and Android Part II Draft Slides (1up)]({attach}slides/MVC_AP2DS.pdf)
+* [User Interface Design (1up)]({attach}slides/04-User-Interface.1up.pdf)
+* [User Interface Design (4up)]({attach}slides/04-User-Interface.4up.pdf)
 
 ## More Objects UML & Java
 
