@@ -18,6 +18,8 @@ summary: Slides and per-topic resources
 
 # Objects UML Java
 
+Reading: [Course notes]({filename}/general/resources.md#course-notes) part 1 page 1-73
+
 * [Objects UML Java - Campbell]({attach}slides/010oo-campbell.pdf)
 * [Objects UML Java Slides]({attach}slides/02-OO.pdf)
 * [OOP Notes]({attach}slides/OONotes.pdf)
@@ -82,6 +84,8 @@ summary: Slides and per-topic resources
 
 # Design Patterns
 
+Reading: [Course notes]({filename}/general/resources.md#course-notes) part 2
+
 * [Design Patterns Part I Draft Slides (4up)]({attach}slides/07-Patterns-01.4up.pdf)
 * [Design Patterns Part I Draft Slides (1up)]({attach}slides/07-Patterns-01.pdf)
 * [Design Patterns Part II Draft Slides (4up)]({attach}slides/07-Patterns-02.4up.pdf)
@@ -95,11 +99,15 @@ summary: Slides and per-topic resources
 
 # UML Sequence Diagram
 
+Reading: [Course notes]({filename}/general/resources.md#course-notes) part 1 pages ~73-76!
+
 * [Sequence Diagrams - Campbell]({attach}slides/050sequenceDiagrams-campbell.pdf)
 * [Sequence Diagram Draft Slides (4up)]({attach}slides/Sequence_Diagram_4up.pdf)
 * [Sequence Diagram Draft Slides (1up)]({attach}slides/Sequence_Diagram_1up.pdf)
 
 # Design Patterns (Continued)
+
+Reading: [Course notes]({filename}/general/resources.md#course-notes) part 2
 
 * [Refactoring Draft Slides (4up)]({attach}slides/08-Refactoring_4up.pdf)
 * [Refactoring Draft Slides (1up)]({attach}slides/08-Refactoring.pdf)
