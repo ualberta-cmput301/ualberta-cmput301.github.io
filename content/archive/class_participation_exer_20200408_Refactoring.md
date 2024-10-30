@@ -18,8 +18,9 @@ See the License for the specific language governing permissions and limitations 
 
 **Class Participation Exercise: Refactoring**
 
-![Participation Exercise Image](../../content/images/old_participation/exer20200408refactoring.png)
-
+<div style="text-align: center; margin: 20px;">
+    <img src="{attach}../images/old_participation/exer20200408refactoring.png" alt="Participation Exercise Image" style="width: 800px;">
+</div>
 
 ```.java
 public class ResponseObtainerObtainer {

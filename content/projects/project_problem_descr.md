@@ -47,15 +47,15 @@ Lottery systems are great because you don’t have to first get a chance to go t
 
 6. Geolocation Verification (Optional)
 
-    + Optionally use geolocation to verify where users are joining the waiting list from
+    + Optionally use geolocation to verify where users are joining the waiting list from. This is the location provided by the device.
 
 **Scenario:**
 
-1. I want to sign my partner up to swim lessons, they need to learn how to swim if they are going to go canoeing with me. I go to the app, I find my local rec centre, I see they have listed swimming lessons for beginners, and it is open to register for 2 more days. I click register. 2 days later when it is closed the system samples people, but not me. It notifies me that I wasn’t sampled in the first draw, but there might be a chance if someone declines. Nobody declines. Boo.
+1. I want to sign my partner up to swim lessons, they need to learn how to swim if they are going to go canoeing with me. I go to the local rec centre, I see they have listed swimming lessons for beginners, I scan the QR code. I see that it is open to register for 2 more days. I click register. 2 days later when it is closed the system samples people, but not me. It notifies me that I wasn’t sampled in the first draw, but there might be a chance if someone declines. Nobody declines. Boo.
 
 2. I am running an interpretive dance class where I teach the safety basics of dance (no eye gouging, that kind of stuff). I tell the app that I have classes every monday From 2025-01-01 to 2025-03-01, and that you need to register by 2024-12-15 and registration opens on 2024-12-01. The price is $60 and I can accommodate 60 people. I click publish and now an event is made where people can join the waiting list and they get this basic information. Also a QR code is generated that will lead them to this page.
 
-3. I want to sign my partner up to piano lessons, they need to learn how to play if they are going to play piano with me. I go to the app, I find my local rec center, I see they have listed piano lessons for beginners, and it is open to register for 2 more days. I click register. 2 days later when it is closed the system samples people, but not me. It notifies me that I was sample.
+3. I want to sign my partner up to piano lessons, they need to learn how to play if they are going to play piano with me. I go to the app, I go to my local rec centre, I see they have listed piano lessons for beginners, I scan the QR code. I see that it is open to register for 2 more days. I click register. 2 days later when it is closed the system samples people, but not me. It notifies me that I was sample.
 
 **Actors:**
 
@@ -122,6 +122,8 @@ US 01.06.02 As an entrant I want to be able to be sign up for an event by scanni
 
 US 01.07.01 As an entrant, I want to be identified by my device, so that I don't have to use a username and password
 
+US 01.08.01 As an entrant, I want to be warned before joining a waiting list that requires geolocation.
+
 **Organizer:**
 
 US 02.01.01 As an organizer I want to create a new event and generate a unique promotional QR code that links to the event description and event poster in the app
@@ -133,6 +135,8 @@ US 02.01.03 As an organizer, I want to create and manage my facility profile.
 US 02.02.01 As an organizer I want to view the list of entrants who joined my event waiting list
 
 US 02.02.02 As an organizer I want to see on a map where entrants joined my event waiting list from.
+
+US 02.02.03 As an organizer I want to enable or disable the geolocation requirement for my event.
 
 US 02.03.01 As an organizer I want to OPTIONALLY limit the number of entrants who can join my waiting list
 
