@@ -144,7 +144,9 @@ US 02.04.01 As an organizer I want to upload an event poster to provide visual i
 
 US 02.04.02 As an organizer I want to update an event poster to provide visual information to entrants 
 
-US 02.05.01 As an organizer I want to send a notification to chosen entrants to sign up for events
+US 02.05.01 As an organizer I want to send a notification to chosen entrants to sign up for events.
+
+* This is the notification that they "won" the lottery.
 
 US 02.05.02 As an organizer I want to set the system to sample a specified number of attendees to register for the event
 
