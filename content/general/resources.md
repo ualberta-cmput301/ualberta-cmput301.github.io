@@ -78,6 +78,7 @@ You already paid for these full e-textbooks with your tuition!
 * [Distributed Git: Contributing to a Project](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project)
 * [GitHub Help](https://support.github.com/)
 * [Wikipedia: Git](https://en.wikipedia.org/wiki/Git)
+* [Book: Pro Git](https://www.oreilly.com/library/view/pro-git-second/9781484200766/)
 
 # Android Activity Resources
 
