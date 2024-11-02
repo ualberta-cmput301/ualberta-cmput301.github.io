@@ -9,7 +9,8 @@ summary: Lab 4 Participation Exercise
 
 # Lab 4 Slides
 
-[Lab 4 Slides]({attach}slides/Github_Slides.pdf)
+- [Lab 4 Slides]({attach}slides/Github_Slides.pdf)
+- [Lab 4 Slides (Old Version)]({attach}slides/Lab4.pdf)
 
 ## Extra Information
 
