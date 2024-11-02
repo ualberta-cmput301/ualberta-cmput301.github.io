@@ -24,6 +24,7 @@ If you find broken links, please file a GitHub issue.
 * [Old Participation Exercise]({filename}/resources/participation.md)
 * [SPM and SDA MOOC Resources]({filename}/resources/mooc.md)
 * [Old Lecture and Lab Recordings]({filename}/resources/oldrecordings.md)
+* [Old Lab Notes]({filename}/resources/oldnotes.md)
 * [Safari O'Reilly Books](http://go.oreilly.com/university-of-alberta)
     * You must log in with the University of Alberta Library to get free access to O'Reilly books
     * [Also try this link](https://login.ezproxy.library.ualberta.ca/login?url=https://go.oreilly.com/university-of-alberta/)
