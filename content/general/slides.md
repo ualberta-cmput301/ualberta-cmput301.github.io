@@ -29,6 +29,7 @@ Reading: [Course notes]({filename}/general/resources.md#course-notes) part 1 pag
 
 ## <a id="mvc" href="#mvc">MVC</a> & Object-Oriented Graphical User Interfaces
 
+* [MVC and Android Part I + Swing Slides (1up)]({attach}slides/03-MVC-Android.pdf)
 * [🦾 MVC vs MVC 💪]({attach}slides/MVC2.pdf)
 * [MVC - Campbell]({attach}slides/020mvc.pdf)
 * [Fixed MVC Android/Swing Slides]({attach}slides/MVCAndroid.pdf)
