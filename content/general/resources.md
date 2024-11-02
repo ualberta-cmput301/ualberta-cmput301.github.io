@@ -24,6 +24,7 @@ If you find broken links, please file a GitHub issue.
 * [Old Participation Exercise]({filename}/resources/participation.md)
 * [SPM and SDA MOOC Resources]({filename}/resources/mooc.md)
 * [Old Lecture and Lab Recordings]({filename}/resources/oldrecordings.md)
+* [Old Lab Notes]({filename}/resources/oldnotes.md)
 * [Safari O'Reilly Books](http://go.oreilly.com/university-of-alberta)
     * You must log in with the University of Alberta Library to get free access to O'Reilly books
     * [Also try this link](https://login.ezproxy.library.ualberta.ca/login?url=https://go.oreilly.com/university-of-alberta/)
@@ -70,11 +71,13 @@ You already paid for these full e-textbooks with your tuition!
 
 # MVC
 
+* [FillerCreepForAndroid Git Repo (Hindle)](https://github.com/abramhindle/FillerCreepForAndroid)
 * [Java SE Application Design With MVC](https://www.oracle.com/technical-resources/articles/javase/application-design-with-mvc.html)
 
 
 # Git and GitHub Resoirces
 
+* [Book: Version Control with Git](https://www.oreilly.com/library/view/version-control-with/9781492091189/)
 * [Distributed Git: Contributing to a Project](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project)
 * [GitHub Help](https://support.github.com/)
 * [Wikipedia: Git](https://en.wikipedia.org/wiki/Git)
