@@ -31,6 +31,7 @@ Reading: [Course notes]({filename}/general/resources.md#course-notes) part 1 pag
 
 * [MVC and Android Part I + Swing Slides (1up)]({attach}slides/03-MVC-Android.pdf)
 * [MVC and Friends Guest Lecture (Campbell)]({attach}slides/MVC.pdf)
+* [3-Tier Architecture Guest Lecture (Pang) (4up)]({attach}slides/3-Tier.pdf)
 * [🦾 MVC vs MVC 💪]({attach}slides/MVC2.pdf)
 * [MVC - Campbell]({attach}slides/020mvc.pdf)
 * [Fixed MVC Android/Swing Slides]({attach}slides/MVCAndroid.pdf)
