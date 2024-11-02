@@ -76,6 +76,7 @@ You already paid for these full e-textbooks with your tuition!
 
 # Git and GitHub Resoirces
 
+* [Book: Version Control with Git](https://www.oreilly.com/library/view/version-control-with/9781492091189/)
 * [Distributed Git: Contributing to a Project](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project)
 * [GitHub Help](https://support.github.com/)
 * [Wikipedia: Git](https://en.wikipedia.org/wiki/Git)
