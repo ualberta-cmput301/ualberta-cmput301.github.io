@@ -25,6 +25,7 @@ Reading: [Course notes]({filename}/general/resources.md#course-notes) part 1 pag
 * [OOP Notes]({attach}slides/OONotes.pdf)
 * [Objects, UML, and Java Draft Slides (4up)]({attach}slides/02-OO.4up.pdf)
 * [Objects, UML, and Java Draft Slides (1up)]({attach}slides/02-OO.pdf)
+* [Objects, UML, and Java Draft Slides (Clean Version)]({attach}slides/02-OO-clean.pdf)
 
 ## <a id="mvc" href="#mvc">MVC</a> & Object-Oriented Graphical User Interfaces
 
