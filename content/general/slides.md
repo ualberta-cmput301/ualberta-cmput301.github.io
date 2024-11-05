@@ -25,9 +25,13 @@ Reading: [Course notes]({filename}/general/resources.md#course-notes) part 1 pag
 * [OOP Notes]({attach}slides/OONotes.pdf)
 * [Objects, UML, and Java Draft Slides (4up)]({attach}slides/02-OO.4up.pdf)
 * [Objects, UML, and Java Draft Slides (1up)]({attach}slides/02-OO.pdf)
+* [Objects, UML, and Java Draft Slides (Clean Version)]({attach}slides/02-OO-clean.pdf)
 
 ## <a id="mvc" href="#mvc">MVC</a> & Object-Oriented Graphical User Interfaces
 
+* [MVC and Android Part I + Swing Slides (1up)]({attach}slides/03-MVC-Android.pdf)
+* [MVC and Friends Guest Lecture (Campbell)]({attach}slides/MVC.pdf)
+* [3-Tier Architecture Guest Lecture (Pang) (4up)]({attach}slides/3-Tier.pdf)
 * [🦾 MVC vs MVC 💪]({attach}slides/MVC2.pdf)
 * [MVC - Campbell]({attach}slides/020mvc.pdf)
 * [Fixed MVC Android/Swing Slides]({attach}slides/MVCAndroid.pdf)
@@ -35,6 +39,8 @@ Reading: [Course notes]({filename}/general/resources.md#course-notes) part 1 pag
 * [MVC and Android Part I Draft Slides (1up)]({attach}slides/MVCAndroidPart1.pdf)
 * [MVC and Android Part II Draft Slides (4up)]({attach}slides/MVCAndroid4up2.pdf)
 * [MVC and Android Part II Draft Slides (1up)]({attach}slides/MVC_AP2DS.pdf)
+* [User Interface Design (1up)]({attach}slides/04-User-Interface.1up.pdf)
+* [User Interface Design (4up)]({attach}slides/04-User-Interface.4up.pdf)
 
 ## More Objects UML & Java
 

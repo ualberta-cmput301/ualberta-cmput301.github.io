@@ -14,4 +14,4 @@ summary: Individual, Assignments, Participation
 3. Out of all these classes, which classes are the least Cohesive?
 4. Out of all these classes, which classes are the most Cohesive?
 
-![]({attach}class_participation_cohesion_coupling.png)
+![Image]({attach}class_participation_cohesion_coupling.png)

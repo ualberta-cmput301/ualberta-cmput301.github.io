@@ -24,6 +24,7 @@ If you find broken links, please file a GitHub issue.
 * [Old Participation Exercise]({filename}/resources/participation.md)
 * [SPM and SDA MOOC Resources]({filename}/resources/mooc.md)
 * [Old Lecture and Lab Recordings]({filename}/resources/oldrecordings.md)
+* [Old Lab Notes]({filename}/resources/oldnotes.md)
 * [Safari O'Reilly Books](http://go.oreilly.com/university-of-alberta)
     * You must log in with the University of Alberta Library to get free access to O'Reilly books
     * [Also try this link](https://login.ezproxy.library.ualberta.ca/login?url=https://go.oreilly.com/university-of-alberta/)
@@ -66,15 +67,17 @@ You already paid for these full e-textbooks with your tuition!
 * [Allen Holub’s UML Quick Reference](https://holub.com/uml/)
 * [UML Distilled: A Brief Guide to the Standard Object Modelling Language, Third Edition - Martin Fowler](https://learning.oreilly.com/library/view/uml-distilled-a/0321193687/)
 * [Book: Head First Object-Oriented Analysis and Design](https://learning.oreilly.com/library/view/head-first-object-oriented/0596008678/)
-* [Book: Learning UML 2.0](https://www.oreilly.com/library/view/learning-uml-20/0596009828/)
+
 
 # MVC
 
+* [FillerCreepForAndroid Git Repo (Hindle)](https://github.com/abramhindle/FillerCreepForAndroid)
 * [Java SE Application Design With MVC](https://www.oracle.com/technical-resources/articles/javase/application-design-with-mvc.html)
 
 
 # Git and GitHub Resoirces
 
+* [Book: Version Control with Git](https://www.oreilly.com/library/view/version-control-with/9781492091189/)
 * [Distributed Git: Contributing to a Project](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project)
 * [GitHub Help](https://support.github.com/)
 * [Wikipedia: Git](https://en.wikipedia.org/wiki/Git)
@@ -125,21 +128,24 @@ You already paid for these full e-textbooks with your tuition!
 * [Software in the Real World Guest Lecture (Tariq Masters)](https://drive.google.com/file/d/1wj76ZPtV0JxRiM7H1HPqpRWvCyAVxtBp/view?usp=drive_link)
 * [How Microsoft Builds Software](https://dl-acm-org.login.ezproxy.library.ualberta.ca/doi/10.1145/255656.255698)
 * [Book: The Build Master](https://www.oreilly.com/library/view/build-master-the/0321332059/)
-* [Essential XP: Card, Conversation, Confirmation](https://ronjeffries.com/xprog/articles/expcardconversationconfirmation/)
-* [INVEST in Good Stories, and SMART Tasks](https://xp123.com/invest-in-good-stories-and-smart-tasks/)
-* [Cause of AT&T Network Failure](http://catless.ncl.ac.uk/Risks/9.62.html#subj2)
 
 # Unit Testing in Android with JUnit
 
 * [Android JUnit Assert API](https://developer.android.com/training/testing/local-tests)
 * [Unit Testing with the JUnit Testing Framework](https://code.tutsplus.com/android-sdk-unit-testing-with-the-junit-testing-framework--mobile-421t)
 
+# Requirements
+
+* [INVEST in Good Stories, and SMART Tasks](https://xp123.com/invest-in-good-stories-and-smart-tasks/)
+* [Essential XP: Card, Conversation, Confirmation](https://ronjeffries.com/xprog/articles/expcardconversationconfirmation/)
+* [Book: Learning UML 2.0](https://www.oreilly.com/library/view/learning-uml-20/0596009828/)
+
 # Testing
 
 * [Book: Test-Driven DevelopmentURL](https://www.oreilly.com/library/view/test-driven-development/0321146530/)
+* [Cause of AT&T Network Failure](http://catless.ncl.ac.uk/Risks/9.62.html#subj2)
+* [Medical Devices: The Therac-25](http://sunnyday.mit.edu/papers/therac.pdf)
 * [The Way of Testivus](https://drive.google.com/file/d/0B0QztbuDlKs_M2ZiMWU2NjQtNjExYS00M2ZmLThmNWUtYmU5MGYwNjRhNjYz/view?hl=en&pli=1&resourcekey=0-9Lfn2uW_C7zFtnc-ukDrKg)
-
-
 
 # Intent Testing in Android
 
@@ -168,4 +174,3 @@ You already paid for these full e-textbooks with your tuition!
 # Human Error
 
 * [Book: GUI Bloopers](https://www.oreilly.com/library/view/gui-bloopers-20/9780123706430/)
-* [Medical Devices: The Therac-25](http://sunnyday.mit.edu/papers/therac.pdf)

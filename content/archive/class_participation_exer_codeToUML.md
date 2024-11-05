@@ -11,7 +11,7 @@ summary: Individual, Assignments, Participation
 
 Consider a Rect class to represent a rectangle in a two-dimensional integer plane.
 
-```.java
+```java
 public class Shape {
     protected Location myLocation;
     public Shape() { ... }

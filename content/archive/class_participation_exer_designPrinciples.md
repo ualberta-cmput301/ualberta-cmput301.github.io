@@ -1,3 +1,9 @@
+Title: Class Participation Exercise Design Principles
+date: 2024-09-18
+tags: resources, participation, references, practice
+authors: Hazel Victoria Campbell
+status: published
+summary: Individual, Assignments, Participation
 Proper completion of this exercise is considered as part of course participation.
 
 1. Initial versions of early programming languages (e.g., Fortran) supported:
