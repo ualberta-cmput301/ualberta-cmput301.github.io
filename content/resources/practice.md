@@ -18,7 +18,7 @@ summary: Exam Practice Questions
 * [F18HMQ]({attach}practice/Midterm10-2018-Fall.pdf)
 * [F18HFQ]({attach}practice/Final-2018-Fall.pdf)
 * [W20HMQ]({attach}practice/Midterm11-2020-Winter.pdf)
-* [W20HFQ]({attach}practice/CMPUT301W20B1:EB1-Final.pdf)
+* [W20HFQ]({attach}practice/CMPUT301W20B_EB1_Final.pdf)
 * [W21HM1Q]({attach}practice/CMPUT301-Winter-2021-Midterm.pdf)
 * [W21HM2Q]({attach}practice/CMPUT301-Winter-2021-Midterm2.pdf)
 * [W21HM3Q]({attach}practice/CMPUT301-Winter-2021-Midterm3.pdf)
