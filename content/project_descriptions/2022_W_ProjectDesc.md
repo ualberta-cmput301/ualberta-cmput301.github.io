@@ -1,3 +1,11 @@
+Title: 2022 W Project Problem Description    
+date: 2024-11-04    
+tags: projects, teams, grading  
+authors: Tina Nguyen, Hazel Victoria Campbell  
+status: published
+summary: 2022 W Project Problem Description  
+----
+
 # Project Problem Description
 Warning: This is subject to change!
 
