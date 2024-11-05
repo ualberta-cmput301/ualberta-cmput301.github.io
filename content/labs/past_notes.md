@@ -1,4 +1,4 @@
-Title: Lab 4 Participation Exercise
+Title: Lab 4 Participation Exercise Past Notes
 date: 2024-01-06
 tags: labs, policy, grading
 authors: Samuel Iwuchukwu,Hazel Victoria Campbell
@@ -20,10 +20,12 @@ Your git repositories in this class should all use a FOSS license!
 You can read about .gitignore files if you want git to ignore files matching
 regular expressions like backup files that end in a ~.
 
+```bash
 cmd: git config --global user.name "yourUserName"
 cmd: git config --global user.email "your@email.com"
 cmd: git config --global core.editor nano
 cmd: git config --list
+```
 description: these commands setup your workstation git configurations which
 will be associated with each of the file changes you make through git. So, you
 should set them before you do anything.

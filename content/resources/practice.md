@@ -52,8 +52,4 @@ summary: Exam Practice Questions
 * [W23HPMQ1]({filename}/resources/practice/w23hpmq1.md)
 * [W23HM1A]({filename}/resources/practice/w23hm1a.md)
 
-# Old Participation Exercises
 
-* [Class Participation Exercise 15]({filename}../archive/old_participation/class_participation_exer15.md)
-* [Class Participation Exercise 19]({filename}../archive/old_participation/class_participation_exer19.md)
-* [Class Participation Exercise 20]({filename}../archive/old_participation/class_participation_exer20.md)

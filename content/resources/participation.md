@@ -34,4 +34,5 @@ summary: Old Participation Exercise
 * [Class Participation Exercise Simple Factory]({filename}../archive/class_participation_exer_20200327_SimpleFactory.md)
 * [Class Participation Exercise Mock Objects]({filename}../archive/class_participation_20200323_MockObjects.md)
 * [Class Participation Exercise Command Pattern]({filename}../archive/class_participation_20200320_CommandPattern.md)
+* [Class Participation Exercise (Design Principles)]({filename}../archive/class_participation_exer_designPrinciples.md)
 

@@ -1,3 +1,10 @@
+Title: Class Participation Exercise April 14
+date: 2024-09-18
+tags: resources, participation, references, practice
+authors: Hazel Victoria Campbell
+status: published
+summary: Individual, Assignments, Participation
+
 Speaker is a class that utters words and uses the **state** pattern to change its behaviour.
 
 ```java
