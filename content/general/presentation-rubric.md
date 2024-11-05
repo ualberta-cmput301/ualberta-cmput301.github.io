@@ -52,7 +52,7 @@ The purpose of the presentation marking rubric is to outline precise evaluation 
 
 # Evaluating Deliverables Based on Presentation Content
 
-According to [Group Assignment 5: Technical Debt]({filename}/group/technical-debt.md), we will use both the content of your report and presentation to grade the 5 points from the deliverables. The weight of the content of the presentation for the main grading is given below:
+We will use both the content of your report and presentation to grade the 5 points from the deliverables. The weight of the content of the presentation for the main grading is given below:
 
 1. Quality evaluation using SonarQube (points 1 and 2):  7.5 out of 30
 2. Discussing current CI pipeline (point 3): 2.5 out of 10
@@ -62,3 +62,4 @@ According to [Group Assignment 5: Technical Debt]({filename}/group/technical-deb
 Total presentation content grade: 16.25 out of 70
 
 **Please note that this section is separate from the presentation marks, which will be graded out of 20 according to the rubric in the [table above](#marking).**
+
