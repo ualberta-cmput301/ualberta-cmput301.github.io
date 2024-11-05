@@ -13,20 +13,20 @@ When a player scans a QR code they will take a photo of what or where the QR cod
 
 Players can see on a map local QR codes that other players have scanned.
 
-# Scenario:
+## Scenario:
 I open my QRHunter app. I see a QR code in my wallet. I indicate I want to add a new QR code and I use the phone camera to add the QR code. The QR code is scored and I’m told that my QR score is 30. The system prompts me for a photo of the object I scanned. I decline since this was an ID card. I also decline geolocation because it is in my wallet. The system adds the 30 points to my total score and records a hash of the QR code. I then see some sticker on a pole. I scan it and am told it is worth 1000 points! I record the geolocation and take a photo of the pole and save it to my account. 1000 points wow. Then I see that other users have found this pole as well. So I open the map for nearby QR codes and I see something worth 10000 is 100 meters away so I’m going to head on over there!
 
 <br>
 <br>
 
-# Needs in (Partial) User Story Form
-### Actors:
+## Needs in (Partial) User Story Form
+#### Actors:
 
 Player: a person who plays the game
 
 Owner: the entity that owns the infrastructure that the game runs on.
 
-### Glossary:
+#### Glossary:
 
 QR Code: a scannable code, either a barcode, a QR code, or other code scannable by Zebra crossing libraries or google QR code scanning libraries.
 
@@ -36,7 +36,7 @@ As a <role>, I want <goal>.
 
 These descriptions may change to correct omissions and clarify noticed issues. New requirements will be introduced for the final project part.
 
-### Player
+#### Player
 
 US 01.01.01
 
@@ -66,7 +66,7 @@ US 01.0X.01
 
 As a player, I want to see other player’s profiles
 
-### Game QR Codes
+#### Game QR Codes
 
 US 02.0X.01
 
@@ -89,7 +89,7 @@ US 02.0X.01
 As a player, I want to see that other players have scanned the same QR code.
 
 
-### Player QR Codes
+#### Player QR Codes
 
 US 03.0X.01
 
@@ -100,7 +100,7 @@ US 03.0X.01
 As a player, I want to be able to generate a QR code so that I can log in to another device with the same account. 
 
 
-### Player profile
+#### Player profile
 
 US 04.01.01
 
@@ -111,7 +111,7 @@ US 04.0X.01
 As a player, I do not want to log into my application using a username and password as my device can identify me.
 
 
-### Searching
+#### Searching
 
 US 05.01.01
 
@@ -122,14 +122,14 @@ US 05.0X.01
 As a player, I want to search for nearby QR codes by using geolocation.
 
 
-### Location
+#### Location
 
 US 06.01.01
 
 As a player, I want to see a map of geo-locations of nearby QR codes.
 
 
-### Scoring
+#### Scoring
 
 US 07.0X.01
 
@@ -148,7 +148,7 @@ US 07.0X.01
 As a player, I want an estimate of my ranking for a total sum of scores of QR codes scanned.
 
 
-### Privacy
+#### Privacy
 
 US 08.0X.01
 
@@ -159,7 +159,7 @@ US 08.0X.01
 As a player, I want to be able to decline recording geolocation for privacy reasons.
 
 
-### Owner
+#### Owner
 
 US 09.0X.01 
 
@@ -175,7 +175,7 @@ As an owner, I want to be able to delete players.
 
 
 
-# Proposed Scoring System:
+## Proposed Scoring System:
 
 First, we calculate a SHA-256 hash of the QR code contents.
 
@@ -255,5 +255,5 @@ ee - 14
 Score: 11 + 81 + 14 + 5 = 111
 
 
-## Changelog:
+### Changelog:
 2022-03-08: Deleted US 02.0X.01 ("As a player, I want to be able to browse QR codes that I own"). Reason: identical to US 01.02.01.
