@@ -60,7 +60,6 @@ US 01.07.01
 As an owner or experimenter, I want to see plots of the results of trials over time.
 
 <br>
-<br>
 
 ### Questions
 
@@ -85,7 +84,6 @@ US 03.03.01
 As an experimenter, I want to be able to register an arbitrary bar code (such as one off of your favourite book) to act a specific experiment result for a trial.
 
 <br>
-<br>
 
 ### User profile
 
@@ -103,7 +101,6 @@ US 04.04.01 *new for Part 4*
 As an owner or experimenter, I do not want to log into my application using a username and password.
 
 <br>
-<br>
 
 ### Searching
 
@@ -113,7 +110,6 @@ As an experimenter, I want to specify a keyword, and search for all experiments 
 US 05.02.01
 As an experimenter, I want search results to show each experiment with its description, owner username, and status.
 
-<br>
 <br>
 
 ### Location
