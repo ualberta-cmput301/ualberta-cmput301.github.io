@@ -1,4 +1,4 @@
-title: Old Lecture Recordings
+Title: Old Lecture Recordings
 date: 2024-09-03
 tags: resources, reading, references, videos
 authors: Hazel Victoria Campbell

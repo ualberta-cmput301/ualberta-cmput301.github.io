@@ -35,5 +35,3 @@ summary: Old Participation Exercise
 * [Class Participation Exercise Mock Objects]({filename}../archive/class_participation_20200323_MockObjects.md)
 * [Class Participation Exercise Command Pattern]({filename}../archive/class_participation_20200320_CommandPattern.md)
 * [Class Participation Exercise (Design Principles)]({filename}../archive/class_participation_exer_designPrinciples.md)
-
-* [Fall 2021 Labs]({filename}../archive/fall_lab_recordings_2021.md)

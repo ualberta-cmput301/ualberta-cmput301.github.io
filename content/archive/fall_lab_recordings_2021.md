@@ -1,3 +1,10 @@
+Title: Old Lecture Recordings
+date: 2024-11-07
+tags: resources, reading, references, videos
+authors: Hazel Victoria Campbell, Jakaria
+status: published
+summary: Old Lecture Recordings 2021 Fall
+
 <span style="color:red">You must be authenticated with your @ualberta.ca Google account to access the links.</span>
 
 [2021-09-07](https://drive.google.com/file/d/1yj-liccoH-C70j9YkWnjj6qHsZeBSvH9/view?usp=sharing) (Introduction and Java in Android Studio)
