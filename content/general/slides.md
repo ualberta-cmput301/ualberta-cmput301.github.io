@@ -145,3 +145,5 @@ Reading: [Course notes]({filename}/general/resources.md#course-notes) part 2
 # Future
 
 * [Future Draft Slides (4up)]({attach}slides/12-Future.4up.pdf)
+
+* [Fall 2021 Outline]({filename}outline_old.md)
