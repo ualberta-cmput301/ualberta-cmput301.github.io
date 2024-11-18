@@ -148,5 +148,7 @@ Reading: [Course notes]({filename}/general/resources.md#course-notes) part 2
 
 
 # Old Resources
+
 * [Fall 2021 Outline]({filename}outline_old.md)
 * [Old Lab Recordings]({filename}old_recordings.md)
+* [Old Project Problem Description F22]({filename}old_project_description.md)
