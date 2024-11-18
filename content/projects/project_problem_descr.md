@@ -128,7 +128,7 @@ US 01.08.01 As an entrant, I want to be warned before joining a waiting list tha
 
 US 02.01.01 As an organizer I want to create a new event and generate a unique promotional QR code that links to the event description and event poster in the app
 
-US 02.01.02 As an organizer I want to store hash data of the generated QR code in my database
+US 02.01.02 As an organizer I want to store the generated QR code in my database
 
 US 02.01.03 As an organizer, I want to create and manage my facility profile.
 
