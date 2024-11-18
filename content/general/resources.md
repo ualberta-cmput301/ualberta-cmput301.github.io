@@ -15,7 +15,7 @@ If you find broken links, please file a GitHub issue.
 ## Course Notes
 
 * [Part 1 - Object-Oriented Design]({attach}/resources/reading/1 Object-Oriented Design - Notes.pdf)
-* [Part 2 - Design Patterns]({attach}/resources/reading/1 Object-Oriented Design - Notes.pdf)
+* [Part 2 - Design Patterns]({attach}/resources/reading/2 Design Patterns - Notes.pdf)
 
 # General Resources
 
