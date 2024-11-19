@@ -146,4 +146,10 @@ Reading: [Course notes]({filename}/general/resources.md#course-notes) part 2
 
 * [Future Draft Slides (4up)]({attach}slides/12-Future.4up.pdf)
 
+
+# Old Resources
+
 * [Fall 2021 Outline]({filename}outline_old.md)
+* [Old Lab Recordings]({filename}old_recordings.md)
+* [Old Project Problem Description F22]({filename}old_project_description.md)
+* [Old Project Problem Description F24]({filename}old_project_description_f24.md)
