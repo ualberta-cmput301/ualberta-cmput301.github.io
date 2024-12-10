@@ -174,3 +174,7 @@ You already paid for these full e-textbooks with your tuition!
 # Human Error
 
 * [Book: GUI Bloopers](https://www.oreilly.com/library/view/gui-bloopers-20/9780123706430/)
+
+# Mentis for Review
+
+* Fall 2024 [1]({attach}/resources/review/301f24Review1.pdf) [2]({attach}/resources/review/301f24Review2.pdf) [3]({attach}/resources/review/301f24Review3.pdf)
