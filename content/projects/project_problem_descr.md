@@ -6,16 +6,6 @@ status: published
 summary: Project Problem Description
 [TOC]
 
-<!---
-
-This is a for a intro to software engineering university class
-
-I need you to review this project description and consider 
-user stories that are missing that should be specified to avoid
-confusion.
-
---->
-
 # Project Problem Description
 
 Warning: This is subject to change!
