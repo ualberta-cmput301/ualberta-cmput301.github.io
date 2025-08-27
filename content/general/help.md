@@ -1,7 +1,7 @@
 Title: How to get Help
 date: 2024-01-06
 tags: resources, policy, contact, wellness
-authors: Hazel Victoria Campbell
+authors: Hazel Victoria Campbell, Abram Hindle
 status: published
 summary: Communications Expectations
 
@@ -79,7 +79,7 @@ Unless your question is personal (E.g., you are feeling unwell and require an EA
 * Be polite, this is not a complaint forum.
 * Follow the [online etiquette guidelines]({attach}online_etiquette_guidelines.pdf).
 
-<span style="font-size: 200%">🔗</span> [The discussion forum is on the eClass.](https://eclass.srv.ualberta.ca/mod/forum/view.php?id=8037429)
+<span style="font-size: 200%">🔗</span> [The discussion forum is on canvas.](https://canvas.ualberta.ca/courses/28550/discussion_topics)
 
 # Labs Office Hours
 
@@ -108,7 +108,7 @@ TAs are not allowed to change your marks. If you disagree with your marks, [cont
 * Please be polite and courteous.
 * TAs will not re-grade your work or deal with extensions, excuses, illness, etc.
 
-<span style="font-size: 200%">🔗</span> [TA office hours are on the eClass.](https://eclass.srv.ualberta.ca/mod/page/view.php?id=8129757)
+<!-- <span style="font-size: 200%">🔗</span> [TA office hours are on the eClass.](https://eclass.srv.ualberta.ca/mod/page/view.php?id=8129757) -->
 
 # Contact Instructor
 
@@ -166,8 +166,7 @@ Building a strong social network can greatly benefit your mental health.
 The only official communications are:
 
 * University of Alberta Google Apps (forms / gmail / etc.) (you must be signed in with your CCID)
-* eClass
-* Canvas University of Alberta (future)
+* Canvas University of Alberta 
 
 Additionally, you can submit assignments/projects/labs/participation on GitHub Classroom and Mentimeter, but do not use them to ask questions.
 

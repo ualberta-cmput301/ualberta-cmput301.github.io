@@ -41,7 +41,7 @@ Every team member will need to submit the following:
 
 # Submission Procedure
 
-All members of the team must submit the Google Form: https://eclass.srv.ualberta.ca/mod/assign/view.php?id=8037454 (we hide it in eClass so that spambots don't fill it out)
+All members of the team must submit the Google Form: [Form](https://docs.google.com/forms/d/e/1FAIpQLSdWCZv79DVnW0J8mxAa2MupaDTjwGCPISK6XlLmjd5aEddNDg/viewform?usp=dialog)
 
 # Marking
 

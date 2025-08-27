@@ -24,26 +24,19 @@ save_as: index.html
 
 **You need to be logged in as your University of Alberta CCID/email account to view it.** The course schedule is updated in this [Google Sheet](https://docs.google.com/spreadsheets/d/1NJSj_uFSG9sE1mGcw3waoCcOmzNzPcI_I2tbFiA9aYY/). Please remember that this is only a plan, and sometimes plans change.
 
-# eClass
+# Canvas
 
-[The current eClass page is here.](https://eclass.srv.ualberta.ca/course/view.php?id=98584#section-0)
+[The current Canvas page is here.](https://canvas.ualberta.ca/courses/28550)
 
 * Grades
 * Submissions
 * [Discussion Forum]({filename}/general/help.md#discussion-forum)
 
-We are in the process of moving things off of eClass, because eventually University of Alberta will get rid of eClass.
 
 ## News & Notices
 
-[The latest news and notices for students.](https://eclass.srv.ualberta.ca/mod/forum/view.php?id=8037428) Check this regularly!
-
-## Lecture Zoom
-
-* You MUST be logged into your University of Alberta account to view the Zoom! 
-* [How to use Zoom for Students](https://support.eclass.ualberta.ca/index.php?/Knowledgebase/Article/View/422/23/using-zoom-for-students)
-* [The lecture zoom is connected through eClass.](https://eclass.srv.ualberta.ca/mod/forum/view.php?id=8037428)
-* [Direct Link](https://ualberta-ca.zoom.us/j/91841598364)
+[The latest news and notices for students.](https://canvas.ualberta.ca/courses/28550/announcements)
+Check this regularly!
 
 # More Stuff
 

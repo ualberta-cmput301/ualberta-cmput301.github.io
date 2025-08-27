@@ -37,13 +37,13 @@ Use a non-lossy image format for the screenshots (like PNG with usually lossless
 
 Do not use a phone camera to take the images.
 
-Name the two screenshot files with your CCID (e.g., kennyw-1.png, kennyw-2.png). Zip the files (e.g., kennyw.zip) and upload the archive using eClass.
+Name the two screenshot files with your CCID (e.g., kennyw-1.png, kennyw-2.png). Zip the files (e.g., kennyw.zip) and upload the archive using canvas.
 
 The maximum upload size is 5 MB.
 
 Proper completion of this assignment is considered as part of course participation.
 
-Upload your zip file to eClass under "Assignment 0".
+Upload your zip file to canvas under "Assignment 0".
 
 # Hints
 

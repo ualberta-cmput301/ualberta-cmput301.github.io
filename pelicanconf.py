@@ -70,7 +70,7 @@ INDEX_SAVE_AS="all.html"
 
 MENUITEMS=[
     ("Outline", "/general/outline.html"),
-    ("eClass & Grades", "/#eclass"),
+    ("Canvas & Grades", "/#canvas"),
     ("Schedule", "/#schedule"),
     ("Labs", "/general/labs.html"),
     ("Project", "/general/project.html"),
@@ -78,7 +78,6 @@ MENUITEMS=[
     ("Resources", "/general/resources.html"),
     ("Discussion Forum", "/general/help.html#discussion-forum"),
     ("News & Notices", "/#news-notices"),
-    ("Lecture Zoom", "/#lecture-zoom"),
     ("Slides", "/general/slides.html"),
     ("Help", "/general/help.html"),
 ]
