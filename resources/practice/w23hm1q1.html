@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <title>CMPUT 301 - Practice w23hm1q1</title>
+      <meta charset="utf-8" />
+      <meta name="generator" content="Pelican" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Software Engineering" />
+        <link href="https://ualberta-cmput301.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Full Atom Feed" />
+        <link href="https://ualberta-cmput301.github.io/feeds/practice.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Categories Atom Feed" />
+
+  <link rel="icon" href="https://ualberta-cmput301.github.io/theme/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/301.css" />
+
+
+
+
+    <meta name="tags" content="resources" />
+    <meta name="tags" content="reading" />
+    <meta name="tags" content="references" />
+    <meta name="tags" content="videos" />
+    <meta name="tags" content="practice" />
+    <meta name="tags" content="exams" />
+
+  </head>
+
+  <body>
+      <header>
+          <hgroup><h1><a href="https://ualberta-cmput301.github.io/">CMPUT 301</a></h1><p>Software Engineering</p></hgroup>
+          <nav><ul>
+              <li><a href="/general/outline.html">Outline</a></li>
+              <li><a href="/#canvas">Canvas & Grades</a></li>
+              <li><a href="/#schedule">Schedule</a></li>
+              <li><a href="/general/labs.html">Labs</a></li>
+              <li><a href="/general/project.html">Project</a></li>
+              <li><a href="/general/individual.html">Individual</a></li>
+              <li><a href="/general/resources.html">Resources</a></li>
+              <li><a href="/general/help.html#discussion-forum">Discussion Forum</a></li>
+              <li><a href="/#news-notices">News & Notices</a></li>
+              <li><a href="/general/slides.html">Slides</a></li>
+              <li><a href="/general/help.html">Help</a></li>
+                <li><a href="https://ualberta-cmput301.github.io/" >Home</a></li>
+          </ul></nav>
+      </header>
+      <main>
+  <article>
+    <header>
+      <h2>
+        <a href="https://ualberta-cmput301.github.io/resources/practice/w23hm1q1.html" rel="bookmark"
+           title="Permalink to Practice w23hm1q1">Practice w23hm1q1</a></h2>
+      
+    </header>
+    <hr>
+<p><strong>Java to UML Class Diagram</strong></p>
+<p>Convert this Java code to a UML class diagram. This Java code is meant to represent a mouth tasting and consuming food. There are food, flavours, tongues, and taste buds.</p>
+<p>Draw a well-designed UML class diagram to represent this information. Provide the basic abstractions, attributes, methods, relationships, multiplicities, and navigabilities as appropriate.  "...” means much code is omitted.</p>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">java.util.*</span><span class="p">;</span>
+
+<span class="kd">class</span> <span class="nc">Mouth</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">Collection</span><span class="o">&lt;</span><span class="n">Tooth</span><span class="o">&gt;</span><span class="w"> </span><span class="n">teeth</span><span class="p">;</span>
+<span class="w">    </span><span class="n">Tongue</span><span class="w"> </span><span class="n">tongue</span><span class="p">;</span>
+<span class="w">    </span><span class="c1">// ...</span>
+<span class="p">}</span>
+<span class="kd">class</span> <span class="nc">Tooth</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="c1">// ...</span>
+<span class="p">}</span>
+<span class="kd">class</span> <span class="nc">Tongue</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="n">TasteBud</span><span class="o">[]</span><span class="w"> </span><span class="n">buds</span><span class="p">;</span>
+<span class="w">    </span><span class="n">Flavour</span><span class="w"> </span><span class="nf">taste</span><span class="p">(</span><span class="n">Food</span><span class="w"> </span><span class="n">f</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">Flavour</span><span class="o">[]</span><span class="w"> </span><span class="n">flavours</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Flavour</span><span class="o">[</span><span class="n">buds</span><span class="p">.</span><span class="na">length</span><span class="o">]</span><span class="p">;</span>
+<span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">buds</span><span class="p">.</span><span class="na">length</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="n">flavours</span><span class="o">[</span><span class="n">i</span><span class="o">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">buds</span><span class="o">[</span><span class="n">i</span><span class="o">]</span><span class="p">.</span><span class="na">taste</span><span class="p">(</span><span class="n">f</span><span class="p">);</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">AggregateFlavour</span><span class="p">(</span><span class="n">flavours</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="c1">// ...</span>
+<span class="p">}</span>
+<span class="kd">interface</span> <span class="nc">TasteBud</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="n">Flavour</span><span class="w"> </span><span class="nf">taste</span><span class="p">(</span><span class="n">Food</span><span class="w"> </span><span class="n">f</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="kd">interface</span> <span class="nc">Flavour</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="nf">sweet</span><span class="p">();</span>
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="nf">salty</span><span class="p">();</span>
+<span class="p">}</span>
+<span class="kd">class</span> <span class="nc">AggregateFlavour</span><span class="w"> </span><span class="kd">implements</span><span class="w"> </span><span class="n">Flavour</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">Flavour</span><span class="o">[]</span><span class="w"> </span><span class="n">flavours</span><span class="p">;</span>
+<span class="w">    </span><span class="n">AggregateFlavour</span><span class="p">(</span><span class="n">Flavour</span><span class="o">[]</span><span class="w"> </span><span class="n">flav</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">flavours</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">flav</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="nf">sweet</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="c1">// Sum of sweetness</span>
+<span class="w">        </span><span class="c1">// ...</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="nf">salty</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="c1">// Sum of salty</span>
+<span class="w">        </span><span class="c1">// ...</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="c1">// ...</span>
+<span class="p">}</span>
+<span class="kd">interface</span> <span class="nc">Food</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="c1">// ...</span>
+<span class="p">}</span>
+</code></pre></div>
+    <footer>
+      <p>Published: <time datetime="2024-09-12T00:00:00-06:00">
+        Thu, 12 Sep 2024 at 00:00 MDT
+      </time></p>
+        <address>
+          By             <a href="https://ualberta-cmput301.github.io/author/abram-hindle.html">Abram Hindle</a>
+        </address>
+        <p>
+          Category: <a href="https://ualberta-cmput301.github.io/category/practice.html">practice</a>
+        </p>
+        <p>
+          Tags:
+            <a href="https://ualberta-cmput301.github.io/tag/resources.html">resources</a>
+            <a href="https://ualberta-cmput301.github.io/tag/reading.html">reading</a>
+            <a href="https://ualberta-cmput301.github.io/tag/references.html">references</a>
+            <a href="https://ualberta-cmput301.github.io/tag/videos.html">videos</a>
+            <a href="https://ualberta-cmput301.github.io/tag/practice.html">practice</a>
+            <a href="https://ualberta-cmput301.github.io/tag/exams.html">exams</a>
+        </p>
+    </footer>
+  </article>
+      </main>
+      <footer>
+          <address>
+            Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>,
+            which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
+          </address>
+      </footer>
+  </body>
+</html>

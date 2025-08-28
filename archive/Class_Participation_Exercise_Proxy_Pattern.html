@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <title>CMPUT 301 - Class Participation Exercise Proxy Pattern</title>
+      <meta charset="utf-8" />
+      <meta name="generator" content="Pelican" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Software Engineering" />
+        <link href="https://ualberta-cmput301.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Full Atom Feed" />
+        <link href="https://ualberta-cmput301.github.io/feeds/archive.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Categories Atom Feed" />
+
+  <link rel="icon" href="https://ualberta-cmput301.github.io/theme/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/301.css" />
+
+
+
+
+    <meta name="tags" content="resources" />
+    <meta name="tags" content="participation" />
+    <meta name="tags" content="references" />
+    <meta name="tags" content="practice" />
+
+  </head>
+
+  <body>
+      <header>
+          <hgroup><h1><a href="https://ualberta-cmput301.github.io/">CMPUT 301</a></h1><p>Software Engineering</p></hgroup>
+          <nav><ul>
+              <li><a href="/general/outline.html">Outline</a></li>
+              <li><a href="/#canvas">Canvas & Grades</a></li>
+              <li><a href="/#schedule">Schedule</a></li>
+              <li><a href="/general/labs.html">Labs</a></li>
+              <li><a href="/general/project.html">Project</a></li>
+              <li><a href="/general/individual.html">Individual</a></li>
+              <li><a href="/general/resources.html">Resources</a></li>
+              <li><a href="/general/help.html#discussion-forum">Discussion Forum</a></li>
+              <li><a href="/#news-notices">News & Notices</a></li>
+              <li><a href="/general/slides.html">Slides</a></li>
+              <li><a href="/general/help.html">Help</a></li>
+                <li><a href="https://ualberta-cmput301.github.io/" >Home</a></li>
+          </ul></nav>
+      </header>
+      <main>
+  <article>
+    <header>
+      <h2>
+        <a href="https://ualberta-cmput301.github.io/archive/Class_Participation_Exercise_Proxy_Pattern.html" rel="bookmark"
+           title="Permalink to Class Participation Exercise Proxy Pattern">Class Participation Exercise Proxy Pattern</a></h2>
+      
+    </header>
+    <hr>
+<p><strong>Class Participation Exercise: Proxy Pattern</strong></p>
+<p>Use the Proxy pattern to improve performance by not reading files that aren't actually needed yet.</p>
+<div class="highlight"><pre><span></span><code><span class="kd">interface</span> <span class="nc">OurFile</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kt">byte</span><span class="o">[]</span><span class="w"> </span><span class="nf">fileContents</span><span class="p">();</span><span class="w"> </span><span class="c1">// returns entire file</span>
+<span class="w">    </span><span class="n">String</span><span class="w"> </span><span class="nf">getName</span><span class="p">();</span>
+<span class="p">}</span>
+<span class="kd">class</span> <span class="nc">ConcreteFile</span><span class="w"> </span><span class="kd">implements</span><span class="w"> </span><span class="n">OurFile</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">String</span><span class="w"> </span><span class="n">name</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">byte</span><span class="o">[]</span><span class="w"> </span><span class="n">fileContents</span><span class="p">;</span>
+<span class="w">    </span><span class="n">ConcreteFile</span><span class="p">(</span><span class="n">String</span><span class="w"> </span><span class="n">name</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="p">...</span><span class="w"> </span><span class="p">}</span>
+<span class="w">    </span><span class="n">String</span><span class="w"> </span><span class="nf">getName</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="n">name</span><span class="p">;</span><span class="w"> </span><span class="p">}</span>
+<span class="w">    </span><span class="kt">byte</span><span class="o">[]</span><span class="w"> </span><span class="nf">fileContents</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="n">fileContents</span><span class="p">;</span><span class="w"> </span><span class="p">}</span>
+<span class="w">    </span><span class="p">...</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p>assume <code>ConcreteFile</code> exists and implements <code>OurFile</code>. <code>ConcreteFile</code> reads the entire file when it is constructed.</p>
+<p>Write java code for <code>ProxyFile</code> that proxies a <code>ConcreteFile</code> and doesn't have to read the entire file until  the contents of the file are needed, using the proxy pattern.</p>
+    <footer>
+      <p>Published: <time datetime="2024-09-18T00:00:00-06:00">
+        Wed, 18 Sep 2024 at 00:00 MDT
+      </time></p>
+        <address>
+          By             <a href="https://ualberta-cmput301.github.io/author/jakaria-rabbi.html">Jakaria Rabbi</a>
+        </address>
+        <p>
+          Category: <a href="https://ualberta-cmput301.github.io/category/archive.html">archive</a>
+        </p>
+        <p>
+          Tags:
+            <a href="https://ualberta-cmput301.github.io/tag/resources.html">resources</a>
+            <a href="https://ualberta-cmput301.github.io/tag/participation.html">participation</a>
+            <a href="https://ualberta-cmput301.github.io/tag/references.html">references</a>
+            <a href="https://ualberta-cmput301.github.io/tag/practice.html">practice</a>
+        </p>
+    </footer>
+  </article>
+      </main>
+      <footer>
+          <address>
+            Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>,
+            which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
+          </address>
+      </footer>
+  </body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <title>CMPUT 301 - Class Participation Exercise April 14</title>
+      <meta charset="utf-8" />
+      <meta name="generator" content="Pelican" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Software Engineering" />
+        <link href="https://ualberta-cmput301.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Full Atom Feed" />
+        <link href="https://ualberta-cmput301.github.io/feeds/archive.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Categories Atom Feed" />
+
+  <link rel="icon" href="https://ualberta-cmput301.github.io/theme/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/301.css" />
+
+
+
+
+    <meta name="tags" content="resources" />
+    <meta name="tags" content="participation" />
+    <meta name="tags" content="references" />
+    <meta name="tags" content="practice" />
+
+  </head>
+
+  <body>
+      <header>
+          <hgroup><h1><a href="https://ualberta-cmput301.github.io/">CMPUT 301</a></h1><p>Software Engineering</p></hgroup>
+          <nav><ul>
+              <li><a href="/general/outline.html">Outline</a></li>
+              <li><a href="/#canvas">Canvas & Grades</a></li>
+              <li><a href="/#schedule">Schedule</a></li>
+              <li><a href="/general/labs.html">Labs</a></li>
+              <li><a href="/general/project.html">Project</a></li>
+              <li><a href="/general/individual.html">Individual</a></li>
+              <li><a href="/general/resources.html">Resources</a></li>
+              <li><a href="/general/help.html#discussion-forum">Discussion Forum</a></li>
+              <li><a href="/#news-notices">News & Notices</a></li>
+              <li><a href="/general/slides.html">Slides</a></li>
+              <li><a href="/general/help.html">Help</a></li>
+                <li><a href="https://ualberta-cmput301.github.io/" >Home</a></li>
+          </ul></nav>
+      </header>
+      <main>
+  <article>
+    <header>
+      <h2>
+        <a href="https://ualberta-cmput301.github.io/archive/class_participation_exer_april14.html" rel="bookmark"
+           title="Permalink to Class Participation Exercise April 14">Class Participation Exercise April 14</a></h2>
+      
+    </header>
+    <p>Speaker is a class that utters words and uses the <strong>state</strong> pattern to change its behaviour.</p>
+<div class="highlight"><pre><span></span><code><span class="kd">class</span> <span class="nc">Speaker</span><span class="w"> </span><span class="p">{</span>
+
+<span class="w">    </span><span class="n">Speak</span><span class="w"> </span><span class="n">speak</span><span class="p">;</span>
+
+<span class="w">   </span><span class="c1">// delegate behaviour</span>
+
+<span class="w">   </span><span class="kd">public</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="nf">speak</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+
+<span class="w">       </span><span class="k">return</span><span class="w"> </span><span class="n">speak</span><span class="p">.</span><span class="na">speak</span><span class="p">();</span>
+
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">     </span><span class="p">...</span>
+
+<span class="p">}</span>
+
+<span class="kd">public</span><span class="w"> </span><span class="kd">interface</span> <span class="nc">Speak</span><span class="w"> </span><span class="p">{</span>
+
+<span class="w">     </span><span class="kd">public</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="nf">speak</span><span class="p">();</span>
+
+<span class="p">}</span>
+
+<span class="kd">class</span> <span class="nc">Squawk</span><span class="w"> </span><span class="kd">implements</span><span class="w"> </span><span class="n">Speak</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="p">...</span><span class="w"> </span><span class="p">}</span>
+
+<span class="kd">class</span> <span class="nc">Cluck</span><span class="w"> </span><span class="kd">implements</span><span class="w"> </span><span class="n">Speak</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="p">...</span><span class="w"> </span><span class="p">}</span>
+
+<span class="kd">class</span> <span class="nc">Tick</span><span class="w"> </span><span class="kd">implements</span><span class="w"> </span><span class="n">Speak</span><span class="w"> </span><span class="p">{</span>
+
+<span class="w">     </span><span class="kd">public</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="nf">speak</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+
+<span class="w">          </span><span class="k">return</span><span class="w"> </span><span class="s">&quot;Tick”;</span>
+
+<span class="s">     }</span>
+
+<span class="s">}</span>
+</code></pre></div>
+
+<p>Speaker has behaviours such as Squawk which returns random Squawking strings, and Cluck which returns random clucking strings. Tick just returns "Tick”.</p>
+<p><strong>Finish</strong> this decorator for Speak states that lowercases the Speak states.</p>
+<div class="highlight"><pre><span></span><code><span class="c1">//&quot;X”.toLowerCase().equals(&quot;x”)</span>
+
+<span class="kd">class</span> <span class="nc">LowerCaseSpeakDecorator</span><span class="w"> </span><span class="kd">implements</span><span class="w"> </span><span class="n">Speak</span><span class="w"> </span><span class="p">{</span>
+
+<span class="w">     </span><span class="n">Speak</span><span class="w"> </span><span class="n">speak</span><span class="p">;</span>
+
+<span class="w">     </span><span class="n">LowerCaseSpeakDecorator</span><span class="p">(</span><span class="n">Speak</span><span class="w"> </span><span class="n">delegate</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+
+<span class="w">         </span><span class="n">speak</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">delegate</span><span class="p">;</span>
+
+<span class="w">     </span><span class="p">}</span>
+
+<span class="w">     </span><span class="kd">public</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="nf">speak</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+
+
+
+
+
+
+
+<span class="w">     </span><span class="p">}</span>
+
+<span class="p">}</span>
+</code></pre></div>
+
+<p>Show how to make a lowercase tick behaviour.</p>
+    <footer>
+      <p>Published: <time datetime="2024-09-18T00:00:00-06:00">
+        Wed, 18 Sep 2024 at 00:00 MDT
+      </time></p>
+        <address>
+          By             <a href="https://ualberta-cmput301.github.io/author/hazel-victoria-campbell.html">Hazel Victoria Campbell</a>
+        </address>
+        <p>
+          Category: <a href="https://ualberta-cmput301.github.io/category/archive.html">archive</a>
+        </p>
+        <p>
+          Tags:
+            <a href="https://ualberta-cmput301.github.io/tag/resources.html">resources</a>
+            <a href="https://ualberta-cmput301.github.io/tag/participation.html">participation</a>
+            <a href="https://ualberta-cmput301.github.io/tag/references.html">references</a>
+            <a href="https://ualberta-cmput301.github.io/tag/practice.html">practice</a>
+        </p>
+    </footer>
+  </article>
+      </main>
+      <footer>
+          <address>
+            Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>,
+            which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
+          </address>
+      </footer>
+  </body>
+</html>

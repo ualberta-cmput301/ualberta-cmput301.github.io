@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <title>CMPUT 301 - 2021 W Project Problem Description</title>
+      <meta charset="utf-8" />
+      <meta name="generator" content="Pelican" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Software Engineering" />
+        <link href="https://ualberta-cmput301.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Full Atom Feed" />
+        <link href="https://ualberta-cmput301.github.io/feeds/old_project_descriptions.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Categories Atom Feed" />
+
+  <link rel="icon" href="https://ualberta-cmput301.github.io/theme/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/301.css" />
+
+
+
+
+    <meta name="tags" content="projects" />
+    <meta name="tags" content="teams" />
+    <meta name="tags" content="grading" />
+
+  </head>
+
+  <body>
+      <header>
+          <hgroup><h1><a href="https://ualberta-cmput301.github.io/">CMPUT 301</a></h1><p>Software Engineering</p></hgroup>
+          <nav><ul>
+              <li><a href="/general/outline.html">Outline</a></li>
+              <li><a href="/#canvas">Canvas & Grades</a></li>
+              <li><a href="/#schedule">Schedule</a></li>
+              <li><a href="/general/labs.html">Labs</a></li>
+              <li><a href="/general/project.html">Project</a></li>
+              <li><a href="/general/individual.html">Individual</a></li>
+              <li><a href="/general/resources.html">Resources</a></li>
+              <li><a href="/general/help.html#discussion-forum">Discussion Forum</a></li>
+              <li><a href="/#news-notices">News & Notices</a></li>
+              <li><a href="/general/slides.html">Slides</a></li>
+              <li><a href="/general/help.html">Help</a></li>
+                <li><a href="https://ualberta-cmput301.github.io/" >Home</a></li>
+          </ul></nav>
+      </header>
+      <main>
+  <article>
+    <header>
+      <h2>
+        <a href="https://ualberta-cmput301.github.io/resources/old_project_descriptions/2021_W_ProjectDesc.html" rel="bookmark"
+           title="Permalink to 2021 W Project Problem Description">2021 W Project Problem Description</a></h2>
+      
+    </header>
+    <p>Warning: This is subject to change!</p>
+<p>You are to design and implement a simple, attractive, and easy-to-use Android application to satisfy the following goals. Your design must be flexible enough to allow developers to extend or migrate it.</p>
+<p>We want a mobile application that allows crowd-sourced testing of phenomona. There are 4 kinds of crowd-sourced tests: counts (how many did you see), binomial trials (pass fail), non-negative integer counts (each trial has 0 or more), measurement trials (like the temperature).</p>
+<p>Count-based tests are about how many of something a person observed, it could be blue cars. Everytime they see a blue car they add 1 to the count seen. For instance you want to crowdsource how many blue cars are seen in Edmonton.</p>
+<p>Binomial trials are trials where there's a chance to pass or fail. Users will repeat these trials and indicate pass or success. It could be a series of trials where you try to flip a water bottle upside down.</p>
+<p>Non-negative integer counts are trials where each trial results in a non-negative integer results (usually a count). Such as if I drop a carton of eggs, how many eggs survive.</p>
+<p>Measurement trials are repeated measurements and you record a decimal value of whatever was measured.</p>
+<p>A chief experimenter (owner) describes and proposes a trial, gives rules and constraints that crowd experimenters will follow when they execute the trials. The crowd experimenters will look for trials that interest them, subscribe to trials and help execute and record trials for these experiments.</p>
+<p>Needs in (Partial) User Story Form</p>
+<p>User needs are expressed in the form of partial user stories:</p>
+<p>As a <role>, I want <goal>.</p>
+<p>These descriptions may change to correct omissions and clarify noticed issues. New requirements will be introduced for the final project part.</p>
+<h5 id="experiment">Experiment</h5>
+<p>US 01.01.01
+As an owner, I want to publish an experiment with a description, a region, and a minimum number of trials.</p>
+<p>US 01.02.01
+As an owner, I want to unpublish an experiment.</p>
+<p>US 01.03.01
+As an owner, I want to end an experiment. This leaves the results available and public but does not allow new results to be added.</p>
+<p>US 01.04.01
+As an owner or experimenter, I want to subscribe to an experiment to participate in it.</p>
+<p>US 01.05.01
+As an experimenter, I want to be able to execute trials for an experiment and upload them to the experiment.</p>
+<p>US 01.08.01
+As an owner, I want to ignore certain experimenters results.</p>
+<p>US 01.09.01
+As an owner or experimenter, I want to observe statistics (quartiles, median, mean, stdev) about a current trials.</p>
+<p>US 01.06.01
+As an owner or experimenter, I want to see histograms of the results of trials.</p>
+<p>US 01.07.01
+As an owner or experimenter, I want to see plots of the results of trials over time.</p>
+<p><br></p>
+<h5 id="questions">Questions</h5>
+<p>US 02.01.01
+As an experimenter, I want to ask a question about an experiment.</p>
+<p>US 02.02.01
+As an experimenter or owner, I want to ask to reply to questions about an experiment.</p>
+<p>US 02.03.01
+As an experimenter or owner, I want to browse questions and replies about an experiment.</p>
+<p>QR Codes</p>
+<p>US 03.01.01
+As an experimenter, I want to be able to generate QR codes that I can print for a specific experiment and trial result (for instance PASS for a binomial trial I subscribed to).</p>
+<p>US 03.02.01
+As an experimenter, I want to be able scan QR codes to indicate success or failure, or increment counts for trials I subscribed to.</p>
+<p>US 03.03.01
+As an experimenter, I want to be able to register an arbitrary bar code (such as one off of your favourite book) to act a specific experiment result for a trial.</p>
+<p><br></p>
+<h5 id="user-profile">User profile</h5>
+<p>US 04.01.01
+As an owner or experimenter, I want a profile with a unique username and my contact information.</p>
+<p>US 04.02.01
+As an owner or experimenter, I want to edit the contact information in my profile.</p>
+<p>US 04.03.01
+As an owner or experimenter, I want to retrieve and show the profile of a presented username.</p>
+<p>US 04.04.01 <em>new for Part 4</em></p>
+<p>As an owner or experimenter, I do not want to log into my application using a username and password.</p>
+<p><br></p>
+<h5 id="searching">Searching</h5>
+<p>US 05.01.01
+As an experimenter, I want to specify a keyword, and search for all experiments that are available.</p>
+<p>US 05.02.01
+As an experimenter, I want search results to show each experiment with its description, owner username, and status.</p>
+<p><br></p>
+<h5 id="location">Location</h5>
+<p>US 06.01.01
+As an owner, I want to specify a Geo-location is required or not for trials.</p>
+<p>US 06.02.01
+As an experimenter, I want to add Geo-location to experimental trials that need it.</p>
+<p>US 06.03.01
+As an experimenter, I want to be warned about geo-location trials.</p>
+<p>US 06.04.01
+As an experimenter, I want to see a map of geo-locations of a geo-location enabled expirement.</p>
+    <footer>
+      <p>Published: <time datetime="2024-11-04T00:00:00-07:00">
+        Mon, 04 Nov 2024 at 00:00 MST
+      </time></p>
+        <address>
+          By             <a href="https://ualberta-cmput301.github.io/author/tina-nguyen.html">Tina Nguyen</a>
+            <a href="https://ualberta-cmput301.github.io/author/hazel-victoria-campbell.html">Hazel Victoria Campbell</a>
+        </address>
+        <p>
+          Category: <a href="https://ualberta-cmput301.github.io/category/old_project_descriptions.html">old_project_descriptions</a>
+        </p>
+        <p>
+          Tags:
+            <a href="https://ualberta-cmput301.github.io/tag/projects.html">projects</a>
+            <a href="https://ualberta-cmput301.github.io/tag/teams.html">teams</a>
+            <a href="https://ualberta-cmput301.github.io/tag/grading.html">grading</a>
+        </p>
+    </footer>
+  </article>
+      </main>
+      <footer>
+          <address>
+            Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>,
+            which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
+          </address>
+      </footer>
+  </body>
+</html>

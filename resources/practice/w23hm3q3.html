@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <title>CMPUT 301 - Practice w23hm3q3</title>
+      <meta charset="utf-8" />
+      <meta name="generator" content="Pelican" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Software Engineering" />
+        <link href="https://ualberta-cmput301.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Full Atom Feed" />
+        <link href="https://ualberta-cmput301.github.io/feeds/practice.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Categories Atom Feed" />
+
+  <link rel="icon" href="https://ualberta-cmput301.github.io/theme/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/301.css" />
+
+
+
+
+    <meta name="tags" content="resources" />
+    <meta name="tags" content="practice exams" />
+
+  </head>
+
+  <body>
+      <header>
+          <hgroup><h1><a href="https://ualberta-cmput301.github.io/">CMPUT 301</a></h1><p>Software Engineering</p></hgroup>
+          <nav><ul>
+              <li><a href="/general/outline.html">Outline</a></li>
+              <li><a href="/#canvas">Canvas & Grades</a></li>
+              <li><a href="/#schedule">Schedule</a></li>
+              <li><a href="/general/labs.html">Labs</a></li>
+              <li><a href="/general/project.html">Project</a></li>
+              <li><a href="/general/individual.html">Individual</a></li>
+              <li><a href="/general/resources.html">Resources</a></li>
+              <li><a href="/general/help.html#discussion-forum">Discussion Forum</a></li>
+              <li><a href="/#news-notices">News & Notices</a></li>
+              <li><a href="/general/slides.html">Slides</a></li>
+              <li><a href="/general/help.html">Help</a></li>
+                <li><a href="https://ualberta-cmput301.github.io/" >Home</a></li>
+          </ul></nav>
+      </header>
+      <main>
+  <article>
+    <header>
+      <h2>
+        <a href="https://ualberta-cmput301.github.io/resources/practice/w23hm3q3.html" rel="bookmark"
+           title="Permalink to Practice w23hm3q3">Practice w23hm3q3</a></h2>
+      
+    </header>
+    <hr>
+<p><strong>Midterm 3 Question 3 (March 29) -- Hindle</strong></p>
+<p><em>Submit a PDF, PNG or JPEG</em></p>
+<p><em>5 marks</em></p>
+<p><em>You must add your CCID to your answer</em></p>
+<p>Dependency Injection with Singleton Pattern (UML class diagram)</p>
+<p>This code represents the attempt to test a networked toaster. But we’re having a hard time testing it because we used the singleton pattern. Combine dependency injection with the singleton pattern so we can inject a mock object as the singleton. Provide a UML class diagram depicting the structure and operations one would expect after refactoring this code to allow dependency injection on the singleton. You cannot modify ToastCommand, or MockToaster. Modify the singleton with dependency injection.</p>
+<p>You must provide the 1 line of Java code that we need to add in ToastCommandTest.testOnFire in a UML comment (see example below).</p>
+<p><img alt="Image" src="https://ualberta-cmput301.github.io/resources/practice/w23hm3q3.png"></p>
+<p>Draw the resulting UML class diagram of the refactored code, including the . Provide the basic abstractions, attributes, methods, relationships, multiplicities, and navigabilities as appropriate. "...” or “/<em> … </em>/” means much code is omitted.</p>
+<div class="highlight"><pre><span></span><code><span class="kd">class</span> <span class="nc">Toaster</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="cm">/* We have control over this class /</span>
+<span class="cm">    private static Toaster instance = new Toaster();</span>
+<span class="cm">    protected Toaster() { / ... / }</span>
+<span class="cm">    public static Toaster getInstance() {</span>
+<span class="cm">        return instance;</span>
+<span class="cm">    }</span>
+<span class="cm">    // tells us if the toaster is on fire.</span>
+<span class="cm">    public boolean onFire() { / ... / }</span>
+<span class="cm">    / ... /</span>
+<span class="cm">}</span>
+<span class="cm">class ToastCommand {</span>
+<span class="cm">    // do not modify this class</span>
+<span class="cm">    void toast() {</span>
+<span class="cm">        Toaster p = Toaster.getInstance();</span>
+<span class="cm">        if (p.onFire()) { // test the code inside this if block</span>
+<span class="cm">            throw new ToasterOnFireException(&quot;Toaster Meltdown&quot;);</span>
+<span class="cm">        }</span>
+<span class="cm">        / ... /</span>
+<span class="cm">    }</span>
+<span class="cm">}</span>
+<span class="cm">class MockToaster extends Toaster {</span>
+<span class="cm">    // do not modify this class</span>
+<span class="cm">    MockToaster() { / ... / }</span>
+<span class="cm">    public boolean onFire() { return true; }</span>
+<span class="cm">    / ... */</span>
+<span class="p">}</span>
+<span class="kd">class</span> <span class="nc">ToastCommandTest</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="c1">// modify 1 line of this class</span>
+<span class="w">    </span><span class="kt">void</span><span class="w"> </span><span class="nf">testOnFire</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">ToastCommand</span><span class="w"> </span><span class="n">t</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ToastCommand</span><span class="p">();</span>
+<span class="w">        </span><span class="n">MockToaster</span><span class="w"> </span><span class="n">mock</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">MockToaster</span><span class="p">();</span>
+<span class="w">                                           </span><span class="c1">// fill in this line</span>
+<span class="w">        </span><span class="k">try</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="n">t</span><span class="p">.</span><span class="na">toast</span><span class="p">();</span>
+<span class="w">            </span><span class="k">assert</span><span class="p">(</span><span class="w"> </span><span class="kc">false</span><span class="w"> </span><span class="p">);</span><span class="w"> </span><span class="c1">// shouldn&#39;t reach here</span>
+<span class="w">        </span><span class="p">}</span><span class="w"> </span><span class="k">catch</span><span class="w"> </span><span class="p">(</span><span class="n">ToasterOnFireException</span><span class="w"> </span><span class="n">e</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="k">assert</span><span class="p">(</span><span class="w"> </span><span class="kc">true</span><span class="w"> </span><span class="p">);</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+    <footer>
+      <p>Published: <time datetime="2023-03-29T00:00:00-06:00">
+        Wed, 29 Mar 2023 at 00:00 MDT
+      </time></p>
+        <address>
+          By             <a href="https://ualberta-cmput301.github.io/author/abram-hindle.html">Abram Hindle</a>
+        </address>
+        <p>
+          Category: <a href="https://ualberta-cmput301.github.io/category/practice.html">practice</a>
+        </p>
+        <p>
+          Tags:
+            <a href="https://ualberta-cmput301.github.io/tag/resources.html">resources</a>
+            <a href="https://ualberta-cmput301.github.io/tag/practice-exams.html">practice exams</a>
+        </p>
+    </footer>
+  </article>
+      </main>
+      <footer>
+          <address>
+            Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>,
+            which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
+          </address>
+      </footer>
+  </body>
+</html>

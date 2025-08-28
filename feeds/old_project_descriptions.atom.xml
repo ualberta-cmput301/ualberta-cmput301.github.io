@@ -1,0 +1,1562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CMPUT 301 - old_project_descriptions</title><link href="https://ualberta-cmput301.github.io/" rel="alternate"/><link href="https://ualberta-cmput301.github.io/feeds/old_project_descriptions.atom.xml" rel="self"/><id>https://ualberta-cmput301.github.io/</id><updated>2024-11-04T00:00:00-07:00</updated><subtitle>Software Engineering</subtitle><entry><title>2011 W Project Problem Description</title><link href="https://ualberta-cmput301.github.io/resources/old_project_descriptions/2011_W_ProjectDesc.html" rel="alternate"/><published>2024-11-04T00:00:00-07:00</published><updated>2024-11-04T00:00:00-07:00</updated><author><name>Tina Nguyen</name></author><id>tag:ualberta-cmput301.github.io,2024-11-04:/resources/old_project_descriptions/2011_W_ProjectDesc.html</id><summary type="html">&lt;p&gt;2011 W Project Problem Description&lt;/p&gt;</summary><content type="html">&lt;h3 id="project-problem-description"&gt;Project Problem Description&lt;/h3&gt;
+&lt;p&gt;You are to design and implement an attractive, usable, interactive Java application to help satisfy the following user's goals. Your design should be flexible enough to allow future developers to add new types of entries (see below).&lt;/p&gt;
+&lt;h4 id="needs-in-partial-user-story-form"&gt;Needs In (Partial) User Story Form&lt;/h4&gt;
+&lt;p&gt;These needs are expressed in the form of partial user stories:
+as a &lt;role&gt;, I want &lt;goal&gt;
+as a &lt;role&gt;, I want &lt;goal&gt; so that &lt;reason&gt;&lt;/p&gt;
+&lt;p&gt;These description may change in minor ways to correct omissions and clarify noticed issues.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;As a user, I want to keep a record of my daily fitness-related activities in a journal so that I can monitor my progress. Types of entries include cardio workouts (i.e., outdoor cycling), strength workouts (i.e., free weights), and comment. There may be multiple, reorderable entries per day.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;As a user, I want to see the entries for a single day, and move backwards and forwards one day at a time.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;As a user, I want to see the entries for the days of four weeks at a time, and move backwards and forwards one week at a time. A week begins on Monday and ends on Sunday.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;As a user, I want to be able to add, edit, and delete entries, including instant, multiple undo and redo of these changes (at the level of entries), so that I can freely make changes at any time.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;As a user, I want data entry to be quick and structured, yet not unduly fussy. This is especially important if I happen to be using the application during a strength workout to keep track of exercises.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;As a user, I want to obtain help, so that I can learn what tasks I can do and what a data field is intended for.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;As a user, I want a comment entry to record a non-workout activity or general observation. Typical uses would be, for example, to note a meal, a weight measure, a waist measure, a resting heart rate measure, a soreness, a sickness, fatigue, mood, etc.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;As a user, I want each outdoor cycling workout to include the following information: trip distance (in km, to 2 decimal places), trip time (in hh:mm:ss format), average speed (in km/h, to 2 decimal places), average cadence (in whole revolutions/min), and maximum speed (in km/h, to 2 decimal places). This data will be entered manually, in that order.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;As a user, I want each outdoor cycling workout to include the following optional weather-related information: temperature (in whole degrees Celsius), wind speed (in whole km/h), and direction (one of 16 compass points). This data will be entered manually, in that order.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;As a user, I want each cardio workout to include the following information: time in zone (in hh:mm:ss format), zone start (in whole beats/min), zone end (in whole beats/min), average heart rate (in whole beats/min), peak heart rate (in whole beats/min), and calories expended (in whole kcal). This data will be entered manually, in that order.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;As a user, I want to name and specify preset heart rate values of up to 5 heart rate zones, so that I can choose a named zone to quickly fill in the values for the zone start and end in a cardio workout.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;As a user, I want each free-weight workout to include for each exercise, the exercise name (required), number of sets (optional), number of reps (optional), and amount of weight (optional).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;As a user, I want each strength workout to include the time duration in hh:mm.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;As a user, I want to specify a workout in advance to remind me what activity to do on a particular day. I can delete the workout should it not occur.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;As a user, I want to have a plan for a workout, detailing a particular goal or set of exercises. After the workout, I can rate the workout (0 to 5) on how well I achieved that goal or completed the exercises.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;As a user, I want to avoid reentering plan details if different workouts will have the same plan. Also plans for different workout types should not be mixed.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;As a user, I want to add a free-form note to a workout, containing anything else that doesn't belong to one of the existing data fields.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;As a user, I want to have a brief free-form note for a week, so that I can specify the cardio and/or strength goal or phase for that week.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;As a user, I want to see (as needed) a chart of outdoor cycling total trip distances covered in each month for a given year and previous year compared. It should be possible to have this chart visible as workouts are edited. If there is no data for a particular year, omit that year.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;As a user, I want to see (as needed) a chart of outdoor cycling total trip times done in each month for a given year and previous year compared. It should be possible to have this chart visible as workouts are edited. If there is no data for a particular year, omit that year.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;As a user, I want to see the outdoor cycling total trip distance covered and total trip time done so far in the current year compared to that of the previous year.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content><category term="old_project_descriptions"/><category term="projects"/><category term="teams"/><category term="grading"/></entry><entry><title>2012 W Project Problem Description</title><link href="https://ualberta-cmput301.github.io/resources/old_project_descriptions/2012_W_ProjectDesc.html" rel="alternate"/><published>2024-11-04T00:00:00-07:00</published><updated>2024-11-04T00:00:00-07:00</updated><author><name>Tina Nguyen</name></author><id>tag:ualberta-cmput301.github.io,2024-11-04:/resources/old_project_descriptions/2012_W_ProjectDesc.html</id><summary type="html">&lt;p&gt;2012 W Project Problem Description&lt;/p&gt;</summary><content type="html">&lt;p&gt;You are to design and implement an attractive, usable, interactive Android application to help satisfy the following user's goals. Your design should be flexible enough to allow future developers to extend it to, for example, add new types of entries (see below).&lt;/p&gt;
+&lt;h3 id="users-problem-description"&gt;User's Problem Description&lt;/h3&gt;
+&lt;p&gt;I went to my doctor and had a physical. It was embarassing. The doctor pointed out some spots and asked if I had seen them before. I wasn't sure, so neither put pushed the issue any further. We didn't know, so we weren't going to do anything. Another time I went to the doctor and had the doctor investigate a spot on my hand. The doctor asked me if it had changed, I wasn't sure. The doctor asked me if it had grown, I said I assume so because why am I noticing it now. The doctor shrugged, said it looked alright and told me to keep track of it. Come back if it changed.&lt;/p&gt;
+&lt;p&gt;I can't remember if it changes, to prove something changed I need evidence. I could take photos of my whole body and keep them in a safe place, but would I remember to take the photos again and consistently?&lt;/p&gt;
+&lt;p&gt;Thus I want software that will run on my phone and allow me to take photos of skin issues I might have. These photos will be for my own sanity as well I can provide them to physicians when they are needed.&lt;/p&gt;
+&lt;p&gt;I the user want to be able to track and document changes that occur on my skin. I want to use my cellphone to help me document all the blemishes and marks on my skin such that I can keep track of them.&lt;/p&gt;
+&lt;h4 id="needs-in-partial-user-story-form"&gt;Needs in (Partial) User Story Form&lt;/h4&gt;
+&lt;p&gt;User needs are expressed in the form of partial user stories:
+as a &lt;role&gt;, I want &lt;goal&gt;
+as a &lt;role&gt;, I want &lt;goal&gt; so that &lt;reason&gt;&lt;/p&gt;
+&lt;p&gt;These descriptions may change to correct omissions and clarify noticed issues.&lt;/p&gt;
+&lt;p&gt;As a user, I want to keep a visual log of any skin conditions I might . The purpose could be to gather a personal history of  a medical condition as to provide evidence to a physician.&lt;/p&gt;
+&lt;p&gt;As a user, I want pictures I take to be stored so that I may recall them and view them later.&lt;/p&gt;
+&lt;p&gt;As a user, I want all pictures I take to be timestamped so that I can measure the time between photos and know when an event occurred.&lt;/p&gt;
+&lt;p&gt;As a user, I want a method to organize these pictures so that I can view pictures of the same bit of skin over time and see if there is any progression or growth. For instance I might want to organize some photos that are related to my "gross mole that occurs on my right hand".&lt;/p&gt;
+&lt;p&gt;As a user if I have an organizational tag or group, I want to be able to add photos to that group so that I can further track the progression of something relevant to that group.&lt;/p&gt;
+&lt;p&gt;As a user, I want to be able to review any photos I have taken and view them so that I can see any changes.&lt;/p&gt;
+&lt;p&gt;As a user, I want some method of helping me take consistent photos, so that when I show the doctor any progression such as the growth of a mole is evident.&lt;/p&gt;
+&lt;p&gt;As a user, I should be able to retake photos I am taking, if I fail to take the photo I want to correct, so that I don't have erroneous photos.&lt;/p&gt;
+&lt;p&gt;As a user, I should be able to compare pictures in some manner, so that I can personally inspect them for differences.&lt;/p&gt;
+&lt;h4 id="new-needs-for-project-part-4-in-partial-user-story-form"&gt;New Needs for Project Part 4 in (Partial) User Story Form&lt;/h4&gt;
+&lt;p&gt;As a user, I am worried that if my phone gets stolen people will see my photos. I want my photos secured via a password.&lt;/p&gt;
+&lt;p&gt;As a user, I am worried that if my phone gets stolen people will extract my photos and view them. I want my photos encrypted on the phone so if someone accesses the file system the image data should be encrypted so
+they can't extract the jpegs.&lt;/p&gt;
+&lt;p&gt;As a user, I want notifications about when I should take photos again. I'm forgetful and being told every so often to take new photos would be helpful. Certain photos I don't have to retake again.&lt;/p&gt;
+&lt;p&gt;As a user, I would like to control the rate, per blemish/set of photos that the notifications occur.&lt;/p&gt;
+&lt;p&gt;As a user, I want to email a set of photos to my physician.&lt;/p&gt;
+&lt;p&gt;As a user, I want to extract a set of the photos into an archive on my
+SDCard so I can share them.&lt;/p&gt;
+&lt;p&gt;As a user I would like to annotate images with annotations to describe
+the scenario that I made this photo&lt;/p&gt;
+&lt;p&gt;As a user I would like to tag the images so I can query the image by tag.&lt;/p&gt;
+&lt;p&gt;As a user I would like to browse the photos in different ways, by time, by tag, etc.&lt;/p&gt;
+&lt;p&gt;As a Doctor, I want to use this application to record information about my own patients. Thus I need to organize blemishes and photo collection per patient.&lt;/p&gt;
+&lt;p&gt;As a Doctor, I want to browse my patient photos in different ways, by time, by tag, etc.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;
+A class advances and questions are asked new story cards will be created.&lt;/p&gt;</content><category term="old_project_descriptions"/><category term="projects"/><category term="teams"/><category term="grading"/></entry><entry><title>2013 W Project Problem Description</title><link href="https://ualberta-cmput301.github.io/resources/old_project_descriptions/2013_W_ProjectDesc.html" rel="alternate"/><published>2024-11-04T00:00:00-07:00</published><updated>2024-11-04T00:00:00-07:00</updated><author><name>Tina Nguyen</name></author><id>tag:ualberta-cmput301.github.io,2024-11-04:/resources/old_project_descriptions/2013_W_ProjectDesc.html</id><summary type="html">&lt;p&gt;2013 W Project Problem Description&lt;/p&gt;</summary><content type="html">&lt;p&gt;You are to design and implement an attractive, usable, interactive Android application to help satisfy the following user's goals. Your design should be flexible enough to allow future developers to extend it to, for example, add new types of entries (see below).&lt;/p&gt;
+&lt;h3 id="users-problem-description"&gt;User's Problem Description&lt;/h3&gt;
+&lt;p&gt;I want to keep recipes, but I also want to find recipes, eventually I found similar people had similar goals. Some people wanted recipes they could execute immediately given what they had in their fridge or pantry.&lt;/p&gt;
+&lt;p&gt;I want a system where I can record, post, search and download recipes. I want such a system to be able to address the food I have in my pantry and refridgerator.&lt;/p&gt;
+&lt;p&gt;It would be nice to include photos of said recipes.&lt;/p&gt;
+&lt;p&gt;I want the system to query the recipes system with ingredients I already have and have it suggest appropriate recipes.&lt;/p&gt;
+&lt;p&gt;Furthermore it should be easy to share these recipes over email.&lt;/p&gt;
+&lt;h4 id="needs-in-partial-user-story-form"&gt;Needs in (Partial) User Story Form&lt;/h4&gt;
+&lt;p&gt;User needs are expressed in the form of partial user stories:
+as a &lt;role&gt;, I want &lt;goal&gt;
+as a &lt;role&gt;, I want &lt;goal&gt; so that &lt;reason&gt;&lt;/p&gt;
+&lt;p&gt;These descriptions may change to correct omissions and clarify noticed issues.&lt;/p&gt;
+&lt;p&gt;As a user, I want to record recipes.&lt;/p&gt;
+&lt;p&gt;As a user, I want to share recipes over email.&lt;/p&gt;
+&lt;p&gt;As a user, I want to publish recipes.&lt;/p&gt;
+&lt;p&gt;As a user, I want to search for recipes.&lt;/p&gt;
+&lt;p&gt;As a user, I want to have some recipes cached so that I don't need the internet to work for me to use this program.&lt;/p&gt;
+&lt;p&gt;As a user, I want to post and publish photos associated with the recipe.&lt;/p&gt;
+&lt;p&gt;As a user, executing a recipe I want to take photos and attach the photos to the recipe.&lt;/p&gt;
+&lt;p&gt;As a user, I want the recipes to be stored so I can view them offline.&lt;/p&gt;
+&lt;p&gt;As a user, recipes I make can have multiple photos.&lt;/p&gt;
+&lt;p&gt;As a user, I can upload photos for other recipes I did not make, but were downloaded.&lt;/p&gt;
+&lt;p&gt;As a user, I should be able to retake photos I am taking, if I fail to take the photo I want to correct, so that I don't have erroneous photos.&lt;/p&gt;
+&lt;p&gt;As a user I should be able to get recipes from other users somehow.&lt;/p&gt;
+&lt;p&gt;As a user I want to be able to record/edit/view/modify the ingredients I already have.&lt;/p&gt;
+&lt;p&gt;As a user I want to be able to query for recipes that have the ingredients I already have.&lt;/p&gt;
+&lt;h4 id="new-requirements"&gt;New requirements&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;As&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;I&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;want&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;email&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;other&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;users&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;recipes&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;that&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;they&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;can&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;immediately&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nn"&gt;into&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;their&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;recipe&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;program&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+
+
+&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;As&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;I&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;want&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;limit&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;modifications&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;of&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;recipe&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;myself&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;only&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Note&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;this&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;doesn&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;t have to be done server side, your&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;app&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;could&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;enforce&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;this&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;l&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+
+
+&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;As&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;I&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;want&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;globally&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;tag&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;recipes&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Recipes&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;can&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;have&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;multiple&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;tags&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;and&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;other&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;users&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;can&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;see&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;these&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;tags&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;l&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+
+
+&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;As&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;I&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;want&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;browse&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;recipes&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;by&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;tags&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+
+
+&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;As&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;I&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;want&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;query&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;recipes&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;based&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;on&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;subset&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;of&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;my&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;ingredients&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+
+
+&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;As&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;I&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;want&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;organize&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;ingredients&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;into&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;folders&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;like&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;fridge&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;or&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;cabin&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;fridge&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;and&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;be&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;able&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;query&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;recipes&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;based&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;on&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;these&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;folders&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;l&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+
+
+&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;As&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;I&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;want&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;optionally&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;browse&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;recipes&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;with&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;only&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;photos&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+
+
+&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;As&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;I&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;want&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;search&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;recipes&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;I&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;downloaded&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;already&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+
+
+&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;As&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;I&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;want&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;read&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;write&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;comments&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;on&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;recipe&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;l&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+
+&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;As&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;I&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;want&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;delete&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;cached&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;recipes&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;downloaded&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+
+
+&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;As&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;I&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;want&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;export&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;my&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;recipes&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;some&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;kind&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;of&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;file&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;so&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;I&lt;/span&gt;
+&lt;span class="w"&gt;  &lt;/span&gt;&lt;span class="n"&gt;can&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;export&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;them&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;other&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;programs&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;l&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+
+&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;As&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;I&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;want&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;browse&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;the&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;most&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;popular&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;recipes&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;based&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;on&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;their&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;downloaded&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;counts&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;l&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+
+&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;As&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;I&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;want&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;STAR&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;good&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;recipes&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ow"&gt;and&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;I&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;want&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;browse&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;recipes&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;that&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;everyone&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;has&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;given&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;the&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;most&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;stars&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;l&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;As class advances and questions are asked new story cards will be created.&lt;/p&gt;
+&lt;h4 id="webservice-notes"&gt;Webservice Notes&lt;/h4&gt;
+&lt;p&gt;Please see the URL: http://www.elasticsearch.org/ and http://www.elasticsearch.org/guide/reference/query-dsl/query-string-query.html&lt;/p&gt;
+&lt;p&gt;Each group now has its own personal prefix on the elastisearch. Your Android application can communicate to your group's webservice.&lt;/p&gt;
+&lt;p&gt;Binaries should be small, and you can post them, but be sure you read up on how to send binaries to elastisearch  http://www.elasticsearch.org/guide/reference/mapping/core-types.html http://www.elasticsearch.org/guide/reference/api/admin-indices-put-mapping.html&lt;/p&gt;
+&lt;p&gt;This webservice is meant to allow posting, listing, deleting and searching recipes. It has a JSON format that can be defined by your group in order to encode more difficult tasks.&lt;/p&gt;
+&lt;p&gt;http://cmput301.softwareprocess.es:8080/CMPUT301W13T01/&lt;/p&gt;
+&lt;p&gt;http://cmput301.softwareprocess.es:8080/CMPUT301W13T02/&lt;/p&gt;
+&lt;p&gt;http://cmput301.softwareprocess.es:8080/CMPUT301W13T03/&lt;/p&gt;
+&lt;p&gt;http://cmput301.softwareprocess.es:8080/CMPUT301W13T04/&lt;/p&gt;
+&lt;p&gt;http://cmput301.softwareprocess.es:8080/CMPUT301W13T05/&lt;/p&gt;
+&lt;p&gt;http://cmput301.softwareprocess.es:8080/CMPUT301W13T07/&lt;/p&gt;
+&lt;p&gt;http://cmput301.softwareprocess.es:8080/CMPUT301W13T08/&lt;/p&gt;
+&lt;p&gt;http://cmput301.softwareprocess.es:8080/CMPUT301W13T09/&lt;/p&gt;
+&lt;p&gt;http://cmput301.softwareprocess.es:8080/CMPUT301W13T10/&lt;/p&gt;
+&lt;p&gt;http://cmput301.softwareprocess.es:8080/CMPUT301W13T11/&lt;/p&gt;
+&lt;p&gt;http://cmput301.softwareprocess.es:8080/CMPUT301W13T12/&lt;/p&gt;
+&lt;p&gt;http://cmput301.softwareprocess.es:8080/CMPUT301W13T13/&lt;/p&gt;
+&lt;p&gt;http://cmput301.softwareprocess.es:8080/CMPUT301W13T14/&lt;/p&gt;
+&lt;p&gt;These are not protected in anyway and they should stick to their own repos.&lt;/p&gt;
+&lt;p&gt;http://cmput301.softwareprocess.es:8080/testing/ is for testing.&lt;/p&gt;</content><category term="old_project_descriptions"/><category term="projects"/><category term="teams"/><category term="grading"/></entry><entry><title>2014 F Project Problem Description</title><link href="https://ualberta-cmput301.github.io/resources/old_project_descriptions/2014_F_ProjectDesc.html" rel="alternate"/><published>2024-11-04T00:00:00-07:00</published><updated>2024-11-04T00:00:00-07:00</updated><author><name>Tina Nguyen</name></author><id>tag:ualberta-cmput301.github.io,2024-11-04:/resources/old_project_descriptions/2014_F_ProjectDesc.html</id><summary type="html">&lt;p&gt;2014 F Project Problem Description&lt;/p&gt;</summary><content type="html">&lt;p&gt;You are to design and implement an attractive, usable, interactive Android application to help satisfy the following user's goals. Your design should be flexible enough to allow future developers to extend it to, for example, add new types of entries (see below).&lt;/p&gt;
+&lt;h3 id="users-problem-description"&gt;User's Problem Description&lt;/h3&gt;
+&lt;p&gt;We want a mobile question and answer site. A user can browse questions and post answers. A user can pose questions and see answers. Both question and answers can have a small discussion accompanied with them.&lt;/p&gt;
+&lt;p&gt;Imagine http://stackoverflow.com/ but geo-location aware.&lt;/p&gt;
+&lt;h4 id="needs-in-partial-user-story-form-do-all-of-these"&gt;Needs in (Partial) User Story Form [do all of these]&lt;/h4&gt;
+&lt;p&gt;User needs are expressed in the form of partial user stories:
+as a &lt;role&gt;, I want &lt;goal&gt;
+as a &lt;role&gt;, I want &lt;goal&gt; so that &lt;reason&gt;&lt;/p&gt;
+&lt;p&gt;These descriptions may change to correct omissions and clarify noticed issues.&lt;/p&gt;
+&lt;p&gt;As a user, I want browse questions.&lt;/p&gt;
+&lt;p&gt;As a user, I want to view a question and its answers.&lt;/p&gt;
+&lt;p&gt;As a user, I want to view the replies to a question or answer.&lt;/p&gt;
+&lt;p&gt;As an author, I want to make questions.&lt;/p&gt;
+&lt;p&gt;As an author, I want to answer questions by making an answer.&lt;/p&gt;
+&lt;p&gt;As an author, I want to reply to questions and answers to clarify things.&lt;/p&gt;
+&lt;p&gt;As an author, I want to attach a picture to my questions or my answers.&lt;/p&gt;
+&lt;p&gt;As a sysadmin, I do not want the pictures to be large (&amp;gt; 64kb).&lt;/p&gt;
+&lt;p&gt;As a user, I want to sort questions by if they have pictures.&lt;/p&gt;
+&lt;p&gt;As a user, I want to sort questions by date or some scoring system.&lt;/p&gt;
+&lt;p&gt;As a user, I want to upvote the questions of other users.&lt;/p&gt;
+&lt;p&gt;As a user, I want to upvote the answers of other users&lt;/p&gt;
+&lt;p&gt;As a user, I want to see the most upvoted questions and most upvoted answers.&lt;/p&gt;
+&lt;p&gt;As a user, I want to see how many answers a question has received.&lt;/p&gt;
+&lt;p&gt;As a user, I want to search for questions or answers.&lt;/p&gt;
+&lt;p&gt;As an author, I want my device to remember which questions I asked.&lt;/p&gt;
+&lt;p&gt;As a user, I want questions and answers that I read or questions and answers that I've indicated I want to read, to be locally cached so I can read them when I am not on the internet.&lt;/p&gt;
+&lt;p&gt;As a user, I want to explicitly save some questions as favorites.&lt;/p&gt;
+&lt;p&gt;As a user, My favorites and their replies should always be available to me regardless of network connectivity.&lt;/p&gt;
+&lt;p&gt;As an author, I want to author replies, questions and answers offline.&lt;/p&gt;
+&lt;p&gt;As an author, I want to push my replies, questions and answers online once I get connectivity.&lt;/p&gt;
+&lt;p&gt;As a user, by default, I should see the most fresh comments.&lt;/p&gt;
+&lt;p&gt;As an author, I set my username.&lt;/p&gt;
+&lt;h4 id="new-requirements-choose-1-of-these"&gt;New requirements [Choose 1 of these]&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Requirements Cluster: Geolocation&lt;/li&gt;
+&lt;li&gt;As an author, I want to be asked if my location should be attached to my post&lt;/li&gt;
+&lt;li&gt;As a user I want to be able to query for posts (questions/answers/replies) that are near to me&lt;/li&gt;
+&lt;li&gt;As an author, I want my geolocation to come from my GPS, or allow me to set to it&lt;/li&gt;
+&lt;li&gt;As a user, I want to know if the location of post is near city or town or country.&lt;/li&gt;
+&lt;li&gt;Requirements Cluster: Social Analytics&lt;/li&gt;
+&lt;li&gt;As a user, I want to see the trending posts that have recent popularity and activity&lt;/li&gt;
+&lt;li&gt;As a user, I want to see who the top contributors are&lt;/li&gt;
+&lt;li&gt;As a user, I want to see a summary of what topics are trending, that is a textual analysis or summary of what is happening lately&lt;/li&gt;
+&lt;li&gt;As a user, I want to see controversial questions: questions with few upvotes but many replies&lt;/li&gt;
+&lt;li&gt;As a user, I want a word cloud of all the posts cached on my phone.&lt;/li&gt;
+&lt;li&gt;Requirements Cluster: Recommendations&lt;/li&gt;
+&lt;li&gt;As a user I want to browse other questions asked by an author&lt;/li&gt;
+&lt;li&gt;As a user I want to browse answers written by an author&lt;/li&gt;
+&lt;li&gt;As an author I want to see related questions when I ask a question&lt;/li&gt;
+&lt;li&gt;As an author I want to see other question I may be able to answer when I write an answer&lt;/li&gt;
+&lt;li&gt;As a user I want to see related questions when I browse questions&lt;/li&gt;
+&lt;li&gt;More to come!   &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;As class advances and questions are asked new story cards will be created.&lt;/p&gt;
+&lt;h4 id="webservice-notes"&gt;Webservice Notes&lt;/h4&gt;
+&lt;p&gt;Please see the URL: http://www.elasticsearch.org/ and Query String DSL&lt;/p&gt;
+&lt;p&gt;Each group now has its own personal prefix on the elastisearch. Your Android application can communicate to your group's webservice.&lt;/p&gt;
+&lt;p&gt;Binaries should be small, and you can post them, but be sure you read up on how to send binaries to elastisearch  Core-types , Put Mappings&lt;/p&gt;
+&lt;p&gt;This webservice is meant to allow posting, listing, deleting and searching recipes. It has a JSON format that can be defined by your group in order to encode more difficult tasks.&lt;/p&gt;
+&lt;p&gt;http://cmput301.softwareprocess.es:8080/cmput301f14t01/&lt;/p&gt;
+&lt;p&gt;http://cmput301.softwareprocess.es:8080/cmput301f14t02/&lt;/p&gt;
+&lt;p&gt;http://cmput301.softwareprocess.es:8080/cmput301f14t03/&lt;/p&gt;
+&lt;p&gt;http://cmput301.softwareprocess.es:8080/cmput301f14t04/&lt;/p&gt;
+&lt;p&gt;http://cmput301.softwareprocess.es:8080/cmput301f14t05/&lt;/p&gt;
+&lt;p&gt;http://cmput301.softwareprocess.es:8080/cmput301f14t06/&lt;/p&gt;
+&lt;p&gt;http://cmput301.softwareprocess.es:8080/cmput301f14t07/&lt;/p&gt;
+&lt;p&gt;http://cmput301.softwareprocess.es:8080/cmput301f14t08/&lt;/p&gt;
+&lt;p&gt;http://cmput301.softwareprocess.es:8080/cmput301f14t09/&lt;/p&gt;
+&lt;p&gt;http://cmput301.softwareprocess.es:8080/cmput301f14t10/&lt;/p&gt;
+&lt;p&gt;http://cmput301.softwareprocess.es:8080/cmput301f14t11/&lt;/p&gt;
+&lt;p&gt;http://cmput301.softwareprocess.es:8080/cmput301f14t12/&lt;/p&gt;
+&lt;p&gt;http://cmput301.softwareprocess.es:8080/cmput301f14t13/&lt;/p&gt;
+&lt;p&gt;http://cmput301.softwareprocess.es:8080/cmput301f14t14/&lt;/p&gt;
+&lt;p&gt;http://cmput301.softwareprocess.es:8080/cmput301f14t15/&lt;/p&gt;
+&lt;p&gt;http://cmput301.softwareprocess.es:8080/cmput301f14t16/&lt;/p&gt;
+&lt;p&gt;These are not protected in anyway and they should stick to their own repos.&lt;/p&gt;
+&lt;p&gt;http://cmput301.softwareprocess.es:8080/testing/ is for testing.&lt;/p&gt;
+&lt;p&gt;Requirements Cluster: Recommendations
+- As a user I want to browse other questions asked by an author
+- As a user I want to browse answers written by an author
+- As an author I want to see related questions when I ask a question&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;As an author I want to see other question I may be able to answer when I write an answer&lt;/li&gt;
+&lt;li&gt;As a user I want to see related questions when I browse questions&lt;/li&gt;
+&lt;/ul&gt;</content><category term="old_project_descriptions"/><category term="projects"/><category term="teams"/><category term="grading"/></entry><entry><title>2015 F Project Problem Description</title><link href="https://ualberta-cmput301.github.io/resources/old_project_descriptions/2015_F_ProjectDesc.html" rel="alternate"/><published>2024-11-04T00:00:00-07:00</published><updated>2024-11-04T00:00:00-07:00</updated><author><name>Tina Nguyen</name></author><id>tag:ualberta-cmput301.github.io,2024-11-04:/resources/old_project_descriptions/2015_F_ProjectDesc.html</id><summary type="html">&lt;p&gt;2015 F Project Problem Description&lt;/p&gt;</summary><content type="html">&lt;h3 id="project-problem-description"&gt;Project Problem Description&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Warning: This is subject to change!&lt;/strong&gt;
+You are to design and implement a simple, attractive, and easy-to-use Android application to satisfy the following goals. Your design must be flexible enough to allow developers to extend or migrate it.&lt;/p&gt;
+&lt;p&gt;&lt;THINGS&gt; will mean the theme of your group project: condiments, sewing tools, tools, craft supplies, baking supplies, kitchen tools, books, DVDs, games, audio equipment, photography equipment, etc. Each team will choose a theme for their app distinct from other teams. TA will approve the theme.&lt;/p&gt;
+&lt;h4 id="users-problem-description"&gt;User's Problem Description&lt;/h4&gt;
+&lt;p&gt;We want to create a distributed library where by we can trade &lt;THINGS&gt; with other people.&lt;/p&gt;
+&lt;p&gt;We want a mobile application that allows users to record the &lt;THINGS&gt; they have and share them with others! Users can share &lt;THINGS&gt; with each other. This means that you get to see your neighbor's &lt;THINGS&gt; and they can browse your collection of &lt;THINGS&gt;. Then when you want a &lt;THING&gt; from your neighbor you send them a request to see if they want one of your &lt;THINGS&gt; as collateral for their &lt;THING&gt;.&lt;/p&gt;
+&lt;h5 id="needs-in-partial-user-story-form"&gt;Needs in (Partial) User Story Form&lt;/h5&gt;
+&lt;p&gt;User needs are expressed in the form of partial user stories:
+As a &lt;role&gt;, I want &lt;goal&gt;.
+As a &lt;role&gt;, I want &lt;goal&gt; so that &lt;reason&gt;.&lt;/p&gt;
+&lt;p&gt;These descriptions may change to correct omissions and clarify noticed issues. New requirements will be introduced for the final project part.&lt;/p&gt;
+&lt;h5 id="inventory"&gt;Inventory&lt;/h5&gt;
+&lt;p&gt;US01.01.01&lt;/p&gt;
+&lt;p&gt;As an owner, I want to remove, edit, or add an item to my inventory that I want to share. It will have a name, quantity, quality, category, if I want to share it with others, and comments.&lt;/p&gt;
+&lt;p&gt;US01.02.01&lt;/p&gt;
+&lt;p&gt;As an owner, I want to view my inventory and its details.&lt;/p&gt;
+&lt;p&gt;US01.03.01&lt;/p&gt;
+&lt;p&gt;As an owner, I want to view each of my inventory items.&lt;/p&gt;
+&lt;p&gt;US01.03.01&lt;/p&gt;
+&lt;p&gt;As an owner, not every item in my inventory will be shared or listed. Items that are not to publicly shared will not be. As an owner, I might use them for trades.&lt;/p&gt;
+&lt;p&gt;US01.04.01
+As an owner, I want to edit and modify inventory items.&lt;/p&gt;
+&lt;p&gt;US01.05.01
+As an owner, I want to delete inventory items.&lt;/p&gt;
+&lt;p&gt;US01.06.01
+As an owner, I want the category for an item to be one of 10 relevant categories for &lt;THINGS&gt;.&lt;/p&gt;
+&lt;p&gt;US01.07.01
+As an owner, I want the entry of an item to have minimal required navigation in the user interface. It must be easy to describe an item.&lt;/p&gt;
+&lt;h5 id="friends"&gt;Friends&lt;/h5&gt;
+&lt;p&gt;US02.01.01&lt;/p&gt;
+&lt;p&gt;As an owner, I want to track people I know. Adding a textual username should be enough.&lt;/p&gt;
+&lt;p&gt;US02.02.01&lt;/p&gt;
+&lt;p&gt;As an owner, I want to add friends&lt;/p&gt;
+&lt;p&gt;US02.03.01&lt;/p&gt;
+&lt;p&gt;As an owner, I want to remove friends&lt;/p&gt;
+&lt;p&gt;US02.04.01&lt;/p&gt;
+&lt;p&gt;As an owner or borrower, I will have a profile where by my contact information and city are recorded.&lt;/p&gt;
+&lt;p&gt;US02.05.01&lt;/p&gt;
+&lt;p&gt;As an owner or borrower, I will be able to view the profile of anyone I know of including friends.&lt;/p&gt;
+&lt;h5 id="browse-search-inventories-of-friends"&gt;Browse Search Inventories of Friends&lt;/h5&gt;
+&lt;p&gt;US03.01.01&lt;/p&gt;
+&lt;p&gt;As an borrower, I want to search the inventories of my friends.&lt;/p&gt;
+&lt;p&gt;US03.01.02&lt;/p&gt;
+&lt;p&gt;As an borrower, I want to search/browse the inventories of my friends by category.&lt;/p&gt;
+&lt;p&gt;US03.01.03&lt;/p&gt;
+&lt;p&gt;As an borrower, I want to search/browse the inventories of my friends by textual query..&lt;/p&gt;
+&lt;p&gt;US03.02.01&lt;/p&gt;
+&lt;p&gt;As an owner, any of my publicly shared items will be browseable / searchable by my friends.&lt;/p&gt;
+&lt;h5 id="trade-with-friends"&gt;Trade with Friends&lt;/h5&gt;
+&lt;p&gt;US04.01.01&lt;/p&gt;
+&lt;p&gt;As an borrower, I want to offer a trade with a friend. A trade will consist of an item from the owner's inventory and 0 or more items from the borrower's inventory.&lt;/p&gt;
+&lt;p&gt;US04.02.01&lt;/p&gt;
+&lt;p&gt;As an owner, when a borrower offers a trade I will be notified of the trade.&lt;/p&gt;
+&lt;p&gt;US04.03.01&lt;/p&gt;
+&lt;p&gt;As an owner, I can accept or decline a trade.&lt;/p&gt;
+&lt;p&gt;US04.04.01&lt;/p&gt;
+&lt;p&gt;As an owner, upon declining a trade I can offer a counter trade initialized with the items of the declined trade.&lt;/p&gt;
+&lt;p&gt;US04.05.01&lt;/p&gt;
+&lt;p&gt;As a borrower or owner, when composing a trade or counter-trade I can edit the trade.&lt;/p&gt;
+&lt;p&gt;US04.06.01&lt;/p&gt;
+&lt;p&gt;As a borrower, when composing a trade or counter-trade I can delete the trade&lt;/p&gt;
+&lt;p&gt;US04.07.01&lt;/p&gt;
+&lt;p&gt;As an owner, if I accept a trade both parties will be emailed all trade and item information relevant to the trade, as well owner comments for how to continue on with the trade.&lt;/p&gt;
+&lt;p&gt;US04.08.01&lt;/p&gt;
+&lt;p&gt;As an owner or borrower, I can browse all past and current trades involving me.&lt;/p&gt;
+&lt;p&gt;US04.09.01&lt;/p&gt;
+&lt;p&gt;As an owner or borrower, I can browse all past and current trades involving me as either borrower or owner. I should look at my trades and trades offered to me.&lt;/p&gt;
+&lt;p&gt;US04.10.01 [must]&lt;/p&gt;
+&lt;p&gt;As an owner, I can set a trade to complete when the borrower returns the item and the item is now available again.&lt;/p&gt;
+&lt;p&gt;US04.11.01 [must]&lt;/p&gt;
+&lt;p&gt;As an owner or borrower, a trade is considered current and in-progress when the item is borrowed.&lt;/p&gt;
+&lt;p&gt;US04.12.01 [must]&lt;/p&gt;
+&lt;p&gt;As an owner or borrower, I should be able to browse in-progress trades, and complete trades.&lt;/p&gt;
+&lt;h5 id="photographs-of-items"&gt;Photographs of Items&lt;/h5&gt;
+&lt;p&gt;US06.01.01
+As an owner, I want to optionally attach photographs of items to the item. Photos are optional for items.&lt;/p&gt;
+&lt;p&gt;US06.02.01
+As an owner, I want to view any attached photograph for an item.&lt;/p&gt;
+&lt;p&gt;US06.03.01
+As an owner, I want to delete any attached photograph receipt on an item, so that unclear images can be re-taken.&lt;/p&gt;
+&lt;p&gt;US06.04.01
+As a sysadmin, I want each receipt image file to be under 65536 bytes in size.&lt;/p&gt;
+&lt;p&gt;US06.05.01
+As a borrower, if photo downloads are disabled, I want the option of manually choosing inventory photos to download.&lt;/p&gt;
+&lt;h5 id="offline-behaviour"&gt;Offline Behaviour&lt;/h5&gt;
+&lt;p&gt;US09.01.01
+As an owner, I want to make inventory items while offline, and push changes once I get connectivity.&lt;/p&gt;
+&lt;p&gt;US09.02.01
+As a borrower, I want to make trades while offline, and push changes online once I get connectivity.&lt;/p&gt;
+&lt;p&gt;US09.03.01
+As a borrower, I should be able to browse the inventories of friends that I previously looked at. Cache the inventories of the friends.&lt;/p&gt;
+&lt;h5 id="configuration"&gt;Configuration&lt;/h5&gt;
+&lt;p&gt;US10.01.01
+As a user, I should be able to specify if I download images or not.&lt;/p&gt;
+&lt;p&gt;US10.02.01
+As a user, I should be to edit my profile.&lt;/p&gt;
+&lt;p&gt;Your team must choose Option 1 features or Option 2 features and implement them.&lt;/p&gt;
+&lt;h5 id="item-geolocation-option-1"&gt;Item Geolocation (Option 1)&lt;/h5&gt;
+&lt;p&gt;US11.01.01&lt;/p&gt;
+&lt;p&gt;As an owner, I want to have a default geolocation (Lat/Long) that will be assigned to my items.&lt;/p&gt;
+&lt;p&gt;US11.02.01&lt;/p&gt;
+&lt;p&gt;As a user, I should be able to search for items near my current location (GPS or Lat/long). E.g. hammers within 2 km.&lt;/p&gt;
+&lt;p&gt;US11.03.01&lt;/p&gt;
+&lt;p&gt;As an owner, I should be able use the GPS to determine my geolocation.&lt;/p&gt;
+&lt;p&gt;US11.04.01&lt;/p&gt;
+&lt;p&gt;As an owner, I should be able to specifically edit the geolocation of each individual item -- items could be located in different locations.&lt;/p&gt;
+&lt;h5 id="top-traders-option-2"&gt;Top Traders (Option 2)&lt;/h5&gt;
+&lt;p&gt;US12.01.01&lt;/p&gt;
+&lt;p&gt;As a user, I should be able to see friends and users who are top-traders. Top traders are users with successful (current, in-progress, and complete) trades. The more successful traders, the more top the trader.&lt;/p&gt;
+&lt;h5 id="item-cloning-option-2"&gt;Item Cloning (Option 2)&lt;/h5&gt;
+&lt;p&gt;US13.01.01&lt;/p&gt;
+&lt;p&gt;As an owner, I should be able to clone another user's item, if I own it or a copy. E.g. I have the same XBOX game as my friend and I don't want to type it in again.&lt;/p&gt;
+&lt;p&gt;Revisions:&lt;/p&gt;
+&lt;p&gt;2015-11-12 - US10 to US13 added, US04.10 to US04.14 added.&lt;/p&gt;
+&lt;p&gt;2015-10-08 - US09.01.01 and US09.02.01 clarified and editted&lt;/p&gt;
+&lt;p&gt;2015-10-07 - US06.05.01 changed to manual photo download&lt;/p&gt;
+&lt;p&gt;2015-10-07 - the trade with friends section had stories renumbered as US.04. (previously US.03.)&lt;/p&gt;
+&lt;p&gt;2015-10-06 - the last US.06.04.01 becomes US.06.05.01&lt;/p&gt;
+&lt;p&gt;2015-10-06 - claimant becomes owner in US.06.01.01&lt;/p&gt;</content><category term="old_project_descriptions"/><category term="projects"/><category term="teams"/><category term="grading"/></entry><entry><title>2015 W Project Problem Description</title><link href="https://ualberta-cmput301.github.io/resources/old_project_descriptions/2015_W_ProjectDesc.html" rel="alternate"/><published>2024-11-04T00:00:00-07:00</published><updated>2024-11-04T00:00:00-07:00</updated><author><name>Tina Nguyen</name></author><id>tag:ualberta-cmput301.github.io,2024-11-04:/resources/old_project_descriptions/2015_W_ProjectDesc.html</id><summary type="html">&lt;p&gt;2015 W Project Problem Description&lt;/p&gt;</summary><content type="html">&lt;h3 id="project-problem-description"&gt;Project Problem Description&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Warning: This is subject to change!&lt;/strong&gt;
+You are to design and implement a simple, attractive, and easy-to-use Android application to satisfy the following goals. Your design must be flexible enough to allow developers to extend or migrate it.&lt;/p&gt;
+&lt;h4 id="users-problem-description"&gt;User's Problem Description&lt;/h4&gt;
+&lt;p&gt;We want a mobile application for travel expense tracking and approval.&lt;/p&gt;
+&lt;h5 id="needs-in-partial-user-story-form"&gt;Needs in (Partial) User Story Form&lt;/h5&gt;
+&lt;p&gt;User needs are expressed in the form of partial user stories:
+As a &lt;role&gt;, I want &lt;goal&gt;.
+As a &lt;role&gt;, I want &lt;goal&gt; so that &lt;reason&gt;.&lt;/p&gt;
+&lt;p&gt;These descriptions may change to correct omissions and clarify noticed issues. New requirements will be introduced for the final project part.&lt;/p&gt;
+&lt;h5 id="expense-claims-overall"&gt;Expense Claims / Overall&lt;/h5&gt;
+&lt;p&gt;US01.01.01
+As a claimant, I want make an expense claim that records my name, a starting date of travel, and an ending date of travel.&lt;/p&gt;
+&lt;p&gt;US01.02.01
+As a claimant, I want an expense claim to record one or more destinations of travel and an associated reason for travel to each destination.&lt;/p&gt;
+&lt;p&gt;US01.03.01
+As a claimant, I want to view an expense claim and its details.&lt;/p&gt;
+&lt;p&gt;US01.04.01
+As a claimant, I want to edit an expense claim while changes are allowed.&lt;/p&gt;
+&lt;p&gt;US01.05.01
+As a claimant, I want to delete an expense claim while changes are allowed.&lt;/p&gt;
+&lt;p&gt;US01.06.01
+As a claimant, I want entered information to be remembered, so that I do not lose data.&lt;/p&gt;
+&lt;h5 id="expense-claims-listing"&gt;Expense Claims / Listing&lt;/h5&gt;
+&lt;p&gt;US02.01.01
+As a claimant, I want to list all my expense claims, showing for each claim: the starting date of travel, the destination(s) of travel, the claim status, tags, and total currency amounts.&lt;/p&gt;
+&lt;p&gt;US02.02.01
+As a claimant, I want the list of expense claims to be sorted by starting date of travel, in order from most recent to oldest, so that ongoing or recent travel expenses are quickly accessible.&lt;/p&gt;
+&lt;h5 id="expense-claims-tags"&gt;Expense Claims / Tags&lt;/h5&gt;
+&lt;p&gt;US03.01.01
+As a claimant, I want to give an expense claim one or more alphanumeric tags, so that claims can be organized by me into groups.&lt;/p&gt;
+&lt;p&gt;US03.02.01
+As a claimant, I want to manage my personal use of tags by listing the available tags, adding a tag, renaming a tag, and deleting a tag.&lt;/p&gt;
+&lt;p&gt;US03.03.01
+As a claimant, I want to filter the list of expense claims by tags, to show only those claims that have at least one tag matching any of a given set of one or more filter tags.&lt;/p&gt;
+&lt;h5 id="expense-items-overall"&gt;Expense Items / Overall&lt;/h5&gt;
+&lt;p&gt;US04.01.01
+As a claimant, I want to make one or more expense items for an expense claim, each of which has a date the expense was incurred, a category, a textual description, amount spent, and unit of currency.&lt;/p&gt;
+&lt;p&gt;US04.02.01
+As a claimant, I want the category for an expense item to be one of air fare, ground transport, vehicle rental, private automobile, fuel, parking, registration, accommodation, meal, or supplies.&lt;/p&gt;
+&lt;p&gt;US04.03.01
+As a claimant, I want the currency for an expense amount to be one of CAD, USD, EUR, GBP, CHF, JPY, or CNY.&lt;/p&gt;
+&lt;p&gt;US04.04.01
+As a claimant, I want to manually flag an expense item with an incompleteness indicator, even if all item fields have values, so that I am reminded that the item needs further editing.&lt;/p&gt;
+&lt;p&gt;US04.05.01
+As a claimant, I want to view an expense item and its details.&lt;/p&gt;
+&lt;p&gt;US04.06.01
+As a claimant, I want to edit an expense item while changes are allowed.&lt;/p&gt;
+&lt;p&gt;US04.07.01
+As a claimant, I want to delete an expense item while changes are allowed.&lt;/p&gt;
+&lt;p&gt;US04.08.01
+As a claimant, I want the entry of an expense item to have minimal required navigation in the user interface.&lt;/p&gt;
+&lt;h5 id="expense-items-listing"&gt;Expense Items / Listing&lt;/h5&gt;
+&lt;p&gt;US05.01.01
+As a claimant, I want to list all the expense items for a claim, in order of entry, showing for each expense item: the date the expense was incurred, the category, the textual description, amount spent, unit of currency, whether there is a photographic receipt, and incompleteness indicator.&lt;/p&gt;
+&lt;h5 id="expense-items-receipts"&gt;Expense Items / Receipts&lt;/h5&gt;
+&lt;p&gt;US06.01.01
+As a claimant, I want to optionally take a single photograph of a receipt and attach the photograph to an editable expense item, so that there is supporting documentation for the expense item in case the physical receipt is lost.&lt;/p&gt;
+&lt;p&gt;US06.02.01
+As a claimant, I want to view any attached photographic receipt for an expense item.&lt;/p&gt;
+&lt;p&gt;US06.03.01
+As a claimant, I want to delete any attached photographic receipt on an editable expense item, so that unclear images can be re-taken.&lt;/p&gt;
+&lt;p&gt;US06.04.01
+As a sysadmin, I want each receipt image file to be under 65536 bytes in size.&lt;/p&gt;
+&lt;h5 id="expense-claims-statuses"&gt;Expense Claims / Statuses&lt;/h5&gt;
+&lt;p&gt;US07.01.01
+As a claimant, I want to submit an expense claim for approval, denoting the claim status as submitted, with no further changes allowed by me to the claim information (except the tags).&lt;/p&gt;
+&lt;p&gt;US07.02.01
+As a claimant, I want a visual warning when trying to submit an expense claim when there are fields with missing values or there are any incompleteness indicators on the expense items.&lt;/p&gt;
+&lt;p&gt;US07.03.01
+As a claimant, I want a submitted expense claim that was not approved to be denoted by a claim status of returned, with further changes allowed by me to the claim information.&lt;/p&gt;
+&lt;p&gt;US07.04.01
+As a claimant, I want a submitted expense claim that was approved to be denoted by a claim status of approved, with no further changes allowed by me to the claim information (except the tags).&lt;/p&gt;
+&lt;p&gt;US07.05.01
+As a claimant, I want to see the name of the approver and any comment(s) from the approver on a returned or approved claim.&lt;/p&gt;
+&lt;h5 id="expense-claims-approval"&gt;Expense Claims / Approval&lt;/h5&gt;
+&lt;p&gt;US08.01.01
+As an approver, I want to view a list of all the expense claims that were submitted for approval, which have their claim status as submitted, showing for each claim: the claimant name, the starting date of travel, the destination(s) of travel, the claim status, total currency amounts, and any approver name.&lt;/p&gt;
+&lt;p&gt;US08.02.01
+As an approver, I want the list of submitted expense claims to be sorted by starting date of travel, in order from oldest to most recent, so that older claims are considered first.&lt;/p&gt;
+&lt;p&gt;US08.03.01
+As an approver, I want to view all the details of a submitted expense claim.&lt;/p&gt;
+&lt;p&gt;US08.04.01
+As an approver, I want to list all the expense items for a submitted claim, in order of entry, showing for each expense item: the date the expense was incurred, the category, the textual description, amount spent, unit of currency, and whether there is a photographic receipt.&lt;/p&gt;
+&lt;p&gt;US08.05.01
+As an approver, I want to view any attached photographic receipt for an expense item.&lt;/p&gt;
+&lt;p&gt;US08.06.01
+As an approver, I want to add a comment to a submitted expense claim, so that I can explain why the claim was returned or provide accounting details for a payment.&lt;/p&gt;
+&lt;p&gt;US08.07.01
+As an approver, I want to return a submitted expense claim that was not approved, denoting the claim status as returned and setting my name as the approver for the expense claim.&lt;/p&gt;
+&lt;p&gt;US08.08.01
+As an approver, I want to approve a submitted expense claim that was approved, denoting the claim status as approved and setting my name as the approver for the expense claim.&lt;/p&gt;
+&lt;h5 id="expense-claims-offline"&gt;Expense Claims / Offline&lt;/h5&gt;
+&lt;p&gt;US09.01.01
+As a claimant, I want to make and work on expense claims and items while offline, and push application and expense information online once I get connectivity.&lt;/p&gt;</content><category term="old_project_descriptions"/><category term="projects"/><category term="teams"/><category term="grading"/></entry><entry><title>2015 W Project Problem Description Surprise</title><link href="https://ualberta-cmput301.github.io/resources/old_project_descriptions/2015_W_ProjectDescSurp.html" rel="alternate"/><published>2024-11-04T00:00:00-07:00</published><updated>2024-11-04T00:00:00-07:00</updated><author><name>Tina Nguyen</name></author><id>tag:ualberta-cmput301.github.io,2024-11-04:/resources/old_project_descriptions/2015_W_ProjectDescSurp.html</id><summary type="html">&lt;p&gt;2015 W Project Problem Description Surprise&lt;/p&gt;</summary><content type="html">&lt;h3 id="project-problem-description-surprise"&gt;Project Problem Description Surprise&lt;/h3&gt;
+&lt;h5 id="expense-items-driving"&gt;Expense Items / Driving&lt;/h5&gt;
+&lt;p&gt;As a claimant, I want to record the starting location, ending location, and distance for a drive and attach this information to an editable expense item with the private automobile category.&lt;/p&gt;
+&lt;p&gt;As a claimant, I want the driving locations to come from GPS or allow me to set the locations.&lt;/p&gt;
+&lt;p&gt;As a claimant, I want the driving distance to be estimated from the starting and ending locations or allow me to set the distance in kilometres.&lt;/p&gt;
+&lt;p&gt;As a claimant, I want to take a photograph of an odometer and attach the photograph to the starting location or the ending location of a drive.&lt;/p&gt;
+&lt;h5 id="expense-claims-communication"&gt;Expense Claims / Communication&lt;/h5&gt;
+&lt;p&gt;As a claimant, I want to email all the details of an expense claim, organizing the expense items by the categories, in the order of air fare, ground transport, vehicle rental, private automobile, fuel, parking, registration, accommodation, meal, then supplies.&lt;/p&gt;
+&lt;p&gt;As a claimant, I want a notification when an expense claim is returned or approved, and there is connectivity.&lt;/p&gt;
+&lt;h5 id="expense-claims-native-currency"&gt;Expense Claims / Native Currency&lt;/h5&gt;
+&lt;p&gt;As a claimant, I want to note my native currency in which payments are made.&lt;/p&gt;
+&lt;p&gt;As a claimant, I want each expense item for which a foreign currency value was entered and later replaced by the equivalent native currency value to keep a record of the foreign currency value.&lt;/p&gt;
+&lt;p&gt;As a claimant, I want to compute the expense amount of a private automobile expense item by entering a rate in the native currency per kilometer and multiplying that rate by the distance traveled.&lt;/p&gt;
+&lt;h5 id="expense-items-receipt-reading"&gt;Expense Items / Receipt Reading&lt;/h5&gt;
+&lt;p&gt;As a claimant, I want to request that a photograph attached to an editable expense item be read, so that the date, category, textual description, amount spent, and unit of currency is entered for me when there is connectivity.&lt;/p&gt;
+&lt;p&gt;As a claimant, I want an indicator to show whether a receipt read request succeeded or failed.&lt;/p&gt;
+&lt;p&gt;As a receipt reader, I want to view receipt reading requests, and for each one, update the associated expense item with the date, category, textual description, amount spent, and unit of currency, and indicate success or failure.&lt;/p&gt;</content><category term="old_project_descriptions"/><category term="projects"/><category term="teams"/><category term="grading"/></entry><entry><title>2016 F Project Problem Description</title><link href="https://ualberta-cmput301.github.io/resources/old_project_descriptions/2016_F_ProjectDesc.html" rel="alternate"/><published>2024-11-04T00:00:00-07:00</published><updated>2024-11-04T00:00:00-07:00</updated><author><name>Tina Nguyen</name></author><id>tag:ualberta-cmput301.github.io,2024-11-04:/resources/old_project_descriptions/2016_F_ProjectDesc.html</id><summary type="html">&lt;p&gt;2016 F Project Problem Description&lt;/p&gt;</summary><content type="html">&lt;h3 id="project-problem-description"&gt;Project Problem Description&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Warning: This is subject to change!&lt;/strong&gt;
+You are to design and implement a simple, attractive, and easy-to-use Android application to satisfy the following goals. Your design must be flexible enough to allow developers to extend or migrate it.
+We want a mobile application that allows drivers to search for recent ride requests, and for riders to post requests for rides. Riders will describe the start and end of their ride and their suggested payment. Drivers will browse for nearby requests and accept ride requests that they are willing to fulfil.&lt;/p&gt;
+&lt;p&gt;In general, a user can be both a driver and a rider.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h4 id="needs-in-partial-user-story-form"&gt;Needs in (Partial) User Story Form&lt;/h4&gt;
+&lt;p&gt;User needs are expressed in the form of partial user stories:
+As a &lt;role&gt;, I want &lt;goal&gt;.
+These descriptions may change to correct omissions and clarify noticed issues. New requirements will be introduced for the final project part.&lt;/p&gt;
+&lt;h5 id="requests"&gt;Requests&lt;/h5&gt;
+&lt;p&gt;US 01.01.01
+As a rider, I want to request rides between two locations.
+US 01.02.01
+As a rider, I want to see current requests I have open.
+US 01.03.01
+As a rider, I want to be notified if my request is accepted.
+US 01.04.01
+As a rider, I want to cancel requests.
+US 01.05.01
+As a rider, I want to be able to phone or email the driver who accepted a request.
+US 01.06.01
+As a rider, I want an estimate of a fair fare to offer to drivers.
+US 01.07.01
+As a rider, I want to confirm the completion of a request and enable payment.
+US 01.08.01
+As a rider, I want to confirm a driver's acceptance. This allows us to choose from a list of acceptances if more than 1 driver accepts simultaneously.&lt;/p&gt;
+&lt;p&gt;US 1.09.01 (added 2016-11-14)
+As a rider, I should see a description of the driver's vehicle.&lt;/p&gt;
+&lt;p&gt;US 1.10.01 (added 2016-11-14)
+As a rider, I want to see some summary rating of the drivers who accepted my offers.&lt;/p&gt;
+&lt;p&gt;US 1.11.01 (added 2016-11-14)
+As a rider, I want to rate a driver for his/her service (1-5).&lt;/p&gt;
+&lt;h5 id="status"&gt;Status&lt;/h5&gt;
+&lt;p&gt;US 02.01.01
+As a rider or driver, I want to see the status of a request that I am involved in
+User profile
+US 03.01.01
+As a user, I want a profile with a unique username and my contact information.
+US 03.02.01
+As a user, I want to edit the contact information in my profile.
+US 03.03.01
+As a user, I want to, when a username is presented for a thing, retrieve and show its contact information.&lt;/p&gt;
+&lt;p&gt;US 03.04.01 (added 2016-11-14)
+As a driver, in my profile I can provide details about the vehicle I drive.&lt;/p&gt;
+&lt;h5 id="searching"&gt;Searching&lt;/h5&gt;
+&lt;p&gt;US 04.01.01
+As a driver, I want to browse and search for open requests by geo-location.
+US 04.02.01
+As a driver, I want to browse and search for open requests by keyword.&lt;/p&gt;
+&lt;p&gt;US 04.03.01 (added 2016-11-14)
+As a driver, I should be able filter request searches by price per KM and price.&lt;/p&gt;
+&lt;p&gt;US 04.04.01 (added 2016-11-14)
+As a driver, I should be able to see the addresses of the requests.&lt;/p&gt;
+&lt;p&gt;US 04.05.01 (added 2016-11-14)
+As a driver, I should be able to search by address or nearby an address.&lt;/p&gt;
+&lt;h5 id="accepting"&gt;Accepting&lt;/h5&gt;
+&lt;p&gt;US 05.01.01
+As a driver,  I want to accept a request I agree with and accept that offered payment upon completion.
+US 05.02.01
+As a driver, I want to view a list of things I have accepted that are pending, each request with its description, and locations.
+US 05.03.01
+As a driver, I want to see if my acceptance was accepted.
+US 05.04.01
+As a driver, I want to be notified if my ride offer was accepted.&lt;/p&gt;
+&lt;h5 id="offline-behavior"&gt;Offline behavior&lt;/h5&gt;
+&lt;p&gt;US 08.01.01
+As an driver, I want to see requests that I already accepted while offline.
+US 08.02.01
+As a rider, I want to see requests that I have made while offline.
+US 08.03.01
+As a rider, I want to make requests that will be sent once I get connectivity again.
+US 08.04.01
+As a driver, I want to accept requests that will be sent once I get connectivity again.&lt;/p&gt;
+&lt;h5 id="location"&gt;Location&lt;/h5&gt;
+&lt;p&gt;US 10.01.01
+As a rider, I want to specify a start and end geo locations on a map for a request.
+US 10.02.01
+As a driver, I want to view start and end geo locations on a map for a request.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Requirements cluster 1:&lt;/strong&gt;
+US 1.09.01 (car details)
+US 03.04.01 (car details)
+US 04.03.01 (price search)
+US 1.10.01 (ratings)
+US 1.11.01 (ratings)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Requirements cluster 2:&lt;/strong&gt;
+US 1.09.01 (car details)
+US 03.04.01 (car details)
+US 04.03.01 (price search)
+US 04.04.01 (addresses)
+US 04.05.01 (addresses)&lt;/p&gt;</content><category term="old_project_descriptions"/><category term="projects"/><category term="teams"/><category term="grading"/></entry><entry><title>2016 W Project Problem Description</title><link href="https://ualberta-cmput301.github.io/resources/old_project_descriptions/2016_W_ProjectDesc.html" rel="alternate"/><published>2024-11-04T00:00:00-07:00</published><updated>2024-11-04T00:00:00-07:00</updated><author><name>Tina Nguyen</name></author><id>tag:ualberta-cmput301.github.io,2024-11-04:/resources/old_project_descriptions/2016_W_ProjectDesc.html</id><summary type="html">&lt;p&gt;2016 W Project Problem Description&lt;/p&gt;</summary><content type="html">&lt;h3 id="project-problem-description"&gt;Project Problem Description&lt;/h3&gt;
+&lt;p&gt;Warning: This is subject to change!&lt;/p&gt;
+&lt;p&gt;You are to design and implement a simple, attractive, and easy-to-use Android application to satisfy the following goals. Your design must be flexible enough to allow developers to extend or migrate it.
+We want a mobile application that allows owners to record the things they have and share them with borrowers. For example, a thing could be a good (like a piece of camera equipment), a service (like giving a ride in a car), or a resource (like a parking spot). Generally, a thing should be something reusable and typical underused. It is up to each team to choose some specific thing of focus, with approval from the TA.&lt;/p&gt;
+&lt;p&gt;In general, a user can be both an owner of their own things and a borrower of someone else's things. A borrower can borrow a thing by making a monetary bid for it. The owner can accept a bid, so the thing becomes borrowed. The owner can denote when a borrowed thing is returned and available again.&lt;/p&gt;
+&lt;h4 id="needs-in-partial-user-story-form"&gt;Needs in (Partial) User Story Form&lt;/h4&gt;
+&lt;p&gt;User needs are expressed in the form of partial user stories:
+As a &lt;role&gt;, I want &lt;goal&gt;.
+These descriptions may change to correct omissions and clarify noticed issues. New requirements will be introduced for the final project part.&lt;/p&gt;
+&lt;h5 id="things"&gt;Things&lt;/h5&gt;
+&lt;p&gt;US 01.01.01
+As an owner, I want to add a thing in my things, each denoted with a clear, suitable description.
+US 01.02.01
+As an owner, I want to view a list of all my things, and their descriptions and statuses.
+US 01.03.01
+As an owner, I want to view one of my things, its description and status.
+US 01.04.01
+As an owner, I want to edit a thing in my things.
+US 01.05.01
+As an owner, I want to delete a thing in my things.&lt;/p&gt;
+&lt;h5 id="status"&gt;Status&lt;/h5&gt;
+&lt;p&gt;US 02.01.01
+As an owner or borrower, I want a thing to have a status of one of: available, bidded, or borrowed.
+User profile
+US 03.01.01
+As a user, I want a profile with a unique username and my contact information.
+US 03.02.01
+As a user, I want to edit the contact information in my profile.
+US 03.03.01
+As a user, I want to, when a username is presented for a thing, retrieve and show its contact information.&lt;/p&gt;
+&lt;h5 id="searching"&gt;Searching&lt;/h5&gt;
+&lt;p&gt;US 04.01.01
+As a borrower, I want to specify a set of keywords, and search for all things not currently borrowed whose description contains all the keywords.
+US 04.02.01
+As a borrower, I want search results to show each thing not currently borrowed with its description, owner username, and status.&lt;/p&gt;
+&lt;h5 id="bidding"&gt;Bidding&lt;/h5&gt;
+&lt;p&gt;US 05.01.01
+As a borrower, I want to bid for an available thing, with a monetary rate (in dollars per hour).
+US 05.02.01
+As a borrower, I want to view a list of things I have bidded on that are pending, each thing with its description, owner username, and my bid.
+US 05.03.01
+As an owner, I want to be notified of a bid.
+US 05.04.01
+As an owner, I want to view a list of my things with bids.
+US 05.05.01
+As an owner, I want to view the bids on one of my things.
+US 05.06.01
+As an owner, I want to accept a bid on one of my things, setting its status to borrowed. (Any other bids are declined.)
+US 05.07.01
+As an owner, I want to decline a bid on one of my things.&lt;/p&gt;
+&lt;h5 id="borrowing"&gt;Borrowing&lt;/h5&gt;
+&lt;p&gt;US 06.01.01
+As a borrower, I want to view a list of things I am borrowing, each thing with its description and owner username.
+US 06.02.01
+As an owner, I want to view a list of my things being borrowed, each thing with its description and borrower username.&lt;/p&gt;
+&lt;h5 id="returning"&gt;Returning&lt;/h5&gt;
+&lt;p&gt;US 07.01.01
+As an owner, I want to set a borrowed thing to be available when it is returned.&lt;/p&gt;
+&lt;h5 id="offline-behavior"&gt;Offline behavior&lt;/h5&gt;
+&lt;p&gt;US 08.01.01
+As an owner, I want to define new things while offline, and push the additions once I get connectivity.&lt;/p&gt;
+&lt;h5 id="photographs"&gt;Photographs&lt;/h5&gt;
+&lt;p&gt;US 09.01.01 (added 2016-02-29)
+As an owner, I want to optionally attach a photograph to a thing of mine.&lt;/p&gt;
+&lt;p&gt;US 09.02.01 (added 2016-02-29)
+As an owner, I want to delete any attached photograph for a thing of mine.&lt;/p&gt;
+&lt;p&gt;US 09.03.01 (added 2016-02-29)
+As an owner or borrower, I want to view any attached photograph for a thing.&lt;/p&gt;
+&lt;p&gt;US 09.04.01 (added 2016-02-29)
+As a sys admin, I want each photograph to be under 65536 bytes in size.&lt;/p&gt;
+&lt;h5 id="location"&gt;Location&lt;/h5&gt;
+&lt;p&gt;US 10.01.01 (added 2016-02-29)
+As an owner, I want to specify a geo location on a map of where to receive a thing when I accept a bid on the thing.&lt;/p&gt;
+&lt;p&gt;US 10.02.01 (added 2016-02-29)
+As a borrower, I want to view the geo location of where to receive a thing I will be borrowing.&lt;/p&gt;
+&lt;h5 id="wow"&gt;"Wow"&lt;/h5&gt;
+&lt;p&gt;Non-trivial requirement(s) on approval from your TA (added 2016-03-11)&lt;/p&gt;</content><category term="old_project_descriptions"/><category term="projects"/><category term="teams"/><category term="grading"/></entry><entry><title>2017 F Project Problem Description</title><link href="https://ualberta-cmput301.github.io/resources/old_project_descriptions/2017_F_ProjectDesc.html" rel="alternate"/><published>2024-11-04T00:00:00-07:00</published><updated>2024-11-04T00:00:00-07:00</updated><author><name>Tina Nguyen</name></author><id>tag:ualberta-cmput301.github.io,2024-11-04:/resources/old_project_descriptions/2017_F_ProjectDesc.html</id><summary type="html">&lt;p&gt;2017 F Project Problem Description&lt;/p&gt;</summary><content type="html">&lt;h3 id="project-problem-description"&gt;Project Problem Description&lt;/h3&gt;
+&lt;p&gt;You are to design and implement a simple, attractive, and easy-to-use Android application to satisfy the follow goals. Your design must be flexible enough to allow developers to extend or migrate it.
+To assist in forming good habits, we want a mobile application that allows one to track, encourage, and share their habits. Recurring habits could be, for example, "write a joke", "eat breakfast", "exercise dog", "call family", and "no car accident". The intent is to make such habits: regular (e.g., daily), unbroken (so missed habit events are noted), and shared (so there's public pressure not to miss).&lt;/p&gt;
+&lt;h4 id="needs-in-partial-user-story-form"&gt;Needs in (Partial) User Story Form&lt;/h4&gt;
+&lt;p&gt;User needs are expressed in the form of partial user stories:
+As a &lt;role&gt;, I want &lt;goal&gt;.
+These descriptions may change to correct omissions and clarify noticed issues. Talk to the customer and propose options, rather than making what might be an unwarranted assumption or interpretation.&lt;/p&gt;
+&lt;h5 id="habits"&gt;Habits&lt;/h5&gt;
+&lt;p&gt;US 01.01.01
+As a participant, I want to add a new type of habit, giving it a brief title, reason, and date to start.
+US 01.02.01
+As a participant, I want a habit to have a plan for what days of the week it should regularly occur.
+US 01.03.01
+As a participant, I want to view a given habit and its details.
+US 01.04.01
+As a participant, I want to edit the details of a habit of mine.
+US 01.05.01
+As a participant, I want to delete a habit of mine.
+US 01.06.01
+As a participant, I want a habit title to be no more than 20 characters and habit reason to be no more than 30 characters.
+US 01.07.01
+As a participant, I want to see what habits I need to do today.
+US 01.08.01
+As a participant, I want for each habit type, a visual and statistical habit status indicator to show how closely I am following its plan.&lt;/p&gt;
+&lt;h5 id="habit-events"&gt;Habit Events&lt;/h5&gt;
+&lt;p&gt;US 02.01.01
+As a participant, I want to add a habit event to my habit history when I have done a habit as planned.
+US 02.02.01
+As a participant, I want a habit event to have an optional comment of no more than 20 characters.
+US 02.03.01
+As a participant, I want a habit event to have an optional photograph to record what happened.
+US 02.04.01
+As a participant, I want to view a given habit event and all its available details.
+US 02.05.01
+As a participant, I want to edit the details of a habit event of mine.
+US 02.06.01
+As a participant, I want to delete a habit event of mine.
+US 02.07.01
+As a system administrator, I want the storage for each photographic image to be under 65536 bytes.&lt;/p&gt;
+&lt;h5 id="profile"&gt;Profile&lt;/h5&gt;
+&lt;p&gt;US 03.01.01
+As a participant, I want to be uniquely identifiable.
+Habit History
+US 04.01.01
+As a participant, I want to view as a list my habit history, sorted in reverse chronological order (most recent coming first).
+US 04.02.01
+As a participant, I want to filter my habit history list to show only a particular type of habit.
+US 04.03.01
+As a participant, I want to filter my habit history list to show only habit events whose comment text contains a given word.&lt;/p&gt;
+&lt;h5 id="habit-following-and-sharing"&gt;Habit Following and Sharing&lt;/h5&gt;
+&lt;p&gt;US 05.01.01
+As a participant, I want to ask another participant to follow the statuses of all their habits, and follow for each of their habits, its most recent event.
+US 05.02.01
+As a participant, I want to grant another participant permission to follow the statuses of all my habits, and follow for each of my habits, its most recent event.
+US 05.03.01
+As a participant, I want to view as a list the habit statuses of the participants I am granted to follow, ordered by participant identifier then habit title.
+Geolocation and Maps
+US 06.01.01
+As a participant, I want to optionally attach my current location to a habit event.
+US 06.02.01
+As a participant, I want to see a map of the habit events (that have locations) from my filtered habit history list.
+US 06.03.01
+As a participant, I want to see a map of the recent habit events (that have locations) from participants I am following.
+US 06.04.01
+As a participant, I want to highlight habit events of mine or by participants I am following that are within 5 km of my current location.&lt;/p&gt;
+&lt;h5 id="offline-behavior"&gt;Offline Behavior&lt;/h5&gt;
+&lt;p&gt;US 07.01.01
+As a participant, I want to add, edit, or delete a habit event while offline, and have any of these changes synchronized once I get connectivity.&lt;/p&gt;
+&lt;h5 id="wow-factor"&gt;"Wow" Factor&lt;/h5&gt;
+&lt;p&gt;Non-trivial requirement(s) of your choice that fit with the app, on approval from your TA
+An example could be collecting kudos or badges from other participants. Another example could be partnering for certain habits, like "play tennis".&lt;/p&gt;</content><category term="old_project_descriptions"/><category term="projects"/><category term="teams"/><category term="grading"/></entry><entry><title>2017 W Project Problem Description</title><link href="https://ualberta-cmput301.github.io/resources/old_project_descriptions/2017_W_ProjectDesc.html" rel="alternate"/><published>2024-11-04T00:00:00-07:00</published><updated>2024-11-04T00:00:00-07:00</updated><author><name>Tina Nguyen</name></author><id>tag:ualberta-cmput301.github.io,2024-11-04:/resources/old_project_descriptions/2017_W_ProjectDesc.html</id><summary type="html">&lt;p&gt;2017 W Project Problem Description&lt;/p&gt;</summary><content type="html">&lt;h3 id="project-problem-description"&gt;Project Problem Description&lt;/h3&gt;
+&lt;p&gt;You are to design and implement a simple, attractive, and easy-to-use Android application to satisfy the follow goals. Your design must be flexible enough to allow developers to extend or migrate it.
+To assist in understanding the emotional states and triggers of individuals and groups, we want a mobile application that allows one to post, track, and share their moods. For  university students or staff, this could allow a clearer picture of their experiences, perceptions, and mental well-being in the face of challenges in academic life.&lt;/p&gt;
+&lt;h4 id="needs-in-partial-user-story-form"&gt;Needs in (Partial) User Story Form&lt;/h4&gt;
+&lt;p&gt;User needs are expressed in the form of partial user stories:
+As a &lt;role&gt;, I want &lt;goal&gt;.
+These descriptions may change to correct omissions and clarify noticed issues. Talk to the customer and propose options, rather than making what might be an unwarranted assumption or interpretation.&lt;/p&gt;
+&lt;h5 id="moods"&gt;Moods&lt;/h5&gt;
+&lt;p&gt;US 01.01.01
+As a participant, I want to add a mood event to my mood history, each event with the current date and time, a required emotional state, optional trigger, and optional social situation.
+US 01.02.01
+As a participant, I want the emotional states to include at least: anger, confusion, disgust, fear, happiness, sadness, shame, and surprise.
+US 01.03.01
+As a participant, I want consistent emoticons and colors to depict and distinguish the emotional states in any view.
+US 01.04.01
+As a participant, I want to view a given mood event and all its available details.
+US 01.05.01
+As a participant, I want to edit the details of a given mood event of mine.
+US 01.06.01
+As a participant, I want to delete a given mood event of mine.&lt;/p&gt;
+&lt;h5 id="other-details"&gt;Other Details&lt;/h5&gt;
+&lt;p&gt;US 02.01.01
+As a participant, I want to express the reason why for a mood event using a brief textual explanation (no more than 20 characters or 3 words).
+US 02.02.01
+As a participant, I want to express the reason why for a mood event using a photograph.
+US 02.03.01
+As a system administrator, I want the storage for each photographic image to be under 65536 bytes.
+US 02.04.01
+As a participant, I want to specify the social situation for a mood event to be one of: alone, with one other person, with two to several people, or with a crowd.&lt;/p&gt;
+&lt;h5 id="profile"&gt;Profile&lt;/h5&gt;
+&lt;p&gt;US 03.01.01
+As a user, I want a profile with a unique username.&lt;/p&gt;
+&lt;h5 id="mood-history"&gt;Mood History&lt;/h5&gt;
+&lt;p&gt;US 04.01.01
+As a participant, I want to view as a list my mood history, sorted by date and time, in reverse chronological order (most recent coming first).
+US 04.02.01
+As a participant, I want to filter my mood history list to show only mood events that occurred in the most recent week.
+US 04.03.01
+As a participant, I want to filter my mood history list to show only mood events with a particular emotional state.
+US 04.04.01
+As a participant, I want to filter my mood history list to show only mood events whose reason why text contains a given word.&lt;/p&gt;
+&lt;h5 id="mood-following-and-sharing"&gt;Mood Following and Sharing&lt;/h5&gt;
+&lt;p&gt;US 05.01.01
+As a participant, I want to ask another participant to follow their most recent mood event.
+US 05.02.01
+As a participant, I want to grant another participant permission to follow my most recent mood event.
+US 05.03.01
+As a participant, I want to view as a list the most recent mood events of the participants I am granted to follow, sorted by date and time, in reverse chronological order (most recent coming first).
+US 05.04.01
+As a participant, I want to filter my mood following list to show only mood events that occurred in the most recent week.
+US 05.05.01
+As a participant, I want to filter my mood following list to show only mood events with a particular emotional state.
+US 05.06.01
+As a participant, I want to filter my mood following list to show only mood events whose reason why text contains a given word.&lt;/p&gt;
+&lt;h5 id="geolocation-and-maps"&gt;Geolocation and Maps&lt;/h5&gt;
+&lt;p&gt;US 06.01.01
+As a participant, I want to optionally attach my current location to a mood event.
+US 06.02.01
+As a participant, I want to see a map of the mood events (showing their emotional states) from my filtered mood history list (that have locations).
+US 06.03.01
+As a participant, I want to see a map of the mood events (showing their emotional states and the username) from my filtered mood following list (that have locations).
+US 06.04.01
+As a participant, I want to see a map of the most recent mood event of every participant (showing their emotional states) if the event has a location and is within 5 km of my current location.&lt;/p&gt;
+&lt;h5 id="offline-behavior"&gt;Offline Behavior&lt;/h5&gt;
+&lt;p&gt;US 07.01.01
+As a participant, I want to add, edit, or delete a mood event while offline, and have any of these changes synchronized once I get connectivity.&lt;/p&gt;
+&lt;h5 id="wow-factor"&gt;"Wow" Factor&lt;/h5&gt;
+&lt;p&gt;Non-trivial requirement(s) that fit with the app on approval from your TA&lt;/p&gt;</content><category term="old_project_descriptions"/><category term="projects"/><category term="teams"/><category term="grading"/></entry><entry><title>2018 F Project Problem Description</title><link href="https://ualberta-cmput301.github.io/resources/old_project_descriptions/2018_F_ProjectDesc.html" rel="alternate"/><published>2024-11-04T00:00:00-07:00</published><updated>2024-11-04T00:00:00-07:00</updated><author><name>Tina Nguyen</name></author><id>tag:ualberta-cmput301.github.io,2024-11-04:/resources/old_project_descriptions/2018_F_ProjectDesc.html</id><summary type="html">&lt;p&gt;2018 F Project Problem Description&lt;/p&gt;</summary><content type="html">&lt;h3 id="project-problem-description"&gt;Project Problem Description&lt;/h3&gt;
+&lt;p&gt;Warning: This is subject to change!&lt;/p&gt;
+&lt;p&gt;You are to design and implement a simple, attractive, and easy-to-use Android application to satisfy the following goals. Your design must be flexible enough to allow developers to extend or migrate it.&lt;/p&gt;
+&lt;h4 id="users-problem-description"&gt;User's Problem Description&lt;/h4&gt;
+&lt;p&gt;I went to my doctor and had a physical. It was embarassing. The doctor pointed out some spots and asked if I had seen them before. I wasn't sure, so neither put pushed the issue any further. We didn't know, so we weren't going to do anything. Another time I went to the doctor and had the doctor investigate a spot on my hand. The doctor asked me if it had changed, I wasn't sure. The doctor asked me if it had grown, I said I assume so because why am I noticing it now. The doctor shrugged, said it looked alright and told me to keep track of it. Come back if it changed.&lt;/p&gt;
+&lt;p&gt;I can't remember if it changes, to prove something changed I need evidence. I could take photos of my whole body and keep them in a safe place, but would I remember to take the photos again and consistently? I also would like to take notes as well.&lt;/p&gt;
+&lt;p&gt;Thus I want software that will run on my phone and allow me to take photos of skin issues and notes about medical issues I might have. These photos and notes will be for my own sanity as well I can provide them to physicians when they are needed.&lt;/p&gt;
+&lt;p&gt;Each photo or note should be timestamped and associated with a problem. Each photo or note should optionally be mapped to a location. Each photo or note should be associated with a location on my body which I can indicate by clicking on paper-doll-cut-out-like image of myself. So if my left arm was affected, I'd click on my left arm on a picture of myself--that body location would recorded. If I suffer headaches near smokestacks I probably want to record the GPS location as well.&lt;/p&gt;
+&lt;p&gt;Thus as a user I want to be able to track and document medical issues. I want to use my cellphone to help me document all the blemishes and marks, and other stuff on my body such that I can keep track of them.&lt;/p&gt;
+&lt;h4 id="needs-in-partial-user-story-form"&gt;Needs in (Partial) User Story Form&lt;/h4&gt;
+&lt;p&gt;User needs are expressed in the form of partial user stories:&lt;/p&gt;
+&lt;p&gt;As a &lt;role&gt;, I want &lt;goal&gt;.&lt;/p&gt;
+&lt;p&gt;These descriptions may change to correct omissions and clarify noticed issues.&lt;/p&gt;
+&lt;h5 id="task-basics"&gt;Task Basics&lt;/h5&gt;
+&lt;p&gt;US 01.01.01&lt;/p&gt;
+&lt;p&gt;As a patient I want to record my problems, each denoted with a title, date started, and a brief description.&lt;/p&gt;
+&lt;p&gt;US 01.01.02 (added 2018-02-14)
+As a patient, I want the maximum length of the task title to be at least 30 characters.&lt;/p&gt;
+&lt;p&gt;US 01.01.03 (added 2018-02-14)
+As a patient, I want the maximum length of the task description to be at least 300 characters.&lt;/p&gt;
+&lt;p&gt;US 01.02.01
+As a patient, I want to view a list of my problems, with their titles, dates, and number of records.&lt;/p&gt;
+&lt;p&gt;US 01.03.01 (revised 2018-02-16)
+As a patient, I want to edit the details for any one of my problems.&lt;/p&gt;
+&lt;p&gt;US 01.04.01
+As a patient, I want to delete a problem of mine.&lt;/p&gt;
+&lt;p&gt;US 01.05.01&lt;/p&gt;
+&lt;p&gt;As a patient I want to add records (photos, locations, comments) to problems.&lt;/p&gt;
+&lt;h5 id="record-details"&gt;Record Details&lt;/h5&gt;
+&lt;p&gt;US 02.01.01
+As a patient or care provider, I want to view all the records for a given problem, including its title, description, photo, etc.&lt;/p&gt;
+&lt;p&gt;US 02.02.01
+As a patient, I want to add records to problems.&lt;/p&gt;
+&lt;p&gt;US 02.03.01
+As a patient, records can have a geo-location.&lt;/p&gt;
+&lt;p&gt;US 02.04.01
+As a patient, records can have a body location.&lt;/p&gt;
+&lt;p&gt;US 02.05.01
+As a patient, records can have a title and comment.&lt;/p&gt;
+&lt;p&gt;US 02.06.01
+As a patient, records can have a photo.&lt;/p&gt;
+&lt;p&gt;US 02.07.01
+As care provider, I want to add new comment records to a problem for my patients.&lt;/p&gt;
+&lt;p&gt;US 02.08.01
+As a patient, records have a timestamp.&lt;/p&gt;
+&lt;p&gt;US 02.09.01&lt;/p&gt;
+&lt;p&gt;As a patient, I want some method of helping me take consistent photos, so that when I show the doctor any progression such as the growth of a mole is evident.&lt;/p&gt;
+&lt;p&gt;US 02.10.01&lt;/p&gt;
+&lt;p&gt;As a patient, I need to have a slideshow mode whereby photo records of a problem can be browsed by clicking. So I could "animate” changes to a doctor.&lt;/p&gt;
+&lt;h5 id="user-profile"&gt;User Profile&lt;/h5&gt;
+&lt;p&gt;US 03.01.01
+As a patient, I want a profile with a unique userid and my contact information.&lt;/p&gt;
+&lt;p&gt;US 03.01.02
+As a patient, I want the minimum userid to be at least 8 characters.&lt;/p&gt;
+&lt;p&gt;US 03.01.03
+As a patient, I want the contact information to include an email address and a phone number.&lt;/p&gt;
+&lt;p&gt;US 03.02.01
+As a patient, I want to edit the contact information in my profile.&lt;/p&gt;
+&lt;p&gt;US 03.03.01
+As a patient or care provider, I want to, whenever a username is shown, be able to retrieve and see its corresponding contact information.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;US 03.04.01 &lt;em&gt;new&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;As a patient or care provider, I do not want to have to ever use a password, remember a password, or have to care about a password. If I need security tokens or anything like that it must be hidden from me.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;US 03.05.01 *new&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;As a patient or care provider, when I use a new device I want to be able to use the same profile.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;US 03.06.01 &lt;em&gt;new&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;As a patient, I want to be able to share a very short code, or something visually scannable by a photo camera, with a care provider so they can add my profile.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;US 03.07.01 &lt;em&gt;new&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;As a patient, I want to be able to share a very short code, or something visually scannable by a photo camera, with myself so I can enable a new device to browse as me.&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id="searching"&gt;Searching&lt;/h5&gt;
+&lt;p&gt;US 04.01.01
+As a patient or care provider, I want to specify a set of keywords, and search for all problems or records that contains all the keywords.&lt;/p&gt;
+&lt;p&gt;US 04.02.01
+As a patient or care provider, I want to specify a set of keywords, and search for all problems or records that are near a particular Geo-location.&lt;/p&gt;
+&lt;p&gt;US 04.03.01
+As a patient or care provider, I want to specify a set of keywords, and search for all problems or records that are near a particular body-location.&lt;/p&gt;
+&lt;h5 id="patient-assigned"&gt;Patient Assigned&lt;/h5&gt;
+&lt;p&gt;US 06.01.01
+As a care provider, I want to view a list of patients I am assigned to.&lt;/p&gt;
+&lt;h5 id="care-provider"&gt;Care Provider&lt;/h5&gt;
+&lt;p&gt;US 07.01.01&lt;/p&gt;
+&lt;p&gt;As a care provider, I want to add patients that I am assigned to.&lt;/p&gt;
+&lt;p&gt;US 07.01.02&lt;/p&gt;
+&lt;p&gt;As a care provider, I want to want to browse my patients problems.&lt;/p&gt;
+&lt;p&gt;US 07.01.03&lt;/p&gt;
+&lt;p&gt;As a care provider, I want to add comment records to my patients' problems&lt;/p&gt;
+&lt;h5 id="offline-behavior"&gt;Offline behavior&lt;/h5&gt;
+&lt;p&gt;US 08.01.01
+As a patient, I want to add or edit problems and records while off the network, and have these changes synchronized once I regain connectivity.&lt;/p&gt;
+&lt;h5 id="photographs"&gt;Photographs&lt;/h5&gt;
+&lt;p&gt;US 09.01.01
+As a patient, I want to optionally attach one or more photographs as further viewable details to a record of mine.&lt;/p&gt;
+&lt;p&gt;US 09.01.02 (added 2018-04-06)
+As a patient, I want the maximum number of photographs that can be attached to a record to be at least 10.&lt;/p&gt;
+&lt;p&gt;US 09.02.01
+As a patient or care provider, I want to view any attached photograph for a record.&lt;/p&gt;
+&lt;p&gt;US 09.03.01
+As a sys admin, I want each photograph to be under 65536 bytes in size.&lt;/p&gt;
+&lt;h5 id="geolocation-and-maps"&gt;Geolocation and Maps&lt;/h5&gt;
+&lt;p&gt;US 10.01.01
+As a patient, I want to specify a geo location on a map of a record.&lt;/p&gt;
+&lt;p&gt;US 10.02.01
+As a patient or provider, I want to view any geo location for a record, on a map.&lt;/p&gt;
+&lt;p&gt;US 10.03.01
+As a patient or care provider, I want to see a map of all records for a patient (that have locations).&lt;/p&gt;
+&lt;h5 id="body-locations"&gt;Body-locations&lt;/h5&gt;
+&lt;p&gt;US 11.01.01&lt;/p&gt;
+&lt;p&gt;As a patient, I want to upload at least front and back body-location photos so I may indicate where photo records were taken on my body.&lt;/p&gt;
+&lt;p&gt;US 11.02.01&lt;/p&gt;
+&lt;p&gt;As a patient, body locations are effectively a reference to a body-location photo and a point location on the photo.&lt;/p&gt;
+&lt;p&gt;US 11.03.01&lt;/p&gt;
+&lt;p&gt;As a patient, I should be able to have at least 2 body location pictures.&lt;/p&gt;
+&lt;p&gt;US 11.04.01&lt;/p&gt;
+&lt;p&gt;As a patient, when I view a body location it should be a clear indicator of a point on a body-location picture.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;US 11.05.01 &lt;em&gt;new&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;As a patient, when making a record I want to choose from available body locations to associate with a photo or a record.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;US 11.06.01 &lt;em&gt;new&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;As a patient, I should be able to add body location photos.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;US 11.07.01 &lt;em&gt;new&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;As a patient, I should be able to remove body location photos.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;US 11.08.01 &lt;em&gt;new&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;As a patient, I should be able to label body location photos.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;US 11.09.01 &lt;em&gt;new&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;As a patient, I want body-location photos stored locally on my device (and remotely) so that access to them is fast.&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id="sys-admin"&gt;Sys-admin&lt;/h5&gt;
+&lt;p&gt;&lt;strong&gt;US 12.01.01 &lt;em&gt;new&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;As a sysadmin, I want to use a Free/Libre Open Source Software service-side tool such as Elasticsearch to host this application. No proprietary software for data-hosting.&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id="wow-factor"&gt;"Wow" Factor&lt;/h5&gt;
+&lt;p&gt;Non-trivial, visible requirement(s) of your choice that fit with the app, on approval from your TA. This should be decided for the initial use cases.&lt;/p&gt;
+&lt;p&gt;An example could be a nice UI for the paper-cut-out-doll view. Another could be dealing with records (that have locations) from a map view.&lt;/p&gt;
+&lt;p&gt;Another wow factor could be encryption---if you can encrypt photos that are uploaded.&lt;/p&gt;</content><category term="old_project_descriptions"/><category term="projects"/><category term="teams"/><category term="grading"/></entry><entry><title>2018 W Project Problem Description</title><link href="https://ualberta-cmput301.github.io/resources/old_project_descriptions/2018_W_ProjectDesc.html" rel="alternate"/><published>2024-11-04T00:00:00-07:00</published><updated>2024-11-04T00:00:00-07:00</updated><author><name>Tina Nguyen</name></author><id>tag:ualberta-cmput301.github.io,2024-11-04:/resources/old_project_descriptions/2018_W_ProjectDesc.html</id><summary type="html">&lt;p&gt;2018 W Project Problem Description&lt;/p&gt;</summary><content type="html">&lt;h3 id="project-problem-description"&gt;Project Problem Description&lt;/h3&gt;
+&lt;p&gt;Warning: This is subject to change!&lt;/p&gt;
+&lt;p&gt;You are to design and implement a simple, attractive, and easy-to-use Android application to satisfy the following goals. Your design must be flexible enough to allow developers to extend or migrate it.&lt;/p&gt;
+&lt;p&gt;We want a mobile application that allows task requesters to post the tasks they would like done by task providers. For example, a task could be giving a ride in a car or delivering a package, within the city.&lt;/p&gt;
+&lt;p&gt;In general, a user of the app could be both a task requester and a task provider. A task provider can offer their service by making a monetary bid on a task. The task requester can accept a bid, so the task is assigned to the winning task provider. The task requester can denote when the task is done.&lt;/p&gt;
+&lt;h4 id="needs-in-partial-user-story-form"&gt;Needs in (Partial) User Story Form&lt;/h4&gt;
+&lt;p&gt;User needs are expressed in the form of partial user stories:&lt;/p&gt;
+&lt;p&gt;As a &lt;role&gt;, I want &lt;goal&gt;.&lt;/p&gt;
+&lt;p&gt;These descriptions may change to correct omissions and clarify noticed issues.&lt;/p&gt;
+&lt;h5 id="task-basics"&gt;Task Basics&lt;/h5&gt;
+&lt;p&gt;US 01.01.01
+As a task requester, I want to add a task to my tasks, each denoted with a title, brief description, and initial status: requested.&lt;/p&gt;
+&lt;p&gt;US 01.01.02 (added 2018-02-14)
+As a task requester, I want the maximum length of the task title to be at least 30 characters.&lt;/p&gt;
+&lt;p&gt;US 01.01.03 (added 2018-02-14)
+As a task requester, I want the maximum length of the task description to be at least 300 characters.&lt;/p&gt;
+&lt;p&gt;US 01.02.01
+As a task requester, I want to view a list of my tasks, with their titles and statuses.&lt;/p&gt;
+&lt;p&gt;US 01.03.01 (revised 2018-02-16)
+As a task requester, I want to edit the details for any one of my tasks with status: requested.&lt;/p&gt;
+&lt;p&gt;US 01.04.01
+As a task requester, I want to delete a task of mine.&lt;/p&gt;
+&lt;h5 id="task-details"&gt;Task Details&lt;/h5&gt;
+&lt;p&gt;US 02.01.01
+As a task requester or provider, I want to view all the details for a given task, including its title, description, status, and lowest bid so far (if any).&lt;/p&gt;
+&lt;p&gt;US 02.02.01
+As a task requester or provider, I want a task to have a status to be one of: requested, bidded, assigned, or done.&lt;/p&gt;
+&lt;p&gt;Bidded means at least one provider bidded on the task.&lt;/p&gt;
+&lt;h5 id="user-profile"&gt;User Profile&lt;/h5&gt;
+&lt;p&gt;US 03.01.01
+As a user, I want a profile with a unique username and my contact information.&lt;/p&gt;
+&lt;p&gt;US 03.01.02 (added 2018-02-16)
+As a user, I want the maximum length of a username to be at least 8 characters.&lt;/p&gt;
+&lt;p&gt;US 03.01.03 (added 2018-02-16)
+As a user, I want the contact information to include an email address and a phone number.&lt;/p&gt;
+&lt;p&gt;US 03.02.01
+As a user, I want to edit the contact information in my profile.&lt;/p&gt;
+&lt;p&gt;US 03.03.01
+As a user, I want to, whenever a username is shown, be able to retrieve and see its corresponding contact information.&lt;/p&gt;
+&lt;h5 id="searching"&gt;Searching&lt;/h5&gt;
+&lt;p&gt;US 04.01.01
+As a task provider, I want to specify a set of keywords, and search for all tasks, with status: requested or bidded, whose description contains all the keywords.&lt;/p&gt;
+&lt;p&gt;US 04.02.01
+As a task provider, I want search results to show each task with its task requester username, title, status, lowest bid so far (if any).&lt;/p&gt;
+&lt;h5 id="task-bidding"&gt;Task Bidding&lt;/h5&gt;
+&lt;p&gt;US 05.01.01
+As a task provider, I want to make a bid on a given task with status: requested or bidded, using a monetary amount.&lt;/p&gt;
+&lt;p&gt;US 05.02.01 (revised 2018-02-14)
+As a task provider, I want to view a list of tasks that I have bidded on, each with its task requester username, title, status, lowest bid so far, and my bid.&lt;/p&gt;
+&lt;p&gt;US 05.03.01
+As a task requester, I want to be notified of a bid on my tasks.&lt;/p&gt;
+&lt;p&gt;US 05.04.01
+As a task requester, I want to view a list of my tasks with status bidded, each having one or more bids.&lt;/p&gt;
+&lt;p&gt;US 05.05.01
+As a task requester, I want to view the bids on one of my tasks.&lt;/p&gt;
+&lt;p&gt;US 05.06.01 (revised 2018-03-28)
+As a task requester, I want to accept a bid on one of my tasks, setting its status to assigned, and declining any other bids on that task.&lt;/p&gt;
+&lt;p&gt;US 05.07.01 (revised 2018-03-28)
+As a task requester, I want to decline a bid on one of my tasks.&lt;/p&gt;
+&lt;p&gt;Declining may be done by marking the bid as such or hiding it.&lt;/p&gt;
+&lt;h5 id="task-assigned"&gt;Task Assigned&lt;/h5&gt;
+&lt;p&gt;US 06.01.01
+As a task provider, I want to view a list of tasks I am assigned, each task with its task requester username, title, status, and my accepted bid.&lt;/p&gt;
+&lt;p&gt;US 06.02.01
+As a task requester, I want to view a list of my tasks with status: assigned, each task with its task provider username, title, status, and accepted bid.&lt;/p&gt;
+&lt;h5 id="task-done"&gt;Task Done&lt;/h5&gt;
+&lt;p&gt;US 07.01.01
+As a task requester, I want to set a task with status: assigned to have status: done, when it is completed.&lt;/p&gt;
+&lt;p&gt;US 07.02.01 (revised 2018-03-28)
+As a task requester, I want to set a task with status: assigned to have status: requested, when it is not completed and there are no other bids on it.&lt;/p&gt;
+&lt;p&gt;US 07.03.01 (added 2018-03-28)
+As a task requester, I want to set a task with status: assigned to have status: bidded, when it is not completed and there are other bids on it.&lt;/p&gt;
+&lt;h5 id="offline-behavior"&gt;Offline behavior&lt;/h5&gt;
+&lt;p&gt;US 08.01.01
+As a task requester, I want to add or edit tasks while off the network, and have these changes synchronized once I regain connectivity.&lt;/p&gt;
+&lt;h5 id="photographs"&gt;Photographs&lt;/h5&gt;
+&lt;p&gt;US 09.01.01
+As a task requester, I want to optionally attach one or more photographs as further viewable details to a task of mine.&lt;/p&gt;
+&lt;p&gt;US 09.01.02 (added 2018-04-06)
+As a task requester, I want the maximum number of photographs that can be attached to a task to be at least 10.&lt;/p&gt;
+&lt;p&gt;US 09.02.01
+As a task requester or provider, I want to view any attached photograph for a task.&lt;/p&gt;
+&lt;p&gt;US 09.03.01
+As a sys admin, I want each photograph to be under 65536 bytes in size.&lt;/p&gt;
+&lt;h5 id="geolocation-and-maps"&gt;Geolocation and Maps&lt;/h5&gt;
+&lt;p&gt;US 10.01.01
+As a task requester, I want to specify a geo location on a map as further viewable details to a task of mine.&lt;/p&gt;
+&lt;p&gt;US 10.02.01
+As a task requester or provider, I want to view any geo location for a task, on a map.&lt;/p&gt;
+&lt;p&gt;US 10.03.01
+As a task provider, I want to see a map of all tasks (that have locations), with status: requested or bidded, that are within 5 km of my current location.&lt;/p&gt;
+&lt;h5 id="wow-factor"&gt;"Wow" Factor&lt;/h5&gt;
+&lt;p&gt;Non-trivial, visible requirement(s) of your choice that fit with the app, on approval from your TA. This should be decided for the initial use cases.&lt;/p&gt;
+&lt;p&gt;An example could be a way to rate task providers and see their ratings. Another could be dealing with tasks (that have locations) from a map view.&lt;/p&gt;</content><category term="old_project_descriptions"/><category term="projects"/><category term="teams"/><category term="grading"/></entry><entry><title>2019 F Project Problem Description</title><link href="https://ualberta-cmput301.github.io/resources/old_project_descriptions/2019_F_ProjectDesc.html" rel="alternate"/><published>2024-11-04T00:00:00-07:00</published><updated>2024-11-04T00:00:00-07:00</updated><author><name>Tina Nguyen</name></author><id>tag:ualberta-cmput301.github.io,2024-11-04:/resources/old_project_descriptions/2019_F_ProjectDesc.html</id><summary type="html">&lt;p&gt;2019 F Project Problem Description&lt;/p&gt;</summary><content type="html">&lt;p&gt;Warning: this is subject to change!&lt;/p&gt;
+&lt;p&gt;You are to design and implement a simple, attractive, and easy-to-use Android application to satisfy the follow goals. Your design must be flexible enough to allow developers to extend or migrate it.&lt;/p&gt;
+&lt;p&gt;To assist in understanding the emotional states and triggers of individuals and groups, we want a mobile application that allows one to post, track, and share their moods.&lt;/p&gt;
+&lt;p&gt;For university students or staff that participate in using the app, this could allow a clearer picture of their experiences, perceptions, and mental well-being in the face of challenges in academic life.&lt;/p&gt;
+&lt;p&gt;Needs in (Partial) User Story Form&lt;/p&gt;
+&lt;p&gt;User needs are expressed in the form of partial user stories:
+As a &lt;role&gt;, I want &lt;goal&gt;.&lt;/p&gt;
+&lt;p&gt;These descriptions may change to correct omissions, clarify noticed issues, and add new needs. Talk to the customer and propose options, rather than making what might be an unwarranted assumption or interpretation.&lt;/p&gt;
+&lt;h5 id="moods"&gt;Moods&lt;/h5&gt;
+&lt;p&gt;US 01.01.01
+As a participant, I want to add a mood event to my mood history, each event with the current date and time, a required emotional state, optional reason, and optional social situation.&lt;/p&gt;
+&lt;p&gt;US 01.02.01
+As a participant, I want consistent emoticons and colors to depict and distinguish the emotional states in any view.&lt;/p&gt;
+&lt;p&gt;US 01.03.01
+As a participant, I want to view a given mood event and all its available details.&lt;/p&gt;
+&lt;p&gt;US 01.04.01
+As a participant, I want to edit the details of a given mood event of mine.&lt;/p&gt;
+&lt;p&gt;US 01.05.01
+As a participant, I want to delete a given mood event of mine.&lt;/p&gt;
+&lt;h5 id="other-mood-details"&gt;Other Mood Details&lt;/h5&gt;
+&lt;p&gt;US 02.01.01
+As a participant, I want to express the reason why for a mood event using a brief textual explanation (no more than 20 characters or 3 words).&lt;/p&gt;
+&lt;p&gt;US 02.02.01
+As a participant, I want to express the reason why for a mood event using a photograph.&lt;/p&gt;
+&lt;p&gt;US 02.03.01
+As a participant, I want to specify the social situation for a mood event to be one of: alone, with one other person, with two to several people, or with a crowd.&lt;/p&gt;
+&lt;h5 id="profile"&gt;Profile&lt;/h5&gt;
+&lt;p&gt;US 03.01.01
+As a user, I want a profile with a unique username.&lt;/p&gt;
+&lt;h5 id="mood-history"&gt;Mood History&lt;/h5&gt;
+&lt;p&gt;US 04.01.01
+As a participant, I want to view as a list my mood history, sorted by date and time, in reverse chronological order (most recent coming first).&lt;/p&gt;
+&lt;p&gt;US 04.02.01
+As a participant, I want to filter my mood history list to show only mood events with a particular emotional state.&lt;/p&gt;
+&lt;h5 id="mood-following-and-sharing"&gt;Mood Following and Sharing&lt;/h5&gt;
+&lt;p&gt;US 05.01.01
+As a participant, I want to ask another participant to follow their most recent mood event.&lt;/p&gt;
+&lt;p&gt;US 05.02.01
+As a participant, I want to grant another participant permission to follow my most recent mood event.&lt;/p&gt;
+&lt;p&gt;US 05.03.01
+As a participant, I want to view as a list the most recent mood events of the other participants I am granted to follow, sorted by date and time, in reverse chronological order (most recent coming first).&lt;/p&gt;
+&lt;h5 id="geolocation-and-maps"&gt;Geolocation and Maps&lt;/h5&gt;
+&lt;p&gt;US 06.01.01
+As a participant, I want to optionally attach my current location to a mood event.&lt;/p&gt;
+&lt;p&gt;US 06.02.01
+As a participant, I want to see a map of the mood events (showing their emotional states) from my mood history list (that have locations).&lt;/p&gt;
+&lt;p&gt;US 06.03.01
+As a participant, I want to see a map of the mood events (showing their emotional states and the username) from my mood following list (that have locations).&lt;/p&gt;</content><category term="old_project_descriptions"/><category term="projects"/><category term="teams"/><category term="grading"/></entry><entry><title>2019 W Project Problem Description</title><link href="https://ualberta-cmput301.github.io/resources/old_project_descriptions/2019_W_ProjectDesc.html" rel="alternate"/><published>2024-11-04T00:00:00-07:00</published><updated>2024-11-04T00:00:00-07:00</updated><author><name>Tina Nguyen</name></author><id>tag:ualberta-cmput301.github.io,2024-11-04:/resources/old_project_descriptions/2019_W_ProjectDesc.html</id><summary type="html">&lt;p&gt;2019 W Project Problem Description&lt;/p&gt;</summary><content type="html">&lt;h3 id="project-problem-description"&gt;Project Problem Description&lt;/h3&gt;
+&lt;p&gt;Warning: This is subject to change!&lt;/p&gt;
+&lt;p&gt;You are to design and implement a simple, attractive, and easy-to-use Android application to satisfy the following goals. Your design must be flexible enough to allow developers to extend or migrate it.&lt;/p&gt;
+&lt;p&gt;We want a mobile application that allows owners to record the books they have and loan them to borrowers.&lt;/p&gt;
+&lt;p&gt;In general, a user can be both an owner of their own books and a borrower of someone else's books. A borrower can borrow an available book by making a request for it. The owner can accept such a request. When the book is handed over, the book becomes borrowed. The owner can denote when a borrowed book is returned and available again.&lt;/p&gt;
+&lt;p&gt;Needs in (Partial) User Story Form&lt;/p&gt;
+&lt;p&gt;User needs are expressed in the form of partial user stories:&lt;/p&gt;
+&lt;p&gt;As a &lt;role&gt;, I want &lt;goal&gt;.&lt;/p&gt;
+&lt;p&gt;These descriptions may change to correct omissions and clarify noticed issues. New requirements will be introduced for the final project part.&lt;/p&gt;
+&lt;h5 id="books"&gt;Books&lt;/h5&gt;
+&lt;p&gt;US 01.01.01
+As an owner, I want to add a book in my books, each denoted with a clear, suitable description (at least title, author, and ISBN).&lt;/p&gt;
+&lt;p&gt;US 01.02.01
+As an owner, I want the book description by scanning it off the book (at least the ISBN).&lt;/p&gt;
+&lt;p&gt;US 01.03.01
+As an owner or borrower, I want a book to have a status of one of: available, requested, accepted, or borrowed.&lt;/p&gt;
+&lt;p&gt;US 01.04.01
+As an owner, I want to view a list of all my books, and their descriptions, statuses, and current borrowers.&lt;/p&gt;
+&lt;p&gt;US 01.05.01
+As an owner, I want to view a list of all my books, filtered by status.&lt;/p&gt;
+&lt;p&gt;US 01.06.01
+As an owner, I want to view and edit a book description in my books.&lt;/p&gt;
+&lt;p&gt;US 01.07.01
+As an owner, I want to delete a book in my books.&lt;/p&gt;
+&lt;h5 id="user-profile"&gt;User profile&lt;/h5&gt;
+&lt;p&gt;US 02.01.01
+As an owner or borrower, I want a profile with a unique username and my contact information.&lt;/p&gt;
+&lt;p&gt;US 02.02.01
+As an owner or borrower, I want to edit the contact information in my profile.&lt;/p&gt;
+&lt;p&gt;US 02.03.01
+As an owner or borrower, I want to retrieve and show the profile of a presented username.&lt;/p&gt;
+&lt;h5 id="searching"&gt;Searching&lt;/h5&gt;
+&lt;p&gt;US 03.01.01
+As a borrower, I want to specify a set of keywords, and search for all books that are not currently accepted or borrowed whose description contains all the keywords.&lt;/p&gt;
+&lt;p&gt;US 03.02.01
+As a borrower, I want search results to show each book not currently accepted or borrowed with its description, owner username, and status.&lt;/p&gt;
+&lt;h5 id="requesting"&gt;Requesting&lt;/h5&gt;
+&lt;p&gt;US 04.01.01
+As a borrower, I want to request a book that is not currently accepted or borrowed.&lt;/p&gt;
+&lt;p&gt;US 04.02.01
+As a borrower, I want to view a list of books I have requested, each book with its description, and owner username.&lt;/p&gt;
+&lt;p&gt;US 04.03.01
+As an owner, I want to be notified of a request.&lt;/p&gt;
+&lt;p&gt;US 04.04.01
+As an owner, I want to view all the requests on one of my books.&lt;/p&gt;
+&lt;h5 id="accepting"&gt;Accepting&lt;/h5&gt;
+&lt;p&gt;US 05.01.01
+As an owner, I want to accept a request on one of my books. (Any other requests are declined.)&lt;/p&gt;
+&lt;p&gt;US 05.02.01
+As an owner, I want to decline a request on one of my books.&lt;/p&gt;
+&lt;p&gt;US 05.03.01
+As a borrower, I want to be notified of an accepted request.&lt;/p&gt;
+&lt;p&gt;US 05.04.01
+As a borrower, I want to view a list of books I have requested that are accepted, each book with its description, and owner username.&lt;/p&gt;
+&lt;h5 id="borrowing"&gt;Borrowing&lt;/h5&gt;
+&lt;p&gt;US 06.01.01
+As an owner, I want to hand over a book by scanning the book ISBN code and denoting the book as borrowed.&lt;/p&gt;
+&lt;p&gt;US 06.02.01
+As a borrower, I want to receive an accepted book by scanning the book ISBN code to confirm I have borrowed it.&lt;/p&gt;
+&lt;p&gt;US 06.03.01
+As a borrower, I want to view a list of books I am borrowing, each book with its description and owner username. &lt;/p&gt;
+&lt;h5 id="returning"&gt;Returning&lt;/h5&gt;
+&lt;p&gt;US 07.01.01
+As a borrower, I want to hand over a book I borrowed by scanning the book ISBN code to denote the book as available.&lt;/p&gt;
+&lt;p&gt;US 07.02.01
+As an owner, I want to receive a returned book by scanning the book ISBN code to confirm I have it available.&lt;/p&gt;
+&lt;h5 id="photographs"&gt;Photographs&lt;/h5&gt;
+&lt;p&gt;US 08.01.01
+As an owner, I want to optionally attach a photograph to a book of mine.&lt;/p&gt;
+&lt;p&gt;US 08.02.01
+As an owner, I want to delete any attached photograph for a book of mine.&lt;/p&gt;
+&lt;p&gt;US 08.03.01
+As an owner or borrower, I want to view any attached photograph for a book.&lt;/p&gt;
+&lt;h5 id="location"&gt;Location&lt;/h5&gt;
+&lt;p&gt;US 09.01.01
+As an owner, I want to specify a geo location on a map of where to receive a book when I accept a request on the book.&lt;/p&gt;
+&lt;p&gt;US 09.02.01
+As a borrower, I want to view the geo location of where to receive a book I will be borrowing.&lt;/p&gt;
+&lt;h5 id="wow"&gt;"Wow"&lt;/h5&gt;
+&lt;p&gt;Non-trivial requirement(s) on approval from your TA.&lt;/p&gt;</content><category term="old_project_descriptions"/><category term="projects"/><category term="teams"/><category term="grading"/></entry><entry><title>2020 F Project Problem Description</title><link href="https://ualberta-cmput301.github.io/resources/old_project_descriptions/2020_F_ProjectDesc.html" rel="alternate"/><published>2024-11-04T00:00:00-07:00</published><updated>2024-11-04T00:00:00-07:00</updated><author><name>Tina Nguyen</name></author><id>tag:ualberta-cmput301.github.io,2024-11-04:/resources/old_project_descriptions/2020_F_ProjectDesc.html</id><summary type="html">&lt;p&gt;2020 F Project Problem Description&lt;/p&gt;</summary><content type="html">&lt;p&gt;Warning: This is subject to change!&lt;/p&gt;
+&lt;p&gt;You are to design and implement a simple, attractive, and easy-to-use Android application to satisfy the following goals. Your design must be flexible enough to allow developers to extend or migrate it.&lt;/p&gt;
+&lt;p&gt;We want a mobile application that allows owners to record the books they have and loan them to borrowers.&lt;/p&gt;
+&lt;p&gt;In general, a user can be both an owner of their own books and a borrower of someone else's books. A borrower can borrow an available book by making a request for it. The owner can accept such a request. When the book is handed over, the book becomes borrowed. The owner can denote when a borrowed book is returned and available again.&lt;/p&gt;
+&lt;p&gt;Needs in (Partial) User Story Form&lt;/p&gt;
+&lt;p&gt;User needs are expressed in the form of partial user stories:&lt;/p&gt;
+&lt;p&gt;As a &lt;role&gt;, I want &lt;goal&gt;.&lt;/p&gt;
+&lt;p&gt;These descriptions may change to correct omissions and clarify noticed issues. New requirements will be introduced for the final project part.&lt;/p&gt;
+&lt;h5 id="books"&gt;Books&lt;/h5&gt;
+&lt;p&gt;US 01.01.01
+As an owner, I want to add a book in my books, each denoted with a clear, suitable description (at least title, author, and ISBN).&lt;/p&gt;
+&lt;p&gt;US 01.02.01
+As an owner, I want the book description by scanning it off the book (at least the ISBN).&lt;/p&gt;
+&lt;p&gt;US 01.03.01
+As an owner or borrower, I want a book to have a status to be one of: available, requested, accepted, or borrowed.&lt;/p&gt;
+&lt;p&gt;US 01.04.01
+As an owner, I want to view a list of all my books, and their descriptions, statuses, and current borrowers.&lt;/p&gt;
+&lt;p&gt;US 01.05.01
+As an owner, I want to view a list of all my books, filtered by status.&lt;/p&gt;
+&lt;p&gt;US 01.06.01
+As an owner, I want to view and edit a book description in my books.&lt;/p&gt;
+&lt;p&gt;US 01.07.01
+As an owner, I want to delete a book in my books.&lt;/p&gt;
+&lt;h5 id="user-profile"&gt;User profile&lt;/h5&gt;
+&lt;p&gt;US 02.01.01
+As an owner or borrower, I want a profile with a unique username and my contact information.&lt;/p&gt;
+&lt;p&gt;US 02.02.01
+As an owner or borrower, I want to edit the contact information in my profile.&lt;/p&gt;
+&lt;p&gt;US 02.03.01
+As an owner or borrower, I want to retrieve and show the profile of a presented username.&lt;/p&gt;
+&lt;h5 id="searching"&gt;Searching&lt;/h5&gt;
+&lt;p&gt;US 03.01.01
+As a borrower, I want to specify a keyword, and search for all books that are not currently accepted or borrowed whose description contains the keyword.&lt;/p&gt;
+&lt;p&gt;US 03.02.01
+As a borrower, I want search results to show each book with its description, owner username, and status.&lt;/p&gt;
+&lt;h5 id="requesting"&gt;Requesting&lt;/h5&gt;
+&lt;p&gt;US 04.01.01
+As a borrower, I want to request a book that is not currently accepted or borrowed.&lt;/p&gt;
+&lt;p&gt;US 04.02.01
+As a borrower, I want to view a list of books I have requested, each book with its description, owner username, and status.&lt;/p&gt;
+&lt;p&gt;US 04.03.01
+As an owner, I want to be notified of a request.&lt;/p&gt;
+&lt;p&gt;US 04.04.01
+As an owner, I want to view all the requests on one of my books.&lt;/p&gt;
+&lt;h5 id="accepting"&gt;Accepting&lt;/h5&gt;
+&lt;p&gt;US 05.01.01
+As an owner, I want to accept a request on one of my books. (Any other requests on the book are declined.)&lt;/p&gt;
+&lt;p&gt;US 05.02.01
+As an owner, I want to decline a request on one of my books.&lt;/p&gt;
+&lt;p&gt;US 05.03.01
+As a borrower, I want to be notified of an accepted request.&lt;/p&gt;
+&lt;p&gt;US 05.04.01
+As a borrower, I want to view a list of books I have requested that are accepted, each book with its description, and owner username.&lt;/p&gt;
+&lt;h5 id="borrowing"&gt;Borrowing&lt;/h5&gt;
+&lt;p&gt;US 06.01.01
+As an owner, I want to hand over a book by scanning the book ISBN code and denoting the book as borrowed.&lt;/p&gt;
+&lt;p&gt;US 06.02.01
+As a borrower, I want to receive an accepted book by scanning the book ISBN code to confirm I have borrowed it.&lt;/p&gt;
+&lt;p&gt;US 06.03.01
+As a borrower, I want to view a list of books I am borrowing, each book with its description and owner username. &lt;/p&gt;
+&lt;h5 id="returning"&gt;Returning&lt;/h5&gt;
+&lt;p&gt;US 07.01.01
+As a borrower, I want to hand over a book I borrowed by scanning the book ISBN code to denote the book as available.&lt;/p&gt;
+&lt;p&gt;US 07.02.01
+As an owner, I want to receive a returned book by scanning the book ISBN code to confirm I have it available.&lt;/p&gt;
+&lt;h5 id="photographs"&gt;Photographs&lt;/h5&gt;
+&lt;p&gt;US 08.01.01
+As an owner, I want to optionally attach a photograph to a book of mine.&lt;/p&gt;
+&lt;p&gt;US 08.02.01
+As an owner, I want to delete any attached photograph for a book of mine.&lt;/p&gt;
+&lt;p&gt;US 08.03.01
+As an owner or borrower, I want to view any attached photograph for a book.&lt;/p&gt;
+&lt;h5 id="location"&gt;Location&lt;/h5&gt;
+&lt;p&gt;US 09.01.01
+As an owner, I want to specify a geo location on a map of where to receive a book when I accept a request on the book.&lt;/p&gt;
+&lt;p&gt;US 09.02.01
+As a borrower, I want to view the geo location of where to receive a book I will be borrowing.&lt;/p&gt;</content><category term="old_project_descriptions"/><category term="projects"/><category term="teams"/><category term="grading"/></entry><entry><title>2020 W Project Problem Description</title><link href="https://ualberta-cmput301.github.io/resources/old_project_descriptions/2020_W_ProjectDesc.html" rel="alternate"/><published>2024-11-04T00:00:00-07:00</published><updated>2024-11-04T00:00:00-07:00</updated><author><name>Tina Nguyen</name></author><id>tag:ualberta-cmput301.github.io,2024-11-04:/resources/old_project_descriptions/2020_W_ProjectDesc.html</id><summary type="html">&lt;p&gt;2020 W Project Problem Description&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;strong&gt;Warning: This is subject to change!&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id="you-are-to-design-and-implement-a-simple-attractive-and-easy-to-use-android-application-to-satisfy-the-following-goals-your-design-must-be-flexible-enough-to-allow-developers-to-extend-or-migrate-it"&gt;You are to design and implement a simple, attractive, and easy-to-use Android application to satisfy the following goals. Your design must be flexible enough to allow developers to extend or migrate it.&lt;/h4&gt;
+&lt;p&gt;We want a mobile application that allows drivers to search for open and recent ride requests, and for riders to post requests for rides. Riders will describe the start and end of their ride and their suggested payment. Drivers will browse for nearby requests and accept ride requests that they are willing to fulfil. We're going to use the new baloney currency QR-Bucks! It's like an IOU but in QR code form!&lt;/p&gt;
+&lt;h4 id="needs-in-partial-user-story-form"&gt;Needs in (Partial) User Story Form&lt;/h4&gt;
+&lt;p&gt;User needs are expressed in the form of partial user stories:
+&lt;strong&gt;As a &lt;role&gt;, I want &lt;goal&gt;.&lt;/strong&gt;
+These descriptions may change to correct omissions and clarify noticed issues. New requirements will be introduced for the final project part.&lt;/p&gt;
+&lt;h5 id="requests"&gt;Requests&lt;/h5&gt;
+&lt;p&gt;US 01.01.01
+As a rider, I want to request rides between two locations.
+US 01.02.01
+As a rider, I want to see current request I have open.
+US 01.03.01
+As a rider, I want to be notified if my request is accepted.
+US 01.04.01
+As a rider, I want to cancel requests.
+US 01.05.01
+As a rider, I want to be able to phone or email the driver who accepted a request.
+US 01.06.01
+As a rider, I want an estimate of a fair fare to offer to drivers and I should be able to offer more.
+US 01.07.01
+As a rider, I want to confirm the completion of a request and enable payment.&lt;/p&gt;
+&lt;p&gt;US 01.08.01
+As a rider, I want to cancel a ride before the rider picks me up.
+US 1.10.01
+As a rider, I want to see the driver's profile and ratings.&lt;/p&gt;
+&lt;p&gt;US 1.11.01
+As a rider, I want to rate a driver for his/her service thumbs up or thumbs down.&lt;/p&gt;
+&lt;h5 id="status"&gt;Status&lt;/h5&gt;
+&lt;p&gt;US 02.01.01
+As a rider or driver, I want to see the status of a request that I am involved in
+User profile
+US 03.01.01
+As a user, I want a profile with a unique username and my contact information.
+US 03.02.01
+As a user, I want to edit the contact information in my profile.
+US 03.03.01
+As a user, I want to, when a username is presented for a thing, retrieve and show its contact information.&lt;/p&gt;
+&lt;h5 id="searching"&gt;Searching&lt;/h5&gt;
+&lt;p&gt;US 04.01.01
+As a driver, I want to browse and search for open requests by geo-location.&lt;/p&gt;
+&lt;h5 id="accepting"&gt;Accepting&lt;/h5&gt;
+&lt;p&gt;US 05.01.01
+As a driver,  I want to accept a request I agree with and accept that offered payment upon completion.
+US 05.02.01
+As a driver, I want to view the current active request.
+US 05.03.01
+As a driver, I want to be notified if my ride offer was accepted.&lt;/p&gt;
+&lt;h5 id="offline-behavior"&gt;Offline behavior&lt;/h5&gt;
+&lt;p&gt;US 06.01.01
+As an driver, I want to see requests that I already accepted while offline.
+US 06.02.01
+As a rider, I want to see the current request, even if I am offline.&lt;/p&gt;
+&lt;h5 id="location"&gt;Location&lt;/h5&gt;
+&lt;p&gt;US 07.01.01
+As a rider, I want to specify a start and end geo locations on a map for a request.
+US 07.02.01
+As a driver, I want to view start and end geo locations on a map for a request.&lt;/p&gt;
+&lt;h5 id="payment"&gt;Payment&lt;/h5&gt;
+&lt;p&gt;US 08.01.01
+As a rider I wish to generate a QR-Bucks QR Code for my driver to scan to pay them.
+US 08.02.01
+As a driver I want to scan my rider's QR-Bucks to get paid!&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Note: QR-Bucks do not exist yet, please enable the generation and scanning of QR-Bucks for payment. It can be dummy values like "Abram owes me $10.00"&lt;/p&gt;</content><category term="old_project_descriptions"/><category term="projects"/><category term="teams"/><category term="grading"/></entry><entry><title>2021 F Project Problem Description</title><link href="https://ualberta-cmput301.github.io/resources/old_project_descriptions/2021_F_ProjectDesc.html" rel="alternate"/><published>2024-11-04T00:00:00-07:00</published><updated>2024-11-04T00:00:00-07:00</updated><author><name>Tina Nguyen</name></author><id>tag:ualberta-cmput301.github.io,2024-11-04:/resources/old_project_descriptions/2021_F_ProjectDesc.html</id><summary type="html">&lt;p&gt;2021 F Project Problem Description&lt;/p&gt;</summary><content type="html">&lt;p&gt;You are to design and implement a simple, attractive, and easy-to-use Android application to satisfy the follow goals. Your design must be flexible enough to allow developers to extend or migrate it.&lt;/p&gt;
+&lt;p&gt;To assist in forming good habits, we want a mobile application that allows one to track, encourage, and share their habits. Recurring habits could be, for example, "write a joke", "eat breakfast", "exercise dog", "call family", and "no car accident". The intent is to make such habits: regular (e.g., daily), unbroken (so missed habit events are noted), and shared (so there's public pressure not to miss).&lt;/p&gt;
+&lt;h5 id="needs-in-partial-user-story-form"&gt;Needs in (Partial) User Story Form&lt;/h5&gt;
+&lt;p&gt;User needs are expressed in the form of partial user stories:
+As a &lt;role&gt;, I want &lt;goal&gt;.&lt;/p&gt;
+&lt;p&gt;These descriptions may change to correct omissions and clarify noticed issues. Talk to the customer and propose options, rather than making what might be an unwarranted assumption or interpretation.&lt;/p&gt;
+&lt;h5 id="habits"&gt;Habits&lt;/h5&gt;
+&lt;p&gt;US 01.01.01 [updated]
+As a doer, I want to add a habit, giving it a brief title, reason, date to start, and whether it is public or private.&lt;/p&gt;
+&lt;p&gt;US 01.02.01
+As a doer, I want a habit to have a plan for what days of the week it should regularly occur.&lt;/p&gt;
+&lt;p&gt;US 01.03.01
+As a doer, I want to view a given habit and its details.&lt;/p&gt;
+&lt;p&gt;US 01.04.01
+As a doer, I want to edit the details of a habit of mine.&lt;/p&gt;
+&lt;p&gt;US 01.05.01 [updated]
+As a doer, I want to delete a habit of mine, and any corresponding habit events.&lt;/p&gt;
+&lt;p&gt;US 01.06.01
+As a doer, I want a habit title to be up to 20 characters and habit reason to be up to 30 characters.&lt;/p&gt;
+&lt;p&gt;US 01.07.01
+As a doer, I want to see what habits I need to do today.&lt;/p&gt;
+&lt;p&gt;US 01.08.01
+As a doer, I want to see a list of all my habits.&lt;/p&gt;
+&lt;p&gt;US 01.08.02 [new]
+As a doer, I want to manually reorder habits on my list of habits.&lt;/p&gt;
+&lt;p&gt;US 01.09.01
+As a doer, I want for each habit on the list, a visual indicator to show how closely I am following its plan over time.&lt;/p&gt;
+&lt;h5 id="habit-events"&gt;Habit Events&lt;/h5&gt;
+&lt;p&gt;US 02.01.01
+As a doer, I want to denote a habit event when I have done a habit as planned.&lt;/p&gt;
+&lt;p&gt;US 02.02.01
+As a doer, I want a habit event to have an optional comment of up to 20 characters.&lt;/p&gt;
+&lt;p&gt;US 02.03.01
+As a doer, I want a habit event to have an optional photograph to record what happened.&lt;/p&gt;
+&lt;p&gt;US 02.03.02 [new]
+As a doer, I want the photograph for a habit event to be taken with the camera within the app.&lt;/p&gt;
+&lt;p&gt;US 02.04.01
+As a doer, I want to view a given habit event and all its available details.&lt;/p&gt;
+&lt;p&gt;US 02.05.01
+As a doer, I want to edit the details of a habit event of mine.&lt;/p&gt;
+&lt;p&gt;US 02.06.01
+As a doer, I want to delete a habit event of mine.&lt;/p&gt;
+&lt;h5 id="profile"&gt;Profile&lt;/h5&gt;
+&lt;p&gt;US 03.01.01
+As a doer, I want to be uniquely identifiable in the system.&lt;/p&gt;
+&lt;h5 id="habit-following-and-sharing"&gt;Habit Following and Sharing&lt;/h5&gt;
+&lt;p&gt;US 05.01.01 [updated]
+As a doer, I want to ask another doer to follow all their public habits.&lt;/p&gt;
+&lt;p&gt;US 05.02.01 [updated]
+As a doer, I want to grant or deny another doer permission to follow all my public habits.&lt;/p&gt;
+&lt;p&gt;US 05.03.01 [updated]
+As a doer, I want to view the public habits and visual indicators of the other doers I am granted to follow.&lt;/p&gt;
+&lt;h5 id="geolocation-and-maps"&gt;Geolocation and Maps&lt;/h5&gt;
+&lt;p&gt;US 06.01.01 [updated]
+As a doer, I want a habit event to have an optional location to record where it happened.&lt;/p&gt;
+&lt;p&gt;US 06.01.02 [new]
+As a doer, I want the location for a habit event to be specified using a map within the app, with the current phone position as the default location.&lt;/p&gt;</content><category term="old_project_descriptions"/><category term="projects"/><category term="teams"/><category term="grading"/></entry><entry><title>2021 W Project Problem Description</title><link href="https://ualberta-cmput301.github.io/resources/old_project_descriptions/2021_W_ProjectDesc.html" rel="alternate"/><published>2024-11-04T00:00:00-07:00</published><updated>2024-11-04T00:00:00-07:00</updated><author><name>Tina Nguyen</name></author><id>tag:ualberta-cmput301.github.io,2024-11-04:/resources/old_project_descriptions/2021_W_ProjectDesc.html</id><summary type="html">&lt;p&gt;2021 W Project Problem Description&lt;/p&gt;</summary><content type="html">&lt;p&gt;Warning: This is subject to change!&lt;/p&gt;
+&lt;p&gt;You are to design and implement a simple, attractive, and easy-to-use Android application to satisfy the following goals. Your design must be flexible enough to allow developers to extend or migrate it.&lt;/p&gt;
+&lt;p&gt;We want a mobile application that allows crowd-sourced testing of phenomona. There are 4 kinds of crowd-sourced tests: counts (how many did you see), binomial trials (pass fail), non-negative integer counts (each trial has 0 or more), measurement trials (like the temperature).&lt;/p&gt;
+&lt;p&gt;Count-based tests are about how many of something a person observed, it could be blue cars. Everytime they see a blue car they add 1 to the count seen. For instance you want to crowdsource how many blue cars are seen in Edmonton.&lt;/p&gt;
+&lt;p&gt;Binomial trials are trials where there's a chance to pass or fail. Users will repeat these trials and indicate pass or success. It could be a series of trials where you try to flip a water bottle upside down.&lt;/p&gt;
+&lt;p&gt;Non-negative integer counts are trials where each trial results in a non-negative integer results (usually a count). Such as if I drop a carton of eggs, how many eggs survive.&lt;/p&gt;
+&lt;p&gt;Measurement trials are repeated measurements and you record a decimal value of whatever was measured.&lt;/p&gt;
+&lt;p&gt;A chief experimenter (owner) describes and proposes a trial, gives rules and constraints that crowd experimenters will follow when they execute the trials. The crowd experimenters will look for trials that interest them, subscribe to trials and help execute and record trials for these experiments.&lt;/p&gt;
+&lt;p&gt;Needs in (Partial) User Story Form&lt;/p&gt;
+&lt;p&gt;User needs are expressed in the form of partial user stories:&lt;/p&gt;
+&lt;p&gt;As a &lt;role&gt;, I want &lt;goal&gt;.&lt;/p&gt;
+&lt;p&gt;These descriptions may change to correct omissions and clarify noticed issues. New requirements will be introduced for the final project part.&lt;/p&gt;
+&lt;h5 id="experiment"&gt;Experiment&lt;/h5&gt;
+&lt;p&gt;US 01.01.01
+As an owner, I want to publish an experiment with a description, a region, and a minimum number of trials.&lt;/p&gt;
+&lt;p&gt;US 01.02.01
+As an owner, I want to unpublish an experiment.&lt;/p&gt;
+&lt;p&gt;US 01.03.01
+As an owner, I want to end an experiment. This leaves the results available and public but does not allow new results to be added.&lt;/p&gt;
+&lt;p&gt;US 01.04.01
+As an owner or experimenter, I want to subscribe to an experiment to participate in it.&lt;/p&gt;
+&lt;p&gt;US 01.05.01
+As an experimenter, I want to be able to execute trials for an experiment and upload them to the experiment.&lt;/p&gt;
+&lt;p&gt;US 01.08.01
+As an owner, I want to ignore certain experimenters results.&lt;/p&gt;
+&lt;p&gt;US 01.09.01
+As an owner or experimenter, I want to observe statistics (quartiles, median, mean, stdev) about a current trials.&lt;/p&gt;
+&lt;p&gt;US 01.06.01
+As an owner or experimenter, I want to see histograms of the results of trials.&lt;/p&gt;
+&lt;p&gt;US 01.07.01
+As an owner or experimenter, I want to see plots of the results of trials over time.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h5 id="questions"&gt;Questions&lt;/h5&gt;
+&lt;p&gt;US 02.01.01
+As an experimenter, I want to ask a question about an experiment.&lt;/p&gt;
+&lt;p&gt;US 02.02.01
+As an experimenter or owner, I want to ask to reply to questions about an experiment.&lt;/p&gt;
+&lt;p&gt;US 02.03.01
+As an experimenter or owner, I want to browse questions and replies about an experiment.&lt;/p&gt;
+&lt;p&gt;QR Codes&lt;/p&gt;
+&lt;p&gt;US 03.01.01
+As an experimenter, I want to be able to generate QR codes that I can print for a specific experiment and trial result (for instance PASS for a binomial trial I subscribed to).&lt;/p&gt;
+&lt;p&gt;US 03.02.01
+As an experimenter, I want to be able scan QR codes to indicate success or failure, or increment counts for trials I subscribed to.&lt;/p&gt;
+&lt;p&gt;US 03.03.01
+As an experimenter, I want to be able to register an arbitrary bar code (such as one off of your favourite book) to act a specific experiment result for a trial.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h5 id="user-profile"&gt;User profile&lt;/h5&gt;
+&lt;p&gt;US 04.01.01
+As an owner or experimenter, I want a profile with a unique username and my contact information.&lt;/p&gt;
+&lt;p&gt;US 04.02.01
+As an owner or experimenter, I want to edit the contact information in my profile.&lt;/p&gt;
+&lt;p&gt;US 04.03.01
+As an owner or experimenter, I want to retrieve and show the profile of a presented username.&lt;/p&gt;
+&lt;p&gt;US 04.04.01 &lt;em&gt;new for Part 4&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;As an owner or experimenter, I do not want to log into my application using a username and password.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h5 id="searching"&gt;Searching&lt;/h5&gt;
+&lt;p&gt;US 05.01.01
+As an experimenter, I want to specify a keyword, and search for all experiments that are available.&lt;/p&gt;
+&lt;p&gt;US 05.02.01
+As an experimenter, I want search results to show each experiment with its description, owner username, and status.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h5 id="location"&gt;Location&lt;/h5&gt;
+&lt;p&gt;US 06.01.01
+As an owner, I want to specify a Geo-location is required or not for trials.&lt;/p&gt;
+&lt;p&gt;US 06.02.01
+As an experimenter, I want to add Geo-location to experimental trials that need it.&lt;/p&gt;
+&lt;p&gt;US 06.03.01
+As an experimenter, I want to be warned about geo-location trials.&lt;/p&gt;
+&lt;p&gt;US 06.04.01
+As an experimenter, I want to see a map of geo-locations of a geo-location enabled expirement.&lt;/p&gt;</content><category term="old_project_descriptions"/><category term="projects"/><category term="teams"/><category term="grading"/></entry><entry><title>2022 W Project Problem Description</title><link href="https://ualberta-cmput301.github.io/resources/old_project_descriptions/2022_W_ProjectDesc.html" rel="alternate"/><published>2024-11-04T00:00:00-07:00</published><updated>2024-11-04T00:00:00-07:00</updated><author><name>Tina Nguyen</name></author><id>tag:ualberta-cmput301.github.io,2024-11-04:/resources/old_project_descriptions/2022_W_ProjectDesc.html</id><summary type="html">&lt;p&gt;2022 W Project Problem Description&lt;/p&gt;</summary><content type="html">&lt;h3 id="project-problem-description"&gt;Project Problem Description&lt;/h3&gt;
+&lt;p&gt;Warning: This is subject to change!&lt;/p&gt;
+&lt;p&gt;You are to design and implement a simple, attractive, and easy-to-use Android application to satisfy the following goals. Your design must be flexible enough to allow developers to extend or migrate it.&lt;/p&gt;
+&lt;p&gt;We want a mobile application that allows us to hunt for the coolest QR codes that score the most points. Players will run around scanning QR codes, barcodes, etc. trying to find barcodes and QR codes that give them the most points.&lt;/p&gt;
+&lt;p&gt;QR codes and barcodes (scannable codes) will be hashed and the hashes they produce will be analyzed and scored. A QR code that has certain properties like repeated nibbles or bytes (hex digits) will have a higher score than a QR code that does not. We have a proposed scoring system, but the implementers are free to use a different scoring system.&lt;/p&gt;
+&lt;p&gt;We want users to compete with each other for the highest scoring QR codes, the most QR codes, the highest sum of QR codes, or highest scoring QR codes in a region. &lt;/p&gt;
+&lt;p&gt;When a player scans a QR code they will take a photo of what or where the QR code is and also record the geolocation of the QR code. &lt;/p&gt;
+&lt;p&gt;Players can see on a map local QR codes that other players have scanned.&lt;/p&gt;
+&lt;h4 id="scenario"&gt;Scenario:&lt;/h4&gt;
+&lt;p&gt;I open my QRHunter app. I see a QR code in my wallet. I indicate I want to add a new QR code and I use the phone camera to add the QR code. The QR code is scored and I’m told that my QR score is 30. The system prompts me for a photo of the object I scanned. I decline since this was an ID card. I also decline geolocation because it is in my wallet. The system adds the 30 points to my total score and records a hash of the QR code. I then see some sticker on a pole. I scan it and am told it is worth 1000 points! I record the geolocation and take a photo of the pole and save it to my account. 1000 points wow. Then I see that other users have found this pole as well. So I open the map for nearby QR codes and I see something worth 10000 is 100 meters away so I’m going to head on over there!&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;h4 id="needs-in-partial-user-story-form"&gt;Needs in (Partial) User Story Form&lt;/h4&gt;
+&lt;h6 id="actors"&gt;Actors:&lt;/h6&gt;
+&lt;p&gt;Player: a person who plays the game&lt;/p&gt;
+&lt;p&gt;Owner: the entity that owns the infrastructure that the game runs on.&lt;/p&gt;
+&lt;h6 id="glossary"&gt;Glossary:&lt;/h6&gt;
+&lt;p&gt;QR Code: a scannable code, either a barcode, a QR code, or other code scannable by Zebra crossing libraries or google QR code scanning libraries.&lt;/p&gt;
+&lt;p&gt;User needs are expressed in the form of partial user stories:&lt;/p&gt;
+&lt;p&gt;As a &lt;role&gt;, I want &lt;goal&gt;.&lt;/p&gt;
+&lt;p&gt;These descriptions may change to correct omissions and clarify noticed issues. New requirements will be introduced for the final project part.&lt;/p&gt;
+&lt;h6 id="player"&gt;Player&lt;/h6&gt;
+&lt;p&gt;US 01.01.01&lt;/p&gt;
+&lt;p&gt;As a player, I want to add new QR codes to my account.&lt;/p&gt;
+&lt;p&gt;US 01.02.01&lt;/p&gt;
+&lt;p&gt;As a player, I want to see what QR codes I have added to my account.&lt;/p&gt;
+&lt;p&gt;US 01.0X.01&lt;/p&gt;
+&lt;p&gt;As a player, I want to remove QR codes from my account.&lt;/p&gt;
+&lt;p&gt;US 01.0X.01&lt;/p&gt;
+&lt;p&gt;As a player, I want to see my highest and lowest scoring QR codes.&lt;/p&gt;
+&lt;p&gt;US 01.0X.01&lt;/p&gt;
+&lt;p&gt;As a player, I want to see the sum of scores of QR codes that I have scanned.&lt;/p&gt;
+&lt;p&gt;US 01.0X.01&lt;/p&gt;
+&lt;p&gt;As a player, I want to see the total number of QR codes that I have scanned.&lt;/p&gt;
+&lt;p&gt;US 01.0X.01&lt;/p&gt;
+&lt;p&gt;As a player, I want to see other player’s profiles&lt;/p&gt;
+&lt;h6 id="game-qr-codes"&gt;Game QR Codes&lt;/h6&gt;
+&lt;p&gt;US 02.0X.01&lt;/p&gt;
+&lt;p&gt;As a player, I want to be able to scan QR codes and record a photo of the location or object, and the geolocation of the location or object.&lt;/p&gt;
+&lt;p&gt;US 02.0X.01&lt;/p&gt;
+&lt;p&gt;As a player, I want to be able to comment on QR codes.&lt;/p&gt;
+&lt;p&gt;US 02.0X.01&lt;/p&gt;
+&lt;p&gt;As a player, I want to be able to browse QR codes that I own. (2022-03-08: Deleted because identical to US 01.02.01)&lt;/p&gt;
+&lt;p&gt;US 02.0X.01&lt;/p&gt;
+&lt;p&gt;As a player, I want to be able to browse QR codes that other players have scanned.&lt;/p&gt;
+&lt;p&gt;US 02.0X.01&lt;/p&gt;
+&lt;p&gt;As a player, I want to see that other players have scanned the same QR code.&lt;/p&gt;
+&lt;h6 id="player-qr-codes"&gt;Player QR Codes&lt;/h6&gt;
+&lt;p&gt;US 03.0X.01&lt;/p&gt;
+&lt;p&gt;As a player, I want to be able to generate QR codes so that other players can scan my QR code to see my game status.&lt;/p&gt;
+&lt;p&gt;US 03.0X.01&lt;/p&gt;
+&lt;p&gt;As a player, I want to be able to generate a QR code so that I can log in to another device with the same account. &lt;/p&gt;
+&lt;h6 id="player-profile"&gt;Player profile&lt;/h6&gt;
+&lt;p&gt;US 04.01.01&lt;/p&gt;
+&lt;p&gt;As a player, I want a profile with a unique username and my contact information.&lt;/p&gt;
+&lt;p&gt;US 04.0X.01 &lt;/p&gt;
+&lt;p&gt;As a player, I do not want to log into my application using a username and password as my device can identify me.&lt;/p&gt;
+&lt;h6 id="searching"&gt;Searching&lt;/h6&gt;
+&lt;p&gt;US 05.01.01&lt;/p&gt;
+&lt;p&gt;As a player, I want to search for other players by username.&lt;/p&gt;
+&lt;p&gt;US 05.0X.01&lt;/p&gt;
+&lt;p&gt;As a player, I want to search for nearby QR codes by using geolocation.&lt;/p&gt;
+&lt;h6 id="location"&gt;Location&lt;/h6&gt;
+&lt;p&gt;US 06.01.01&lt;/p&gt;
+&lt;p&gt;As a player, I want to see a map of geo-locations of nearby QR codes.&lt;/p&gt;
+&lt;h6 id="scoring"&gt;Scoring&lt;/h6&gt;
+&lt;p&gt;US 07.0X.01&lt;/p&gt;
+&lt;p&gt;As a player, I want to see game-wide high scores of all players.&lt;/p&gt;
+&lt;p&gt;US 07.0X.01&lt;/p&gt;
+&lt;p&gt;As a player, I want an estimate of my ranking for the highest scoring unique QR code.&lt;/p&gt;
+&lt;p&gt;US 07.0X.01&lt;/p&gt;
+&lt;p&gt;As a player, I want an estimate of my ranking for the total number of QR codes scanned.&lt;/p&gt;
+&lt;p&gt;US 07.0X.01&lt;/p&gt;
+&lt;p&gt;As a player, I want an estimate of my ranking for a total sum of scores of QR codes scanned.&lt;/p&gt;
+&lt;h6 id="privacy"&gt;Privacy&lt;/h6&gt;
+&lt;p&gt;US 08.0X.01&lt;/p&gt;
+&lt;p&gt;As a player, I don’t want the actual code recorded. E.g., so I can scan and score my vaccine passport.&lt;/p&gt;
+&lt;p&gt;US 08.0X.01&lt;/p&gt;
+&lt;p&gt;As a player, I want to be able to decline recording geolocation for privacy reasons.&lt;/p&gt;
+&lt;h6 id="owner"&gt;Owner&lt;/h6&gt;
+&lt;p&gt;US 09.0X.01 &lt;/p&gt;
+&lt;p&gt;As an owner, I don’t want to store big images online.&lt;/p&gt;
+&lt;p&gt;US 09.0X.01 &lt;/p&gt;
+&lt;p&gt;As an owner, I want to be able to delete QR codes that are bad or malicious.&lt;/p&gt;
+&lt;p&gt;US 09.0X.01 &lt;/p&gt;
+&lt;p&gt;As an owner, I want to be able to delete players.&lt;/p&gt;
+&lt;h4 id="proposed-scoring-system"&gt;Proposed Scoring System:&lt;/h4&gt;
+&lt;p&gt;First, we calculate a SHA-256 hash of the QR code contents.&lt;/p&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;p&gt;QR code contents: &lt;strong&gt;BFG5DGW54&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Calculating SHA-256 hash:&lt;/p&gt;
+&lt;p&gt;@slate:~$ echo BFG5DGW54 | sha256sum
+696ce4dbd7bb57cbfe58b64f530f428b74999cb37e2ee60980490cd9552de3a6  -&lt;/p&gt;
+&lt;p&gt;Then, based on the hexadecimal representation of the sha256, the score is calculated in the following way:&lt;/p&gt;
+&lt;p&gt;a "0" is 1 point&lt;/p&gt;
+&lt;p&gt;Many 0 in a row are multiplied by 20^(n-1) whereby n is the number of repeats&lt;/p&gt;
+&lt;p&gt;00 - 20^1 - 20&lt;/p&gt;
+&lt;p&gt;000 - 20^2 - 400&lt;/p&gt;
+&lt;p&gt;0000 - 20^3 - 8000&lt;/p&gt;
+&lt;p&gt;Same for other numbers&lt;/p&gt;
+&lt;p&gt;11 - 1&lt;/p&gt;
+&lt;p&gt;111 - 1&lt;/p&gt;
+&lt;p&gt;1111 - 1&lt;/p&gt;
+&lt;p&gt;22 - 2&lt;/p&gt;
+&lt;p&gt;222 - 4&lt;/p&gt;
+&lt;p&gt;2222 - 8&lt;/p&gt;
+&lt;p&gt;99 - 9&lt;/p&gt;
+&lt;p&gt;999 - 81&lt;/p&gt;
+&lt;p&gt;aa - 10&lt;/p&gt;
+&lt;p&gt;aaa - 100&lt;/p&gt;
+&lt;p&gt;ff - 15&lt;/p&gt;
+&lt;p&gt;fff - 225&lt;/p&gt;
+&lt;p&gt;So the best QR code would be made of all 0s or higher digits&lt;/p&gt;
+&lt;p&gt;For the QR code above&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;696ce4dbd7bb57cbfe58b64f530f428b74999cb37e2ee60980490cd9552de3a6&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Let’s find the repeated digits&lt;/p&gt;
+&lt;p&gt;echo BFG5DGW54 | sha256sum | perl -lpe 'print "$1$2" while /([0-9a-f])(\1+)/g'&lt;/p&gt;
+&lt;p&gt;bb
+999
+ee
+55&lt;/p&gt;
+&lt;p&gt;And calculate the score&lt;/p&gt;
+&lt;p&gt;bb - 11&lt;/p&gt;
+&lt;p&gt;999 - 9^2 - 81&lt;/p&gt;
+&lt;p&gt;ee - 14&lt;/p&gt;
+&lt;p&gt;55 - 5&lt;/p&gt;
+&lt;p&gt;Score: 11 + 81 + 14 + 5 = 111&lt;/p&gt;
+&lt;h5 id="changelog"&gt;Changelog:&lt;/h5&gt;
+&lt;p&gt;2022-03-08: Deleted US 02.0X.01 ("As a player, I want to be able to browse QR codes that I own"). Reason: identical to US 01.02.01.&lt;/p&gt;</content><category term="old_project_descriptions"/><category term="projects"/><category term="teams"/><category term="grading"/></entry></feed>

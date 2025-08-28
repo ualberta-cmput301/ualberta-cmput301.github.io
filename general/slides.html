@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-          <title>CMPUT 301 - Slides</title>
-        <meta charset="utf-8" />
-        <meta name="generator" content="Pelican" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+        <title>CMPUT 301 - Slides</title>
+      <meta charset="utf-8" />
+      <meta name="generator" content="Pelican" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Software Engineering" />
         <link href="https://ualberta-cmput301.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Full Atom Feed" />
         <link href="https://ualberta-cmput301.github.io/feeds/general.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Categories Atom Feed" />
@@ -21,52 +21,64 @@
     <meta name="tags" content="contact" />
     <meta name="tags" content="wellness" />
 
-</head>
+  </head>
 
-<body>
-        <header>
-              <hgroup><h1><a href="https://ualberta-cmput301.github.io/">CMPUT 301</a></h1><p>Software Engineering</p></hgroup>
-        <nav><ul>
-            <li><a href="/general/outline.html">Outline</a></li>
-            <li><a href="/#eclass">eClass & Grades</a></li>
-            <li><a href="/#schedule">Schedule</a></li>
-            <li><a href="/general/labs.html">Labs</a></li>
-            <li><a href="/general/project.html">Project</a></li>
-            <li><a href="/general/individual.html">Individual</a></li>
-            <li><a href="/general/resources.html">Resources</a></li>
-            <li><a href="/general/help.html#discussion-forum">Discussion Forum</a></li>
-            <li><a href="/#news-notices">News & Notices</a></li>
-            <li><a href="/#lecture-zoom">Lecture Zoom</a></li>
-            <li><a href="/general/slides.html">Slides</a></li>
-            <li><a href="/general/help.html">Help</a></li>
-            <li><a href="https://ualberta-cmput301.github.io/" >Home</a></li>
-        </ul></nav>
-        </header>
-        <main>
-<article>
-  <header>
-    <h2>
-      <a href="https://ualberta-cmput301.github.io/general/slides.html" rel="bookmark"
-         title="Permalink to Slides">Slides</a></h2>
- 
-  </header>
-  <hr>
+  <body>
+      <header>
+          <hgroup><h1><a href="https://ualberta-cmput301.github.io/">CMPUT 301</a></h1><p>Software Engineering</p></hgroup>
+          <nav><ul>
+              <li><a href="/general/outline.html">Outline</a></li>
+              <li><a href="/#canvas">Canvas & Grades</a></li>
+              <li><a href="/#schedule">Schedule</a></li>
+              <li><a href="/general/labs.html">Labs</a></li>
+              <li><a href="/general/project.html">Project</a></li>
+              <li><a href="/general/individual.html">Individual</a></li>
+              <li><a href="/general/resources.html">Resources</a></li>
+              <li><a href="/general/help.html#discussion-forum">Discussion Forum</a></li>
+              <li><a href="/#news-notices">News & Notices</a></li>
+              <li><a href="/general/slides.html">Slides</a></li>
+              <li><a href="/general/help.html">Help</a></li>
+                <li><a href="https://ualberta-cmput301.github.io/" >Home</a></li>
+          </ul></nav>
+      </header>
+      <main>
+  <article>
+    <header>
+      <h2>
+        <a href="https://ualberta-cmput301.github.io/general/slides.html" rel="bookmark"
+           title="Permalink to Slides">Slides</a></h2>
+      
+    </header>
+    <hr>
 <div class="toc">
 <ul>
 <li><a href="#welcome">Welcome</a></li>
-<li><a href="#objects-uml-java">Objects UML Java</a></li>
-<li><a href="#object-oriented-graphical-user-interfaces">Object-Oriented Graphical User Interfaces</a></li>
+<li><a href="#objects-uml-java">Objects UML Java</a><ul>
+<li><a href="#mvc-object-oriented-graphical-user-interfaces">MVC &amp; Object-Oriented Graphical User Interfaces</a></li>
+<li><a href="#more-objects-uml-java">More Objects UML &amp; Java</a></li>
+</ul>
+</li>
+<li><a href="#android">Android</a><ul>
 <li><a href="#android-fragments">Android Fragments</a></li>
 <li><a href="#android-activities-resources">Android Activities Resources</a></li>
-<li><a href="#objects-uml-java-continued">Objects, UML, Java (Continued)</a></li>
+</ul>
+</li>
 <li><a href="#git">Git</a></li>
-<li><a href="#software-process">Software Process</a></li>
-<li><a href="#software-process-continued">Software Process (Continued)</a></li>
+<li><a href="#software-process">Software Process</a><ul>
+<li><a href="#requirements">Requirements</a></li>
+</ul>
+</li>
 <li><a href="#testing">Testing</a></li>
 <li><a href="#design-patterns">Design Patterns</a></li>
 <li><a href="#uml-sequence-diagram">UML Sequence Diagram</a></li>
 <li><a href="#design-patterns-continued">Design Patterns (Continued)</a></li>
 <li><a href="#refactoring">Refactoring</a></li>
+<li><a href="#human-error">Human Error</a></li>
+<li><a href="#optimization">Optimization</a></li>
+<li><a href="#retrospectives">Retrospectives</a></li>
+<li><a href="#review">Review</a></li>
+<li><a href="#future">Future</a></li>
+<li><a href="#old-resources">Old Resources</a></li>
 </ul>
 </div>
 <h3 id="welcome">Welcome</h3>
@@ -79,51 +91,63 @@
 </li>
 </ul>
 <h3 id="objects-uml-java">Objects UML Java</h3>
+<p>Reading: <a href="https://ualberta-cmput301.github.io/general/resources.html#course-notes">Course notes</a> part 1 page 1-73</p>
 <ul>
 <li><a href="https://ualberta-cmput301.github.io/general/slides/010oo-campbell.pdf">Objects UML Java - Campbell</a></li>
 <li><a href="https://ualberta-cmput301.github.io/general/slides/02-OO.pdf">Objects UML Java Slides</a></li>
 <li><a href="https://ualberta-cmput301.github.io/general/slides/OONotes.pdf">OOP Notes</a></li>
 <li><a href="https://ualberta-cmput301.github.io/general/slides/02-OO.4up.pdf">Objects, UML, and Java Draft Slides (4up)</a></li>
 <li><a href="https://ualberta-cmput301.github.io/general/slides/02-OO.pdf">Objects, UML, and Java Draft Slides (1up)</a></li>
+<li><a href="https://ualberta-cmput301.github.io/general/slides/02-OO-clean.pdf">Objects, UML, and Java Draft Slides (Clean Version)</a></li>
 </ul>
-<h3 id="object-oriented-graphical-user-interfaces">Object-Oriented Graphical User Interfaces</h3>
+<h4 id="mvc-object-oriented-graphical-user-interfaces"><a id="mvc" href="#mvc">MVC</a> &amp; Object-Oriented Graphical User Interfaces</h4>
 <ul>
+<li><a href="https://ualberta-cmput301.github.io/general/slides/03-MVC-Android.pdf">MVC and Android Part I + Swing Slides (1up)</a></li>
+<li><a href="https://ualberta-cmput301.github.io/general/slides/MVC.pdf">MVC and Friends Guest Lecture (Campbell)</a></li>
+<li><a href="https://ualberta-cmput301.github.io/general/slides/3-Tier.pdf">3-Tier Architecture Guest Lecture (Pang) (4up)</a></li>
+<li><a href="https://ualberta-cmput301.github.io/general/slides/MVC2.pdf">🦾 MVC vs MVC 💪</a></li>
+<li><a href="https://ualberta-cmput301.github.io/general/slides/020mvc.pdf">MVC - Campbell</a></li>
 <li><a href="https://ualberta-cmput301.github.io/general/slides/MVCAndroid.pdf">Fixed MVC Android/Swing Slides</a></li>
 <li><a href="https://ualberta-cmput301.github.io/general/slides/MVCAndroid4up.pdf">MVC and Android Part I Draft Slides (4up)</a></li>
 <li><a href="https://ualberta-cmput301.github.io/general/slides/MVCAndroidPart1.pdf">MVC and Android Part I Draft Slides (1up)</a></li>
 <li><a href="https://ualberta-cmput301.github.io/general/slides/MVCAndroid4up2.pdf">MVC and Android Part II Draft Slides (4up)</a></li>
 <li><a href="https://ualberta-cmput301.github.io/general/slides/MVC_AP2DS.pdf">MVC and Android Part II Draft Slides (1up)</a></li>
+<li><a href="https://ualberta-cmput301.github.io/general/slides/04-User-Interface.1up.pdf">User Interface Design (1up)</a></li>
+<li><a href="https://ualberta-cmput301.github.io/general/slides/04-User-Interface.4up.pdf">User Interface Design (4up)</a></li>
 </ul>
-<h3 id="android-fragments">Android Fragments</h3>
+<h4 id="more-objects-uml-java">More Objects UML &amp; Java</h4>
+<ul>
+<li><a href="https://ualberta-cmput301.github.io/general/slides/BOO.pdf">B2 OO Slides (has navigability)</a></li>
+<li><a href="https://ualberta-cmput301.github.io/general/slides/MidRev.pdf">B2 Mentis for Review</a></li>
+</ul>
+<h3 id="android">Android</h3>
+<h4 id="android-fragments">Android Fragments</h4>
 <ul>
 <li><a href="https://ualberta-cmput301.github.io/general/slides/Android_Fragments_Notes_Example.pdf">Android Fragments Notes + Example</a></li>
 <li><a href="https://ualberta-cmput301.github.io/general/slides/Code_Conventions_Schoepp.pdf">Code Conventions (Schoepp)</a></li>
 </ul>
-<h3 id="android-activities-resources">Android Activities Resources</h3>
+<h4 id="android-activities-resources">Android Activities Resources</h4>
 <ul>
 <li><a href="https://ualberta-cmput301.github.io/general/slides/AST.pdf">Android Studion Tips</a></li>
 <li><a href="https://ualberta-cmput301.github.io/general/slides/AA.pdf">Android Activities</a></li>
 <li><a href="https://ualberta-cmput301.github.io/general/slides/ANP.pdf">Android Notes for Professionals</a></li>
-</ul>
-<h3 id="objects-uml-java-continued">Objects, UML, Java (Continued)</h3>
-<ul>
-<li><a href="https://ualberta-cmput301.github.io/general/slides/BOO.pdf">B2 OO Slides (has navigability)</a></li>
-<li><a href="https://ualberta-cmput301.github.io/general/slides/MidRev.pdf">B2 Mentis for Review</a></li>
 </ul>
 <h3 id="git">Git</h3>
 <ul>
 <li><a href="https://ualberta-cmput301.github.io/general/slides/Git_Introduction_and_Practices.pdf">Git Introduction and Practices Notes (Wang)</a></li>
 <li><a href="https://ualberta-cmput301.github.io/general/slides/HDMofG.pdf">Hand drawn Models of Git: Wizard Towers versus Centralized</a></li>
 <li><a href="https://ualberta-cmput301.github.io/labs/past_notes.html">PAST Lab Git Notes (Romansky)</a></li>
+<li><a href="https://github.com/github/gitignore">Past Git Ignore Repo</a></li>
 </ul>
 <h3 id="software-process">Software Process</h3>
 <ul>
+<li><a href="https://ualberta-cmput301.github.io/general/slides/030process-campbell.pdf">Software Process - Campbell</a></li>
 <li><a href="https://ualberta-cmput301.github.io/general/slides/SP.pdf">Software Process Draft Slides (4up)</a></li>
 <li><a href="https://ualberta-cmput301.github.io/general/slides/SP2.pdf">Software Process Draft Slides (1up)</a></li>
-<li><a href="https://ualberta-cmput301.github.io/general/slides/MVC2.pdf">MVC Slides - Campbell</a></li>
 </ul>
-<h3 id="software-process-continued">Software Process (Continued)</h3>
+<h4 id="requirements">Requirements</h4>
 <ul>
+<li><a href="https://ualberta-cmput301.github.io/general/slides/040requirements-campbell.pdf">Requirements - Campbell</a></li>
 <li><a href="https://ualberta-cmput301.github.io/general/slides/SP05.pdf">Requirements Draft Slides (4up)</a></li>
 <li><a href="https://ualberta-cmput301.github.io/general/slides/SP05_2.pdf">Requirements Draft Slides (1up)</a></li>
 </ul>
@@ -139,6 +163,7 @@
 </li>
 </ul>
 <h3 id="design-patterns">Design Patterns</h3>
+<p>Reading: <a href="https://ualberta-cmput301.github.io/general/resources.html#course-notes">Course notes</a> part 2</p>
 <ul>
 <li><a href="https://ualberta-cmput301.github.io/general/slides/07-Patterns-01.4up.pdf">Design Patterns Part I Draft Slides (4up)</a></li>
 <li><a href="https://ualberta-cmput301.github.io/general/slides/07-Patterns-01.pdf">Design Patterns Part I Draft Slides (1up)</a></li>
@@ -151,11 +176,14 @@
 <li><a href="https://ualberta-cmput301.github.io/general/slides/decorator-pattern-talk.pdf">Decorator Pattern Slides (4up)</a></li>
 </ul>
 <h3 id="uml-sequence-diagram">UML Sequence Diagram</h3>
+<p>Reading: <a href="https://ualberta-cmput301.github.io/general/resources.html#course-notes">Course notes</a> part 1 pages ~73-76!</p>
 <ul>
+<li><a href="https://ualberta-cmput301.github.io/general/slides/050sequenceDiagrams-campbell.pdf">Sequence Diagrams - Campbell</a></li>
 <li><a href="https://ualberta-cmput301.github.io/general/slides/Sequence_Diagram_4up.pdf">Sequence Diagram Draft Slides (4up)</a></li>
 <li><a href="https://ualberta-cmput301.github.io/general/slides/Sequence_Diagram_1up.pdf">Sequence Diagram Draft Slides (1up)</a></li>
 </ul>
 <h3 id="design-patterns-continued">Design Patterns (Continued)</h3>
+<p>Reading: <a href="https://ualberta-cmput301.github.io/general/resources.html#course-notes">Course notes</a> part 2</p>
 <ul>
 <li><a href="https://ualberta-cmput301.github.io/general/slides/08-Refactoring_4up.pdf">Refactoring Draft Slides (4up)</a></li>
 <li><a href="https://ualberta-cmput301.github.io/general/slides/08-Refactoring.pdf">Refactoring Draft Slides (1up)</a></li>
@@ -164,31 +192,62 @@
 <ul>
 <li><a href="https://ualberta-cmput301.github.io/general/slides/10_Review.pdf">Review Slides (1up)</a></li>
 </ul>
-  <footer>
-    <p>Published: <time datetime="2024-01-06T00:00:00-07:00">
-      Sat, 06 Jan 2024 at 00:00 MST
-    </time></p>
-    <address>
-      By           <a href="https://ualberta-cmput301.github.io/author/hazel-victoria-campbell.html">Hazel Victoria Campbell</a>
-    </address>
-    <p>
-        Category: <a href="https://ualberta-cmput301.github.io/category/general.html">general</a>
-    </p>
-    <p>
-        Tags:
+<h3 id="human-error">Human Error</h3>
+<ul>
+<li><a href="https://ualberta-cmput301.github.io/general/slides/09-Human-Error.4up.pdf">Human Error Draft Slides (4up)</a></li>
+<li><a href="https://ualberta-cmput301.github.io/general/slides/09_Human_Error_4up.pdf">Human Error Slides (4up)</a></li>
+</ul>
+<h3 id="optimization">Optimization</h3>
+<ul>
+<li><a href="https://ualberta-cmput301.github.io/general/slides/10-Optimization.4up.pdf">Optimization Draft Slides (4up)</a></li>
+<li><a href="https://ualberta-cmput301.github.io/general/slides/10-Optimization.pdf">Optimization Draft Slides (1up)</a></li>
+<li><a href="https://ualberta-cmput301.github.io/general/slides/10_Optimization_4up.pdf">Optimization Slides (4up)</a></li>
+</ul>
+<h3 id="retrospectives">Retrospectives</h3>
+<ul>
+<li><a href="https://ualberta-cmput301.github.io/general/slides/11-Retrospectives.4up.pdf">Retrospectives Slides (4up)</a></li>
+</ul>
+<h3 id="review">Review</h3>
+<ul>
+<li><a href="https://ualberta-cmput301.github.io/general/slides/10-Review.4up.pdf">Review Draft Slides (4up)</a></li>
+<li><a href="https://ualberta-cmput301.github.io/general/slides/10-Review.pdf">Review Draft Slides (1up)</a></li>
+</ul>
+<h3 id="future">Future</h3>
+<ul>
+<li><a href="https://ualberta-cmput301.github.io/general/slides/12-Future.4up.pdf">Future Draft Slides (4up)</a></li>
+</ul>
+<h3 id="old-resources">Old Resources</h3>
+<ul>
+<li><a href="https://ualberta-cmput301.github.io/general/outline_old.html">Fall 2021 Outline</a></li>
+<li><a href="https://ualberta-cmput301.github.io/general/old_recordings.html">Old Lab Recordings</a></li>
+<li><a href="https://ualberta-cmput301.github.io/general/old_project_description.html">Old Project Problem Description F22</a></li>
+<li><a href="https://ualberta-cmput301.github.io/general/old_project_description_f24.html">Old Project Problem Description F24</a></li>
+</ul>
+    <footer>
+      <p>Published: <time datetime="2024-01-06T00:00:00-07:00">
+        Sat, 06 Jan 2024 at 00:00 MST
+      </time></p>
+        <address>
+          By             <a href="https://ualberta-cmput301.github.io/author/hazel-victoria-campbell.html">Hazel Victoria Campbell</a>
+        </address>
+        <p>
+          Category: <a href="https://ualberta-cmput301.github.io/category/general.html">general</a>
+        </p>
+        <p>
+          Tags:
             <a href="https://ualberta-cmput301.github.io/tag/resources.html">resources</a>
             <a href="https://ualberta-cmput301.github.io/tag/policy.html">policy</a>
             <a href="https://ualberta-cmput301.github.io/tag/contact.html">contact</a>
             <a href="https://ualberta-cmput301.github.io/tag/wellness.html">wellness</a>
-    </p>
-  </footer>
+        </p>
+    </footer>
   </article>
-        </main>
-        <footer>
-                <address>
-                Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>,
-                which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
-                </address>
-        </footer>
-</body>
+      </main>
+      <footer>
+          <address>
+            Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>,
+            which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
+          </address>
+      </footer>
+  </body>
 </html>

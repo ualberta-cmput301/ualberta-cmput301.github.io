@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <title>CMPUT 301 - Class Participation Exercise 18</title>
+      <meta charset="utf-8" />
+      <meta name="generator" content="Pelican" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Software Engineering" />
+        <link href="https://ualberta-cmput301.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Full Atom Feed" />
+        <link href="https://ualberta-cmput301.github.io/feeds/archive.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Categories Atom Feed" />
+
+  <link rel="icon" href="https://ualberta-cmput301.github.io/theme/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/301.css" />
+
+
+
+
+    <meta name="tags" content="resources" />
+    <meta name="tags" content="participation" />
+    <meta name="tags" content="references" />
+    <meta name="tags" content="practice" />
+
+  </head>
+
+  <body>
+      <header>
+          <hgroup><h1><a href="https://ualberta-cmput301.github.io/">CMPUT 301</a></h1><p>Software Engineering</p></hgroup>
+          <nav><ul>
+              <li><a href="/general/outline.html">Outline</a></li>
+              <li><a href="/#canvas">Canvas & Grades</a></li>
+              <li><a href="/#schedule">Schedule</a></li>
+              <li><a href="/general/labs.html">Labs</a></li>
+              <li><a href="/general/project.html">Project</a></li>
+              <li><a href="/general/individual.html">Individual</a></li>
+              <li><a href="/general/resources.html">Resources</a></li>
+              <li><a href="/general/help.html#discussion-forum">Discussion Forum</a></li>
+              <li><a href="/#news-notices">News & Notices</a></li>
+              <li><a href="/general/slides.html">Slides</a></li>
+              <li><a href="/general/help.html">Help</a></li>
+                <li><a href="https://ualberta-cmput301.github.io/" >Home</a></li>
+          </ul></nav>
+      </header>
+      <main>
+  <article>
+    <header>
+      <h2>
+        <a href="https://ualberta-cmput301.github.io/archive/class_participation_exer18.html" rel="bookmark"
+           title="Permalink to Class Participation Exercise 18">Class Participation Exercise 18</a></h2>
+      
+    </header>
+    <hr>
+<p><strong>Class Participation Exercise 18</strong></p>
+<p>Proper completion of this exercise is considered as part of course participation.</p>
+<p>Which of these code smells are signs of "bloat", i.e., code, methods, and classes that have increased to an extent that they become hard to work with.
+  - [ ] comments
+  - [ ] duplicated code
+  - [ ] long method
+  - [ ] large class
+  - [ ] data classes
+  - [ ] data clumps
+  - [ ] large parameter list
+  - [ ] divergent change
+  - [ ] shotgun surgery
+  - [ ] feature envy
+  - [ ] inappropriate intimacy
+  - [ ] message chains
+  - [ ] primitive obsession
+  - [ ] switch statements
+  - [ ] speculative generality
+  - [ ] refused bequest</p>
+<p>Which of these code smells are signs of incomplete or incorrect use of object-oriented design principles?
+  - [ ] comments
+  - [ ] duplicated code
+  - [ ] long method
+  - [ ] large class
+  - [ ] data classes
+  - [ ] data clumps
+  - [ ] large parameter list
+  - [ ] divergent change
+  - [ ] shotgun surgery
+  - [ ] feature envy
+  - [ ] inappropriate intimacy
+  - [ ] message chains
+  - [ ] primitive obsession
+  - [ ] switch statements
+  - [ ] speculative generality
+  - [ ] refused bequest</p>
+<p>Which of these code smells are signs that change is difficult and likely expensive?
+  - [ ] comments
+  - [ ] duplicated code
+  - [ ] long method
+  - [ ] large class
+  - [ ] data classes
+  - [ ] data clumps
+  - [ ] large parameter list
+  - [ ] divergent change
+  - [ ] shotgun surgery
+  - [ ] feature envy
+  - [ ] inappropriate intimacy
+  - [ ] message chains
+  - [ ] primitive obsession
+  - [ ] switch statements
+  - [ ] speculative generality
+  - [ ] refused bequest</p>
+<p>Which of these code smells are signs of something unnecessary, which if avoided would lead to cleaner, more efficient, and easier to understand code?
+  - [ ] comments
+  - [ ] duplicated code
+  - [ ] long method
+  - [ ] large class
+  - [ ] data classes
+  - [ ] data clumps
+  - [ ] large parameter list
+  - [ ] divergent change
+  - [ ] shotgun surgery
+  - [ ] feature envy
+  - [ ] inappropriate intimacy
+  - [ ] message chains
+  - [ ] primitive obsession
+  - [ ] switch statements
+  - [ ] speculative generality
+  - [ ] refused bequest</p>
+<p>Which of these code smells are signs of excessive coupling between classes?
+  - [ ] comments
+  - [ ] duplicated code
+  - [ ] long method
+  - [ ] large class
+  - [ ] data classes
+  - [ ] data clumps
+  - [ ] large parameter list
+  - [ ] divergent change
+  - [ ] shotgun surgery
+  - [ ] feature envy
+  - [ ] inappropriate intimacy
+  - [ ] message chains
+  - [ ] primitive obsession
+  - [ ] switch statements
+  - [ ] speculative generality
+  - [ ] refused bequest</p>
+<p>Consider the following piece of code:</p>
+<div class="highlight"><pre><span></span><code><span class="c1">// Order.java</span>
+
+<span class="kn">package</span><span class="w"> </span><span class="nn">com.nq.util</span><span class="p">;</span>
+
+<span class="kn">import</span><span class="w"> </span><span class="nn">java.io.*</span><span class="p">;</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">java.util.*</span><span class="p">;</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">java.lang.*</span><span class="p">;</span>
+
+<span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">Order</span><span class="w"> </span><span class="p">{</span>
+
+<span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="n">lineitemlist</span><span class="w"> </span><span class="n">lineItemList</span><span class="p">;</span>
+
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="nf">Order</span><span class="p">(</span><span class="n">lineitemlist</span><span class="w"> </span><span class="n">lis</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">lineItemList</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">lis</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">boolean</span><span class="w"> </span><span class="nf">equals</span><span class="p">(</span><span class="n">Object</span><span class="w"> </span><span class="n">aThat</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="w"> </span><span class="k">this</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">aThat</span><span class="w"> </span><span class="p">)</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="kc">true</span><span class="p">;</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="w"> </span><span class="o">!</span><span class="p">(</span><span class="n">aThat</span><span class="w"> </span><span class="k">instanceof</span><span class="w"> </span><span class="n">Order</span><span class="p">)</span><span class="w"> </span><span class="p">)</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="kc">false</span><span class="p">;</span>
+<span class="w">            </span><span class="n">Order</span><span class="w"> </span><span class="n">that</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">Order</span><span class="p">)</span><span class="n">aThat</span><span class="p">;</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">lineItemList</span><span class="p">.</span><span class="na">equals</span><span class="p">(</span><span class="n">that</span><span class="p">.</span><span class="na">lineItemList</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="c1">// writes this order object to the specified print writer</span>
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">writeOrder</span><span class="p">(</span><span class="n">Order</span><span class="w"> </span><span class="n">order</span><span class="p">,</span><span class="w"> </span><span class="n">PrintWriter</span><span class="w"> </span><span class="n">pw</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="c1">// get a vector of line items</span>
+<span class="w">        </span><span class="n">Vector</span><span class="w"> </span><span class="n">lineItems</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">order</span><span class="p">.</span><span class="na">getLineItemList</span><span class="p">().</span><span class="na">getLineItems</span><span class="p">();</span>
+
+<span class="w">        </span><span class="c1">// ------------------------------------------------------</span>
+<span class="w">        </span><span class="c1">// calculate total</span>
+<span class="w">        </span><span class="c1">// ------------------------------------------------------</span>
+<span class="w">        </span><span class="c1">// create an iterator for the vector</span>
+<span class="w">        </span><span class="n">Iterator</span><span class="w"> </span><span class="n">iter</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">lineItems</span><span class="p">.</span><span class="na">iterator</span><span class="p">();</span>
+<span class="w">        </span><span class="n">lineItem</span><span class="w"> </span><span class="n">item</span><span class="p">;</span>
+<span class="w">        </span><span class="c1">// set total to zero</span>
+<span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">total</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">            </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">iter</span><span class="p">.</span><span class="na">hasNext</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="n">item</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">lineItem</span><span class="p">)</span><span class="n">iter</span><span class="p">.</span><span class="na">next</span><span class="p">();</span>
+
+<span class="w">                </span><span class="c1">// calculate total for line item</span>
+<span class="w">                </span><span class="kt">int</span><span class="w"> </span><span class="n">unitPrice</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">item</span><span class="p">.</span><span class="na">getUnitPrice</span><span class="p">();</span>
+<span class="w">                </span><span class="kt">int</span><span class="w"> </span><span class="n">qty</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">item</span><span class="p">.</span><span class="na">getQuantity</span><span class="p">();</span>
+<span class="w">                </span><span class="kt">int</span><span class="w"> </span><span class="n">lineitemtotal</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">unitPrice</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">qty</span><span class="p">;</span>
+
+<span class="w">                </span><span class="n">total</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">lineitemtotal</span><span class="p">;</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">        </span><span class="c1">// ------------------------------------------------------</span>
+<span class="w">        </span><span class="c1">// END calculate total</span>
+<span class="w">        </span><span class="c1">// ------------------------------------------------------</span>
+
+<span class="w">        </span><span class="c1">// ------------------------------------------------------</span>
+<span class="w">        </span><span class="c1">// write order</span>
+<span class="w">        </span><span class="c1">// ------------------------------------------------------</span>
+<span class="w">        </span><span class="c1">// create an iterator for the vector</span>
+<span class="w">        </span><span class="n">iter</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">lineItems</span><span class="p">.</span><span class="na">iterator</span><span class="p">();</span>
+<span class="w">            </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">iter</span><span class="p">.</span><span class="na">hasNext</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="n">item</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">lineItem</span><span class="p">)</span><span class="n">iter</span><span class="p">.</span><span class="na">next</span><span class="p">();</span>
+
+<span class="w">                </span><span class="c1">// calculate total for line item</span>
+<span class="w">                </span><span class="kt">int</span><span class="w"> </span><span class="n">unitPrice</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">item</span><span class="p">.</span><span class="na">getUnitPrice</span><span class="p">();</span>
+<span class="w">                </span><span class="kt">int</span><span class="w"> </span><span class="n">qty</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">item</span><span class="p">.</span><span class="na">getQuantity</span><span class="p">();</span>
+<span class="w">                </span><span class="kt">int</span><span class="w"> </span><span class="n">productID</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">item</span><span class="p">.</span><span class="na">getProductID</span><span class="p">();</span>
+<span class="w">                </span><span class="kt">int</span><span class="w"> </span><span class="n">imageID</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">item</span><span class="p">.</span><span class="na">getImageId</span><span class="p">();</span>
+<span class="w">                </span><span class="kt">int</span><span class="w"> </span><span class="n">lineitemtotal</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">unitPrice</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">qty</span><span class="p">;</span>
+
+<span class="w">                </span><span class="n">pw</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&quot;Begin Line Item&quot;</span><span class="p">);</span>
+<span class="w">                </span><span class="n">pw</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&quot;Product = &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">productID</span><span class="p">);</span>
+<span class="w">                </span><span class="n">pw</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&quot;Image = &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">imageID</span><span class="p">);</span>
+<span class="w">                </span><span class="n">pw</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&quot;Quantity = &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">qty</span><span class="p">);</span>
+<span class="w">                </span><span class="n">pw</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&quot;Total = &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">lineitemtotal</span><span class="p">);</span>
+<span class="w">                </span><span class="n">pw</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&quot;End Line Item&quot;</span><span class="p">);</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">        </span><span class="n">pw</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&quot;Order total = &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">total</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="nf">getTotal</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="c1">// get a vector of line items</span>
+<span class="w">        </span><span class="n">Vector</span><span class="w"> </span><span class="n">lineItems</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">lineItemList</span><span class="p">.</span><span class="na">getLineItems</span><span class="p">();</span>
+<span class="w">        </span><span class="c1">// create an iterator for the vector</span>
+<span class="w">        </span><span class="n">Iterator</span><span class="w"> </span><span class="n">iter</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">lineItems</span><span class="p">.</span><span class="na">iterator</span><span class="p">();</span>
+<span class="w">        </span><span class="n">lineItem</span><span class="w"> </span><span class="n">item</span><span class="p">;</span>
+<span class="w">        </span><span class="c1">// set total to zero</span>
+<span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">total</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="w">            </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">iter</span><span class="p">.</span><span class="na">hasNext</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+<span class="w">                </span><span class="n">item</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">lineItem</span><span class="p">)</span><span class="n">iterator</span><span class="p">.</span><span class="na">next</span><span class="p">();</span>
+
+<span class="w">                </span><span class="c1">// calculate total for line item</span>
+<span class="w">                </span><span class="kt">int</span><span class="w"> </span><span class="n">unitPrice</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">item</span><span class="p">.</span><span class="na">getUnitPrice</span><span class="p">();</span>
+<span class="w">                </span><span class="kt">int</span><span class="w"> </span><span class="n">qty</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">item</span><span class="p">.</span><span class="na">getQuantity</span><span class="p">();</span>
+<span class="w">                </span><span class="kt">int</span><span class="w"> </span><span class="n">lineitemtotal</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">unitPrice</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">qty</span><span class="p">;</span>
+
+<span class="w">                </span><span class="n">total</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">lineitemtotal</span><span class="p">;</span>
+<span class="w">            </span><span class="p">}</span>
+<span class="w">            </span><span class="k">return</span><span class="w"> </span><span class="n">total</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1">// lineitemlist.java</span>
+
+<span class="kn">package</span><span class="w"> </span><span class="nn">com.nq.util</span><span class="p">;</span>
+
+<span class="kn">import</span><span class="w"> </span><span class="nn">java.io.*</span><span class="p">;</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">java.util.*</span><span class="p">;</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">java.lang.*</span><span class="p">;</span>
+
+<span class="kd">class</span> <span class="nc">lineitemlist</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="n">Vector</span><span class="w"> </span><span class="n">LIList</span><span class="p">;</span>
+
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">setLineItems</span><span class="p">(</span><span class="n">Vector</span><span class="w"> </span><span class="n">lineItems</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">LIList</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">lineItems</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="n">Vector</span><span class="w"> </span><span class="nf">getLineItems</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">LIList</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+
+<span class="c1">// lineItem.java</span>
+
+<span class="kn">package</span><span class="w"> </span><span class="nn">com.nq.util</span><span class="p">;</span>
+
+<span class="kn">import</span><span class="w"> </span><span class="nn">java.io.*</span><span class="p">;</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">java.util.*</span><span class="p">;</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">java.lang.*</span><span class="p">;</span>
+
+<span class="kd">class</span> <span class="nc">lineItem</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">protected</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">productId</span><span class="p">;</span>
+<span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">ImageID</span><span class="p">;</span>
+<span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">qty</span><span class="p">;</span>
+<span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">Unitprice</span><span class="p">;</span>
+
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="nf">lineItem</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">prodID</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">ImageID</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">inQty</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">productId</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">prodID</span><span class="p">;</span>
+<span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">ImageID</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ImageID</span><span class="p">;</span>
+<span class="w">        </span><span class="n">qty</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">inQty</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">setLineItems</span><span class="p">(</span><span class="n">Vector</span><span class="w"> </span><span class="n">lineItems</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">LineItems</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">lineItems</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="n">Vector</span><span class="w"> </span><span class="nf">getLineItems</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">LineItems</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="nf">getProductID</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">productId</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="nf">getImageID</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">imageID</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="nf">getQuantity</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">qty</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="nf">getUnitPrice</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">Unitprice</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">setProductID</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">id</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">productId</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">id</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">setImageID</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">ID</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">imageID</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ID</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">setQty</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">qty</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">this</span><span class="p">.</span><span class="na">qty</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">qty</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">setUnitPrice</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">Unitprice</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">i</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<p>What code smells are evident? For each, briefly describe its occurrence(s) in the code.</p>
+<p>Occurrence(s) of "comments" code smell:</p>
+<p>Occurrence(s) of "duplicated code" code smell:</p>
+<p>Occurrence(s) of "long method" code smell:</p>
+<p>Occurrence(s) of "large class" code smell:</p>
+<p>Occurrence(s) of "data classes" code smell:</p>
+<p>Occurrence(s) of "data clumps" code smell:</p>
+<p>Occurrence(s) of "large parameter list" code smell:</p>
+<p>Occurrence(s) of "divergent change" code smell:</p>
+<p>Occurrence(s) of "shotgun surgery" code smell:</p>
+<p>Occurrence(s) of "feature envy" code smell:</p>
+<p>Occurrence(s) of "inappropriate intimacy" code smell:</p>
+<p>Occurrence(s) of "message chains" code smell:</p>
+<p>Occurrence(s) of "primitive obsession" code smell:</p>
+<p>Occurrence(s) of "switch statements" code smell:</p>
+<p>Occurrence(s) of "speculative generality" code smell:</p>
+<p>Occurrence(s) of "refused bequest" code smell:</p>
+<p>Other occurrence(s) of inconsistent or nonstandard coding:</p>
+    <footer>
+      <p>Published: <time datetime="2024-10-24T00:00:00-06:00">
+        Thu, 24 Oct 2024 at 00:00 MDT
+      </time></p>
+        <address>
+          By             <a href="https://ualberta-cmput301.github.io/author/hazel-victoria-campbell.html">Hazel Victoria Campbell</a>
+        </address>
+        <p>
+          Category: <a href="https://ualberta-cmput301.github.io/category/archive.html">archive</a>
+        </p>
+        <p>
+          Tags:
+            <a href="https://ualberta-cmput301.github.io/tag/resources.html">resources</a>
+            <a href="https://ualberta-cmput301.github.io/tag/participation.html">participation</a>
+            <a href="https://ualberta-cmput301.github.io/tag/references.html">references</a>
+            <a href="https://ualberta-cmput301.github.io/tag/practice.html">practice</a>
+        </p>
+    </footer>
+  </article>
+      </main>
+      <footer>
+          <address>
+            Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>,
+            which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
+          </address>
+      </footer>
+  </body>
+</html>

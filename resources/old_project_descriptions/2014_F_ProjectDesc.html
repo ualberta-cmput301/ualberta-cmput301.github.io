@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <title>CMPUT 301 - 2014 F Project Problem Description</title>
+      <meta charset="utf-8" />
+      <meta name="generator" content="Pelican" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Software Engineering" />
+        <link href="https://ualberta-cmput301.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Full Atom Feed" />
+        <link href="https://ualberta-cmput301.github.io/feeds/old_project_descriptions.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Categories Atom Feed" />
+
+  <link rel="icon" href="https://ualberta-cmput301.github.io/theme/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/301.css" />
+
+
+
+
+    <meta name="tags" content="projects" />
+    <meta name="tags" content="teams" />
+    <meta name="tags" content="grading" />
+
+  </head>
+
+  <body>
+      <header>
+          <hgroup><h1><a href="https://ualberta-cmput301.github.io/">CMPUT 301</a></h1><p>Software Engineering</p></hgroup>
+          <nav><ul>
+              <li><a href="/general/outline.html">Outline</a></li>
+              <li><a href="/#canvas">Canvas & Grades</a></li>
+              <li><a href="/#schedule">Schedule</a></li>
+              <li><a href="/general/labs.html">Labs</a></li>
+              <li><a href="/general/project.html">Project</a></li>
+              <li><a href="/general/individual.html">Individual</a></li>
+              <li><a href="/general/resources.html">Resources</a></li>
+              <li><a href="/general/help.html#discussion-forum">Discussion Forum</a></li>
+              <li><a href="/#news-notices">News & Notices</a></li>
+              <li><a href="/general/slides.html">Slides</a></li>
+              <li><a href="/general/help.html">Help</a></li>
+                <li><a href="https://ualberta-cmput301.github.io/" >Home</a></li>
+          </ul></nav>
+      </header>
+      <main>
+  <article>
+    <header>
+      <h2>
+        <a href="https://ualberta-cmput301.github.io/resources/old_project_descriptions/2014_F_ProjectDesc.html" rel="bookmark"
+           title="Permalink to 2014 F Project Problem Description">2014 F Project Problem Description</a></h2>
+      
+    </header>
+    <p>You are to design and implement an attractive, usable, interactive Android application to help satisfy the following user's goals. Your design should be flexible enough to allow future developers to extend it to, for example, add new types of entries (see below).</p>
+<h3 id="users-problem-description">User's Problem Description</h3>
+<p>We want a mobile question and answer site. A user can browse questions and post answers. A user can pose questions and see answers. Both question and answers can have a small discussion accompanied with them.</p>
+<p>Imagine http://stackoverflow.com/ but geo-location aware.</p>
+<h4 id="needs-in-partial-user-story-form-do-all-of-these">Needs in (Partial) User Story Form [do all of these]</h4>
+<p>User needs are expressed in the form of partial user stories:
+as a <role>, I want <goal>
+as a <role>, I want <goal> so that <reason></p>
+<p>These descriptions may change to correct omissions and clarify noticed issues.</p>
+<p>As a user, I want browse questions.</p>
+<p>As a user, I want to view a question and its answers.</p>
+<p>As a user, I want to view the replies to a question or answer.</p>
+<p>As an author, I want to make questions.</p>
+<p>As an author, I want to answer questions by making an answer.</p>
+<p>As an author, I want to reply to questions and answers to clarify things.</p>
+<p>As an author, I want to attach a picture to my questions or my answers.</p>
+<p>As a sysadmin, I do not want the pictures to be large (&gt; 64kb).</p>
+<p>As a user, I want to sort questions by if they have pictures.</p>
+<p>As a user, I want to sort questions by date or some scoring system.</p>
+<p>As a user, I want to upvote the questions of other users.</p>
+<p>As a user, I want to upvote the answers of other users</p>
+<p>As a user, I want to see the most upvoted questions and most upvoted answers.</p>
+<p>As a user, I want to see how many answers a question has received.</p>
+<p>As a user, I want to search for questions or answers.</p>
+<p>As an author, I want my device to remember which questions I asked.</p>
+<p>As a user, I want questions and answers that I read or questions and answers that I've indicated I want to read, to be locally cached so I can read them when I am not on the internet.</p>
+<p>As a user, I want to explicitly save some questions as favorites.</p>
+<p>As a user, My favorites and their replies should always be available to me regardless of network connectivity.</p>
+<p>As an author, I want to author replies, questions and answers offline.</p>
+<p>As an author, I want to push my replies, questions and answers online once I get connectivity.</p>
+<p>As a user, by default, I should see the most fresh comments.</p>
+<p>As an author, I set my username.</p>
+<h4 id="new-requirements-choose-1-of-these">New requirements [Choose 1 of these]</h4>
+<ul>
+<li>Requirements Cluster: Geolocation</li>
+<li>As an author, I want to be asked if my location should be attached to my post</li>
+<li>As a user I want to be able to query for posts (questions/answers/replies) that are near to me</li>
+<li>As an author, I want my geolocation to come from my GPS, or allow me to set to it</li>
+<li>As a user, I want to know if the location of post is near city or town or country.</li>
+<li>Requirements Cluster: Social Analytics</li>
+<li>As a user, I want to see the trending posts that have recent popularity and activity</li>
+<li>As a user, I want to see who the top contributors are</li>
+<li>As a user, I want to see a summary of what topics are trending, that is a textual analysis or summary of what is happening lately</li>
+<li>As a user, I want to see controversial questions: questions with few upvotes but many replies</li>
+<li>As a user, I want a word cloud of all the posts cached on my phone.</li>
+<li>Requirements Cluster: Recommendations</li>
+<li>As a user I want to browse other questions asked by an author</li>
+<li>As a user I want to browse answers written by an author</li>
+<li>As an author I want to see related questions when I ask a question</li>
+<li>As an author I want to see other question I may be able to answer when I write an answer</li>
+<li>As a user I want to see related questions when I browse questions</li>
+<li>More to come!   </li>
+</ul>
+<p><strong>Notes</strong></p>
+<p>As class advances and questions are asked new story cards will be created.</p>
+<h4 id="webservice-notes">Webservice Notes</h4>
+<p>Please see the URL: http://www.elasticsearch.org/ and Query String DSL</p>
+<p>Each group now has its own personal prefix on the elastisearch. Your Android application can communicate to your group's webservice.</p>
+<p>Binaries should be small, and you can post them, but be sure you read up on how to send binaries to elastisearch  Core-types , Put Mappings</p>
+<p>This webservice is meant to allow posting, listing, deleting and searching recipes. It has a JSON format that can be defined by your group in order to encode more difficult tasks.</p>
+<p>http://cmput301.softwareprocess.es:8080/cmput301f14t01/</p>
+<p>http://cmput301.softwareprocess.es:8080/cmput301f14t02/</p>
+<p>http://cmput301.softwareprocess.es:8080/cmput301f14t03/</p>
+<p>http://cmput301.softwareprocess.es:8080/cmput301f14t04/</p>
+<p>http://cmput301.softwareprocess.es:8080/cmput301f14t05/</p>
+<p>http://cmput301.softwareprocess.es:8080/cmput301f14t06/</p>
+<p>http://cmput301.softwareprocess.es:8080/cmput301f14t07/</p>
+<p>http://cmput301.softwareprocess.es:8080/cmput301f14t08/</p>
+<p>http://cmput301.softwareprocess.es:8080/cmput301f14t09/</p>
+<p>http://cmput301.softwareprocess.es:8080/cmput301f14t10/</p>
+<p>http://cmput301.softwareprocess.es:8080/cmput301f14t11/</p>
+<p>http://cmput301.softwareprocess.es:8080/cmput301f14t12/</p>
+<p>http://cmput301.softwareprocess.es:8080/cmput301f14t13/</p>
+<p>http://cmput301.softwareprocess.es:8080/cmput301f14t14/</p>
+<p>http://cmput301.softwareprocess.es:8080/cmput301f14t15/</p>
+<p>http://cmput301.softwareprocess.es:8080/cmput301f14t16/</p>
+<p>These are not protected in anyway and they should stick to their own repos.</p>
+<p>http://cmput301.softwareprocess.es:8080/testing/ is for testing.</p>
+<p>Requirements Cluster: Recommendations
+- As a user I want to browse other questions asked by an author
+- As a user I want to browse answers written by an author
+- As an author I want to see related questions when I ask a question</p>
+<ul>
+<li>As an author I want to see other question I may be able to answer when I write an answer</li>
+<li>As a user I want to see related questions when I browse questions</li>
+</ul>
+    <footer>
+      <p>Published: <time datetime="2024-11-04T00:00:00-07:00">
+        Mon, 04 Nov 2024 at 00:00 MST
+      </time></p>
+        <address>
+          By             <a href="https://ualberta-cmput301.github.io/author/tina-nguyen.html">Tina Nguyen</a>
+            <a href="https://ualberta-cmput301.github.io/author/hazel-victoria-campbell.html">Hazel Victoria Campbell</a>
+        </address>
+        <p>
+          Category: <a href="https://ualberta-cmput301.github.io/category/old_project_descriptions.html">old_project_descriptions</a>
+        </p>
+        <p>
+          Tags:
+            <a href="https://ualberta-cmput301.github.io/tag/projects.html">projects</a>
+            <a href="https://ualberta-cmput301.github.io/tag/teams.html">teams</a>
+            <a href="https://ualberta-cmput301.github.io/tag/grading.html">grading</a>
+        </p>
+    </footer>
+  </article>
+      </main>
+      <footer>
+          <address>
+            Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>,
+            which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
+          </address>
+      </footer>
+  </body>
+</html>

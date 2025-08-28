@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <title>CMPUT 301 - Class Participation Exercise Mock Objects</title>
+      <meta charset="utf-8" />
+      <meta name="generator" content="Pelican" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Software Engineering" />
+        <link href="https://ualberta-cmput301.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Full Atom Feed" />
+        <link href="https://ualberta-cmput301.github.io/feeds/archive.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Categories Atom Feed" />
+
+  <link rel="icon" href="https://ualberta-cmput301.github.io/theme/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/301.css" />
+
+
+
+
+    <meta name="tags" content="resources" />
+    <meta name="tags" content="participation" />
+    <meta name="tags" content="references" />
+    <meta name="tags" content="practice" />
+
+  </head>
+
+  <body>
+      <header>
+          <hgroup><h1><a href="https://ualberta-cmput301.github.io/">CMPUT 301</a></h1><p>Software Engineering</p></hgroup>
+          <nav><ul>
+              <li><a href="/general/outline.html">Outline</a></li>
+              <li><a href="/#canvas">Canvas & Grades</a></li>
+              <li><a href="/#schedule">Schedule</a></li>
+              <li><a href="/general/labs.html">Labs</a></li>
+              <li><a href="/general/project.html">Project</a></li>
+              <li><a href="/general/individual.html">Individual</a></li>
+              <li><a href="/general/resources.html">Resources</a></li>
+              <li><a href="/general/help.html#discussion-forum">Discussion Forum</a></li>
+              <li><a href="/#news-notices">News & Notices</a></li>
+              <li><a href="/general/slides.html">Slides</a></li>
+              <li><a href="/general/help.html">Help</a></li>
+                <li><a href="https://ualberta-cmput301.github.io/" >Home</a></li>
+          </ul></nav>
+      </header>
+      <main>
+  <article>
+    <header>
+      <h2>
+        <a href="https://ualberta-cmput301.github.io/archive/class_participation_20200323_MockObjects.html" rel="bookmark"
+           title="Permalink to Class Participation Exercise Mock Objects">Class Participation Exercise Mock Objects</a></h2>
+      
+    </header>
+    <hr>
+<div class="highlight"><pre><span></span><code><span class="n">Submit</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">java</span><span class="w"> </span><span class="n">code</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="n">online</span><span class="w"> </span><span class="n">text</span><span class="o">.</span>
+
+<span class="o">//</span><span class="w"> </span><span class="n">CMPUT</span><span class="w"> </span><span class="mi">301</span><span class="w"> </span><span class="n">Mock</span><span class="w"> </span><span class="nb nb-Type">Object</span><span class="w"> </span><span class="n">Quiz</span><span class="o">!</span>
+<span class="o">//</span>
+<span class="o">//</span><span class="w"> </span><span class="n">You</span><span class="w"> </span><span class="n">probably</span><span class="w"> </span><span class="n">have</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">use</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">back</span><span class="w"> </span><span class="n">of</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">page</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">this</span><span class="w"> </span><span class="n">quiz</span><span class="o">.</span>
+<span class="o">//</span>
+<span class="o">//</span><span class="w">  </span><span class="n">WeatherService</span><span class="w"> </span><span class="k">is</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="n">that</span><span class="w"> </span><span class="n">gets</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">weather</span><span class="w"> </span><span class="n">report</span><span class="w"> </span><span class="n">from</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">weather</span><span class="w"> </span><span class="n">webservice</span><span class="o">.</span>
+<span class="o">//</span><span class="w">  </span><span class="n">It</span><span class="w"> </span><span class="n">parses</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">webpage</span><span class="w"> </span><span class="ow">and</span><span class="w"> </span><span class="n">produces</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">weather</span><span class="w"> </span><span class="n">report</span><span class="o">.</span><span class="w"> </span><span class="n">But</span><span class="w"> </span><span class="n">sometimes</span><span class="w"> </span><span class="n">you</span><span class="w"> </span><span class="n">don</span><span class="s1">&#39;t have</span>
+<span class="o">//</span><span class="w">  </span><span class="n">network</span><span class="w"> </span><span class="n">conenctivity</span><span class="w"> </span><span class="ow">and</span><span class="w"> </span><span class="n">sometimes</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">webservice</span><span class="w"> </span><span class="n">goes</span><span class="w"> </span><span class="n">down</span><span class="o">.</span><span class="w"> </span><span class="n">Sometimes</span><span class="w"> </span><span class="n">some</span>
+<span class="o">//</span><span class="w">  </span><span class="n">locations</span><span class="w"> </span><span class="n">are</span><span class="w"> </span><span class="ow">not</span><span class="w"> </span><span class="n">supported</span><span class="w"> </span><span class="n">by</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">weather</span><span class="w"> </span><span class="n">service</span><span class="o">.</span>
+<span class="o">//</span><span class="w">  </span><span class="n">Your</span><span class="w"> </span><span class="n">boss</span><span class="w"> </span><span class="n">wants</span><span class="w"> </span><span class="n">you</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">test</span><span class="w"> </span><span class="n">against</span><span class="w"> </span><span class="n">some</span><span class="w"> </span><span class="n">of</span><span class="w"> </span><span class="n">these</span><span class="w"> </span><span class="n">issues</span><span class="o">.</span>
+<span class="o">//</span>
+<span class="o">//</span><span class="w"> </span><span class="mf">1.</span><span class="w"> </span><span class="n">Write</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">mock</span><span class="w"> </span><span class="n">object</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">enable</span><span class="w"> </span><span class="n">testing</span><span class="w"> </span><span class="n">of</span><span class="w"> </span><span class="n">retrieveWeather</span><span class="o">.</span>
+<span class="o">//</span><span class="w"> </span><span class="mf">2.</span><span class="w"> </span><span class="n">Write</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">testCase</span><span class="w"> </span><span class="n">using</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">mock</span><span class="w"> </span><span class="n">object</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">ensures</span><span class="w"> </span><span class="n">that</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">weather</span><span class="w"> </span><span class="n">service</span><span class="w"> </span><span class="n">page</span><span class="w"> </span>
+<span class="o">//</span><span class="w">      </span><span class="n">returns</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="mi">404</span><span class="w"> </span><span class="n">code</span><span class="w"> </span><span class="n">error</span><span class="w"> </span><span class="n">that</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">LocationException</span><span class="w"> </span><span class="k">is</span><span class="w"> </span><span class="n">thrown</span>
+<span class="o">//</span><span class="w"> </span><span class="mf">3.</span><span class="w"> </span><span class="n">Write</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">testCase</span><span class="w"> </span><span class="n">using</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">mock</span><span class="w"> </span><span class="n">object</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">ensures</span><span class="w"> </span><span class="n">that</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">weather</span><span class="w"> </span><span class="n">service</span><span class="w"> </span><span class="n">page</span><span class="w"> </span>
+<span class="o">//</span><span class="w">      </span><span class="n">returns</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="mi">500</span><span class="w"> </span><span class="n">server</span><span class="w"> </span><span class="n">side</span><span class="w"> </span><span class="n">error</span><span class="w"> </span><span class="n">code</span><span class="w"> </span><span class="n">that</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">NoServiceException</span><span class="w"> </span><span class="k">is</span><span class="w"> </span><span class="n">thrown</span>
+<span class="o">//</span>
+<span class="o">//</span><span class="w">     </span><span class="n">Do</span><span class="w"> </span><span class="ow">not</span><span class="w"> </span><span class="n">modify</span><span class="w"> </span><span class="n">any</span><span class="w"> </span><span class="n">of</span><span class="w"> </span><span class="n">existing</span><span class="w"> </span><span class="n">code</span><span class="o">.</span><span class="w"> </span><span class="n">You</span><span class="w"> </span><span class="n">may</span><span class="w"> </span><span class="n">only</span><span class="w"> </span><span class="n">write</span><span class="w"> </span><span class="n">NEW</span><span class="w"> </span><span class="n">code</span><span class="o">.</span>
+<span class="k">class</span><span class="w"> </span><span class="n">WebserviceException</span><span class="w"> </span><span class="k">extends</span><span class="w"> </span><span class="n">Exception</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="o">...</span><span class="w"> </span><span class="p">}</span>
+<span class="k">class</span><span class="w"> </span><span class="n">LocationException</span><span class="w"> </span><span class="k">extends</span><span class="w"> </span><span class="n">WebserviceException</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="p">}</span>
+<span class="k">class</span><span class="w"> </span><span class="n">NoServiceException</span><span class="w"> </span><span class="k">extends</span><span class="w"> </span><span class="n">WebserviceException</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="p">}</span>
+<span class="k">class</span><span class="w"> </span><span class="n">Page</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nb nb-Type">int</span><span class="w"> </span><span class="n">code</span><span class="p">;</span><span class="w"> </span><span class="nb nb-Type">String</span><span class="w"> </span><span class="n">contents</span><span class="p">;</span><span class="w"> </span><span class="p">}</span>
+<span class="k">class</span><span class="w"> </span><span class="n">Weather</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="o">...</span><span class="w"> </span><span class="p">}</span>
+<span class="k">class</span><span class="w"> </span><span class="n">HTTPGetter</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">Page</span><span class="w"> </span><span class="n">get</span><span class="p">(</span><span class="nb nb-Type">String</span><span class="w"> </span><span class="n">url</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="o">...</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+<span class="k">class</span><span class="w"> </span><span class="n">WeatherService</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">HTTPGetter</span><span class="w"> </span><span class="n">httpGet</span><span class="p">;</span>
+<span class="w">    </span><span class="n">WeatherService</span><span class="p">(</span><span class="n">HTTPGetter</span><span class="w"> </span><span class="n">getter</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">httpGet</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">getter</span><span class="p">;</span><span class="w"> </span><span class="p">}</span>
+<span class="w">    </span><span class="n">protected</span><span class="w"> </span><span class="n">parseWeather</span><span class="p">(</span><span class="w"> </span><span class="n">Page</span><span class="w"> </span><span class="n">page</span><span class="w"> </span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="o">...</span><span class="w"> </span><span class="p">}</span>
+<span class="w">    </span><span class="o">...</span>
+<span class="w">    </span><span class="n">public</span><span class="w"> </span><span class="n">Weather</span><span class="w"> </span><span class="n">retrieveWeather</span><span class="p">()</span><span class="w"> </span><span class="n">throws</span><span class="w"> </span><span class="n">WebserviceException</span><span class="w"> </span><span class="p">{</span>
+<span class="w">         </span><span class="n">Page</span><span class="w"> </span><span class="n">page</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">httpGet</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="w"> </span><span class="n">this</span><span class="o">.</span><span class="n">baseURL</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s2">&quot;/” + Location.getCurrentLocation().toString());</span>
+<span class="w">         </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">page</span><span class="o">.</span><span class="n">code</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">404</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">             </span><span class="o">...</span>
+<span class="w">             </span><span class="n">throw</span><span class="w"> </span><span class="n">new</span><span class="w"> </span><span class="n">LocationException</span><span class="p">(</span><span class="s2">&quot;Location not supported!”); // TEST ME!</span>
+<span class="w">         </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">page</span><span class="o">.</span><span class="n">code</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="mi">500</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">             </span><span class="o">...</span>
+<span class="w">             </span><span class="n">throw</span><span class="w"> </span><span class="n">new</span><span class="w"> </span><span class="n">NoServiceException</span><span class="p">(</span><span class="s2">&quot;Service not reachable!”); // TEST ME!</span>
+<span class="w">         </span><span class="p">}</span>
+<span class="w">         </span><span class="n">Weather</span><span class="w"> </span><span class="n">weather</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">parseWeather</span><span class="p">(</span><span class="w"> </span><span class="n">page</span><span class="w"> </span><span class="p">);</span>
+<span class="w">         </span><span class="k">return</span><span class="w"> </span><span class="n">weather</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+    <footer>
+      <p>Published: <time datetime="2020-03-23T00:00:00-06:00">
+        Mon, 23 Mar 2020 at 00:00 MDT
+      </time></p>
+        <address>
+          By             <a href="https://ualberta-cmput301.github.io/author/hazel-victoria-campbell.html">Hazel Victoria Campbell</a>
+        </address>
+        <p>
+          Category: <a href="https://ualberta-cmput301.github.io/category/archive.html">archive</a>
+        </p>
+        <p>
+          Tags:
+            <a href="https://ualberta-cmput301.github.io/tag/resources.html">resources</a>
+            <a href="https://ualberta-cmput301.github.io/tag/participation.html">participation</a>
+            <a href="https://ualberta-cmput301.github.io/tag/references.html">references</a>
+            <a href="https://ualberta-cmput301.github.io/tag/practice.html">practice</a>
+        </p>
+    </footer>
+  </article>
+      </main>
+      <footer>
+          <address>
+            Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>,
+            which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
+          </address>
+      </footer>
+  </body>
+</html>

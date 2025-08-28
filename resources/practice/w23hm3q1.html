@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <title>CMPUT 301 - Practice w23hm3q1</title>
+      <meta charset="utf-8" />
+      <meta name="generator" content="Pelican" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Software Engineering" />
+        <link href="https://ualberta-cmput301.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Full Atom Feed" />
+        <link href="https://ualberta-cmput301.github.io/feeds/practice.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Categories Atom Feed" />
+
+  <link rel="icon" href="https://ualberta-cmput301.github.io/theme/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/301.css" />
+
+
+
+
+    <meta name="tags" content="resources" />
+    <meta name="tags" content="practice exams" />
+
+  </head>
+
+  <body>
+      <header>
+          <hgroup><h1><a href="https://ualberta-cmput301.github.io/">CMPUT 301</a></h1><p>Software Engineering</p></hgroup>
+          <nav><ul>
+              <li><a href="/general/outline.html">Outline</a></li>
+              <li><a href="/#canvas">Canvas & Grades</a></li>
+              <li><a href="/#schedule">Schedule</a></li>
+              <li><a href="/general/labs.html">Labs</a></li>
+              <li><a href="/general/project.html">Project</a></li>
+              <li><a href="/general/individual.html">Individual</a></li>
+              <li><a href="/general/resources.html">Resources</a></li>
+              <li><a href="/general/help.html#discussion-forum">Discussion Forum</a></li>
+              <li><a href="/#news-notices">News & Notices</a></li>
+              <li><a href="/general/slides.html">Slides</a></li>
+              <li><a href="/general/help.html">Help</a></li>
+                <li><a href="https://ualberta-cmput301.github.io/" >Home</a></li>
+          </ul></nav>
+      </header>
+      <main>
+  <article>
+    <header>
+      <h2>
+        <a href="https://ualberta-cmput301.github.io/resources/practice/w23hm3q1.html" rel="bookmark"
+           title="Permalink to Practice w23hm3q1">Practice w23hm3q1</a></h2>
+      
+    </header>
+    <hr>
+<p><strong>Midterm 3 Question 1 (March 29) -- Hindle</strong></p>
+<p><em>Submit a PDF, PNG or JPEG</em></p>
+<p><em>5 marks</em></p>
+<p><em>You must add your CCID to your answer</em></p>
+<p>Adapter and Sequence Diagram</p>
+<p>You’ve written an object adapter (RTFAdapter) to adapt rich text files to an interface compatible with plain text files. Show your adaptation via a <strong>UML sequence diagram</strong>. Remember to include all the actors, components, lifelines, iteration, and activation boxes. Use good names for the methods.</p>
+<p>We want to read the lines of a RichTextFile (RTF), but RichTextFile—which we got from a 3rd party library—doesn’t implement the same interface. You’ve implemented an object adapter so we can use the ReadOutLoud class to read out loud (readText) a RichTextFile.</p>
+<ul>
+<li>Show a sequence diagram of Driver.run() operating with an object adapter (RTFAdapter) that adapts a RichTextFile to a TextLineReader.</li>
+<li>RTFAdapter is an object adapter</li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="kd">interface</span> <span class="nc">TextLineReader</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="c1">// while ! isEndOfile() you can call readNextLine                   </span>
+<span class="w">     </span><span class="kd">public</span><span class="w"> </span><span class="kt">boolean</span><span class="w"> </span><span class="nf">isEndOfFile</span><span class="p">();</span><span class="w">    </span>
+<span class="w">     </span><span class="c1">// move forward 1 line of text, read it, and return it.    </span>
+<span class="w">     </span><span class="kd">public</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="nf">readNextLine</span><span class="p">();</span>
+<span class="p">}</span>
+<span class="kd">class</span> <span class="nc">PlainTextFile</span><span class="w"> </span><span class="kd">implements</span><span class="w"> </span><span class="n">TextLineReader</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="nf">PlainTextFile</span><span class="p">(</span><span class="n">String</span><span class="w"> </span><span class="n">file</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="cm">/* ... */</span><span class="w"> </span><span class="p">}</span>
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">boolean</span><span class="w"> </span><span class="nf">isEndOfFile</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="cm">/* ... */</span><span class="w"> </span><span class="p">}</span>
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="nf">readNextLine</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="cm">/* ... /; }</span>
+<span class="cm">    / ... /</span>
+<span class="cm">}</span>
+<span class="cm">class RichTextFile {</span>
+<span class="cm">    public RichTextFile(String file) { / ... */</span><span class="w"> </span><span class="p">}</span>
+<span class="w">    </span><span class="c1">// How many lines in the RTF</span>
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="nf">totalLines</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="cm">/* ... */</span><span class="w"> </span><span class="p">}</span>
+<span class="w">    </span><span class="c1">// Return a specific line</span>
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="nf">readLine</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="cm">/* .../ }</span>
+<span class="cm">    / ... /</span>
+<span class="cm">}</span>
+<span class="cm">class ReadOutLoud {</span>
+<span class="cm">    public void readText(TextLineReader r) {</span>
+<span class="cm">        while( ! r.isEndOfFile() ) {</span>
+<span class="cm">                sayTheLine( r.readNextLine() );</span>
+<span class="cm">        }</span>
+<span class="cm">    }</span>
+<span class="cm">    public void sayTheLine( String s) { / ... / }</span>
+<span class="cm">    / ... /</span>
+<span class="cm">}</span>
+<span class="cm">class RTFAdapter implements TextLineReader {</span>
+<span class="cm">    RTFAdapter(RichTextFile rtf) { / ... / }</span>
+<span class="cm">    public boolean isEndOfFile() { / ... / }</span>
+<span class="cm">    public String readNextLine() { / ... / }</span>
+<span class="cm">    / ... */</span>
+<span class="p">}</span>
+<span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">Driver</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">run</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="k">new</span><span class="w"> </span><span class="n">ReadOutLoud</span><span class="p">().</span><span class="na">readText</span><span class="p">(</span>
+<span class="w">            </span><span class="k">new</span><span class="w"> </span><span class="n">RTFAdapter</span><span class="p">(</span>
+<span class="w">                </span><span class="k">new</span><span class="w"> </span><span class="n">RichTextFile</span><span class="p">(</span><span class="s">&quot;text.rtf&quot;</span><span class="p">)</span>
+<span class="w">            </span><span class="p">)</span>
+<span class="w">        </span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+    <footer>
+      <p>Published: <time datetime="2023-03-29T00:00:00-06:00">
+        Wed, 29 Mar 2023 at 00:00 MDT
+      </time></p>
+        <address>
+          By             <a href="https://ualberta-cmput301.github.io/author/abram-hindle.html">Abram Hindle</a>
+        </address>
+        <p>
+          Category: <a href="https://ualberta-cmput301.github.io/category/practice.html">practice</a>
+        </p>
+        <p>
+          Tags:
+            <a href="https://ualberta-cmput301.github.io/tag/resources.html">resources</a>
+            <a href="https://ualberta-cmput301.github.io/tag/practice-exams.html">practice exams</a>
+        </p>
+    </footer>
+  </article>
+      </main>
+      <footer>
+          <address>
+            Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>,
+            which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
+          </address>
+      </footer>
+  </body>
+</html>

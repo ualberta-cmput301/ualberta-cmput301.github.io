@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-          <title>CMPUT 301 - Lab 4 Participation Exercise</title>
-        <meta charset="utf-8" />
-        <meta name="generator" content="Pelican" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+        <title>CMPUT 301 - Lab 4 Participation Exercise</title>
+      <meta charset="utf-8" />
+      <meta name="generator" content="Pelican" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Software Engineering" />
         <link href="https://ualberta-cmput301.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Full Atom Feed" />
         <link href="https://ualberta-cmput301.github.io/feeds/labs.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Categories Atom Feed" />
@@ -14,56 +14,80 @@
   <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/301.css" />
 
 
-        <link rel="alternate" hreflang="en" href="https://ualberta-cmput301.github.io/labs/past_notes.html">
-
 
 
     <meta name="tags" content="labs" />
     <meta name="tags" content="policy" />
     <meta name="tags" content="grading" />
 
-</head>
+  </head>
 
-<body>
-        <header>
-              <hgroup><h1><a href="https://ualberta-cmput301.github.io/">CMPUT 301</a></h1><p>Software Engineering</p></hgroup>
-        <nav><ul>
-            <li><a href="/general/outline.html">Outline</a></li>
-            <li><a href="/#eclass">eClass & Grades</a></li>
-            <li><a href="/#schedule">Schedule</a></li>
-            <li><a href="/general/labs.html">Labs</a></li>
-            <li><a href="/general/project.html">Project</a></li>
-            <li><a href="/general/individual.html">Individual</a></li>
-            <li><a href="/general/resources.html">Resources</a></li>
-            <li><a href="/general/help.html#discussion-forum">Discussion Forum</a></li>
-            <li><a href="/#news-notices">News & Notices</a></li>
-            <li><a href="/#lecture-zoom">Lecture Zoom</a></li>
-            <li><a href="/general/slides.html">Slides</a></li>
-            <li><a href="/general/help.html">Help</a></li>
-            <li><a href="https://ualberta-cmput301.github.io/" >Home</a></li>
-        </ul></nav>
-        </header>
-        <main>
-<article>
-  <header>
-    <h2>
-      <a href="https://ualberta-cmput301.github.io/labs/lab4_part.html" rel="bookmark"
-         title="Permalink to Lab 4 Participation Exercise">Lab 4 Participation Exercise</a></h2>
- Translations:
-<a href="https://ualberta-cmput301.github.io/labs/past_notes.html" hreflang="en">en</a>
-
-  </header>
-  <div class="toc">
+  <body>
+      <header>
+          <hgroup><h1><a href="https://ualberta-cmput301.github.io/">CMPUT 301</a></h1><p>Software Engineering</p></hgroup>
+          <nav><ul>
+              <li><a href="/general/outline.html">Outline</a></li>
+              <li><a href="/#canvas">Canvas & Grades</a></li>
+              <li><a href="/#schedule">Schedule</a></li>
+              <li><a href="/general/labs.html">Labs</a></li>
+              <li><a href="/general/project.html">Project</a></li>
+              <li><a href="/general/individual.html">Individual</a></li>
+              <li><a href="/general/resources.html">Resources</a></li>
+              <li><a href="/general/help.html#discussion-forum">Discussion Forum</a></li>
+              <li><a href="/#news-notices">News & Notices</a></li>
+              <li><a href="/general/slides.html">Slides</a></li>
+              <li><a href="/general/help.html">Help</a></li>
+                <li><a href="https://ualberta-cmput301.github.io/" >Home</a></li>
+          </ul></nav>
+      </header>
+      <main>
+  <article>
+    <header>
+      <h2>
+        <a href="https://ualberta-cmput301.github.io/labs/lab4_part.html" rel="bookmark"
+           title="Permalink to Lab 4 Participation Exercise">Lab 4 Participation Exercise</a></h2>
+      
+    </header>
+    <div class="toc">
 <ul>
-<li><a href="#lab-4-slides">Lab 4 Slides</a></li>
+<li><a href="#lab-4-slides">Lab 4 Slides</a><ul>
+<li><a href="#extra-information">Extra Information</a><ul>
+<li><a href="#command-line-authentication-to-github">Command Line Authentication to GitHub</a></li>
+</ul>
+</li>
+<li><a href="#sensitive-information-and-git">Sensitive Information and Git</a><ul>
+<li><a href="#what-is-sensitive-information">What is Sensitive Information</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li><a href="#lab-4-participation-exercise">Lab 4 Participation Exercise</a></li>
 </ul>
 </div>
 <h3 id="lab-4-slides">Lab 4 Slides</h3>
 <p><a href="https://ualberta-cmput301.github.io/labs/slides/Github_Slides.pdf">Lab 4 Slides</a></p>
+<h4 id="extra-information">Extra Information</h4>
+<h5 id="command-line-authentication-to-github">Command Line Authentication to GitHub</h5>
+<ul>
+<li>In the slides, authentication with GitHub is done using a token you generate with our account.</li>
+<li>GitHub has a command line tool which makes this process easier, and will generate and manage the token for you.</li>
+<li>GitHub has documentation about how to do this <a href="https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git">here</a>.</li>
+<li>The summary of these steps is to first install the GitHub CLI, which will depend on what operating system you are using. The instructions for installation is <a href="https://github.com/cli/cli#installation">here</a>.</li>
+<li>Then, with the CLI tool installed, run the command <code>gh auth login</code>. The terminal will guide you through what you need to do. Please make sure to select that you want a <strong>GitHub.com</strong> account and want to use <strong>SSH</strong> as your protocol.</li>
+<li>The documentation for the authentication command is located <a href="https://cli.github.com/manual/gh_auth_login">here</a></li>
+</ul>
+<h4 id="sensitive-information-and-git">Sensitive Information and Git</h4>
+<h5 id="what-is-sensitive-information">What is Sensitive Information</h5>
+<ul>
+<li>Git is a version control system which tracks all files, past and current, that you commit to it.</li>
+<li>This means that even if you remove a file or part of a file from your repository, it is still tracked and accessible in the history of your repository.</li>
+<li>As such, if you commit sensitive data, it is very difficult, if not impossible, to remove it.</li>
+<li>Sensitive data includes anything such as ID numbers (like your student ID number), API keys, passwords, etc.</li>
+<li>GitHub as some excellent documentation about best practices for avoiding this, located <a href="https://docs.github.com/en/code-security/getting-started/best-practices-for-preventing-data-leaks-in-your-organization">here</a>.</li>
+<li>There is also information about removing sensitive information from your repository, but this should only be used in an emergency as it can have severe consequences if not done properly.</li>
+</ul>
 <h3 id="lab-4-participation-exercise">Lab 4 Participation Exercise</h3>
-<p>Due: Friday, 2 February 2024, 4:00 PM
-This task is for teams. </p>
+<p>This task is for teams. </p>
 <ol>
 <li>
 <p>As a team:</p>
@@ -119,31 +143,31 @@ This task is for teams. </p>
 </ol>
 <p><strong>Due Date</strong></p>
 <p>Friday after the Thursday lab at 4PM</p>
-  <footer>
-    <p>Published: <time datetime="2024-01-06T00:00:00-07:00">
-      Sat, 06 Jan 2024 at 00:00 MST
-    </time></p>
-    <address>
-      By           <a href="https://ualberta-cmput301.github.io/author/samuel-iwuchukwu.html">Samuel Iwuchukwu</a>
-          <a href="https://ualberta-cmput301.github.io/author/hazel-victoria-campbell.html">Hazel Victoria Campbell</a>
-    </address>
-    <p>
-        Category: <a href="https://ualberta-cmput301.github.io/category/labs.html">labs</a>
-    </p>
-    <p>
-        Tags:
+    <footer>
+      <p>Published: <time datetime="2024-01-06T00:00:00-07:00">
+        Sat, 06 Jan 2024 at 00:00 MST
+      </time></p>
+        <address>
+          By             <a href="https://ualberta-cmput301.github.io/author/samuel-iwuchukwu.html">Samuel Iwuchukwu</a>
+            <a href="https://ualberta-cmput301.github.io/author/hazel-victoria-campbell.html">Hazel Victoria Campbell</a>
+        </address>
+        <p>
+          Category: <a href="https://ualberta-cmput301.github.io/category/labs.html">labs</a>
+        </p>
+        <p>
+          Tags:
             <a href="https://ualberta-cmput301.github.io/tag/labs.html">labs</a>
             <a href="https://ualberta-cmput301.github.io/tag/policy.html">policy</a>
             <a href="https://ualberta-cmput301.github.io/tag/grading.html">grading</a>
-    </p>
-  </footer>
+        </p>
+    </footer>
   </article>
-        </main>
-        <footer>
-                <address>
-                Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>,
-                which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
-                </address>
-        </footer>
-</body>
+      </main>
+      <footer>
+          <address>
+            Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>,
+            which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
+          </address>
+      </footer>
+  </body>
 </html>

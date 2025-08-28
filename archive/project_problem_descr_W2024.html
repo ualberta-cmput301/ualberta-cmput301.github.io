@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <title>CMPUT 301 - Project Problem Description</title>
+      <meta charset="utf-8" />
+      <meta name="generator" content="Pelican" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Software Engineering" />
+        <link href="https://ualberta-cmput301.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Full Atom Feed" />
+        <link href="https://ualberta-cmput301.github.io/feeds/archive.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Categories Atom Feed" />
+
+  <link rel="icon" href="https://ualberta-cmput301.github.io/theme/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/301.css" />
+
+
+          <link rel="alternate" hreflang="en" href="https://ualberta-cmput301.github.io/projects/project_problem_descr.html">
+
+
+
+    <meta name="tags" content="projects" />
+    <meta name="tags" content="teams" />
+    <meta name="tags" content="grading" />
+
+  </head>
+
+  <body>
+      <header>
+          <hgroup><h1><a href="https://ualberta-cmput301.github.io/">CMPUT 301</a></h1><p>Software Engineering</p></hgroup>
+          <nav><ul>
+              <li><a href="/general/outline.html">Outline</a></li>
+              <li><a href="/#canvas">Canvas & Grades</a></li>
+              <li><a href="/#schedule">Schedule</a></li>
+              <li><a href="/general/labs.html">Labs</a></li>
+              <li><a href="/general/project.html">Project</a></li>
+              <li><a href="/general/individual.html">Individual</a></li>
+              <li><a href="/general/resources.html">Resources</a></li>
+              <li><a href="/general/help.html#discussion-forum">Discussion Forum</a></li>
+              <li><a href="/#news-notices">News & Notices</a></li>
+              <li><a href="/general/slides.html">Slides</a></li>
+              <li><a href="/general/help.html">Help</a></li>
+                <li><a href="https://ualberta-cmput301.github.io/" >Home</a></li>
+          </ul></nav>
+      </header>
+      <main>
+  <article>
+    <header>
+      <h2>
+        <a href="https://ualberta-cmput301.github.io/archive/project_problem_descr_W2024.html" rel="bookmark"
+           title="Permalink to Project Problem Description">Project Problem Description</a></h2>
+          Translations:
+      <a href="https://ualberta-cmput301.github.io/projects/project_problem_descr.html" hreflang="en">en</a>
+
+    </header>
+    <div class="toc">
+<ul>
+<li><a href="#project-problem-description">Project Problem Description</a><ul>
+<li><a href="#event-lottery-system-application">Event Lottery System Application</a></li>
+<li><a href="#description">Description:</a></li>
+<li><a href="#features">Features:</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<h3 id="project-problem-description">Project Problem Description</h3>
+<p>Warning: This is subject to change!</p>
+<h4 id="event-lottery-system-application"><strong>Event Lottery System Application</strong></h4>
+<p>You are to design and implement a simple, attractive, and easy-to-use Android application to satisfy the following goals. Your design must be flexible enough to allow developers to extend or migrate it.</p>
+<h4 id="description"><strong>Description:</strong></h4>
+<p>We want a mobile application where people can sign up for events at community centres that are popular and fill up fast. We want to allow people with limitations such as work, disability, etc. to be able to sign up for these events fairly and not have to sit refreshing a webpage until they can get a chance at reserving a spot.</p>
+<p>How? Lottery! If I am running swimming lessons for 20 kids, I will post my event or series of events and I will let everyone join the waiting list for a period of a week. After the week is up, I will ask the system to choose 20 kids to sign up. The system will then notify these kids (or their guardians), if they say no they don’t want swimming lessons, then the system will sample another child to sign up. I can monitor the progress and then get access to the final list of everyone who signs up. If perhaps someone cancels later I can cancel them in the app and a new applicant is drawn.</p>
+<p>Lottery systems are great because you don’t have to first get a chance to go to an event, you just have to say you are interested and if you’re lucky you will be offered a chance. This gives people who need the time, the time to sign up properly without a time pressure. Accessibility!</p>
+<h4 id="features"><strong>Features:</strong></h4>
+<ol>
+<li>
+<p>Pooling System:</p>
+<ul>
+<li>Organizers can draw from a waiting list of interested event attendees as selected participants.</li>
+</ul>
+</li>
+<li>
+<p>QR Code Scanning:</p>
+<ul>
+<li>entrants can scan QR promotional code to view details about the event and also join the waiting list</li>
+</ul>
+</li>
+<li>
+<p>Firebase Integration:</p>
+<ul>
+<li>Utilize Firebase for storing event details, attendee lists, and real-time check-in status updates.</li>
+</ul>
+</li>
+<li>
+<p>Multi-User Interaction:</p>
+<ul>
+<li>Distinguish between entrants, organizers, and admin with special roles and privileges granted to each actor.</li>
+</ul>
+</li>
+<li>
+<p>Image Upload:</p>
+<ul>
+<li>Allow event organizers upload event poster image</li>
+</ul>
+</li>
+<li>
+<p>Geolocation Verification (Optional)</p>
+<ul>
+<li>Optionally use geolocation to verify where users are joining the waiting list from. This is the location provided by the device.</li>
+</ul>
+</li>
+</ol>
+<p><strong>Scenario:</strong></p>
+<ol>
+<li>
+<p>I want to sign my partner up to swim lessons, they need to learn how to swim if they are going to go canoeing with me. I go to the local rec centre, I see they have listed swimming lessons for beginners, I scan the QR code. I see that it is open to register for 2 more days. I click register. 2 days later when it is closed the system samples people, but not me. It notifies me that I wasn’t sampled in the first draw, but there might be a chance if someone declines. Nobody declines. Boo.</p>
+</li>
+<li>
+<p>I am running an interpretive dance class where I teach the safety basics of dance (no eye gouging, that kind of stuff). I tell the app that I have classes every monday From 2025-01-01 to 2025-03-01, and that you need to register by 2024-12-15 and registration opens on 2024-12-01. The price is $60 and I can accommodate 60 people. I click publish and now an event is made where people can join the waiting list and they get this basic information. Also a QR code is generated that will lead them to this page.</p>
+</li>
+<li>
+<p>I want to sign my partner up to piano lessons, they need to learn how to play if they are going to play piano with me. I go to the app, I go to my local rec centre, I see they have listed piano lessons for beginners, I scan the QR code. I see that it is open to register for 2 more days. I click register. 2 days later when it is closed the system samples people, but not me. It notifies me that I was sample.</p>
+</li>
+</ol>
+<p><strong>Actors:</strong></p>
+<ul>
+<li>
+<p>Entrant: a person who signs up for an event</p>
+</li>
+<li>
+<p>Organizer: the entity that runs the event</p>
+</li>
+<li>
+<p>Administrator: The entity that administers and runs the infrastructure</p>
+</li>
+</ul>
+<p><strong>Glossary:</strong></p>
+<ul>
+<li>
+<p>QR Code: a scannable code, either a barcode, a QR code, or other code scannable by Zebra crossing libraries or google QR code scanning libraries.</p>
+</li>
+<li>
+<p>Entrant: someone who declares their interest in signing up for an event by joining the waiting list</p>
+</li>
+<li>
+<p>Waiting List: a record of entrants that showed interest in a specific event</p>
+</li>
+<li>
+<p>Sign Up : An action of registering/confirming for an event when successfully selected</p>
+<ul>
+<li>You can think of this like accepting an invitation.</li>
+</ul>
+</li>
+<li>
+<p>Profile : A screen on the application that holds information about an entrant</p>
+</li>
+<li>
+<p>Choosing: Randomly selecting a number of entrants in the waiting list to be invited to sign up</p>
+</li>
+</ul>
+<p><strong>User Stories:</strong></p>
+<p>User needs are expressed in the form of partial user stories:</p>
+<p>As a (role), I want (goal).</p>
+<p>These descriptions may change to correct omissions and clarify noticed issues. New requirements will be introduced for the final project part.</p>
+<p><strong>User:</strong></p>
+<p>US 01.01.01 As an entrant, I want to join the waiting list for a specific event</p>
+<p>US 01.01.02 As an entrant, I want to leave the waiting list for a specific event </p>
+<p>US 01.02.01 As an entrant, I want to provide my personal information such as name, email and optional phone number in the app</p>
+<p>US 01.02.02 As an entrant I want to update information such as name, email and contact information on my profile</p>
+<p>US 01.03.01 As an entrant I want to upload a profile picture for a more personalized experience</p>
+<p>US 01.03.02 As an entrant I want remove profile picture if need be</p>
+<p>US 01.03.03 As an entrant I want my profile picture to be deterministically generated from my profile name if I haven't uploaded a profile image yet.</p>
+<p>US 01.04.01 As an entrant I want to receive notification when chosen from the waiting list (when I "win" the lottery)</p>
+<p>US 01.04.02 As an entrant I want to receive notification of not chosen on the app (when I "lose" the lottery)</p>
+<p>US 01.04.03 As an entrant I want to opt out of receiving notifications from organizers and admin</p>
+<p>US 01.05.01 As an entrant I want another chance to be chosen from the waiting list if a selected user declines an invitation to sign up</p>
+<p>US 01.05.02 As an entrant I want to be able to accept the invitation to register/sign up when chosen to participate in an event</p>
+<p>US 01.05.03 As an entrant I want to be able to decline an invitation when chosen to participate in an event</p>
+<p>US 01.06.01 As an entrant I want to view event details within the app by scanning the promotional QR code</p>
+<p>US 01.06.02 As an entrant I want to be able to be sign up for an event by scanning the QR code</p>
+<p>US 01.07.01 As an entrant, I want to be identified by my device, so that I don't have to use a username and password</p>
+<p>US 01.08.01 As an entrant, I want to be warned before joining a waiting list that requires geolocation.</p>
+<p><strong>Organizer:</strong></p>
+<p>US 02.01.01 As an organizer I want to create a new event and generate a unique promotional QR code that links to the event description and event poster in the app</p>
+<p>US 02.01.02 As an organizer I want to store the generated QR code in my database</p>
+<p>US 02.01.03 As an organizer, I want to create and manage my facility profile.</p>
+<p>US 02.02.01 As an organizer I want to view the list of entrants who joined my event waiting list</p>
+<p>US 02.02.02 As an organizer I want to see on a map where entrants joined my event waiting list from.</p>
+<p>US 02.02.03 As an organizer I want to enable or disable the geolocation requirement for my event.</p>
+<p>US 02.03.01 As an organizer I want to OPTIONALLY limit the number of entrants who can join my waiting list</p>
+<p>US 02.04.01 As an organizer I want to upload an event poster to provide visual information to entrants </p>
+<p>US 02.04.02 As an organizer I want to update an event poster to provide visual information to entrants </p>
+<p>US 02.05.01 As an organizer I want to send a notification to chosen entrants to sign up for events.</p>
+<ul>
+<li>This is the notification that they "won" the lottery.</li>
+</ul>
+<p>US 02.05.02 As an organizer I want to set the system to sample a specified number of attendees to register for the event</p>
+<p>US 02.05.03 As an organizer I want to be able to draw a replacement applicant from the pooling system when a previously selected applicant cancels or rejects the invitation</p>
+<p>US 02.06.01 As an organizer I want to view a list of all chosen entrants who are invited to apply</p>
+<p>US 02.06.02 As an organizer I want to see a list of all the cancelled entrants</p>
+<p>US 02.06.03 As an organizer I want to see a final list of entrants who enrolled for the event</p>
+<p>US 02.06.04 As an organizer I want to cancel entrants that did not sign up for the event </p>
+<p>US 02.07.01 As an organizer I want to send notifications to all entrants on the waiting list</p>
+<p>US 02.07.02 As an organizer I want to send notifications to all selected entrants</p>
+<p>US 02.07.03 As an organizer I want to send a notification to all cancelled entrants</p>
+<p><strong>Admin:</strong></p>
+<p>US 03.01.01 As an administrator, I want to be able to remove events.</p>
+<p>US 03.02.01 As an administrator, I want to be able to remove profiles.</p>
+<p>US 03.03.01 As an administrator, I want to be able to remove images.</p>
+<p>US 03.03.02 As an administrator, I want to be able to remove hashed QR code data</p>
+<p>US 03.04.01 As an administrator, I want to be able to browse events.</p>
+<p>US 03.05.01 As an administrator, I want to be able to browse profiles.</p>
+<p>US 03.06.01 As an administrator, I want to be able to browse images.</p>
+<p>US 03.07.01 As an administrator I want to remove facilities that violate app policy</p>
+    <footer>
+      <p>Published: <time datetime="2024-08-26T00:00:00-06:00">
+        Mon, 26 Aug 2024 at 00:00 MDT
+      </time></p>
+        <address>
+          By             <a href="https://ualberta-cmput301.github.io/author/samuel-iwuchukwu.html">Samuel Iwuchukwu</a>
+            <a href="https://ualberta-cmput301.github.io/author/hazel-victoria-campbell.html">Hazel Victoria Campbell</a>
+        </address>
+        <p>
+          Category: <a href="https://ualberta-cmput301.github.io/category/archive.html">archive</a>
+        </p>
+        <p>
+          Tags:
+            <a href="https://ualberta-cmput301.github.io/tag/projects.html">projects</a>
+            <a href="https://ualberta-cmput301.github.io/tag/teams.html">teams</a>
+            <a href="https://ualberta-cmput301.github.io/tag/grading.html">grading</a>
+        </p>
+    </footer>
+  </article>
+      </main>
+      <footer>
+          <address>
+            Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>,
+            which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
+          </address>
+      </footer>
+  </body>
+</html>

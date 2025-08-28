@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <title>CMPUT 301 - 2018 F Project Problem Description</title>
+      <meta charset="utf-8" />
+      <meta name="generator" content="Pelican" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Software Engineering" />
+        <link href="https://ualberta-cmput301.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Full Atom Feed" />
+        <link href="https://ualberta-cmput301.github.io/feeds/old_project_descriptions.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Categories Atom Feed" />
+
+  <link rel="icon" href="https://ualberta-cmput301.github.io/theme/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/301.css" />
+
+
+
+
+    <meta name="tags" content="projects" />
+    <meta name="tags" content="teams" />
+    <meta name="tags" content="grading" />
+
+  </head>
+
+  <body>
+      <header>
+          <hgroup><h1><a href="https://ualberta-cmput301.github.io/">CMPUT 301</a></h1><p>Software Engineering</p></hgroup>
+          <nav><ul>
+              <li><a href="/general/outline.html">Outline</a></li>
+              <li><a href="/#canvas">Canvas & Grades</a></li>
+              <li><a href="/#schedule">Schedule</a></li>
+              <li><a href="/general/labs.html">Labs</a></li>
+              <li><a href="/general/project.html">Project</a></li>
+              <li><a href="/general/individual.html">Individual</a></li>
+              <li><a href="/general/resources.html">Resources</a></li>
+              <li><a href="/general/help.html#discussion-forum">Discussion Forum</a></li>
+              <li><a href="/#news-notices">News & Notices</a></li>
+              <li><a href="/general/slides.html">Slides</a></li>
+              <li><a href="/general/help.html">Help</a></li>
+                <li><a href="https://ualberta-cmput301.github.io/" >Home</a></li>
+          </ul></nav>
+      </header>
+      <main>
+  <article>
+    <header>
+      <h2>
+        <a href="https://ualberta-cmput301.github.io/resources/old_project_descriptions/2018_F_ProjectDesc.html" rel="bookmark"
+           title="Permalink to 2018 F Project Problem Description">2018 F Project Problem Description</a></h2>
+      
+    </header>
+    <h3 id="project-problem-description">Project Problem Description</h3>
+<p>Warning: This is subject to change!</p>
+<p>You are to design and implement a simple, attractive, and easy-to-use Android application to satisfy the following goals. Your design must be flexible enough to allow developers to extend or migrate it.</p>
+<h4 id="users-problem-description">User's Problem Description</h4>
+<p>I went to my doctor and had a physical. It was embarassing. The doctor pointed out some spots and asked if I had seen them before. I wasn't sure, so neither put pushed the issue any further. We didn't know, so we weren't going to do anything. Another time I went to the doctor and had the doctor investigate a spot on my hand. The doctor asked me if it had changed, I wasn't sure. The doctor asked me if it had grown, I said I assume so because why am I noticing it now. The doctor shrugged, said it looked alright and told me to keep track of it. Come back if it changed.</p>
+<p>I can't remember if it changes, to prove something changed I need evidence. I could take photos of my whole body and keep them in a safe place, but would I remember to take the photos again and consistently? I also would like to take notes as well.</p>
+<p>Thus I want software that will run on my phone and allow me to take photos of skin issues and notes about medical issues I might have. These photos and notes will be for my own sanity as well I can provide them to physicians when they are needed.</p>
+<p>Each photo or note should be timestamped and associated with a problem. Each photo or note should optionally be mapped to a location. Each photo or note should be associated with a location on my body which I can indicate by clicking on paper-doll-cut-out-like image of myself. So if my left arm was affected, I'd click on my left arm on a picture of myself--that body location would recorded. If I suffer headaches near smokestacks I probably want to record the GPS location as well.</p>
+<p>Thus as a user I want to be able to track and document medical issues. I want to use my cellphone to help me document all the blemishes and marks, and other stuff on my body such that I can keep track of them.</p>
+<h4 id="needs-in-partial-user-story-form">Needs in (Partial) User Story Form</h4>
+<p>User needs are expressed in the form of partial user stories:</p>
+<p>As a <role>, I want <goal>.</p>
+<p>These descriptions may change to correct omissions and clarify noticed issues.</p>
+<h5 id="task-basics">Task Basics</h5>
+<p>US 01.01.01</p>
+<p>As a patient I want to record my problems, each denoted with a title, date started, and a brief description.</p>
+<p>US 01.01.02 (added 2018-02-14)
+As a patient, I want the maximum length of the task title to be at least 30 characters.</p>
+<p>US 01.01.03 (added 2018-02-14)
+As a patient, I want the maximum length of the task description to be at least 300 characters.</p>
+<p>US 01.02.01
+As a patient, I want to view a list of my problems, with their titles, dates, and number of records.</p>
+<p>US 01.03.01 (revised 2018-02-16)
+As a patient, I want to edit the details for any one of my problems.</p>
+<p>US 01.04.01
+As a patient, I want to delete a problem of mine.</p>
+<p>US 01.05.01</p>
+<p>As a patient I want to add records (photos, locations, comments) to problems.</p>
+<h5 id="record-details">Record Details</h5>
+<p>US 02.01.01
+As a patient or care provider, I want to view all the records for a given problem, including its title, description, photo, etc.</p>
+<p>US 02.02.01
+As a patient, I want to add records to problems.</p>
+<p>US 02.03.01
+As a patient, records can have a geo-location.</p>
+<p>US 02.04.01
+As a patient, records can have a body location.</p>
+<p>US 02.05.01
+As a patient, records can have a title and comment.</p>
+<p>US 02.06.01
+As a patient, records can have a photo.</p>
+<p>US 02.07.01
+As care provider, I want to add new comment records to a problem for my patients.</p>
+<p>US 02.08.01
+As a patient, records have a timestamp.</p>
+<p>US 02.09.01</p>
+<p>As a patient, I want some method of helping me take consistent photos, so that when I show the doctor any progression such as the growth of a mole is evident.</p>
+<p>US 02.10.01</p>
+<p>As a patient, I need to have a slideshow mode whereby photo records of a problem can be browsed by clicking. So I could "animate” changes to a doctor.</p>
+<h5 id="user-profile">User Profile</h5>
+<p>US 03.01.01
+As a patient, I want a profile with a unique userid and my contact information.</p>
+<p>US 03.01.02
+As a patient, I want the minimum userid to be at least 8 characters.</p>
+<p>US 03.01.03
+As a patient, I want the contact information to include an email address and a phone number.</p>
+<p>US 03.02.01
+As a patient, I want to edit the contact information in my profile.</p>
+<p>US 03.03.01
+As a patient or care provider, I want to, whenever a username is shown, be able to retrieve and see its corresponding contact information.</p>
+<p><strong>US 03.04.01 <em>new</em></strong></p>
+<p><strong>As a patient or care provider, I do not want to have to ever use a password, remember a password, or have to care about a password. If I need security tokens or anything like that it must be hidden from me.</strong></p>
+<p><strong>US 03.05.01 *new</strong></p>
+<p><strong>As a patient or care provider, when I use a new device I want to be able to use the same profile.</strong></p>
+<p><strong>US 03.06.01 <em>new</em></strong></p>
+<p><strong>As a patient, I want to be able to share a very short code, or something visually scannable by a photo camera, with a care provider so they can add my profile.</strong></p>
+<p><strong>US 03.07.01 <em>new</em></strong></p>
+<p><strong>As a patient, I want to be able to share a very short code, or something visually scannable by a photo camera, with myself so I can enable a new device to browse as me.</strong></p>
+<h5 id="searching">Searching</h5>
+<p>US 04.01.01
+As a patient or care provider, I want to specify a set of keywords, and search for all problems or records that contains all the keywords.</p>
+<p>US 04.02.01
+As a patient or care provider, I want to specify a set of keywords, and search for all problems or records that are near a particular Geo-location.</p>
+<p>US 04.03.01
+As a patient or care provider, I want to specify a set of keywords, and search for all problems or records that are near a particular body-location.</p>
+<h5 id="patient-assigned">Patient Assigned</h5>
+<p>US 06.01.01
+As a care provider, I want to view a list of patients I am assigned to.</p>
+<h5 id="care-provider">Care Provider</h5>
+<p>US 07.01.01</p>
+<p>As a care provider, I want to add patients that I am assigned to.</p>
+<p>US 07.01.02</p>
+<p>As a care provider, I want to want to browse my patients problems.</p>
+<p>US 07.01.03</p>
+<p>As a care provider, I want to add comment records to my patients' problems</p>
+<h5 id="offline-behavior">Offline behavior</h5>
+<p>US 08.01.01
+As a patient, I want to add or edit problems and records while off the network, and have these changes synchronized once I regain connectivity.</p>
+<h5 id="photographs">Photographs</h5>
+<p>US 09.01.01
+As a patient, I want to optionally attach one or more photographs as further viewable details to a record of mine.</p>
+<p>US 09.01.02 (added 2018-04-06)
+As a patient, I want the maximum number of photographs that can be attached to a record to be at least 10.</p>
+<p>US 09.02.01
+As a patient or care provider, I want to view any attached photograph for a record.</p>
+<p>US 09.03.01
+As a sys admin, I want each photograph to be under 65536 bytes in size.</p>
+<h5 id="geolocation-and-maps">Geolocation and Maps</h5>
+<p>US 10.01.01
+As a patient, I want to specify a geo location on a map of a record.</p>
+<p>US 10.02.01
+As a patient or provider, I want to view any geo location for a record, on a map.</p>
+<p>US 10.03.01
+As a patient or care provider, I want to see a map of all records for a patient (that have locations).</p>
+<h5 id="body-locations">Body-locations</h5>
+<p>US 11.01.01</p>
+<p>As a patient, I want to upload at least front and back body-location photos so I may indicate where photo records were taken on my body.</p>
+<p>US 11.02.01</p>
+<p>As a patient, body locations are effectively a reference to a body-location photo and a point location on the photo.</p>
+<p>US 11.03.01</p>
+<p>As a patient, I should be able to have at least 2 body location pictures.</p>
+<p>US 11.04.01</p>
+<p>As a patient, when I view a body location it should be a clear indicator of a point on a body-location picture.</p>
+<p><strong>US 11.05.01 <em>new</em></strong></p>
+<p><strong>As a patient, when making a record I want to choose from available body locations to associate with a photo or a record.</strong></p>
+<p><strong>US 11.06.01 <em>new</em></strong></p>
+<p><strong>As a patient, I should be able to add body location photos.</strong></p>
+<p><strong>US 11.07.01 <em>new</em></strong></p>
+<p><strong>As a patient, I should be able to remove body location photos.</strong></p>
+<p><strong>US 11.08.01 <em>new</em></strong></p>
+<p><strong>As a patient, I should be able to label body location photos.</strong></p>
+<p><strong>US 11.09.01 <em>new</em></strong></p>
+<p><strong>As a patient, I want body-location photos stored locally on my device (and remotely) so that access to them is fast.</strong></p>
+<h5 id="sys-admin">Sys-admin</h5>
+<p><strong>US 12.01.01 <em>new</em></strong></p>
+<p><strong>As a sysadmin, I want to use a Free/Libre Open Source Software service-side tool such as Elasticsearch to host this application. No proprietary software for data-hosting.</strong></p>
+<h5 id="wow-factor">"Wow" Factor</h5>
+<p>Non-trivial, visible requirement(s) of your choice that fit with the app, on approval from your TA. This should be decided for the initial use cases.</p>
+<p>An example could be a nice UI for the paper-cut-out-doll view. Another could be dealing with records (that have locations) from a map view.</p>
+<p>Another wow factor could be encryption---if you can encrypt photos that are uploaded.</p>
+    <footer>
+      <p>Published: <time datetime="2024-11-04T00:00:00-07:00">
+        Mon, 04 Nov 2024 at 00:00 MST
+      </time></p>
+        <address>
+          By             <a href="https://ualberta-cmput301.github.io/author/tina-nguyen.html">Tina Nguyen</a>
+            <a href="https://ualberta-cmput301.github.io/author/hazel-victoria-campbell.html">Hazel Victoria Campbell</a>
+        </address>
+        <p>
+          Category: <a href="https://ualberta-cmput301.github.io/category/old_project_descriptions.html">old_project_descriptions</a>
+        </p>
+        <p>
+          Tags:
+            <a href="https://ualberta-cmput301.github.io/tag/projects.html">projects</a>
+            <a href="https://ualberta-cmput301.github.io/tag/teams.html">teams</a>
+            <a href="https://ualberta-cmput301.github.io/tag/grading.html">grading</a>
+        </p>
+    </footer>
+  </article>
+      </main>
+      <footer>
+          <address>
+            Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>,
+            which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
+          </address>
+      </footer>
+  </body>
+</html>

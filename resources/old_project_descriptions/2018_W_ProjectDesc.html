@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <title>CMPUT 301 - 2018 W Project Problem Description</title>
+      <meta charset="utf-8" />
+      <meta name="generator" content="Pelican" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Software Engineering" />
+        <link href="https://ualberta-cmput301.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Full Atom Feed" />
+        <link href="https://ualberta-cmput301.github.io/feeds/old_project_descriptions.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Categories Atom Feed" />
+
+  <link rel="icon" href="https://ualberta-cmput301.github.io/theme/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/301.css" />
+
+
+
+
+    <meta name="tags" content="projects" />
+    <meta name="tags" content="teams" />
+    <meta name="tags" content="grading" />
+
+  </head>
+
+  <body>
+      <header>
+          <hgroup><h1><a href="https://ualberta-cmput301.github.io/">CMPUT 301</a></h1><p>Software Engineering</p></hgroup>
+          <nav><ul>
+              <li><a href="/general/outline.html">Outline</a></li>
+              <li><a href="/#canvas">Canvas & Grades</a></li>
+              <li><a href="/#schedule">Schedule</a></li>
+              <li><a href="/general/labs.html">Labs</a></li>
+              <li><a href="/general/project.html">Project</a></li>
+              <li><a href="/general/individual.html">Individual</a></li>
+              <li><a href="/general/resources.html">Resources</a></li>
+              <li><a href="/general/help.html#discussion-forum">Discussion Forum</a></li>
+              <li><a href="/#news-notices">News & Notices</a></li>
+              <li><a href="/general/slides.html">Slides</a></li>
+              <li><a href="/general/help.html">Help</a></li>
+                <li><a href="https://ualberta-cmput301.github.io/" >Home</a></li>
+          </ul></nav>
+      </header>
+      <main>
+  <article>
+    <header>
+      <h2>
+        <a href="https://ualberta-cmput301.github.io/resources/old_project_descriptions/2018_W_ProjectDesc.html" rel="bookmark"
+           title="Permalink to 2018 W Project Problem Description">2018 W Project Problem Description</a></h2>
+      
+    </header>
+    <h3 id="project-problem-description">Project Problem Description</h3>
+<p>Warning: This is subject to change!</p>
+<p>You are to design and implement a simple, attractive, and easy-to-use Android application to satisfy the following goals. Your design must be flexible enough to allow developers to extend or migrate it.</p>
+<p>We want a mobile application that allows task requesters to post the tasks they would like done by task providers. For example, a task could be giving a ride in a car or delivering a package, within the city.</p>
+<p>In general, a user of the app could be both a task requester and a task provider. A task provider can offer their service by making a monetary bid on a task. The task requester can accept a bid, so the task is assigned to the winning task provider. The task requester can denote when the task is done.</p>
+<h4 id="needs-in-partial-user-story-form">Needs in (Partial) User Story Form</h4>
+<p>User needs are expressed in the form of partial user stories:</p>
+<p>As a <role>, I want <goal>.</p>
+<p>These descriptions may change to correct omissions and clarify noticed issues.</p>
+<h5 id="task-basics">Task Basics</h5>
+<p>US 01.01.01
+As a task requester, I want to add a task to my tasks, each denoted with a title, brief description, and initial status: requested.</p>
+<p>US 01.01.02 (added 2018-02-14)
+As a task requester, I want the maximum length of the task title to be at least 30 characters.</p>
+<p>US 01.01.03 (added 2018-02-14)
+As a task requester, I want the maximum length of the task description to be at least 300 characters.</p>
+<p>US 01.02.01
+As a task requester, I want to view a list of my tasks, with their titles and statuses.</p>
+<p>US 01.03.01 (revised 2018-02-16)
+As a task requester, I want to edit the details for any one of my tasks with status: requested.</p>
+<p>US 01.04.01
+As a task requester, I want to delete a task of mine.</p>
+<h5 id="task-details">Task Details</h5>
+<p>US 02.01.01
+As a task requester or provider, I want to view all the details for a given task, including its title, description, status, and lowest bid so far (if any).</p>
+<p>US 02.02.01
+As a task requester or provider, I want a task to have a status to be one of: requested, bidded, assigned, or done.</p>
+<p>Bidded means at least one provider bidded on the task.</p>
+<h5 id="user-profile">User Profile</h5>
+<p>US 03.01.01
+As a user, I want a profile with a unique username and my contact information.</p>
+<p>US 03.01.02 (added 2018-02-16)
+As a user, I want the maximum length of a username to be at least 8 characters.</p>
+<p>US 03.01.03 (added 2018-02-16)
+As a user, I want the contact information to include an email address and a phone number.</p>
+<p>US 03.02.01
+As a user, I want to edit the contact information in my profile.</p>
+<p>US 03.03.01
+As a user, I want to, whenever a username is shown, be able to retrieve and see its corresponding contact information.</p>
+<h5 id="searching">Searching</h5>
+<p>US 04.01.01
+As a task provider, I want to specify a set of keywords, and search for all tasks, with status: requested or bidded, whose description contains all the keywords.</p>
+<p>US 04.02.01
+As a task provider, I want search results to show each task with its task requester username, title, status, lowest bid so far (if any).</p>
+<h5 id="task-bidding">Task Bidding</h5>
+<p>US 05.01.01
+As a task provider, I want to make a bid on a given task with status: requested or bidded, using a monetary amount.</p>
+<p>US 05.02.01 (revised 2018-02-14)
+As a task provider, I want to view a list of tasks that I have bidded on, each with its task requester username, title, status, lowest bid so far, and my bid.</p>
+<p>US 05.03.01
+As a task requester, I want to be notified of a bid on my tasks.</p>
+<p>US 05.04.01
+As a task requester, I want to view a list of my tasks with status bidded, each having one or more bids.</p>
+<p>US 05.05.01
+As a task requester, I want to view the bids on one of my tasks.</p>
+<p>US 05.06.01 (revised 2018-03-28)
+As a task requester, I want to accept a bid on one of my tasks, setting its status to assigned, and declining any other bids on that task.</p>
+<p>US 05.07.01 (revised 2018-03-28)
+As a task requester, I want to decline a bid on one of my tasks.</p>
+<p>Declining may be done by marking the bid as such or hiding it.</p>
+<h5 id="task-assigned">Task Assigned</h5>
+<p>US 06.01.01
+As a task provider, I want to view a list of tasks I am assigned, each task with its task requester username, title, status, and my accepted bid.</p>
+<p>US 06.02.01
+As a task requester, I want to view a list of my tasks with status: assigned, each task with its task provider username, title, status, and accepted bid.</p>
+<h5 id="task-done">Task Done</h5>
+<p>US 07.01.01
+As a task requester, I want to set a task with status: assigned to have status: done, when it is completed.</p>
+<p>US 07.02.01 (revised 2018-03-28)
+As a task requester, I want to set a task with status: assigned to have status: requested, when it is not completed and there are no other bids on it.</p>
+<p>US 07.03.01 (added 2018-03-28)
+As a task requester, I want to set a task with status: assigned to have status: bidded, when it is not completed and there are other bids on it.</p>
+<h5 id="offline-behavior">Offline behavior</h5>
+<p>US 08.01.01
+As a task requester, I want to add or edit tasks while off the network, and have these changes synchronized once I regain connectivity.</p>
+<h5 id="photographs">Photographs</h5>
+<p>US 09.01.01
+As a task requester, I want to optionally attach one or more photographs as further viewable details to a task of mine.</p>
+<p>US 09.01.02 (added 2018-04-06)
+As a task requester, I want the maximum number of photographs that can be attached to a task to be at least 10.</p>
+<p>US 09.02.01
+As a task requester or provider, I want to view any attached photograph for a task.</p>
+<p>US 09.03.01
+As a sys admin, I want each photograph to be under 65536 bytes in size.</p>
+<h5 id="geolocation-and-maps">Geolocation and Maps</h5>
+<p>US 10.01.01
+As a task requester, I want to specify a geo location on a map as further viewable details to a task of mine.</p>
+<p>US 10.02.01
+As a task requester or provider, I want to view any geo location for a task, on a map.</p>
+<p>US 10.03.01
+As a task provider, I want to see a map of all tasks (that have locations), with status: requested or bidded, that are within 5 km of my current location.</p>
+<h5 id="wow-factor">"Wow" Factor</h5>
+<p>Non-trivial, visible requirement(s) of your choice that fit with the app, on approval from your TA. This should be decided for the initial use cases.</p>
+<p>An example could be a way to rate task providers and see their ratings. Another could be dealing with tasks (that have locations) from a map view.</p>
+    <footer>
+      <p>Published: <time datetime="2024-11-04T00:00:00-07:00">
+        Mon, 04 Nov 2024 at 00:00 MST
+      </time></p>
+        <address>
+          By             <a href="https://ualberta-cmput301.github.io/author/tina-nguyen.html">Tina Nguyen</a>
+            <a href="https://ualberta-cmput301.github.io/author/hazel-victoria-campbell.html">Hazel Victoria Campbell</a>
+        </address>
+        <p>
+          Category: <a href="https://ualberta-cmput301.github.io/category/old_project_descriptions.html">old_project_descriptions</a>
+        </p>
+        <p>
+          Tags:
+            <a href="https://ualberta-cmput301.github.io/tag/projects.html">projects</a>
+            <a href="https://ualberta-cmput301.github.io/tag/teams.html">teams</a>
+            <a href="https://ualberta-cmput301.github.io/tag/grading.html">grading</a>
+        </p>
+    </footer>
+  </article>
+      </main>
+      <footer>
+          <address>
+            Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>,
+            which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
+          </address>
+      </footer>
+  </body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <title>CMPUT 301 - 2015 W Project Problem Description</title>
+      <meta charset="utf-8" />
+      <meta name="generator" content="Pelican" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Software Engineering" />
+        <link href="https://ualberta-cmput301.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Full Atom Feed" />
+        <link href="https://ualberta-cmput301.github.io/feeds/old_project_descriptions.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Categories Atom Feed" />
+
+  <link rel="icon" href="https://ualberta-cmput301.github.io/theme/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/301.css" />
+
+
+
+
+    <meta name="tags" content="projects" />
+    <meta name="tags" content="teams" />
+    <meta name="tags" content="grading" />
+
+  </head>
+
+  <body>
+      <header>
+          <hgroup><h1><a href="https://ualberta-cmput301.github.io/">CMPUT 301</a></h1><p>Software Engineering</p></hgroup>
+          <nav><ul>
+              <li><a href="/general/outline.html">Outline</a></li>
+              <li><a href="/#canvas">Canvas & Grades</a></li>
+              <li><a href="/#schedule">Schedule</a></li>
+              <li><a href="/general/labs.html">Labs</a></li>
+              <li><a href="/general/project.html">Project</a></li>
+              <li><a href="/general/individual.html">Individual</a></li>
+              <li><a href="/general/resources.html">Resources</a></li>
+              <li><a href="/general/help.html#discussion-forum">Discussion Forum</a></li>
+              <li><a href="/#news-notices">News & Notices</a></li>
+              <li><a href="/general/slides.html">Slides</a></li>
+              <li><a href="/general/help.html">Help</a></li>
+                <li><a href="https://ualberta-cmput301.github.io/" >Home</a></li>
+          </ul></nav>
+      </header>
+      <main>
+  <article>
+    <header>
+      <h2>
+        <a href="https://ualberta-cmput301.github.io/resources/old_project_descriptions/2015_W_ProjectDesc.html" rel="bookmark"
+           title="Permalink to 2015 W Project Problem Description">2015 W Project Problem Description</a></h2>
+      
+    </header>
+    <h3 id="project-problem-description">Project Problem Description</h3>
+<p><strong>Warning: This is subject to change!</strong>
+You are to design and implement a simple, attractive, and easy-to-use Android application to satisfy the following goals. Your design must be flexible enough to allow developers to extend or migrate it.</p>
+<h4 id="users-problem-description">User's Problem Description</h4>
+<p>We want a mobile application for travel expense tracking and approval.</p>
+<h5 id="needs-in-partial-user-story-form">Needs in (Partial) User Story Form</h5>
+<p>User needs are expressed in the form of partial user stories:
+As a <role>, I want <goal>.
+As a <role>, I want <goal> so that <reason>.</p>
+<p>These descriptions may change to correct omissions and clarify noticed issues. New requirements will be introduced for the final project part.</p>
+<h5 id="expense-claims-overall">Expense Claims / Overall</h5>
+<p>US01.01.01
+As a claimant, I want make an expense claim that records my name, a starting date of travel, and an ending date of travel.</p>
+<p>US01.02.01
+As a claimant, I want an expense claim to record one or more destinations of travel and an associated reason for travel to each destination.</p>
+<p>US01.03.01
+As a claimant, I want to view an expense claim and its details.</p>
+<p>US01.04.01
+As a claimant, I want to edit an expense claim while changes are allowed.</p>
+<p>US01.05.01
+As a claimant, I want to delete an expense claim while changes are allowed.</p>
+<p>US01.06.01
+As a claimant, I want entered information to be remembered, so that I do not lose data.</p>
+<h5 id="expense-claims-listing">Expense Claims / Listing</h5>
+<p>US02.01.01
+As a claimant, I want to list all my expense claims, showing for each claim: the starting date of travel, the destination(s) of travel, the claim status, tags, and total currency amounts.</p>
+<p>US02.02.01
+As a claimant, I want the list of expense claims to be sorted by starting date of travel, in order from most recent to oldest, so that ongoing or recent travel expenses are quickly accessible.</p>
+<h5 id="expense-claims-tags">Expense Claims / Tags</h5>
+<p>US03.01.01
+As a claimant, I want to give an expense claim one or more alphanumeric tags, so that claims can be organized by me into groups.</p>
+<p>US03.02.01
+As a claimant, I want to manage my personal use of tags by listing the available tags, adding a tag, renaming a tag, and deleting a tag.</p>
+<p>US03.03.01
+As a claimant, I want to filter the list of expense claims by tags, to show only those claims that have at least one tag matching any of a given set of one or more filter tags.</p>
+<h5 id="expense-items-overall">Expense Items / Overall</h5>
+<p>US04.01.01
+As a claimant, I want to make one or more expense items for an expense claim, each of which has a date the expense was incurred, a category, a textual description, amount spent, and unit of currency.</p>
+<p>US04.02.01
+As a claimant, I want the category for an expense item to be one of air fare, ground transport, vehicle rental, private automobile, fuel, parking, registration, accommodation, meal, or supplies.</p>
+<p>US04.03.01
+As a claimant, I want the currency for an expense amount to be one of CAD, USD, EUR, GBP, CHF, JPY, or CNY.</p>
+<p>US04.04.01
+As a claimant, I want to manually flag an expense item with an incompleteness indicator, even if all item fields have values, so that I am reminded that the item needs further editing.</p>
+<p>US04.05.01
+As a claimant, I want to view an expense item and its details.</p>
+<p>US04.06.01
+As a claimant, I want to edit an expense item while changes are allowed.</p>
+<p>US04.07.01
+As a claimant, I want to delete an expense item while changes are allowed.</p>
+<p>US04.08.01
+As a claimant, I want the entry of an expense item to have minimal required navigation in the user interface.</p>
+<h5 id="expense-items-listing">Expense Items / Listing</h5>
+<p>US05.01.01
+As a claimant, I want to list all the expense items for a claim, in order of entry, showing for each expense item: the date the expense was incurred, the category, the textual description, amount spent, unit of currency, whether there is a photographic receipt, and incompleteness indicator.</p>
+<h5 id="expense-items-receipts">Expense Items / Receipts</h5>
+<p>US06.01.01
+As a claimant, I want to optionally take a single photograph of a receipt and attach the photograph to an editable expense item, so that there is supporting documentation for the expense item in case the physical receipt is lost.</p>
+<p>US06.02.01
+As a claimant, I want to view any attached photographic receipt for an expense item.</p>
+<p>US06.03.01
+As a claimant, I want to delete any attached photographic receipt on an editable expense item, so that unclear images can be re-taken.</p>
+<p>US06.04.01
+As a sysadmin, I want each receipt image file to be under 65536 bytes in size.</p>
+<h5 id="expense-claims-statuses">Expense Claims / Statuses</h5>
+<p>US07.01.01
+As a claimant, I want to submit an expense claim for approval, denoting the claim status as submitted, with no further changes allowed by me to the claim information (except the tags).</p>
+<p>US07.02.01
+As a claimant, I want a visual warning when trying to submit an expense claim when there are fields with missing values or there are any incompleteness indicators on the expense items.</p>
+<p>US07.03.01
+As a claimant, I want a submitted expense claim that was not approved to be denoted by a claim status of returned, with further changes allowed by me to the claim information.</p>
+<p>US07.04.01
+As a claimant, I want a submitted expense claim that was approved to be denoted by a claim status of approved, with no further changes allowed by me to the claim information (except the tags).</p>
+<p>US07.05.01
+As a claimant, I want to see the name of the approver and any comment(s) from the approver on a returned or approved claim.</p>
+<h5 id="expense-claims-approval">Expense Claims / Approval</h5>
+<p>US08.01.01
+As an approver, I want to view a list of all the expense claims that were submitted for approval, which have their claim status as submitted, showing for each claim: the claimant name, the starting date of travel, the destination(s) of travel, the claim status, total currency amounts, and any approver name.</p>
+<p>US08.02.01
+As an approver, I want the list of submitted expense claims to be sorted by starting date of travel, in order from oldest to most recent, so that older claims are considered first.</p>
+<p>US08.03.01
+As an approver, I want to view all the details of a submitted expense claim.</p>
+<p>US08.04.01
+As an approver, I want to list all the expense items for a submitted claim, in order of entry, showing for each expense item: the date the expense was incurred, the category, the textual description, amount spent, unit of currency, and whether there is a photographic receipt.</p>
+<p>US08.05.01
+As an approver, I want to view any attached photographic receipt for an expense item.</p>
+<p>US08.06.01
+As an approver, I want to add a comment to a submitted expense claim, so that I can explain why the claim was returned or provide accounting details for a payment.</p>
+<p>US08.07.01
+As an approver, I want to return a submitted expense claim that was not approved, denoting the claim status as returned and setting my name as the approver for the expense claim.</p>
+<p>US08.08.01
+As an approver, I want to approve a submitted expense claim that was approved, denoting the claim status as approved and setting my name as the approver for the expense claim.</p>
+<h5 id="expense-claims-offline">Expense Claims / Offline</h5>
+<p>US09.01.01
+As a claimant, I want to make and work on expense claims and items while offline, and push application and expense information online once I get connectivity.</p>
+    <footer>
+      <p>Published: <time datetime="2024-11-04T00:00:00-07:00">
+        Mon, 04 Nov 2024 at 00:00 MST
+      </time></p>
+        <address>
+          By             <a href="https://ualberta-cmput301.github.io/author/tina-nguyen.html">Tina Nguyen</a>
+            <a href="https://ualberta-cmput301.github.io/author/hazel-victoria-campbell.html">Hazel Victoria Campbell</a>
+        </address>
+        <p>
+          Category: <a href="https://ualberta-cmput301.github.io/category/old_project_descriptions.html">old_project_descriptions</a>
+        </p>
+        <p>
+          Tags:
+            <a href="https://ualberta-cmput301.github.io/tag/projects.html">projects</a>
+            <a href="https://ualberta-cmput301.github.io/tag/teams.html">teams</a>
+            <a href="https://ualberta-cmput301.github.io/tag/grading.html">grading</a>
+        </p>
+    </footer>
+  </article>
+      </main>
+      <footer>
+          <address>
+            Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>,
+            which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
+          </address>
+      </footer>
+  </body>
+</html>

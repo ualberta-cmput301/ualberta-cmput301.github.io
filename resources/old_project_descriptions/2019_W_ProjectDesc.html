@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <title>CMPUT 301 - 2019 W Project Problem Description</title>
+      <meta charset="utf-8" />
+      <meta name="generator" content="Pelican" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Software Engineering" />
+        <link href="https://ualberta-cmput301.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Full Atom Feed" />
+        <link href="https://ualberta-cmput301.github.io/feeds/old_project_descriptions.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Categories Atom Feed" />
+
+  <link rel="icon" href="https://ualberta-cmput301.github.io/theme/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/301.css" />
+
+
+
+
+    <meta name="tags" content="projects" />
+    <meta name="tags" content="teams" />
+    <meta name="tags" content="grading" />
+
+  </head>
+
+  <body>
+      <header>
+          <hgroup><h1><a href="https://ualberta-cmput301.github.io/">CMPUT 301</a></h1><p>Software Engineering</p></hgroup>
+          <nav><ul>
+              <li><a href="/general/outline.html">Outline</a></li>
+              <li><a href="/#canvas">Canvas & Grades</a></li>
+              <li><a href="/#schedule">Schedule</a></li>
+              <li><a href="/general/labs.html">Labs</a></li>
+              <li><a href="/general/project.html">Project</a></li>
+              <li><a href="/general/individual.html">Individual</a></li>
+              <li><a href="/general/resources.html">Resources</a></li>
+              <li><a href="/general/help.html#discussion-forum">Discussion Forum</a></li>
+              <li><a href="/#news-notices">News & Notices</a></li>
+              <li><a href="/general/slides.html">Slides</a></li>
+              <li><a href="/general/help.html">Help</a></li>
+                <li><a href="https://ualberta-cmput301.github.io/" >Home</a></li>
+          </ul></nav>
+      </header>
+      <main>
+  <article>
+    <header>
+      <h2>
+        <a href="https://ualberta-cmput301.github.io/resources/old_project_descriptions/2019_W_ProjectDesc.html" rel="bookmark"
+           title="Permalink to 2019 W Project Problem Description">2019 W Project Problem Description</a></h2>
+      
+    </header>
+    <h3 id="project-problem-description">Project Problem Description</h3>
+<p>Warning: This is subject to change!</p>
+<p>You are to design and implement a simple, attractive, and easy-to-use Android application to satisfy the following goals. Your design must be flexible enough to allow developers to extend or migrate it.</p>
+<p>We want a mobile application that allows owners to record the books they have and loan them to borrowers.</p>
+<p>In general, a user can be both an owner of their own books and a borrower of someone else's books. A borrower can borrow an available book by making a request for it. The owner can accept such a request. When the book is handed over, the book becomes borrowed. The owner can denote when a borrowed book is returned and available again.</p>
+<p>Needs in (Partial) User Story Form</p>
+<p>User needs are expressed in the form of partial user stories:</p>
+<p>As a <role>, I want <goal>.</p>
+<p>These descriptions may change to correct omissions and clarify noticed issues. New requirements will be introduced for the final project part.</p>
+<h5 id="books">Books</h5>
+<p>US 01.01.01
+As an owner, I want to add a book in my books, each denoted with a clear, suitable description (at least title, author, and ISBN).</p>
+<p>US 01.02.01
+As an owner, I want the book description by scanning it off the book (at least the ISBN).</p>
+<p>US 01.03.01
+As an owner or borrower, I want a book to have a status of one of: available, requested, accepted, or borrowed.</p>
+<p>US 01.04.01
+As an owner, I want to view a list of all my books, and their descriptions, statuses, and current borrowers.</p>
+<p>US 01.05.01
+As an owner, I want to view a list of all my books, filtered by status.</p>
+<p>US 01.06.01
+As an owner, I want to view and edit a book description in my books.</p>
+<p>US 01.07.01
+As an owner, I want to delete a book in my books.</p>
+<h5 id="user-profile">User profile</h5>
+<p>US 02.01.01
+As an owner or borrower, I want a profile with a unique username and my contact information.</p>
+<p>US 02.02.01
+As an owner or borrower, I want to edit the contact information in my profile.</p>
+<p>US 02.03.01
+As an owner or borrower, I want to retrieve and show the profile of a presented username.</p>
+<h5 id="searching">Searching</h5>
+<p>US 03.01.01
+As a borrower, I want to specify a set of keywords, and search for all books that are not currently accepted or borrowed whose description contains all the keywords.</p>
+<p>US 03.02.01
+As a borrower, I want search results to show each book not currently accepted or borrowed with its description, owner username, and status.</p>
+<h5 id="requesting">Requesting</h5>
+<p>US 04.01.01
+As a borrower, I want to request a book that is not currently accepted or borrowed.</p>
+<p>US 04.02.01
+As a borrower, I want to view a list of books I have requested, each book with its description, and owner username.</p>
+<p>US 04.03.01
+As an owner, I want to be notified of a request.</p>
+<p>US 04.04.01
+As an owner, I want to view all the requests on one of my books.</p>
+<h5 id="accepting">Accepting</h5>
+<p>US 05.01.01
+As an owner, I want to accept a request on one of my books. (Any other requests are declined.)</p>
+<p>US 05.02.01
+As an owner, I want to decline a request on one of my books.</p>
+<p>US 05.03.01
+As a borrower, I want to be notified of an accepted request.</p>
+<p>US 05.04.01
+As a borrower, I want to view a list of books I have requested that are accepted, each book with its description, and owner username.</p>
+<h5 id="borrowing">Borrowing</h5>
+<p>US 06.01.01
+As an owner, I want to hand over a book by scanning the book ISBN code and denoting the book as borrowed.</p>
+<p>US 06.02.01
+As a borrower, I want to receive an accepted book by scanning the book ISBN code to confirm I have borrowed it.</p>
+<p>US 06.03.01
+As a borrower, I want to view a list of books I am borrowing, each book with its description and owner username. </p>
+<h5 id="returning">Returning</h5>
+<p>US 07.01.01
+As a borrower, I want to hand over a book I borrowed by scanning the book ISBN code to denote the book as available.</p>
+<p>US 07.02.01
+As an owner, I want to receive a returned book by scanning the book ISBN code to confirm I have it available.</p>
+<h5 id="photographs">Photographs</h5>
+<p>US 08.01.01
+As an owner, I want to optionally attach a photograph to a book of mine.</p>
+<p>US 08.02.01
+As an owner, I want to delete any attached photograph for a book of mine.</p>
+<p>US 08.03.01
+As an owner or borrower, I want to view any attached photograph for a book.</p>
+<h5 id="location">Location</h5>
+<p>US 09.01.01
+As an owner, I want to specify a geo location on a map of where to receive a book when I accept a request on the book.</p>
+<p>US 09.02.01
+As a borrower, I want to view the geo location of where to receive a book I will be borrowing.</p>
+<h5 id="wow">"Wow"</h5>
+<p>Non-trivial requirement(s) on approval from your TA.</p>
+    <footer>
+      <p>Published: <time datetime="2024-11-04T00:00:00-07:00">
+        Mon, 04 Nov 2024 at 00:00 MST
+      </time></p>
+        <address>
+          By             <a href="https://ualberta-cmput301.github.io/author/tina-nguyen.html">Tina Nguyen</a>
+            <a href="https://ualberta-cmput301.github.io/author/hazel-victoria-campbell.html">Hazel Victoria Campbell</a>
+        </address>
+        <p>
+          Category: <a href="https://ualberta-cmput301.github.io/category/old_project_descriptions.html">old_project_descriptions</a>
+        </p>
+        <p>
+          Tags:
+            <a href="https://ualberta-cmput301.github.io/tag/projects.html">projects</a>
+            <a href="https://ualberta-cmput301.github.io/tag/teams.html">teams</a>
+            <a href="https://ualberta-cmput301.github.io/tag/grading.html">grading</a>
+        </p>
+    </footer>
+  </article>
+      </main>
+      <footer>
+          <address>
+            Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>,
+            which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
+          </address>
+      </footer>
+  </body>
+</html>

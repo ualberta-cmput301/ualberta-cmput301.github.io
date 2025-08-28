@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <title>CMPUT 301 - 2016 F Project Problem Description</title>
+      <meta charset="utf-8" />
+      <meta name="generator" content="Pelican" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Software Engineering" />
+        <link href="https://ualberta-cmput301.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Full Atom Feed" />
+        <link href="https://ualberta-cmput301.github.io/feeds/old_project_descriptions.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Categories Atom Feed" />
+
+  <link rel="icon" href="https://ualberta-cmput301.github.io/theme/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/301.css" />
+
+
+
+
+    <meta name="tags" content="projects" />
+    <meta name="tags" content="teams" />
+    <meta name="tags" content="grading" />
+
+  </head>
+
+  <body>
+      <header>
+          <hgroup><h1><a href="https://ualberta-cmput301.github.io/">CMPUT 301</a></h1><p>Software Engineering</p></hgroup>
+          <nav><ul>
+              <li><a href="/general/outline.html">Outline</a></li>
+              <li><a href="/#canvas">Canvas & Grades</a></li>
+              <li><a href="/#schedule">Schedule</a></li>
+              <li><a href="/general/labs.html">Labs</a></li>
+              <li><a href="/general/project.html">Project</a></li>
+              <li><a href="/general/individual.html">Individual</a></li>
+              <li><a href="/general/resources.html">Resources</a></li>
+              <li><a href="/general/help.html#discussion-forum">Discussion Forum</a></li>
+              <li><a href="/#news-notices">News & Notices</a></li>
+              <li><a href="/general/slides.html">Slides</a></li>
+              <li><a href="/general/help.html">Help</a></li>
+                <li><a href="https://ualberta-cmput301.github.io/" >Home</a></li>
+          </ul></nav>
+      </header>
+      <main>
+  <article>
+    <header>
+      <h2>
+        <a href="https://ualberta-cmput301.github.io/resources/old_project_descriptions/2016_F_ProjectDesc.html" rel="bookmark"
+           title="Permalink to 2016 F Project Problem Description">2016 F Project Problem Description</a></h2>
+      
+    </header>
+    <h3 id="project-problem-description">Project Problem Description</h3>
+<p><strong>Warning: This is subject to change!</strong>
+You are to design and implement a simple, attractive, and easy-to-use Android application to satisfy the following goals. Your design must be flexible enough to allow developers to extend or migrate it.
+We want a mobile application that allows drivers to search for recent ride requests, and for riders to post requests for rides. Riders will describe the start and end of their ride and their suggested payment. Drivers will browse for nearby requests and accept ride requests that they are willing to fulfil.</p>
+<p>In general, a user can be both a driver and a rider.</p>
+<p><br></p>
+<h4 id="needs-in-partial-user-story-form">Needs in (Partial) User Story Form</h4>
+<p>User needs are expressed in the form of partial user stories:
+As a <role>, I want <goal>.
+These descriptions may change to correct omissions and clarify noticed issues. New requirements will be introduced for the final project part.</p>
+<h5 id="requests">Requests</h5>
+<p>US 01.01.01
+As a rider, I want to request rides between two locations.
+US 01.02.01
+As a rider, I want to see current requests I have open.
+US 01.03.01
+As a rider, I want to be notified if my request is accepted.
+US 01.04.01
+As a rider, I want to cancel requests.
+US 01.05.01
+As a rider, I want to be able to phone or email the driver who accepted a request.
+US 01.06.01
+As a rider, I want an estimate of a fair fare to offer to drivers.
+US 01.07.01
+As a rider, I want to confirm the completion of a request and enable payment.
+US 01.08.01
+As a rider, I want to confirm a driver's acceptance. This allows us to choose from a list of acceptances if more than 1 driver accepts simultaneously.</p>
+<p>US 1.09.01 (added 2016-11-14)
+As a rider, I should see a description of the driver's vehicle.</p>
+<p>US 1.10.01 (added 2016-11-14)
+As a rider, I want to see some summary rating of the drivers who accepted my offers.</p>
+<p>US 1.11.01 (added 2016-11-14)
+As a rider, I want to rate a driver for his/her service (1-5).</p>
+<h5 id="status">Status</h5>
+<p>US 02.01.01
+As a rider or driver, I want to see the status of a request that I am involved in
+User profile
+US 03.01.01
+As a user, I want a profile with a unique username and my contact information.
+US 03.02.01
+As a user, I want to edit the contact information in my profile.
+US 03.03.01
+As a user, I want to, when a username is presented for a thing, retrieve and show its contact information.</p>
+<p>US 03.04.01 (added 2016-11-14)
+As a driver, in my profile I can provide details about the vehicle I drive.</p>
+<h5 id="searching">Searching</h5>
+<p>US 04.01.01
+As a driver, I want to browse and search for open requests by geo-location.
+US 04.02.01
+As a driver, I want to browse and search for open requests by keyword.</p>
+<p>US 04.03.01 (added 2016-11-14)
+As a driver, I should be able filter request searches by price per KM and price.</p>
+<p>US 04.04.01 (added 2016-11-14)
+As a driver, I should be able to see the addresses of the requests.</p>
+<p>US 04.05.01 (added 2016-11-14)
+As a driver, I should be able to search by address or nearby an address.</p>
+<h5 id="accepting">Accepting</h5>
+<p>US 05.01.01
+As a driver,  I want to accept a request I agree with and accept that offered payment upon completion.
+US 05.02.01
+As a driver, I want to view a list of things I have accepted that are pending, each request with its description, and locations.
+US 05.03.01
+As a driver, I want to see if my acceptance was accepted.
+US 05.04.01
+As a driver, I want to be notified if my ride offer was accepted.</p>
+<h5 id="offline-behavior">Offline behavior</h5>
+<p>US 08.01.01
+As an driver, I want to see requests that I already accepted while offline.
+US 08.02.01
+As a rider, I want to see requests that I have made while offline.
+US 08.03.01
+As a rider, I want to make requests that will be sent once I get connectivity again.
+US 08.04.01
+As a driver, I want to accept requests that will be sent once I get connectivity again.</p>
+<h5 id="location">Location</h5>
+<p>US 10.01.01
+As a rider, I want to specify a start and end geo locations on a map for a request.
+US 10.02.01
+As a driver, I want to view start and end geo locations on a map for a request.</p>
+<p><strong>Requirements cluster 1:</strong>
+US 1.09.01 (car details)
+US 03.04.01 (car details)
+US 04.03.01 (price search)
+US 1.10.01 (ratings)
+US 1.11.01 (ratings)</p>
+<p><strong>Requirements cluster 2:</strong>
+US 1.09.01 (car details)
+US 03.04.01 (car details)
+US 04.03.01 (price search)
+US 04.04.01 (addresses)
+US 04.05.01 (addresses)</p>
+    <footer>
+      <p>Published: <time datetime="2024-11-04T00:00:00-07:00">
+        Mon, 04 Nov 2024 at 00:00 MST
+      </time></p>
+        <address>
+          By             <a href="https://ualberta-cmput301.github.io/author/tina-nguyen.html">Tina Nguyen</a>
+            <a href="https://ualberta-cmput301.github.io/author/hazel-victoria-campbell.html">Hazel Victoria Campbell</a>
+        </address>
+        <p>
+          Category: <a href="https://ualberta-cmput301.github.io/category/old_project_descriptions.html">old_project_descriptions</a>
+        </p>
+        <p>
+          Tags:
+            <a href="https://ualberta-cmput301.github.io/tag/projects.html">projects</a>
+            <a href="https://ualberta-cmput301.github.io/tag/teams.html">teams</a>
+            <a href="https://ualberta-cmput301.github.io/tag/grading.html">grading</a>
+        </p>
+    </footer>
+  </article>
+      </main>
+      <footer>
+          <address>
+            Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>,
+            which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
+          </address>
+      </footer>
+  </body>
+</html>

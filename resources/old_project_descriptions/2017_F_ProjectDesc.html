@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <title>CMPUT 301 - 2017 F Project Problem Description</title>
+      <meta charset="utf-8" />
+      <meta name="generator" content="Pelican" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Software Engineering" />
+        <link href="https://ualberta-cmput301.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Full Atom Feed" />
+        <link href="https://ualberta-cmput301.github.io/feeds/old_project_descriptions.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Categories Atom Feed" />
+
+  <link rel="icon" href="https://ualberta-cmput301.github.io/theme/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/301.css" />
+
+
+
+
+    <meta name="tags" content="projects" />
+    <meta name="tags" content="teams" />
+    <meta name="tags" content="grading" />
+
+  </head>
+
+  <body>
+      <header>
+          <hgroup><h1><a href="https://ualberta-cmput301.github.io/">CMPUT 301</a></h1><p>Software Engineering</p></hgroup>
+          <nav><ul>
+              <li><a href="/general/outline.html">Outline</a></li>
+              <li><a href="/#canvas">Canvas & Grades</a></li>
+              <li><a href="/#schedule">Schedule</a></li>
+              <li><a href="/general/labs.html">Labs</a></li>
+              <li><a href="/general/project.html">Project</a></li>
+              <li><a href="/general/individual.html">Individual</a></li>
+              <li><a href="/general/resources.html">Resources</a></li>
+              <li><a href="/general/help.html#discussion-forum">Discussion Forum</a></li>
+              <li><a href="/#news-notices">News & Notices</a></li>
+              <li><a href="/general/slides.html">Slides</a></li>
+              <li><a href="/general/help.html">Help</a></li>
+                <li><a href="https://ualberta-cmput301.github.io/" >Home</a></li>
+          </ul></nav>
+      </header>
+      <main>
+  <article>
+    <header>
+      <h2>
+        <a href="https://ualberta-cmput301.github.io/resources/old_project_descriptions/2017_F_ProjectDesc.html" rel="bookmark"
+           title="Permalink to 2017 F Project Problem Description">2017 F Project Problem Description</a></h2>
+      
+    </header>
+    <h3 id="project-problem-description">Project Problem Description</h3>
+<p>You are to design and implement a simple, attractive, and easy-to-use Android application to satisfy the follow goals. Your design must be flexible enough to allow developers to extend or migrate it.
+To assist in forming good habits, we want a mobile application that allows one to track, encourage, and share their habits. Recurring habits could be, for example, "write a joke", "eat breakfast", "exercise dog", "call family", and "no car accident". The intent is to make such habits: regular (e.g., daily), unbroken (so missed habit events are noted), and shared (so there's public pressure not to miss).</p>
+<h4 id="needs-in-partial-user-story-form">Needs in (Partial) User Story Form</h4>
+<p>User needs are expressed in the form of partial user stories:
+As a <role>, I want <goal>.
+These descriptions may change to correct omissions and clarify noticed issues. Talk to the customer and propose options, rather than making what might be an unwarranted assumption or interpretation.</p>
+<h5 id="habits">Habits</h5>
+<p>US 01.01.01
+As a participant, I want to add a new type of habit, giving it a brief title, reason, and date to start.
+US 01.02.01
+As a participant, I want a habit to have a plan for what days of the week it should regularly occur.
+US 01.03.01
+As a participant, I want to view a given habit and its details.
+US 01.04.01
+As a participant, I want to edit the details of a habit of mine.
+US 01.05.01
+As a participant, I want to delete a habit of mine.
+US 01.06.01
+As a participant, I want a habit title to be no more than 20 characters and habit reason to be no more than 30 characters.
+US 01.07.01
+As a participant, I want to see what habits I need to do today.
+US 01.08.01
+As a participant, I want for each habit type, a visual and statistical habit status indicator to show how closely I am following its plan.</p>
+<h5 id="habit-events">Habit Events</h5>
+<p>US 02.01.01
+As a participant, I want to add a habit event to my habit history when I have done a habit as planned.
+US 02.02.01
+As a participant, I want a habit event to have an optional comment of no more than 20 characters.
+US 02.03.01
+As a participant, I want a habit event to have an optional photograph to record what happened.
+US 02.04.01
+As a participant, I want to view a given habit event and all its available details.
+US 02.05.01
+As a participant, I want to edit the details of a habit event of mine.
+US 02.06.01
+As a participant, I want to delete a habit event of mine.
+US 02.07.01
+As a system administrator, I want the storage for each photographic image to be under 65536 bytes.</p>
+<h5 id="profile">Profile</h5>
+<p>US 03.01.01
+As a participant, I want to be uniquely identifiable.
+Habit History
+US 04.01.01
+As a participant, I want to view as a list my habit history, sorted in reverse chronological order (most recent coming first).
+US 04.02.01
+As a participant, I want to filter my habit history list to show only a particular type of habit.
+US 04.03.01
+As a participant, I want to filter my habit history list to show only habit events whose comment text contains a given word.</p>
+<h5 id="habit-following-and-sharing">Habit Following and Sharing</h5>
+<p>US 05.01.01
+As a participant, I want to ask another participant to follow the statuses of all their habits, and follow for each of their habits, its most recent event.
+US 05.02.01
+As a participant, I want to grant another participant permission to follow the statuses of all my habits, and follow for each of my habits, its most recent event.
+US 05.03.01
+As a participant, I want to view as a list the habit statuses of the participants I am granted to follow, ordered by participant identifier then habit title.
+Geolocation and Maps
+US 06.01.01
+As a participant, I want to optionally attach my current location to a habit event.
+US 06.02.01
+As a participant, I want to see a map of the habit events (that have locations) from my filtered habit history list.
+US 06.03.01
+As a participant, I want to see a map of the recent habit events (that have locations) from participants I am following.
+US 06.04.01
+As a participant, I want to highlight habit events of mine or by participants I am following that are within 5 km of my current location.</p>
+<h5 id="offline-behavior">Offline Behavior</h5>
+<p>US 07.01.01
+As a participant, I want to add, edit, or delete a habit event while offline, and have any of these changes synchronized once I get connectivity.</p>
+<h5 id="wow-factor">"Wow" Factor</h5>
+<p>Non-trivial requirement(s) of your choice that fit with the app, on approval from your TA
+An example could be collecting kudos or badges from other participants. Another example could be partnering for certain habits, like "play tennis".</p>
+    <footer>
+      <p>Published: <time datetime="2024-11-04T00:00:00-07:00">
+        Mon, 04 Nov 2024 at 00:00 MST
+      </time></p>
+        <address>
+          By             <a href="https://ualberta-cmput301.github.io/author/tina-nguyen.html">Tina Nguyen</a>
+            <a href="https://ualberta-cmput301.github.io/author/hazel-victoria-campbell.html">Hazel Victoria Campbell</a>
+        </address>
+        <p>
+          Category: <a href="https://ualberta-cmput301.github.io/category/old_project_descriptions.html">old_project_descriptions</a>
+        </p>
+        <p>
+          Tags:
+            <a href="https://ualberta-cmput301.github.io/tag/projects.html">projects</a>
+            <a href="https://ualberta-cmput301.github.io/tag/teams.html">teams</a>
+            <a href="https://ualberta-cmput301.github.io/tag/grading.html">grading</a>
+        </p>
+    </footer>
+  </article>
+      </main>
+      <footer>
+          <address>
+            Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>,
+            which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
+          </address>
+      </footer>
+  </body>
+</html>

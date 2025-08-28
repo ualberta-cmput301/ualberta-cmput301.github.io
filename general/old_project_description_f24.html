@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <title>CMPUT 301 - CMPUT 301 Course Old Project Problem Descriptions Fall 2024</title>
+      <meta charset="utf-8" />
+      <meta name="generator" content="Pelican" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Software Engineering" />
+        <link href="https://ualberta-cmput301.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Full Atom Feed" />
+        <link href="https://ualberta-cmput301.github.io/feeds/general.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Categories Atom Feed" />
+
+  <link rel="icon" href="https://ualberta-cmput301.github.io/theme/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/301.css" />
+
+
+
+
+    <meta name="tags" content="labs" />
+    <meta name="tags" content="policy" />
+    <meta name="tags" content="grading" />
+
+  </head>
+
+  <body>
+      <header>
+          <hgroup><h1><a href="https://ualberta-cmput301.github.io/">CMPUT 301</a></h1><p>Software Engineering</p></hgroup>
+          <nav><ul>
+              <li><a href="/general/outline.html">Outline</a></li>
+              <li><a href="/#canvas">Canvas & Grades</a></li>
+              <li><a href="/#schedule">Schedule</a></li>
+              <li><a href="/general/labs.html">Labs</a></li>
+              <li><a href="/general/project.html">Project</a></li>
+              <li><a href="/general/individual.html">Individual</a></li>
+              <li><a href="/general/resources.html">Resources</a></li>
+              <li><a href="/general/help.html#discussion-forum">Discussion Forum</a></li>
+              <li><a href="/#news-notices">News & Notices</a></li>
+              <li><a href="/general/slides.html">Slides</a></li>
+              <li><a href="/general/help.html">Help</a></li>
+                <li><a href="https://ualberta-cmput301.github.io/" >Home</a></li>
+          </ul></nav>
+      </header>
+      <main>
+  <article>
+    <header>
+      <h2>
+        <a href="https://ualberta-cmput301.github.io/general/old_project_description_f24.html" rel="bookmark"
+           title="Permalink to CMPUT 301 Course Old Project Problem Descriptions Fall 2024">CMPUT 301 Course Old Project Problem Descriptions Fall 2024</a></h2>
+      
+    </header>
+    <p><strong>Warning: This is subject to change!</strong></p>
+<h3 id="qr-code-event-check-in-system">QR Code Event Check-In System</h3>
+<p>You are to design and implement a simple, attractive, and easy-to-use Android application to satisfy the following goals. Your design must be flexible enough to allow developers to extend or migrate it.</p>
+<h3 id="description">Description:</h3>
+<p>Create an event management system where attendees check in using QR codes on their mobile devices. Organizers can track attendance, manage event details, and send notifications.</p>
+<h3 id="features">Features:</h3>
+<ul>
+<li>QR Code Scanning:</li>
+</ul>
+<p>Attendees can use the app to scan event-specific QR codes for quick and seamless check-ins.</p>
+<ul>
+<li>Firebase Integration:</li>
+</ul>
+<p>Utilize Firebase for storing event details, attendee lists, and real-time check-in status updates.</p>
+<ul>
+<li>Multi-User Interaction:</li>
+</ul>
+<p>Distinguish between organizers and attendees with different app roles and permissions.</p>
+<ul>
+<li>Geolocation Verification (Optional):</li>
+</ul>
+<p>Optionally use geolocation to verify that attendees are physically present at the event location during check-in.</p>
+<ul>
+<li>Image Upload:</li>
+</ul>
+<p>Allow organizers to upload event posters and attendees to upload profile pictures for a more personalized experience.</p>
+<h3 id="scenario">Scenario:</h3>
+<p>Update for Project 3:</p>
+<p>John, an event organizer, opens the QRCheckIn app for an upcoming tech conference. He generates a unique QR code for the event. Potential attendees browse the events and notice John's event, they view the event poster, and then click sign up to indicate they will attend the event as an attendee. As attendees arrive, they use the app to scan the QR code, automatically checking them into the conference. The app updates John's dashboard in real-time, showing the current attendance. John can also send push notifications to all attendees through the app.</p>
+<p>Scenario for Project 2:
+ John, an event organizer, opens the QRCheckIn app for an upcoming tech conference. He generates a unique QR code for the event. As attendees arrive, they use the app to scan the QR code, automatically checking them into the conference. The app updates John's dashboard in real-time, showing the current attendance. John can also send push notifications to all attendees through the app.</p>
+<p># Actors:</p>
+<p>Organizer: a person who organizes the event and is in control of an event</p>
+<p>Attendee: a person who attends the event</p>
+<p>Administrator: the entity that is responsible for the infrastructure that the game runs on.</p>
+<h3 id="glossary">Glossary:</h3>
+<p>QR Code: a scannable code, either a barcode, a QR code, or other code scannable by Zebra crossing libraries or google QR code scanning libraries.</p>
+<h3 id="user-stories">User Stories:</h3>
+<p>User needs are expressed in the form of partial user stories:</p>
+<p>As a <role>, I want <goal>.</p>
+<p>These descriptions may change to correct omissions and clarify noticed issues. New requirements will be introduced for the final project part.</p>
+<h3 id="organizer">Organizer:</h3>
+<p>US 01.01.01 As an organizer, I want to create a new event and generate a unique QR code for attendee check-ins.</p>
+<p>US 01.01.02 As an organizer, I want the option to reuse an existing QR code for attendee check-ins.</p>
+<p>US 01.02.01 As an organizer, I want to view the list of attendees who have checked in to my event.</p>
+<p>US 01.03.01 As an organizer, I want to send notifications to all attendees through the app.</p>
+<p>US 01.04.01 As an organizer, I want to upload an event poster to provide visual information to attendees.</p>
+<p>US 01.05.01 As an organizer, I want to track real-time attendance and receive alerts for important milestones.</p>
+<p>US 01.06.01 As an organizer, I want to share a generator QR code image to other apps so I can email or update other documents with the QR code.</p>
+<p>US 01.07.01 As an organizer, I want to create a new event and generate a unique promotion QR code that links to the event description and event poster in the app.</p>
+<p>US 01.08.01 As an organizer, I want to see on a map where users are checking in from.</p>
+<p>US 01.09.01 As an organizer, I want to see how many times an attendee has checked into an event.</p>
+<p>[New for Part 3] US 01.10.01 As an organizer, I want to see who is signed up to attend my event.</p>
+<p>[New for Part 3] US 01.11.01 As an organizer, I want to OPTIONALLY limit the number of attendees that can sign up for an event.</p>
+<h3 id="attendee">Attendee:</h3>
+<p>US 02.01.01 As an attendee, I want to quickly check into an event by scanning the provided QR code.</p>
+<p>US 02.02.01 As an attendee, I want to upload a profile picture for a more personalized experience.</p>
+<p>US 02.02.02 As an attendee, I want to remove profile pictures if need be.</p>
+<p>US 02.02.03 As an attendee, I want to update information such as name, homepage, and contact information on my profile.</p>
+<p>US 02.03.01 As an attendee, I want to receive push notifications with important updates from the event organizers.</p>
+<p>US 02.04.01 As an attendee, I want to view event details and announcements within the app.</p>
+<p>US 02.05.01 As an attendee, I want my profile picture to be deterministically generated from my profile name if I haven't uploaded an profile image yet.</p>
+<p>US 02.06.01 As an attendee, I do not want to login to the app. No username, no password.</p>
+<p>[New for Part 3] US 02.07.01 As an attendee, I want to sign up to attend an event from the event details (as in I promise to go).</p>
+<p>[New for Part 3] US 02.08.01 As an attendee, I want to browse event posters/event details of other events.</p>
+<p>[New for Part 3] US 02.09.01 As an attendee, I want to know what events I signed up for currently and in and in the future.</p>
+<h3 id="both">Both:</h3>
+<p>US 03.02.01 As a user, I want the option to enable or disable geolocation tracking for event verification.</p>
+<h3 id="administrator">Administrator:</h3>
+<p>US 04.01.01 As an administrator, I want to be able to remove events.</p>
+<p>US 04.02.01 As an administrator, I want to be able to remove profiles.</p>
+<p>US 04.03.01 As an administrator, I want to be able to remove images.</p>
+<p>US 04.04.01 As an administrator, I want to be able to browse events.</p>
+<p>US 04.05.01 As an administrator, I want to be able to browse profiles.</p>
+<p>US 04.06.01 As an administrator, I want to be able to browse images.</p>
+<p>[New for Part 3 stories do not need to be addressed in Part 2]</p>
+    <footer>
+      <p>Published: <time datetime="2024-11-12T00:00:00-07:00">
+        Tue, 12 Nov 2024 at 00:00 MST
+      </time></p>
+        <address>
+          By             <a href="https://ualberta-cmput301.github.io/author/samuel-iwuchukwu.html">Samuel Iwuchukwu</a>
+            <a href="https://ualberta-cmput301.github.io/author/hazel-victoria-campbell.html">Hazel Victoria Campbell</a>
+        </address>
+        <p>
+          Category: <a href="https://ualberta-cmput301.github.io/category/general.html">general</a>
+        </p>
+        <p>
+          Tags:
+            <a href="https://ualberta-cmput301.github.io/tag/labs.html">labs</a>
+            <a href="https://ualberta-cmput301.github.io/tag/policy.html">policy</a>
+            <a href="https://ualberta-cmput301.github.io/tag/grading.html">grading</a>
+        </p>
+    </footer>
+  </article>
+      </main>
+      <footer>
+          <address>
+            Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>,
+            which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
+          </address>
+      </footer>
+  </body>
+</html>

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-          <title>CMPUT 301 - Assignment 1</title>
-        <meta charset="utf-8" />
-        <meta name="generator" content="Pelican" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+        <title>CMPUT 301 - Assignment 1</title>
+      <meta charset="utf-8" />
+      <meta name="generator" content="Pelican" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Software Engineering" />
         <link href="https://ualberta-cmput301.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Full Atom Feed" />
         <link href="https://ualberta-cmput301.github.io/feeds/individual.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Categories Atom Feed" />
@@ -14,178 +14,210 @@
   <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/301.css" />
 
 
+          <link rel="alternate" hreflang="en" href="https://ualberta-cmput301.github.io/archive/assigment1-F2024.html">
+
 
 
     <meta name="tags" content="individual" />
     <meta name="tags" content="policy" />
     <meta name="tags" content="grading" />
 
-</head>
+  </head>
 
-<body>
-        <header>
-              <hgroup><h1><a href="https://ualberta-cmput301.github.io/">CMPUT 301</a></h1><p>Software Engineering</p></hgroup>
-        <nav><ul>
-            <li><a href="/general/outline.html">Outline</a></li>
-            <li><a href="/#eclass">eClass & Grades</a></li>
-            <li><a href="/#schedule">Schedule</a></li>
-            <li><a href="/general/labs.html">Labs</a></li>
-            <li><a href="/general/project.html">Project</a></li>
-            <li><a href="/general/individual.html">Individual</a></li>
-            <li><a href="/general/resources.html">Resources</a></li>
-            <li><a href="/general/help.html#discussion-forum">Discussion Forum</a></li>
-            <li><a href="/#news-notices">News & Notices</a></li>
-            <li><a href="/#lecture-zoom">Lecture Zoom</a></li>
-            <li><a href="/general/slides.html">Slides</a></li>
-            <li><a href="/general/help.html">Help</a></li>
-            <li><a href="https://ualberta-cmput301.github.io/" >Home</a></li>
-        </ul></nav>
-        </header>
-        <main>
-<article>
-  <header>
-    <h2>
-      <a href="https://ualberta-cmput301.github.io/individual/assignment1.html" rel="bookmark"
-         title="Permalink to Assignment 1">Assignment 1</a></h2>
- 
-  </header>
-  <div class="toc">
+  <body>
+      <header>
+          <hgroup><h1><a href="https://ualberta-cmput301.github.io/">CMPUT 301</a></h1><p>Software Engineering</p></hgroup>
+          <nav><ul>
+              <li><a href="/general/outline.html">Outline</a></li>
+              <li><a href="/#canvas">Canvas & Grades</a></li>
+              <li><a href="/#schedule">Schedule</a></li>
+              <li><a href="/general/labs.html">Labs</a></li>
+              <li><a href="/general/project.html">Project</a></li>
+              <li><a href="/general/individual.html">Individual</a></li>
+              <li><a href="/general/resources.html">Resources</a></li>
+              <li><a href="/general/help.html#discussion-forum">Discussion Forum</a></li>
+              <li><a href="/#news-notices">News & Notices</a></li>
+              <li><a href="/general/slides.html">Slides</a></li>
+              <li><a href="/general/help.html">Help</a></li>
+                <li><a href="https://ualberta-cmput301.github.io/" >Home</a></li>
+          </ul></nav>
+      </header>
+      <main>
+  <article>
+    <header>
+      <h2>
+        <a href="https://ualberta-cmput301.github.io/individual/assignment1.html" rel="bookmark"
+           title="Permalink to Assignment 1">Assignment 1</a></h2>
+          Translations:
+      <a href="https://ualberta-cmput301.github.io/archive/assigment1-F2024.html" hreflang="en">en</a>
+
+    </header>
+    <div class="toc">
 <ul>
-<li><a href="#learning-objectives">Learning Objectives</a></li>
-<li><a href="#problem-description">Problem Description</a></li>
-<li><a href="#deliverables">Deliverables</a></li>
-<li><a href="#demonstration-actions">Demonstration Actions</a></li>
-<li><a href="#hints">Hints</a></li>
-<li><a href="#losing-marks">Losing Marks</a></li>
-<li><a href="#submission-procedure">Submission Procedure</a></li>
+<li><a href="#assignment-emotilog-a-quick-emotion-logging-app">Assignment: EmotiLog - A Quick Emotion Logging App</a></li>
+<li><a href="#learning-objectives">Learning Objectives:</a></li>
+<li><a href="#problem-description">Problem Description:</a></li>
 </ul>
 </div>
 <ul>
 <li><strong>Due date:</strong> Check the <a href="https://ualberta-cmput301.github.io/#schedule">schedule</a>.</li>
 </ul>
-<h3 id="learning-objectives"><strong>Learning Objectives</strong></h3>
-<p>Solve a problem by constructing a simple, interactive application using Android and Java.</p>
-<p>Document an object-oriented design in Unified Modeling Language.</p>
-<h3 id="problem-description"><strong>Problem Description</strong></h3>
-<p>Consider the situation of someone who wants to create and manage a wishlist of books they want to read. Develop a simple, attractive, and intuitive Android mobile app to assist users in organizing their reading preferences. Let's name this app: YOURCCID-MyBookWishlist (e.g., kennyw-MyBookWishlist).</p>
-<p>Using this app, users can maintain a list of books they wish to read. Each book entry in the wishlist has the following editable fields:</p>
+<h5 id="assignment-emotilog-a-quick-emotion-logging-app">Assignment: EmotiLog - A Quick Emotion Logging App</h5>
+<h3 id="learning-objectives"><strong>Learning Objectives:</strong></h3>
 <ul>
-<li>Book title (textual, up to 50 characters)</li>
-<li>Author name (textual, up to 30 characters)</li>
-<li>Genre (e.g., Fiction, Non-Fiction, Mystery)</li>
-<li>Publication year (four-digit integer)</li>
-<li>Status (Read/Unread)</li>
+<li>Create a simple, interactive mobile application using Android and
+    Java.</li>
+<li>Document an object-oriented design using Unified Modeling Language
+    (UML).</li>
 </ul>
-<p>The app must allow the user to:</p>
-<ul>
-<li>Show a list of books in their wishlist, displaying the title, author, genre, and read status.</li>
-<li>Add a new book to the wishlist (appends to the bottom of the list).</li>
-<li>View and edit the details of an existing book entry, including title, author, genre, and read status.</li>
-<li>Delete a book from the wishlist.</li>
-<li>See the total number of books in the wishlist and the count of books marked as read.</li>
-</ul>
-<p>The list need not display all the information for an item if screen space is limited. Minimally, each item in the list should show its title, author, genre, and read status.</p>
-<p>The app must assist the user in proper data entry. For example, use appropriate user interface controls to enforce particular data types and avoid illegal values.</p>
-<p>For this assignment, the data need not be persistent across runs of the app.</p>
-<p>The app must assist the user in proper data entry. For example, use appropriate user interface controls to enforce particular data types and avoid illegal values.</p>
-<p>For this assignment, the data need not be persistent across runs of the app.</p>
-<p>Encode your campus computing ID in the app name. Specifically, the app name must show up as YOURCCID-MyBookWishlist (e.g., kennyw-MyBookWishlist).</p>
-<h3 id="deliverables"><strong>Deliverables</strong></h3>
+<h3 id="problem-description"><strong>Problem Description:</strong></h3>
+<p>Develop an Android app called <strong>YOURCCID-EmotiLog</strong> (e.g.,
+kennyw-EmotiLog) that allows users to quickly log their feelings or
+significant events by pressing emoticon buttons. The app should enable
+users to easily record each selected emoticon along with the
+corresponding timestamp, and then provide a summary of logs by frequency
+over a specified period.</p>
 <ol>
 <li>
-<p><strong>Code Base:</strong>
-Your complete source code and compiled binary, implementing the working app and its user interface, will be inspected and run by the TA. The Android Studio project and APK (Android Package Kit) binary must be included in the submission. Each class must contain comments describing its purpose, design rationale, and any outstanding issues.</p>
+<p>Features:</p>
+<ul>
+<li><strong>Preset Emoticon Buttons:</strong> 6 to 9 customizable emoticon
+    buttons representing different feelings or events (e.g., Happy,
+    Sad, Grateful, Angry, Excited, etc.).</li>
+<li><strong>Logging Functionality:</strong> Each button press records the
+    selected emoticon and the current timestamp.</li>
+<li><strong>Daily Summary:</strong> Users can view a summary of logged emoticons
+    for each day, including total counts and frequencies.</li>
+<li><strong>User-Friendly Interface:</strong> The app must provide a simple and
+    attractive user interface to enhance ease of use.</li>
+</ul>
 </li>
 <li>
-<p><strong>Video:</strong>
-The video is a demonstration of the app. The video file must be included in the submission. The video is meant to show that the demonstration actions below actually work. No audio is needed. Maximum duration is 3 minutes. Focus on just the screen of the app, not the whole desktop. For visual clarity, do not use a handheld camera.</p>
-</li>
-<li>
-<p><strong>System Documentation:</strong>
-Describe the structure of your app's object-oriented design using UML class diagram(s), saved as non-lossy image file(s). Focus on the most important classes that you designed and implemented. Add notes to describe the main responsibilities of these classes.</p>
-</li>
-</ol>
-<h3 id="demonstration-actions"><strong>Demonstration Actions</strong></h3>
+<p>Deliverables:</p>
 <ol>
-<li>
-<p>Open the app from the launcher.</p>
+<li><strong>Code Base:</strong><ul>
+<li>Complete Android Studio project and compiled APK.</li>
+<li>Each class must be properly commented to describe its
+    purpose, design rationale, and any outstanding issues.</li>
+</ul>
 </li>
-<li>
-<p>Show the list of books in the wishlist, with none so far. (This could be the initial screen.)</p>
+<li><strong>Video:</strong><ul>
+<li>A demonstration video (max 3 minutes) showing the app\'s
+    core functionalities without audio. It should illustrate how
+    to log emoticons and view summaries.</li>
+</ul>
 </li>
-<li>
-<p>Add a book to the wishlist with the title "The Great Gatsby," author "F. Scott Fitzgerald," genre "Fiction," publication year 1925, and status "Unread."</p>
-</li>
-<li>
-<p>Show the list and the total count, with this item.</p>
-</li>
-<li>
-<p>View/edit this item to update the title to "The Great Gatsby: Updated Edition" and mark it as "Read."</p>
-</li>
-<li>
-<p>Show the list and the updated counts, with this modified item.</p>
-</li>
-<li>
-<p>Add another book to the wishlist with the title "To Kill a Mockingbird," author "Harper Lee," genre "Fiction," publication year 1960, and status "Unread."</p>
-</li>
-<li>
-<p>Show the list and the updated counts, with the two books.</p>
-</li>
-<li>
-<p>Add one more book to the wishlist with your CCID as the author and your student number as the title of the book, status "Read", year 2024.</p>
-</li>
-<li>
-<p>Show the list and the updated counts, with the three books.</p>
-</li>
-<li>
-<p>View/edit the details of one book in the wishlist.</p>
-</li>
-<li>
-<p>Delete one book from the wishlist.</p>
-</li>
-<li>
-<p>Show the list, with the remaining books.</p>
-</li>
-<li>
-<p>View the details of one book in the wishlist.</p>
-</li>
-<li>
-<p>Delete the remaining books from the wishlist.</p>
+<li><strong>System Documentation:</strong><ul>
+<li>UML class diagram(s) detailing the app\'s object-oriented
+    design. Include notes on each class\'s main
+    responsibilities.</li>
+</ul>
 </li>
 </ol>
-<h3 id="hints"><strong>Hints</strong></h3>
-<p>This is a description of the core functionality. Often, problem statements from users lack details. As you are prototyping a design, you may uncover other behaviors that have not been specified, but make sense in the context and intent of the application. For example, think about how someone might effectively use your application. It is up to you to decide what functions your design will need, based on the given problem description and valid assumptions, in discussion with your users (the TAs and instructor). You should consider asking the customer (the instructor) what they want to see.</p>
-<p>While you may discuss your design with other students, the code and documentation must be your own work. Code from publicly available sources may be used within reason and only if their licenses permit so. Always fully cite to give proper credit to the original developers in the source code and in the system documentation. For example, in citing a work, at least state: from whom, the date of publication, license, and URL. Do what is required by its license.</p>
-<p>The TAs will be inspecting your code, so "major" commented-out experiments should be cleaned up so that the code is readable.</p>
-<p>Do not skimp on the UML class diagrams in the system documentation. For neatness and readability, diagrams should be created or drawn using a vector graphics editing tool and exported in a common, non-lossy graphics format.</p>
-<p>Besides addressing the problem correctly, your software design will be evaluated on its proper use of object-oriented design concepts, such as separation of concerns and information hiding.</p>
-<h3 id="losing-marks"><strong>Losing Marks</strong></h3>
+</li>
+<li>
+<p>Demonstration Actions:</p>
+<ol>
+<li>Open the app from the launcher.</li>
+<li>Show the main screen with emoticon buttons.</li>
+<li>Press an emoticon button (e.g., Happy)</li>
+<li>Navigate to the list of emoticon events and confirm that it logs
+    the selected emoticons with the timestamp.</li>
+<li>Return to main screen with emoticon buttons.</li>
+<li>Press 1 emotion 10 times in rapid succession.</li>
+<li>Navigate to the list of emoticon events and confirm that it logs
+    the selected emoticons with the timestamp.</li>
+<li>Return to the main screen.</li>
+<li>Press 1 emotion 5 times in rapid succession.</li>
+<li>Go to the summary screen and show the emoticon counts.</li>
+</ol>
+</li>
+<li>
+<p>Hints</p>
+<p>This is a description of the core functionality. Often, problem
+statements from users lack details. As you are prototyping a design,
+you may uncover other behaviors that have not been specified, but
+make sense in the context and intent of the application. For
+example, think about how someone might effectively use your
+application. It is up to you to decide what functions your design
+will need, based on the given problem description and valid
+assumptions, in discussion with your users (the TAs and instructor).
+You should consider asking the customer (the instructor) what they
+want to see. While you may discuss your design with other students,
+the code and documentation must be your own work.</p>
+<p>Code from publicly available sources may be used within reason and
+only if their licenses permit so. Always fully cite to give proper
+credit to the original developers in the source code and in the
+system documentation. For example, in citing a work, at least state:
+from whom, the date of publication, license, and URL. Do what is
+required by its license.</p>
+<p>The TAs will be inspecting your code, so \"major\" commented-out
+experiments should be cleaned up so that the code is readable.</p>
+<p>Do not skimp on the UML class diagrams in the system documentation.
+For neatness and readability, diagrams should be created or drawn
+using a vector graphics editing tool and exported in a common,
+non-lossy graphics format.</p>
+<p>Besides addressing the problem correctly, your software design will
+be evaluated on its proper use of object-oriented design concepts,
+such as separation of concerns and information hiding.</p>
+</li>
+<li>
+<p>Losing Marks</p>
 <p>You may lose marks for any of the following:</p>
-<p>files not in properly named subdirectories
-missing compiled binary APK file for the app
-cannot run the app after install
-cannot distinguish CCID from the app name
-cannot view files without specialized tools
-lossy compression used in image file(s) for UML (e.g., JPEG)
-inadequate or improper citations
-These are brown M&amp;M rules.</p>
-<h3 id="submission-procedure"><strong>Submission Procedure</strong></h3>
-<p>Create an assignment directory called YOURCCID-MyBookWishlist (e.g., kennyw-MyBookWishlist), and within it have three subdirectories: code,  video,  doc. </p>
-<p>Your Android Studio project directory goes within code. The compiled binary APK file(s) should be found within an /app/build/intermediates/apk/debug/app-debug.apk subdirectory or /app/build/outputs/apk/debug/app-debug.apk within the project directory. The video file goes in the video subdirectory. The UML documentation goes in the doc subdirectory.</p>
-<p>Zip the assignment directory and upload to eClass. </p>
-<p><strong>e: It must be a zip file with the .zip file extension.</strong></p>
-<p>Please make sure all the required files are included to build the app. The TA will test your app from the submitted code and APK file.</p>
-<p>The app name must show up as YOURCCID-MyBookWishlist (e.g., kennyw-MyBookWishlist), so that it can be easily distinguished from other submissions.</p>
-<p><strong>This is how the assignment will be marked:</strong></p>
-<p>There are no inbetween marks, no part marks.</p>
-<p>Rubric for Android App Assignment - MyBookWishlist</p>
+<ul>
+<li>files not in properly named subdirectories</li>
+<li>missing compiled binary APK file for the app</li>
+<li>cannot run the app after install</li>
+<li>cannot distinguish CCID from the app name</li>
+<li>cannot view files without specialized tools</li>
+<li>lossy compression used in image file(s) for UML (e.g., JPEG)</li>
+<li>inadequate or improper citations</li>
+<li>using RAR archive format</li>
+</ul>
+<p>These are brown M&amp;M rules.</p>
+</li>
+<li>
+<p>Submission Procedure:</p>
+<ul>
+<li>Create a directory named <strong>YOURCCID-EmotiLog</strong> (e.g.,
+    kennyw-EmotiLog) and include the following subdirectories:
+    <strong>code</strong>, <strong>video</strong>, <strong>doc</strong>.</li>
+<li>Place the Android Studio project in the <strong>code</strong> directory.</li>
+<li>Include the APK file under
+    <strong>code/app/build/outputs/apk/debug/app-debug.apk</strong>.</li>
+<li>Store the demonstration video in the <strong>video</strong> directory.</li>
+<li>Keep UML documentation in the <strong>doc</strong> directory.</li>
+<li>Zip the <strong>YOURCCID-EmotiLog</strong> directory and upload.</li>
+</ul>
+</li>
+<li>
+<p>Evaluation Criteria:</p>
+<p>The submission will be assessed according to the following
+categories:</p>
+<ul>
+<li><strong>Excellent (8):</strong> Functionality meets all requirements,
+    intuitive UI, comprehensive UML, and a clear video
+    demonstration.</li>
+<li><strong>Good (7):</strong> Minor issues but overall functional and follows
+    submission rules.</li>
+<li><strong>Satisfactory (5):</strong> Runs, but noticeable issues; some
+    requirements may be missing; UML is present but may be
+    incomplete.</li>
+<li><strong>Unsatisfactory (4):</strong> Significant issues affecting
+    functionality or missing requirements.</li>
+<li><strong>Failure (0):</strong> Incomplete submissions or missing vital
+    components such as Videos, UML, or code.</li>
+</ul>
 <p>Excellent (8):</p>
 <ul>
-<li>The app is fully functional, meeting all the specified requirements.</li>
+<li>The app is fully functional, meeting all the specified
+    requirements.</li>
 <li>The user interface is intuitive, attractive, and responsive.</li>
 <li>The app follows the brown M&amp;M rules.</li>
-<li>The UML documentation is comprehensive and accurately represents the object-oriented design.</li>
-<li>The video demonstration clearly showcases all required actions, and the app performs flawlessly in the demo.</li>
+<li>The UML documentation is comprehensive and accurately represents
+    the object-oriented design.</li>
+<li>The video demonstration clearly showcases all required actions,
+    and the app performs flawlessly in the demo.</li>
 <li>Must have a Video</li>
 <li>Must have UML</li>
 <li>Must Have Codebase</li>
@@ -193,68 +225,79 @@ These are brown M&amp;M rules.</p>
 <p>Good (7):</p>
 <ul>
 <li>The app runs and performs the expected functionalities.</li>
-<li>Minor issues may be present, such as a small bug or a slight deviation from the requirements.</li>
-<li>The user interface is satisfactory but may have some room for improvement.</li>
+<li>Minor issues may be present, such as a small bug or a slight
+    deviation from the requirements.</li>
+<li>The user interface is satisfactory but may have some room for
+    improvement.</li>
 <li>The app follows the brown M&amp;M rules.</li>
-<li>The UML documentation is mostly complete but may have minor omissions.</li>
+<li>The UML documentation is mostly complete but may have minor
+    omissions.</li>
 <li>Must have a Video</li>
 <li>Must have UML</li>
 <li>Must Have Codebase</li>
 </ul>
 <p>Satisfactory (5):</p>
 <ul>
-<li>The app runs, but there are noticeable issues affecting its stability or functionality.</li>
+<li>The app runs, but there are noticeable issues affecting its
+    stability or functionality.</li>
 <li>Some requirements may be missing or not fully implemented.</li>
-<li>The user interface is functional but may lack polish or suffer from usability issues.</li>
+<li>The user interface is functional but may lack polish or suffer
+    from usability issues.</li>
 <li>The app may not fully adhere to the brown M&amp;M rules.</li>
-<li>The UML documentation is present but may be incomplete or inaccurate.</li>
+<li>The UML documentation is present but may be incomplete or
+    inaccurate.</li>
 <li>Must have a Video</li>
 <li>Must have UML</li>
 <li>Must Have Codebase</li>
 </ul>
 <p>Unsatisfactory (4):</p>
 <ul>
-<li>Effort has been put into the assignment, but the app may not run well or may have significant functionality issues.</li>
+<li>Effort has been put into the assignment, but the app may not run
+    well or may have significant functionality issues.</li>
 <li>Several requirements are missing or not implemented.</li>
 <li>The user interface may be confusing or challenging to use.</li>
 <li>The app may not follow the brown M&amp;M rules.</li>
-<li>The UML documentation lacks essential components, incomplete, inaccuate.</li>
+<li>The UML documentation lacks essential components, incomplete,
+    inaccuate.</li>
 <li>Must have a Video</li>
 <li>Must have UML</li>
 <li>Must Have Codebase</li>
 </ul>
 <p>Failure (0):</p>
 <ul>
-<li>The assignment is incomplete, lacking essential components such as UML documentation, video demonstration, or code.</li>
+<li>The assignment is incomplete, lacking essential components such
+    as UML documentation, video demonstration, or code.</li>
 <li>No submission is provided.</li>
 <li>Could be missing any one of these: Video, UML, Codebase</li>
 </ul>
-  <footer>
-    <p>Published: <time datetime="2024-08-12T00:00:00-06:00">
-      Mon, 12 Aug 2024 at 00:00 MDT
-    </time></p>
-    <address>
-      By           <a href="https://ualberta-cmput301.github.io/author/hazel-victoria-campbell.html">Hazel Victoria Campbell</a>
-          <a href="https://ualberta-cmput301.github.io/author/ken-wong.html">Ken Wong</a>
-          <a href="https://ualberta-cmput301.github.io/author/abram-hindle.html">Abram Hindle</a>
-    </address>
-    <p>
-        Category: <a href="https://ualberta-cmput301.github.io/category/individual.html">individual</a>
-    </p>
-    <p>
-        Tags:
+</li>
+</ol>
+    <footer>
+      <p>Published: <time datetime="2025-09-02T00:00:00-06:00">
+        Tue, 02 Sep 2025 at 00:00 MDT
+      </time></p>
+        <address>
+          By             <a href="https://ualberta-cmput301.github.io/author/hazel-victoria-campbell.html">Hazel Victoria Campbell</a>
+            <a href="https://ualberta-cmput301.github.io/author/ken-wong.html">Ken Wong</a>
+            <a href="https://ualberta-cmput301.github.io/author/abram-hindle.html">Abram Hindle</a>
+        </address>
+        <p>
+          Category: <a href="https://ualberta-cmput301.github.io/category/individual.html">individual</a>
+        </p>
+        <p>
+          Tags:
             <a href="https://ualberta-cmput301.github.io/tag/individual.html">individual</a>
             <a href="https://ualberta-cmput301.github.io/tag/policy.html">policy</a>
             <a href="https://ualberta-cmput301.github.io/tag/grading.html">grading</a>
-    </p>
-  </footer>
+        </p>
+    </footer>
   </article>
-        </main>
-        <footer>
-                <address>
-                Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>,
-                which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
-                </address>
-        </footer>
-</body>
+      </main>
+      <footer>
+          <address>
+            Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>,
+            which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
+          </address>
+      </footer>
+  </body>
 </html>

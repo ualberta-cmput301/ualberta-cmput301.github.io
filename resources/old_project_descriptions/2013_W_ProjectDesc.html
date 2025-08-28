@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <title>CMPUT 301 - 2013 W Project Problem Description</title>
+      <meta charset="utf-8" />
+      <meta name="generator" content="Pelican" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Software Engineering" />
+        <link href="https://ualberta-cmput301.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Full Atom Feed" />
+        <link href="https://ualberta-cmput301.github.io/feeds/old_project_descriptions.atom.xml" type="application/atom+xml" rel="alternate" title="CMPUT 301 Categories Atom Feed" />
+
+  <link rel="icon" href="https://ualberta-cmput301.github.io/theme/favicon.png" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://ualberta-cmput301.github.io/theme/301.css" />
+
+
+
+
+    <meta name="tags" content="projects" />
+    <meta name="tags" content="teams" />
+    <meta name="tags" content="grading" />
+
+  </head>
+
+  <body>
+      <header>
+          <hgroup><h1><a href="https://ualberta-cmput301.github.io/">CMPUT 301</a></h1><p>Software Engineering</p></hgroup>
+          <nav><ul>
+              <li><a href="/general/outline.html">Outline</a></li>
+              <li><a href="/#canvas">Canvas & Grades</a></li>
+              <li><a href="/#schedule">Schedule</a></li>
+              <li><a href="/general/labs.html">Labs</a></li>
+              <li><a href="/general/project.html">Project</a></li>
+              <li><a href="/general/individual.html">Individual</a></li>
+              <li><a href="/general/resources.html">Resources</a></li>
+              <li><a href="/general/help.html#discussion-forum">Discussion Forum</a></li>
+              <li><a href="/#news-notices">News & Notices</a></li>
+              <li><a href="/general/slides.html">Slides</a></li>
+              <li><a href="/general/help.html">Help</a></li>
+                <li><a href="https://ualberta-cmput301.github.io/" >Home</a></li>
+          </ul></nav>
+      </header>
+      <main>
+  <article>
+    <header>
+      <h2>
+        <a href="https://ualberta-cmput301.github.io/resources/old_project_descriptions/2013_W_ProjectDesc.html" rel="bookmark"
+           title="Permalink to 2013 W Project Problem Description">2013 W Project Problem Description</a></h2>
+      
+    </header>
+    <p>You are to design and implement an attractive, usable, interactive Android application to help satisfy the following user's goals. Your design should be flexible enough to allow future developers to extend it to, for example, add new types of entries (see below).</p>
+<h3 id="users-problem-description">User's Problem Description</h3>
+<p>I want to keep recipes, but I also want to find recipes, eventually I found similar people had similar goals. Some people wanted recipes they could execute immediately given what they had in their fridge or pantry.</p>
+<p>I want a system where I can record, post, search and download recipes. I want such a system to be able to address the food I have in my pantry and refridgerator.</p>
+<p>It would be nice to include photos of said recipes.</p>
+<p>I want the system to query the recipes system with ingredients I already have and have it suggest appropriate recipes.</p>
+<p>Furthermore it should be easy to share these recipes over email.</p>
+<h4 id="needs-in-partial-user-story-form">Needs in (Partial) User Story Form</h4>
+<p>User needs are expressed in the form of partial user stories:
+as a <role>, I want <goal>
+as a <role>, I want <goal> so that <reason></p>
+<p>These descriptions may change to correct omissions and clarify noticed issues.</p>
+<p>As a user, I want to record recipes.</p>
+<p>As a user, I want to share recipes over email.</p>
+<p>As a user, I want to publish recipes.</p>
+<p>As a user, I want to search for recipes.</p>
+<p>As a user, I want to have some recipes cached so that I don't need the internet to work for me to use this program.</p>
+<p>As a user, I want to post and publish photos associated with the recipe.</p>
+<p>As a user, executing a recipe I want to take photos and attach the photos to the recipe.</p>
+<p>As a user, I want the recipes to be stored so I can view them offline.</p>
+<p>As a user, recipes I make can have multiple photos.</p>
+<p>As a user, I can upload photos for other recipes I did not make, but were downloaded.</p>
+<p>As a user, I should be able to retake photos I am taking, if I fail to take the photo I want to correct, so that I don't have erroneous photos.</p>
+<p>As a user I should be able to get recipes from other users somehow.</p>
+<p>As a user I want to be able to record/edit/view/modify the ingredients I already have.</p>
+<p>As a user I want to be able to query for recipes that have the ingredients I already have.</p>
+<h4 id="new-requirements">New requirements</h4>
+<div class="highlight"><pre><span></span><code><span class="o">-</span><span class="w"> </span><span class="n">As</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">user</span><span class="p">,</span><span class="w"> </span><span class="n">I</span><span class="w"> </span><span class="n">want</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">email</span><span class="w"> </span><span class="n">other</span><span class="w"> </span><span class="n">users</span><span class="w"> </span><span class="n">recipes</span><span class="w"> </span><span class="n">that</span><span class="w"> </span><span class="n">they</span><span class="w"> </span><span class="n">can</span>
+<span class="w">  </span><span class="n">immediately</span><span class="w"> </span><span class="kn">import</span><span class="w"> </span><span class="nn">into</span><span class="w"> </span><span class="n">their</span><span class="w"> </span><span class="n">recipe</span><span class="w"> </span><span class="n">program</span><span class="o">.</span><span class="w">  </span><span class="p">[</span><span class="n">s</span><span class="p">]</span>
+
+
+<span class="o">-</span><span class="w"> </span><span class="n">As</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">user</span><span class="p">,</span><span class="w"> </span><span class="n">I</span><span class="w"> </span><span class="n">want</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">limit</span><span class="w"> </span><span class="n">modifications</span><span class="w"> </span><span class="n">of</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">recipe</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">myself</span>
+<span class="w">  </span><span class="n">only</span><span class="o">.</span><span class="w"> </span><span class="o">--</span><span class="w"> </span><span class="n">Note</span><span class="p">:</span><span class="w"> </span><span class="n">this</span><span class="w"> </span><span class="n">doesn</span><span class="s1">&#39;t have to be done server side, your</span>
+<span class="w">  </span><span class="n">app</span><span class="w"> </span><span class="n">could</span><span class="w"> </span><span class="n">enforce</span><span class="w"> </span><span class="n">this</span><span class="o">.</span><span class="w">  </span><span class="p">[</span><span class="n">l</span><span class="p">]</span>
+
+
+<span class="o">-</span><span class="w"> </span><span class="n">As</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">user</span><span class="p">,</span><span class="w"> </span><span class="n">I</span><span class="w"> </span><span class="n">want</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">globally</span><span class="w"> </span><span class="n">tag</span><span class="w"> </span><span class="n">recipes</span><span class="o">.</span><span class="w"> </span><span class="n">Recipes</span><span class="w"> </span><span class="n">can</span><span class="w"> </span><span class="n">have</span>
+<span class="w">  </span><span class="n">multiple</span><span class="w"> </span><span class="n">tags</span><span class="w"> </span><span class="ow">and</span><span class="w"> </span><span class="n">other</span><span class="w"> </span><span class="n">users</span><span class="w"> </span><span class="n">can</span><span class="w"> </span><span class="n">see</span><span class="w"> </span><span class="n">these</span><span class="w"> </span><span class="n">tags</span><span class="o">.</span><span class="w"> </span><span class="p">[</span><span class="n">l</span><span class="p">]</span>
+
+
+<span class="o">-</span><span class="w"> </span><span class="n">As</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">user</span><span class="p">,</span><span class="w"> </span><span class="n">I</span><span class="w"> </span><span class="n">want</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">browse</span><span class="w"> </span><span class="n">recipes</span><span class="w"> </span><span class="n">by</span><span class="w"> </span><span class="n">tags</span><span class="o">.</span><span class="w"> </span><span class="p">[</span><span class="n">s</span><span class="p">]</span>
+
+
+<span class="o">-</span><span class="w"> </span><span class="n">As</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">user</span><span class="p">,</span><span class="w"> </span><span class="n">I</span><span class="w"> </span><span class="n">want</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">query</span><span class="w"> </span><span class="n">recipes</span><span class="w"> </span><span class="n">based</span><span class="w"> </span><span class="n">on</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">subset</span><span class="w"> </span><span class="n">of</span><span class="w"> </span><span class="n">my</span>
+<span class="w">  </span><span class="n">ingredients</span><span class="o">.</span><span class="w"> </span><span class="p">[</span><span class="n">s</span><span class="p">]</span>
+
+
+<span class="o">-</span><span class="w"> </span><span class="n">As</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">user</span><span class="p">,</span><span class="w"> </span><span class="n">I</span><span class="w"> </span><span class="n">want</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">organize</span><span class="w"> </span><span class="n">ingredients</span><span class="w"> </span><span class="n">into</span><span class="w"> </span><span class="n">folders</span><span class="w"> </span><span class="p">(</span><span class="n">like</span>
+<span class="w">  </span><span class="n">fridge</span><span class="p">,</span><span class="w"> </span><span class="ow">or</span><span class="w"> </span><span class="n">cabin</span><span class="w"> </span><span class="n">fridge</span><span class="p">)</span><span class="w"> </span><span class="ow">and</span><span class="w"> </span><span class="n">be</span><span class="w"> </span><span class="n">able</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">query</span><span class="w"> </span><span class="n">recipes</span><span class="w"> </span><span class="n">based</span><span class="w"> </span><span class="n">on</span>
+<span class="w">  </span><span class="n">these</span><span class="w"> </span><span class="n">folders</span><span class="o">.</span><span class="w"> </span><span class="p">[</span><span class="n">l</span><span class="p">]</span>
+
+
+<span class="o">-</span><span class="w"> </span><span class="n">As</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">user</span><span class="p">,</span><span class="w"> </span><span class="n">I</span><span class="w"> </span><span class="n">want</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">optionally</span><span class="w"> </span><span class="n">browse</span><span class="w"> </span><span class="n">recipes</span><span class="w"> </span><span class="k">with</span><span class="w"> </span><span class="n">only</span><span class="w"> </span><span class="n">photos</span>
+<span class="w">  </span><span class="p">[</span><span class="n">s</span><span class="p">]</span>
+
+
+<span class="o">-</span><span class="w"> </span><span class="n">As</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">user</span><span class="p">,</span><span class="w"> </span><span class="n">I</span><span class="w"> </span><span class="n">want</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">search</span><span class="w"> </span><span class="n">recipes</span><span class="w"> </span><span class="n">I</span><span class="w"> </span><span class="n">downloaded</span><span class="w"> </span><span class="n">already</span><span class="o">.</span><span class="w"> </span><span class="p">[</span><span class="n">s</span><span class="p">]</span>
+
+
+<span class="o">-</span><span class="w"> </span><span class="n">As</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">user</span><span class="p">,</span><span class="w"> </span><span class="n">I</span><span class="w"> </span><span class="n">want</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">read</span><span class="o">/</span><span class="n">write</span><span class="w"> </span><span class="n">comments</span><span class="w"> </span><span class="n">on</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">recipe</span><span class="o">.</span><span class="w"> </span><span class="p">[</span><span class="n">l</span><span class="p">]</span>
+
+<span class="o">-</span><span class="w"> </span><span class="n">As</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">user</span><span class="p">,</span><span class="w"> </span><span class="n">I</span><span class="w"> </span><span class="n">want</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">delete</span><span class="w"> </span><span class="n">cached</span><span class="w"> </span><span class="n">recipes</span><span class="w"> </span><span class="p">(</span><span class="n">downloaded</span><span class="p">)</span><span class="o">.</span><span class="w"> </span><span class="p">[</span><span class="n">s</span><span class="p">]</span>
+
+
+<span class="o">-</span><span class="w"> </span><span class="n">As</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">user</span><span class="p">,</span><span class="w"> </span><span class="n">I</span><span class="w"> </span><span class="n">want</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">export</span><span class="w"> </span><span class="n">my</span><span class="w"> </span><span class="n">recipes</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">some</span><span class="w"> </span><span class="n">kind</span><span class="w"> </span><span class="n">of</span><span class="w"> </span><span class="n">file</span><span class="w"> </span><span class="n">so</span><span class="w"> </span><span class="n">I</span>
+<span class="w">  </span><span class="n">can</span><span class="w"> </span><span class="n">export</span><span class="w"> </span><span class="n">them</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">other</span><span class="w"> </span><span class="n">programs</span><span class="o">.</span><span class="w"> </span><span class="p">[</span><span class="n">l</span><span class="p">]</span>
+
+<span class="o">-</span><span class="w"> </span><span class="n">As</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">user</span><span class="p">,</span><span class="w"> </span><span class="n">I</span><span class="w"> </span><span class="n">want</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">browse</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">most</span><span class="w"> </span><span class="n">popular</span><span class="w"> </span><span class="n">recipes</span><span class="w"> </span><span class="n">based</span><span class="w"> </span><span class="n">on</span><span class="w"> </span><span class="n">their</span><span class="w"> </span><span class="n">downloaded</span><span class="w"> </span><span class="n">counts</span><span class="o">.</span><span class="p">[</span><span class="n">l</span><span class="p">]</span>
+
+<span class="o">-</span><span class="w"> </span><span class="n">As</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">user</span><span class="p">,</span><span class="w"> </span><span class="n">I</span><span class="w"> </span><span class="n">want</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">STAR</span><span class="w"> </span><span class="n">good</span><span class="w"> </span><span class="n">recipes</span><span class="w"> </span><span class="ow">and</span><span class="w"> </span><span class="n">I</span><span class="w"> </span><span class="n">want</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">browse</span><span class="w"> </span><span class="n">recipes</span><span class="w"> </span><span class="n">that</span><span class="w"> </span><span class="n">everyone</span><span class="w"> </span><span class="n">has</span><span class="w"> </span><span class="n">given</span><span class="w"> </span><span class="n">to</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">most</span><span class="w"> </span><span class="n">stars</span><span class="o">.</span><span class="w"> </span><span class="p">[</span><span class="n">l</span><span class="p">]</span>
+</code></pre></div>
+
+<p><strong>Notes</strong></p>
+<p>As class advances and questions are asked new story cards will be created.</p>
+<h4 id="webservice-notes">Webservice Notes</h4>
+<p>Please see the URL: http://www.elasticsearch.org/ and http://www.elasticsearch.org/guide/reference/query-dsl/query-string-query.html</p>
+<p>Each group now has its own personal prefix on the elastisearch. Your Android application can communicate to your group's webservice.</p>
+<p>Binaries should be small, and you can post them, but be sure you read up on how to send binaries to elastisearch  http://www.elasticsearch.org/guide/reference/mapping/core-types.html http://www.elasticsearch.org/guide/reference/api/admin-indices-put-mapping.html</p>
+<p>This webservice is meant to allow posting, listing, deleting and searching recipes. It has a JSON format that can be defined by your group in order to encode more difficult tasks.</p>
+<p>http://cmput301.softwareprocess.es:8080/CMPUT301W13T01/</p>
+<p>http://cmput301.softwareprocess.es:8080/CMPUT301W13T02/</p>
+<p>http://cmput301.softwareprocess.es:8080/CMPUT301W13T03/</p>
+<p>http://cmput301.softwareprocess.es:8080/CMPUT301W13T04/</p>
+<p>http://cmput301.softwareprocess.es:8080/CMPUT301W13T05/</p>
+<p>http://cmput301.softwareprocess.es:8080/CMPUT301W13T07/</p>
+<p>http://cmput301.softwareprocess.es:8080/CMPUT301W13T08/</p>
+<p>http://cmput301.softwareprocess.es:8080/CMPUT301W13T09/</p>
+<p>http://cmput301.softwareprocess.es:8080/CMPUT301W13T10/</p>
+<p>http://cmput301.softwareprocess.es:8080/CMPUT301W13T11/</p>
+<p>http://cmput301.softwareprocess.es:8080/CMPUT301W13T12/</p>
+<p>http://cmput301.softwareprocess.es:8080/CMPUT301W13T13/</p>
+<p>http://cmput301.softwareprocess.es:8080/CMPUT301W13T14/</p>
+<p>These are not protected in anyway and they should stick to their own repos.</p>
+<p>http://cmput301.softwareprocess.es:8080/testing/ is for testing.</p>
+    <footer>
+      <p>Published: <time datetime="2024-11-04T00:00:00-07:00">
+        Mon, 04 Nov 2024 at 00:00 MST
+      </time></p>
+        <address>
+          By             <a href="https://ualberta-cmput301.github.io/author/tina-nguyen.html">Tina Nguyen</a>
+            <a href="https://ualberta-cmput301.github.io/author/hazel-victoria-campbell.html">Hazel Victoria Campbell</a>
+        </address>
+        <p>
+          Category: <a href="https://ualberta-cmput301.github.io/category/old_project_descriptions.html">old_project_descriptions</a>
+        </p>
+        <p>
+          Tags:
+            <a href="https://ualberta-cmput301.github.io/tag/projects.html">projects</a>
+            <a href="https://ualberta-cmput301.github.io/tag/teams.html">teams</a>
+            <a href="https://ualberta-cmput301.github.io/tag/grading.html">grading</a>
+        </p>
+    </footer>
+  </article>
+      </main>
+      <footer>
+          <address>
+            Proudly powered by <a rel="nofollow" href="https://getpelican.com/">Pelican</a>,
+            which takes great advantage of <a rel="nofollow" href="https://www.python.org/">Python</a>.
+          </address>
+      </footer>
+  </body>
+</html>
