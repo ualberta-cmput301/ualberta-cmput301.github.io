@@ -32,7 +32,7 @@ summary: Lecture, Labs, Contact Information, Lecturer, Teaching Assistants, Cour
 **Office:**	UComm 6-256  
 **E-mail:** hktang@ualberta.ca
 
-**Office Hours:** Tuesdays 11:00am \- 1:00pm
+**Office Hours:** Thursdays 11:00am \- 1:00pm
 
 **Lecture Room & Time:** LEC A1 \- ED N 2-115 (MWF 10:00am \- 10:50am)
 
@@ -178,6 +178,8 @@ This table reflects the GPA Point Value and Descriptor (e.g., Excellent, Good) f
 | Failure | F  | 0.0 |
 
 **Access to Past or Representative Evaluative Material:**
+Past materials are located on the CMPUT 301 GitHub webpage:
+https://ualberta-cmput301.github.io/general/resources.html
 
 **Statement of Expectations for AI Use:**  
 You MUST not submit work by LLMs as your own, that is plagiarism. This also applies to other "AI" and Generative Models: ChatGPT, Lex, Page, DALL-E2, Google BARD/Gemini, Microsoft Bing/Copilot, and others. If you use LLMs you must cite it. This includes the corporation that made the AI, the AI, Subject, and Date. For example:
