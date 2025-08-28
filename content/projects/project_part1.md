@@ -1,7 +1,7 @@
 Title: Project Part 1
-date: 2024-08-26
+date: 2025-08-28
 tags: projects, teams, grading
-authors: Samuel Iwuchukwu, Hazel Victoria Campbell
+authors: Samuel Iwuchukwu, Hazel Victoria Campbell, Abram Hindle
 status: published
 summary: Project Part 1
 ----
@@ -29,7 +29,7 @@ Your team is expected to use GitHub for a git repository and wiki to share, mana
 
 # **Submission Procedure**
 
-One team member uses [the Google form]() to submit project part 1.
+One team member uses [the Google form](https://docs.google.com/forms/d/e/1FAIpQLSevUDkcE_Cqbb6AgBhplPpR_g2CXxKM_mOOXaoHFTZVgI_UyA/viewform?usp=dialog) to submit project part 1.
 
 # **Hints**
 
