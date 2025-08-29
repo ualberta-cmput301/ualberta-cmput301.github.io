@@ -32,7 +32,7 @@ summary: Lecture, Labs, Contact Information, Lecturer, Teaching Assistants, Cour
 **Office:**	UComm 6-256  
 **E-mail:** hktang@ualberta.ca
 
-**Office Hours:** Thursdays 11:00am \- 1:00pm
+**Office Hours:** Thursdays 11:00am \- 2:00pm
 
 **Lecture Room & Time:** LEC A1 \- ED N 2-115 (MWF 10:00am \- 10:50am)
 
