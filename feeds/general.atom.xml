@@ -6,7 +6,6 @@
 &lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#work-in-progress-syllabus-not-finalized"&gt;WORK IN PROGRESS SYLLABUS (NOT FINALIZED)&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="#teaching-assistants-available-on-the-course-webpage"&gt;Teaching Assistant(s): Available on the course webpage&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#_1"&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#territorial-acknowledgement"&gt;TERRITORIAL ACKNOWLEDGEMENT&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#the-university-of-alberta-respectfully-acknowledges-that-we-are-located-on-treaty-6-territory-a-traditional-gathering-place-for-diverse-indigenous-peoples-including-the-cree-blackfoot-metis-nakota-sioux-iroquois-dene-ojibway-saulteauxanishinaabe-inuit-and-many-others-whose-histories-languages-and-cultures-continue-to-influence-our-vibrant-community"&gt;The University of Alberta respectfully acknowledges that we are located on Treaty 6 territory, a traditional gathering place for diverse Indigenous peoples including the Cree, Blackfoot, Métis, Nakota Sioux, Iroquois, Dene, Ojibway/ Saulteaux/Anishinaabe, Inuit, and many others whose histories, languages, and cultures continue to influence our vibrant community.&lt;/a&gt;&lt;/li&gt;
@@ -28,9 +27,11 @@
 &lt;strong&gt;Instructor:&lt;/strong&gt; Henry Tang&lt;br&gt;
 &lt;strong&gt;Office:&lt;/strong&gt; UComm 6-256&lt;br&gt;
 &lt;strong&gt;E-mail:&lt;/strong&gt; hktang@ualberta.ca&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Office Hours:&lt;/strong&gt; Tuesdays 11:00am - 1:00pm&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Office Hours:&lt;/strong&gt; Thursdays 11:00am - 2:00pm&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Lecture Room &amp;amp; Time:&lt;/strong&gt; LEC A1 - ED N 2-115 (MWF 10:00am - 10:50am)&lt;/p&gt;
-&lt;h4 id="teaching-assistants-available-on-the-course-webpage"&gt;&lt;strong&gt;Teaching Assistant(s):&lt;/strong&gt; Available on the course webpage&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Teaching Assistant(s):&lt;/strong&gt; Available on the course webpage  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Labs:&lt;/strong&gt; ETLC E1-003 5pm to 7:50pm TWR&lt;/p&gt;
+&lt;hr&gt;
 &lt;h4 id="_1"&gt;&lt;/h4&gt;
 &lt;h4 id="territorial-acknowledgement"&gt;&lt;strong&gt;TERRITORIAL ACKNOWLEDGEMENT&lt;/strong&gt;&lt;/h4&gt;
 &lt;h4 id="the-university-of-alberta-respectfully-acknowledges-that-we-are-located-on-treaty-6-territory-a-traditional-gathering-place-for-diverse-indigenous-peoples-including-the-cree-blackfoot-metis-nakota-sioux-iroquois-dene-ojibway-saulteauxanishinaabe-inuit-and-many-others-whose-histories-languages-and-cultures-continue-to-influence-our-vibrant-community"&gt;The University of Alberta respectfully acknowledges that we are located on Treaty 6 territory, a traditional gathering place for diverse Indigenous peoples including the Cree, Blackfoot, Métis, Nakota Sioux, Iroquois, Dene, Ojibway/ Saulteaux/Anishinaabe, Inuit, and many others whose histories, languages, and cultures continue to influence our vibrant community.&lt;/h4&gt;
@@ -311,7 +312,9 @@ This table reflects the GPA Point Value and Descriptor (e.g., Excellent, Good) f
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;&lt;strong&gt;Access to Past or Representative Evaluative Material:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Access to Past or Representative Evaluative Material:&lt;/strong&gt;
+Past materials are located on the CMPUT 301 GitHub webpage:
+https://ualberta-cmput301.github.io/general/resources.html&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Statement of Expectations for AI Use:&lt;/strong&gt;&lt;br&gt;
 You MUST not submit work by LLMs as your own, that is plagiarism. This also applies to other "AI" and Generative Models: ChatGPT, Lex, Page, DALL-E2, Google BARD/Gemini, Microsoft Bing/Copilot, and others. If you use LLMs you must cite it. This includes the corporation that made the AI, the AI, Subject, and Date. For example:&lt;/p&gt;
 &lt;p&gt;If you use LLMs you must cite it, but it's probably better to Google what it tells you and find a real citation because:&lt;/p&gt;
@@ -1301,6 +1304,7 @@ participation in your own section.&lt;/p&gt;</content><category term="general"/>
 &lt;li&gt;&lt;a href="#lab-8"&gt;Lab 8&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
+&lt;p&gt;Labs are in ETLC E1-003 5pm to 8pm Tuesday, Wednesday, Thursday.&lt;/p&gt;
 &lt;h3 id="lab-1"&gt;Lab 1&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/labs/lab1.html"&gt;Lab 1&lt;/a&gt;&lt;/li&gt;
@@ -1570,8 +1574,9 @@ participation in your own section.&lt;/p&gt;</content><category term="general"/>
 &lt;/div&gt;
 &lt;h3 id="welcome"&gt;Welcome&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/000welcome-campbell.pdf"&gt;Welcome - Dr. Campbell&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/00_Welcome_Tang.pdf"&gt;Welcome&lt;/a&gt;  &lt;/li&gt;
 &lt;li&gt;Old slides (dates, times, assignments, exams, will be out of date)&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/000welcome-campbell.pdf"&gt;Welcome - Dr. Campbell&lt;/a&gt;  &lt;/li&gt;
 &lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/00_Welcome_Wong.pdf"&gt;Welcome - Prof. Wong&lt;/a&gt; &lt;a href="https://ualberta-cmput301.github.io/general/slides/00_Welcome_Wong2.pdf"&gt;2&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/00_Welcome_Hindle.pdf"&gt;Welcome - Prof. Hindle&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1580,6 +1585,7 @@ participation in your own section.&lt;/p&gt;</content><category term="general"/>
 &lt;h3 id="objects-uml-java"&gt;Objects UML Java&lt;/h3&gt;
 &lt;p&gt;Reading: &lt;a href="https://ualberta-cmput301.github.io/general/resources.html#course-notes"&gt;Course notes&lt;/a&gt; part 1 page 1-73&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/01_OO_Tang.pdf"&gt;Objects UML Java&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/010oo-campbell.pdf"&gt;Objects UML Java - Campbell&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/02-OO.pdf"&gt;Objects UML Java Slides&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/OONotes.pdf"&gt;OOP Notes&lt;/a&gt;&lt;/li&gt;
@@ -1589,6 +1595,7 @@ participation in your own section.&lt;/p&gt;</content><category term="general"/>
 &lt;/ul&gt;
 &lt;h4 id="mvc-object-oriented-graphical-user-interfaces"&gt;&lt;a id="mvc" href="#mvc"&gt;MVC&lt;/a&gt; &amp;amp; Object-Oriented Graphical User Interfaces&lt;/h4&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/03_MVC-Android_Tang.pdf"&gt;MVC and Android Part I + Swing Slides (Tang)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/03-MVC-Android.pdf"&gt;MVC and Android Part I + Swing Slides (1up)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/MVC.pdf"&gt;MVC and Friends Guest Lecture (Campbell)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/3-Tier.pdf"&gt;3-Tier Architecture Guest Lecture (Pang) (4up)&lt;/a&gt;&lt;/li&gt;
@@ -1628,18 +1635,21 @@ participation in your own section.&lt;/p&gt;</content><category term="general"/>
 &lt;/ul&gt;
 &lt;h3 id="software-process"&gt;Software Process&lt;/h3&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/02_Process_Tang.pdf"&gt;Software Process&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/030process-campbell.pdf"&gt;Software Process - Campbell&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/SP.pdf"&gt;Software Process Draft Slides (4up)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/SP2.pdf"&gt;Software Process Draft Slides (1up)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id="requirements"&gt;Requirements&lt;/h4&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/03_Requirements_Tang.pdf"&gt;Requirements&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/040requirements-campbell.pdf"&gt;Requirements - Campbell&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/SP05.pdf"&gt;Requirements Draft Slides (4up)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/SP05_2.pdf"&gt;Requirements Draft Slides (1up)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="testing"&gt;Testing&lt;/h3&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/04_Testing_Tang.pdf"&gt;Testing&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/06_Testing_4up.pdf"&gt;Testing Draft Slides (4up)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/06_Testing.pdf"&gt;Testing Draft Slides (1up)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;
@@ -1652,6 +1662,7 @@ participation in your own section.&lt;/p&gt;</content><category term="general"/>
 &lt;h3 id="design-patterns"&gt;Design Patterns&lt;/h3&gt;
 &lt;p&gt;Reading: &lt;a href="https://ualberta-cmput301.github.io/general/resources.html#course-notes"&gt;Course notes&lt;/a&gt; part 2&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/05_Patterns_Tang.pdf"&gt;Design Patterns&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/07-Patterns-01.4up.pdf"&gt;Design Patterns Part I Draft Slides (4up)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/07-Patterns-01.pdf"&gt;Design Patterns Part I Draft Slides (1up)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/07-Patterns-02.4up.pdf"&gt;Design Patterns Part II Draft Slides (4up)&lt;/a&gt;&lt;/li&gt;
@@ -1671,13 +1682,11 @@ participation in your own section.&lt;/p&gt;</content><category term="general"/>
 &lt;/ul&gt;
 &lt;h3 id="design-patterns-continued"&gt;Design Patterns (Continued)&lt;/h3&gt;
 &lt;p&gt;Reading: &lt;a href="https://ualberta-cmput301.github.io/general/resources.html#course-notes"&gt;Course notes&lt;/a&gt; part 2&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/08-Refactoring_4up.pdf"&gt;Refactoring Draft Slides (4up)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/08-Refactoring.pdf"&gt;Refactoring Draft Slides (1up)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h3 id="refactoring"&gt;Refactoring&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/10_Review.pdf"&gt;Review Slides (1up)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/06_Refactoring_Tang.pdf"&gt;Refactoring&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/08-Refactoring_4up.pdf"&gt;Refactoring Draft Slides (4up)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/general/slides/08-Refactoring.pdf"&gt;Refactoring Draft Slides (1up)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="human-error"&gt;Human Error&lt;/h3&gt;
 &lt;ul&gt;
