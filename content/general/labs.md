@@ -9,6 +9,8 @@ summary: Lab Procedure, Lab Assignments, Lab Marking
 
 [TOC]
 
+Labs are in ETLC E1-003 5pm to 8pm Tuesday, Wednesday, Thursday.
+
 # Lab 1
 
 * [Lab 1]({filename}/labs/lab1.md)

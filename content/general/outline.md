@@ -37,6 +37,9 @@ summary: Lecture, Labs, Contact Information, Lecturer, Teaching Assistants, Cour
 **Lecture Room & Time:** LEC A1 \- ED N 2-115 (MWF 10:00am \- 10:50am)
 
 **Teaching Assistant(s):** Available on the course webpage  
+
+**Labs:** ETLC E1-003 5pm to 7:50pm TWR
+
 ---
 
 ## 
