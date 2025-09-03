@@ -11,8 +11,9 @@ summary: Slides and per-topic resources
 
 # Welcome
 
-* [Welcome - Dr. Campbell]({attach}slides/000welcome-campbell.pdf)
+* [Welcome]({attach}slides/00_Welcome_Tang.pdf)  
 * Old slides (dates, times, assignments, exams, will be out of date)
+    * [Welcome - Dr. Campbell]({attach}slides/000welcome-campbell.pdf)  
     * [Welcome - Prof. Wong]({attach}slides/00_Welcome_Wong.pdf) [2]({attach}slides/00_Welcome_Wong2.pdf)
     * [Welcome - Prof. Hindle]({attach}slides/00_Welcome_Hindle.pdf)
 
@@ -20,6 +21,7 @@ summary: Slides and per-topic resources
 
 Reading: [Course notes]({filename}/general/resources.md#course-notes) part 1 page 1-73
 
+* [Objects UML Java]({attach}slides/01_OO_Tang.pdf)
 * [Objects UML Java - Campbell]({attach}slides/010oo-campbell.pdf)
 * [Objects UML Java Slides]({attach}slides/02-OO.pdf)
 * [OOP Notes]({attach}slides/OONotes.pdf)
@@ -29,6 +31,7 @@ Reading: [Course notes]({filename}/general/resources.md#course-notes) part 1 pag
 
 ## <a id="mvc" href="#mvc">MVC</a> & Object-Oriented Graphical User Interfaces
 
+* [MVC and Android Part I + Swing Slides (Tang)]({attach}slides/03_MVC-Android_Tang.pdf)
 * [MVC and Android Part I + Swing Slides (1up)]({attach}slides/03-MVC-Android.pdf)
 * [MVC and Friends Guest Lecture (Campbell)]({attach}slides/MVC.pdf)
 * [3-Tier Architecture Guest Lecture (Pang) (4up)]({attach}slides/3-Tier.pdf)
@@ -70,18 +73,21 @@ Reading: [Course notes]({filename}/general/resources.md#course-notes) part 1 pag
 
 # Software Process 
 
+* [Software Process]({attach}slides/02_Process_Tang.pdf)
 * [Software Process - Campbell]({attach}slides/030process-campbell.pdf)
 * [Software Process Draft Slides (4up)]({attach}slides/SP.pdf)
 * [Software Process Draft Slides (1up)]({attach}slides/SP2.pdf)
 
 ## Requirements
 
+* [Requirements]({attach}slides/03_Requirements_Tang.pdf)
 * [Requirements - Campbell]({attach}slides/040requirements-campbell.pdf)
 * [Requirements Draft Slides (4up)]({attach}slides/SP05.pdf)
 * [Requirements Draft Slides (1up)]({attach}slides/SP05_2.pdf)
 
 # Testing 
 
+* [Testing]({attach}slides/04_Testing_Tang.pdf)
 * [Testing Draft Slides (4up)]({attach}slides/06_Testing_4up.pdf)
 * [Testing Draft Slides (1up)]({attach}slides/06_Testing.pdf)
 * [Newer Testing Slides (1up)]({attach}slides/06-Testing.pdf)
@@ -92,6 +98,7 @@ Reading: [Course notes]({filename}/general/resources.md#course-notes) part 1 pag
 
 Reading: [Course notes]({filename}/general/resources.md#course-notes) part 2
 
+* [Design Patterns]({attach}slides/05_Patterns_Tang.pdf)
 * [Design Patterns Part I Draft Slides (4up)]({attach}slides/07-Patterns-01.4up.pdf)
 * [Design Patterns Part I Draft Slides (1up)]({attach}slides/07-Patterns-01.pdf)
 * [Design Patterns Part II Draft Slides (4up)]({attach}slides/07-Patterns-02.4up.pdf)
@@ -115,12 +122,11 @@ Reading: [Course notes]({filename}/general/resources.md#course-notes) part 1 pag
 
 Reading: [Course notes]({filename}/general/resources.md#course-notes) part 2
 
-* [Refactoring Draft Slides (4up)]({attach}slides/08-Refactoring_4up.pdf)
-* [Refactoring Draft Slides (1up)]({attach}slides/08-Refactoring.pdf)
-
 # Refactoring 
 
-* [Review Slides (1up)]({attach}slides/10_Review.pdf)
+* [Refactoring]({attach}slides/06_Refactoring_Tang.pdf)
+* [Refactoring Draft Slides (4up)]({attach}slides/08-Refactoring_4up.pdf)
+* [Refactoring Draft Slides (1up)]({attach}slides/08-Refactoring.pdf)
 
 # Human Error
 
@@ -145,7 +151,6 @@ Reading: [Course notes]({filename}/general/resources.md#course-notes) part 2
 # Future
 
 * [Future Draft Slides (4up)]({attach}slides/12-Future.4up.pdf)
-
 
 # Old Resources
 
