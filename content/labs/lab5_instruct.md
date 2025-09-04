@@ -28,7 +28,9 @@ After applying the changes in the lab demo [(LINK TO INSTRUCTIONS)]({attach}slid
 ![Screen2]({attach}../images/lab5/lab5_img2.png){width=300 style="margin: 20px;"}
 ![Screen3]({attach}../images/lab5/lab5_img3.png){width=300 style="margin: 20px;"}
 
-**When submitting, please upload the whole Android Studio Project Folder (not just the source files or the 'app' directory), and give it a unique name.**
+# Submission
+
+GitHub Classroom
 
 **Due Date**
 

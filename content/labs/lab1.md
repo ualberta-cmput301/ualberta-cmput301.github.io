@@ -105,8 +105,9 @@ public interface Tweetable {
 
 # Submission
 
+GitHub Classroom
+
 Note: Running the project is not necessary.
 
-Zip the project and upload it to eClass.
 
 * **Due date:** Check the [schedule]({filename}/pages/home.md#schedule). (Usually Friday after the lab at 4PM)
