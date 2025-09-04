@@ -48,7 +48,9 @@ Here are some screenshots from an example application that demonstrate the requi
 
 
 
-You should submit your exercise as the project folder in the format of a zip archive.
+# Submission
+
+GitHub Classroom
 
 **Note: Proper completion of this exercise is considered as part of course participation.**
 

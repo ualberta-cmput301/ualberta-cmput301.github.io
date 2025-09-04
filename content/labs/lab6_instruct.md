@@ -47,7 +47,9 @@ In this exercise your task is to **implement and test** the following methods in
         
 2) Add Javadocs to all methods in CityList class and City class **AND** generate the javadocs to <project-name>/app/javadocs
 
-Submit the whole Project folder (not just source files or 'app')directory
+# Submission
+
+GitHub Classroom
 
 **Due Date**
 

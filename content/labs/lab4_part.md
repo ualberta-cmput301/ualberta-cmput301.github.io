@@ -74,7 +74,7 @@ Please submit:
 
 1. Your CCID (not your student id number!)
 
-2. Link to your branch in the repository at eClass
+2. Link to your branch in the repository at Canvas
 
 **Due Date**
 

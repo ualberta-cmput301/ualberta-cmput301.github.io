@@ -33,7 +33,9 @@ ShowActivity (create by yourself to have the following property)
 
     - Test the "back" button
 
-Submit the whole Project folder (not just source files or the 'app' directory)
+# Submission
+
+GitHub Classroom
 
 ![Screen1]({attach}../images/lab7/lab7_img1.png){width=300 style="margin: 20px;"}
 ![Screen2]({attach}../images/lab7/lab7_img2.png){width=300 style="margin: 20px;"}
