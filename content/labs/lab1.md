@@ -105,7 +105,7 @@ public interface Tweetable {
 
 # Submission
 
-GitHub Classroom
+Canvas
 
 Note: Running the project is not necessary.
 

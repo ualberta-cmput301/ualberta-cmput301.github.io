@@ -38,7 +38,7 @@ In this lab, we will learn about test driven development (TDD) and continuous in
 
 # Submission
 
-GitHub Classroom
+Canvas
 
 **Due Date**
 

@@ -30,7 +30,7 @@ After applying the changes in the lab demo [(LINK TO INSTRUCTIONS)]({attach}slid
 
 # Submission
 
-GitHub Classroom
+Canvas
 
 **Due Date**
 

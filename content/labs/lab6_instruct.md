@@ -49,7 +49,7 @@ In this exercise your task is to **implement and test** the following methods in
 
 # Submission
 
-GitHub Classroom
+Canvas
 
 **Due Date**
 

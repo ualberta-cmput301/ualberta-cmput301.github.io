@@ -35,7 +35,7 @@ ShowActivity (create by yourself to have the following property)
 
 # Submission
 
-GitHub Classroom
+Canvas
 
 ![Screen1]({attach}../images/lab7/lab7_img1.png){width=300 style="margin: 20px;"}
 ![Screen2]({attach}../images/lab7/lab7_img2.png){width=300 style="margin: 20px;"}

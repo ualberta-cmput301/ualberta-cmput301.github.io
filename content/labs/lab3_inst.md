@@ -49,7 +49,7 @@ Example of a newInstance method in AddCityFragment (Hint #3)
 
 # Submission
 
-GitHub Classroom
+Canvas
 
 **Due Date**
 
