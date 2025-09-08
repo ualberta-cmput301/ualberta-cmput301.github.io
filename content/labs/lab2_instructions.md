@@ -50,7 +50,7 @@ Here are some screenshots from an example application that demonstrate the requi
 
 # Submission
 
-GitHub Classroom
+Canvas
 
 **Note: Proper completion of this exercise is considered as part of course participation.**
 
