@@ -35,10 +35,10 @@ These will be done on paper and you need to bubble in your student number.
 Given `N` total exercises, count the number of sufficiently complete exercises (`M`), calculate percent exercises as `100% * M / (N - 6)`.
 
 * Failure 0: Write less than 50% of exercises
-* Unsatisfactory 4: Write more than or equal to 50% of exercises and labs
-* Satisfactory 6: Write more than 60% of exercises and labs
-* Good 7: Write more than 70% of exercises and labs
-* Excellent 8: Write more than 80% of exercises and labs
+* Unsatisfactory 4: Write more than or equal to 50% of exercises 
+* Satisfactory 6: Write more than 60% of exercises 
+* Good 7: Write more than 70% of exercises 
+* Excellent 8: Write more than 80% of exercises
 
 If you participate enough in discussion you can get 1 bonus mark to
 your participation grade (not exceeding 7). You only get credit for
