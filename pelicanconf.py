@@ -79,6 +79,7 @@ MENUITEMS=[
     ("Discussion Forum", "/general/help.html#discussion-forum"),
     ("News & Notices", "/#news-notices"),
     ("Slides", "/general/slides.html"),
+    ("Midterms", "/general/midterms.html"),
     ("Help", "/general/help.html"),
 ]
  
