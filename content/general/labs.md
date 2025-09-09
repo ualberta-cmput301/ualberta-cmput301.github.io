@@ -61,7 +61,7 @@ From the syllabus
 
 ## Labs are marked as follows:
 
-Given `N` total exercises, count the number of sufficiently complete labs (`M`), calculate percent labs as `100% * M / (N - 6)`.
+Given `N` total labs, count the number of sufficiently complete labs (`M`), calculate percent labs as `100% * M / (N - 2)`.
 
 * Failure 0: Write less than 50% of labs
 * Unsatisfactory 2: Write more than or equal to 50% of labs 
