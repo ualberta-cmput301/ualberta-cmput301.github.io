@@ -11,15 +11,20 @@ summary: Exam Practice Questions
 The Midterm Exams consist of three exams, each with three questions,
 taking about 10 minutes each. You must complete your midterm during
 your scheduled class time—only for your section. Taking the same
-midterm twice is a violation of the student code of behavior, and
-neither will be graded.
-
+midterm twice is a violation of the Student Academic Integrity Policy,
+and neither will be graded.
 
 The midterm exams are closed book with a cheat sheet. No collaboration
-is allowed.
+is allowed. Solo and Confidential.
 
-You  should prepare a cheat sheet of 1 sheets US Letter size with hand  written
-notes on it for studying. 
+You should prepare a cheat sheet:
+
+- 1 sheet single sided.
+- Does not need to be hand written, but should be so you learn better.
+- Can not be shared, each cheat sheet has to be created individually.
+- You will not get the cheat sheet back.
+
+
 
 ### Topics
 
