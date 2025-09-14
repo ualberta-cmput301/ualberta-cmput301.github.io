@@ -208,6 +208,13 @@ https://ualberta-cmput301.github.io/general/resources.html
 **Statement of Expectations for AI Use:**  
 You MUST not submit work by LLMs as your own, that is plagiarism. This also applies to other "AI" and Generative Models: ChatGPT, Lex, Page, DALL-E2, Google BARD/Gemini, Microsoft Bing/Copilot, and others. If you use LLMs you must cite it. This includes the corporation that made the AI, the AI, Subject, and Date. For example:
 
+```
+// The following function is from Microsoft, Copilot, "How do I write a merge sort in JavaScript?", 2023-08-31
+
+function mergeSort(array) {
+```
+
+
 If you use LLMs you must cite it, but it's probably better to Google what it tells you and find a real citation because:
 
 **LLMs like ChatGPT are wrong a lot.** It does not understand computer science. It understands how to form sentences and paragraphs well enough to be convincing, but it doesn't actually understand what anything it is saying means. When it has the choice between two answers, with opposite meanings, it will pick the answer that looks more like things it has seen before, not the answer that is more correct. This means you need to double-check that what it tells you is actually correct.
