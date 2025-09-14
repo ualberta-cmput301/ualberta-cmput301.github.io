@@ -24,6 +24,25 @@ You should prepare a cheat sheet:
 - Can not be shared, each cheat sheet has to be created individually.
 - You will not get the cheat sheet back.
 
+## 2025 Times
+
+50 minute exams:
+
+- Midterm 1
+    - A1/EA1 September 26, 2025 10:00 AM
+    - A2/EA2 September 26, 2025 11:00 AM
+    - A3/EA3 September 26, 2025 12:00 PM (NOON)
+
+- Midterm 2
+    - A1/EA1 October 24, 2025 10:00 AM
+    - A2/EA2 October 24, 2025 11:00 AM
+    - A3/EA3 October 24, 2025 12:00 PM (NOON)
+
+- Midterm 3
+    - A1/EA1 December 5, 2025 10:00 AM
+    - A2/EA2 December 5, 2025 11:00 AM
+    - A3/EA3 December 5, 2025 12:00 PM (NOON)
+
 
 
 ### Topics

@@ -125,16 +125,37 @@ As part of the learning experience in this course, you will be required to under
 | :---- | ----- | ----- | ----- |
 | Participation | 8% | Solo Effort | Most Lectures |
 | Labs | 5% | Consultation | Fridays 5:00pm |
-| Assignment 0 | 1% | Consultation | \~ Week 3 |
-| Project Part 0 | 1% | Teamwork | \~ Week 3 |
-| Assignment 1 | 8% | Consultation | \~ Week 4 |
-| Project Part 1 | 1% | Teamwork | \~ Week 4 |
-| Project Part 2 | 5% | Teamwork | \~ Week 6 |
-| Project Part 3 | 10% | Teamwork | \~ Week 9 |
-| Project Part 4 | 16% | Teamwork | \~ Week 13 |
-| Midterms | 15% x 3 \= 45% | Confidential | MT1 \~ Week  4 MT2 \~ Week  8 MT3 \~ Week 14 |
+| Assignment 0 | 1% | Consultation | \~ Week 3 - 2025-09-19 5pm |
+| Project Part 0 | 1% | Teamwork | \~ Week 3 - 2025-09-19 5pm |
+| Assignment 1 | 8% | Consultation | \~ Week 4 - 2025-10-01 5pm|
+| Project Part 1 | 1% | Teamwork | \~ Week 4 - 2025-09-30 5pm |
+| Project Part 2 | 5% | Teamwork | \~ Week 6 -  2025-10-14 5pm|
+| Project Part 3 | 10% | Teamwork | \~ Week 9 - 2025-11-07 5pm |
+| Project Part 4 | 16% | Teamwork | \~ Week 13 - 2025-12-01 5pm |
+| Midterms | 15% x 3 \= 45% | Confidential | MT1 \~ Week  4 2025-09-26 MT2 \~ Week  8 2025-10-24 MT3 \~ Week 14 2025-12-05 |
 
 Grades are unofficial until approved by the Department and/or Faculty offering the course.
+
+**Midterm Dates**
+
+50 minute exams at:
+
+- Midterm 1
+    - A1/EA1 September 26, 2025 10:00 AM
+    - A2/EA2 September 26, 2025 11:00 AM
+    - A3/EA3 September 26, 2025 12:00 PM (NOON)
+
+- Midterm 2
+    - A1/EA1 October 24, 2025 10:00 AM
+    - A2/EA2 October 24, 2025 11:00 AM
+    - A3/EA3 October 24, 2025 12:00 PM (NOON)
+
+- Midterm 3
+    - A1/EA1 December 5, 2025 10:00 AM
+    - A2/EA2 December 5, 2025 11:00 AM
+    - A3/EA3 December 5, 2025 12:00 PM (NOON)
+
+
 
 **Re-examination:**   
 There is no possibility of a re-examination in this course.
@@ -311,6 +332,31 @@ All suspected cases of plagiarism and other forms of cheating are immediately re
 
 **Citations:**  
 If you include code or ideas from someone who isn't you (including from a Generative AI or LLM) you must cite it. Here are examples of an appropriate citation:
+
+```
+// The following function is from Microsoft, Copilot, "How do I write a merge sort in JavaScript?", 2023-08-31
+
+function mergeSort(array) {
+```
+
+To cite something written by an entity such as a real person you must include the name of the author, the name of the resource, directions to the resource (like a URL). 
+
+```
+/* This function was made by Gerald <gerald@example.com> in lib/X.c at https://example/libX/src/lib/X.c 2015 */
+
+void scrambleEggs() {
+```
+
+Stackoverflow recommends you cite the author, the license, the title of the question, the url to the answer.
+
+```
+/* Author: Felix Too https://stackoverflow.com/users/4083076/felix-too   
+   Title: "Failed to install the following Android SDK packages as some licences have not been accepted" error
+   Answer: https://stackoverflow.com/a/55641042
+   Date: 2019-04-11
+   License: CC-BY-SA 4.0 (International)
+*/
+```
 
 **Collaboration policy definitions:**  
 The following are definitions for the different collaboration policies used in this course
