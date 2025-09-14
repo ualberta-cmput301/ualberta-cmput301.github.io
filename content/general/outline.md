@@ -350,7 +350,8 @@ void scrambleEggs() {
 Stackoverflow recommends you cite the author, the license, the title of the question, the url to the answer.
 
 ```
-/* Author: Felix Too https://stackoverflow.com/users/4083076/felix-too   
+/* 
+   Author: Felix Too https://stackoverflow.com/users/4083076/felix-too
    Title: "Failed to install the following Android SDK packages as some licences have not been accepted" error
    Answer: https://stackoverflow.com/a/55641042
    Date: 2019-04-11
