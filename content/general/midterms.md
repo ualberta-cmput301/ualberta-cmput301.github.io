@@ -19,7 +19,7 @@ is allowed. Solo and Confidential.
 
 You should prepare a cheat sheet:
 
-- 1 sheet single sided.
+- 1 sheet double sided - US LETTER SIZE ONLY (8.5 inches by 11 inches)
 - Does not need to be hand written, but should be so you learn better.
 - Can not be shared, each cheat sheet has to be created individually.
 - You will not get the cheat sheet back.
