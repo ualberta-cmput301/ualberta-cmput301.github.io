@@ -261,9 +261,12 @@ Participation exercises will be available at most lectures.
 The 6 lowest marks for lecture participation will be dropped when calculating the course mark. No late participation will be accepted. Failure to complete a participation exercise on time for any reason will result in a mark of zero. Please note that you can miss 6 lectures without penalty.
 
 **Missed Assignments, Project Parts, Quizzes, Midterm Exams:**  
-A student who cannot complete an assignment, project part, quiz, or midterm exam, due to incapacitating illness, severe domestic affliction or other compelling reasons must contact the instructor within two business days of missing the assessment, or as soon as possible, to request an excused absence using the absence form. If an excused absence is granted, then weight will be split and shared over the other Midterm exams. An excused absence is a privilege and not a right. There is no guarantee that an absence will be excused. Misrepresentation of facts to gain an excused absence is a serious breach of the Student Academic Integrity Policy. In all cases, instructors may request adequate documentation to substantiate the reason for the absence at their discretion.
+A student who cannot complete an assignment, project part, quiz, or midterm exam, due to incapacitating illness, severe domestic affliction or other compelling reasons must contact the instructor within two business days of missing the assessment, or as soon as possible, to request an excused absence using the absence form. If an excused absence is granted, then the deliverable weight will be split and shared over the Midterm exams. If a Midterm exam is missed, then its weight will be split and shared over the other Midterm exams. An excused absence is a privilege and not a right. There is no guarantee that an absence will be excused. Misrepresentation of facts to gain an excused absence is a serious breach of the Student Academic Integrity Policy. In all cases, instructors may request adequate documentation to substantiate the reason for the absence at their discretion.
 
 Failure to complete an assignment or contribute to a project part without an excused absence will result in a raw score of zero or a proportional score reduction.
+
+**Additional information regarding missed Midterm Exams:**
+If Midterm 3 is missed, then it will be replaced by a deferred exam that will include an oral examination component. The time of this deferred + oral exam will be determined individually between student and instructor. 
 
 ---
 
