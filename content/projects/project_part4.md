@@ -78,18 +78,16 @@ No part marks, no extra marks. No half marks.
     - Incomplete. Missing important components.
     - Or no submission
 
-- Poor (4)
-    - A project that effort has been put into and doesn't meet the requirements described. Most deliverable points have been met.
-
-- Unsatisfactory (5)
+- Unsatisfactory (8)
     - A project submission that is missing components. Inconsistency is key. Missing important test cases. Lack of planning or adherence. Lack of attendance etc. Must demonstrate clear understanding of purpose and rationale behind deliverables.
-
-- Satisfactory (6)
+    - A project that effort has been put into and doesn't meet the requirements described. Most deliverable points have been met.
+    
+- Satisfactory (11)
     - A project submission that is missing minor components and contains some rough elements, but is NOT missing anything major. 
 
-- Good (7)
+- Good (14)
     - A not-quite excellent submission that meets the majority of all the requirements without problem.
 
-- Excellent (8)
+- Excellent (16)
     - A excellent submission that meets the all the requirements without problem.
     - A flawless project that meets the requirements described. 
