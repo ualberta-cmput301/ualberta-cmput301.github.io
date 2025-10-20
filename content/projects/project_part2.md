@@ -64,7 +64,6 @@ No part marks, no extra marks. No half marks.
 - Failure (0) : 
     - Incomplete. Missing important components.
     - Or no submission
-    - A project that effort has been put into and doesn't meet the requirements described. Most deliverable points have been met.
 
 - Unsatisfactory (2)
     - A project submission that is missing components. Inconsistency is key. Missing important test cases. Lack of planning or adherence. Lack of attendance etc. Must demonstrate clear understanding of purpose and rationale behind deliverables.
