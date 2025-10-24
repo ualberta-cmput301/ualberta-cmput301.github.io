@@ -28,6 +28,7 @@ This material is provided as extra study material ONLY.
 
 You must be authenticated with your @ualberta.ca Google account to access the links.
 
+* [W24 Midterm Videos](https://ualberta.yuja.com/V/PlayList?node=7070384&a=1729555872)
 * [W22 Midterm Videos](https://ualberta.yuja.com/V/PlayList?node=5979298&a=1449554772)
 * [Winter 2022 Labs](https://drive.google.com/drive/folders/109xOY3KrpAWL65nvRynCtqtVFxBS1OYD?usp=sharing)
 * [Winter 2022 Lectures - Hindle](https://ualberta.yuja.com/V/PlayList?node=5978106&a=145710921)
