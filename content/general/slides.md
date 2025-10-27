@@ -114,6 +114,7 @@ Reading: [Course notes]({filename}/general/resources.md#course-notes) part 2
 
 Reading: [Course notes]({filename}/general/resources.md#course-notes) part 1 pages ~73-76!
 
+* [Sequence Diagrams - Campbell]({attach}slides/Sequence-Diagrams.pdf)
 * [Sequence Diagrams - Campbell]({attach}slides/050sequenceDiagrams-campbell.pdf)
 * [Sequence Diagram Draft Slides (4up)]({attach}slides/Sequence_Diagram_4up.pdf)
 * [Sequence Diagram Draft Slides (1up)]({attach}slides/Sequence_Diagram_1up.pdf)
