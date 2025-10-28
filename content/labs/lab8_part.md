@@ -24,7 +24,7 @@ In this lab, we will learn about test driven development (TDD) and continuous in
 
 # Lab 8 Instructions
 
-* [Lab 8 Instructions]({attach}/labs/slides/Lab8_Instructions.pdf)
+* [Lab 8 Instructions]({attach/labs/slides/Lab8_Instructions})
 
 # Lab 8 Participation Exercise
 
