@@ -16,7 +16,7 @@ In this lab, we will learn about test driven development (TDD) and continuous in
 ## Updated Slides
 
 - These slides are based on the original slides posted below, but have a couple more diagrams and a more concise format. If you want to read more about the topic, check out the original slides.
-- [Lab 8 Updated Slides]({attach}/labs/slides/Lab_8_Updated_Slides_Fall_2024.pptx)
+- [Lab 8 Updated Slides]({attach}/labs/slides/Lab_8_Updated_Slides_Fall_2024.pptx) 
 
 ## Original Slides
 
@@ -24,7 +24,7 @@ In this lab, we will learn about test driven development (TDD) and continuous in
 
 # Lab 8 Instructions
 
-* [Lab 8 Instructions]({attach}/labs/slides/Lab8_Instructions.pdf)
+* [Lab 8 Instructions]({attach}slides/Lab8_Instructions.pdf)
 
 # Lab 8 Participation Exercise
 
