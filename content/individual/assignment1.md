@@ -39,6 +39,7 @@ over a specified period.
         for each day, including total counts and frequencies.
     -   **User-Friendly Interface:** The app must provide a simple and
         attractive user interface to enhance ease of use.
+    -   **Note:** Your app does not need to have a database with database persistence. Session persistence is fine.
 
 2.  Deliverables:
 
