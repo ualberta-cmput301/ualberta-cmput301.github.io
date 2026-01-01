@@ -96,7 +96,7 @@ TAs are not allowed to change your marks. If you disagree with your marks, [cont
 ## Instructor Office Hours
 
 * <span style="font-size: 200%">🔗</span> [Instructor office hours]({filename}/general/outline.md#contact-information) are in the course outline.
-* Do not email instructor, use the [Contact instructor form](#contact-instructor), instead.
+<-- * Do not email instructor, use the [Contact instructor form](#contact-instructor), instead. -->
 
 ## TAs
 
