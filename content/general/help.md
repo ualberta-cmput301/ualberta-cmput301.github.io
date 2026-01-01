@@ -87,7 +87,7 @@ Unless your question is personal (E.g., you are feeling unwell and require an EA
 
 If your question is related to implementation/configuration issues in the projects/assignments, the TAs are best suited to help you. You can attend TA office hours remotely. **TAs do not provide help outside of Labs and Scheduled Office Hours.**
 
-<span style="font-size: 200%">🔗</span> [TA office hours are on Canvas.](https://eclass.srv.ualberta.ca/mod/page/view.php?id=8129757)
+<span style="font-size: 200%">🔗</span> TA office hours are on Canvas.
 
 If your question is related to content covered in class, and you need further explanation, please post on the discussion forum.
 
