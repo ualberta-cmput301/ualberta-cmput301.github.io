@@ -25,7 +25,7 @@ We will not tolerate harassment, bullying, threats, intimidation, insults, lying
     * Missed final exam:
         * Request a deferred exam from your faculty (Faculty of Science, Faculty of Arts, Faculty of Business, etc.)
     * Missed assignment/lab/project/quiz/lecture... everything except final exam:
-        * Fill in the <span style="font-size: 200%">🔗</span> [absence declaration form](https://docs.google.com/forms/d/e/1FAIpQLSc46vVniYGEfExsi_fA_VlSc7_bjeT5Ve4-Jjcazwqb47SXOQ/viewform?usp=dialog) within 2 days of absence.
+        * Fill in the <span style="font-size: 200%">🔗</span> [absence declaration form](https://docs.google.com/forms/d/e/1FAIpQLSdpxFcBlBWJOznUNiK3QN5KSfCyvQzcl6U6joHgfHiYgThk2g/viewform?usp=dialog) within 2 days of absence.
 * Extensions
     * No individual extensions are ever granted for any reason.
 
@@ -79,8 +79,6 @@ Unless your question is personal (E.g., you are feeling unwell and require an EA
 * Be polite, this is not a complaint forum.
 * Follow the [online etiquette guidelines]({attach}online_etiquette_guidelines.pdf).
 
-<span style="font-size: 200%">🔗</span> [The discussion forum is on canvas.](https://canvas.ualberta.ca/courses/28550/discussion_topics)
-
 # Labs Office Hours
 
 * You can get help **during the labs!**
@@ -88,6 +86,8 @@ Unless your question is personal (E.g., you are feeling unwell and require an EA
 * You can attend the office hours of your instructor.
 
 If your question is related to implementation/configuration issues in the projects/assignments, the TAs are best suited to help you. You can attend TA office hours remotely. **TAs do not provide help outside of Labs and Scheduled Office Hours.**
+
+<span style="font-size: 200%">🔗</span> [TA office hours are on Canvas.](https://eclass.srv.ualberta.ca/mod/page/view.php?id=8129757)
 
 If your question is related to content covered in class, and you need further explanation, please post on the discussion forum.
 
@@ -102,13 +102,11 @@ TAs are not allowed to change your marks. If you disagree with your marks, [cont
 
 **If you need help with your projects/assignment code, or help to get something working, the TAs are best suited to help you.**
 
-* You can attend TA office hours remotely.
-* **Do not email TAs,** unless you're having a hard time joining their Zoom/Meet.
+* You can attend TA office hours remotely if offered by the TA.
+* **Do not email TAs,** unless you're having a hard time joining their Zoom/Meet, or finding where they are during their office hours.
 * TAs do not provide help outside of Labs and Scheduled Office Hours.
 * Please be polite and courteous.
 * TAs will not re-grade your work or deal with extensions, excuses, illness, etc.
-
-<!-- <span style="font-size: 200%">🔗</span> [TA office hours are on the eClass.](https://eclass.srv.ualberta.ca/mod/page/view.php?id=8129757) -->
 
 # Contact Instructor
 
