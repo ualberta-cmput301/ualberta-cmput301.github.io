@@ -22,7 +22,7 @@ save_as: index.html
 
 # Schedule 
 
-**You need to be logged in as your University of Alberta CCID/email account to view it.** The course schedule is updated in this [Google Sheet](https://docs.google.com/spreadsheets/d/1gO5NVjIeFrZOCFB-GnHLilNUxzPuu12ijRkGhwfJ_6M/edit?usp=sharing). Please remember that this is only a plan, and sometimes plans change.
+**You need to be logged in as your University of Alberta CCID/email account to view it.** The course schedule is updated in the link on Canvas. Please remember that this is only a plan, and sometimes plans change.
 
 # Canvas
 
