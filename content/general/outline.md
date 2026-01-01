@@ -16,25 +16,24 @@ summary: Lecture, Labs, Contact Information, Lecturer, Teaching Assistants, Cour
 **![][image1]**
 
 **CMPUT 301: Introduction to Software Engineering**  
-**Sections: A1, A2, A3**  
-**Fall 2025**
+**Sections: B1, B2**  
+**Winter 2026**
 
-**Instructor:** Abram Hindle  
-**Office:**	UComm   
-**E-mail:** [hindle1@ualberta.ca](mailto:hindle1@ualberta.ca)  
-**Web Page: [https://softwareprocess.ca/](https://softwareprocess.ca/)** 
-
-**Office Hours: Immediately after class and by appointment.**
-
-**Lecture Room & Time:** LEC A2 \- ETLC E1-017 (MWF 11:00am \- 11:50am)  
-			    LEC A3 \- ETLC E1-017 (MWF 12:00pm \- 12:50pm)  
 **Instructor:** Henry Tang  
 **Office:**	UComm 6-256  
 **E-mail:** hktang@ualberta.ca
 
 **Office Hours:** Thursdays 11:00am \- 2:00pm
 
-**Lecture Room & Time:** LEC A1 \- ED N 2-115 (MWF 10:00am \- 10:50am)
+**Lecture Room & Time:** LEC B1 \- ETLC E1-017 (MWF 10:00am \- 10:50am)
+**Instructor:** Zhou Yang
+**Office:**	UComm   
+**E-mail:** [zy25@ualberta.ca](mailto:zy25@ualberta.ca)  
+**Web Page: ** 
+
+**Office Hours:** Mondays 2:00pm \- 5:00pm
+
+**Lecture Room & Time:** LEC B2 \- CCIS L2-200 (MWF 11:00am \- 11:50am)
 
 **Teaching Assistant(s):** Available on the course webpage  
 
@@ -125,14 +124,14 @@ As part of the learning experience in this course, you will be required to under
 | :---- | ----- | ----- | ----- |
 | Participation | 8% | Solo Effort | Most Lectures |
 | Labs | 5% | Consultation | Fridays 5:00pm |
-| Assignment 0 | 1% | Consultation | \~ Week 3 - 2025-09-19 5pm |
-| Project Part 0 | 1% | Teamwork | \~ Week 3 - 2025-09-19 5pm |
-| Assignment 1 | 8% | Consultation | \~ Week 4 - 2025-10-01 5pm|
-| Project Part 1 | 1% | Teamwork | \~ Week 4 - 2025-09-30 5pm |
-| Project Part 2 | 5% | Teamwork | \~ Week 6 -  2025-10-14 5pm|
-| Project Part 3 | 10% | Teamwork | \~ Week 9 - 2025-11-07 5pm |
-| Project Part 4 | 16% | Teamwork | \~ Week 13 - 2025-12-01 5pm |
-| Midterms | 15% x 3 \= 45% | Confidential | MT1 \~ Week  4 2025-09-26 MT2 \~ Week  8 2025-10-24 MT3 \~ Week 14 2025-12-05 |
+| Assignment 0 | 1% | Consultation | \~ Week 3 - 2026-01-23 5pm |
+| Project Part 0 | 1% | Teamwork | \~ Week 3 - 2026-01-23 5pm |
+| Assignment 1 | 8% | Consultation | \~ Week 4 - 2026-02-04 5pm|
+| Project Part 1 | 1% | Teamwork | \~ Week 4 - 2026-02-03 5pm |
+| Project Part 2 | 5% | Teamwork | \~ Week 6 -  2026-02-23 5pm|
+| Project Part 3 | 10% | Teamwork | \~ Week 9 - 2026-03-13 5pm |
+| Project Part 4 | 16% | Teamwork | \~ Week 13 - 2026-04-06 5pm |
+| Midterms | 15% x 3 \= 45% | Confidential | MT1 2026-01-30 MT2 2026-03-06 MT3 2026-04-10 |
 
 Grades are unofficial until approved by the Department and/or Faculty offering the course.
 
@@ -141,21 +140,16 @@ Grades are unofficial until approved by the Department and/or Faculty offering t
 50 minute exams at:
 
 - Midterm 1
-    - A1/EA1 September 26, 2025 10:00 AM
-    - A2/EA2 September 26, 2025 11:00 AM
-    - A3/EA3 September 26, 2025 12:00 PM (NOON)
+    - B1/EB1 January 30, 2025 10:00 AM
+    - B2/EB2 January 30, 2025 11:00 AM
 
 - Midterm 2
-    - A1/EA1 October 24, 2025 10:00 AM
-    - A2/EA2 October 24, 2025 11:00 AM
-    - A3/EA3 October 24, 2025 12:00 PM (NOON)
+    - B1/EB1 March 6, 2025 10:00 AM
+    - B2/EB2  March 6, 2025 11:00 AM
 
 - Midterm 3
-    - A1/EA1 December 5, 2025 10:00 AM
-    - A2/EA2 December 5, 2025 11:00 AM
-    - A3/EA3 December 5, 2025 12:00 PM (NOON)
-
-
+    - B1/EB1 April 10, 2025 10:00 AM
+    - B2/EB2 April 10, 2025 11:00 AM
 
 **Re-examination:**   
 There is no possibility of a re-examination in this course.
@@ -182,24 +176,6 @@ This table reflects the GPA Point Value and Descriptor (e.g., Excellent, Good) f
 | Failure | F or F4 | 0.0 |
 
 Note: F4 denotes eligibility of a student to apply for a re-examination in a course.
-
-**Course Grades Obtained by Graduate Students:**  
-This table reflects the GPA Point Value and Descriptor (e.g., Excellent, Good) for each Letter Grade.
-
-| Descriptor | Letter Grade | Grade Point Value |
-| :---- | :---- | :---- |
-| Excellent | A+ | 4.0 |
-| Excellent | A  | 4.0 |
-| Excellent | A- | 3.7 |
-| Good | B+ | 3.3 |
-| Good | B  | 3.0 |
-| Satisfactory | B- | 2.7 |
-| Satisfactory | C+ | 2.3 |
-| Failure | C  | 2.0 |
-| Failure | C- | 1.7 |
-| Failure | D+ | 1.3 |
-| Failure | D  | 1.0 |
-| Failure | F  | 0.0 |
 
 **Access to Past or Representative Evaluative Material:**
 Past materials are located on the CMPUT 301 GitHub webpage:
@@ -510,9 +486,8 @@ Policy about course outlines can be found in the [Academic Regulations, Evaluati
 Any typographical errors in this syllabus are subject to change and will be announced in class and/or posted on the course website. The date of final examinations is set by the Registrar and takes precedence over the final examination date reported in the syllabus.
 
 **Copyright**:
-
-* Dr. Abram Hindle, Department of Computing Science, Faculty of Science, University of Alberta (2025).  
-* Mr. Henry Tang, Department of Computing Science, Faculty of Science, University of Alberta (2025).  
+* Dr. Zhou Yang and Mr. Henry Tang, Department of Computing Science, Faculty of Science, University of Alberta (2026).
+* Dr. Abram Hindle and Mr. Henry Tang, Department of Computing Science, Faculty of Science, University of Alberta (2025).
 * Dr. Hazel Victoria Campbell, Department of Computing Science, Faculty of Science, University of Alberta (2024).  
 * Dr. Ken Wong, Department of Computing Science, Faculty of Science, University of Alberta (2023).
 
