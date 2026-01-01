@@ -9,7 +9,7 @@ summary: Lecture, Labs, Contact Information, Lecturer, Teaching Assistants, Cour
 
 # WORK IN PROGRESS SYLLABUS (NOT FINALIZED)
 
-<h2>University of Alberta <br> CMPUT 301 - Software Engineering <br> LEC A1 EA1 B2 EB2 <br> Winter 2026</h2>
+<h2>University of Alberta <br> CMPUT 301 - Software Engineering <br> LEC B1 EB1 B2 EB2 <br> Winter 2026</h2>
 
 [TOC]
 
