@@ -26,7 +26,7 @@ save_as: index.html
 
 # Canvas
 
-[The current Canvas page is here.](https://canvas.ualberta.ca/courses/28550)
+[The current Canvas page is here.](https://canvas.ualberta.ca/courses/31325)
 
 * Grades
 * Submissions
@@ -35,7 +35,7 @@ save_as: index.html
 
 ## News & Notices
 
-[The latest news and notices for students.](https://canvas.ualberta.ca/courses/28550/announcements)
+The latest news and notices for students is on Canvas.
 Check this regularly!
 
 # More Stuff
