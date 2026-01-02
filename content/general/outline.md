@@ -21,15 +21,15 @@ summary: Lecture, Labs, Contact Information, Lecturer, Teaching Assistants, Cour
 
 **Instructor:** Henry Tang  
 **Office:**	UComm 6-256  
-**E-mail:** hktang@ualberta.ca
+**E-mail:** [hktang@ualberta.ca](mailto:hktang@ualberta.ca)
 
-**Office Hours:** Thursdays 11:00am \- 2:00pm
+**Office Hours:** Tuesdays 9:00am \- 12:00pm
 
 **Lecture Room & Time:** LEC B1 \- ETLC E1-017 (MWF 10:00am \- 10:50am)
 **Instructor:** Zhou Yang
-**Office:**	UComm   
+**Office:**	UComm 7-235
 **E-mail:** [zy25@ualberta.ca](mailto:zy25@ualberta.ca)  
-**Web Page: ** 
+**Web Page:** https://homepage.zhouyang.me/
 
 **Office Hours:** Mondays 2:00pm \- 5:00pm
 
