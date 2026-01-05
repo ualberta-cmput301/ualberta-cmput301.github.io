@@ -89,7 +89,7 @@ You may assume that any code examples we provide to you are public domain and fr
 See the resources page on the course webpage.
 
 **Course Schedule & Assigned Readings:**  
-See the online live schedule here: [https://docs.google.com/spreadsheets/d/1gO5NVjIeFrZOCFB-GnHLilNUxzPuu12ijRkGhwfJ\_6M/edit?gid=0\#gid=0](https://docs.google.com/spreadsheets/d/1gO5NVjIeFrZOCFB-GnHLilNUxzPuu12ijRkGhwfJ_6M/edit?gid=0#gid=0) 
+See the online live schedule [here.](https://docs.google.com/spreadsheets/d/1awMqnl2uY4yssJabl7fHCgAR0qveVfrnyCARCdCFYno/edit?gid=0#gid=0) 
 
 **Other Course Fees:**  
 Students will be required to use the online service Firebase in order to complete the coursework and course project. The expected fees are $0, however, Firebase may assess fees if storage, bandwidth, user, or operation limits are exceeded. One member of the group will be required to supply payment information. It is the responsibility of the student to pay for any Firebase charges. If you are unable to pay these fees, you must contact your TA and instructor immediately. 
