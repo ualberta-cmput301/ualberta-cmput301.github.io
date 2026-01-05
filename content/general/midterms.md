@@ -26,24 +26,19 @@ You should prepare a cheat sheet:
 
 ## 2025 Times
 
-50 minute exams:
+50 minute exams at:
 
 - Midterm 1
-    - A1/EA1 September 26, 2025 10:00 AM
-    - A2/EA2 September 26, 2025 11:00 AM
-    - A3/EA3 September 26, 2025 12:00 PM (NOON)
+    - B1/EB1 January 30, 2026 10:00 AM
+    - B2/EB2 January 30, 2026 11:00 AM
 
 - Midterm 2
-    - A1/EA1 October 24, 2025 10:00 AM
-    - A2/EA2 October 24, 2025 11:00 AM
-    - A3/EA3 October 24, 2025 12:00 PM (NOON)
+    - B1/EB1 March 6, 2026 10:00 AM
+    - B2/EB2  March 6, 2026 11:00 AM
 
 - Midterm 3
-    - A1/EA1 December 5, 2025 10:00 AM
-    - A2/EA2 December 5, 2025 11:00 AM
-    - A3/EA3 December 5, 2025 12:00 PM (NOON)
-
-
+    - B1/EB1 April 10, 2026 10:00 AM
+    - B2/EB2 April 10, 2026 11:00 AM
 
 ### Topics
 
