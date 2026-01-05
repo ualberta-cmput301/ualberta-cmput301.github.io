@@ -24,7 +24,7 @@ You should prepare a cheat sheet:
 - Can not be shared, each cheat sheet has to be created individually.
 - You will not get the cheat sheet back.
 
-## 2025 Times
+## 2026 Times
 
 50 minute exams at:
 
