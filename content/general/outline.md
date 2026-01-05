@@ -23,7 +23,7 @@ summary: Lecture, Labs, Contact Information, Lecturer, Teaching Assistants, Cour
 **Office:**	UComm 6-256  
 **E-mail:** [hktang@ualberta.ca](mailto:hktang@ualberta.ca)
 
-**Office Hours:** Tuesdays 9:00am \- 12:00pm
+**Office Hours:** Tuesdays 9:00am \- 12:00pm (Starting week 2)
 
 **Lecture Room & Time:** LEC B1 \- ETLC E1-017 (MWF 10:00am \- 10:50am)  
 **Instructor:** Zhou Yang  
@@ -31,7 +31,7 @@ summary: Lecture, Labs, Contact Information, Lecturer, Teaching Assistants, Cour
 **E-mail:** [zy25@ualberta.ca](mailto:zy25@ualberta.ca)  
 **Web Page:** https://homepage.zhouyang.me/  
 
-**Office Hours:** Mondays 2:00pm \- 5:00pm
+**Office Hours:** Mondays 2:00pm \- 5:00pm (Starting week 2)
 
 **Lecture Room & Time:** LEC B2 \- CCIS L2-200 (MWF 11:00am \- 11:50am)
 
