@@ -29,7 +29,7 @@ Your team is expected to use GitHub for a git repository and wiki to share, mana
 
 # **Submission Procedure**
 
-One team member uses [the Google form](https://docs.google.com/forms/d/e/1FAIpQLSdmZahdbZP_IIdMw4zPaoOxRiuvXmsoj9vT5MwlyWdLlJJMyw/viewform?usp=dialog) to submit project part 1.
+One team member uses [the Google form](https://docs.google.com/forms/d/e/1FAIpQLSfR2zLaN2euIFYJmWUCJ3kV1QHAenYu6djOPgabSyFCW9u6-A/viewform?usp=dialog) to submit project part 1.
 
 # **Hints**
 
