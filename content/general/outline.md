@@ -25,11 +25,11 @@ summary: Lecture, Labs, Contact Information, Lecturer, Teaching Assistants, Cour
 
 **Office Hours:** Tuesdays 9:00am \- 12:00pm
 
-**Lecture Room & Time:** LEC B1 \- ETLC E1-017 (MWF 10:00am \- 10:50am)
-**Instructor:** Zhou Yang
-**Office:**	UComm 7-235
+**Lecture Room & Time:** LEC B1 \- ETLC E1-017 (MWF 10:00am \- 10:50am)  
+**Instructor:** Zhou Yang  
+**Office:**	UComm 7-235  
 **E-mail:** [zy25@ualberta.ca](mailto:zy25@ualberta.ca)  
-**Web Page:** https://homepage.zhouyang.me/
+**Web Page:** https://homepage.zhouyang.me/  
 
 **Office Hours:** Mondays 2:00pm \- 5:00pm
 
@@ -140,16 +140,16 @@ Grades are unofficial until approved by the Department and/or Faculty offering t
 50 minute exams at:
 
 - Midterm 1
-    - B1/EB1 January 30, 2025 10:00 AM
-    - B2/EB2 January 30, 2025 11:00 AM
+    - B1/EB1 January 30, 2026 10:00 AM
+    - B2/EB2 January 30, 2026 11:00 AM
 
 - Midterm 2
-    - B1/EB1 March 6, 2025 10:00 AM
-    - B2/EB2  March 6, 2025 11:00 AM
+    - B1/EB1 March 6, 2026 10:00 AM
+    - B2/EB2  March 6, 2026 11:00 AM
 
 - Midterm 3
-    - B1/EB1 April 10, 2025 10:00 AM
-    - B2/EB2 April 10, 2025 11:00 AM
+    - B1/EB1 April 10, 2026 10:00 AM
+    - B2/EB2 April 10, 2026 11:00 AM
 
 **Re-examination:**   
 There is no possibility of a re-examination in this course.
