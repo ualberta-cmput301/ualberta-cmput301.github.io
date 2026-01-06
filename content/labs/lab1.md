@@ -199,7 +199,7 @@ The following walkthrough can also be found in this [GitHub Repository](https://
 
 # Submission
 
-Canvas
+Submit the repository link to Canvas
 
 Note: Running the project is not necessary.
 
