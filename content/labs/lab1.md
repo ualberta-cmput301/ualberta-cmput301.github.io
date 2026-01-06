@@ -11,7 +11,9 @@ summary: Lab 1 -- Java, OOP, Android Studio
 
 # Lab 1 Slides
 
-* [Lab 1 Slides]({attach}slides/CMPUT_301_LAB_1.pdf)
+* [Lab 1 Slides]({attach}slides/CMPUT301_W26_Lab_1.pdf)
+
+# CMPUT 301 W26 - Lab 1: Java, OOP, and Android Studio!
 
 ## 1. Setup Instructions
 
@@ -22,6 +24,8 @@ summary: Lab 1 -- Java, OOP, Android Studio
 3. Refer to the lab 1 slides for more information.
 
 ## 2. Walkthrough
+
+The following walkthrough can also be found in this [GitHub Repository](https://github.com/cmput301-w26/lab-01/blob/main/lab-description.md). Fork this repository for the submission of the Lab exercise.
 
 1. Create a new `PetShop` project on Android Studio (File > New > New Project > Select "Empty Views Activity").
 
@@ -34,6 +38,7 @@ summary: Lab 1 -- Java, OOP, Android Studio
     - `String name`
     - `Date birthDate`
     - use Alt + Enter (Windows) or Option + Return (Mac) to import any packages
+    - Java coding conventions declares that all attributes are `private` by default
 
     > [!IMPORTANT]
     > Access modifiers:
@@ -61,7 +66,7 @@ summary: Lab 1 -- Java, OOP, Android Studio
 
 6. Generate getters and setters for the `Pet` class.
 
-    - Right-click -> Generate -> Getter and Setter -> Shift + right-click all attributes -> Ok
+    - Right-click -> Generate -> Getter and Setter -> Shift + Right-click all attributes -> Ok
 
 7. Create a `Cat` child class that extends the `Pet` class.
 
@@ -75,11 +80,6 @@ summary: Lab 1 -- Java, OOP, Android Studio
     ```
 
     - `super()` calls the parent's constructor (there is a hidden call to Object's constructor).
-    - Change the `Pet` to a `Cat` in MainActivity.
-
-    ```java
-    Cat cat = new Cat("Lucy");
-    ```
 
 8. Make the Pet Class Abstract
 
@@ -90,6 +90,12 @@ summary: Lab 1 -- Java, OOP, Android Studio
 
     > [!NOTE]
     > Abstract classes cannot be instantiated directly - they can only be used as base classes for inheritance. You must create concrete subclasses to create objects.
+
+    - Change the `Pet` to a `Cat` in MainActivity.
+
+    ```java
+    Cat cat = new Cat("Lucy");
+    ```
 
     - Add an abstract method for speaking in the `Pet` class. It has no implementation and must be overridden by a child classes to add functionality.
 
@@ -136,6 +142,7 @@ summary: Lab 1 -- Java, OOP, Android Studio
     - call `super()` in both of Scorpion's constructors.
     - `speak()` method should return `"hiss"`.
     - What if we want to use both in our list? (hint - implicit upcasting)
+    - Add the following to `MainActivity`:
 
     ```java
     Scorpion scorpion = new Scorpion("Scorponok");
@@ -164,10 +171,9 @@ summary: Lab 1 -- Java, OOP, Android Studio
     pettablePets.add(scorpion); // This should produce an error
     ```
 
-
 ## 3. Lab Participation Exercise
 
-1. Add three new model classes to `LonelyTwitter`:
+1. Add three new model classes to `PetShop`:
    - An abstract base class which represents the current `Mood`.
    - Two non-abstract classes which represent different moods (Ex: happy, sad, etc.) and inherit from the abstract class.
 2. Each mood should have a date, and getters and setters to access the date.
@@ -187,6 +193,9 @@ summary: Lab 1 -- Java, OOP, Android Studio
    - Abstract base classes
 7. Update the `README.md` file with your details and references/collaborators.
 8. Update the `LICENSE.md` file with your full name.
+
+> [!CAUTION]
+> Make sure to commit **and** push your code to the GitHub repository before the deadline!
 
 # Submission
 
