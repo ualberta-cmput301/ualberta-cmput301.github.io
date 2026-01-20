@@ -108,7 +108,7 @@ over a specified period.
 
     You may lose marks for any of the following:
 
-    -   files not in properly named subdirectories
+    -   **files not in properly named subdirectories**
     -   missing compiled binary APK file for the app
     -   cannot run the app after install
     -   cannot distinguish CCID from the app name
@@ -130,6 +130,7 @@ over a specified period.
     -   Store the demonstration video in the **video** directory.
     -   Keep UML documentation in the **doc** directory.
     -   Zip the **YOURCCID-EmotiLog** directory and upload.
+    -   **NOTE:** If any of the above submission steps are not followed then the misplaced file(s) will be considered "incomplete" and your grade reduced accordingly.
 
 7.  Evaluation Criteria:
 
