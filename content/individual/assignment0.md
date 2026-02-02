@@ -37,7 +37,7 @@ Use a non-lossy image format for the screenshots (like PNG with usually lossless
 
 Do not use a phone camera to take the images.
 
-Name the two screenshot files with your CCID (e.g., kennyw-1.png, kennyw-2.png). Zip the files (e.g., kennyw.zip) and upload the archive using canvas. 
+Name the two screenshot files with your CCID (e.g., kennyw-1.png, kennyw-2.png). Zip the files and name the zipfile with your CCID as well (e.g., kennyw.zip) and upload the archive using canvas. 
 
 Do not have any subdirectories inside of the ZIP file, this would constitute a mark of 0 for this assignment. Your photos should be "flat" in the ZIP file.
 
