@@ -56,6 +56,9 @@ There must be consistency across the deliverables at this checkpoint.
 
 The evaluation of this project part will also include a component called "relative quality". This is used to differentiate projects that meet the minimum from projects that go "the extra mile".
 
+11. **WOW Factor** (Optional)
+Teams can decide to add their own feature to the project (it **must be approved by their Mentor TA**). If properly and successfully implemented then it is worth an additional 2% bonus to the overall course grade.
+
 ## **Restrictions**
 Use Java, with Android, and Firestore.
 
