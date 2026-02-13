@@ -45,9 +45,9 @@ Lottery systems are great because you don’t have to be first to get a chance t
 
     + Allow event organizers upload event poster image
 
-6. Geolocation Verification (Optional)
+6. Geolocation Verification
 
-    + Optionally use geolocation to verify where users are joining the waiting list from. This is the location provided by the device.
+    + Have the option to attach a geolocation requirement to verify where users are joining the waiting list from. This is the location provided by the device.
 
 **Scenario:**
 
