@@ -209,7 +209,9 @@ US 03.07.01 As an administrator I want to remove organizers that violate app pol
 US 03.08.01 As an administrator, I want to review logs of all notifications sent to entrants by organizers.
 
 
+**WOW Factor:**
 
+[WOW Factor Description]({filename}WOW_Factor.md)
 
 
 
