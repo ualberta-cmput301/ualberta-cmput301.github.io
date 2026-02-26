@@ -211,7 +211,7 @@ US 03.08.01 As an administrator, I want to review logs of all notifications sent
 
 **WOW Factor:**
 
-[WOW Factor Description]({filename}/WOW_Factor.md)
+[WOW Factor Description]({filename}WOW_Factor.md)
 
 
 
