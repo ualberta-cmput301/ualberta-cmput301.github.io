@@ -98,8 +98,12 @@ US 01.01.02 As an entrant, I want to leave the waiting list for a specific event
 
 US 01.01.03 As an entrant, I want to be able to see a list of events that I can join the waiting list for.
 
-US 01.01.04 As an entrant, I want to filter events based on my interests and availability.
+<!--- US 01.01.04 As an entrant, I want to filter events based on my interests and availability. --->
+<mark style="background-color: lightblue">US 01.01.04 As an entrant, I want to filter events based on my availability and event capacity.</mark>
 
+<mark style="background-color: lightblue">US 01.01.05 As an entrant, I want to search for events by keyword to find events based on my interests.</mark>
+
+<mark style="background-color: lightblue">US 01.01.06 As an entrant, I want to use keyword search with filtering to narrow my event search.</mark>
 
 US 01.02.01 As an entrant, I want to provide my personal information such as name, email and optional phone number in the app
 
@@ -132,6 +136,9 @@ US 01.05.04 As an entrant, I want to know how many total entrants are on the wai
 
 US 01.05.05 As an entrant, I want to be informed about the criteria or guidelines for the lottery selection process.
 
+<mark style="background-color: lightblue">US 01.05.06 As an entrant, I want to receive a notification that I’ve been invited to join the waiting list for a private event.</mark>
+
+<mark style="background-color: lightblue">US 01.05.07 As an entrant, I want to accept or decline an invitation to join the waiting list for a private event.</mark>
 
 US 01.06.01 As an entrant I want to view event details within the app by scanning the promotional QR code.
 
@@ -141,9 +148,21 @@ US 01.07.01 As an entrant, I want to be identified by my device, so that I don't
 
 <!--- US 01.08.01 As an entrant, I want to be warned before joining a waiting list that requires geolocation. --->
 
+<mark style="background-color: lightblue">US 01.08.01 As an entrant, I want to post a comment on an event.</mark>
+
+<mark style="background-color: lightblue">US 01.08.02 As an entrant, I want to view comments on an event.</mark>
+
+<mark style="background-color: lightblue">US 01.09.01 As an entrant, I want to receive a notification if I have been invited to be a co-organizer for an event.</mark>
+
+
 **Organizer:**
 
-US 02.01.01 As an organizer I want to create a new event and generate a unique promotional QR code that links to the event description and event poster in the app.
+<!--- US 02.01.01 As an organizer I want to create a new **public** event and generate a unique promotional QR code that links to the event description and event poster in the app. --->
+<mark style="background-color: lightblue">US 02.01.01 As an organizer I want to create a new **public** event and generate a unique promotional QR code that links to the event description and event poster in the app.</mark>
+
+<mark style="background-color: lightblue">US 02.01.02 As an organizer, I want to create a private event that is not visible on the event listing and does not generate a promotional QR code.</mark>
+
+<mark style="background-color: lightblue">US 02.01.03 As an organizer, I want to invite specific entrants to a private event’s waiting list by searching via name, phone number and/or email.</mark>
 
 <!--- US 02.01.02 As an organizer I want to store the generated QR code in my database --->
 
@@ -187,6 +206,12 @@ US 02.07.02 As an organizer I want to send notifications to all selected entrant
 
 US 02.07.03 As an organizer I want to send a notification to all cancelled entrants
 
+<mark style="background-color: lightblue">US 02.08.01 As an organizer, I want to view and delete entrant comments on my event.</mark>
+
+<mark style="background-color: lightblue">US 02.08.02 As an organizer, I want to comment on my events.</mark>
+
+<mark style="background-color: lightblue">US 02.09.01 As an organizer, I want to assign an entrant as a co-organizer for my event, which prevents them from joining the entrant pool for that event.</mark>
+
 
 **Admin:**
 
@@ -208,6 +233,10 @@ US 03.07.01 As an administrator I want to remove organizers that violate app pol
 
 US 03.08.01 As an administrator, I want to review logs of all notifications sent to entrants by organizers.
 
+<mark style="background-color: lightblue">US 03.09.01 As an administrator, I should also be able to be an organizer and/or an entrant with my admin profile.</mark>
+
+<mark style="background-color: lightblue">US 03.10.01 As an administrator, I want to remove event comments that violate app policy.</mark>
+
 
 **WOW Factor:**
 
@@ -219,7 +248,6 @@ If you have a different idea than one of the suggestions below then you must app
 1. Calendar view 
     - Be able to view a calendar of all events, and all registered events based on the device’s time zone.
 2. Commenting system
-    - Be able to comment on an event
     - Can reply to a comment and make comment threads
     - React to a comment
 3. Map of all nearby events that an entrant can join the draw pool for
