@@ -1,7 +1,7 @@
 Title: Lab 2 Instructions
-date: 2024-01-06
+date: 2026-06-30
 tags: labs, policy, grading
-authors: Samuel Iwuchukwu,Hazel Victoria Campbell
+authors: Raj Prasad, Michelle Deng
 status: published
 summary: Lab 2 Instructions
 
@@ -13,9 +13,9 @@ summary: Lab 2 Instructions
 
 In Lab 2, we'll be doing the following: 
 
-Quick review of [OOP principles]({attach}slides/CMPUT_301_LAB_2_OOP_PRINCIPLES.pdf)
-Android Basics ([Lab 2 Android Basics PDF under Lab 2]({attach}slides/CMPUT_301_LAB_2_ANDROID_BASICS.pdf))
-Displaying a list of items using ListView/ListAdapter ([Lab 2 ListView Demo Example - Instructions PDF under Lab 2]({attach}slides/CMPUT_301_LAB_2_INSTRUCTIONS.pdf))
+Quick review of [OOP principles]({attach}slides/2026-Lab-2-OOP-Principles.pdf)
+Android Basics ([Lab 2 Android Basics PDF under Lab 2]({attach}slides/2026-Lab-2-Android-Basics.pdf))
+Displaying a list of items using ListView/ListAdapter ([Lab 2 ListView Demo Example - Instructions PDF under Lab 2]({attach}slides/2026-Lab-2-ListyCity-Instructions.pdf))
 Lab Exercise - adding and removing items from ListAdapter (see the Lab 2 Participation Exercise below for more details.)
 
 
@@ -23,7 +23,7 @@ Lab Exercise - adding and removing items from ListAdapter (see the Lab 2 Partici
 
 Task: Modify/Expand ListyCity to allow for the addition of new cities as well as the deletion of existing ones in the ListView. The specifics of the design of this functionality are up to you.
 
-**If you could not attend the labs or do not have the code for ListyCity, follow the instructions in Lab 2 ListView Example - Instructions.** 
+**If you could not attend the labs or do not have the code for ListyCity, follow the instructions in Lab 2 Example - Instructions.** 
 
 Hints:
 

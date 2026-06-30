@@ -1,37 +1,70 @@
 Title: Lab 4 Participation Exercise
-date: 2024-01-06
+date: 2026-06-30
 tags: labs, policy, grading
-authors: Samuel Iwuchukwu,Hazel Victoria Campbell
-status: published
+authors: Raj Prasad, Michelle Deng
+status: unpublished
 summary: Lab 4 Participation Exercise
 
 [TOC]
 
 # Lab 4 Slides
 
-[Lab 4 Slides]({attach}slides/Github_Slides.pdf)
+[Lab 4 Slides]({attach}slides/2026-Lab_4_Github.pdf)
 
 ## Extra Information
 
 ### Command Line Authentication to GitHub
 
-- In the slides, authentication with GitHub is done using a token you generate with our account.
-- GitHub has a command line tool which makes this process easier, and will generate and manage the token for you.
-- GitHub has documentation about how to do this [here](https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git).
-  - The summary of these steps is to first install the GitHub CLI, which will depend on what operating system you are using. The instructions for installation is [here](https://github.com/cli/cli#installation).
-  - Then, with the CLI tool installed, run the command `gh auth login`. The terminal will guide you through what you need to do. Please make sure to select that you want a **GitHub.com** account and want to use **SSH** as your protocol.
-  - The documentation for the authentication command is located [here](https://cli.github.com/manual/gh_auth_login)
+If you use Git from the command line, GitHub may ask you to authenticate when you run commands such as `git clone`, `git pull`, or `git push`.
+
+GitHub does not accept account passwords for Git operations. Instead, you should use one of the following methods:
+
+- GitHub Desktop
+- Android Studio GitHub sign-in
+- Git Credential Manager
+- Personal Access Token
+- SSH key
+
+The slides show how to use a Personal Access Token. GitHub also provides documentation on authentication here:
+
+- [Creating a Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+- [Caching your GitHub credentials](https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git)
+
+You may also use the GitHub CLI if you prefer:
+
+- [GitHub CLI installation](https://github.com/cli/cli#installation)
+- [GitHub CLI authentication command](https://cli.github.com/manual/gh_auth_login)
+
+After installing GitHub CLI, you can run:
+
+```bash
+gh auth login
+```
+
+Follow the prompts in the terminal. Choose the options that match the way your team is using GitHub.
 
 ## Sensitive Information and Git
 
 ### What is Sensitive Information
 
-- Git is a version control system which tracks all files, past and current, that you commit to it.
-- This means that even if you remove a file or part of a file from your repository, it is still tracked and accessible in the history of your repository.
-- As such, if you commit sensitive data, it is very difficult, if not impossible, to remove it.
-  - Sensitive data includes anything such as ID numbers (like your student ID number), API keys, passwords, etc.
--  GitHub as some excellent documentation about best practices for avoiding this, located [here](https://docs.github.com/en/code-security/getting-started/best-practices-for-preventing-data-leaks-in-your-organization).
-- There is also information about removing sensitive information from your repository, but this should only be used in an emergency as it can have severe consequences if not done properly.
+Git tracks the history of files that are committed to a repository. This means that even if you delete a file or remove part of a file later, the old version may still exist in the repository history.
+
+Do not commit sensitive information. 
+
+Sensitive information includes:
+
+- student ID numbers
+- passwords
+- API keys
+- access tokens
+- private credentials
+- personal information that should not be public
+
+If sensitive information is committed, it can be difficult to fully remove. GitHub provides documentation on preventing data leaks here:
+
+[Best practices for preventing data leaks](https://docs.github.com/en/code-security/getting-started/best-practices-for-preventing-data-leaks-in-your-organization)
+
+GitHub also provides documentation on removing sensitive information from a repository, but this should only be used in an emergency because it can affect the repository history.
 
 # Lab 4 Participation Exercise
 
@@ -39,35 +72,47 @@ This task is for teams.
 
 1. As a team:
 
-    + Create an Organization in GitHub and then create a repository (repo name: Team name) under this organization. 
-    + Add your members as collaborators so the whole team will be able to commit to their branches.
-    + Create a new Android Studio project (1 project per team) with the same name as the repo name (Team name).
-    + Your android project folder is your local repository and write all the commands within this repo/directory.
-    + Use 'git init', 'git add', 'git commit', and 'git push' to push your code to the remote
-    + Use 'git remote add origin' to add the URL of your remote repo to this local repo.
-    + The repository should include .gitignore to not include Android Studio settings files (.idea) and the project build folder.
-    + Create an abstract class Shape (java file) with x and y  integer fields (as a team).
-    + Commit the change and push it to GitHub.
+    - Create a GitHub Organization.
+    - Create a repository under this organization
+        - Use your team name as a repository name
+    - Create a `README.md` file for that repository 
+    - Add your members as **collaborators** so the whole team will be able to commit to their own branches.
+    - Add a `.gitignore` file appropriate for an Android Studio project.
+        - Do not include Android Studio settings files such as `.idea/`.
+        - Do not include project build folders.
+    - Create a new Android Studio project (1 project per team) with the same name as the repo name (Team name).
+    - Your android project folder is your local repository and write all the commands within this repo/directory.
+    - Connect your local project to the GitHub repository using `git remote add origin`.
+    - Use 'git init', 'git add', 'git commit', and 'git push' to push your code to the remote
+    - Create a Kotlin abstract class Shape with x and y  integer fields (as a team).
+    - Commit the change and push it to GitHub.
 
 2. As a member, on your local machine:
 
-    + (Do not fork) Clone the repository and create a branch with your name (do not use CCID).
-    + Create a model class (ex. circle, rectangle, star, etc) (new java file) that extends Shape in your own branch.
-    + Commit the change and push the branch to GitHub.
-    + Create a pull request to main in Github.
-    + Ask another member to merge it.
-    + Edit the Shape class by adding a color string field. (String color = "blue";) (local your-own branch)
-    + Commit the change. (Don't push it)
+    - Clone the repository 
+        - Do **not** fork the repository 
+    - Create a branch with your name 
+        - Do **not** use your CCID as the branch name
+    - Create a Kotlin class (ex. circle, rectangle, star, etc) that extends Shape in your own branch.
+    - Commit the change and push your branch to GitHub.
+    - Create a pull request from your branch to main in Github.
+    - Ask another member to review it and merge your pull request.
+    - After your pull request is merged: 
+        - Stay on your local branch
+        - Edit the Shape class by adding a color string field. (val color: String = "blue") (local your-own branch)
+        - Commit the change. (Do **not** push this commit just yet)
 3. As a team:
 
-    + Edit the Shape class in the main branch **on GitHub** by adding a **color** string field. (String color = "$PUT_YOUR_CHOICE_OF_COLOR";)
-    + Commit the change in GitHub.
+    - Edit the Shape class in the main branch **on GitHub** by adding a **color** string field. (val color: String = "$PUT_YOUR_CHOICE_OF_COLOR")
+    - Commit the change in GitHub.
+
 4. As a member, on your local machine:
 
-    + Pull the main branch from GitHub. You should have a conflict. (**Origin/main -> local your-own**)
-    + Resolve the conflict.
-    + Commit the change.
-    + Push the branch to GitHub.
+    - Pull the latest main branch from GitHub into your own branch. 
+        - You should have a merge conflict. (**Origin/main -> local your-branch**)
+    - Resolve the conflict in the Shape class
+    - Commit the resolved file change.
+    - Push your branch to GitHub.
 
 
 Please submit:
