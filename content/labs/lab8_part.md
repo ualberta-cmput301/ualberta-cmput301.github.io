@@ -1,44 +1,30 @@
-Title: Lab 8 Participation Exercise
-date: 2024-08-26
+Title: Lab 8 Instructions
+date: 2026-07-07
 tags: labs, policy, grading
-authors: Samuel Iwuchukwu,Hazel Victoria Campbell
+authors: Michelle Deng, Raj Prasad
 status: published
-summary: Lab 8 Participation Exercise
+summary: Lab 8 Instructions
+
+----
 
 [TOC]
 
-# Lab 8 Instructions
 
-In this lab, we will learn about test driven development (TDD) and continuous integration (CI). These are both solutions for solving some common software engineering problems using unit testing. We will go through the slides (updated version) posted below, and go through a live demo in class based on the instructions below to show you how to use TDD and CI.
+# Lab 7 Instructions 
 
-# Lab 8 Slides 
+- Go over [Lab 8 Slides](slides/2026-Lab%208%20Slides.pdf)
+- Fork and clone the [Lab 8 GitHub Repo](https://github.com/ualberta-cmput301-2026-dev/lab-08/tree/main) for your Canvas submission.
+  This repo includes:
+    - Walkthrough instructions
+    - Participation exercise instructions
+    - Submission instructions
 
-## Updated Slides
-
-- These slides are based on the original slides posted below, but have a couple more diagrams and a more concise format. If you want to read more about the topic, check out the original slides.
-- [Lab 8 Updated Slides]({attach}/labs/slides/Lab_8_Updated_Slides_Fall_2024.pptx) 
-
-## Original Slides
-
-* [Lab 8 Slides]({attach}/labs/slides/Lab8_Slides.pdf)
-
-# Lab 8 Instructions
-
-* [Lab 8 Instructions]({attach}slides/Lab8_Instructions.pdf)
-
-# Lab 8 Participation Exercise
-
-**Lab Exercise**
-
-• Implement has city, delete city, and count cities (same as lab 6), however, this time using TDD.
-
-• Create each functionality one at a time, creating (and pushing) a test to create a failing build, before adding functionality to make it pass.
-
-• e.g., create hasCity test, push for failing build, write functionality for hasCity to make passing build. Repeat for delete city and count cities.
 
 # Submission
 
 Canvas
+
+**Note: Proper completion of this exercise is considered as part of course participation.**
 
 **Due Date**
 
