@@ -13,10 +13,10 @@ summary: Lab 2 Instructions
 
 In Lab 2, we'll be doing the following: 
 
-Quick review of [OOP principles]({attach}slides/2026-Lab-2-OOP-Principles.pdf)
-Android Basics ([Lab 2 Android Basics PDF under Lab 2]({attach}slides/2026-Lab-2-Android-Basics.pdf))
-Displaying a list of items using ListView/ListAdapter ([Lab 2 ListView Demo Example - Instructions PDF under Lab 2]({attach}slides/2026-Lab-2-ListyCity-Instructions.pdf))
-Lab Exercise - adding and removing items from ListAdapter (see the Lab 2 Participation Exercise below for more details.)
+- Quick review of [OOP principles]({attach}slides/2026-Lab-2-OOP-Principles.pdf)
+- Android Basics ([Lab 2 Android Basics PDF under Lab 2]({attach}slides/2026-Lab-2-Android-Basics.pdf))
+- Displaying a list of items using ListView/ListAdapter ([Lab 2 ListView Demo Example - Instructions PDF under Lab 2]({attach}slides/2026-Lab-2-ListyCity-Instructions.pdf))
+- Lab Exercise - adding and removing items from ListAdapter (see the Lab 2 Participation Exercise below for more details.)
 
 
 # Lab 2 Participation Exercise
