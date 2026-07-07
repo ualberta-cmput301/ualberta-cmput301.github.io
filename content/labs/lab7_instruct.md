@@ -1,46 +1,31 @@
 Title: Lab 7 Instructions
-date: 2024-08-26
+date: 2026-07-07
 tags: labs, policy, grading
-authors: Samuel Iwuchukwu,Hazel Victoria Campbell
+authors: Michelle Deng, Raj Prasad
 status: published
 summary: Lab 7 Instructions
+
+----
+
 [TOC]
 
-# Lab 7 Instructions
 
-## Lab Topic/Demo
+# Lab 7 Instructions 
 
-- [Lab7 Instructions-Android UI Testing]({attach}/labs/slides/L7IntentTesting.pdf)
-- [Lab 7 Starter Code](https://github.com/natewu/cmput301-lab7-starter) (clone this repo)
-- [Lab 7 Starter Code Download]({attach}slides/Lab_7_starter_code.zip)
+- Go over [Lab 7 Slides](slides/2026-Lab%207%20Slides.pdf)
+- Fork and clone the [Lab 7 GitHub Repo](https://github.com/ualberta-cmput301-2026-dev/lab-07/tree/main) for your Canvas submission.
+  This repo includes:
+    - Walkthrough instructions
+    - Participation exercise instructions
+    - Submission instructions
 
-# Lab 7 Participation Exercise
-
-**# Implement and test activity:**
-ShowActivity (create by yourself to have the following property)
-
-    - By clicking on the city list, the UI should change to another activity which is "ShowActivity"
-
-    - The activity shows the city name you have clicked on
-
-    - Create a back button which goes back to MainActivity
-
-**# Test: (create 3 test cases/functions to test the 3 following functionalities)**
-
-    - Check whether the activity correctly switched
-
-    - Test whether the city name is consistent
-
-    - Test the "back" button
 
 # Submission
 
 Canvas
 
-![Screen1]({attach}../images/lab7/lab7_img1.png){width=300 style="margin: 20px;"}
-![Screen2]({attach}../images/lab7/lab7_img2.png){width=300 style="margin: 20px;"}
-  
-  
+**Note: Proper completion of this exercise is considered as part of course participation.**
+
 **Due Date**
 
 Friday after the Thursday lab at 4PM
