@@ -12,7 +12,7 @@ summary: Lab 7 Instructions
 
 # Lab 7 Instructions 
 
-- Go over [Lab 7 Slides](slides/2026-Lab%207%20Slides.pdf)
+- Go over [Lab 7 Slides]({attach}slides/2026-Lab%207%20Slides.pdf)
 - Fork and clone the [Lab 7 GitHub Repo](https://github.com/ualberta-cmput301-2026-dev/lab-07/tree/main) for your Canvas submission.
   This repo includes:
     - Walkthrough instructions

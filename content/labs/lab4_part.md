@@ -2,14 +2,14 @@ Title: Lab 4 Participation Exercise
 date: 2026-06-30
 tags: labs, policy, grading
 authors: Raj Prasad, Michelle Deng
-status: unpublished
+status: published
 summary: Lab 4 Participation Exercise
 
 [TOC]
 
 # Lab 4 Slides
 
-[Lab 4 Slides]({attach}slides/2026-Lab_4_Github.pdf)
+[Lab 4 Slides]({attach}slides/2026-Lab-4_Github.pdf)
 
 ## Extra Information
 
