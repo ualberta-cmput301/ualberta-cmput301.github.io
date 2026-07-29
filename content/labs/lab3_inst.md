@@ -34,16 +34,10 @@ During the lab demo, we'll implement "Add City" functionality:
 - Update the `README.md` and the `LICENSE.md` with your details.
 
 ### Example Implementation
-
-<div style="display: flex; flex-wrap: wrap; justify-content: center;">
-    <img src="assets/img1.png" width="300" style="margin: 20px;">
-    <img src="assets/img2.png" width="300" style="margin: 20px;">
-    <img src="assets/img3.png" width="300" style="margin: 20px;">
-    <img src="assets/img4.png" width="300" style="margin: 20px;">
-
-</div>
-
-<br>
+![Screen1]({attach}../images/lab3/2026_img1_lab3.png){width=300 style="margin: 20px;"}
+![Screen2]({attach}../images/lab3/2026_img2_lab3.png){width=300 style="margin: 20px;"}
+![Screen3]({attach}../images/lab3/2026_img3_lab3.png){width=300 style="margin: 20px;"}
+![Screen4]({attach}../images/lab3/2026_img4_lab3.png){width=300 style="margin: 20px;"}
 
 > **Note:** Your app does NOT need to look exactly like the screenshots.  The only requirement is the ability to edit an existing city.  
 
