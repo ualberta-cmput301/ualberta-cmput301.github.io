@@ -21,9 +21,9 @@ summary: Lab 3 Instructions
 
 During the lab demo, we'll implement "Add City" functionality:
 
-1. Review [Lab 3 Slides](https://ualberta-cmput301.github.io/labs/slides/Lab_3_Slides_2026.pdf)
-2. Follow along with [Lab 3 Instructions](https://ualberta-cmput301.github.io/labs/slides/Lab_3_Instructions_2026.pdf)
-3. Read about Code Conventions (see the [Kotlin Code Conventions PDF](https://ualberta-cmput301.github.io/labs/slides/Kotlin_Code_Conventions.pdf)).
+1. Review [Lab 3 Slides]({attach}slides/2026-Lab-3-Slides.pdf)
+2. Follow along with [Lab 3 Instructions]({attach}slides/2026-Lab-3-instructions.pdf)
+3. Read about Code Conventions (see the [Kotlin Code Conventions PDF]({attach}slides/Kotlin%20Code%20Conventions.pdf)).
 4. By the end, you'll have implemented the ability to add new cities to the list.
 
 ## 3. Lab 3 Participation Exercise
