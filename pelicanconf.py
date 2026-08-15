@@ -72,7 +72,6 @@ MENUITEMS=[
     ("Outline", "/general/outline.html"),
     ("Canvas & Grades", "/#canvas"),
     ("Schedule", "/#schedule"),
-    ("Participation Exercises", "/general/participation_exercise.html"),
     ("Labs", "/general/labs.html"),
     ("Project", "/general/project.html"),
     ("Individual", "/general/individual.html"),
