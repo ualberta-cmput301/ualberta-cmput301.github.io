@@ -1,22 +1,22 @@
-Title: Mock Testing Participation Exercise
-date: 2026-09-21
+Title: Use Case 1 Exercise
+date: 2026-08-15
 tags: participation, exercise
-authors: Abram Hindle
+authors: Michelle Deng, Raj Prasad, Abram Hindle
 status: hidden
-summary: Mock Testing Participation Exercise
+summary: Use Case 1 Participation Exercise
 robots: noindex, nofollow
 ----
 
-# Mock Testing Participation Exercise
+# Use Case 1 Participation Exercise
 
 Enter your seven-digit student number to generate your participation exercise.
 
 <div
   class="hybrid-exercise"
   data-hybrid-exercise
-  data-exercise-url="https://ualberta-cmput301.github.io/individual/mock-testing-01.html"
-  data-template-url="/theme/exercises/2026-fall/mock-testing-01.png"
-  data-download-name="mock-testing-01.png">
+  data-exercise-url="https://ualberta-cmput301.github.io/participation_exericses/use-case-1.html"
+  data-template-url="/theme/exercises/2026-fall/use-case-1.png"
+  data-download-name="use-case-1.png">
 
   <form data-role="form">
     <label>
