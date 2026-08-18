@@ -9,7 +9,23 @@ summary: Slides and per-topic resources
 
 [TOC]
 
-# Welcome
+# Slides 
+* [Welcome]({attach}slides/00_Welcome_Tang.pdf) 
+* [Objects, UML, and Kotlin]({attach}slides/01_OO_2026.pdf)
+* [Software Process]({attach}slides/02_Process_2026.pdf)
+* [Requirements]({attach}slides/03_Requirements_2026.pdf)
+* [MVC and Android]({attach}slides/04_MVC_Android_2026.pdf)
+* [Testing]({attach}slides/05_Testing_2026_v3.pdf)
+* [Design Patterns]({attach}slides/06%20Patterns-2026%20v3.pdf)
+* [Sequence Diagrams]({attach}slides/07%20Sequence%20Diagrams-2026%20v2.pdf)
+* [Refactoring]({attach}slides/08%20Refactoring-2026.pdf)
+
+---------------------------------------------------------------------------------------------------------
+# Archive 
+Below is an archive of old slides. Feel free to review for your own interest.
+
+
+Welcome
 
 * [Welcome]({attach}slides/00_Welcome_Tang.pdf)  
 * Old slides (dates, times, assignments, exams, will be out of date)
@@ -17,7 +33,8 @@ summary: Slides and per-topic resources
     * [Welcome - Prof. Wong]({attach}slides/00_Welcome_Wong.pdf) [2]({attach}slides/00_Welcome_Wong2.pdf)
     * [Welcome - Prof. Hindle]({attach}slides/00_Welcome_Hindle.pdf)
 
-# Objects UML Java
+
+Objects UML Java
 
 Reading: [Course notes]({filename}/general/resources.md#course-notes) part 1 page 1-73
 
@@ -29,7 +46,8 @@ Reading: [Course notes]({filename}/general/resources.md#course-notes) part 1 pag
 * [Objects, UML, and Java Draft Slides (1up)]({attach}slides/02-OO.pdf)
 * [Objects, UML, and Java Draft Slides (Clean Version)]({attach}slides/02-OO-clean.pdf)
 
-## <a id="mvc" href="#mvc">MVC</a> & Object-Oriented Graphical User Interfaces
+
+<a id="mvc" href="#mvc">MVC</a> & Object-Oriented Graphical User Interfaces
 
 * [MVC and Android Part I + Swing Slides (Tang)]({attach}slides/03_MVC-Android_Tang.pdf)
 * [MVC and Android Part I + Swing Slides (1up)]({attach}slides/03-MVC-Android.pdf)
@@ -45,47 +63,51 @@ Reading: [Course notes]({filename}/general/resources.md#course-notes) part 1 pag
 * [User Interface Design (1up)]({attach}slides/04-User-Interface.1up.pdf)
 * [User Interface Design (4up)]({attach}slides/04-User-Interface.4up.pdf)
 
-## More Objects UML & Java
+
+More Objects UML & Java
 
 * [B2 OO Slides (has navigability)]({attach}slides/BOO.pdf)
 * [B2 Mentis for Review]({attach}slides/MidRev.pdf)
 
 
-# Android
-
-## Android Fragments
+Android Fragments
 
 * [Android Fragments Notes + Example]({attach}slides/Android_Fragments_Notes_Example.pdf)
 * [Code Conventions (Schoepp)]({attach}slides/Code_Conventions_Schoepp.pdf)
 
-## Android Activities Resources 
+
+Android Activities Resources 
 
 * [Android Studion Tips]({attach}slides/AST.pdf)
 * [Android Activities]({attach}slides/AA.pdf)
 * [Android Notes for Professionals]({attach}slides/ANP.pdf)
 
-# Git
+
+Git
 
 * [Git Introduction and Practices Notes (Wang)]({attach}slides/Git_Introduction_and_Practices.pdf)
 * [Hand drawn Models of Git: Wizard Towers versus Centralized]({attach}slides/HDMofG.pdf)
 * [PAST Lab Git Notes (Romansky)]({filename}/labs/past_notes.md)
 * [Past Git Ignore Repo](https://github.com/github/gitignore)
 
-# Software Process 
+
+Software Process 
 
 * [Software Process]({attach}slides/02_Process_Tang.pdf)
 * [Software Process - Campbell]({attach}slides/030process-campbell.pdf)
 * [Software Process Draft Slides (4up)]({attach}slides/SP.pdf)
 * [Software Process Draft Slides (1up)]({attach}slides/SP2.pdf)
 
-## Requirements
+
+Requirements
 
 * [Requirements]({attach}slides/03_Requirements_Tang.pdf)
 * [Requirements - Campbell]({attach}slides/040requirements-campbell.pdf)
 * [Requirements Draft Slides (4up)]({attach}slides/SP05.pdf)
 * [Requirements Draft Slides (1up)]({attach}slides/SP05_2.pdf)
 
-# Testing 
+
+Testing 
 
 * [Testing]({attach}slides/04_Testing_Tang.pdf)
 * [Testing Draft Slides (4up)]({attach}slides/06_Testing_4up.pdf)
@@ -94,7 +116,8 @@ Reading: [Course notes]({filename}/general/resources.md#course-notes) part 1 pag
 
 * [B2 Midterm 2 Mentis for Review]({attach}slides/301_Midterm2Review.pdf)
 
-# Design Patterns
+
+Design Patterns
 
 Reading: [Course notes]({filename}/general/resources.md#course-notes) part 2
 
@@ -110,7 +133,8 @@ Reading: [Course notes]({filename}/general/resources.md#course-notes) part 2
 * [Decorator Pattern Slides (4up)]({attach}slides/decorator-pattern-talk.pdf)
 
 
-# UML Sequence Diagram
+
+UML Sequence Diagram
 
 Reading: [Course notes]({filename}/general/resources.md#course-notes) part 1 pages ~73-76!
 
@@ -119,41 +143,49 @@ Reading: [Course notes]({filename}/general/resources.md#course-notes) part 1 pag
 * [Sequence Diagram Draft Slides (4up)]({attach}slides/Sequence_Diagram_4up.pdf)
 * [Sequence Diagram Draft Slides (1up)]({attach}slides/Sequence_Diagram_1up.pdf)
 
-# Design Patterns (Continued)
+
+Design Patterns (Continued)
 
 Reading: [Course notes]({filename}/general/resources.md#course-notes) part 2
 
-# Refactoring 
+
+Refactoring 
 
 * [Refactoring]({attach}slides/06_Refactoring_Tang.pdf)
 * [Refactoring Draft Slides (4up)]({attach}slides/08-Refactoring_4up.pdf)
 * [Refactoring Draft Slides (1up)]({attach}slides/08-Refactoring.pdf)
 
-# Human Error
+
+Human Error
 
 * [Human Error Draft Slides (4up)]({attach}slides/09-Human-Error.4up.pdf)
 * [Human Error Slides (4up)]({attach}slides/09_Human_Error_4up.pdf)
 
-# Optimization
+
+Optimization
 
 * [Optimization Draft Slides (4up)]({attach}slides/10-Optimization.4up.pdf)
 * [Optimization Draft Slides (1up)]({attach}slides/10-Optimization.pdf)
 * [Optimization Slides (4up)]({attach}slides/10_Optimization_4up.pdf)
 
-# Retrospectives
+
+Retrospectives
 
 * [Retrospectives Slides (4up)]({attach}slides/11-Retrospectives.4up.pdf)
 
-# Review
+
+Review
 
 * [Review Draft Slides (4up)]({attach}slides/10-Review.4up.pdf)
 * [Review Draft Slides (1up)]({attach}slides/10-Review.pdf)
 
-# Future
+
+Future
 
 * [Future Draft Slides (4up)]({attach}slides/12-Future.4up.pdf)
 
-# Old Resources
+
+Old Resources
 
 * [Fall 2021 Outline]({filename}outline_old.md)
 * [Old Lab Recordings]({filename}old_recordings.md)
