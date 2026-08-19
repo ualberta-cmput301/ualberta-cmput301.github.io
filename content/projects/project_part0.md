@@ -1,7 +1,7 @@
 Title: Project Part 0
-date: 2024-08-26
+date: 2026-06-02
 tags: projects, teams, grading
-authors: Samuel Iwuchukwu, Hazel Victoria Campbell
+authors: Abram Hindle, Michelle Deng, Raj Prasad
 status: published
 summary: Project Part 0
 ---
@@ -51,5 +51,3 @@ All members of the team must submit the Google Form: [Form](https://docs.google.
 * You will be deducted one mark for each violation of the required submission format!
     * This includes using a student ID instead of a CCID, or using a name instead of a CCID, or using an email account instead of a CCID... etc.
     * This also includes violating the team name format
-
-

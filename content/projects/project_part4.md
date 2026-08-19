@@ -1,7 +1,7 @@
 Title: Project Part 4
-date: 2024-08-26
+date: 2026-06-04
 tags: projects, teams, grading
-authors: Samuel Iwuchukwu,Hazel Victoria Campbell
+authors: Abram Hindle, Michelle Deng, Raj Prasad
 status: published
 summary: Project Part 4
 [TOC]
@@ -30,7 +30,7 @@ Address any TA feedback on the previous project part.
 Your source code will be inspected. The code should conform to some consistent coding convention. Maintain the source code in your source repository.
 
 3. **Code Documentation:**
-For each source file, you should have a brief introductory comment describing its purpose or role within the application or a design pattern, as well as any currently outstanding issues. Provide Javadoc interface documentation for your model classes and their public methods (at least).
+For each source file, you should have a brief introductory comment describing its purpose or role within the application or a design pattern, as well as any currently outstanding issues. Provide KDoc interface documentation for your model classes and their public methods (at least).
 
 4. **Test Cases:**
 Write runnable tests for your model and control classes. Provide intent tests for the requirements you have done. Deliver the test code to your source repository. If you have test data files, also include those. Test data should be realistic.
@@ -60,7 +60,7 @@ The evaluation of this project part will also include a component called "relati
 Teams can decide to add their own feature to the project (it **must be approved by their Mentor TA**). If properly and successfully implemented then it is worth an additional 2% bonus to the overall course grade.
 
 ## **Restrictions**
-Use Java, with Android, and Firestore.
+Use Kotlin, with Android, Jetpack Compose, and Firestore.
 
 ## **Submission Procedure**
 Use GitHub. Your team repo must be self-contained, i.e., not link to external content that might change.
@@ -72,7 +72,7 @@ If you reuse software, give proper credit to the original developers. Obtain app
 This demo should have a logical flow in what is presented (following a story about what a user would naturally do, not just enumerating assorted features).
 
 ## **Individual Task and Peer Review Form**
-After the due date, each member must complete an assessment form to describe his or her individual contribution to the project for this stage, and to review the performance of the other members.
+After the due date, each member must complete an assessment form to describe their individual contribution to the project for this stage, and to review the performance of the other members.
 
 ## Marking
 No part marks, no extra marks. No half marks.
@@ -83,7 +83,7 @@ No part marks, no extra marks. No half marks.
 
 - Unsatisfactory (8)
     - A project submission that is missing components. Inconsistency is key. Missing important test cases. Lack of planning or adherence. Lack of attendance etc. Must demonstrate clear understanding of purpose and rationale behind deliverables.
-    - A project that effort has been put into and doesn't meet the requirements described. Most deliverable points have been met.
+    - Or a project that effort has been put into and doesn't meet the requirements described. Most deliverable points have been met.
     
 - Satisfactory (11)
     - A project submission that is missing minor components and contains some rough elements, but is NOT missing anything major. 
@@ -92,5 +92,5 @@ No part marks, no extra marks. No half marks.
     - A not-quite excellent submission that meets the majority of all the requirements without problem.
 
 - Excellent (16)
-    - A excellent submission that meets the all the requirements without problem.
+    - An excellent submission that meets the all the requirements without problem.
     - A flawless project that meets the requirements described. 
