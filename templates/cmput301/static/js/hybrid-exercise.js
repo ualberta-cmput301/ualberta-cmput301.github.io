@@ -306,10 +306,7 @@
     return result;
   }
 
-  function buildHybridPayload(studentNumber, exerciseId, authCode) {
-    if (!STUDENT_NUMBER_PATTERN.test(studentNumber)) {
-      throw new Error("Student number must contain exactly seven digits.");
-    }
+  function validateExerciseId(exerciseId) {
     if (
       !exerciseId ||
       exerciseId !== exerciseId.trim() ||
@@ -319,6 +316,13 @@
     ) {
       throw new Error("The page specifies an invalid exercise ID.");
     }
+  }
+
+  function buildHybridPayload(studentNumber, exerciseId, authCode) {
+    if (!STUDENT_NUMBER_PATTERN.test(studentNumber)) {
+      throw new Error("Student number must contain exactly seven digits.");
+    }
+    validateExerciseId(exerciseId);
     if (
       !authCode ||
       authCode !== authCode.trim() ||
@@ -330,11 +334,12 @@
     return `P2,${studentNumber},${exerciseId},${authCode}`;
   }
 
-  function downloadFilename(studentNumber) {
+  function downloadFilename(studentNumber, exerciseId) {
     if (!STUDENT_NUMBER_PATTERN.test(studentNumber)) {
       throw new Error("Student number must contain exactly seven digits.");
     }
-    return `${studentNumber}.png`;
+    validateExerciseId(exerciseId);
+    return `${studentNumber}_${exerciseId}.png`;
   }
 
   async function requestAuthCode(
@@ -480,7 +485,10 @@
     const objectUrl = URL.createObjectURL(blob);
     download.dataset.objectUrl = objectUrl;
     download.href = objectUrl;
-    download.download = downloadFilename(studentNumber);
+    download.download = downloadFilename(
+      studentNumber,
+      root.dataset.exerciseId,
+    );
     preview.hidden = false;
     download.hidden = false;
   }

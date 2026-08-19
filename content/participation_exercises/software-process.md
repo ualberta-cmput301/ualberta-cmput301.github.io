@@ -14,9 +14,9 @@ Enter your seven-digit student number to generate your participation exercise.
 <div
   class="hybrid-exercise"
   data-hybrid-exercise
-  data-exercise-id="waterfall-model"
+  data-exercise-id="software-process"
   data-exercise-url="https://ualberta-cmput301.github.io/participation_exercises/software-process.html"
-  data-template-url="/theme/exercises/2026-fall/waterfall-model.png">
+  data-template-url="/theme/exercises/2026-fall/software-process.png">
 
   <form data-role="form">
     <label>
