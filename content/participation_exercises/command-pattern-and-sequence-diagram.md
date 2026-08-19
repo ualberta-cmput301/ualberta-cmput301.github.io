@@ -14,7 +14,7 @@ Enter your seven-digit student number to generate your participation exercise.
 <div
   class="hybrid-exercise"
   data-hybrid-exercise
-  data-exercise-url="https://ualberta-cmput301.github.io/participation_exericses/command-pattern-and-sequence-diagram.html"
+  data-exercise-url="https://ualberta-cmput301.github.io/participation_exercises/command-pattern-and-sequence-diagram.html"
   data-template-url="/theme/exercises/2026-fall/command-pattern-and-sequence-diagram.png"
   data-download-name="command-pattern-and-sequence-diagram.png">
 

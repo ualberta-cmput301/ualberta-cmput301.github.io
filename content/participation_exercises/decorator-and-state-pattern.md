@@ -14,7 +14,7 @@ Enter your seven-digit student number to generate your participation exercise.
 <div
   class="hybrid-exercise"
   data-hybrid-exercise
-  data-exercise-url="https://ualberta-cmput301.github.io/participation_exericses/decorator-and-state-pattern.html"
+  data-exercise-url="https://ualberta-cmput301.github.io/participation_exercises/decorator-and-state-pattern.html"
   data-template-url="/theme/exercises/2026-fall/decorator-and-state-pattern.png"
   data-download-name="decorator-and-state-pattern.png">
 

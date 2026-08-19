@@ -14,7 +14,7 @@ Enter your seven-digit student number to generate your participation exercise.
 <div
   class="hybrid-exercise"
   data-hybrid-exercise
-  data-exercise-url="https://ualberta-cmput301.github.io/participation_exericses/sequence-diagram.html"
+  data-exercise-url="https://ualberta-cmput301.github.io/participation_exercises/sequence-diagram.html"
   data-template-url="/theme/exercises/2026-fall/sequence-diagram.png"
   data-download-name="sequence-diagram.png">
 
