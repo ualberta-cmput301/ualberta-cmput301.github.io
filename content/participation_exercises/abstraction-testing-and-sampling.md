@@ -14,9 +14,9 @@ Enter your seven-digit student number to generate your participation exercise.
 <div
   class="hybrid-exercise"
   data-hybrid-exercise
+  data-exercise-id="abstraction-testing-and-sampling"
   data-exercise-url="https://ualberta-cmput301.github.io/participation_exercises/abstraction-testing-and-sampling.html"
-  data-template-url="/theme/exercises/2026-fall/abstraction-testing-and-sampling.png"
-  data-download-name="abstraction-testing-and-sampling.png">
+  data-template-url="/theme/exercises/2026-fall/abstraction-testing-and-sampling.png">
 
   <form data-role="form">
     <label>

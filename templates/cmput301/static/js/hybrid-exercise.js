@@ -2,20 +2,27 @@
  * CMPUT 301 hybrid participation-exercise generator.
  *
  * The page supplies the canonical exercise URL and the unstamped PNG URL using
- * data attributes. This script sends `studentNumber;exerciseUrl` to Pizza,
- * places the returned Pizza code in a P2 QR, stamps it onto the PNG in memory,
- * and exposes the result as a browser download.
+ * data attributes. This script sends `studentNumber;exerciseUrl` to the course
+ * authentication service and places the student number, exercise ID, and
+ * returned authentication code in a P2 QR,
+ * stamps it onto the PNG in memory, and exposes the result as a browser
+ * download. If authentication is unavailable, the QR contains a visible error.
  */
 (function () {
   "use strict";
 
-  const DEFAULT_PIZZA_URL = "https://pizza.cs.ualberta.ca/auth/";
+  const DEFAULT_AUTH_URL = "https://pizza.cs.ualberta.ca/auth/";
   const DEFAULT_QR_LIBRARY_URL =
     "https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js";
   const DEFAULT_QR_LIBRARY_INTEGRITY =
     "sha384-3zSEDfvllQohrq0PHL1fOXJuC/jSOO34H46t6UQfobFOmxE5BpjjaIJY5F2/bMnU";
   const STUDENT_NUMBER_PATTERN = /^\d{7}$/;
-  const MAX_PIZZA_CODE_LENGTH = 512;
+  const MAX_AUTH_CODE_LENGTH = 512;
+  const MAX_EXERCISE_ID_LENGTH = 128;
+  const GENERATION_ERROR_MARKER = "$error$";
+  const AUTH_SERVER_OFFLINE_ERROR =
+    `${GENERATION_ERROR_MARKER}:auth-server-offline`;
+  const AUTH_TIMEOUT_MS = 12000;
 
   let qrLibraryPromise;
 
@@ -299,27 +306,101 @@
     return result;
   }
 
-  async function requestPizzaCode(pizzaUrl, studentNumber, exerciseUrl) {
-    const response = await fetch(pizzaUrl, {
-      method: "POST",
-      headers: { "Content-Type": "text/plain" },
-      body: `${studentNumber};${exerciseUrl}`,
-      cache: "no-store",
-      credentials: "omit",
-    });
-    if (!response.ok) {
-      throw new Error(`Pizza returned HTTP ${response.status}.`);
+  function buildHybridPayload(studentNumber, exerciseId, authCode) {
+    if (!STUDENT_NUMBER_PATTERN.test(studentNumber)) {
+      throw new Error("Student number must contain exactly seven digits.");
     }
-
-    const pizzaCode = (await response.text()).trim();
     if (
-      !pizzaCode ||
-      pizzaCode.length > MAX_PIZZA_CODE_LENGTH ||
-      /[\r\n]/.test(pizzaCode)
+      !exerciseId ||
+      exerciseId !== exerciseId.trim() ||
+      exerciseId.length > MAX_EXERCISE_ID_LENGTH ||
+      exerciseId.includes(",") ||
+      /[\x00-\x1f\x7f]/.test(exerciseId)
     ) {
-      throw new Error("Pizza returned an invalid authentication code.");
+      throw new Error("The page specifies an invalid exercise ID.");
     }
-    return pizzaCode;
+    if (
+      !authCode ||
+      authCode !== authCode.trim() ||
+      authCode.length > MAX_AUTH_CODE_LENGTH ||
+      /[\x00-\x1f\x7f]/.test(authCode)
+    ) {
+      throw new Error("The authentication service returned an invalid code.");
+    }
+    return `P2,${studentNumber},${exerciseId},${authCode}`;
+  }
+
+  function downloadFilename(studentNumber) {
+    if (!STUDENT_NUMBER_PATTERN.test(studentNumber)) {
+      throw new Error("Student number must contain exactly seven digits.");
+    }
+    return `${studentNumber}.png`;
+  }
+
+  async function requestAuthCode(
+    authUrl,
+    studentNumber,
+    exerciseUrl,
+    timeoutMs = AUTH_TIMEOUT_MS,
+  ) {
+    const controller = new AbortController();
+    const timeout = window.setTimeout(() => controller.abort(), timeoutMs);
+    try {
+      const response = await fetch(authUrl, {
+        method: "POST",
+        headers: { "Content-Type": "text/plain" },
+        body: `${studentNumber};${exerciseUrl}`,
+        cache: "no-store",
+        credentials: "omit",
+        signal: controller.signal,
+      });
+      if (!response.ok) {
+        throw new Error(`The authentication service returned HTTP ${response.status}.`);
+      }
+
+      const authCode = (await response.text()).trim();
+      if (
+        !authCode ||
+        authCode.length > MAX_AUTH_CODE_LENGTH ||
+        /[\r\n]/.test(authCode)
+      ) {
+        throw new Error("The authentication service returned an invalid code.");
+      }
+      return authCode;
+    } catch (error) {
+      if (controller.signal.aborted) {
+        throw new Error(
+          "The authentication service did not respond before the request timed out.",
+        );
+      }
+      throw error;
+    } finally {
+      window.clearTimeout(timeout);
+    }
+  }
+
+  async function resolveAuthCode(
+    authUrl,
+    studentNumber,
+    exerciseUrl,
+    timeoutMs = AUTH_TIMEOUT_MS,
+  ) {
+    try {
+      return {
+        authCode: await requestAuthCode(
+          authUrl,
+          studentNumber,
+          exerciseUrl,
+          timeoutMs,
+        ),
+        authError: null,
+      };
+    } catch (authError) {
+      return {
+        authCode: AUTH_SERVER_OFFLINE_ERROR,
+        authError,
+      };
+    }
   }
 
   function canvasBlob(canvas) {
@@ -334,7 +415,7 @@
     });
   }
 
-  async function stampExercise(root, pizzaCode, preview, download) {
+  async function stampExercise(root, payload, studentNumber, preview, download) {
     const templateUrl = root.dataset.templateUrl;
     if (!templateUrl) {
       throw new Error("The page does not specify data-template-url.");
@@ -381,7 +462,7 @@
       throw new Error("The configured QR placement is outside the template image.");
     }
 
-    const qrCanvas = await renderQrCode(root, `P2,${pizzaCode}`, size);
+    const qrCanvas = await renderQrCode(root, payload, size);
     preview.width = width;
     preview.height = height;
     const context = preview.getContext("2d");
@@ -399,7 +480,7 @@
     const objectUrl = URL.createObjectURL(blob);
     download.dataset.objectUrl = objectUrl;
     download.href = objectUrl;
-    download.download = root.dataset.downloadName || "participation-exercise.png";
+    download.download = downloadFilename(studentNumber);
     preview.hidden = false;
     download.hidden = false;
   }
@@ -416,11 +497,16 @@
     const status = requiredElement(root, "status");
     const preview = requiredElement(root, "preview");
     const download = requiredElement(root, "download");
+    const exerciseId = root.dataset.exerciseId;
     const exerciseUrl = root.dataset.exerciseUrl;
-    const pizzaUrl = root.dataset.pizzaUrl || DEFAULT_PIZZA_URL;
+    const authUrl = root.dataset.authUrl || DEFAULT_AUTH_URL;
 
-    if (!exerciseUrl) {
-      setStatus(status, "This exercise page is missing its canonical URL.", "error");
+    if (!exerciseId || !exerciseUrl) {
+      setStatus(
+        status,
+        "This exercise page is missing its exercise ID or canonical URL.",
+        "error",
+      );
       generateButton.disabled = true;
       return;
     }
@@ -440,18 +526,40 @@
       setStatus(status, "Generating your exercise…", "working");
 
       try {
-        const pizzaCode = await requestPizzaCode(
-          pizzaUrl,
+        const { authCode, authError } = await resolveAuthCode(
+          authUrl,
           studentNumber,
           exerciseUrl,
         );
-        await stampExercise(root, pizzaCode, preview, download);
-        generateButton.textContent = "Generated";
-        setStatus(
-          status,
-          "Your exercise is ready. Use the download button below.",
-          "success",
+        const payload = buildHybridPayload(studentNumber, exerciseId, authCode);
+        await stampExercise(
+          root,
+          payload,
+          studentNumber,
+          preview,
+          download,
         );
+        if (authError) {
+          console.warn(
+            "Authentication was unavailable; generated an offline-marked exercise.",
+            authError,
+          );
+          generateButton.textContent = "Generated with warning";
+          setStatus(
+            status,
+            "The authentication service was unavailable. Your offline-marked " +
+              "exercise is ready; " +
+              "submit it for instructor review.",
+            "warning",
+          );
+        } else {
+          generateButton.textContent = "Generated";
+          setStatus(
+            status,
+            "Your exercise is ready. Use the download button below.",
+            "success",
+          );
+        }
       } catch (error) {
         console.error(error);
         generateButton.disabled = false;
@@ -476,7 +584,14 @@
     document.querySelectorAll("[data-hybrid-exercise]").forEach(initialize);
   }
 
-  window.CMPUT301HybridExercise = Object.freeze({ initialize, initializeAll });
+  window.CMPUT301HybridExercise = Object.freeze({
+    GENERATION_ERROR_MARKER,
+    buildHybridPayload,
+    downloadFilename,
+    initialize,
+    initializeAll,
+    resolveAuthCode,
+  });
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", initializeAll, { once: true });
   } else {

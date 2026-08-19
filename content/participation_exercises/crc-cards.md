@@ -14,9 +14,9 @@ Enter your seven-digit student number to generate your participation exercise.
 <div
   class="hybrid-exercise"
   data-hybrid-exercise
+  data-exercise-id="crc-cards"
   data-exercise-url="https://ualberta-cmput301.github.io/participation_exercises/crc-cards.html"
-  data-template-url="/theme/exercises/2026-fall/crc-cards.png"
-  data-download-name="crc-cards.png">
+  data-template-url="/theme/exercises/2026-fall/crc-cards.png">
 
   <form data-role="form">
     <label>

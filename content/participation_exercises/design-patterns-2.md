@@ -14,9 +14,9 @@ Enter your seven-digit student number to generate your participation exercise.
 <div
   class="hybrid-exercise"
   data-hybrid-exercise
+  data-exercise-id="design-patterns-2"
   data-exercise-url="https://ualberta-cmput301.github.io/participation_exercises/design-patterns-2.html"
-  data-template-url="/theme/exercises/2026-fall/design-patterns-2.png"
-  data-download-name="design-patterns-2.png">
+  data-template-url="/theme/exercises/2026-fall/design-patterns-2.png">
 
   <form data-role="form">
     <label>

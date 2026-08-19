@@ -14,9 +14,9 @@ Enter your seven-digit student number to generate your participation exercise.
 <div
   class="hybrid-exercise"
   data-hybrid-exercise
+  data-exercise-id="mvc-3"
   data-exercise-url="https://ualberta-cmput301.github.io/participation_exercises/mvc-3.html"
-  data-template-url="/theme/exercises/2026-fall/mvc-3.png"
-  data-download-name="mvc-3.png">
+  data-template-url="/theme/exercises/2026-fall/mvc-3.png">
 
   <form data-role="form">
     <label>

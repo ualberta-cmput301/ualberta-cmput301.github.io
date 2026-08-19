@@ -14,9 +14,9 @@ Enter your seven-digit student number to generate your participation exercise.
 <div
   class="hybrid-exercise"
   data-hybrid-exercise
+  data-exercise-id="mock-unit-testing"
   data-exercise-url="https://ualberta-cmput301.github.io/participation_exercises/mock-unit-testing.html"
-  data-template-url="/theme/exercises/2026-fall/mock-unit-testing.png"
-  data-download-name="mock-unit-testing.png">
+  data-template-url="/theme/exercises/2026-fall/mock-unit-testing.png">
 
   <form data-role="form">
     <label>

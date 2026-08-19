@@ -14,9 +14,9 @@ Enter your seven-digit student number to generate your participation exercise.
 <div
   class="hybrid-exercise"
   data-hybrid-exercise
+  data-exercise-id="adapter-pattern"
   data-exercise-url="https://ualberta-cmput301.github.io/participation_exercises/adapter-pattern.html"
-  data-template-url="/theme/exercises/2026-fall/adapter-pattern.png"
-  data-download-name="adapter-pattern.png">
+  data-template-url="/theme/exercises/2026-fall/adapter-pattern.png">
 
   <form data-role="form">
     <label>

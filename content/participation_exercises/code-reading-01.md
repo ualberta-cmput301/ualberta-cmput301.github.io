@@ -14,9 +14,9 @@ Enter your seven-digit student number to generate your participation exercise.
 <div
   class="hybrid-exercise"
   data-hybrid-exercise
+  data-exercise-id="code-reading-01"
   data-exercise-url="https://ualberta-cmput301.github.io/participation_exercises/code-reading-01.html"
-  data-template-url="/theme/exercises/2026-fall/code-reading-01.png"
-  data-download-name="code-reading-01.png">
+  data-template-url="/theme/exercises/2026-fall/code-reading-01.png">
 
   <form data-role="form">
     <label>

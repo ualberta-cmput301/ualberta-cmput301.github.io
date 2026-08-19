@@ -14,9 +14,9 @@ Enter your seven-digit student number to generate your participation exercise.
 <div
   class="hybrid-exercise"
   data-hybrid-exercise
+  data-exercise-id="code-to-uml-2"
   data-exercise-url="https://ualberta-cmput301.github.io/participation_exercises/code-to-uml-2.html"
-  data-template-url="/theme/exercises/2026-fall/code-to-uml-2.png"
-  data-download-name="code-to-uml-2.png">
+  data-template-url="/theme/exercises/2026-fall/code-to-uml-2.png">
 
   <form data-role="form">
     <label>
