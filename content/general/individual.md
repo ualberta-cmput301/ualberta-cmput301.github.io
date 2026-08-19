@@ -10,7 +10,7 @@ summary: Individual Assignments, Participation
 
 # Assignments
 
-* [Assignment 0: Getting started]({filename}/individual/assignment0.md)
+* [Assignment 0]({filename}/individual/assignment0.md)
 * [Assignment 1]({filename}/individual/assignment1.md)
 
 # Participation
