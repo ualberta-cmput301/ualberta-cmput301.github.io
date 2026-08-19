@@ -1,7 +1,7 @@
 title: Slides
 date: 2024-01-06
 tags: resources, policy, contact, wellness
-authors: Hazel Victoria Campbell
+authors: Michelle Deng, Raj Prasad, Hazel Victoria Campbell
 status: published
 summary: Slides and per-topic resources
 

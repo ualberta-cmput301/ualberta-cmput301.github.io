@@ -1,7 +1,7 @@
 Title: Group Project
-date: 2024-01-06
+date: 2026-08-19
 tags: project, grading
-authors: Samuel Iwuchukwu, Abram Hindle, Hazel Victoria Campbell,
+authors: Michelle Deng, Raj Prasad, Abram Hindle, Hazel Victoria Campbell
 status: published
 summary: 301 Group Project
 ----
@@ -11,10 +11,6 @@ summary: 301 Group Project
 # Project 
 
 * [Project Problem Description]({filename}../projects/project_problem_descr.md)
-
-* [Project Teams]({filename}../projects/project_team.md)
-
-* [Project demo schedule]({filename}../projects/project_demo.md)
 
 * [Project Part 0]({filename}../projects/project_part0.md)
 

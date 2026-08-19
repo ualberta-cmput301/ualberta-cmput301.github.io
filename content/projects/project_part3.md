@@ -1,7 +1,7 @@
 Title: Project Part 3
-date: 2024-08-26
+date: 2026-06-04
 tags: projects, teams, grading
-authors: Samuel Iwuchukwu,Hazel Victoria Campbell
+authors: Abram Hindle, Michelle Deng, Raj Prasad
 status: published
 summary: Project Part 3
 [TOC]
@@ -30,7 +30,7 @@ Address any TA feedback on the previous project part.
 Your source code will be inspected. The code should conform to some consistent coding convention. Your prototype should provide something tangible to the user, supporting about half the requirements. Maintain the source code in your source repository.
 
 **3. Code Documentation:**
-For each source code file, you should have a brief introductory comment describing its purpose or role within the application or a design pattern, as well as any currently outstanding issues. Provide Javadoc interface documentation for your model classes and their public methods (at least).
+For each source code file, you should have a brief introductory comment describing its purpose or role within the application or a design pattern, as well as any currently outstanding issues. Provide KDoc interface documentation for your model classes and their public methods (at least).
 
 **4. Test Cases:**
 Write runnable tests for your model and control classes. Provide intent tests for the requirements you have done. Deliver the test code to your source repository. If you have test data files, also include those. Test data should be realistic.
@@ -58,7 +58,7 @@ There must be consistency across the deliverables at this checkpoint.
 The evaluation of this project part will also include a component called "relative quality". This is used to differentiate projects that meet the minimum from projects that go "the extra mile".
 
 ## Restrictions
-Use Java, with Android, and Firestore.
+Use Kotlin, with Android, Jetpack Compose, and Firestore.
 
 ## Hints
 Integrate early and often, even if some parts may have to be stubbed out to return canned data. Think about issues like server connectivity early in the design, rather than trying to retrofit them later.
@@ -71,7 +71,7 @@ Please make sure your repository has the right version of code by the deadline. 
 If you reuse software, give proper credit to the original developers. Obtain approval for the use of third-party libraries as appropriate.
 
 ## Individual Task and Peer Review Form
-After the due date, each member must complete an assessment form to describe his or her individual contribution to the project for this stage, and to review the performance of the other members.
+After the due date, each member must complete an assessment form to describe their individual contribution to the project for this stage, and to review the performance of the other members.
 
 ## Marking
 No part marks, no extra marks. No half marks.
@@ -82,7 +82,7 @@ No part marks, no extra marks. No half marks.
 
 - Unsatisfactory (5)
     - A project submission that is missing components. Inconsistency is key. Missing important test cases. Lack of planning or adherence. Lack of attendance etc. Must demonstrate clear understanding of purpose and rationale behind deliverables.
-    - Or A project that effort has been put into and doesn't meet the requirements described. Most deliverable points have been met.
+    - Or a project that effort has been put into and doesn't meet the requirements described. Most deliverable points have been met.
 
 - Satisfactory (7)
     - A project submission that is missing minor components and contains some rough elements, but is NOT missing anything major. 
@@ -91,4 +91,4 @@ No part marks, no extra marks. No half marks.
     - A not-quite excellent submission that meets the majority of all the requirements without problem.
 
 - Excellent (10)
-    - A excellent submission that meets the all the requirements without problem.
+    - An excellent submission that meets the all the requirements without problem.

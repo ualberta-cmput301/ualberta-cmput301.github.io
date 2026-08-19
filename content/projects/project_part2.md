@@ -1,7 +1,7 @@
 Title: Project Part 2
-date: 2024-08-26
+date: 2026-06-04
 tags: projects, teams, grading
-authors: Samuel Iwuchukwu,Hazel Victoria Campbell
+authors: Abram Hindle, Michelle Deng, Raj Prasad
 status: published
 summary: Project Part 2
 [TOC]
@@ -56,7 +56,7 @@ Use GitHub. Your team repo must be self-contained, i.e., not link to external co
 
 ## Individual Task and Peer Review Form
 
-After the due date, each member must complete an assessment form to describe his or her individual contribution to the project for this stage, and to review the performance of the other members.
+After the due date, each member must complete an assessment form to describe their individual contribution to the project for this stage, and to review the performance of the other members.
 
 ## Marking
 No part marks, no extra marks. No half marks.
@@ -67,7 +67,7 @@ No part marks, no extra marks. No half marks.
 
 - Unsatisfactory (2)
     - A project submission that is missing components. Inconsistency is key. Missing important test cases. Lack of planning or adherence. Lack of attendance etc. Must demonstrate clear understanding of purpose and rationale behind deliverables.
-    - Or A project that effort has been put into and doesn't meet the requirements described. Most deliverable points have been met.
+    - Or a project that effort has been put into and doesn't meet the requirements described. Most deliverable points have been met.
 
 - Satisfactory (3)
     - A project submission that is missing minor components and contains some rough elements, but is NOT missing anything major. 
@@ -76,6 +76,5 @@ No part marks, no extra marks. No half marks.
     - A not-quite excellent submission that meets the majority of all the requirements without problem.
 
 - Excellent (5)
-    - A excellent submission that meets the all the requirements without problem.
+    - An excellent submission that meets the all the requirements without problem.
     - A flawless project that meets the requirements described. 
-
