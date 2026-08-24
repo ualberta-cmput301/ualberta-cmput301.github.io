@@ -555,9 +555,9 @@
           generateButton.textContent = "Generated with warning";
           setStatus(
             status,
-            "The authentication service was unavailable. Your offline-marked " +
-              "exercise is ready; " +
-              "submit it for instructor review.",
+            "Warning: the authentication service could not be reached, so this " +
+              "exercise is unauthenticated. Check your internet connection, " +
+              "then reload this page and try again.",
             "warning",
           );
         } else {
