@@ -11,14 +11,15 @@ summary: Slides and per-topic resources
 
 # Slides 
 * [Welcome]({attach}slides/00_Welcome_Tang.pdf) 
-* [Objects, UML, and Kotlin]({attach}slides/01_OO_2026.pdf)
-* [Software Process]({attach}slides/02_Process_2026.pdf)
-* [Requirements]({attach}slides/03_Requirements_2026.pdf)
-* [MVC and Android]({attach}slides/04_MVC_Android_2026.pdf)
-* [Testing]({attach}slides/05_Testing_2026_v3.pdf)
-* [Design Patterns]({attach}slides/06%20Patterns-2026%20v3.pdf)
-* [Sequence Diagrams]({attach}slides/07%20Sequence%20Diagrams-2026%20v2.pdf)
+* [Objects, UML, and Kotlin]({attach}slides/01_OO-2026.pdf)
+* [MVC and Android]({attach}slides/02-MVC-Android-2026.pdf)
+* [Software Process]({attach}slides/03_Process_2026.pdf)
+* [Requirements]({attach}slides/04_Requirements_2026.pdf)
+* [Sequence Diagrams]({attach}slides/05%20Sequence%20Diagrams-2026%20v2.pdf)
+* [Testing]({attach}slides/06%20Testing-2026%20v3.pdf)
+* [Design Patterns]({attach}slides/07%20Patterns-2026%20v3.pdf)
 * [Refactoring]({attach}slides/08%20Refactoring-2026.pdf)
+* [Git Version Control]({attach}slides/HDMofG-2026.pdf)
 
 ---------------------------------------------------------------------------------------------------------
 # Archive 
@@ -86,7 +87,6 @@ Android Activities Resources
 Git
 
 * [Git Introduction and Practices Notes (Wang)]({attach}slides/Git_Introduction_and_Practices.pdf)
-* [Hand drawn Models of Git: Wizard Towers versus Centralized]({attach}slides/HDMofG.pdf)
 * [PAST Lab Git Notes (Romansky)]({filename}/labs/past_notes.md)
 * [Past Git Ignore Repo](https://github.com/github/gitignore)
 
