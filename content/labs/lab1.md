@@ -11,7 +11,7 @@ summary: Lab 1 -- Kotlin, OOP, Android Studio
 
 # Lab 1 Instructions 
 
-- Go over [Lab 1 Slides]({attach}slides/2026-Lab%201%20Slides%20v2.pdf)
+- Go over [Lab 1 Slides]({attach}slides/2026-Lab%201%20Slides%20v3.pdf)
 - Fork and clone the [Lab 1 GitHub Repo](https://github.com/ualberta-cmput301-2026-dev/lab-01/tree/main) for your Canvas submission.
   This repo includes:
     - Walkthrough instructions
