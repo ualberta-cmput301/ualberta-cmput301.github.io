@@ -38,6 +38,7 @@
               <li><a href="/general/help.html#discussion-forum">Discussion Forum</a></li>
               <li><a href="/#news-notices">News & Notices</a></li>
               <li><a href="/general/slides.html">Slides</a></li>
+              <li><a href="/general/midterms.html">Midterms</a></li>
               <li><a href="/general/help.html">Help</a></li>
                 <li><a href="https://ualberta-cmput301.github.io/" >Home</a></li>
           </ul></nav>
@@ -55,7 +56,7 @@
     <div class="toc">
 <ul>
 <li><a href="#project-problem-description">Project Problem Description</a><ul>
-<li><a href="#event-lottery-system-application">Event Lottery System Application</a></li>
+<li><a href="#campsite-reservation-system-application">Campsite Reservation System Application</a></li>
 <li><a href="#description">Description:</a></li>
 <li><a href="#features">Features:</a></li>
 </ul>
@@ -64,100 +65,104 @@
 </div>
 <h3 id="project-problem-description">Project Problem Description</h3>
 <p>Warning: This is subject to change!</p>
-<h4 id="event-lottery-system-application"><strong>Event Lottery System Application</strong></h4>
+<h4 id="campsite-reservation-system-application"><strong>Campsite Reservation System Application</strong></h4>
 <p>You are to design and implement a simple, attractive, and easy-to-use Android application to satisfy the following goals. Your design must be flexible enough to allow developers to extend or migrate it.</p>
 <h4 id="description"><strong>Description:</strong></h4>
-<p>We want a mobile application where people can sign up for events at community centres that are popular and fill up fast. We want to allow people with limitations such as work, disability, etc. to be able to sign up for these events fairly and not have to sit refreshing a webpage until they can get a chance at reserving a spot.</p>
-<p>How? Lottery! If I am running swimming lessons for 20 kids, I will post my event or series of events and I will let everyone join the waiting list for a period of a week. After the week is up, I will ask the system to choose 20 kids to sign up. The system will then notify these kids (or their guardians), if they say no they don’t want swimming lessons, then the system will sample another child to sign up. I can monitor the progress and then get access to the final list of everyone who signs up. If perhaps someone cancels later I can cancel them in the app and a new applicant is drawn.</p>
-<p>Lottery systems are great because you don’t have to be first to get a chance to go to an event, you just have to say you are interested and if you’re lucky you will be offered a chance. This gives people who need the time, the time to sign up properly without a time pressure. Accessibility!</p>
+<p>Campsites are vital to Alberta tourism. This province is home to five spectacular national parks and people love to visit them. Campsites are hard to reserve and even harder when you have to book them so far in advance. Furthermore, they are all spread out across different websites and applications.</p>
+<p>We want a mobile application where people can make reservations at campsites that are popular and fill up fast. We want to allow people with limitations such as work, disability, etc. to be able to sign up for these events fairly and not have to sit refreshing a webpage until they can get a chance at reserving a spot.</p>
+<p>How? Lottery! If I am a busy campsite owner, I will post my campsite or campsites for a block of time and I will let everyone join the waiting list for a period of a week. After the week is up, I will ask the system to choose 5 people to reserve in a first-come first-serve basis. The system will then notify the people. If they say no they do not want to reserve, they are free to do so. I can monitor the progress and then access to the final list of everyone who reserves. </p>
+<p>Lottery systems are great because you don’t have to be first to get a chance to go, you just have to say you are interested and if you’re lucky you will be offered a chance. This gives people who need the time, the time to sign up properly without a time pressure. Accessibility!</p>
 <h4 id="features"><strong>Features:</strong></h4>
 <ol>
 <li>
 <p>Pooling System:</p>
 <ul>
-<li>Organizers can draw from a waiting list of interested event attendees as selected participants.</li>
+<li>Campsite owners can draw from a waiting list of interested entrants to reserve their stay at the campsite.</li>
+</ul>
+</li>
+<li>
+<p>Availability Schedule:</p>
+<ul>
+<li>A calendar view of availability set by a campsite owner for their campsite.</li>
+<li>Used by entrants to reserve on a first-come first-served basis.</li>
 </ul>
 </li>
 <li>
 <p>QR Code Scanning:</p>
 <ul>
-<li>entrants can scan QR promotional code to view details about the event and also join the waiting list</li>
+<li>Entrants can scan QR promotional code to view details about the campsite and also join the waiting list for an active lottery.</li>
 </ul>
 </li>
 <li>
 <p>Firebase Integration:</p>
 <ul>
-<li>Utilize Firebase for storing event details, attendee lists, and real-time check-in status updates.</li>
+<li>Utilize Firebase for storing campsite details, reservation lists, and real-time status updates.</li>
 </ul>
 </li>
 <li>
 <p>Multi-User Interaction:</p>
 <ul>
-<li>Distinguish between entrants, organizers, and admin with special roles and privileges granted to each actor.</li>
+<li>Distinguish between entrants, campsite owners, and admin with special roles and privileges granted to each actor.</li>
 </ul>
 </li>
 <li>
 <p>Image Upload:</p>
 <ul>
-<li>Allow event organizers upload event poster image</li>
+<li>Allow campsite owners to upload promo images.</li>
+<li>Allow entrants to upload profile images.</li>
 </ul>
 </li>
 <li>
-<p>Geolocation Verification (Optional)</p>
+<p>Geolocation Support:</p>
 <ul>
-<li>Optionally use geolocation to verify where users are joining the waiting list from. This is the location provided by the device.</li>
+<li>Be able to attach a geolocation to the campsite listing. This is the location provided by the campsite owner.</li>
+<li>Entrants can view the campsite location by its geolocation on a map.</li>
 </ul>
 </li>
 </ol>
 <p><strong>Scenario:</strong></p>
 <ol>
 <li>
-<p>I want to sign my partner up to swim lessons, they need to learn how to swim if they are going to go canoeing with me. I go to the local rec centre, I see they have listed swimming lessons for beginners, I scan the QR code. I see that it is open to register for 2 more days. I click register. 2 days later when it is closed the system samples people, but not me. It notifies me that I wasn’t sampled in the first draw, but there might be a chance if someone declines. Nobody declines. Boo.</p>
+<p>I want to reserve a campsite near Banff so I can go rock climbing. I go to the University of Alberta Van Vliet Complex and see that a poster for a campsite in the Banff National Park area. I scan the QR code and view the campsite listing in the app. I see they have listed availability for the dates I am looking to go and an active lottery for 2 more days. So, I click join waiting list. 2 days later, I was selected by the lottery to book. When I go to book, I see that the campsite has been booked for those dates I wanted. Since the dates I wanted were booked, I click decline on the lottery. Boo.</p>
 </li>
 <li>
-<p>I am running an interpretive dance class where I teach the safety basics of dance (no eye gouging, that kind of stuff). I tell the app that I have classes every monday From 2025-01-01 to 2025-03-01, and that you need to register by 2024-12-15 and registration opens on 2024-12-01. The price is $60 and I can accommodate 60 people. I click publish and now an event is made where people can join the waiting list and they get this basic information. Also a QR code is generated that will lead them to this page.</p>
+<p>I own a campsite in the Hinton-Grande Cache area. The campsite can accommodate up to 8 people and it includes an outdoor cookhouse and an on-site tennis court. I register my campsite in the app and enter that it is available for the weekends in May 2027. The price is $65 per night. I click publish. Then, I create a campsite lottery listing for the weekends in May. People can also scan the automatically generated QR code to view the listing with details about the campsite and join the waiting list. </p>
 </li>
 <li>
-<p>I want to sign my partner up to piano lessons, they need to learn how to play if they are going to play piano with me. I go to the app, I go to my local rec centre, I see they have listed piano lessons for beginners, I scan the QR code. I see that it is open to register for 2 more days. I click register. 2 days later when it is closed the system samples people, but not me. It notifies me that I was sample.</p>
+<p>I want to reserve for a stay in Jasper National Park for 2 nights for me and my friends. I open the app, filter campsites by date and location, and see they have a Jasper campsite listed during those dates. However, the campsite I wanted has no available lottery. I keep browsing and find other campsites that have active lotteries. I join waiting list for a few campsites. I get a notification that I won and a campsite is available to book, and I reserve it. Later, there is a forest fire warning in the campsite area. I look on the app and notice my reservation was rejected by the owner and I got a refund. Phew!</p>
 </li>
 </ol>
 <p><strong>Actors:</strong></p>
 <ul>
 <li>
-<p>Entrant: a person who signs up for an event</p>
+<p>Entrant: Someone, on behalf of a group, who declares their interest in reserving a campsite  </p>
 </li>
 <li>
-<p>Organizer: the entity that runs the event</p>
+<p>Campsite Owner: The person or organization that creates and manages campsite listings</p>
 </li>
 <li>
-<p>Administrator: The entity that administers and runs the infrastructure</p>
+<p>Administrator: The entity that administers and moderates the application infrastructure</p>
 </li>
 </ul>
 <p><strong>Glossary:</strong></p>
 <ul>
 <li>
-<p>QR Code: a scannable code, either a barcode, a QR code, or other code scannable by Zebra crossing libraries or google QR code scanning libraries.</p>
+<p>QR Code: A scannable code, either a barcode, a QR code, or other code scannable by QR code scanning libraries</p>
 </li>
 <li>
-<p>Entrant: someone who declares their interest in signing up for an event by joining the waiting list</p>
+<p>Waiting List: A list of entrants who show interest in a specific campsite listing</p>
 </li>
 <li>
-<p>Waiting List: a record of entrants that showed interest in a specific event</p>
+<p>Sign Up : An action of registering/confirming for a campsite when successfully selected</p>
 </li>
 <li>
-<p>Sign Up : An action of registering/confirming for an event when successfully selected</p>
-<ul>
-<li>You can think of this like accepting an invitation.</li>
-</ul>
+<p>Reserve: An action of confirming a campsite reservation opportunity </p>
 </li>
 <li>
 <p>Profile : A screen on the application that holds information about an entrant</p>
 </li>
 <li>
-<p>Choosing: Randomly selecting a number of entrants in the waiting list to be invited to sign up</p>
-</li>
-<li>
-<p>Event: name, description, a time and place, registration start time and end time, optional promotional poster, organizer, entrants, attendees (accepted).</p>
+<p>Campsite: A name, location, maximum occupancy, price, rating, optional promotional image, rules and cancellation policy, availability, and campsite owner</p>
 </li>
 </ul>
 <p><strong>User Stories:</strong></p>
@@ -165,79 +170,141 @@
 <p>As a (role), I want (goal).</p>
 <p>These descriptions may change to correct omissions and clarify noticed issues. New requirements will be introduced for the final project part.</p>
 <p><strong>User:</strong></p>
-<p>US 01.01.01 As an entrant, I want to join the waiting list for a specific event</p>
-<p>US 01.01.02 As an entrant, I want to leave the waiting list for a specific event </p>
-<p>US 01.01.03 As an entrant, I want to be able to see a list of events that I can join the waiting list for.</p>
-<p>US 01.01.04 As an entrant, I want to filter events based on my interests and availability.</p>
-<p>US 01.02.01 As an entrant, I want to provide my personal information such as name, email and optional phone number in the app</p>
-<p>US 01.02.02 As an entrant I want to update information such as name, email and contact information on my profile</p>
-<p>US 01.02.03 As an entrant, I want to have a history of events I have registered for, whether I was selected or not.</p>
-<p>US 01.02.04 As an entrant, I want to delete my profile if I no longer wish to use the app.</p>
-<!--- US 01.03.01 As an entrant I want to upload a profile picture for a more personalized experience --->
+<p>US 01.01.01 As an entrant, I want to search for campsites.</p>
+<p>US 01.01.02 As an entrant, I want to filter campsites by location, date, and number of guests.</p>
+<p>US 01.01.03 As an entrant, I want to see a list of campsites based on my filters.</p>
+<p>US 01.01.04 As an entrant, I want to see campsite summary information including name, location, maximum occupancy, and rating.</p>
+<p>US 01.01.05 As an entrant, I want to see details of a campsite.</p>
+<p>US 01.01.06 As an entrant, I want to join an active lottery from the campsite details screen.</p>
+<p>US 01.02.01 As an entrant, I want to join the waiting list for a campsite lottery.</p>
+<p>US 01.02.02 As an entrant, I want to leave the waiting list for a campsite lottery.</p>
+<p>US 01.03.01 As an entrant, I want to receive a notification when I win the campsite lottery.</p>
+<p>US 01.03.01 As an entrant, I want to receive a notification when I lose the campsite lottery.</p>
+<p>US 01.04.01 As an entrant, if I win the lottery, I want to see available dates that I can reserve the campsite for.</p>
+<!-- US 01.02.06 As an entrant, if I win the lottery, I want to reserve a campsite for the dates I want. -->
 
-<!--- US 01.03.02 As an entrant I want remove profile picture if need be --->
+<p>US 01.04.02 As an entrant, if I win a multiple campsite lottery, I want to choose which campsite to reserve and which dates I want.</p>
+<p>US 01.04.03 As an entrant, if I win the lottery, I want to decline a reservation if I changed my mind or if none of the remaining dates work for me.</p>
+<p>US 01.05.01 As an entrant, I want to receive confirmation of my campsite reservation.</p>
+<p>US 01.05.02 As an entrant, I want to receive reservation by notification or downloadable CSV.</p>
+<p>US 01.06.01 As an entrant, I want to view a list of my active reservations.</p>
+<p>US 01.06.02 As an entrant, I want to view a list of my past reservations.</p>
+<p>US 01.07.01 As an entrant, I want to cancel my campsite reservation.</p>
+<p>US 01.07.02 As an entrant, I want to receive confirmation of my campsite cancellation by notification or downloadable CSV.</p>
+<p>US 01.07.03 As an entrant, I want to update my personal information, such as name, email, and phone number, on my profile.</p>
+<p>US 01.08.01 As an entrant, I want to delete my profile.</p>
+<!-- <mark style="background-color: lightblue">US 01.08.02 As an entrant, I want to add, update, or remove my profile image.</mark> -->
 
-<!--- US 01.03.03 As an entrant I want my profile picture to be deterministically generated from my profile name if I haven't uploaded a profile image yet. --->
+<p>US 01.09.01 As an entrant, I want to be identified by my device, so that I do not have to use a username and password.</p>
+<p>US 01.10.01 As an entrant, I want to opt out of receiving notifications.</p>
+<p>US 01.11.01 As an entrant, I want to see the app policy and guidelines.</p>
+<p>US 01.12.01 As an entrant, I want to view campsite details by scanning the promotional QR code.</p>
+<p>US 01.13.01 As an entrant, I want to give a rating for a campsite.</p>
+<!-- <mark style="background-color: lightblue">US 01.13.02 As an entrant, I want to post a review for a campsite.</mark> -->
 
-<p>US 01.04.01 As an entrant I want to receive notification when I am chosen to participate from the waiting list (when I "win" the lottery)</p>
-<p>US 01.04.02 As an entrant I want to receive notification of when I am not chosen on the app (when I "lose" the lottery)</p>
-<p>US 01.04.03 As an entrant I want to opt out of receiving notifications from organizers and admins</p>
-<p>US 01.05.01 As an entrant I want another chance to be chosen from the waiting list if a selected user declines an invitation to sign up.</p>
-<p>US 01.05.02 As an entrant I want to be able to accept the invitation to register/sign up when chosen to participate in an event.</p>
-<p>US 01.05.03 As an entrant I want to be able to decline an invitation when chosen to participate in an event.</p>
-<p>US 01.05.04 As an entrant, I want to know how many total entrants are on the waiting list for an event.</p>
-<p>US 01.05.05 As an entrant, I want to be informed about the criteria or guidelines for the lottery selection process.</p>
-<p>US 01.06.01 As an entrant I want to view event details within the app by scanning the promotional QR code.</p>
-<p>US 01.06.02 As an entrant I want to be able to be sign up for an event by from the event details.</p>
-<p>US 01.07.01 As an entrant, I want to be identified by my device, so that I don't have to use a username and password.</p>
-<!--- US 01.08.01 As an entrant, I want to be warned before joining a waiting list that requires geolocation. --->
+<!-- <mark style="background-color: lightblue">US 01.14.01 As an entrant, I want to message the campsite owner for a reservation that I have.</mark> -->
 
-<p><strong>Organizer:</strong></p>
-<p>US 02.01.01 As an organizer I want to create a new event and generate a unique promotional QR code that links to the event description and event poster in the app.</p>
-<!--- US 02.01.02 As an organizer I want to store the generated QR code in my database --->
+<p><strong>Campsite Owner:</strong></p>
+<p>US 02.01.01 As a campsite owner, I want to register my campsite with the app.</p>
+<p>US 02.01.02 As a campsite owner, I want to provide campsite details including name, location, description (amenities), maximum occupancy, map location, optional image, and tags.</p>
+<p>US 02.01.03 As a campsite owner, I want to update details about my campsite.</p>
+<p>US 02.01.04 As a campsite owner, I want to view details of my campsite.</p>
+<p>US 02.02.01 As a campsite owner, I want the system to generate a unique QR code that links to the campsite details.</p>
+<p>US 02.03.01 As a campsite owner, I want to view a list of my campsites.</p>
+<p>US 02.04.01 As a campsite owner, I want to list my campsite in a lottery for a certain period.</p>
+<p>US 02.04.02 As a campsite owner, I want be able to list multiple campsites in a lottery for a certain period.</p>
+<!-- <mark style="background-color: lightblue">US 02.02.02 As a campsite owner, I want be able to list multiple campsites with other campsite owners in a lottery for a certain period.</mark> -->
 
-<!--- US 02.01.03 As an organizer, I want to create and manage my facility profile. --->
-
-<p>US 02.01.04 As an organizer, I want to set a registration period.</p>
-<p>US 02.02.01 As an organizer I want to view the list of entrants who joined my event waiting list</p>
-<p>US 02.02.02 As an organizer I want to see on a map where entrants joined my event waiting list from.</p>
-<p>US 02.02.03 As an organizer I want to enable or disable the geolocation requirement for my event.</p>
-<p>US 02.03.01 As an organizer I want to OPTIONALLY limit the number of entrants who can join my waiting list.</p>
-<p>US 02.04.01 As an organizer I want to upload an event poster to the event details page to provide visual information to entrants.</p>
-<p>US 02.04.02 As an organizer I want to update an event poster to provide visual information to entrants.</p>
-<p>US 02.05.01 As an organizer I want to send a notification to chosen entrants to sign up for events.</p>
-<ul>
-<li>This is the notification that they "won" the lottery.</li>
-</ul>
-<p>US 02.05.02 As an organizer I want to set the system to sample a specified number of attendees to register for the event.</p>
-<p>US 02.05.03 As an organizer I want to be able to draw a replacement applicant from the pooling system when a previously selected applicant cancels or rejects the invitation.</p>
-<p>US 02.06.01 As an organizer I want to view a list of all chosen entrants who are invited to apply.</p>
-<p>US 02.06.02 As an organizer I want to see a list of all the cancelled entrants.</p>
-<p>US 02.06.03 As an organizer I want to see a final list of entrants who enrolled for the event.</p>
-<p>US 02.06.04 As an organizer I want to cancel entrants that did not sign up for the event </p>
-<p>US 02.06.05 As an organizer I want to export a final list of entrants who enrolled for the event in CSV format.</p>
-<p>US 02.07.01 As an organizer I want to send notifications to all entrants on the waiting list</p>
-<p>US 02.07.02 As an organizer I want to send notifications to all selected entrants</p>
-<p>US 02.07.03 As an organizer I want to send a notification to all cancelled entrants</p>
+<p>US 02.04.03 As a campsite owner, I want to set a registration period.</p>
+<p>US 02.04.04 As a campsite owner, I want to set a booking period.</p>
+<p>US 02.04.05 As a campsite owner, I want to set the number of lottery winners.</p>
+<p>US 02.04.06 As a campsite owner, I want to update my campsite lottery listing.</p>
+<p>US 02.04.07 As a campsite owner, I want to optionally set a capacity for my lottery waitlist.</p>
+<p>US 02.05.01 As a campsite owner, I want the system to automatically draw winners after the registration period ends.</p>
+<p>US 02.06.01 As a campsite owner, I want to view the currently booked dates for my campsite.</p>
+<p>US 02.07.01 As a campsite owner, I want to view a list of active reservations.</p>
+<p>US 02.07.02 As a campsite owner, I want to view a list of past reservations.</p>
+<p>US 02.07.03 As a campsite owner, I want to view a list of cancelled reservations.</p>
+<p>US 02.08.01 As a campsite owner, I want to reject a reservation.</p>
+<p>US 02.09.01 As a campsite owner, I want to view a list of entrants who have joined the waitlist for my campsite lottery.</p>
+<p>US 02.10.01 As a campsite owner, I want to send notifications to entrants who have joined the waitlist for my campsite lottery.</p>
+<p>US 02.10.02 As a campsite owner, I want to view a list of all notifications I have sent.</p>
+<p>US 02.11.01 As a campsite owner, I want entrants to confirm that they have read the campsite rules and policies before confirming their reservation.</p>
+<p>US 02.12.01 As a campsite owner, I want to message a user who is reserving my campsite.</p>
 <p><strong>Admin:</strong></p>
-<p>US 03.01.01 As an administrator, I want to be able to remove events.</p>
-<p>US 03.02.01 As an administrator, I want to be able to remove profiles.</p>
-<p>US 03.03.01 As an administrator, I want to be able to remove images.</p>
-<!--- US 03.03.02 As an administrator, I want to be able to remove hashed QR code data --->
+<p>US 03.01.01 As an admin, I want to remove registered campsites.</p>
+<p>US 03.02.01 As an admin, I want to remove profiles.</p>
+<p>US 03.03.01 As an admin, I want to remove images.</p>
+<p>US 03.04.01 As an admin, I want to browse campsites.</p>
+<p>US 03.05.01 As an admin, I want to browse profiles.</p>
+<p>US 03.06.01 As an admin, I want to browse uploaded images so I can remove them if necessary.</p>
+<p>US 03.07.01 As an admin, I want to remove campsite owners that violate app policy.</p>
+<p>US 03.08.01 As an admin, I want to review logs of all notifications.</p>
+<!-- <mark style="background-color: lightblue">US 03.09.01 As an admin, I want to remove campsite ratings that violate app policy.</mark> -->
 
-<p>US 03.04.01 As an administrator, I want to be able to browse events.</p>
-<p>US 03.05.01 As an administrator, I want to be able to browse profiles.</p>
-<p>US 03.06.01 As an administrator, I want to be able to browse images that are uploaded so I can remove them if necessary.</p>
-<p>US 03.07.01 As an administrator I want to remove organizers that violate app policy.</p>
-<p>US 03.08.01 As an administrator, I want to review logs of all notifications sent to entrants by organizers.</p>
+<!-- <mark style="background-color: lightblue">US 03.10.01 As an admin, I want to remove campsite reviews that violate app policy.</mark> -->
+
+<p>US 03.11.01 As an admin, I should be able to be a campsite owner and/or entrant with my admin profile.</p>
+<p>US 03.12.01 As an admin, I want to review logs of all messages from campsite owners to entrants who reserved their campsite.</p>
+<p><strong>WOW Factor:</strong></p>
+<p>As a bonus 2% to your overall course grade, project teams are able to complete a “wow factor” that differentiates their project from other teams.
+This is an optional component and you can still receive 100% in the course even if you do not complete this.
+Some sample ideas of additions to the project are provided below.
+If you have a different idea than one of the suggestions below then you must approve it with your mentor TA first before working on the feature.</p>
+<ol>
+<li>
+<p>Reservation map</p>
+<ul>
+<li>Entrants can view a map of their past and active reservations.</li>
+</ul>
+</li>
+<li>
+<p>Match score</p>
+<ul>
+<li>Campsites can be ranked using a match score based on the entrant's filters.</li>
+</ul>
+</li>
+<li>
+<p>Map view</p>
+<ul>
+<li>Entrants can view campsites on a map within a selected radius from their device location.</li>
+</ul>
+</li>
+<li>
+<p>Advanced review system</p>
+<ul>
+<li>Entrants can reply to reviews in threads.</li>
+<li>Entrants can react to reviews.</li>
+</ul>
+</li>
+<li>
+<p>Featured carousel</p>
+<ul>
+<li>Entrants can view a carousel of featured campsites based on their preferences.</li>
+</ul>
+</li>
+<li>
+<p>Accessibility mode</p>
+<ul>
+<li>Color blind mode.</li>
+<li>Adjustable font, button, and UI component size.</li>
+</ul>
+</li>
+<li>
+<p>Messaging system</p>
+<ul>
+<li>Entrants and campsite owners can exchange messages about reservations. </li>
+</ul>
+</li>
+</ol>
     <footer>
-      <p>Published: <time datetime="2025-08-26T00:00:00-06:00">
-        Tue, 26 Aug 2025 at 00:00 MDT
+      <p>Published: <time datetime="2026-06-02T00:00:00-06:00">
+        Tue, 02 Jun 2026 at 00:00 MDT
       </time></p>
         <address>
           By             <a href="https://ualberta-cmput301.github.io/author/abram-hindle.html">Abram Hindle</a>
-            <a href="https://ualberta-cmput301.github.io/author/samuel-iwuchukwu.html">Samuel Iwuchukwu</a>
-            <a href="https://ualberta-cmput301.github.io/author/hazel-victoria-campbell.html">Hazel Victoria Campbell</a>
+            <a href="https://ualberta-cmput301.github.io/author/michelle-deng.html">Michelle Deng</a>
+            <a href="https://ualberta-cmput301.github.io/author/raj-prasad.html">Raj Prasad</a>
         </address>
         <p>
           Category: <a href="https://ualberta-cmput301.github.io/category/projects.html">projects</a>

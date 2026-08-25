@@ -36,6 +36,7 @@
               <li><a href="/general/help.html#discussion-forum">Discussion Forum</a></li>
               <li><a href="/#news-notices">News & Notices</a></li>
               <li><a href="/general/slides.html">Slides</a></li>
+              <li><a href="/general/midterms.html">Midterms</a></li>
               <li><a href="/general/help.html">Help</a></li>
                 <li><a href="https://ualberta-cmput301.github.io/" >Home</a></li>
           </ul></nav>
@@ -51,150 +52,33 @@
     <hr>
 <div class="toc">
 <ul>
-<li><a href="#lab-1-slides">Lab 1 Slides</a></li>
-<li><a href="#instructions">Instructions</a><ul>
-<li><a href="#walkthrough">Walkthrough</a></li>
-</ul>
-</li>
-<li><a href="#lab1-participation-exercise-requirements">Lab1 Participation Exercise Requirements</a></li>
+<li><a href="#lab-1-instructions">Lab 1 Instructions</a></li>
 <li><a href="#submission">Submission</a></li>
 </ul>
 </div>
-<h3 id="lab-1-slides">Lab 1 Slides</h3>
+<h3 id="lab-1-instructions">Lab 1 Instructions</h3>
 <ul>
-<li><a href="https://ualberta-cmput301.github.io/labs/slides/CMPUT_301_LAB_1.pdf">Lab 1 Slides</a></li>
-</ul>
-<h3 id="instructions">Instructions</h3>
-<p>Download and install Android Studio from the official Android website</p>
-<p><a href="https://developer.android.com/studio">https://developer.android.com/studio</a></p>
-<p>Check for specific installation guide unique to your Operating System</p>
-<p><a href="https://developer.android.com/studio/install">https://developer.android.com/studio/install</a></p>
-<h4 id="walkthrough">Walkthrough</h4>
-<ol>
-<li>
-<p>Create a new LonelyTwitter project (File &gt; New &gt; New Project &gt; Select "Empty Views Activity"). Make sure that the project language is <strong>Java</strong>, not Kotlin!</p>
-</li>
-<li>
-<p>Create Tweet Class (Click &gt; New &gt; Java Class)</p>
-</li>
-<li>Make attributes (Date date &amp; String message) (use alt+enter (windows) or Option-Enter (Mac) to include/import any packages)<ul>
-<li>Note: Access modifiers<ul>
-<li>private= class only</li>
-<li>No modifier = within package</li>
-<li>protected = within package and through inheritance</li>
-<li>public = everyone!</li>
+<li>Go over <a href="https://ualberta-cmput301.github.io/labs/slides/2026-Lab 1 Slides v3.pdf">Lab 1 Slides</a></li>
+<li>Fork and clone the <a href="https://github.com/ualberta-cmput301-2026-dev/lab-01/tree/main">Lab 1 GitHub Repo</a> for your Canvas submission.
+  This repo includes:<ul>
+<li>Walkthrough instructions</li>
+<li>Participation exercise instructions</li>
+<li>Submission instructions</li>
 </ul>
 </li>
 </ul>
-</li>
-<li>Create two Constructors (one with the only Message and the other with Date+Message as arguments) and use Date = new Date() (current date and time) for the first constructor (the Default value for date).</li>
-<li>Note: Java Object Class (everything extends it, calls its constructor and it has built-in methods like toString())</li>
-<li>Note: the this keyword (message = message doesn't do anything!)</li>
-<li>
-<p>Make a regular tweet in MainActivity (pass in an empty string)</p>
-</li>
-<li>
-<p>Getters and setters</p>
-</li>
-<li>
-<p>Inheritance</p>
-</li>
-<li>
-<p>Make ImportantTweet child class (extends Tweet)</p>
-<ul>
-<li>call super in both of ImportantTweet's constructors</li>
-</ul>
-</li>
-<li>Now have access to the parent's methods and attributes. except constructors! (try and make an important Tweet)</li>
-</ol>
-<div class="highlight"><pre><span></span><code><span class="n">ImportantTweet</span><span class="p">(</span><span class="n">String</span><span class="w"> </span><span class="n">message</span><span class="p">){</span>
-<span class="w">        </span><span class="kd">super</span><span class="p">(</span><span class="n">message</span><span class="p">);</span>
-<span class="w">    </span><span class="p">}</span>
-</code></pre></div>
-
-<ul>
-<li>Super calls the parent's constructor (there is a hidden call to Object's constructor)</li>
-<li>
-<p>Change the Tweet to an ImportantTweet in MainActivity</p>
-</li>
-<li>
-<p>Abstract Stuff</p>
-</li>
-<li>
-<p>Make Tweet Class Abstract</p>
-<ul>
-<li>public abstract class Tweet { ... }<ul>
-<li>Note: Abstract classes cannot be instantiated.</li>
-</ul>
-</li>
-<li>public abstract Boolean isImportant();<ul>
-<li>This is an abstract method, it has no implementation and must be overridden by child classes (to add functionality).</li>
-<li>Note: Abstract methods cannot be called using any objects.</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p>What if they need to behave differently? @Override isImportant() to create a compile-time check</p>
-<ul>
-<li>You need to override the method in the child class as it is an abstract method in the parent class that has no implementation.</li>
-<li>Overriding the method allows the child class to have its own implementation of the method.<ul>
-<li>ex. the Normal Tweet is not important, so it returns false. The ImportantTweet is important, so it returns true.</li>
-</ul>
-</li>
-<li>The methods in the child classes need to be overridden to behave differently.</li>
-</ul>
-</li>
-<li>
-<p>Make a NormalTweet class, could have many types of tweets</p>
-<ul>
-<li>call super in both of  NormalTweet's constructors</li>
-<li>isImportant method should return Boolean.FALSE</li>
-<li>What if we want to use both in our list? (Implicit upcasting)</li>
-</ul>
-</li>
-</ul>
-<p>ArrayList<Tweet> tweetList = new ArrayList<Tweet>();
-tweetList.add(normalTweet);</p>
-<ul>
-<li>
-<p>Abstract method and base class so all the classes have the isImportant() method</p>
-</li>
-<li>
-<p>An interface can also be used to force the use of some methods</p>
-</li>
-</ul>
-<div class="highlight"><pre><span></span><code><span class="kd">public</span><span class="w"> </span><span class="kd">interface</span> <span class="nc">Tweetable</span><span class="w"> </span><span class="p">{</span>
-<span class="w">     </span><span class="kd">public</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="nf">getMessage</span><span class="p">();</span>
-<span class="w">     </span><span class="kd">public</span><span class="w"> </span><span class="n">Date</span><span class="w"> </span><span class="nf">getDate</span><span class="p">();</span>
-<span class="w">   </span><span class="p">}</span>
-</code></pre></div>
-
-<ul>
-<li>Make Tweet implement Tweetable</li>
-</ul>
-<h3 id="lab1-participation-exercise-requirements">Lab1 Participation Exercise Requirements</h3>
-<ol>
-<li>Add three new model classes to LonelyTwitter: the first should be an abstract base class which represents the current mood. The second and third should be non-abstract classes which represent different moods (Ex: happy, sad, etc.) and inherit from the abstract class.</li>
-<li>Each mood should have a date and getters and setters to access the date.</li>
-<li>A constructor which sets the date to a default and a constructor which takes a date as an argument should be provided. </li>
-<li>Encapsulation should be followed.</li>
-<li>Each mood should have a method which returns a string representing that mood.</li>
-<li>Your new code should have examples of classes, methods, attributes, access modifiers, encapsulation, constructors, inheritance and abstract base classes.</li>
-</ol>
 <h3 id="submission">Submission</h3>
-<p>Note: Running the project is not necessary.</p>
-<p>Zip the project and upload it to eClass.</p>
-<ul>
-<li><strong>Due date:</strong> Check the <a href="https://ualberta-cmput301.github.io/#schedule">schedule</a>. (Usually Friday after the lab at 4PM)</li>
-</ul>
+<p>Canvas</p>
+<p><strong>Note: Proper completion of this exercise is considered as part of course participation.</strong></p>
+<p><strong>Due Date</strong></p>
+<p>Friday after the Thursday lab at 4PM</p>
     <footer>
-      <p>Published: <time datetime="2024-08-19T00:00:00-06:00">
-        Mon, 19 Aug 2024 at 00:00 MDT
+      <p>Published: <time datetime="2027-07-07T00:00:00-06:00">
+        Wed, 07 Jul 2027 at 00:00 CST
       </time></p>
         <address>
-          By             <a href="https://ualberta-cmput301.github.io/author/samuel-iwuchukwu.html">Samuel Iwuchukwu</a>
-            <a href="https://ualberta-cmput301.github.io/author/hazel-victoria-campbell.html">Hazel Victoria Campbell</a>
+          By             <a href="https://ualberta-cmput301.github.io/author/michelle-deng.html">Michelle Deng</a>
+            <a href="https://ualberta-cmput301.github.io/author/raj-prasad.html">Raj Prasad</a>
         </address>
         <p>
           Category: <a href="https://ualberta-cmput301.github.io/category/labs.html">labs</a>

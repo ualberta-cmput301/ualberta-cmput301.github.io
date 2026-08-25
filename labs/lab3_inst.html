@@ -36,6 +36,7 @@
               <li><a href="/general/help.html#discussion-forum">Discussion Forum</a></li>
               <li><a href="/#news-notices">News & Notices</a></li>
               <li><a href="/general/slides.html">Slides</a></li>
+              <li><a href="/general/midterms.html">Midterms</a></li>
               <li><a href="/general/help.html">Help</a></li>
                 <li><a href="https://ualberta-cmput301.github.io/" >Home</a></li>
           </ul></nav>
@@ -48,48 +49,120 @@
            title="Permalink to Lab 3 Instructions">Lab 3 Instructions</a></h2>
       
     </header>
-    <div class="toc">
+    <hr>
+<div class="toc">
 <ul>
-<li><a href="#lab-3-instructions-what-well-do-in-lab">Lab 3 Instructions - What we'll do in lab!</a></li>
-<li><a href="#lab-3-participation-exercise">Lab 3 Participation Exercise</a></li>
+<li><a href="#lab-3-more-android">Lab 3: More Android</a><ul>
+<li><a href="#1-getting-started">1. Getting Started</a></li>
+<li><a href="#2-demo-instructions">2. Demo Instructions</a></li>
+<li><a href="#3-lab-3-participation-exercise">3. Lab 3 Participation Exercise</a><ul>
+<li><a href="#task">Task</a></li>
+<li><a href="#example-implementation">Example Implementation</a></li>
+</ul>
+</li>
+<li><a href="#4-implementation-tips">4. Implementation Tips</a><ul>
+<li><a href="#1-city-class-updates">1. City Class Updates</a></li>
+<li><a href="#2-choose-your-implementation">2. Choose Your Implementation</a></li>
+<li><a href="#example-code">Example Code</a></li>
+<li><a href="#compose-hints">Compose Hints</a></li>
+</ul>
+</li>
+<li><a href="#5-submission">5. Submission</a></li>
+</ul>
+</li>
 </ul>
 </div>
-<h3 id="lab-3-instructions-what-well-do-in-lab">Lab 3 Instructions - What we'll do in lab!</h3>
-<p>In Lab 3, together we'll go through the following:</p>
+<h3 id="lab-3-more-android">Lab 3: More Android</h3>
+<h4 id="1-getting-started">1. Getting Started</h4>
 <ol>
-<li>Going through Lab 3 Slides PDF  (<a href="https://ualberta-cmput301.github.io/labs/slides/Lab_3_Slides_Winter_2023.pdf">customize ArrayAdapter and Fragments</a>)</li>
-<li>Supporting a ListView with items that have multiple views using a custom ArrayAdapter and Using a Fragment to add new cities to ListyCity (<a href="https://ualberta-cmput301.github.io/labs/slides/Lab_3_Instructions_Winter_2023.pdf">customize ArrayAdapter and Fragments code &amp; walkthrough</a>)</li>
+<li>Clone this repository and open the <code>/code</code> folder in Android Studio.</li>
+<li>You'll find a basic <code>ListyCity</code> app that displays a static list of cities and provinces.</li>
 </ol>
-<p>Download the Starter code <a href="https://ualberta-cmput301.github.io/labs/slides/ListyCityLab3.zip">here</a></p>
-<p>Read about Java code conventions (see the <a href="https://ualberta-cmput301.github.io/labs/slides/Code_Conventions_Schoepp.pdf">Code Conventions (Schoepp) PDF</a>).</p>
-<p>Editing existing cities in ListyCity (see the Lab 3 Participation Exercise below for more details)</p>
-<h3 id="lab-3-participation-exercise">Lab 3 Participation Exercise</h3>
-<p>Note: Proper completion of this exercise is considered as part of course participation.</p>
-<p>Task: Add functionality to ListyCity to allow editing an existing city. The specifics of the design of this functionality are up to you.</p>
-<p>If you could not attend the labs or do not have the code for the updated Lab 3 ListyCity, follow Lab 3 Instructions for ListyCity CustomList and then ListyCity Fragment. You can also download the "Lab 3 Demo" code from eClass.</p>
-<p><strong>Your app does not need to look exactly like the screenshots. All that is required is the ability to edit an existing city. You can implement it and make it look like however you want.</strong></p>
-<p><img alt="Screen1" src="https://ualberta-cmput301.github.io/labs/img1_lab3.png" style="margin: 20px;" width="300">
-<img alt="Screen2" src="https://ualberta-cmput301.github.io/labs/img2_lab3.png" style="margin: 20px;" width="300">
-<img alt="Screen3" src="https://ualberta-cmput301.github.io/labs/img3_lab3.png" style="margin: 20px;" width="300">
-<img alt="Screen4" src="https://ualberta-cmput301.github.io/labs/img4_lab3.png" style="margin: 20px;" width="300"></p>
-<p>Hints:
-1. <strong>Add setters</strong> to your City class so that you can modify its name and province.</p>
+<h4 id="2-demo-instructions">2. Demo Instructions</h4>
+<p>During the lab demo, we'll implement "Add City" functionality:</p>
 <ol>
-<li>You may need to <strong>pass the City object that is clicked in the Activity into the Fragment.</strong> One way to do this is to <strong>make a constructor for the Fragment that takes in a City,</strong> and <strong>store the City in the Fragment as an instance variable.</strong> If you do this, make sure to also add an empty constructor to the Fragment so you can use it when adding a new City.
-Another way you can send a City object from the Activity to the Fragment is by adding a <strong>"newInstance" method in the Fragment,</strong> and use this method to create a new Fragment when editing a City. In this method, you <strong>take in a City and store it in the Fragment's Bundle object</strong> (if you do this, <strong>make sure that your City class implements the "Serializable" interface, so that it can be saved into the Bundle</strong>). Later on in your onCreateDialog method, you can <strong>access the Bundle using getArguments() and retrieve the City object there.</strong> Note that storing data in a Bundle is similar to storing data in an Intent using key-value pairs. (This is the preferred way to do it in Android, because you usually should not have custom constructors for your Fragments. See here for more info).</li>
+<li>Review <a href="https://ualberta-cmput301.github.io/labs/slides/2026-Lab-3-Slides.pdf">Lab 3 Slides</a></li>
+<li>Follow along with <a href="https://ualberta-cmput301.github.io/labs/slides/2026-Lab-3-instructions.pdf">Lab 3 Instructions</a></li>
+<li>Read about Code Conventions (see the <a href="https://ualberta-cmput301.github.io/labs/slides/Kotlin Code Conventions.pdf">Kotlin Code Conventions PDF</a>).</li>
+<li>By the end, you'll have implemented the ability to add new cities to the list.</li>
 </ol>
-<p>Example of a newInstance method in AddCityFragment (Hint #3) </p>
-<p><img alt="Screen5" src="https://ualberta-cmput301.github.io/labs/img5_lab3.png" style="margin: 20px;" width="300"></p>
-<p>You should submit your exercise solution as a zip or tar archive.</p>
-<p><strong>Due Date</strong></p>
-<p>Friday after the lab at 4PM</p>
+<h4 id="3-lab-3-participation-exercise">3. Lab 3 Participation Exercise</h4>
+<h5 id="task">Task</h5>
+<ul>
+<li>Add functionality to <code>ListyCity</code> to allow <strong>editing</strong> existing cities. The design implementation is flexible and up to your creativity.</li>
+<li>Update the <code>README.md</code> and the <code>LICENSE.md</code> with your details.</li>
+</ul>
+<h5 id="example-implementation">Example Implementation</h5>
+<p><img alt="Screen1" src="https://ualberta-cmput301.github.io/labs/2026_img1_lab3.png" style="margin: 20px;" width="300">
+<img alt="Screen2" src="https://ualberta-cmput301.github.io/labs/2026_img2_lab3.png" style="margin: 20px;" width="300">
+<img alt="Screen3" src="https://ualberta-cmput301.github.io/labs/2026_img3_lab3.png" style="margin: 20px;" width="300">
+<img alt="Screen4" src="https://ualberta-cmput301.github.io/labs/2026_img4_lab3.png" style="margin: 20px;" width="300"></p>
+<blockquote>
+<p><strong>Note:</strong> Your app does NOT need to look exactly like the screenshots.  The only requirement is the ability to edit an existing city.  </p>
+</blockquote>
+<h4 id="4-implementation-tips">4. Implementation Tips</h4>
+<h5 id="1-city-class-updates">1. City Class Updates</h5>
+<ul>
+<li>The starter code uses a <code>City</code> data class with <code>val</code> properties:</li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="kd">data</span><span class="w"> </span><span class="kd">class</span><span class="w"> </span><span class="nc">City</span><span class="p">(</span>
+<span class="w">    </span><span class="kd">val</span><span class="w"> </span><span class="nv">name</span><span class="p">:</span><span class="w"> </span><span class="kt">String</span><span class="p">,</span>
+<span class="w">    </span><span class="kd">val</span><span class="w"> </span><span class="nv">province</span><span class="p">:</span><span class="w"> </span><span class="kt">String</span>
+<span class="p">)</span>
+</code></pre></div>
+
+<p>Since name and province use val, they cannot be changed directly after a City object is created</p>
+<p>To edit a city, create a new City object with the updated values and replace the old city in the list</p>
+<p>Example:</p>
+<div class="highlight"><pre><span></span><code><span class="kd">val</span><span class="w"> </span><span class="nv">updatedCity</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">City</span><span class="p">(</span>
+<span class="w">    </span><span class="n">name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">newCityName</span><span class="p">,</span>
+<span class="w">    </span><span class="n">province</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">newProvinceName</span>
+<span class="p">)</span>
+</code></pre></div>
+
+<h5 id="2-choose-your-implementation">2. Choose Your Implementation</h5>
+<p>Recommended Approach:</p>
+<ul>
+<li>Track which City object is selected</li>
+<li>Store the edited city name and province in text fields</li>
+<li>Create a new City object with the updated values</li>
+<li>Replace the selected city in the list</li>
+</ul>
+<h5 id="example-code">Example Code</h5>
+<p>One approach is to add an updateCity() function to CityRepository:</p>
+<div class="highlight"><pre><span></span><code><span class="kd">fun</span><span class="w"> </span><span class="nf">updateCity</span><span class="p">(</span><span class="n">oldCity</span><span class="p">:</span><span class="w"> </span><span class="n">City</span><span class="p">,</span><span class="w"> </span><span class="n">updatedCity</span><span class="p">:</span><span class="w"> </span><span class="n">City</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">val</span><span class="w"> </span><span class="nv">index</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">_cities</span><span class="p">.</span><span class="na">indexOf</span><span class="p">(</span><span class="n">oldCity</span><span class="p">)</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">index</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="o">-</span><span class="m">1</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">_cities</span><span class="o">[</span><span class="n">index</span><span class="o">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">updatedCity</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+
+<h5 id="compose-hints">Compose Hints</h5>
+<ul>
+<li>Use state to track the selected city:</li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="kd">var</span><span class="w"> </span><span class="nv">selectedCity</span><span class="w"> </span><span class="k">by</span><span class="w"> </span><span class="n">remember</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">mutableStateOf</span><span class="o">&lt;</span><span class="n">City?&gt;</span><span class="p">(</span><span class="kc">null</span><span class="p">)</span><span class="w"> </span><span class="p">}</span>
+</code></pre></div>
+
+<ul>
+<li>A city row can be made selectable using Modifier.clickable { ... }</li>
+<li>Text fields can be reused to enter the updated city name and province</li>
+<li>Use a callback such as onUpdateCity(oldCity, updatedCity) to send the edit action upward</li>
+</ul>
+<h4 id="5-submission">5. Submission</h4>
+<blockquote>
+<p>[!CAUTION]
+Make sure to commit <strong>and</strong> push your code to the GitHub repository before the deadline!</p>
+<p>Once you completed, please go to <a href="https://canvas.ualberta.ca/">Canvas</a> and submit <strong>your Lab 3 GitHub repository link</strong>.</p>
+</blockquote>
     <footer>
-      <p>Published: <time datetime="2024-01-06T00:00:00-07:00">
-        Sat, 06 Jan 2024 at 00:00 MST
+      <p>Published: <time datetime="2026-06-30T00:00:00-06:00">
+        Tue, 30 Jun 2026 at 00:00 MDT
       </time></p>
         <address>
-          By             <a href="https://ualberta-cmput301.github.io/author/samuel-iwuchukwu.html">Samuel Iwuchukwu</a>
-            <a href="https://ualberta-cmput301.github.io/author/hazel-victoria-campbell.html">Hazel Victoria Campbell</a>
+          By             <a href="https://ualberta-cmput301.github.io/author/raj-prasad.html">Raj Prasad</a>
+            <a href="https://ualberta-cmput301.github.io/author/michelle-deng.html">Michelle Deng</a>
         </address>
         <p>
           Category: <a href="https://ualberta-cmput301.github.io/category/labs.html">labs</a>

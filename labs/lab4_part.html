@@ -36,6 +36,7 @@
               <li><a href="/general/help.html#discussion-forum">Discussion Forum</a></li>
               <li><a href="/#news-notices">News & Notices</a></li>
               <li><a href="/general/slides.html">Slides</a></li>
+              <li><a href="/general/midterms.html">Midterms</a></li>
               <li><a href="/general/help.html">Help</a></li>
                 <li><a href="https://ualberta-cmput301.github.io/" >Home</a></li>
           </ul></nav>
@@ -65,70 +66,115 @@
 </ul>
 </div>
 <h3 id="lab-4-slides">Lab 4 Slides</h3>
-<p><a href="https://ualberta-cmput301.github.io/labs/slides/Github_Slides.pdf">Lab 4 Slides</a></p>
+<p><a href="https://ualberta-cmput301.github.io/labs/slides/2026-Lab-4_Github.pdf">Lab 4 Slides</a></p>
 <h4 id="extra-information">Extra Information</h4>
 <h5 id="command-line-authentication-to-github">Command Line Authentication to GitHub</h5>
+<p>If you use Git from the command line, GitHub may ask you to authenticate when you run commands such as <code>git clone</code>, <code>git pull</code>, or <code>git push</code>.</p>
+<p>GitHub does not accept account passwords for Git operations. Instead, you should use one of the following methods:</p>
 <ul>
-<li>In the slides, authentication with GitHub is done using a token you generate with our account.</li>
-<li>GitHub has a command line tool which makes this process easier, and will generate and manage the token for you.</li>
-<li>GitHub has documentation about how to do this <a href="https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git">here</a>.</li>
-<li>The summary of these steps is to first install the GitHub CLI, which will depend on what operating system you are using. The instructions for installation is <a href="https://github.com/cli/cli#installation">here</a>.</li>
-<li>Then, with the CLI tool installed, run the command <code>gh auth login</code>. The terminal will guide you through what you need to do. Please make sure to select that you want a <strong>GitHub.com</strong> account and want to use <strong>SSH</strong> as your protocol.</li>
-<li>The documentation for the authentication command is located <a href="https://cli.github.com/manual/gh_auth_login">here</a></li>
+<li>GitHub Desktop</li>
+<li>Android Studio GitHub sign-in</li>
+<li>Git Credential Manager</li>
+<li>Personal Access Token</li>
+<li>SSH key</li>
 </ul>
+<p>The slides show how to use a Personal Access Token. GitHub also provides documentation on authentication here:</p>
+<ul>
+<li><a href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token">Creating a Personal Access Token</a></li>
+<li><a href="https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git">Caching your GitHub credentials</a></li>
+</ul>
+<p>You may also use the GitHub CLI if you prefer:</p>
+<ul>
+<li><a href="https://github.com/cli/cli#installation">GitHub CLI installation</a></li>
+<li><a href="https://cli.github.com/manual/gh_auth_login">GitHub CLI authentication command</a></li>
+</ul>
+<p>After installing GitHub CLI, you can run:</p>
+<div class="highlight"><pre><span></span><code>gh<span class="w"> </span>auth<span class="w"> </span>login
+</code></pre></div>
+
+<p>Follow the prompts in the terminal. Choose the options that match the way your team is using GitHub.</p>
 <h4 id="sensitive-information-and-git">Sensitive Information and Git</h4>
 <h5 id="what-is-sensitive-information">What is Sensitive Information</h5>
+<p>Git tracks the history of files that are committed to a repository. This means that even if you delete a file or remove part of a file later, the old version may still exist in the repository history.</p>
+<p>Do not commit sensitive information. </p>
+<p>Sensitive information includes:</p>
 <ul>
-<li>Git is a version control system which tracks all files, past and current, that you commit to it.</li>
-<li>This means that even if you remove a file or part of a file from your repository, it is still tracked and accessible in the history of your repository.</li>
-<li>As such, if you commit sensitive data, it is very difficult, if not impossible, to remove it.</li>
-<li>Sensitive data includes anything such as ID numbers (like your student ID number), API keys, passwords, etc.</li>
-<li>GitHub as some excellent documentation about best practices for avoiding this, located <a href="https://docs.github.com/en/code-security/getting-started/best-practices-for-preventing-data-leaks-in-your-organization">here</a>.</li>
-<li>There is also information about removing sensitive information from your repository, but this should only be used in an emergency as it can have severe consequences if not done properly.</li>
+<li>student ID numbers</li>
+<li>passwords</li>
+<li>API keys</li>
+<li>access tokens</li>
+<li>private credentials</li>
+<li>personal information that should not be public</li>
 </ul>
+<p>If sensitive information is committed, it can be difficult to fully remove. GitHub provides documentation on preventing data leaks here:</p>
+<p><a href="https://docs.github.com/en/code-security/getting-started/best-practices-for-preventing-data-leaks-in-your-organization">Best practices for preventing data leaks</a></p>
+<p>GitHub also provides documentation on removing sensitive information from a repository, but this should only be used in an emergency because it can affect the repository history.</p>
 <h3 id="lab-4-participation-exercise">Lab 4 Participation Exercise</h3>
 <p>This task is for teams. </p>
 <ol>
 <li>
 <p>As a team:</p>
 <ul>
-<li>Create an Organization in GitHub and then create a repository (repo name: Team name) under this organization. </li>
-<li>Add your members as collaborators so the whole team will be able to commit to their branches.</li>
+<li>Create a GitHub Organization.</li>
+<li>Create a repository under this organization<ul>
+<li>Use your team name as a repository name</li>
+</ul>
+</li>
+<li>Create a <code>README.md</code> file for that repository </li>
+<li>Add your members as <strong>collaborators</strong> so the whole team will be able to commit to their own branches.</li>
+<li>Add a <code>.gitignore</code> file appropriate for an Android Studio project.<ul>
+<li>Do not include Android Studio settings files such as <code>.idea/</code>.</li>
+<li>Do not include project build folders.</li>
+</ul>
+</li>
 <li>Create a new Android Studio project (1 project per team) with the same name as the repo name (Team name).</li>
 <li>Your android project folder is your local repository and write all the commands within this repo/directory.</li>
+<li>Connect your local project to the GitHub repository using <code>git remote add origin</code>.</li>
 <li>Use 'git init', 'git add', 'git commit', and 'git push' to push your code to the remote</li>
-<li>Use 'git remote add origin' to add the URL of your remote repo to this local repo.</li>
-<li>The repository should include .gitignore to not include Android Studio settings files (.idea) and the project build folder.</li>
-<li>Create an abstract class Shape (java file) with x and y  integer fields (as a team).</li>
+<li>Create a Kotlin abstract class Shape with x and y  integer fields (as a team).</li>
 <li>Commit the change and push it to GitHub.</li>
 </ul>
 </li>
 <li>
 <p>As a member, on your local machine:</p>
 <ul>
-<li>(Do not fork) Clone the repository and create a branch with your name (do not use CCID).</li>
-<li>Create a model class (ex. circle, rectangle, star, etc) (new java file) that extends Shape in your own branch.</li>
-<li>Commit the change and push the branch to GitHub.</li>
-<li>Create a pull request to main in Github.</li>
-<li>Ask another member to merge it.</li>
-<li>Edit the Shape class by adding a color string field. (String color = "blue";) (local your-own branch)</li>
-<li>Commit the change. (Don't push it)</li>
+<li>Clone the repository <ul>
+<li>Do <strong>not</strong> fork the repository </li>
+</ul>
+</li>
+<li>Create a branch with your name <ul>
+<li>Do <strong>not</strong> use your CCID as the branch name</li>
+</ul>
+</li>
+<li>Create a Kotlin class (ex. circle, rectangle, star, etc) that extends Shape in your own branch.</li>
+<li>Commit the change and push your branch to GitHub.</li>
+<li>Create a pull request from your branch to main in Github.</li>
+<li>Ask another member to review it and merge your pull request.</li>
+<li>After your pull request is merged: <ul>
+<li>Stay on your local branch</li>
+<li>Edit the Shape class by adding a color string field. (val color: String = "blue") (local your-own branch)</li>
+<li>Commit the change. (Do <strong>not</strong> push this commit just yet)</li>
+</ul>
+</li>
 <li>
 <p>As a team:</p>
 </li>
 <li>
-<p>Edit the Shape class in the main branch <strong>on GitHub</strong> by adding a <strong>color</strong> string field. (String color = "$PUT_YOUR_CHOICE_OF_COLOR";)</p>
+<p>Edit the Shape class in the main branch <strong>on GitHub</strong> by adding a <strong>color</strong> string field. (val color: String = "$PUT_YOUR_CHOICE_OF_COLOR")</p>
 </li>
 <li>Commit the change in GitHub.</li>
+</ul>
+</li>
 <li>
 <p>As a member, on your local machine:</p>
+<ul>
+<li>Pull the latest main branch from GitHub into your own branch. <ul>
+<li>You should have a merge conflict. (<strong>Origin/main -&gt; local your-branch</strong>)</li>
+</ul>
 </li>
-<li>
-<p>Pull the main branch from GitHub. You should have a conflict. (<strong>Origin/main -&gt; local your-own</strong>)</p>
-</li>
-<li>Resolve the conflict.</li>
-<li>Commit the change.</li>
-<li>Push the branch to GitHub.</li>
+<li>Resolve the conflict in the Shape class</li>
+<li>Commit the resolved file change.</li>
+<li>Push your branch to GitHub.</li>
 </ul>
 </li>
 </ol>
@@ -138,18 +184,18 @@
 <p>Your CCID (not your student id number!)</p>
 </li>
 <li>
-<p>Link to your branch in the repository at eClass</p>
+<p>Link to your branch in the repository at Canvas</p>
 </li>
 </ol>
 <p><strong>Due Date</strong></p>
 <p>Friday after the Thursday lab at 4PM</p>
     <footer>
-      <p>Published: <time datetime="2024-01-06T00:00:00-07:00">
-        Sat, 06 Jan 2024 at 00:00 MST
+      <p>Published: <time datetime="2026-06-30T00:00:00-06:00">
+        Tue, 30 Jun 2026 at 00:00 MDT
       </time></p>
         <address>
-          By             <a href="https://ualberta-cmput301.github.io/author/samuel-iwuchukwu.html">Samuel Iwuchukwu</a>
-            <a href="https://ualberta-cmput301.github.io/author/hazel-victoria-campbell.html">Hazel Victoria Campbell</a>
+          By             <a href="https://ualberta-cmput301.github.io/author/raj-prasad.html">Raj Prasad</a>
+            <a href="https://ualberta-cmput301.github.io/author/michelle-deng.html">Michelle Deng</a>
         </address>
         <p>
           Category: <a href="https://ualberta-cmput301.github.io/category/labs.html">labs</a>
