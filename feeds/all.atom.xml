@@ -9,7 +9,7 @@
 &lt;h3 id="lab-1-instructions"&gt;Lab 1 Instructions&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Go over &lt;a href="https://ualberta-cmput301.github.io/labs/slides/2026-Lab 1 Slides v3.pdf"&gt;Lab 1 Slides&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Fork and clone the &lt;a href="https://github.com/ualberta-cmput301-2026-dev/lab-01/tree/main"&gt;Lab 1 GitHub Repo&lt;/a&gt; for your Canvas submission.
+&lt;li&gt;Fork and clone the &lt;a href="https://github.com/cmput301-f26/lab-01"&gt;Lab 1 GitHub Repo&lt;/a&gt; for your Canvas submission.
   This repo includes:&lt;ul&gt;
 &lt;li&gt;Walkthrough instructions&lt;/li&gt;
 &lt;li&gt;Participation exercise instructions&lt;/li&gt;
@@ -28,7 +28,6 @@
 &lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#work-in-progress-syllabus-not-finalized"&gt;WORK IN PROGRESS SYLLABUS (NOT FINALIZED)&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="#_1"&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#territorial-acknowledgement"&gt;TERRITORIAL ACKNOWLEDGEMENT&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#the-university-of-alberta-respectfully-acknowledges-that-we-are-located-on-treaty-6-territory-a-traditional-gathering-place-for-diverse-indigenous-peoples-including-the-cree-blackfoot-metis-nakota-sioux-iroquois-dene-ojibway-saulteauxanishinaabe-inuit-and-many-others-whose-histories-languages-and-cultures-continue-to-influence-our-vibrant-community"&gt;The University of Alberta respectfully acknowledges that we are located on Treaty 6 territory, a traditional gathering place for diverse Indigenous peoples including the Cree, Blackfoot, Métis, Nakota Sioux, Iroquois, Dene, Ojibway/ Saulteaux/Anishinaabe, Inuit, and many others whose histories, languages, and cultures continue to influence our vibrant community.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -51,11 +50,11 @@ LEC A2/EA2 - VVC 2-215 (MWF 11:00am - 11:50am)  &lt;/p&gt;
 &lt;strong&gt;E-mail:&lt;/strong&gt; &lt;a href="mailto:hindle1@ualberta.ca"&gt;hindle1@ualberta.ca&lt;/a&gt;&lt;br&gt;
 &lt;strong&gt;Web Page&lt;/strong&gt;: &lt;a href="https://softwareprocess.ca/"&gt;https://softwareprocess.ca/&lt;/a&gt;  &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Office Hours: Immediately after class and by appointment&lt;/strong&gt; &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Lecture Room &amp;amp; Time:&lt;/strong&gt; LEC A3/EA3 - ETLC E1-017 (MWF 12:00pm - 12:50pm)  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lecture Room &amp;amp; Time:&lt;/strong&gt;&lt;br&gt;
+LEC A3/EA3 - ETLC E1-017 (MWF 12:00pm - 12:50pm)  &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Teaching Assistant(s):&lt;/strong&gt; Available on the course webpage  &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Labs:&lt;/strong&gt; ETLC E1-003 5pm to 7:50pm TWR&lt;/p&gt;
 &lt;hr&gt;
-&lt;h4 id="_1"&gt;&lt;/h4&gt;
 &lt;h4 id="territorial-acknowledgement"&gt;&lt;strong&gt;TERRITORIAL ACKNOWLEDGEMENT&lt;/strong&gt;&lt;/h4&gt;
 &lt;h4 id="the-university-of-alberta-respectfully-acknowledges-that-we-are-located-on-treaty-6-territory-a-traditional-gathering-place-for-diverse-indigenous-peoples-including-the-cree-blackfoot-metis-nakota-sioux-iroquois-dene-ojibway-saulteauxanishinaabe-inuit-and-many-others-whose-histories-languages-and-cultures-continue-to-influence-our-vibrant-community"&gt;The University of Alberta respectfully acknowledges that we are located on Treaty 6 territory, a traditional gathering place for diverse Indigenous peoples including the Cree, Blackfoot, Métis, Nakota Sioux, Iroquois, Dene, Ojibway/ Saulteaux/Anishinaabe, Inuit, and many others whose histories, languages, and cultures continue to influence our vibrant community.&lt;/h4&gt;
 &lt;hr&gt;
@@ -79,34 +78,47 @@ This course does not have a required textbook. There are a number of excellent r
 &lt;p&gt;In addition to fair dealing, the Copyright Act specifically exempts projected displays by educational institutions for the purposes of education or training on the premises of the education institution.&lt;/p&gt;
 &lt;p&gt;Copyright regulations, however, prohibit me from distributing complete copies of the lecture slides on the course site.&lt;/p&gt;
 &lt;p&gt;You may assume that any code examples we provide to you are public domain and free for you to take without attribution, unless they are licensed.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Course Material Access:&lt;/strong&gt;&lt;br&gt;
+&lt;a href="https://www.ualberta.ca/en/registrar/costs-tuition-fees/other-fees/course-material-access.html"&gt;Course Material Access&lt;/a&gt; allows students to access their required course materials through Canvas for the duration of the term. A flat fee per term will appear in the student's Fee Assessment section in Bear Tracks. Digital formats are prioritized, but print materials are provided if digital formats are not available. &lt;strong&gt;This is an automatic opt in program, but students can choose to opt out&lt;/strong&gt;, if they decide it is not for them. Some reasons may include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the cost of all required course material is less than the program flat fee for the term  &lt;/li&gt;
+&lt;li&gt;print materials are preferred over digital formats  &lt;/li&gt;
+&lt;li&gt;access to course material is desired beyond a given term&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Students must choose to opt out by each term's &lt;a href="https://www.ualberta.ca/en/registrar/registration-and-courses/registration-dates-and-deadlines/index.html"&gt;registration deadline (i.e., add/delete date&lt;/a&gt;). Students will automatically be opted out if none of their digital or printed course material has a cost associated with it. For more information on how to access your course materials on Canvas or how to opt out, visit the &lt;a href="https://www.ualberta.ca/en/registrar/costs-tuition-fees/other-fees/course-material-access.html"&gt;Course Material Access&lt;/a&gt; website.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Recommended or Optional Learning Resources:&lt;/strong&gt;&lt;br&gt;
 See the resources page on the course webpage.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Course Schedule &amp;amp; Assigned Readings:&lt;/strong&gt;&lt;br&gt;
-See the online live schedule &lt;a href="https://docs.google.com/spreadsheets/d/1awMqnl2uY4yssJabl7fHCgAR0qveVfrnyCARCdCFYno/edit?gid=0#gid=0"&gt;here.&lt;/a&gt; &lt;/p&gt;
+See the online live schedule &lt;a href="https://canvas.ualberta.ca/courses/36448/modules/items/4020614"&gt;here.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Other Course Fees:&lt;/strong&gt;&lt;br&gt;
-Students will be required to use the online service Firebase in order to complete the coursework and course project. The expected fees are $0, however, Firebase may assess fees if storage, bandwidth, user, or operation limits are exceeded. One member of the group will be required to supply payment information. It is the responsibility of the student to pay for any Firebase charges. If you are unable to pay these fees, you must contact your TA and instructor immediately. &lt;/p&gt;
+Students will be required to use the online service Firebase in order to complete the coursework and course project. The expected fees are $0, however, Firebase may assess fees if storage, bandwidth, user, or operation limits are exceeded. One member of the group will be required to supply payment information. It is the responsibility of the student to pay for any Firebase charges. If you are unable to pay these fees, you must contact your TA and instructor immediately. You might need a credit card.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;On-Line Homework Disclaimer:&lt;/strong&gt; &lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Online homework is a component of this course and is provided by a third-party company. Please be aware that this company will be storing assessment information that may be associated with you. As a way to protect your personal information, you may be assigned a random ID to enter into the system. Only the random ID, performance on the online homework, and the affiliation to the University of Alberta for this random ID will be conveyed to the company. You are not required to provide any additional personal information to this company. If you have concerns about this, please contact the instructor of the course.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Firebase (Google) - See "Course Fees" above.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Registration in the system and any monetary transactions are of your own accord and not the responsibility of the University.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Students should be mindful of protecting their personal information and should be aware of how their personal information might be used and/or shared.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Students MUST NOT use their @ualberta email address or CCID to register into the system and instead should use a non-identifying email address or account.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Online homework is a component of this course and is provided by a third-party company. Please be aware that this company will be storing assessment information that may be associated with you. As a way to protect your personal information, you may be assigned a random ID to enter into the system. Only the random ID, performance on the online homework, and the affiliation to the University of Alberta for this random ID will be conveyed to the company. You are not required to provide any additional personal information to this company. If you have concerns about this, please contact the instructor of the course.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Additional learning resources aimed at facilitating student learning, and perhaps including formative assessment tools, are available from the textbook publisher and may be accessed for a fee paid by the student to the third-party provider (e.g., textbook company). Students choosing to access and use the online resources should note the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Firebase (Google) - See "Course Fees" above.&lt;/li&gt;
+&lt;li&gt;Registration in the system and any monetary transactions are of their own accord and not the responsibility of the University of Alberta.  &lt;/li&gt;
+&lt;li&gt;Students should be mindful of protecting personal information and aware of how their personal information might be used and/or shared.  &lt;/li&gt;
+&lt;li&gt;Students can consider using a non-identifying email address or account for these purposes.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;REMOTE DELIVERY CONSIDERATIONS&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;To successfully participate in remote learning in this course, it is recommended that students have access to a computer with an internet connection that can support the tools and technologies the University uses to deliver content, engage with instructors, TAs, and fellow students, and facilitate assessments and examinations. If you encounter difficulty meeting the technology recommendations, please email the Office of Student Success and Experience (&lt;a href="mailto:sse@ualberta.ca"&gt;sse@ualberta.ca&lt;/a&gt;) directly to explore options and support. Please contact the instructor by the &lt;a href="https://www.ualberta.ca/en/registrar/registration-and-courses/registration-dates-and-deadlines/index.html"&gt;add/drop deadline&lt;/a&gt; if you do not have access to the minimum technology recommended. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Student Resources for Remote Learning:&lt;/strong&gt;&lt;br&gt;
+Online learning may be new to you. Please refer to &lt;a href="https://www.ualberta.ca/en/information-services-and-technology/services/software-hardware-vendors/technology-requirements.html"&gt;Technology for Online Learning - For Students&lt;/a&gt; to ensure you have the appropriate technology for remote learning.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Hybrid Synchronous Delivery:&lt;/strong&gt;&lt;br&gt;
-There are online lecture components for sections A1/EA1, A2/EA2. Lectures are in person in section A3/EA3.&lt;/p&gt;
+There are online lecture components for sections A1/EA1, A2/EA2. Lectures are in-person in section A3/EA3.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Recordings of Synchronous Activities:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;There are no recordings. &lt;!-- HAZEL --&gt;&lt;/p&gt;
+&lt;!-- Template Syllabus --&gt;
+&lt;!--
+* Please note that class times for this course will be recorded. Recordings of this course will be used for the purposes of \[ADD PURPOSES\] and will be disclosed to other students enrolled in this section of the class \[ADD OTHER PEOPLE IF APPLICABLE\].  
+* Students have the right to not participate in the recording and are advised to turn off their cameras and audio prior to the recording, but students can still participate in the text-based chat. It is recommended that students remove all identifiable and personal belongings from the space in which they will be participating.  
+* Recordings will be made available until \[ADD DATE\] and accessible by \[ADD RELEVANT INFORMATION\]. Please direct any questions about this collection to the instructor of the course.
+--&gt;
+
 &lt;p&gt;&lt;strong&gt;Home-based Lab Activities:&lt;/strong&gt;&lt;br&gt;
 As part of the learning experience in this course, you will be required to undertake certain activities in or around your place of residence, To ensure that you undertake the activity safely and fully informed of the risks, please review the University of Alberta's &lt;a href="https://www.ualberta.ca/en/finance-procurement-planning/media-library/insurance-risk-assessment/remote-learning-lab-based-assignment-information-advisory.pdf"&gt;Remote Learning Lab-Based Assignment Information Advisory&lt;/a&gt;. If you have questions or concerns, contact your instructor.&lt;/p&gt;
 &lt;hr&gt;
@@ -124,7 +136,7 @@ As part of the learning experience in this course, you will be required to under
 &lt;tr&gt;
 &lt;td style="text-align: left;"&gt;Participation&lt;/td&gt;
 &lt;td&gt;8%&lt;/td&gt;
-&lt;td&gt;Solo Effort&lt;/td&gt;
+&lt;td&gt;Consultation&lt;/td&gt;
 &lt;td&gt;Most Lectures&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -149,13 +161,13 @@ As part of the learning experience in this course, you will be required to under
 &lt;td style="text-align: left;"&gt;Assignment 1&lt;/td&gt;
 &lt;td&gt;8%&lt;/td&gt;
 &lt;td&gt;Consultation&lt;/td&gt;
-&lt;td&gt;\~ Week 5 - 2026-09-30 5pm&lt;/td&gt;
+&lt;td&gt;\~ Week 5 - 2026-10-02 5pm&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style="text-align: left;"&gt;Project Part 1&lt;/td&gt;
 &lt;td&gt;1%&lt;/td&gt;
 &lt;td&gt;Teamwork&lt;/td&gt;
-&lt;td&gt;\~ Week 5 - 2026-09-29 5pm&lt;/td&gt;
+&lt;td&gt;\~ Week 5 - 2026-10-02 5pm&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style="text-align: left;"&gt;Project Part 2&lt;/td&gt;
@@ -177,47 +189,32 @@ As part of the learning experience in this course, you will be required to under
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style="text-align: left;"&gt;Midterms&lt;/td&gt;
-&lt;td&gt;15% × 3 = 45%&lt;/td&gt;
+&lt;td&gt;15% × 1 = 15%&lt;/td&gt;
 &lt;td&gt;Confidential&lt;/td&gt;
-&lt;td&gt;MT1: October 14; MT2: October 23; MT3: December 4&lt;/td&gt;
+&lt;td&gt;MT1: October 16&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style="text-align: left;"&gt;Grades are unofficial until approved by the Department and/or Faculty offering the course.&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td style="text-align: left;"&gt;Final&lt;/td&gt;
+&lt;td&gt;30% × 1 = 30%&lt;/td&gt;
+&lt;td&gt;Confidential&lt;/td&gt;
+&lt;td&gt;Don't know&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;p&gt;For courses with a Final Exam, students must verify the date of the Final Exam on Bear Tracks when the Final Exam Schedule is posted. &lt;/p&gt;
+&lt;p&gt;Grades are unofficial until approved by the Department and/or Faculty offering the course.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Midterm Dates&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;50 minute exams at:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Midterm 1 - Wednesday, October 14, 2026&lt;/li&gt;
-&lt;li&gt;A1/EA1: 10:00 AM&lt;/li&gt;
-&lt;li&gt;A2/EA2: 11:00 AM&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;A3/EA3: 12:00 PM (noon)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Midterm 2 - Friday, October 23, 2026&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;A1/EA1: 10:00 AM&lt;/li&gt;
-&lt;li&gt;A2/EA2: 11:00 AM&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;A3/EA3: 12:00 PM (noon)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Midterm 3 - Friday, December 4, 2026&lt;/p&gt;
-&lt;ul&gt;
+&lt;li&gt;Midterm 1 - Friday, October 16, 2026&lt;/li&gt;
 &lt;li&gt;A1/EA1: 10:00 AM&lt;/li&gt;
 &lt;li&gt;A2/EA2: 11:00 AM&lt;/li&gt;
 &lt;li&gt;A3/EA3: 12:00 PM (noon)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Re-examination:&lt;/strong&gt; &lt;br&gt;
 There is no possibility of a re-examination in this course.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;University of Alberta Grading Policy&lt;/strong&gt;&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;Final Letter Grades&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;University of Alberta Grading Policy&lt;/strong&gt;&lt;br&gt;
 Grades reflect judgments of student achievement made by instructors and must correspond to the associated descriptor. These judgements are based on a combination of absolute achievement and relative performance in a class. Faculties may define acceptable grading practices in their disciplines. Such grading practices must align with the &lt;a href="https://www.ualberta.ca/en/alfresco/uappol/academic/assessment-and-grading/policy/assessment-and-grading-policy.pdf"&gt;University of Alberta Assessment and Grading Policy&lt;/a&gt; and its procedures.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Course Grades Obtained by Undergraduate Students&lt;/strong&gt;:&lt;br&gt;
 This table reflects the GPA Point Value and Descriptor (e.g., Excellent, Good) for each Letter Grade.&lt;/p&gt;
@@ -296,13 +293,21 @@ This table reflects the GPA Point Value and Descriptor (e.g., Excellent, Good) f
 &lt;p&gt;&lt;strong&gt;Access to Past or Representative Evaluative Material:&lt;/strong&gt;
 Past materials are located on the CMPUT 301 GitHub webpage:
 https://ualberta-cmput301.github.io/general/resources.html&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Statement of Expectations for AI Use:&lt;/strong&gt;&lt;br&gt;
-You MUST not submit work by LLMs as your own, that is plagiarism. This also applies to other "AI" and Generative Models: ChatGPT, Claude, Lex, Page, DALL-E2, Google Gemini, Microsoft Bing/Copilot, and others. If you use LLMs you must cite it. This includes the corporation that made the AI, the AI, Subject, and Date. For example:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Statement of Expectations for AI Use:&lt;/strong&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;AI Use Generally Permitted&lt;/strong&gt;&lt;br&gt;
+You can use GenAI tools in this course, within the guidelines specified for each assessment. Follow all directions as provided. If you have any questions/concerns, please ask. AI is prone to fabrication (factual inaccuracies). Review outputs carefully and validate using trusted sources. You are responsible for any errors or omissions the AI tool provides that you fail to identify and resolve. &lt;/p&gt;
+&lt;!--
+All graded assignments must be accompanied by the [GenAI Use: Acknowledgement and Reflection form](https://docs.google.com/document/d/1mn8clIqxpAQrvnhdqP7kxFrlsWOwMFYvOCYzQHM8DcE/edit?tab=t.0), whether you have used AI or not.
+--&gt;
+
+&lt;p&gt;Important: AI use must be acknowledged transparently. See the U of A Library’s &lt;a href="https://guides.library.ualberta.ca/generative-ai/citation?_gl=1*1657vu7*_gcl_au*MTE2MDIyMDUyNC4xNzcwMzA1Mjg3*_ga*OTc2MzAzODA3LjE3NDU2OTExMjk.*_ga_21TWH2P5G7*czE3NzQ5MDA0MzUkbzQxJGcxJHQxNzc0OTAxNzg5JGoyMSRsMCRoMTY2ODg4Nzk5Mw.."&gt;How to Cite AI&lt;/a&gt; for standard reference and citation expectations. Failure to acknowledge AI use may be considered cheating and a violation as outlined in the relevant sections of the University of Alberta &lt;a href="https://www.ualberta.ca/en/alfresco/uappol/academic/student-academic-integrity/policy/student-academic-integrity-policy.pdf"&gt;Student Academic Integrity Policy&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;While you may use AI, you MUST not submit work by LLMs as your own without acknowledgement, that is plagiarism. This also applies to other "AI" and Generative Models: ChatGPT, Claude, Lex, Page, DALL-E2, Google Gemini, Microsoft Bing/Copilot, and others. If you use LLMs you must cite it. This includes the corporation that made the AI, the AI, Subject, and Date. For example:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;// The following function is from Microsoft, Copilot, &amp;quot;How do I write a merge sort in JavaScript?&amp;quot;, 2023-08-31&lt;/span&gt;
 
 &lt;span class="k"&gt;function&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;mergeSort&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;array&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
+&lt;p&gt;Due to the changing nature of LLMs and agentic software engineering if you use it, you must specify you used it in your assignment or project README and estimate how comprehensively you used it. You're responsible for everything you submit.&lt;/p&gt;
 &lt;p&gt;If you use LLMs you must cite it, but it's probably better to Google what it tells you and find a real citation because:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;LLMs like ChatGPT are wrong a lot.&lt;/strong&gt; It does not understand computer science. It understands how to form sentences and paragraphs well enough to be convincing, but it doesn't actually understand what anything it is saying means. When it has the choice between two answers, with opposite meanings, it will pick the answer that looks more like things it has seen before, not the answer that is more correct. This means you need to double-check that what it tells you is actually correct.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;StackOverflow is always a better resource&lt;/strong&gt; than Large Language Models such as ChatGPT, Copilot, Gemini, etc., but of course if you use code from StackOverflow or any other website, &lt;strong&gt;you must cite it.&lt;/strong&gt; This is because other human programmers will usually check and downvote, remove, or fix bad information on StackOverflow. No one is checking the output of LLMs: if an LLM lies to you, no one will ever know.&lt;/p&gt;
@@ -316,36 +321,71 @@ You MUST not submit work by LLMs as your own, that is plagiarism. This also appl
 &lt;li&gt;This also makes ChatGPT's conclusion about relative limited range jumps and absolute jumps wrong. All jumps and branches in RISC-V are relative, short range jumps except jalr. RARS also (at least in every case I've seen) translates j to jal, not jalr, and jal is also a short-range, relative jump.  &lt;/li&gt;
 &lt;li&gt;If b gets translated to beq x0, Y, label then what guarantees that the other register isn't also zero? The comparison with beq x0, Y cannot always be false, despite what ChatGPT claimed. This really doesn't make any sense. It would make more sense for it to be translated to bne x0, x0, label ... but that's the opposite instruction of what ChatGPT claimed.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Re-evaluation of Term Work:&lt;/strong&gt;&lt;br&gt;
-Re-Evaluation of Term Work follows the &lt;a href="https://www.ualberta.ca/computing-science/resources/policy-information/department-course-policies.html"&gt;Computing Science department course policies&lt;/a&gt;. Any questions or concerns about marks on a particular assignment must be brought to the attention of the instructor &lt;em&gt;(not a TA)&lt;/em&gt; within 7 calendar days of its return date. After that, we will not consider remarking or re-evaluating the work. So do not expect anyone to re-evaluate all the work you did all term long in the hopes of getting a higher final grade.&lt;/p&gt;
-&lt;p&gt;However, clerical errors such as incorrectly computing or recording a mark may be raised at any time prior to 2 business days following the final exam. It is the student's responsibility to confirm that their term work has been recorded properly.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;AI Assisted Grading:&lt;/strong&gt;&lt;br&gt;
+This course uses AI-assisted tools—specifically Gemini—to support parts of the grading process. These tools assist in identifying patterns, enhancing consistency, and the efficiency of grading tasks. By streamlining these processes, more time can be dedicated to higher-value teaching activities, such as providing personalized feedback, developing learning materials, or directly supporting students, while also ensuring timely return of assessments. AI tools may be used to assist in grading assignments, projects, labs, and exercises. Regardless of the tool’s involvement, final responsibility for all grades rests with the instructor. &lt;br&gt;
+&lt;strong&gt;Data Use and Privacy&lt;/strong&gt;&lt;br&gt;
+Student submissions may be processed through these tools to provide grading support. In alignment with the tools terms of use:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Your work is &lt;strong&gt;not used to train public AI models&lt;/strong&gt;.  &lt;/li&gt;
+&lt;li&gt;Submitted data is typically retained temporarily to complete the grading task but is &lt;strong&gt;not stored long-term&lt;/strong&gt;.  &lt;/li&gt;
+&lt;li&gt;No personally identifiable information is intentionally shared with the AI tool.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Gemini has been reviewed through the University’s Privacy and Security Assessment process and is approved for use in AI-assisted grading. If you are concerned about how your data is handled, I encourage you to reach out to me with questions or review the tool’s privacy documentation (&lt;a href="https://www.ualberta.ca/en/information-services-and-technology/news/2026/expansion-of-gemini-tools.html"&gt;Gemini&lt;/a&gt;). The appeals process for grades remains unchanged and follows standard university procedures.&lt;br&gt;
+&lt;strong&gt;Your Options&lt;/strong&gt;&lt;br&gt;
+If you are uncomfortable with your work being processed through AI-assisted tools, you may choose to opt out. To do so, please notify the instructors by email 2026-09-18. Your decision to opt out will be respected and will not negatively affect your standing in the course. &lt;br&gt;
+&lt;strong&gt;Feedback Transparency&lt;/strong&gt;&lt;br&gt;
+Your feedback will always state if the submission was graded by AI with the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AI-assisted grading -&lt;/strong&gt; Provisional marks generated by the tool and confirmed by the Head TA or the instructor.  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI-assisted with human re-check -&lt;/strong&gt; Initially processed by the tool but redirected for full human review due to a key performance indicator (KPI) trigger (e.g., low confidence, rubric mismatch, or disagreement between AI grading agents).  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Manually graded -&lt;/strong&gt; Assessed entirely by a human grader without AI involvement.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Appeals &amp;amp; Error Handling&lt;/strong&gt;&lt;br&gt;
+If you believe your grade reflects an oversight—by the AI tool or a human reviewer, please review the rubric and contact the instructors within one week for re-evaluation.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;POLICIES FOR LATE AND MISSED WORK&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Late Policies:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;No late work is accepted. This include midterms and final exams. No resubmissions. Late work will not be marked.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Absence Form:&lt;/strong&gt;&lt;br&gt;
-This course uses a Google form to request excused absences for term work. This form needs to be filled out by students if they wish to request an excused absence for any deliverable. Emails to instructors or TAs &lt;strong&gt;will not be accepted&lt;/strong&gt; as timely notification for an excused absence.&lt;/p&gt;
+This course uses a Google form to request excused absences for term work. This form needs to be filled out by students if they wish to request an excused absence for any deliverable. Emails to instructors or TAs &lt;strong&gt;will not be accepted&lt;/strong&gt; as timely notification for an excused absence. (Abscence Form)[https://canvas.ualberta.ca/courses/36448/pages/absence-declaration-form?module_item_id=4017667]&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Missed Term Work/Final Exam Due to Non-medical Protected Grounds (e.g., religious beliefs):&lt;/strong&gt;&lt;br&gt;
-When a term assessment or final exam presents a conflict based on &lt;a href="https://www.ualberta.ca/en/current-students/academic-success-centre/accessibility-resources/register/eligibility.html"&gt;non-medical protected grounds&lt;/a&gt;, students must apply to the Academic Success Centre for accommodations via their &lt;a href="https://www.ualberta.ca/en/current-students/academic-success-centre/accessibility-resources/register/index.html"&gt;Register for Accommodations&lt;/a&gt; website. Students can review their eligibility and choose the application process specific for Accommodations Based on Non-medical Protected Grounds.&lt;/p&gt;
-&lt;p&gt;It is imperative that students review the dates of all course assessments upon receipt of the course syllabus, and apply AS SOON AS POSSIBLE to ensure the timely application of the accommodation. Students who apply later in the term may experience unavoidable delays in the processing of the application, which can affect the accommodation.&lt;/p&gt;
+When a term assessment or final exam presents a conflict based on &lt;a href="https://www.ualberta.ca/en/current-students/academic-success-centre/accessibility-resources/register/eligibility.html"&gt;non-medical protected grounds&lt;/a&gt;, students can register with the Academic Success Centre for accommodations via their &lt;a href="https://www.ualberta.ca/en/current-students/academic-success-centre/accessibility-resources/register/index.html"&gt;Register for Accommodations&lt;/a&gt; website. Students can review their eligibility and choose the registration process specific for &lt;strong&gt;Accommodations Based on Non-medical Protected Grounds&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;It is imperative that students review the dates of all course assessments upon receipt of the course syllabus, and register &lt;strong&gt;AS SOON AS POSSIBLE&lt;/strong&gt; to ensure the timely application of the accommodation. Students who register later in the term may experience unavoidable delays in the processing of the application, which can affect the accommodation.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Missed Labs:&lt;/strong&gt; &lt;br&gt;
 Labs are due Friday at 5PM on the same week the lab was presented. Project meetings are due at the time of the meeting, and they are included in the lab mark. Failure to attend and actively participate in project meetings will result in a lab mark of zero.&lt;/p&gt;
+&lt;!-- Hazel, do we leave this in? --&gt;
 &lt;p&gt;The 2 lowest marks for Labs (including project meetings) will be dropped when calculating the course mark. No late labs will be accepted. Failure to complete a lab (or to attend a project meeting) on time for any reason will result in a mark of zero. Please note that you can miss 2 labs (or project meetings) without penalty.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Missed Lecture Participation:&lt;/strong&gt;&lt;br&gt;
 Participation exercises will be available at most lectures.&lt;/p&gt;
 &lt;p&gt;The 6 lowest marks for lecture participation will be dropped when calculating the course mark. No late participation will be accepted. Failure to complete a participation exercise on time for any reason will result in a mark of zero. Please note that you can miss 6 lectures without penalty.&lt;/p&gt;
+&lt;p&gt;Submitting participation exercises is the responsibility of the student to do it in a timely manner.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Missed Assignments, Project Parts, Quizzes, Midterm Exams:&lt;/strong&gt;&lt;br&gt;
-A student who cannot complete an assignment, project part, quiz, or midterm exam, due to incapacitating illness, severe domestic affliction or other compelling reasons must contact the instructor within two business days of missing the assessment, or as soon as possible, to request an excused absence using the absence form. If an excused absence is granted, then the deliverable weight will be split and shared over other deliverables in the same category. If a Midterm exam is missed, then its weight will be split and shared over the other Midterm exams. An excused absence is a privilege and not a right. There is no guarantee that an absence will be excused. Misrepresentation of facts to gain an excused absence is a serious breach of the Student Academic Integrity Policy. In all cases, instructors may request adequate documentation to substantiate the reason for the absence at their discretion.&lt;/p&gt;
+A student who cannot complete an assignment, project part, quiz, or midterm exam, due to incapacitating illness, severe domestic affliction or other compelling reasons must contact the instructor within two working days of missing the assessment, or as soon as possible, to request an excused absence using the absence form. If an excused absence is granted, then the deliverable weight will be split and shared over other deliverables in the same category. If a Midterm exam is missed, then its weight will be split and shared over the Final exam. An excused absence is a privilege and not a right. There is no guarantee that an absence will be excused. 
+Misrepresentation of facts to gain an excused absence is a serious breach of the &lt;a href="https://www.ualberta.ca/en/alfresco/uappol/academic/student-academic-integrity/policy/student-academic-integrity-policy.pdf"&gt;Student Academic Integrity Policy&lt;/a&gt;. In all cases, instructors may request adequate documentation to substantiate the reason for the absence, at their discretion.&lt;/p&gt;
 &lt;p&gt;Failure to complete an assignment or contribute to a project part without an excused absence will result in a raw score of zero or a proportional score reduction.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Additional information regarding missed Midterm Exams:&lt;/strong&gt;
-If Midterm 3 is missed, then it will be replaced by a deferred exam that will include an oral examination component. The time of this deferred + oral exam will be determined individually between student and instructor. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Re-evaluation of Term Work:&lt;/strong&gt;&lt;br&gt;
+Re-Evaluation of Term Work follows the &lt;a href="https://www.ualberta.ca/computing-science/resources/policy-information/department-course-policies.html"&gt;Computing Science department course policies&lt;/a&gt;. Any questions or concerns about marks on a particular assignment must be brought to the attention of the instructor &lt;em&gt;(not a TA)&lt;/em&gt; within 7 calendar days of its return date. After that, we will not consider remarking or re-evaluating the work. So do not expect anyone to re-evaluate all the work you did all term long in the hopes of getting a higher final grade.&lt;/p&gt;
+&lt;p&gt;However, clerical errors such as incorrectly computing or recording a mark may be raised at any time prior to 2 working days following the final exam. It is the student's responsibility to confirm that their term work has been recorded properly.&lt;/p&gt;
+&lt;!-- old midterm 3 policy --&gt;
+&lt;!--
+
+**Additional information regarding missed Midterm Exams:**
+If Midterm 3 is missed, then it will be replaced by a deferred exam that will include an oral examination component. The time of this deferred + oral exam will be determined individually between student and instructor. 
+
+--&gt;
+
+&lt;p&gt;&lt;strong&gt;Deferred Final Examination:&lt;/strong&gt;&lt;br&gt;
+A student who cannot write the final examination due to incapacitating illness, severe domestic affliction, or other compelling reasons can apply for a deferred final examination. Such an application must be made to the student's home Faculty Office within two working days of the missed exam and must be supported by appropriate documentation or a Statutory Declaration (see calendar on &lt;a href="https://calendar.ualberta.ca/content.php?catoid=69&amp;amp;navoid=20927#attendance"&gt;Attendance&lt;/a&gt;). Deferred examinations are a privilege and not a right; there is no guarantee that a deferred examination will be granted. The Faculty may deny deferral requests in cases where less than 50% of term work has been completed. Misrepresentation of facts to gain a deferred examination is a serious breach of the &lt;a href="https://www.ualberta.ca/en/alfresco/uappol/academic/student-academic-integrity/policy/student-academic-integrity-policy.pdf"&gt;Student Academic Integrity Policy&lt;/a&gt;.  &lt;/p&gt;
+&lt;!-- Hazel check --&gt;
+&lt;p&gt;An approved deferred final examination may use an alternative format and may include an oral component. Deferred examinations will be held on February 1, 2027, between 10:00 a.m. and 5:00 p.m. Mountain Time. Individual start times will be assigned after the number of approved deferrals is known. Because the examination may include an oral component, students may be scheduled in separate time slots. All approved deferred final examinations for this course will be administered on this date.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;STUDENT RESPONSIBILITIES&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Academic Integrity and Student Conduct:&lt;/strong&gt; &lt;br&gt;
-The University of Alberta is committed to the highest standards of academic integrity and honesty, as well as maintaining a learning environment that fosters the safety, security, and inherent dignity of each member of the community, ensuring students conduct themselves accordingly. Students are expected to be familiar with the standards of academic honesty and appropriate student conduct, and to uphold the policies of the University in this respect.&lt;/p&gt;
-&lt;p&gt;Students are particularly urged to familiarize themselves with the provisions of the &lt;a href="https://www.ualberta.ca/en/alfresco/uappol/academic/student-academic-integrity/policy/student-academic-integrity-policy.pdf"&gt;Student Academic Integrity Policy&lt;/a&gt; and the &lt;a href="https://www.ualberta.ca/en/alfresco/uappol/academic/student-conduct/policy/student-conduct-policy.pdf"&gt;Student Conduct Policy&lt;/a&gt;, and avoid any behaviour that could potentially result in suspicions of academic misconduct (e.g., cheating, plagiarism, misrepresentation of facts, participation in an offence) and non-academic misconduct (e.g., discrimination, harassment, physical assault). Academic and non-academic misconduct are taken very seriously and can result in suspension or expulsion from the University.&lt;/p&gt;
-&lt;p&gt;All students are expected to consult the &lt;a href="https://www.ualberta.ca/en/alfresco/uappol/academic/student-academic-integrity/policy/student-academic-integrity-policy.pdf"&gt;Student Academic Integrity Policy&lt;/a&gt; for clarification on the various academic offences. All forms of academic dishonesty are unacceptable at the University. Unfamiliarity of the rules, procrastination or personal pressures are not acceptable excuses for committing an offence. Listen to your instructor, be a good person, ask for help when you need it, and do your own work -- this will lead you toward a path to success. Any academic integrity concern in this course will be reported to the College of Natural and Applied Sciences.&lt;/p&gt;
-&lt;p&gt;Suspected cases of non-academic misconduct will be reported to the Office of Student Success and Experience. The College, the Faculty, and the Dean of Students are committed to student rights and responsibilities, and adhere to due process and administrative fairness, as outlined in the &lt;a href="https://www.ualberta.ca/en/alfresco/uappol/academic/student-academic-integrity/policy/student-academic-integrity-policy.pdf"&gt;Student Academic Integrity Policy&lt;/a&gt; and the &lt;a href="https://www.ualberta.ca/en/alfresco/uappol/academic/student-conduct/policy/student-conduct-policy.pdf"&gt;Student Conduct Policy&lt;/a&gt;. Please refer to the policy websites for details on inappropriate behaviours and possible sanctions.&lt;/p&gt;
-&lt;p&gt;The College of Natural and Applied Sciences (CNAS) has created an &lt;a href="https://eclass.srv.ualberta.ca/course/view.php?id=88399"&gt;Academic Integrity for CNAS Students&lt;/a&gt; eClass site. Students can self enroll and review the various resources provided, including the importance of academic integrity, examples of academic misconduct and possible sanctions, and the academic misconduct and appeal process. They can also complete assessments to test their knowledge and earn a completion certificate.&lt;/p&gt;
+The University of Alberta is committed to the highest standards of academic integrity and honesty. Students are expected to be familiar with these standards regarding academic honesty and to uphold the policies of the University in this respect. Students are particularly urged to familiarize themselves with the provisions of the &lt;a href="https://www.ualberta.ca/en/alfresco/uappol/academic/student-academic-integrity/policy/student-academic-integrity-policy.pdf"&gt;Student Academic Integrity Policy&lt;/a&gt; (on the &lt;a href="https://www.ualberta.ca/en/policies-procedures/index.html#sort=relevancy"&gt;University of Alberta Policies and Procedures Online (UAPPOL) website&lt;/a&gt;) and avoid any behaviour which could potentially result in suspicions of cheating, plagiarism, misrepresentation, and/or unauthorised collaboration. Academic dishonesty is a serious offence and can result in suspension or expulsion from the University.  &lt;/p&gt;
+&lt;p&gt;The University of Alberta is also committed to maintaining a learning environment that fosters the safety, security, and the inherent dignity of each member of the community, ensuring students conduct themselves accordingly by avoiding behaviour stipulated in the &lt;a href="https://www.ualberta.ca/en/alfresco/uappol/academic/student-conduct/policy/student-conduct-policy.pdf"&gt;Student Conduct Policy&lt;/a&gt; (e.g., discrimination, harassment, physical assault).&lt;/p&gt;
+&lt;p&gt;All students are expected to consult the &lt;a href="https://www.ualberta.ca/current-students/academic-resources/academic-integrity"&gt;Academic Integrity website&lt;/a&gt; for clarification on the various academic offences. All forms of academic dishonesty are unacceptable at the University. Unfamiliarity of the rules, procrastination or personal pressures are not acceptable excuses for committing an offence. Listen to your instructor, be a good person, ask for help when you need it, and do your own work -- this will lead you toward a path to success. Any academic integrity concern in this course will be reported to the College of Natural and Applied Sciences. Suspected cases of non-academic misconduct will be reported to the Office of Student Success and Experience (formerly the Office of the Dean of Students). The College, Faculty, and Dean of Students are committed to student rights and responsibilities, and adhere to due process and administrative fairness, as outlined in the &lt;a href="https://www.ualberta.ca/en/alfresco/uappol/academic/student-academic-integrity/policy/student-academic-integrity-policy.pdf"&gt;Student Academic Integrity Policy&lt;/a&gt; and the &lt;a href="https://www.ualberta.ca/en/alfresco/uappol/academic/student-conduct/policy/student-conduct-policy.pdf"&gt;Student Conduct Policy&lt;/a&gt;. Please refer to the policies for details on inappropriate behaviours and possible sanctions.&lt;/p&gt;
+&lt;p&gt;The College of Natural and Applied Sciences (CNAS) has created an &lt;a href="https://sites.google.com/ualberta.ca/academicintegrity4cnasstudents/home"&gt;Academic Integrity for CNAS Students&lt;/a&gt; website. Website content includes the importance of academic integrity, examples of academic misconduct &amp;amp; possible sanctions, and the academic misconduct &amp;amp; appeal process. Students can also access this material as an &lt;a href="https://canvas.ualberta.ca/enroll/J88C84"&gt;online, self-directed Canvas course&lt;/a&gt; and complete assessments to test their knowledge.&lt;/p&gt;
+&lt;p&gt;The Office of Student Conduct and Accountability has also made the following Canvas course available for all students: &lt;a href="https://canvas.ualberta.ca/enroll/RPCF4G"&gt;Academic Citizenship: Integrity and Belonging in the Learning Community&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;"Integrity is doing the right thing, even when no one is watching"&lt;/em&gt; -- C.S. Lewis&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Contract Cheating and Misuse of University Academic Materials or Other Assets:&lt;/strong&gt;&lt;br&gt;
 Contract cheating describes the form of academic dishonesty where students get academic work completed on their behalf, which they submit for academic credit as if they had created it themselves. Contract cheating may or may not involve the payment of a fee to a third party, who then creates the work for the student.&lt;/p&gt;
@@ -360,35 +400,7 @@ Contract cheating describes the form of academic dishonesty where students get a
 &lt;li&gt;Using an online grammar checker to "fix" your essay, research paper, assignment, or exam solutions for you (without the instructor's permission).&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Contract cheating companies thrive on making students believe that they cannot succeed without their help; they attempt to convince students that cheating is the only way to succeed.&lt;/p&gt;
-&lt;p&gt;Uploading the instructor's teaching materials (e.g., course outlines, lecture slides, assignment, or exam questions, etc.) to tutorial, study, or note-sharing websites or public servers is a copyright infringement and constitutes the misuse of University academic materials or other assets. Receiving assignment solutions or answers to exam questions from an unauthorized source puts you at risk of receiving inaccurate information.&lt;/p&gt;
-&lt;p&gt;Receiving assignment solutions or answers to exam questions from an unauthorized source puts you at risk of receiving inaccurate information.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Additional Examples of Contract Cheating:&lt;/strong&gt;&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style="text-align: left;"&gt;Logging in as someone else Sharing your login credentials Sharing your anonymous ID Using someone else's anonymous ID Allowing someone else to log in as you Representing yourself as someone else Having someone else represent themselves as you&lt;/th&gt;
-&lt;th style="text-align: left;"&gt;On other UAlberta services and linked services: Zoom gmail Google Chat, Drive, ... Lab computers Wi-Fi ... On an external service, website, or app: repository hosting services: GitHub, GitHub Classroom, Bitbucket, GitLab, ... live quiz services: Mentimeter, ... Textbook websites/apps KnowledgeTree/MasteryGrids online tutorials online practice systems online homework systems&lt;/th&gt;
-&lt;th style="text-align: left;"&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;ul&gt;
-&lt;li&gt;Misrepresenting authorship to a version control system such as git:  &lt;/li&gt;
-&lt;li&gt;Forging git commit metadata (author, time, etc.)  &lt;/li&gt;
-&lt;li&gt;Creating git commits where the author recorded did not create the changes being committed.  &lt;/li&gt;
-&lt;li&gt;...  &lt;/li&gt;
-&lt;li&gt;Submitting participation exercises for someone else.  &lt;/li&gt;
-&lt;li&gt;Representing yourself as someone else, or having someone else represent themselves as you to an instructor, TA, or other UA employee.  &lt;/li&gt;
-&lt;li&gt;Attending a lecture/lab/seminar for someone else.  &lt;/li&gt;
-&lt;li&gt;Having someone else attend a lecture/lab/seminar for you.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Uploading the instructor's teaching materials (e.g., course outlines, lecture slides, assignment, or exam questions, etc.) to tutorial, study or note-sharing websites, public servers, or chat apps is a copyright infringement and constitutes the misuse of University academic materials or other assets. Receiving assignment solutions or answers to exam questions from an unauthorized source puts you at risk of receiving inaccurate information.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Appropriate Collaboration:&lt;/strong&gt;&lt;br&gt;
 Students need to be able to recognize when they have crossed the line between appropriate collaboration and inappropriate collaboration. If students are unsure, they need to ask instructors to clarify what is allowed and what is not allowed.&lt;/p&gt;
 &lt;p&gt;Here are some tips to avoid copying on assessments:&lt;/p&gt;
@@ -430,6 +442,7 @@ If you include code or ideas from someone who isn't you (including from a Genera
 &lt;span class="cm"&gt;*/&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
+&lt;p&gt;It's better to document AI use than get questioned if you used it.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Collaboration policy definitions:&lt;/strong&gt;&lt;br&gt;
 The following are definitions for the different collaboration policies used in this course&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Solo Effort:&lt;/strong&gt;&lt;br&gt;
@@ -525,24 +538,38 @@ In this course, Intellectual Violence is considered bullying. Intellectual viole
 &lt;/ul&gt;
 &lt;p&gt;Instances of Intellectual Violence may result in reduced marks and/or be referred to the Dean of Students under the Student Conduct Policy.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Exam Conduct:&lt;/strong&gt; &lt;br&gt;
-Please refer to the &lt;a href="https://calendar.ualberta.ca/content.php?catoid=56&amp;amp;navoid=18647#examinations-exams"&gt;Examinations&lt;/a&gt; section of the Academic Calendar for more details on Conduct of Exams. &lt;/p&gt;
-&lt;p&gt;Some key points to be aware of:&lt;/p&gt;
+Please refer to the &lt;a href="https://calendar.ualberta.ca/content.php?catoid=69&amp;amp;navoid=20927#examinations-exams"&gt;Examinations&lt;/a&gt; section of the Academic Calendar for more details on Conduct of Exams. &lt;/p&gt;
+&lt;p&gt;Some key points to be aware of for the final Exam:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Your student photo ID is required at exams to verify your identity.  &lt;/li&gt;
 &lt;li&gt;Students must arrive at the specified time to take the exam. Once the exam has started, students must remain in the physical in-person or remote environment for at least 30 minutes. Students who arrive more than 30 minutes late for an in-person exam will not be permitted to take the exam. Students who arrive more than 30 minutes late for an online exam may have their exam attempt removed or disqualified by the instructor. In both cases, students may apply for a deferred examination.  &lt;/li&gt;
 &lt;li&gt;All cell phones must be turned off and stored in your bags.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;!-- HAZEL --&gt;
+
+&lt;p&gt;Some key points to be aware of for the midterm:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Your student photo ID is required at midterms to verify your identity.  &lt;/li&gt;
+&lt;li&gt;Students must arrive at the specified time to take the midterm. Once the midterm has started, students must remain in the physical in-person or remote environment for at least 30 minutes. Students who arrive more than 10 minutes late for an in-person midterm will not be permitted to take the midterm. Students may apply for a excused abscence.&lt;/li&gt;
+&lt;li&gt;All cell phones must be turned off and stored in your bags. Cell phones may not be on your person (pockets).&lt;/li&gt;
+&lt;li&gt;No headphones or ear buds allowed without express permission.&lt;/li&gt;
+&lt;li&gt;The exam will take 50 minutes. 10 minutes setup, 30 minutes midterm writing, 10 minutes of collection. &lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Accommodations for Students:&lt;/strong&gt;&lt;br&gt;
-In accordance with the University of Alberta’s &lt;a href="https://www.ualberta.ca/en/alfresco/uappol/humanresources/discrimination-harassment-and-duty-to-accommodate/policy/discrimination-harassment-and-duty-to-accommodate-policy.pdf"&gt;Discrimination, Harassment, and Duty to Accommodate policy&lt;/a&gt;, accommodation support is available to eligible students who encounter limitations or restrictions to their ability to perform the daily activities necessary to pursue studies at a post-secondary level due to medical conditions and/or non-medical protected grounds. Accommodations are coordinated through the &lt;a href="https://www.ualberta.ca/current-students/academic-success-centre/index.html"&gt;Academic Success Centre&lt;/a&gt;, and students can learn more about eligibility on the &lt;a href="https://www.ualberta.ca/en/current-students/academic-success-centre/accessibility-resources/register/index.html"&gt;Register for Accommodations website&lt;/a&gt;. &lt;/p&gt;
-&lt;p&gt;It is recommended that students apply &lt;strong&gt;&lt;em&gt;AS SOON AS POSSIBLE&lt;/em&gt;&lt;/strong&gt; in order to ensure sufficient time to complete accommodation registration and coordination. Students are advised to review and adhere to published deadlines for accommodation approval and for specific accommodation requests (e.g., exam registration submission deadlines). Students who request accommodations less than a month in advance of the academic term for which they require accommodations may experience unavoidable delays or consequences in their academic programs, and may need to consider alternative academic schedules.&lt;/p&gt;
+In accordance with the University of Alberta’s &lt;a href="https://www.ualberta.ca/en/alfresco/uappol/humanresources/accommodation/policy/accommodation-policy.pdf"&gt;Accommodation Policy&lt;/a&gt; and &lt;a href="https://www.ualberta.ca/en/alfresco/uappol/humanresources/discrimination-and-harassment/policy/discrimination-and-harassment-policy.pdf"&gt;Discrimination and Harassment Policy&lt;/a&gt;, accommodation support is available to eligible students who encounter limitations or restrictions to their ability to perform the daily activities necessary to pursue studies at a post-secondary level due to medical conditions and/or non-medical protected grounds. Accommodations are coordinated through the &lt;a href="https://www.ualberta.ca/current-students/academic-success-centre/index.html"&gt;Academic Success Centre&lt;/a&gt;, and students can learn more about eligibility on the &lt;a href="https://www.ualberta.ca/en/current-students/academic-success-centre/accessibility-resources/register/index.html"&gt;Register for Accommodations website&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;It is recommended that students register &lt;strong&gt;&lt;em&gt;AS SOON AS POSSIBLE&lt;/em&gt;&lt;/strong&gt; in order to ensure sufficient time to complete accommodation registration and coordination. Students are advised to review and adhere to published deadlines for accommodation approval and for specific accommodation requests (e.g., exam registration submission deadlines). Students who request accommodations less than a month in advance of the academic term for which they require accommodations may experience unavoidable delays or consequences in their academic programs, and may need to consider alternative academic schedules.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Recording and/or Distribution of Course Materials:&lt;/strong&gt;&lt;br&gt;
 Audio or video recording, digital or otherwise, of lectures, labs, seminars or any other teaching environment by students is allowed only with the prior written consent of the instructor or as a part of an approved accommodation plan. Student or instructor content, digital or otherwise, created and/or used within the context of the course is to be used solely for personal study, and is not to be used or distributed for any other purpose without prior written consent from the content authors.  &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;STUDENT SUPPORTS&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Faculty of Science Student Services:&lt;/strong&gt;&lt;br&gt;
 ​The &lt;a href="https://www.ualberta.ca/en/science/student-services/index.html"&gt;Faculty of Science Student Services&lt;/a&gt; office is located on the main floor of the Centennial Centre for Interdisciplinary Sciences (CCIS). This office can assist with the planning of &lt;a href="https://www.ualberta.ca/en/science/student-services/your_academics/index.html"&gt;Your Academics&lt;/a&gt;, and provide information related to &lt;a href="https://www.ualberta.ca/en/science/student-services/student-life-engagement/index.html"&gt;Student Life &amp;amp; Engagement&lt;/a&gt;, &lt;a href="https://www.ualberta.ca/en/science/student-services/internship-careers/index.html"&gt;Internship and Careers&lt;/a&gt;, and &lt;a href="https://www.ualberta.ca/en/science/student-services/study-abroad/index.html"&gt;Study Abroad&lt;/a&gt; opportunities. Please visit &lt;a href="https://www.ualberta.ca/en/science/student-services/your-academics/advising.html"&gt;Advising&lt;/a&gt; for more information about what Faculty Academic Advisors can assist you with.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Student Services Directory:&lt;/strong&gt;&lt;br&gt;
+The &lt;a href="https://www.ualberta.ca/en/services/student-service-directory/index.html"&gt;Student Services Directory&lt;/a&gt; helps U of A students find and access support quickly and effectively, bringing together a catalogue of student services from across the university in one convenient location.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Academic Success Centre:&lt;/strong&gt;&lt;br&gt;
 The &lt;a href="https://www.ualberta.ca/en/current-students/academic-success-centre/index.html"&gt;Academic Success Centre&lt;/a&gt; provides professional academic support to help students strengthen their academic skills and achieve their academic goals. Individual advising, appointments, and group workshops are available year round in the areas of Accessibility, Communication, Learning, and Writing Resources. Modest fees may apply for some services.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Writing and Learning Centre:&lt;/strong&gt; &lt;br&gt;
+Get support when and where you need it. The centre, located in 2-10 Cameron Library, offers both in-person and virtual supports for undergraduate and graduate students. Strengthen your academic skills by attending a workshop or booking a one-on-one appointment. Their &lt;a href="https://uab.ca/wl"&gt;website&lt;/a&gt; provides more information about drop-in appointments, writing groups, Canvas modules and special programming to find what works best for you. Workshops and appointments are free for current U of A students.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Feeling Stressed, Anxious, or Upset?&lt;/strong&gt;&lt;br&gt;
 It's normal for us to have different mental health experiences throughout the year. Know that there are people who want to help. You can reach out to your friends and access a variety of supports available on and off campus at the &lt;a href="https://www.ualberta.ca/current-students/need-help-now.html"&gt;Need Help Now&lt;/a&gt; webpage or by calling the 24-hour Distress Line: 780-482-4357 (HELP).   &lt;/p&gt;
 &lt;hr&gt;
@@ -550,20 +577,68 @@ It's normal for us to have different mental health experiences throughout the ye
 The Faculty of Science is committed to ensuring that all students, faculty and staff are able to work and study in an environment that is safe and free from discrimination, harassment, and violence of any kind. It does not tolerate behaviour that undermines that environment. This includes virtual environments and platforms.&lt;/p&gt;
 &lt;p&gt;If you are experiencing harassment, discrimination, fraud, theft or any other issue and would like to get confidential advice, please contact any of these campus services:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.ualberta.ca/provost/portfolio/office-of-safe-disclosure-human-rights/index.html"&gt;Office of Safe Disclosure &amp;amp; Human Rights&lt;/a&gt;&lt;em&gt;: A safe, neutral and confidential space to disclose concerns about how the University of Alberta policies, procedures or ethical standards are being applied. They provide strategic advice and referral on matters such as discrimination, harassment, duty to accommodate and wrong-doings. Disclosures can be made in person or online using the &lt;a href="https://ualberta-gme-advocate.symplicity.com/titleix_report/index.php"&gt;Online Reporting Tool&lt;/a&gt;&lt;/em&gt;.  &lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.ualberta.ca/protective-services"&gt;University of Alberta Protective Services&lt;/a&gt;: &lt;em&gt;Peace officers dedicated to ensuring the safety and security of U of A campuses and community. Staff or students can contact UAPS to make a report if they feel unsafe, threatened, or targeted on campus or by another member of the university community.&lt;/em&gt;  &lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.ualberta.ca/current-students/ombuds/index.html"&gt;Office of the Student Ombuds&lt;/a&gt;&lt;em&gt;: A confidential and free service that strives to ensure that university processes related to students operate as fairly as possible. They offer information, advice, and support to students, faculty, and staff as they deal with academic, discipline, interpersonal, and financial issues related to student programs.&lt;/em&gt;  &lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.ualberta.ca/dean-of-students/index.html"&gt;Office of Student Success and Experience&lt;/a&gt;&lt;em&gt;: They can assist students in navigating services to ensure they receive appropriate and timely resources. For students who are unsure of the support they may need, are concerned about how to access services on campus, or feel like they may need interim support while they wait to access a service, this office is there to help.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.ualberta.ca/provost/portfolio/office-of-safe-disclosure-human-rights/index.html"&gt;Office of Safe Disclosure &amp;amp; Human Rights&lt;/a&gt;: A safe, neutral and confidential space to disclose concerns about how the University of Alberta policies, procedures or ethical standards are being applied. They provide strategic advice and referral on matters such as discrimination, harassment, duty to accommodate and wrong-doings. Disclosures can be made in person or online using the &lt;a href="https://ualberta-gme-advocate.symplicity.com/titleix_report/index.php"&gt;Online Reporting Tool&lt;/a&gt;.  &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.ualberta.ca/protective-services"&gt;University of Alberta Protective Services&lt;/a&gt;: Peace officers dedicated to ensuring the safety and security of U of A campuses and community. Staff or students can contact UAPS to make a report if they feel unsafe, threatened, or targeted on campus or by another member of the university community.  &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.ualberta.ca/current-students/ombuds/index.html"&gt;Office of the Student Ombuds&lt;/a&gt;: A confidential and free service that strives to ensure that university processes related to students operate as fairly as possible. They offer information, advice, and support to students, faculty, and staff as they deal with academic, discipline, interpersonal, and financial issues related to student programs.  &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.ualberta.ca/dean-of-students/index.html"&gt;Office of Student Success and Experience&lt;/a&gt;: They can assist students in navigating services to ensure they receive appropriate and timely resources. For students who are unsure of the support they may need, are concerned about how to access services on campus, or feel like they may need interim support while they wait to access a service, this office is there to help.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Course Outlines:&lt;/strong&gt;&lt;br&gt;
-Policy about course outlines can be found in the &lt;a href="https://calendar.ualberta.ca/content.php?catoid=56&amp;amp;navoid=18647#evaluation-procedures-and-grading-system"&gt;Academic Regulations, Evaluation Procedures and Grading section&lt;/a&gt; of the University Calendar.&lt;/p&gt;
+Policy about course outlines can be found in the &lt;a href="https://calendar.ualberta.ca/content.php?catoid=69&amp;amp;navoid=20927#changes-in-regulations"&gt;Academic Regulations&lt;/a&gt;, &lt;a href="https://calendar.ualberta.ca/content.php?catoid=69&amp;amp;navoid=20927#evaluation-procedures-and-grading-system"&gt;Evaluation Procedures and Grading&lt;/a&gt; section of the University Calendar.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Disclaimer:&lt;/strong&gt; &lt;br&gt;
 Any typographical errors in this syllabus are subject to change and will be announced in class and/or posted on the course website. The date of final examinations is set by the Registrar and takes precedence over the final examination date reported in the syllabus.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Copyright&lt;/strong&gt;:
-* Dr. Abram Hindle and Dr. Hazel Victoria Campbell, Department of Computing Science, Faculty of Science, University of Alberta (2026).
-* Dr. Zhou Yang and Mr. Henry Tang, Department of Computing Science, Faculty of Science, University of Alberta (2026). 
-* Dr. Ken Wong, Department of Computing Science, Faculty of Science, University of Alberta (2023).&lt;/p&gt;</content><category term="general"/><category term="outline"/><category term="policy"/><category term="grading"/><category term="contact"/></entry><entry><title>Assignment 0</title><link href="https://ualberta-cmput301.github.io/individual/assignment0.html" rel="alternate"/><published>2026-08-19T00:00:00-06:00</published><updated>2026-08-19T00:00:00-06:00</updated><author><name>Michelle Deng</name></author><id>tag:ualberta-cmput301.github.io,2026-08-19:/individual/assignment0.html</id><summary type="html">&lt;p&gt;Assignment 0&lt;/p&gt;</summary><content type="html">&lt;p&gt;Instructions can be viewed at &lt;a href="https://github.com/ualberta-cmput301-2026-dev/a0/blob/dev/README.md"&gt;this repository&lt;/a&gt;
-&lt;br&gt;&lt;/br&gt;&lt;/p&gt;</content><category term="individual"/><category term="individual"/><category term="policy"/><category term="grading"/></entry><entry><title>Assignment 1</title><link href="https://ualberta-cmput301.github.io/individual/assignment1.html" rel="alternate"/><published>2026-08-19T00:00:00-06:00</published><updated>2026-08-19T00:00:00-06:00</updated><author><name>Michelle Deng</name></author><id>tag:ualberta-cmput301.github.io,2026-08-19:/individual/assignment1.html</id><summary type="html">&lt;p&gt;Assignment 1&lt;/p&gt;</summary><content type="html">&lt;p&gt;Instructions can be viewed at &lt;a href="https://github.com/ualberta-cmput301-2026-dev/a1-fall2026/blob/dev/README.md"&gt;this repository&lt;/a&gt;
+&lt;p&gt;&lt;strong&gt;Copyright&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dr. Abram Hindle and Dr. Hazel Victoria Campbell, Department of Computing Science, Faculty of Science, University of Alberta (2026).&lt;/li&gt;
+&lt;li&gt;Dr. Zhou Yang and Mr. Henry Tang, Department of Computing Science, Faculty of Science, University of Alberta (2026). &lt;/li&gt;
+&lt;li&gt;Dr. Ken Wong, Department of Computing Science, Faculty of Science, University of Alberta (2023).&lt;/li&gt;
+&lt;/ul&gt;</content><category term="general"/><category term="outline"/><category term="policy"/><category term="grading"/><category term="contact"/></entry><entry><title>Individual</title><link href="https://ualberta-cmput301.github.io/general/individual.html" rel="alternate"/><published>2026-08-26T00:00:00-06:00</published><updated>2026-08-26T00:00:00-06:00</updated><author><name>Hazel Victoria Campbell</name></author><id>tag:ualberta-cmput301.github.io,2026-08-26:/general/individual.html</id><summary type="html">&lt;p&gt;Individual Assignments, Participation&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#assignments"&gt;Assignments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#participation"&gt;Participation&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#participation-exercises-are-marked-as-follows"&gt;Participation Exercises are marked as follows:&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="assignments"&gt;Assignments&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/individual/assignment0.html"&gt;Assignment 0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ualberta-cmput301.github.io/individual/assignment1.html"&gt;Assignment 1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="participation"&gt;Participation&lt;/h3&gt;
+&lt;p&gt;You can earn lecture participation credit by attending lecture on time and doing a lecture participation exercise. Instructions will be given during lecture.&lt;/p&gt;
+&lt;!-- &lt;p class="warning"&gt;Do &lt;em&gt;not&lt;/em&gt; enter your real name, CCID, or student ID into Mentimeter.&lt;/p&gt; --&gt;
+
+&lt;p&gt;Participation exercises will be completed on paper in in-person lecture sections and online in synchronous hybrid lecture sections. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You must provide an image of the exercise with the QR visible to get credit. Failure to do so will not earn credit. &lt;!-- **Your codename can be found under feedback at the top of your grades in eClass.** --&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--    * You will not get credit for your real name, CCID, or student ID! --&gt;
+&lt;ul&gt;
+&lt;li&gt;For lecture participation exercises, given N total exercises only N-6 will be counted. You can miss 6. No extensions, excused absences, or weight transfers are possible. See the &lt;a href="https://ualberta-cmput301.github.io/general/outline.html#missed-term-work-participation"&gt;outline&lt;/a&gt; for more information.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--
+* Entering answers in Mentimeter without attending the course, either in-person or on Zoom will be considered a violation of the Student Academic Integrity Policy.
+--&gt;
+&lt;ul&gt;
+&lt;li&gt;Entering answers for someone else will be considered a violation of the SAIP.  &lt;!--    * Sharing the Menti link with other students will be considered a violation of the SAIP. --&gt;&lt;ul&gt;
+&lt;li&gt;See the &lt;a href="https://ualberta-cmput301.github.io/general/outline.html#contract-cheating-cs-courses"&gt;outline section on contract cheating&lt;/a&gt; for more information.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="participation-exercises-are-marked-as-follows"&gt;Participation Exercises are marked as follows:&lt;/h4&gt;
+&lt;p&gt;Given &lt;code&gt;N&lt;/code&gt; total exercises, count the number of sufficiently complete exercises (&lt;code&gt;M&lt;/code&gt;), calculate percent exercises as &lt;code&gt;100% * M / (N - 6)&lt;/code&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Failure 0: Write less than 50% of exercises&lt;/li&gt;
+&lt;li&gt;Unsatisfactory 4: Write more than or equal to 50% of exercises &lt;/li&gt;
+&lt;li&gt;Satisfactory 6: Write more than 60% of exercises &lt;/li&gt;
+&lt;li&gt;Good 7: Write more than 70% of exercises &lt;/li&gt;
+&lt;li&gt;Excellent 8: Write more than 80% of exercises&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you participate enough in discussion you can get 1 bonus mark to
+your participation grade (not exceeding 7). You only get credit for
+participation in your own section.&lt;/p&gt;</content><category term="general"/><category term="assignment"/><category term="grading"/></entry><entry><title>Assignment 0</title><link href="https://ualberta-cmput301.github.io/individual/assignment0.html" rel="alternate"/><published>2026-08-19T00:00:00-06:00</published><updated>2026-08-19T00:00:00-06:00</updated><author><name>Michelle Deng</name></author><id>tag:ualberta-cmput301.github.io,2026-08-19:/individual/assignment0.html</id><summary type="html">&lt;p&gt;Assignment 0&lt;/p&gt;</summary><content type="html">&lt;p&gt;Instructions can be viewed at &lt;a href="https://github.com/cmput301-f26/a0/blob/main/README.md"&gt;this repository&lt;/a&gt;
+&lt;br&gt;&lt;/br&gt;&lt;/p&gt;</content><category term="individual"/><category term="individual"/><category term="policy"/><category term="grading"/></entry><entry><title>Assignment 1</title><link href="https://ualberta-cmput301.github.io/individual/assignment1.html" rel="alternate"/><published>2026-08-19T00:00:00-06:00</published><updated>2026-08-19T00:00:00-06:00</updated><author><name>Michelle Deng</name></author><id>tag:ualberta-cmput301.github.io,2026-08-19:/individual/assignment1.html</id><summary type="html">&lt;p&gt;Assignment 1&lt;/p&gt;</summary><content type="html">&lt;p&gt;Instructions can be viewed at &lt;a href="https://github.com/cmput301-f26/a1-fall2026/blob/main/README.md"&gt;this repository&lt;/a&gt;
 &lt;br&gt;&lt;/br&gt;&lt;/p&gt;</content><category term="individual"/><category term="individual"/><category term="policy"/><category term="grading"/></entry><entry><title>Group Project</title><link href="https://ualberta-cmput301.github.io/general/project.html" rel="alternate"/><published>2026-08-19T00:00:00-06:00</published><updated>2026-08-19T00:00:00-06:00</updated><author><name>Michelle Deng</name></author><id>tag:ualberta-cmput301.github.io,2026-08-19:/general/project.html</id><summary type="html">&lt;p&gt;301 Group Project&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#project"&gt;Project&lt;/a&gt;&lt;/li&gt;
@@ -589,7 +664,7 @@ Any typographical errors in this syllabus are subject to change and will be anno
 &lt;li&gt;
 &lt;p&gt;&lt;a href="https://ualberta-cmput301.github.io/projects/project_part4.html"&gt;Project Part 4 -- Final Checkpoint&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content><category term="general"/><category term="project"/><category term="grading"/></entry><entry><title>Assignment 1</title><link href="https://ualberta-cmput301.github.io/individual/assignment1.html" rel="alternate"/><published>2026-08-19T00:00:00-06:00</published><updated>2026-08-19T00:00:00-06:00</updated><author><name>Michelle Deng</name></author><id>tag:ualberta-cmput301.github.io,2026-08-19:/individual/assignment1.html</id><summary type="html">&lt;p&gt;Assignment 1&lt;/p&gt;</summary><content type="html">&lt;p&gt;Instructions can be viewed at &lt;a href="https://github.com/ualberta-cmput301-2026-dev/a1-fall2026/blob/dev/README.md"&gt;this repository&lt;/a&gt;
+&lt;/ul&gt;</content><category term="general"/><category term="project"/><category term="grading"/></entry><entry><title>Assignment 1</title><link href="https://ualberta-cmput301.github.io/individual/assignment1.html" rel="alternate"/><published>2026-08-19T00:00:00-06:00</published><updated>2026-08-19T00:00:00-06:00</updated><author><name>Michelle Deng</name></author><id>tag:ualberta-cmput301.github.io,2026-08-19:/individual/assignment1.html</id><summary type="html">&lt;p&gt;Assignment 1&lt;/p&gt;</summary><content type="html">&lt;p&gt;Instructions can be viewed at &lt;a href="https://github.com/cmput301-f26/a1-fall2026/blob/main/README.md"&gt;this repository&lt;/a&gt;
 &lt;br&gt;&lt;/br&gt;&lt;/p&gt;</content><category term="individual"/><category term="individual"/><category term="policy"/><category term="grading"/></entry><entry><title>Lab 6 Instructions</title><link href="https://ualberta-cmput301.github.io/labs/lab6_instruct.html" rel="alternate"/><published>2026-07-07T00:00:00-06:00</published><updated>2026-07-07T00:00:00-06:00</updated><author><name>Michelle Deng</name></author><id>tag:ualberta-cmput301.github.io,2026-07-07:/labs/lab6_instruct.html</id><summary type="html">&lt;p&gt;Lab 6 Instructions&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
 &lt;div class="toc"&gt;
 &lt;ul&gt;
@@ -600,7 +675,7 @@ Any typographical errors in this syllabus are subject to change and will be anno
 &lt;h3 id="lab-6-instructions"&gt;Lab 6 Instructions&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Go over &lt;a href="https://ualberta-cmput301.github.io/labs/slides/2026-Lab 6 Slides v2.pdf"&gt;Lab 6 Slides&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Fork and clone the &lt;a href="https://github.com/ualberta-cmput301-2026-dev/lab-06/tree/main"&gt;Lab 6 GitHub Repo&lt;/a&gt; for your Canvas submission.
+&lt;li&gt;Fork and clone the &lt;a href="https://github.com/cmput301-f26/lab-06"&gt;Lab 6 GitHub Repo&lt;/a&gt; for your Canvas submission.
   This repo includes:&lt;ul&gt;
 &lt;li&gt;Walkthrough instructions&lt;/li&gt;
 &lt;li&gt;Participation exercise instructions&lt;/li&gt;
@@ -622,7 +697,7 @@ Any typographical errors in this syllabus are subject to change and will be anno
 &lt;h3 id="lab-7-instructions"&gt;Lab 7 Instructions&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Go over &lt;a href="https://ualberta-cmput301.github.io/labs/slides/2026-Lab 7 Slides.pdf"&gt;Lab 7 Slides&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Fork and clone the &lt;a href="https://github.com/ualberta-cmput301-2026-dev/lab-07/tree/main"&gt;Lab 7 GitHub Repo&lt;/a&gt; for your Canvas submission.
+&lt;li&gt;Fork and clone the &lt;a href="https://github.com/cmput301-f26/lab-07"&gt;Lab 7 GitHub Repo&lt;/a&gt; for your Canvas submission.
   This repo includes:&lt;ul&gt;
 &lt;li&gt;Walkthrough instructions&lt;/li&gt;
 &lt;li&gt;Participation exercise instructions&lt;/li&gt;
@@ -637,14 +712,14 @@ Any typographical errors in this syllabus are subject to change and will be anno
 &lt;p&gt;Friday after the Thursday lab at 4PM&lt;/p&gt;</content><category term="labs"/><category term="labs"/><category term="policy"/><category term="grading"/></entry><entry><title>Lab 8 Instructions</title><link href="https://ualberta-cmput301.github.io/labs/lab8_part.html" rel="alternate"/><published>2026-07-07T00:00:00-06:00</published><updated>2026-07-07T00:00:00-06:00</updated><author><name>Michelle Deng</name></author><id>tag:ualberta-cmput301.github.io,2026-07-07:/labs/lab8_part.html</id><summary type="html">&lt;p&gt;Lab 8 Instructions&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
 &lt;div class="toc"&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="#lab-7-instructions"&gt;Lab 7 Instructions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#lab-8-instructions"&gt;Lab 8 Instructions&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#submission"&gt;Submission&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-&lt;h3 id="lab-7-instructions"&gt;Lab 7 Instructions&lt;/h3&gt;
+&lt;h3 id="lab-8-instructions"&gt;Lab 8 Instructions&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Go over &lt;a href="https://ualberta-cmput301.github.io/labs/slides/2026-Lab 8 Slides.pdf"&gt;Lab 8 Slides&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Fork and clone the &lt;a href="https://github.com/ualberta-cmput301-2026-dev/lab-08/tree/main"&gt;Lab 8 GitHub Repo&lt;/a&gt; for your Canvas submission.
+&lt;li&gt;Fork and clone the &lt;a href="https://github.com/cmput301-f26/lab-08"&gt;Lab 8 GitHub Repo&lt;/a&gt; for your Canvas submission.
   This repo includes:&lt;ul&gt;
 &lt;li&gt;Walkthrough instructions&lt;/li&gt;
 &lt;li&gt;Participation exercise instructions&lt;/li&gt;
@@ -728,7 +803,7 @@ Any typographical errors in this syllabus are subject to change and will be anno
 &lt;h3 id="lab-3-more-android"&gt;Lab 3: More Android&lt;/h3&gt;
 &lt;h4 id="1-getting-started"&gt;1. Getting Started&lt;/h4&gt;
 &lt;ol&gt;
-&lt;li&gt;Clone this repository and open the &lt;code&gt;/code&lt;/code&gt; folder in Android Studio.&lt;/li&gt;
+&lt;li&gt;Clone &lt;a href="https://github.com/cmput301-f26/lab-03"&gt;this repository&lt;/a&gt; and open the &lt;code&gt;/code&lt;/code&gt; folder in Android Studio.&lt;/li&gt;
 &lt;li&gt;You'll find a basic &lt;code&gt;ListyCity&lt;/code&gt; app that displays a static list of cities and provinces.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id="2-demo-instructions"&gt;2. Demo Instructions&lt;/h4&gt;
@@ -960,10 +1035,10 @@ Make sure to commit &lt;strong&gt;and&lt;/strong&gt; push your code to the GitHu
 &lt;h3 id="lab-5-instructions"&gt;Lab 5 Instructions&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Read &lt;a href="https://ualberta-cmput301.github.io/labs/slides/Firestore.pdf"&gt;Firestore Introduction.pdf&lt;/a&gt; for introduction of Firestore&lt;/li&gt;
+&lt;li&gt;Clone &lt;a href="https://github.com/cmput301-f26/lab-05"&gt;this repository&lt;/a&gt; and open the &lt;code&gt;/ListyCity&lt;/code&gt; folder in Android Studio.&lt;/li&gt;
 &lt;li&gt;Follow instructions on &lt;a href="https://ualberta-cmput301.github.io/labs/slides/2026-Lab5FInteg.pdf"&gt;Lab 5 Firestore Integration Instructions.pdf&lt;/a&gt; along with the TA.&lt;/li&gt;
 &lt;li&gt;Complete the lab participation exercise&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Download Starter Code &lt;a href="https://github.com/cmput301-f25/Lab05"&gt;here&lt;/a&gt; &lt;/p&gt;
 &lt;h3 id="lab-5-participation-exercise"&gt;Lab 5 Participation Exercise&lt;/h3&gt;
 &lt;p&gt;Proper completion of this exercise is considered as part of course participation.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;In this exercise it is your task to add the ability to delete Cities and integrate this functionality with the Firestore database, allowing for the persistence of deletions.&lt;/strong&gt;&lt;/p&gt;
@@ -974,7 +1049,21 @@ Make sure to commit &lt;strong&gt;and&lt;/strong&gt; push your code to the GitHu
 &lt;img alt="Screen3" src="https://ualberta-cmput301.github.io/labs/lab5_img3.png" style="margin: 20px;" width="300"&gt;
 &lt;img alt="Screen4" src="https://ualberta-cmput301.github.io/labs/lab5_img4.png" style="margin: 20px;" width="300"&gt;&lt;/p&gt;
 &lt;h3 id="submission"&gt;Submission&lt;/h3&gt;
-&lt;p&gt;Canvas&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Fork and then clone this repository&lt;ul&gt;
+&lt;li&gt;Make sure your forked repository is &lt;strong&gt;public&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Hint: Use &lt;code&gt;git clone&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Add your Android Studio Project changes to your forked repository&lt;ul&gt;
+&lt;li&gt;Hint: Use &lt;code&gt;git add&lt;/code&gt;, &lt;code&gt;git commit&lt;/code&gt;, and &lt;code&gt;git push&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Update the &lt;code&gt;README.md&lt;/code&gt; file with your details and references/collaborators&lt;/li&gt;
+&lt;li&gt;Update the &lt;code&gt;LICENSE.md&lt;/code&gt; file with your full name&lt;/li&gt;
+&lt;li&gt;Submit the link to your GitHub repository on Canvas
+&lt;br&gt;&lt;/br&gt;&lt;/li&gt;
+&lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;Due Date&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Friday after the Thursday lab at 5 PM&lt;/p&gt;</content><category term="labs"/><category term="labs"/><category term="policy"/><category term="grading"/></entry><entry><title>Project Part 1</title><link href="https://ualberta-cmput301.github.io/projects/project_part1.html" rel="alternate"/><published>2026-06-04T00:00:00-06:00</published><updated>2026-06-04T00:00:00-06:00</updated><author><name>Abram Hindle</name></author><id>tag:ualberta-cmput301.github.io,2026-06-04:/projects/project_part1.html</id><summary type="html">&lt;p&gt;Project Part 1&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
@@ -5751,53 +5840,5 @@ This material is provided as extra study material ONLY.
 &lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="kd"&gt;private&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kt"&gt;void&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;stretch&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
 &lt;span class="w"&gt;            &lt;/span&gt;&lt;span class="n"&gt;System&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="na"&gt;out&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="na"&gt;println&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;Stretching.&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
 &lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="practice"/><category term="resources"/><category term="reading"/><category term="references"/><category term="videos"/><category term="practice"/><category term="exams"/></entry><entry><title>Practice w23am3q3</title><link href="https://ualberta-cmput301.github.io/resources/practice/w23am3q3.html" rel="alternate"/><published>2024-09-03T00:00:00-06:00</published><updated>2024-09-03T00:00:00-06:00</updated><author><name>Ildar Akhmetov</name></author><id>tag:ualberta-cmput301.github.io,2024-09-03:/resources/practice/w23am3q3.html</id><summary type="html">&lt;p&gt;Practice Exam Question&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Adapter Design Pattern Refactoring (UML class diagram)&lt;/strong&gt;  &lt;/p&gt;
-&lt;p&gt;The code represents the university HR system. There are employees paid hourly (support staff, secretaries, assistants etc.) and students. Some students can be employed as teaching assistants. In this case, their hourly rate depends on their year. The Report class prepares reports on employees and teaching assistants.   &lt;/p&gt;
-&lt;p&gt;There is a problem with the &lt;strong&gt;Report&lt;/strong&gt; class as it knows too much about students!   &lt;/p&gt;
-&lt;p&gt;Restructure this code with the &lt;strong&gt;Object Adapter design pattern&lt;/strong&gt; and provide a UML class diagram depicting the structure and operations one would expect after refactoring this code to use an object adapter.  &lt;/p&gt;
-&lt;p&gt;In your solution, the &lt;strong&gt;Report&lt;/strong&gt; class &lt;strong&gt;must have one (and only one) method&lt;/strong&gt;. Your solution must significantly reduce code duplication and enhance reuse.   &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Draw the resulting UML class diagram of the refactored code.&lt;/strong&gt; Provide the basic abstractions, attributes, methods, relationships, multiplicities, and navigabilities as appropriate.** &lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kd"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;Employee&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="kd"&gt;private&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;String&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="kd"&gt;private&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;String&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;jobTitle&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="kd"&gt;private&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kt"&gt;double&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;hourlyRate&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="kd"&gt;public&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;String&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;getName&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;return&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="kd"&gt;public&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;String&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;getJobTitle&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;return&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;jobTitle&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="kd"&gt;public&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kt"&gt;double&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;getHourlyRate&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;return&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;hourlyRate&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-
-&lt;span class="kd"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;Student&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="kd"&gt;private&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;String&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="kd"&gt;private&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;String&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;major&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="kd"&gt;private&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;year&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="kd"&gt;public&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;String&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;getName&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;return&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="kd"&gt;public&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;String&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;getMajor&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;return&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;major&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="kd"&gt;public&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;getYear&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;return&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;year&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-
-&lt;span class="kd"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;Report&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="c1"&gt;// Prints report for an employee (hourly staff)&lt;/span&gt;
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="kd"&gt;public&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kt"&gt;void&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;employeeReport&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Employee&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;e&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="n"&gt;System&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="na"&gt;out&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="na"&gt;println&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;Name: &amp;quot;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;e&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="na"&gt;getName&lt;/span&gt;&lt;span class="p"&gt;());&lt;/span&gt;
-&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="n"&gt;System&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="na"&gt;out&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="na"&gt;println&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;Job Title: &amp;quot;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;e&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="na"&gt;getJobTitle&lt;/span&gt;&lt;span class="p"&gt;());&lt;/span&gt;
-&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="n"&gt;System&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="na"&gt;out&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="na"&gt;println&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;Hourly Rate: &amp;quot;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;e&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="na"&gt;getHourlyRate&lt;/span&gt;&lt;span class="p"&gt;());&lt;/span&gt;
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
-
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="c1"&gt;// Prints report for a teaching assistant&lt;/span&gt;
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="kd"&gt;public&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kt"&gt;void&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;studentReport&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Student&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="n"&gt;System&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="na"&gt;out&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="na"&gt;println&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;Name: &amp;quot;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="na"&gt;getName&lt;/span&gt;&lt;span class="p"&gt;());&lt;/span&gt;
-&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="n"&gt;System&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="na"&gt;out&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="na"&gt;println&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;Job Title: Teaching Assistant&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="kt"&gt;double&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;hourlyRate&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="na"&gt;getYear&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;==&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-&lt;span class="w"&gt;            &lt;/span&gt;&lt;span class="n"&gt;hourlyRate&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;17&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="na"&gt;getYear&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-&lt;span class="w"&gt;            &lt;/span&gt;&lt;span class="n"&gt;hourlyRate&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;18&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-&lt;span class="w"&gt;            &lt;/span&gt;&lt;span class="n"&gt;hourlyRate&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;19&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="n"&gt;System&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="na"&gt;out&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="na"&gt;println&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;Hourly Rate: &amp;quot;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;hourlyRate&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="practice"/><category term="resources"/><category term="reading"/><category term="references"/><category term="videos"/><category term="practice"/><category term="exams"/></entry></feed>

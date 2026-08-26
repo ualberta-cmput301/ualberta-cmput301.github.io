@@ -9,7 +9,7 @@
 &lt;h3 id="lab-1-instructions"&gt;Lab 1 Instructions&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Go over &lt;a href="https://ualberta-cmput301.github.io/labs/slides/2026-Lab 1 Slides v3.pdf"&gt;Lab 1 Slides&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Fork and clone the &lt;a href="https://github.com/ualberta-cmput301-2026-dev/lab-01/tree/main"&gt;Lab 1 GitHub Repo&lt;/a&gt; for your Canvas submission.
+&lt;li&gt;Fork and clone the &lt;a href="https://github.com/cmput301-f26/lab-01"&gt;Lab 1 GitHub Repo&lt;/a&gt; for your Canvas submission.
   This repo includes:&lt;ul&gt;
 &lt;li&gt;Walkthrough instructions&lt;/li&gt;
 &lt;li&gt;Participation exercise instructions&lt;/li&gt;
@@ -31,7 +31,7 @@
 &lt;h3 id="lab-6-instructions"&gt;Lab 6 Instructions&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Go over &lt;a href="https://ualberta-cmput301.github.io/labs/slides/2026-Lab 6 Slides v2.pdf"&gt;Lab 6 Slides&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Fork and clone the &lt;a href="https://github.com/ualberta-cmput301-2026-dev/lab-06/tree/main"&gt;Lab 6 GitHub Repo&lt;/a&gt; for your Canvas submission.
+&lt;li&gt;Fork and clone the &lt;a href="https://github.com/cmput301-f26/lab-06"&gt;Lab 6 GitHub Repo&lt;/a&gt; for your Canvas submission.
   This repo includes:&lt;ul&gt;
 &lt;li&gt;Walkthrough instructions&lt;/li&gt;
 &lt;li&gt;Participation exercise instructions&lt;/li&gt;
@@ -53,7 +53,7 @@
 &lt;h3 id="lab-7-instructions"&gt;Lab 7 Instructions&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Go over &lt;a href="https://ualberta-cmput301.github.io/labs/slides/2026-Lab 7 Slides.pdf"&gt;Lab 7 Slides&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Fork and clone the &lt;a href="https://github.com/ualberta-cmput301-2026-dev/lab-07/tree/main"&gt;Lab 7 GitHub Repo&lt;/a&gt; for your Canvas submission.
+&lt;li&gt;Fork and clone the &lt;a href="https://github.com/cmput301-f26/lab-07"&gt;Lab 7 GitHub Repo&lt;/a&gt; for your Canvas submission.
   This repo includes:&lt;ul&gt;
 &lt;li&gt;Walkthrough instructions&lt;/li&gt;
 &lt;li&gt;Participation exercise instructions&lt;/li&gt;
@@ -68,14 +68,14 @@
 &lt;p&gt;Friday after the Thursday lab at 4PM&lt;/p&gt;</content><category term="labs"/><category term="labs"/><category term="policy"/><category term="grading"/></entry><entry><title>Lab 8 Instructions</title><link href="https://ualberta-cmput301.github.io/labs/lab8_part.html" rel="alternate"/><published>2026-07-07T00:00:00-06:00</published><updated>2026-07-07T00:00:00-06:00</updated><author><name>Michelle Deng</name></author><id>tag:ualberta-cmput301.github.io,2026-07-07:/labs/lab8_part.html</id><summary type="html">&lt;p&gt;Lab 8 Instructions&lt;/p&gt;</summary><content type="html">&lt;hr&gt;
 &lt;div class="toc"&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="#lab-7-instructions"&gt;Lab 7 Instructions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#lab-8-instructions"&gt;Lab 8 Instructions&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#submission"&gt;Submission&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-&lt;h3 id="lab-7-instructions"&gt;Lab 7 Instructions&lt;/h3&gt;
+&lt;h3 id="lab-8-instructions"&gt;Lab 8 Instructions&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Go over &lt;a href="https://ualberta-cmput301.github.io/labs/slides/2026-Lab 8 Slides.pdf"&gt;Lab 8 Slides&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Fork and clone the &lt;a href="https://github.com/ualberta-cmput301-2026-dev/lab-08/tree/main"&gt;Lab 8 GitHub Repo&lt;/a&gt; for your Canvas submission.
+&lt;li&gt;Fork and clone the &lt;a href="https://github.com/cmput301-f26/lab-08"&gt;Lab 8 GitHub Repo&lt;/a&gt; for your Canvas submission.
   This repo includes:&lt;ul&gt;
 &lt;li&gt;Walkthrough instructions&lt;/li&gt;
 &lt;li&gt;Participation exercise instructions&lt;/li&gt;
@@ -159,7 +159,7 @@
 &lt;h3 id="lab-3-more-android"&gt;Lab 3: More Android&lt;/h3&gt;
 &lt;h4 id="1-getting-started"&gt;1. Getting Started&lt;/h4&gt;
 &lt;ol&gt;
-&lt;li&gt;Clone this repository and open the &lt;code&gt;/code&lt;/code&gt; folder in Android Studio.&lt;/li&gt;
+&lt;li&gt;Clone &lt;a href="https://github.com/cmput301-f26/lab-03"&gt;this repository&lt;/a&gt; and open the &lt;code&gt;/code&lt;/code&gt; folder in Android Studio.&lt;/li&gt;
 &lt;li&gt;You'll find a basic &lt;code&gt;ListyCity&lt;/code&gt; app that displays a static list of cities and provinces.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id="2-demo-instructions"&gt;2. Demo Instructions&lt;/h4&gt;
@@ -391,10 +391,10 @@ Make sure to commit &lt;strong&gt;and&lt;/strong&gt; push your code to the GitHu
 &lt;h3 id="lab-5-instructions"&gt;Lab 5 Instructions&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Read &lt;a href="https://ualberta-cmput301.github.io/labs/slides/Firestore.pdf"&gt;Firestore Introduction.pdf&lt;/a&gt; for introduction of Firestore&lt;/li&gt;
+&lt;li&gt;Clone &lt;a href="https://github.com/cmput301-f26/lab-05"&gt;this repository&lt;/a&gt; and open the &lt;code&gt;/ListyCity&lt;/code&gt; folder in Android Studio.&lt;/li&gt;
 &lt;li&gt;Follow instructions on &lt;a href="https://ualberta-cmput301.github.io/labs/slides/2026-Lab5FInteg.pdf"&gt;Lab 5 Firestore Integration Instructions.pdf&lt;/a&gt; along with the TA.&lt;/li&gt;
 &lt;li&gt;Complete the lab participation exercise&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Download Starter Code &lt;a href="https://github.com/cmput301-f25/Lab05"&gt;here&lt;/a&gt; &lt;/p&gt;
 &lt;h3 id="lab-5-participation-exercise"&gt;Lab 5 Participation Exercise&lt;/h3&gt;
 &lt;p&gt;Proper completion of this exercise is considered as part of course participation.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;In this exercise it is your task to add the ability to delete Cities and integrate this functionality with the Firestore database, allowing for the persistence of deletions.&lt;/strong&gt;&lt;/p&gt;
@@ -405,7 +405,21 @@ Make sure to commit &lt;strong&gt;and&lt;/strong&gt; push your code to the GitHu
 &lt;img alt="Screen3" src="https://ualberta-cmput301.github.io/labs/lab5_img3.png" style="margin: 20px;" width="300"&gt;
 &lt;img alt="Screen4" src="https://ualberta-cmput301.github.io/labs/lab5_img4.png" style="margin: 20px;" width="300"&gt;&lt;/p&gt;
 &lt;h3 id="submission"&gt;Submission&lt;/h3&gt;
-&lt;p&gt;Canvas&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Fork and then clone this repository&lt;ul&gt;
+&lt;li&gt;Make sure your forked repository is &lt;strong&gt;public&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Hint: Use &lt;code&gt;git clone&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Add your Android Studio Project changes to your forked repository&lt;ul&gt;
+&lt;li&gt;Hint: Use &lt;code&gt;git add&lt;/code&gt;, &lt;code&gt;git commit&lt;/code&gt;, and &lt;code&gt;git push&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Update the &lt;code&gt;README.md&lt;/code&gt; file with your details and references/collaborators&lt;/li&gt;
+&lt;li&gt;Update the &lt;code&gt;LICENSE.md&lt;/code&gt; file with your full name&lt;/li&gt;
+&lt;li&gt;Submit the link to your GitHub repository on Canvas
+&lt;br&gt;&lt;/br&gt;&lt;/li&gt;
+&lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;Due Date&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Friday after the Thursday lab at 5 PM&lt;/p&gt;</content><category term="labs"/><category term="labs"/><category term="policy"/><category term="grading"/></entry><entry><title>Lab 4 Participation Exercise Past Notes</title><link href="https://ualberta-cmput301.github.io/labs/past_notes.html" rel="alternate"/><published>2024-01-06T00:00:00-07:00</published><updated>2024-01-06T00:00:00-07:00</updated><author><name>Samuel Iwuchukwu</name></author><id>tag:ualberta-cmput301.github.io,2024-01-06:/labs/past_notes.html</id><summary type="html">&lt;p&gt;Lab 4 Participation Exercise&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
