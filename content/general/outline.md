@@ -88,14 +88,25 @@ Copyright regulations, however, prohibit me from distributing complete copies of
 
 You may assume that any code examples we provide to you are public domain and free for you to take without attribution, unless they are licensed.
 
+**Course Material Access:**  
+[Course Material Access](https://www.ualberta.ca/en/registrar/costs-tuition-fees/other-fees/course-material-access.html) allows students to access their required course materials through Canvas for the duration of the term. A flat fee per term will appear in the student's Fee Assessment section in Bear Tracks. Digital formats are prioritized, but print materials are provided if digital formats are not available. **This is an automatic opt in program, but students can choose to opt out**, if they decide it is not for them. Some reasons may include:
+
+* the cost of all required course material is less than the program flat fee for the term  
+* print materials are preferred over digital formats  
+* access to course material is desired beyond a given term
+
+Students must choose to opt out by each term's [registration deadline (i.e., add/delete date](https://www.ualberta.ca/en/registrar/registration-and-courses/registration-dates-and-deadlines/index.html)). Students will automatically be opted out if none of their digital or printed course material has a cost associated with it. For more information on how to access your course materials on Canvas or how to opt out, visit the [Course Material Access](https://www.ualberta.ca/en/registrar/costs-tuition-fees/other-fees/course-material-access.html) website.
+
+
+
 **Recommended or Optional Learning Resources:**  
 See the resources page on the course webpage.
 
 **Course Schedule & Assigned Readings:**  
-See the online live schedule [here.](https://docs.google.com/spreadsheets/d/1awMqnl2uY4yssJabl7fHCgAR0qveVfrnyCARCdCFYno/edit?gid=0#gid=0) 
+See the online live schedule [here.](https://canvas.ualberta.ca/courses/36448/modules/items/4020614)
 
 **Other Course Fees:**  
-Students will be required to use the online service Firebase in order to complete the coursework and course project. The expected fees are $0, however, Firebase may assess fees if storage, bandwidth, user, or operation limits are exceeded. One member of the group will be required to supply payment information. It is the responsibility of the student to pay for any Firebase charges. If you are unable to pay these fees, you must contact your TA and instructor immediately. 
+Students will be required to use the online service Firebase in order to complete the coursework and course project. The expected fees are $0, however, Firebase may assess fees if storage, bandwidth, user, or operation limits are exceeded. One member of the group will be required to supply payment information. It is the responsibility of the student to pay for any Firebase charges. If you are unable to pay these fees, you must contact your TA and instructor immediately. You might need a credit card.
 
 **On-Line Homework Disclaimer:** 
 
@@ -113,8 +124,25 @@ Students will be required to use the online service Firebase in order to complet
 
 **REMOTE DELIVERY CONSIDERATIONS**
 
+To successfully participate in remote learning in this course, it is recommended that students have access to a computer with an internet connection that can support the tools and technologies the University uses to deliver content, engage with instructors, TAs, and fellow students, and facilitate assessments and examinations. If you encounter difficulty meeting the technology recommendations, please email the Office of Student Success and Experience ([sse@ualberta.ca](mailto:sse@ualberta.ca)) directly to explore options and support. Please contact the instructor by the [add/drop deadline](https://www.ualberta.ca/en/registrar/registration-and-courses/registration-dates-and-deadlines/index.html) if you do not have access to the minimum technology recommended. 
+
+**Student Resources for Remote Learning:**  
+Online learning may be new to you. Please refer to [Technology for Online Learning \- For Students](https://www.ualberta.ca/en/information-services-and-technology/services/software-hardware-vendors/technology-requirements.html) to ensure you have the appropriate technology for remote learning.
+
+
 **Hybrid Synchronous Delivery:**  
 There are online lecture components for sections A1/EA1, A2/EA2. Lectures are in person in section A3/EA3.
+
+**Recordings of Synchronous Activities:**
+
+There are no recordings. <!-- HAZEL -->
+
+<!-- Template Syllabus -->
+<!--
+* Please note that class times for this course will be recorded. Recordings of this course will be used for the purposes of \[ADD PURPOSES\] and will be disclosed to other students enrolled in this section of the class \[ADD OTHER PEOPLE IF APPLICABLE\].  
+* Students have the right to not participate in the recording and are advised to turn off their cameras and audio prior to the recording, but students can still participate in the text-based chat. It is recommended that students remove all identifiable and personal belongings from the space in which they will be participating.  
+* Recordings will be made available until \[ADD DATE\] and accessible by \[ADD RELEVANT INFORMATION\]. Please direct any questions about this collection to the instructor of the course.
+-->
 
 **Home-based Lab Activities:**  
 As part of the learning experience in this course, you will be required to undertake certain activities in or around your place of residence, To ensure that you undertake the activity safely and fully informed of the risks, please review the University of Alberta's [Remote Learning Lab-Based Assignment Information Advisory](https://www.ualberta.ca/en/finance-procurement-planning/media-library/insurance-risk-assessment/remote-learning-lab-based-assignment-information-advisory.pdf). If you have questions or concerns, contact your instructor.
@@ -125,40 +153,36 @@ As part of the learning experience in this course, you will be required to under
 
 | Assessment | Weight | Collaboration Policy | Date |
 | :---- | ----- | ----- | ----- |
-| Participation | 8% | Solo Effort | Most Lectures |
+| Participation | 8% | Consultation | Most Lectures |
 | Labs | 5% | Consultation | Fridays 5:00pm |
 | Assignment 0 | 1% | Consultation | \~ Week 3 - 2026-09-18 5pm  |
 | Project Part 0 | 1% | Teamwork | \~ Week 3 - 2026-09-18 5pm |
-| Assignment 1 | 8% | Consultation | \~ Week 5 - 2026-09-30 5pm|
-| Project Part 1 | 1% | Teamwork | \~ Week 5 - 2026-09-29 5pm |
+| Assignment 1 | 8% | Consultation | \~ Week 5 - 2026-10-02 5pm|
+| Project Part 1 | 1% | Teamwork | \~ Week 5 - 2026-10-02 5pm |
 | Project Part 2 | 5% | Teamwork | \~ Week 8 -  2026-10-20 5pm|
 | Project Part 3 | 10% | Teamwork | \~ Week 10 - 2026-11-06 5pm |
 | Project Part 4 | 16% | Teamwork | \~ Week 14 - 2026-11-30 5pm |
-| Midterms | 15% × 3 = 45% | Confidential | MT1: October 14; MT2: October 23; MT3: December 4 |
+| Midterms | 15% × 1 = 15% | Confidential | MT1: October 16 |
+| Final    | 30% × 1 = 30% | Confidential | Don't know |
+
+For courses with a Final Exam, students must verify the date of the Final Exam on Bear Tracks when the Final Exam Schedule is posted. 
+
 Grades are unofficial until approved by the Department and/or Faculty offering the course.
 
 **Midterm Dates**
 
 50 minute exams at:
 
-- Midterm 1 - Wednesday, October 14, 2026
+- Midterm 1 - Friday, October 16, 2026
   - A1/EA1: 10:00 AM
   - A2/EA2: 11:00 AM
   - A3/EA3: 12:00 PM (noon)
 
-- Midterm 2 - Friday, October 23, 2026
-  - A1/EA1: 10:00 AM
-  - A2/EA2: 11:00 AM
-  - A3/EA3: 12:00 PM (noon)
-
-- Midterm 3 - Friday, December 4, 2026
-    - A1/EA1: 10:00 AM
-    - A2/EA2: 11:00 AM
-    - A3/EA3: 12:00 PM (noon)
 
 **Re-examination:**   
 There is no possibility of a re-examination in this course.
 
+**Final Letter Grades**  
 **University of Alberta Grading Policy**  
 Grades reflect judgments of student achievement made by instructors and must correspond to the associated descriptor. These judgements are based on a combination of absolute achievement and relative performance in a class. Faculties may define acceptable grading practices in their disciplines. Such grading practices must align with the [University of Alberta Assessment and Grading Policy](https://www.ualberta.ca/en/alfresco/uappol/academic/assessment-and-grading/policy/assessment-and-grading-policy.pdf) and its procedures.
 
@@ -187,7 +211,13 @@ Past materials are located on the CMPUT 301 GitHub webpage:
 https://ualberta-cmput301.github.io/general/resources.html
 
 **Statement of Expectations for AI Use:**  
-You MUST not submit work by LLMs as your own, that is plagiarism. This also applies to other "AI" and Generative Models: ChatGPT, Claude, Lex, Page, DALL-E2, Google Gemini, Microsoft Bing/Copilot, and others. If you use LLMs you must cite it. This includes the corporation that made the AI, the AI, Subject, and Date. For example:
+
+**AI Use Generally Permitted**  
+You can use GenAI tools in this course, within the guidelines specified for each assessment. Follow all directions as provided. If you have any questions/concerns, please ask. AI is prone to fabrication (factual inaccuracies). Review outputs carefully and validate using trusted sources. You are responsible for any errors or omissions the AI tool provides that you fail to identify and resolve. All graded assignments must be accompanied by the [GenAI Use: Acknowledgement and Reflection form](https://docs.google.com/document/d/1mn8clIqxpAQrvnhdqP7kxFrlsWOwMFYvOCYzQHM8DcE/edit?tab=t.0), whether you have used AI or not.
+
+Important: AI use must be acknowledged transparently. See the U of A Library’s [How to Cite AI](https://guides.library.ualberta.ca/generative-ai/citation?_gl=1*1657vu7*_gcl_au*MTE2MDIyMDUyNC4xNzcwMzA1Mjg3*_ga*OTc2MzAzODA3LjE3NDU2OTExMjk.*_ga_21TWH2P5G7*czE3NzQ5MDA0MzUkbzQxJGcxJHQxNzc0OTAxNzg5JGoyMSRsMCRoMTY2ODg4Nzk5Mw..) for standard reference and citation expectations. Failure to acknowledge AI use may be considered cheating and a violation as outlined in the relevant sections of the University of Alberta [Student Academic Integrity Policy](https://www.ualberta.ca/en/alfresco/uappol/academic/student-academic-integrity/policy/student-academic-integrity-policy.pdf).
+
+While you may use AI, you MUST not submit work by LLMs as your own without acknowledgement, that is plagiarism. This also applies to other "AI" and Generative Models: ChatGPT, Claude, Lex, Page, DALL-E2, Google Gemini, Microsoft Bing/Copilot, and others. If you use LLMs you must cite it. This includes the corporation that made the AI, the AI, Subject, and Date. For example:
 
 ```
 // The following function is from Microsoft, Copilot, "How do I write a merge sort in JavaScript?", 2023-08-31
@@ -195,6 +225,7 @@ You MUST not submit work by LLMs as your own, that is plagiarism. This also appl
 function mergeSort(array) {
 ```
 
+Due to the changing nature of LLMs and agentic software engineering if you use it, you must specify you used it in your assignment or project README and estimate how comprehensively you used it. You're responsible for everything you submit.
 
 If you use LLMs you must cite it, but it's probably better to Google what it tells you and find a real citation because:
 
@@ -212,10 +243,33 @@ ChatGPT and similar services are recording everything you tell it, and tracking 
   2. This also makes ChatGPT's conclusion about relative limited range jumps and absolute jumps wrong. All jumps and branches in RISC-V are relative, short range jumps except jalr. RARS also (at least in every case I've seen) translates j to jal, not jalr, and jal is also a short-range, relative jump.  
   3. If b gets translated to beq x0, Y, label then what guarantees that the other register isn't also zero? The comparison with beq x0, Y cannot always be false, despite what ChatGPT claimed. This really doesn't make any sense. It would make more sense for it to be translated to bne x0, x0, label ... but that's the opposite instruction of what ChatGPT claimed.
 
-**Re-evaluation of Term Work:**  
-Re-Evaluation of Term Work follows the [Computing Science department course policies](https://www.ualberta.ca/computing-science/resources/policy-information/department-course-policies.html). Any questions or concerns about marks on a particular assignment must be brought to the attention of the instructor *(not a TA)* within 7 calendar days of its return date. After that, we will not consider remarking or re-evaluating the work. So do not expect anyone to re-evaluate all the work you did all term long in the hopes of getting a higher final grade.
 
-However, clerical errors such as incorrectly computing or recording a mark may be raised at any time prior to 2 business days following the final exam. It is the student's responsibility to confirm that their term work has been recorded properly.
+**AI Assisted Grading:**  
+This course uses AI-assisted tools—specifically Gemini—to support parts of the grading process. These tools assist in identifying patterns, enhancing consistency, and the efficiency of grading tasks. By streamlining these processes, more time can be dedicated to higher-value teaching activities, such as providing personalized feedback, developing learning materials, or directly supporting students, while also ensuring timely return of assessments. AI tools may be used to assist in grading assignments, projects, labs, and exercises. Regardless of the tool’s involvement, final responsibility for all grades rests with the instructor.   
+**Data Use and Privacy**  
+Student submissions may be processed through these tools to provide grading support. In alignment with the tools terms of use:
+
+* Your work is **not used to train public AI models**.  
+* Submitted data is typically retained temporarily to complete the grading task but is **not stored long-term**.  
+* No personally identifiable information is intentionally shared with the AI tool.
+
+Gemini has been reviewed through the University’s Privacy and Security Assessment process and is approved for use in AI-assisted grading. If you are concerned about how your data is handled, I encourage you to reach out to me with questions or review the tool’s privacy documentation ((Gemini)[https://www.ualberta.ca/en/information-services-and-technology/news/2026/expansion-of-gemini-tools.html]). The appeals process for grades remains unchanged and follows standard university procedures.  
+**Your Options**  
+If you are uncomfortable with your work being processed through AI-assisted tools, you may choose to opt out. To do so, please notify the instructors by email 2026-09-18. Your decision to opt out will be respected and will not negatively affect your standing in the course.   
+**Feedback Transparency**  
+Your feedback will always state if the submission was graded by AI with the following:
+
+* **AI-assisted grading \-** Provisional marks generated by the tool and confirmed by the Head TA or the instructor.  
+* **AI-assisted with human re-check \-** Initially processed by the tool but redirected for full human review due to a key performance indicator (KPI) trigger (e.g., low confidence, rubric mismatch, or disagreement between AI grading agents).  
+* **Manually graded \-** Assessed entirely by a human grader without AI involvement.
+
+**Appeals & Error Handling**  
+If you believe your grade reflects an oversight—by the AI tool or a human reviewer, please review the rubric and contact the instructors within one week for re-evaluation.
+
+
+
+
+
 
 ---
 
@@ -224,16 +278,19 @@ However, clerical errors such as incorrectly computing or recording a mark may b
 **Late Policies:**
 
 **Absence Form:**  
-This course uses a Google form to request excused absences for term work. This form needs to be filled out by students if they wish to request an excused absence for any deliverable. Emails to instructors or TAs **will not be accepted** as timely notification for an excused absence.
+This course uses a Google form to request excused absences for term work. This form needs to be filled out by students if they wish to request an excused absence for any deliverable. Emails to instructors or TAs **will not be accepted** as timely notification for an excused absence. (Abscence Form)[https://canvas.ualberta.ca/courses/36448/pages/absence-declaration-form?module_item_id=4017667]
+
 
 **Missed Term Work/Final Exam Due to Non-medical Protected Grounds (e.g., religious beliefs):**  
-When a term assessment or final exam presents a conflict based on [non-medical protected grounds](https://www.ualberta.ca/en/current-students/academic-success-centre/accessibility-resources/register/eligibility.html), students must apply to the Academic Success Centre for accommodations via their [Register for Accommodations](https://www.ualberta.ca/en/current-students/academic-success-centre/accessibility-resources/register/index.html) website. Students can review their eligibility and choose the application process specific for Accommodations Based on Non-medical Protected Grounds.
+When a term assessment or final exam presents a conflict based on [non-medical protected grounds](https://www.ualberta.ca/en/current-students/academic-success-centre/accessibility-resources/register/eligibility.html), students can register with the Academic Success Centre for accommodations via their [Register for Accommodations](https://www.ualberta.ca/en/current-students/academic-success-centre/accessibility-resources/register/index.html) website. Students can review their eligibility and choose the registration process specific for **Accommodations Based on Non-medical Protected Grounds**.
 
-It is imperative that students review the dates of all course assessments upon receipt of the course syllabus, and apply AS SOON AS POSSIBLE to ensure the timely application of the accommodation. Students who apply later in the term may experience unavoidable delays in the processing of the application, which can affect the accommodation.
+It is imperative that students review the dates of all course assessments upon receipt of the course syllabus, and register **AS SOON AS POSSIBLE** to ensure the timely application of the accommodation. Students who register later in the term may experience unavoidable delays in the processing of the application, which can affect the accommodation.
+
 
 **Missed Labs:**   
 Labs are due Friday at 5PM on the same week the lab was presented. Project meetings are due at the time of the meeting, and they are included in the lab mark. Failure to attend and actively participate in project meetings will result in a lab mark of zero.
 
+<!-- Hazel, do we leave this in? -->
 The 2 lowest marks for Labs (including project meetings) will be dropped when calculating the course mark. No late labs will be accepted. Failure to complete a lab (or to attend a project meeting) on time for any reason will result in a mark of zero. Please note that you can miss 2 labs (or project meetings) without penalty.
 
 **Missed Lecture Participation:**  
@@ -241,29 +298,54 @@ Participation exercises will be available at most lectures.
 
 The 6 lowest marks for lecture participation will be dropped when calculating the course mark. No late participation will be accepted. Failure to complete a participation exercise on time for any reason will result in a mark of zero. Please note that you can miss 6 lectures without penalty.
 
-**Missed Assignments, Project Parts, Quizzes, Midterm Exams:**  
-A student who cannot complete an assignment, project part, quiz, or midterm exam, due to incapacitating illness, severe domestic affliction or other compelling reasons must contact the instructor within two business days of missing the assessment, or as soon as possible, to request an excused absence using the absence form. If an excused absence is granted, then the deliverable weight will be split and shared over other deliverables in the same category. If a Midterm exam is missed, then its weight will be split and shared over the other Midterm exams. An excused absence is a privilege and not a right. There is no guarantee that an absence will be excused. Misrepresentation of facts to gain an excused absence is a serious breach of the Student Academic Integrity Policy. In all cases, instructors may request adequate documentation to substantiate the reason for the absence at their discretion.
+Submitting participation exercises is the responsibility of the student to do it in a timely manner.
 
+**Missed Assignments, Project Parts, Quizzes, Midterm Exams:**  
+A student who cannot complete an assignment, project part, quiz, or midterm exam, due to incapacitating illness, severe domestic affliction or other compelling reasons must contact the instructor within two business days of missing the assessment, or as soon as possible, to request an excused absence using the absence form. If an excused absence is granted, then the deliverable weight will be split and shared over other deliverables in the same category. If a Midterm exam is missed, then its weight will be split and shared over the Final exam. An excused absence is a privilege and not a right. There is no guarantee that an absence will be excused. 
+Misrepresentation of facts to gain an excused absence is a serious breach of the [Student Academic Integrity Policy](https://www.ualberta.ca/en/alfresco/uappol/academic/student-academic-integrity/policy/student-academic-integrity-policy.pdf). In all cases, instructors may request adequate documentation to substantiate the reason for the absence, at their discretion.
 
 Failure to complete an assignment or contribute to a project part without an excused absence will result in a raw score of zero or a proportional score reduction.
 
+**Re-evaluation of Term Work:**  
+Re-Evaluation of Term Work follows the [Computing Science department course policies](https://www.ualberta.ca/computing-science/resources/policy-information/department-course-policies.html). Any questions or concerns about marks on a particular assignment must be brought to the attention of the instructor *(not a TA)* within 7 calendar days of its return date. After that, we will not consider remarking or re-evaluating the work. So do not expect anyone to re-evaluate all the work you did all term long in the hopes of getting a higher final grade.
+
+However, clerical errors such as incorrectly computing or recording a mark may be raised at any time prior to 2 business days following the final exam. It is the student's responsibility to confirm that their term work has been recorded properly.
+
+
+<!-- old midterm 3 policy -->
+<!--
+
 **Additional information regarding missed Midterm Exams:**
 If Midterm 3 is missed, then it will be replaced by a deferred exam that will include an oral examination component. The time of this deferred + oral exam will be determined individually between student and instructor. 
+
+-->
+
+**Deferred Final Examination:**  
+A student who cannot write the final examination due to incapacitating illness, severe domestic affliction, or other compelling reasons can apply for a deferred final examination. Such an application must be made to the student's home Faculty Office within two working days of the missed exam and must be supported by appropriate documentation or a Statutory Declaration (see calendar on [Attendance](https://calendar.ualberta.ca/content.php?catoid=69&navoid=20927#attendance)). Deferred examinations are a privilege and not a right; there is no guarantee that a deferred examination will be granted. The Faculty may deny deferral requests in cases where less than 50% of term work has been completed. Misrepresentation of facts to gain a deferred examination is a serious breach of the [Student Academic Integrity Policy](https://www.ualberta.ca/en/alfresco/uappol/academic/student-academic-integrity/policy/student-academic-integrity-policy.pdf).  
+
+<!-- Hazel check --> 
+A deferred final exam may be an alternative exam
+that may oral examination component. Deferred exams will be scheduled
+to take place on 2027-02-01 between 10:00am Mountain Time and 5:00pm
+Mountain Time depending on the number of deferrals. Due to the oral
+nature of the deferred exam they cannot be held at the simulataneously
+All deferred final examinations for this course will normally be
+administered at this sitting.
 
 ---
 
 **STUDENT RESPONSIBILITIES**
 
 **Academic Integrity and Student Conduct:**   
-The University of Alberta is committed to the highest standards of academic integrity and honesty, as well as maintaining a learning environment that fosters the safety, security, and inherent dignity of each member of the community, ensuring students conduct themselves accordingly. Students are expected to be familiar with the standards of academic honesty and appropriate student conduct, and to uphold the policies of the University in this respect.
+The University of Alberta is committed to the highest standards of academic integrity and honesty. Students are expected to be familiar with these standards regarding academic honesty and to uphold the policies of the University in this respect. Students are particularly urged to familiarize themselves with the provisions of the [Student Academic Integrity Policy](https://www.ualberta.ca/en/alfresco/uappol/academic/student-academic-integrity/policy/student-academic-integrity-policy.pdf) (on the [University of Alberta Policies and Procedures Online (UAPPOL) website](https://www.ualberta.ca/en/policies-procedures/index.html#sort=relevancy)) and avoid any behaviour which could potentially result in suspicions of cheating, plagiarism, misrepresentation, and/or unauthorised collaboration. Academic dishonesty is a serious offence and can result in suspension or expulsion from the University.  
+   
+The University of Alberta is also committed to maintaining a learning environment that fosters the safety, security, and the inherent dignity of each member of the community, ensuring students conduct themselves accordingly by avoiding behaviour stipulated in the [Student Conduct Policy](https://www.ualberta.ca/en/alfresco/uappol/academic/student-conduct/policy/student-conduct-policy.pdf) (e.g., discrimination, harassment, physical assault).
 
-Students are particularly urged to familiarize themselves with the provisions of the [Student Academic Integrity Policy](https://www.ualberta.ca/en/alfresco/uappol/academic/student-academic-integrity/policy/student-academic-integrity-policy.pdf) and the [Student Conduct Policy](https://www.ualberta.ca/en/alfresco/uappol/academic/student-conduct/policy/student-conduct-policy.pdf), and avoid any behaviour that could potentially result in suspicions of academic misconduct (e.g., cheating, plagiarism, misrepresentation of facts, participation in an offence) and non-academic misconduct (e.g., discrimination, harassment, physical assault). Academic and non-academic misconduct are taken very seriously and can result in suspension or expulsion from the University.
+All students are expected to consult the [Academic Integrity website](https://www.ualberta.ca/current-students/academic-resources/academic-integrity) for clarification on the various academic offences. All forms of academic dishonesty are unacceptable at the University. Unfamiliarity of the rules, procrastination or personal pressures are not acceptable excuses for committing an offence. Listen to your instructor, be a good person, ask for help when you need it, and do your own work \-- this will lead you toward a path to success. Any academic integrity concern in this course will be reported to the College of Natural and Applied Sciences. Suspected cases of non-academic misconduct will be reported to the Office of Student Success and Experience (formerly the Office of the Dean of Students). The College, Faculty, and Dean of Students are committed to student rights and responsibilities, and adhere to due process and administrative fairness, as outlined in the [Student Academic Integrity Policy](https://www.ualberta.ca/en/alfresco/uappol/academic/student-academic-integrity/policy/student-academic-integrity-policy.pdf) and the [Student Conduct Policy](https://www.ualberta.ca/en/alfresco/uappol/academic/student-conduct/policy/student-conduct-policy.pdf). Please refer to the policies for details on inappropriate behaviours and possible sanctions.
 
-All students are expected to consult the [Student Academic Integrity Policy](https://www.ualberta.ca/en/alfresco/uappol/academic/student-academic-integrity/policy/student-academic-integrity-policy.pdf) for clarification on the various academic offences. All forms of academic dishonesty are unacceptable at the University. Unfamiliarity of the rules, procrastination or personal pressures are not acceptable excuses for committing an offence. Listen to your instructor, be a good person, ask for help when you need it, and do your own work \-- this will lead you toward a path to success. Any academic integrity concern in this course will be reported to the College of Natural and Applied Sciences.
+The College of Natural and Applied Sciences (CNAS) has created an [Academic Integrity for CNAS Students](https://sites.google.com/ualberta.ca/academicintegrity4cnasstudents/home) website. Website content includes the importance of academic integrity, examples of academic misconduct & possible sanctions, and the academic misconduct & appeal process. Students can also access this material as an [online, self-directed Canvas course](https://canvas.ualberta.ca/enroll/J88C84) and complete assessments to test their knowledge.
 
-Suspected cases of non-academic misconduct will be reported to the Office of Student Success and Experience. The College, the Faculty, and the Dean of Students are committed to student rights and responsibilities, and adhere to due process and administrative fairness, as outlined in the [Student Academic Integrity Policy](https://www.ualberta.ca/en/alfresco/uappol/academic/student-academic-integrity/policy/student-academic-integrity-policy.pdf) and the [Student Conduct Policy](https://www.ualberta.ca/en/alfresco/uappol/academic/student-conduct/policy/student-conduct-policy.pdf). Please refer to the policy websites for details on inappropriate behaviours and possible sanctions.
-
-The College of Natural and Applied Sciences (CNAS) has created an [Academic Integrity for CNAS Students](https://eclass.srv.ualberta.ca/course/view.php?id=88399) eClass site. Students can self enroll and review the various resources provided, including the importance of academic integrity, examples of academic misconduct and possible sanctions, and the academic misconduct and appeal process. They can also complete assessments to test their knowledge and earn a completion certificate.
+The Office of Student Conduct and Accountability has also made the following Canvas course available for all students: [Academic Citizenship: Integrity and Belonging in the Learning Community](https://canvas.ualberta.ca/enroll/RPCF4G).
 
 *"Integrity is doing the right thing, even when no one is watching"* \-- C.S. Lewis
 
@@ -282,23 +364,7 @@ Examples include:
 
 Contract cheating companies thrive on making students believe that they cannot succeed without their help; they attempt to convince students that cheating is the only way to succeed.
 
-Uploading the instructor's teaching materials (e.g., course outlines, lecture slides, assignment, or exam questions, etc.) to tutorial, study, or note-sharing websites or public servers is a copyright infringement and constitutes the misuse of University academic materials or other assets. Receiving assignment solutions or answers to exam questions from an unauthorized source puts you at risk of receiving inaccurate information.
-
-Receiving assignment solutions or answers to exam questions from an unauthorized source puts you at risk of receiving inaccurate information.
-
-**Additional Examples of Contract Cheating:**
-
-| Logging in as someone else Sharing your login credentials Sharing your anonymous ID Using someone else's anonymous ID Allowing someone else to log in as you Representing yourself as someone else Having someone else represent themselves as you | On other UAlberta services and linked services: Zoom gmail Google Chat, Drive, ... Lab computers Wi-Fi ... On an external service, website, or app: repository hosting services: GitHub, GitHub Classroom, Bitbucket, GitLab, ... live quiz services: Mentimeter, ... Textbook websites/apps KnowledgeTree/MasteryGrids online tutorials online practice systems online homework systems |  |
-| :---- | :---- | :---- |
-
-* Misrepresenting authorship to a version control system such as git:  
-  * Forging git commit metadata (author, time, etc.)  
-  * Creating git commits where the author recorded did not create the changes being committed.  
-  * ...  
-* Submitting participation exercises for someone else.  
-* Representing yourself as someone else, or having someone else represent themselves as you to an instructor, TA, or other UA employee.  
-  * Attending a lecture/lab/seminar for someone else.  
-  * Having someone else attend a lecture/lab/seminar for you.
+Uploading the instructor's teaching materials (e.g., course outlines, lecture slides, assignment, or exam questions, etc.) to tutorial, study or note-sharing websites, public servers, or chat apps is a copyright infringement and constitutes the misuse of University academic materials or other assets. Receiving assignment solutions or answers to exam questions from an unauthorized source puts you at risk of receiving inaccurate information.
 
 **Appropriate Collaboration:**  
 Students need to be able to recognize when they have crossed the line between appropriate collaboration and inappropriate collaboration. If students are unsure, they need to ask instructors to clarify what is allowed and what is not allowed.
@@ -311,6 +377,8 @@ Here are some tips to avoid copying on assessments:
 4. If you find yourself reading another student's solution, do not write anything down. Once you understand how to solve the problem, remove the other person's work from your sight and then write up the solution to the question yourself. Looking back and forth between someone else's paper and your own paper is almost certainly copying and considered inappropriate collaboration.  
 5. If the instructor or TA writes down part of a solution in order to help explain it to you or the class, you cannot copy it and hand it in for credit. Treat it the same way you would treat another student's work with respect to copying, that is, remove the explanation from your sight and then write up the solution yourself.  
 6. There is often more than one way to solve a problem. Choose the method that makes the most sense to you rather than the method that other students happen to use. If none of the ideas in your solution are your own, there is a good chance it will be flagged as copying.
+
+
 
 For programming assignments, powerful software tools are used to detect plagiarism. When the software tools indicate that there is similarity between two submissions, the submissions are reviewed by the instructor or teaching assistant. If the possibility that the standards for academic honesty were violated is confirmed, an investigation is started. Eventually the submitted solutions may be forwarded to the Faculty of Science Associate Dean of Students for further investigation and eventual sanctions.
 
@@ -348,6 +416,8 @@ Stackoverflow recommends you cite the author, the license, the title of the ques
    License: CC-BY-SA 4.0 (International)
 */
 ```
+
+It's better to document AI use than get questioned if you used it.
 
 **Collaboration policy definitions:**  
 The following are definitions for the different collaboration policies used in this course
@@ -445,7 +515,7 @@ In this course, Intellectual Violence is considered bullying. Intellectual viole
 Instances of Intellectual Violence may result in reduced marks and/or be referred to the Dean of Students under the Student Conduct Policy.
 
 **Exam Conduct:**   
-Please refer to the [Examinations](https://calendar.ualberta.ca/content.php?catoid=56&navoid=18647#examinations-exams) section of the Academic Calendar for more details on Conduct of Exams. 
+Please refer to the [Examinations](https://calendar.ualberta.ca/content.php?catoid=69&navoid=20927#examinations-exams) section of the Academic Calendar for more details on Conduct of Exams. 
 
 Some key points to be aware of:
 
@@ -454,12 +524,15 @@ Some key points to be aware of:
 * All cell phones must be turned off and stored in your bags.
 
 **Accommodations for Students:**  
-In accordance with the University of Alberta’s [Discrimination, Harassment, and Duty to Accommodate policy](https://www.ualberta.ca/en/alfresco/uappol/humanresources/discrimination-harassment-and-duty-to-accommodate/policy/discrimination-harassment-and-duty-to-accommodate-policy.pdf), accommodation support is available to eligible students who encounter limitations or restrictions to their ability to perform the daily activities necessary to pursue studies at a post-secondary level due to medical conditions and/or non-medical protected grounds. Accommodations are coordinated through the [Academic Success Centre](https://www.ualberta.ca/current-students/academic-success-centre/index.html), and students can learn more about eligibility on the [Register for Accommodations website](https://www.ualberta.ca/en/current-students/academic-success-centre/accessibility-resources/register/index.html). 
+In accordance with the University of Alberta’s [Accommodation Policy](https://www.ualberta.ca/en/alfresco/uappol/humanresources/accommodation/policy/accommodation-policy.pdf) and [Discrimination and Harassment Policy](https://www.ualberta.ca/en/alfresco/uappol/humanresources/discrimination-and-harassment/policy/discrimination-and-harassment-policy.pdf), accommodation support is available to eligible students who encounter limitations or restrictions to their ability to perform the daily activities necessary to pursue studies at a post-secondary level due to medical conditions and/or non-medical protected grounds. Accommodations are coordinated through the [Academic Success Centre](https://www.ualberta.ca/current-students/academic-success-centre/index.html), and students can learn more about eligibility on the [Register for Accommodations website](https://www.ualberta.ca/en/current-students/academic-success-centre/accessibility-resources/register/index.html). 
 
-It is recommended that students apply ***AS SOON AS POSSIBLE*** in order to ensure sufficient time to complete accommodation registration and coordination. Students are advised to review and adhere to published deadlines for accommodation approval and for specific accommodation requests (e.g., exam registration submission deadlines). Students who request accommodations less than a month in advance of the academic term for which they require accommodations may experience unavoidable delays or consequences in their academic programs, and may need to consider alternative academic schedules.
+It is recommended that students register ***AS SOON AS POSSIBLE*** in order to ensure sufficient time to complete accommodation registration and coordination. Students are advised to review and adhere to published deadlines for accommodation approval and for specific accommodation requests (e.g., exam registration submission deadlines). Students who request accommodations less than a month in advance of the academic term for which they require accommodations may experience unavoidable delays or consequences in their academic programs, and may need to consider alternative academic schedules.
 
 **Recording and/or Distribution of Course Materials:**  
 Audio or video recording, digital or otherwise, of lectures, labs, seminars or any other teaching environment by students is allowed only with the prior written consent of the instructor or as a part of an approved accommodation plan. Student or instructor content, digital or otherwise, created and/or used within the context of the course is to be used solely for personal study, and is not to be used or distributed for any other purpose without prior written consent from the content authors.  
+
+
+
 ---
 
 **STUDENT SUPPORTS**
@@ -467,8 +540,14 @@ Audio or video recording, digital or otherwise, of lectures, labs, seminars or a
 **Faculty of Science Student Services:**  
 ​The [Faculty of Science Student Services](https://www.ualberta.ca/en/science/student-services/index.html) office is located on the main floor of the Centennial Centre for Interdisciplinary Sciences (CCIS). This office can assist with the planning of [Your Academics](https://www.ualberta.ca/en/science/student-services/your_academics/index.html), and provide information related to [Student Life & Engagement](https://www.ualberta.ca/en/science/student-services/student-life-engagement/index.html), [Internship and Careers](https://www.ualberta.ca/en/science/student-services/internship-careers/index.html), and [Study Abroad](https://www.ualberta.ca/en/science/student-services/study-abroad/index.html) opportunities. Please visit [Advising](https://www.ualberta.ca/en/science/student-services/your-academics/advising.html) for more information about what Faculty Academic Advisors can assist you with.
 
+**Student Services Directory:**  
+The [Student Services Directory](https://www.ualberta.ca/en/services/student-service-directory/index.html) helps U of A students find and access support quickly and effectively, bringing together a catalogue of student services from across the university in one convenient location.
+
 **Academic Success Centre:**  
 The [Academic Success Centre](https://www.ualberta.ca/en/current-students/academic-success-centre/index.html) provides professional academic support to help students strengthen their academic skills and achieve their academic goals. Individual advising, appointments, and group workshops are available year round in the areas of Accessibility, Communication, Learning, and Writing Resources. Modest fees may apply for some services.
+
+**Writing and Learning Centre:**   
+Get support when and where you need it. The centre, located in 2-10 Cameron Library, offers both in-person and virtual supports for undergraduate and graduate students. Strengthen your academic skills by attending a workshop or booking a one-on-one appointment. Their [website](https://uab.ca/wl) provides more information about drop-in appointments, writing groups, Canvas modules and special programming to find what works best for you. Workshops and appointments are free for current U of A students.
 
 **Feeling Stressed, Anxious, or Upset?**  
 It's normal for us to have different mental health experiences throughout the year. Know that there are people who want to help. You can reach out to your friends and access a variety of supports available on and off campus at the [Need Help Now](https://www.ualberta.ca/current-students/need-help-now.html) webpage or by calling the 24-hour Distress Line: 780-482-4357 (HELP).   
@@ -479,16 +558,17 @@ The Faculty of Science is committed to ensuring that all students, faculty and s
 
 If you are experiencing harassment, discrimination, fraud, theft or any other issue and would like to get confidential advice, please contact any of these campus services:
 
-* [Office of Safe Disclosure & Human Rights](https://www.ualberta.ca/provost/portfolio/office-of-safe-disclosure-human-rights/index.html)*: A safe, neutral and confidential space to disclose concerns about how the University of Alberta policies, procedures or ethical standards are being applied. They provide strategic advice and referral on matters such as discrimination, harassment, duty to accommodate and wrong-doings. Disclosures can be made in person or online using the [Online Reporting Tool](https://ualberta-gme-advocate.symplicity.com/titleix_report/index.php)*.  
-* [University of Alberta Protective Services](https://www.ualberta.ca/protective-services): *Peace officers dedicated to ensuring the safety and security of U of A campuses and community. Staff or students can contact UAPS to make a report if they feel unsafe, threatened, or targeted on campus or by another member of the university community.*  
-* [Office of the Student Ombuds](https://www.ualberta.ca/current-students/ombuds/index.html)*: A confidential and free service that strives to ensure that university processes related to students operate as fairly as possible. They offer information, advice, and support to students, faculty, and staff as they deal with academic, discipline, interpersonal, and financial issues related to student programs.*  
-* [Office of Student Success and Experience](https://www.ualberta.ca/dean-of-students/index.html)*: They can assist students in navigating services to ensure they receive appropriate and timely resources. For students who are unsure of the support they may need, are concerned about how to access services on campus, or feel like they may need interim support while they wait to access a service, this office is there to help.*
+* [Office of Safe Disclosure & Human Rights](https://www.ualberta.ca/provost/portfolio/office-of-safe-disclosure-human-rights/index.html): A safe, neutral and confidential space to disclose concerns about how the University of Alberta policies, procedures or ethical standards are being applied. They provide strategic advice and referral on matters such as discrimination, harassment, duty to accommodate and wrong-doings. Disclosures can be made in person or online using the [Online Reporting Tool](https://ualberta-gme-advocate.symplicity.com/titleix_report/index.php).  
+* [University of Alberta Protective Services](https://www.ualberta.ca/protective-services): Peace officers dedicated to ensuring the safety and security of U of A campuses and community. Staff or students can contact UAPS to make a report if they feel unsafe, threatened, or targeted on campus or by another member of the university community.  
+* [Office of the Student Ombuds](https://www.ualberta.ca/current-students/ombuds/index.html): A confidential and free service that strives to ensure that university processes related to students operate as fairly as possible. They offer information, advice, and support to students, faculty, and staff as they deal with academic, discipline, interpersonal, and financial issues related to student programs.  
+* [Office of Student Success and Experience](https://www.ualberta.ca/dean-of-students/index.html): They can assist students in navigating services to ensure they receive appropriate and timely resources. For students who are unsure of the support they may need, are concerned about how to access services on campus, or feel like they may need interim support while they wait to access a service, this office is there to help.
 
 **Course Outlines:**  
-Policy about course outlines can be found in the [Academic Regulations, Evaluation Procedures and Grading section](https://calendar.ualberta.ca/content.php?catoid=56&navoid=18647#evaluation-procedures-and-grading-system) of the University Calendar.
+Policy about course outlines can be found in the [Academic Regulations](https://calendar.ualberta.ca/content.php?catoid=69&navoid=20927#changes-in-regulations), [Evaluation Procedures and Grading](https://calendar.ualberta.ca/content.php?catoid=69&navoid=20927#evaluation-procedures-and-grading-system) section of the University Calendar.
 
 **Disclaimer:**   
 Any typographical errors in this syllabus are subject to change and will be announced in class and/or posted on the course website. The date of final examinations is set by the Registrar and takes precedence over the final examination date reported in the syllabus.
+
 
 **Copyright**:
 * Dr. Abram Hindle and Dr. Hazel Victoria Campbell, Department of Computing Science, Faculty of Science, University of Alberta (2026).
