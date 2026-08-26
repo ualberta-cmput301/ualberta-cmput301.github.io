@@ -514,11 +514,25 @@ Instances of Intellectual Violence may result in reduced marks and/or be referre
 **Exam Conduct:**   
 Please refer to the [Examinations](https://calendar.ualberta.ca/content.php?catoid=69&navoid=20927#examinations-exams) section of the Academic Calendar for more details on Conduct of Exams. 
 
-Some key points to be aware of:
+Some key points to be aware of for the final Exam:
 
 * Your student photo ID is required at exams to verify your identity.  
 * Students must arrive at the specified time to take the exam. Once the exam has started, students must remain in the physical in-person or remote environment for at least 30 minutes. Students who arrive more than 30 minutes late for an in-person exam will not be permitted to take the exam. Students who arrive more than 30 minutes late for an online exam may have their exam attempt removed or disqualified by the instructor. In both cases, students may apply for a deferred examination.  
 * All cell phones must be turned off and stored in your bags.
+
+<!-- HAZEL -->
+
+Some key points to be aware of for the midterm:
+
+* Your student photo ID is required at midterms to verify your identity.  
+* Students must arrive at the specified time to take the midterm. Once the midterm has started, students must remain in the physical in-person or remote environment for at least 30 minutes. Students who arrive more than 10 minutes late for an in-person midterm will not be permitted to take the midterm. Students may apply for a excused abscence.
+* All cell phones must be turned off and stored in your bags. Cell phones may not be on your person (pockets).
+* No headphones or ear buds allowed without express permission.
+* The exam will take 50 minutes. 10 minutes setup, 30 minutes midterm writing, 10 minutes of collection. 
+
+
+
+
 
 **Accommodations for Students:**  
 In accordance with the University of Alberta’s [Accommodation Policy](https://www.ualberta.ca/en/alfresco/uappol/humanresources/accommodation/policy/accommodation-policy.pdf) and [Discrimination and Harassment Policy](https://www.ualberta.ca/en/alfresco/uappol/humanresources/discrimination-and-harassment/policy/discrimination-and-harassment-policy.pdf), accommodation support is available to eligible students who encounter limitations or restrictions to their ability to perform the daily activities necessary to pursue studies at a post-secondary level due to medical conditions and/or non-medical protected grounds. Accommodations are coordinated through the [Academic Success Centre](https://www.ualberta.ca/current-students/academic-success-centre/index.html), and students can learn more about eligibility on the [Register for Accommodations website](https://www.ualberta.ca/en/current-students/academic-success-centre/accessibility-resources/register/index.html). 
