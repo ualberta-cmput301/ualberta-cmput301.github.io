@@ -17,6 +17,8 @@
   const DEFAULT_QR_LIBRARY_INTEGRITY =
     "sha384-3zSEDfvllQohrq0PHL1fOXJuC/jSOO34H46t6UQfobFOmxE5BpjjaIJY5F2/bMnU";
   const STUDENT_NUMBER_PATTERN = /^\d{7}$/;
+  const STUDENT_NUMBER_COOKIE_NAME = "cmput301_student_number";
+  const STUDENT_NUMBER_COOKIE_MAX_AGE_SECONDS = 60 * 60 * 24 * 365;
   const MAX_AUTH_CODE_LENGTH = 512;
   const MAX_EXERCISE_ID_LENGTH = 128;
   const GENERATION_ERROR_MARKER = "$error$";
@@ -37,6 +39,67 @@
   function setStatus(statusElement, message, state) {
     statusElement.textContent = message;
     statusElement.dataset.state = state;
+  }
+
+  function cookieValue(cookieHeader, name) {
+    const encodedName = `${encodeURIComponent(name)}=`;
+    for (const part of String(cookieHeader || "").split(";")) {
+      const candidate = part.trim();
+      if (!candidate.startsWith(encodedName)) {
+        continue;
+      }
+      try {
+        return decodeURIComponent(candidate.slice(encodedName.length));
+      } catch (_error) {
+        return "";
+      }
+    }
+    return "";
+  }
+
+  function studentNumberCookieHeader(studentNumber, maxAge, secure) {
+    const attributes = [
+      `${encodeURIComponent(STUDENT_NUMBER_COOKIE_NAME)}=${encodeURIComponent(studentNumber)}`,
+      "Path=/",
+      `Max-Age=${maxAge}`,
+      "SameSite=Lax",
+    ];
+    if (secure) {
+      attributes.push("Secure");
+    }
+    return attributes.join("; ");
+  }
+
+  function readStudentNumberCookie(cookieDocument = document) {
+    try {
+      const studentNumber = cookieValue(
+        cookieDocument.cookie,
+        STUDENT_NUMBER_COOKIE_NAME,
+      );
+      return STUDENT_NUMBER_PATTERN.test(studentNumber) ? studentNumber : "";
+    } catch (_error) {
+      return "";
+    }
+  }
+
+  function saveStudentNumberCookie(
+    studentNumber,
+    cookieDocument = document,
+    secure = window.location.protocol === "https:",
+  ) {
+    if (!STUDENT_NUMBER_PATTERN.test(studentNumber)) {
+      return false;
+    }
+    try {
+      cookieDocument.cookie = studentNumberCookieHeader(
+        studentNumber,
+        STUDENT_NUMBER_COOKIE_MAX_AGE_SECONDS,
+        secure,
+      );
+      return readStudentNumberCookie(cookieDocument) === studentNumber;
+    } catch (_error) {
+      return false;
+    }
   }
 
   function positiveInteger(value, name) {
@@ -509,6 +572,10 @@
     const exerciseUrl = root.dataset.exerciseUrl;
     const authUrl = root.dataset.authUrl || DEFAULT_AUTH_URL;
 
+    const storedStudentNumber = readStudentNumberCookie();
+    if (!studentNumberInput.value && storedStudentNumber) {
+      studentNumberInput.value = storedStudentNumber;
+    }
     if (!exerciseId || !exerciseUrl) {
       setStatus(
         status,
@@ -527,6 +594,8 @@
         studentNumberInput.focus();
         return;
       }
+
+      saveStudentNumberCookie(studentNumber);
 
       generateButton.disabled = true;
       generateButton.setAttribute("aria-busy", "true");
@@ -594,11 +663,15 @@
 
   window.CMPUT301HybridExercise = Object.freeze({
     GENERATION_ERROR_MARKER,
+    STUDENT_NUMBER_COOKIE_MAX_AGE_SECONDS,
+    STUDENT_NUMBER_COOKIE_NAME,
     buildHybridPayload,
     downloadFilename,
     initialize,
     initializeAll,
+    readStudentNumberCookie,
     resolveAuthCode,
+    saveStudentNumberCookie,
   });
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", initializeAll, { once: true });

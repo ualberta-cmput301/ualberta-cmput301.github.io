@@ -7,3 +7,116 @@ html {
     color: black;
     background-color: white;
 }
+
+.hybrid-exercise {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 1.25rem 0;
+    padding: 1rem;
+    border: 1px solid rgb(39, 93, 56);
+    background: rgba(255, 255, 255, 0.94);
+    word-spacing: normal;
+    line-height: 1.35;
+}
+
+.hybrid-exercise [hidden] {
+    display: none !important;
+}
+
+.hybrid-exercise [data-role="form"] {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.65rem;
+}
+
+.hybrid-exercise [data-role="form"] label {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    font-weight: 700;
+}
+
+.hybrid-exercise [data-role="student-number"],
+.hybrid-exercise [data-role="generate"],
+.hybrid-exercise [data-role="download"] {
+    box-sizing: border-box;
+    min-height: 2.5rem;
+    padding: 0.45rem 0.75rem;
+    border: 2px solid rgb(39, 93, 56);
+    border-radius: 0.2rem;
+    font: inherit;
+}
+
+.hybrid-exercise [data-role="student-number"] {
+    width: 10rem;
+    background: #fff;
+}
+
+.hybrid-exercise [data-role="generate"],
+.hybrid-exercise [data-role="download"] {
+    color: #fff;
+    background: rgb(39, 93, 56);
+    cursor: pointer;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.hybrid-exercise [data-role="download"] {
+    display: inline-flex;
+    align-items: center;
+}
+
+.hybrid-exercise [data-role="generate"]:disabled {
+    cursor: not-allowed;
+    opacity: 0.65;
+}
+
+.hybrid-exercise [data-role="status"] {
+    min-height: 1.5rem;
+    margin: 1rem 0;
+}
+
+.hybrid-exercise [data-role="status"][data-state="warning"],
+.hybrid-exercise [data-role="status"][data-state="error"] {
+    padding: 0.65rem 0.8rem;
+    border-width: 0.3rem;
+    border-style: dashed;
+    background: #fff;
+    font-weight: 700;
+}
+
+.hybrid-exercise [data-role="status"][data-state="warning"] {
+    border-color: #b8860b;
+}
+
+.hybrid-exercise [data-role="status"][data-state="error"] {
+    border-color: #a40000;
+}
+
+.hybrid-exercise [data-role="status"][data-state="success"] {
+    color: rgb(28, 105, 50);
+    font-weight: 700;
+}
+
+.hybrid-exercise [data-role="preview"] {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    border: 1px solid #777;
+    background: #fff;
+}
+
+@media (max-width: 36rem) {
+    .hybrid-exercise [data-role="form"],
+    .hybrid-exercise [data-role="form"] label {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .hybrid-exercise [data-role="student-number"] {
+        width: 100%;
+    }
+}

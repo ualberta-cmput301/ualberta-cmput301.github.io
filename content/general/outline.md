@@ -36,7 +36,8 @@ LEC A2/EA2 \- VVC 2-215 (MWF 11:00am \- 11:50am)
 
 **Office Hours: Immediately after class and by appointment** 
 
-**Lecture Room & Time:** LEC A3/EA3 \- ETLC E1-017 (MWF 12:00pm \- 12:50pm)  
+**Lecture Room & Time:**  
+LEC A3/EA3 \- ETLC E1-017 (MWF 12:00pm \- 12:50pm)  
 
 **Teaching Assistant(s):** Available on the course webpage  
 
@@ -44,7 +45,7 @@ LEC A2/EA2 \- VVC 2-215 (MWF 11:00am \- 11:50am)
 
 ---
 
-## 
+ 
 
 ## **TERRITORIAL ACKNOWLEDGEMENT**
 
@@ -114,7 +115,7 @@ Students will be required to use the online service Firebase in order to complet
 **REMOTE DELIVERY CONSIDERATIONS**
 
 **Hybrid Synchronous Delivery:**  
-There are online lecture components for sections A1/EA1, A2/EA2. Lectures are in person in section A3/EA3.
+There are online lecture components for sections A1/EA1, A2/EA2. Lectures are in-person in section A3/EA3.
 
 **Home-based Lab Activities:**  
 As part of the learning experience in this course, you will be required to undertake certain activities in or around your place of residence, To ensure that you undertake the activity safely and fully informed of the risks, please review the University of Alberta's [Remote Learning Lab-Based Assignment Information Advisory](https://www.ualberta.ca/en/finance-procurement-planning/media-library/insurance-risk-assessment/remote-learning-lab-based-assignment-information-advisory.pdf). If you have questions or concerns, contact your instructor.
@@ -134,7 +135,8 @@ As part of the learning experience in this course, you will be required to under
 | Project Part 2 | 5% | Teamwork | \~ Week 8 -  2026-10-20 5pm|
 | Project Part 3 | 10% | Teamwork | \~ Week 10 - 2026-11-06 5pm |
 | Project Part 4 | 16% | Teamwork | \~ Week 14 - 2026-11-30 5pm |
-| Midterms | 15% × 3 = 45% | Confidential | MT1: October 14; MT2: October 23; MT3: December 4 |
+| Midterms | 15% × 3 = 45% | Confidential | MT1: October 14; MT2: October 23; MT3: December 4 |  
+
 Grades are unofficial until approved by the Department and/or Faculty offering the course.
 
 **Midterm Dates**
@@ -142,14 +144,14 @@ Grades are unofficial until approved by the Department and/or Faculty offering t
 50 minute exams at:
 
 - Midterm 1 - Wednesday, October 14, 2026
-  - A1/EA1: 10:00 AM
-  - A2/EA2: 11:00 AM
-  - A3/EA3: 12:00 PM (noon)
+    - A1/EA1: 10:00 AM
+    - A2/EA2: 11:00 AM
+    - A3/EA3: 12:00 PM (noon)
 
 - Midterm 2 - Friday, October 23, 2026
-  - A1/EA1: 10:00 AM
-  - A2/EA2: 11:00 AM
-  - A3/EA3: 12:00 PM (noon)
+    - A1/EA1: 10:00 AM
+    - A2/EA2: 11:00 AM
+    - A3/EA3: 12:00 PM (noon)
 
 - Midterm 3 - Friday, December 4, 2026
     - A1/EA1: 10:00 AM
