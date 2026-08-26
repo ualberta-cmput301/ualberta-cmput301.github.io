@@ -112,13 +112,13 @@ Students will be required to use the online service Firebase in order to complet
 
 * Online homework is a component of this course and is provided by a third-party company. Please be aware that this company will be storing assessment information that may be associated with you. As a way to protect your personal information, you may be assigned a random ID to enter into the system. Only the random ID, performance on the online homework, and the affiliation to the University of Alberta for this random ID will be conveyed to the company. You are not required to provide any additional personal information to this company. If you have concerns about this, please contact the instructor of the course.
 
+Additional learning resources aimed at facilitating student learning, and perhaps including formative assessment tools, are available from the textbook publisher and may be accessed for a fee paid by the student to the third-party provider (e.g., textbook company). Students choosing to access and use the online resources should note the following:
+
 * Firebase (Google) \- See "Course Fees" above.
+* Registration in the system and any monetary transactions are of their own accord and not the responsibility of the University of Alberta.  
+* Students should be mindful of protecting personal information and aware of how their personal information might be used and/or shared.  
+* Students can consider using a non-identifying email address or account for these purposes.
 
-* Registration in the system and any monetary transactions are of your own accord and not the responsibility of the University.
-
-* Students should be mindful of protecting their personal information and should be aware of how their personal information might be used and/or shared.
-
-* Students MUST NOT use their @ualberta email address or CCID to register into the system and instead should use a non-identifying email address or account.
 
 ---
 
@@ -253,7 +253,7 @@ Student submissions may be processed through these tools to provide grading supp
 * Submitted data is typically retained temporarily to complete the grading task but is **not stored long-term**.  
 * No personally identifiable information is intentionally shared with the AI tool.
 
-Gemini has been reviewed through the University’s Privacy and Security Assessment process and is approved for use in AI-assisted grading. If you are concerned about how your data is handled, I encourage you to reach out to me with questions or review the tool’s privacy documentation ((Gemini)[https://www.ualberta.ca/en/information-services-and-technology/news/2026/expansion-of-gemini-tools.html]). The appeals process for grades remains unchanged and follows standard university procedures.  
+Gemini has been reviewed through the University’s Privacy and Security Assessment process and is approved for use in AI-assisted grading. If you are concerned about how your data is handled, I encourage you to reach out to me with questions or review the tool’s privacy documentation ([Gemini](https://www.ualberta.ca/en/information-services-and-technology/news/2026/expansion-of-gemini-tools.html)). The appeals process for grades remains unchanged and follows standard university procedures.  
 **Your Options**  
 If you are uncomfortable with your work being processed through AI-assisted tools, you may choose to opt out. To do so, please notify the instructors by email 2026-09-18. Your decision to opt out will be respected and will not negatively affect your standing in the course.   
 **Feedback Transparency**  
@@ -276,6 +276,8 @@ If you believe your grade reflects an oversight—by the AI tool or a human revi
 **POLICIES FOR LATE AND MISSED WORK**
 
 **Late Policies:**
+
+No late work is accepted. This include midterms and final exams. No resubmissions. Late work will not be marked.
 
 **Absence Form:**  
 This course uses a Google form to request excused absences for term work. This form needs to be filled out by students if they wish to request an excused absence for any deliverable. Emails to instructors or TAs **will not be accepted** as timely notification for an excused absence. (Abscence Form)[https://canvas.ualberta.ca/courses/36448/pages/absence-declaration-form?module_item_id=4017667]
@@ -301,7 +303,7 @@ The 6 lowest marks for lecture participation will be dropped when calculating th
 Submitting participation exercises is the responsibility of the student to do it in a timely manner.
 
 **Missed Assignments, Project Parts, Quizzes, Midterm Exams:**  
-A student who cannot complete an assignment, project part, quiz, or midterm exam, due to incapacitating illness, severe domestic affliction or other compelling reasons must contact the instructor within two business days of missing the assessment, or as soon as possible, to request an excused absence using the absence form. If an excused absence is granted, then the deliverable weight will be split and shared over other deliverables in the same category. If a Midterm exam is missed, then its weight will be split and shared over the Final exam. An excused absence is a privilege and not a right. There is no guarantee that an absence will be excused. 
+A student who cannot complete an assignment, project part, quiz, or midterm exam, due to incapacitating illness, severe domestic affliction or other compelling reasons must contact the instructor within two working days of missing the assessment, or as soon as possible, to request an excused absence using the absence form. If an excused absence is granted, then the deliverable weight will be split and shared over other deliverables in the same category. If a Midterm exam is missed, then its weight will be split and shared over the Final exam. An excused absence is a privilege and not a right. There is no guarantee that an absence will be excused. 
 Misrepresentation of facts to gain an excused absence is a serious breach of the [Student Academic Integrity Policy](https://www.ualberta.ca/en/alfresco/uappol/academic/student-academic-integrity/policy/student-academic-integrity-policy.pdf). In all cases, instructors may request adequate documentation to substantiate the reason for the absence, at their discretion.
 
 Failure to complete an assignment or contribute to a project part without an excused absence will result in a raw score of zero or a proportional score reduction.
@@ -309,7 +311,7 @@ Failure to complete an assignment or contribute to a project part without an exc
 **Re-evaluation of Term Work:**  
 Re-Evaluation of Term Work follows the [Computing Science department course policies](https://www.ualberta.ca/computing-science/resources/policy-information/department-course-policies.html). Any questions or concerns about marks on a particular assignment must be brought to the attention of the instructor *(not a TA)* within 7 calendar days of its return date. After that, we will not consider remarking or re-evaluating the work. So do not expect anyone to re-evaluate all the work you did all term long in the hopes of getting a higher final grade.
 
-However, clerical errors such as incorrectly computing or recording a mark may be raised at any time prior to 2 business days following the final exam. It is the student's responsibility to confirm that their term work has been recorded properly.
+However, clerical errors such as incorrectly computing or recording a mark may be raised at any time prior to 2 working days following the final exam. It is the student's responsibility to confirm that their term work has been recorded properly.
 
 
 <!-- old midterm 3 policy -->
@@ -324,13 +326,8 @@ If Midterm 3 is missed, then it will be replaced by a deferred exam that will in
 A student who cannot write the final examination due to incapacitating illness, severe domestic affliction, or other compelling reasons can apply for a deferred final examination. Such an application must be made to the student's home Faculty Office within two working days of the missed exam and must be supported by appropriate documentation or a Statutory Declaration (see calendar on [Attendance](https://calendar.ualberta.ca/content.php?catoid=69&navoid=20927#attendance)). Deferred examinations are a privilege and not a right; there is no guarantee that a deferred examination will be granted. The Faculty may deny deferral requests in cases where less than 50% of term work has been completed. Misrepresentation of facts to gain a deferred examination is a serious breach of the [Student Academic Integrity Policy](https://www.ualberta.ca/en/alfresco/uappol/academic/student-academic-integrity/policy/student-academic-integrity-policy.pdf).  
 
 <!-- Hazel check --> 
-A deferred final exam may be an alternative exam
-that may oral examination component. Deferred exams will be scheduled
-to take place on 2027-02-01 between 10:00am Mountain Time and 5:00pm
-Mountain Time depending on the number of deferrals. Due to the oral
-nature of the deferred exam they cannot be held at the simulataneously
-All deferred final examinations for this course will normally be
-administered at this sitting.
+An approved deferred final examination may use an alternative format and may include an oral component. Deferred examinations will be held on February 1, 2027, between 10:00 a.m. and 5:00 p.m. Mountain Time. Individual start times will be assigned after the number of approved deferrals is known. Because the examination may include an oral component, students may be scheduled in separate time slots. All approved deferred final examinations for this course will be administered on this date.
+
 
 ---
 
