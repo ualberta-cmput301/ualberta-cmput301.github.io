@@ -5,5 +5,5 @@ authors: Michelle Deng, Raj Prasad
 status: published
 summary: Assignment 1
 ----
-Instructions can be viewed at [this repository](https://github.com/ualberta-cmput301-2026-dev/a1-fall2026/blob/dev/README.md)
+Instructions can be viewed at [this repository](https://github.com/cmput301-f26/a1-fall2026/blob/main/README.md)
 <br></br>

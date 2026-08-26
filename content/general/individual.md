@@ -1,7 +1,7 @@
 Title: Individual
-date: 2024-03-20
+date: 2026-08-26
 tags: assignment, grading
-authors: Hazel Victoria Campbell
+authors: Hazel Victoria Campbell, Raj Prasad
 status: published
 summary: Individual Assignments, Participation
 ----
@@ -19,9 +19,9 @@ You can earn lecture participation credit by attending lecture on time and doing
 
 <!-- <p class="warning">Do <em>not</em> enter your real name, CCID, or student ID into Mentimeter.</p> -->
 
-These will be done on paper and you need to bubble in your student number. 
+Participation exercises will be completed on paper in in-person lecture sections and online in synchronous hybrid lecture sections. 
 
-* You must provide your student number to get credit. Failure to do so will not earn credit. <!-- **Your codename can be found under feedback at the top of your grades in eClass.** -->
+* You must provide an image of the exercise with the QR visible to get credit. Failure to do so will not earn credit. <!-- **Your codename can be found under feedback at the top of your grades in eClass.** -->
 <!--    * You will not get credit for your real name, CCID, or student ID! -->
 * For lecture participation exercises, given N total exercises only N-6 will be counted. You can miss 6. No extensions, excused absences, or weight transfers are possible. See the [outline]({filename}/general/outline.md#missed-term-work-participation) for more information.
 <!--

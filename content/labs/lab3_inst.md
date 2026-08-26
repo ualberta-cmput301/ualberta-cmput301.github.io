@@ -14,7 +14,7 @@ summary: Lab 3 Instructions
 
 ## 1. Getting Started
 
-1. Clone this repository and open the `/code` folder in Android Studio.
+1. Clone [this repository](https://github.com/cmput301-f26/lab-03) and open the `/code` folder in Android Studio.
 2. You'll find a basic `ListyCity` app that displays a static list of cities and provinces.
 
 ## 2. Demo Instructions

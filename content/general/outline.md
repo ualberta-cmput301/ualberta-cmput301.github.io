@@ -36,7 +36,8 @@ LEC A2/EA2 \- VVC 2-215 (MWF 11:00am \- 11:50am)
 
 **Office Hours: Immediately after class and by appointment** 
 
-**Lecture Room & Time:** LEC A3/EA3 \- ETLC E1-017 (MWF 12:00pm \- 12:50pm)  
+**Lecture Room & Time:**  
+LEC A3/EA3 \- ETLC E1-017 (MWF 12:00pm \- 12:50pm)  
 
 **Teaching Assistant(s):** Available on the course webpage  
 
@@ -44,7 +45,7 @@ LEC A2/EA2 \- VVC 2-215 (MWF 11:00am \- 11:50am)
 
 ---
 
-## 
+ 
 
 ## **TERRITORIAL ACKNOWLEDGEMENT**
 
@@ -131,7 +132,7 @@ Online learning may be new to you. Please refer to [Technology for Online Learni
 
 
 **Hybrid Synchronous Delivery:**  
-There are online lecture components for sections A1/EA1, A2/EA2. Lectures are in person in section A3/EA3.
+There are online lecture components for sections A1/EA1, A2/EA2. Lectures are in-person in section A3/EA3.
 
 **Recordings of Synchronous Activities:**
 
