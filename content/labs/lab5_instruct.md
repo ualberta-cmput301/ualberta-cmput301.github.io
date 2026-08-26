@@ -9,10 +9,9 @@ summary: Lab 5 Instructions
 # Lab 5 Instructions
 
 - Read [Firestore Introduction.pdf]({attach}slides/Firestore.pdf) for introduction of Firestore
+- Clone [this repository](https://github.com/cmput301-f26/lab-05) and open the `/ListyCity` folder in Android Studio.
 - Follow instructions on [Lab 5 Firestore Integration Instructions.pdf]({attach}slides/2026-Lab5FInteg.pdf) along with the TA.
 - Complete the lab participation exercise
-
-Download Starter Code [here](https://github.com/cmput301-f25/Lab05) 
 
 # Lab 5 Participation Exercise
 
@@ -30,8 +29,15 @@ After applying the changes in the lab demo, add the ability to delete cities fro
 ![Screen4]({attach}../images/lab5/lab5_img4.png){width=300 style="margin: 20px;"}
 
 # Submission
-
-Canvas
+1. Fork and then clone this repository
+    - Make sure your forked repository is **public**
+    - Hint: Use `git clone`
+3. Add your Android Studio Project changes to your forked repository
+    - Hint: Use `git add`, `git commit`, and `git push`
+4. Update the `README.md` file with your details and references/collaborators
+5. Update the `LICENSE.md` file with your full name
+6. Submit the link to your GitHub repository on Canvas
+<br></br>
 
 **Due Date**
 

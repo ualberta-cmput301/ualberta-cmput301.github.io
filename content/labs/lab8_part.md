@@ -10,10 +10,10 @@ summary: Lab 8 Instructions
 [TOC]
 
 
-# Lab 7 Instructions 
+# Lab 8 Instructions 
 
 - Go over [Lab 8 Slides]({attach}slides/2026-Lab%208%20Slides.pdf)
-- Fork and clone the [Lab 8 GitHub Repo](https://github.com/ualberta-cmput301-2026-dev/lab-08/tree/main) for your Canvas submission.
+- Fork and clone the [Lab 8 GitHub Repo](https://github.com/cmput301-f26/lab-08) for your Canvas submission.
   This repo includes:
     - Walkthrough instructions
     - Participation exercise instructions
