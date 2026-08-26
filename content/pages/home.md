@@ -24,9 +24,11 @@ save_as: index.html
 
 **You need to be logged in as your University of Alberta CCID/email account to view it.** The course schedule is updated in the link on Canvas. Please remember that this is only a plan, and sometimes plans change.
 
+[Click here for the schedule.](https://canvas.ualberta.ca/courses/36448/modules/items/4021443)
+
 # Canvas
 
-[The current Canvas page is here.](https://canvas.ualberta.ca/courses/31325)
+[The current Canvas page is here.](https://canvas.ualberta.ca/courses/36448)
 
 * Grades
 * Submissions
