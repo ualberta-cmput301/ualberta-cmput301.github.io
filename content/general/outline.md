@@ -213,7 +213,10 @@ https://ualberta-cmput301.github.io/general/resources.html
 **Statement of Expectations for AI Use:**  
 
 **AI Use Generally Permitted**  
-You can use GenAI tools in this course, within the guidelines specified for each assessment. Follow all directions as provided. If you have any questions/concerns, please ask. AI is prone to fabrication (factual inaccuracies). Review outputs carefully and validate using trusted sources. You are responsible for any errors or omissions the AI tool provides that you fail to identify and resolve. All graded assignments must be accompanied by the [GenAI Use: Acknowledgement and Reflection form](https://docs.google.com/document/d/1mn8clIqxpAQrvnhdqP7kxFrlsWOwMFYvOCYzQHM8DcE/edit?tab=t.0), whether you have used AI or not.
+You can use GenAI tools in this course, within the guidelines specified for each assessment. Follow all directions as provided. If you have any questions/concerns, please ask. AI is prone to fabrication (factual inaccuracies). Review outputs carefully and validate using trusted sources. You are responsible for any errors or omissions the AI tool provides that you fail to identify and resolve. 
+<!--
+All graded assignments must be accompanied by the [GenAI Use: Acknowledgement and Reflection form](https://docs.google.com/document/d/1mn8clIqxpAQrvnhdqP7kxFrlsWOwMFYvOCYzQHM8DcE/edit?tab=t.0), whether you have used AI or not.
+-->
 
 Important: AI use must be acknowledged transparently. See the U of A Library’s [How to Cite AI](https://guides.library.ualberta.ca/generative-ai/citation?_gl=1*1657vu7*_gcl_au*MTE2MDIyMDUyNC4xNzcwMzA1Mjg3*_ga*OTc2MzAzODA3LjE3NDU2OTExMjk.*_ga_21TWH2P5G7*czE3NzQ5MDA0MzUkbzQxJGcxJHQxNzc0OTAxNzg5JGoyMSRsMCRoMTY2ODg4Nzk5Mw..) for standard reference and citation expectations. Failure to acknowledge AI use may be considered cheating and a violation as outlined in the relevant sections of the University of Alberta [Student Academic Integrity Policy](https://www.ualberta.ca/en/alfresco/uappol/academic/student-academic-integrity/policy/student-academic-integrity-policy.pdf).
 
@@ -582,6 +585,7 @@ Any typographical errors in this syllabus are subject to change and will be anno
 
 
 **Copyright**:
+
 * Dr. Abram Hindle and Dr. Hazel Victoria Campbell, Department of Computing Science, Faculty of Science, University of Alberta (2026).
 * Dr. Zhou Yang and Mr. Henry Tang, Department of Computing Science, Faculty of Science, University of Alberta (2026). 
 * Dr. Ken Wong, Department of Computing Science, Faculty of Science, University of Alberta (2023).
