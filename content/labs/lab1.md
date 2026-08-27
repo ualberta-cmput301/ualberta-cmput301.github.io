@@ -27,4 +27,4 @@ Canvas
 
 **Due Date**
 
-Friday after the Thursday lab at 4PM
+Friday after the Thursday lab at 5 PM
