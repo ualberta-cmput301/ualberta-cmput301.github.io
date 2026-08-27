@@ -41,7 +41,7 @@ Every team member will need to submit the following:
 
 # Submission Procedure
 
-All members of the team must submit the Google Form: [Form](https://docs.google.com/forms/d/e/1FAIpQLScnnxz59OEHa64fi_NWycA-JZJCH5K5cCVrwheYg2WAyDxpFw/viewform?usp=dialog)
+All members of the team must submit the Google Form linked on the assignment page: [Form](https://canvas.ualberta.ca/courses/36448/assignments/799799)
 
 # Marking
 
