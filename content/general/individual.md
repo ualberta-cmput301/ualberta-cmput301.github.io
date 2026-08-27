@@ -21,7 +21,7 @@ You can earn lecture participation credit by attending lecture on time and doing
 
 Participation exercises will be completed on paper in in-person lecture sections and online in synchronous hybrid lecture sections. 
 
-* You must provide an image of the exercise with the QR visible to get credit. Failure to do so will not earn credit. <!-- **Your codename can be found under feedback at the top of your grades in eClass.** -->
+* You must provide an image of the exercise with the QR visible and scannable to get credit. Failure to do so will not earn credit. <!-- **Your codename can be found under feedback at the top of your grades in eClass.** -->
 <!--    * You will not get credit for your real name, CCID, or student ID! -->
 * For lecture participation exercises, given N total exercises only N-6 will be counted. You can miss 6. No extensions, excused absences, or weight transfers are possible. See the [outline]({filename}/general/outline.md#missed-term-work-participation) for more information.
 <!--
@@ -42,4 +42,5 @@ Given `N` total exercises, count the number of sufficiently complete exercises (
 
 If you participate enough in discussion you can get 1 bonus mark to
 your participation grade (not exceeding 7). You only get credit for
-participation in your own section.
+participation in your own section, and each section might have a
+different total number of participation exercises.
