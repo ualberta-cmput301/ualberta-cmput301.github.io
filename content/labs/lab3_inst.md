@@ -14,7 +14,7 @@ summary: Lab 3 Instructions
 
 ## 1. Getting Started
 
-1. Clone [this repository](https://github.com/cmput301-f26/lab-03) and open the `/code` folder in Android Studio.
+1. Fork and clone [this repository](https://github.com/cmput301-f26/lab-03) and open the `/code` folder in Android Studio.
 2. You'll find a basic `ListyCity` app that displays a static list of cities and provinces.
 
 ## 2. Demo Instructions
@@ -107,3 +107,7 @@ var selectedCity by remember { mutableStateOf<City?>(null) }
 > Make sure to commit **and** push your code to the GitHub repository before the deadline!
 > 
 > Once you completed, please go to [Canvas](https://canvas.ualberta.ca/) and submit **your Lab 3 GitHub repository link**.
+
+**Due Date**
+
+Friday after the Thursday lab at 5 PM
