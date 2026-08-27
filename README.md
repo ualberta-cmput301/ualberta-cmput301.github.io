@@ -26,4 +26,20 @@ Please file an issue if you find anything wrong or missing on the site.
 
 # N.B Please ensure you make changes on a seperate branch, test it locally before deploying to main branch
 
+# Dev Notes
 
+- Do not modify the themes, static files (like exercises) go into
+  static folders.
+  
+- Do not link to google docs or google drive or google forms, link to
+  canvas. We get too much spam when people don't use the UA
+  credentials.
+  
+- Use `{filename}` for static content to avoid these warnings:
+```
+           WARNING  {filename} used for linking to static content /resources/practice/PracticeQuestions.pdf in general/midterms.md. Use {static} instead                                                                                contents.py:319
+```
+
+# Per Term Migration
+
+- Each term grep for canvas URLs and update them like: `./content/projects/project_part1.md`
