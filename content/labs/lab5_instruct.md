@@ -9,7 +9,7 @@ summary: Lab 5 Instructions
 # Lab 5 Instructions
 
 - Read [Firestore Introduction.pdf]({attach}slides/Firestore.pdf) for introduction of Firestore
-- Clone [this repository](https://github.com/cmput301-f26/lab-05) and open the `/ListyCity` folder in Android Studio.
+- Fork and clone [this repository](https://github.com/cmput301-f26/lab-05) and open the `/ListyCity` folder in Android Studio.
 - Follow instructions on [Lab 5 Firestore Integration Instructions.pdf]({attach}slides/2026-Lab5FInteg.pdf) along with the TA.
 - Complete the lab participation exercise
 
