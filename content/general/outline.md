@@ -136,14 +136,12 @@ There are online lecture components for sections A1/EA1, A2/EA2. Lectures are in
 
 **Recordings of Synchronous Activities:**
 
-There are no recordings. <!-- HAZEL -->
-
-<!-- Template Syllabus -->
-<!--
-* Please note that class times for this course will be recorded. Recordings of this course will be used for the purposes of \[ADD PURPOSES\] and will be disclosed to other students enrolled in this section of the class \[ADD OTHER PEOPLE IF APPLICABLE\].  
+A1/A2: * Please note that class times for this course will be recorded. Recordings of this course will be post to allow students to catch up on missed lectures due to illness and review for exams. Recordings will be disclosed to other students enrolled in this section of the class and University of Alberta instructors, chairs, deans, and decision makers, officers, etc. upon request.
+* Recordings of this course are to be used by students for the purposes of exam review prior to exams, and review by students with an excused absence or relevant accomodation only.
 * Students have the right to not participate in the recording and are advised to turn off their cameras and audio prior to the recording, but students can still participate in the text-based chat. It is recommended that students remove all identifiable and personal belongings from the space in which they will be participating.  
-* Recordings will be made available until \[ADD DATE\] and accessible by \[ADD RELEVANT INFORMATION\]. Please direct any questions about this collection to the instructor of the course.
--->
+* Recordings will be made available until the day before the final exam, and accessible on Canvas. Please direct any questions about this collection to the instructor of the course.
+
+A3: There are no recordings.
 
 **Home-based Lab Activities:**  
 As part of the learning experience in this course, you will be required to undertake certain activities in or around your place of residence, To ensure that you undertake the activity safely and fully informed of the risks, please review the University of Alberta's [Remote Learning Lab-Based Assignment Information Advisory](https://www.ualberta.ca/en/finance-procurement-planning/media-library/insurance-risk-assessment/remote-learning-lab-based-assignment-information-advisory.pdf). If you have questions or concerns, contact your instructor.
@@ -169,6 +167,8 @@ As part of the learning experience in this course, you will be required to under
 For courses with a Final Exam, students must verify the date of the Final Exam on Bear Tracks when the Final Exam Schedule is posted. 
 
 Grades are unofficial until approved by the Department and/or Faculty offering the course.
+
+The scores shown on Canvas are not accurate.
 
 **Midterm Dates**
 
@@ -249,7 +249,8 @@ ChatGPT and similar services are recording everything you tell it, and tracking 
 
 
 **AI Assisted Grading:**  
-This course uses AI-assisted tools—specifically Gemini—to support parts of the grading process. These tools assist in identifying patterns, enhancing consistency, and the efficiency of grading tasks. By streamlining these processes, more time can be dedicated to higher-value teaching activities, such as providing personalized feedback, developing learning materials, or directly supporting students, while also ensuring timely return of assessments. AI tools may be used to assist in grading assignments, projects, labs, and exercises. Regardless of the tool’s involvement, final responsibility for all grades rests with the instructor.   
+This course uses AI-assisted tools—specifically Gemini—to support parts of the grading process. These tools assist in identifying patterns, enhancing consistency, and the efficiency of grading tasks. By streamlining these processes, more time can be dedicated to higher-value teaching activities, such as providing personalized feedback, developing learning materials, or directly supporting students, while also ensuring timely return of assessments. AI tools may be used to assist in grading assignments, projects, labs, and exercises. Regardless of the tool’s involvement, final responsibility for all grades rests with the instructor.
+
 **Data Use and Privacy**  
 Student submissions may be processed through these tools to provide grading support. In alignment with the tools terms of use:
 
@@ -270,14 +271,12 @@ Your feedback will always state if the submission was graded by AI with the foll
 **Appeals & Error Handling**  
 If you believe your grade reflects an oversight—by the AI tool or a human reviewer, please review the rubric and contact the instructors within one week for re-evaluation.
 
-
-
-
-
-
 ---
 
 **POLICIES FOR LATE AND MISSED WORK**
+
+* You must attend this class live, while the lectures are happening unless you have an acceptable excuse (incapacitating illness, severe domestic affliction). You must be in Edmonton and available to attend in-person. If you are not available to attend in person do not take this course. Following University policy, we absolutely do not provide any accommodations for travel. <https://calendar.ualberta.ca/content.php?catoid=69&navoid=20927#attendance> 
+    * "Unacceptable reasons include, but are not limited to personal events such as vacations, weddings, or travel arrangements. When a student is absent without acceptable excuse, a final grade will be computed using a raw score of zero for the work missed. Any student who applies for or obtains an excused absence by making false statements will be liable under the Student Academic Integrity Policy. Students should consult their Faculty for detailed information and requirements."
 
 **Late Policies:**
 
@@ -307,7 +306,7 @@ The 6 lowest marks for lecture participation will be dropped when calculating th
 Submitting participation exercises is the responsibility of the student to do it in a timely manner.
 
 **Missed Assignments, Project Parts, Quizzes, Midterm Exams:**  
-A student who cannot complete an assignment, project part, quiz, or midterm exam, due to incapacitating illness, severe domestic affliction or other compelling reasons must contact the instructor within two working days of missing the assessment, or as soon as possible, to request an excused absence using the absence form. If an excused absence is granted, then the deliverable weight will be split and shared over other deliverables in the same category. If a Midterm exam is missed, then its weight will be split and shared over the Final exam. An excused absence is a privilege and not a right. There is no guarantee that an absence will be excused. 
+A student who cannot complete an assignment, project part, quiz, or midterm exam, due to incapacitating illness, severe domestic affliction or other compelling reasons must contact the instructor within two working days of missing the assessment, or as soon as possible, to request an excused absence using the absence form. If an excused absence is granted, then the deliverable weight will be split and shared over other deliverables in the same category. If a Midterm exam is missed, then its weight will be transferred to the Final exam. An excused absence is a privilege and not a right. There is no guarantee that an absence will be excused. 
 Misrepresentation of facts to gain an excused absence is a serious breach of the [Student Academic Integrity Policy](https://www.ualberta.ca/en/alfresco/uappol/academic/student-academic-integrity/policy/student-academic-integrity-policy.pdf). In all cases, instructors may request adequate documentation to substantiate the reason for the absence, at their discretion.
 
 Failure to complete an assignment or contribute to a project part without an excused absence will result in a raw score of zero or a proportional score reduction.
@@ -329,7 +328,6 @@ If Midterm 3 is missed, then it will be replaced by a deferred exam that will in
 **Deferred Final Examination:**  
 A student who cannot write the final examination due to incapacitating illness, severe domestic affliction, or other compelling reasons can apply for a deferred final examination. Such an application must be made to the student's home Faculty Office within two working days of the missed exam and must be supported by appropriate documentation or a Statutory Declaration (see calendar on [Attendance](https://calendar.ualberta.ca/content.php?catoid=69&navoid=20927#attendance)). Deferred examinations are a privilege and not a right; there is no guarantee that a deferred examination will be granted. The Faculty may deny deferral requests in cases where less than 50% of term work has been completed. Misrepresentation of facts to gain a deferred examination is a serious breach of the [Student Academic Integrity Policy](https://www.ualberta.ca/en/alfresco/uappol/academic/student-academic-integrity/policy/student-academic-integrity-policy.pdf).  
 
-<!-- Hazel check --> 
 An approved deferred final examination may use an alternative format and may include an oral component. Deferred examinations will be held on February 1, 2027, between 10:00 a.m. and 5:00 p.m. Mountain Time. Individual start times will be assigned after the number of approved deferrals is known. Because the examination may include an oral component, students may be scheduled in separate time slots. All approved deferred final examinations for this course will be administered on this date.
 
 
@@ -366,6 +364,44 @@ Examples include:
 Contract cheating companies thrive on making students believe that they cannot succeed without their help; they attempt to convince students that cheating is the only way to succeed.
 
 Uploading the instructor's teaching materials (e.g., course outlines, lecture slides, assignment, or exam questions, etc.) to tutorial, study or note-sharing websites, public servers, or chat apps is a copyright infringement and constitutes the misuse of University academic materials or other assets. Receiving assignment solutions or answers to exam questions from an unauthorized source puts you at risk of receiving inaccurate information.
+
+**Contract Cheating: CMPUT Courses:**  
+These are also contract cheating:
+
+* Logging in as someone else
+* Sharing your login credentials
+* Sharing your anonymous ID
+* Using someone else's anonymous ID
+* Allowing someone else to log in as you
+* Representing yourself as someone else
+* Having someone else represent themselves as you
+
+on any of the following:
+
+* On other UAlberta services and linked services:
+    * Zoom
+    * gmail
+    * Google Chat, Drive, ...
+    * Lab computers
+    * Wi-Fi
+* On an external service, website, or app:
+    * repository hosting services: GitHub, GitHub Classroom, Bitbucket, GitLab, ...
+    * live quiz services: Wooclap, ...
+    * Textbook websites/apps
+    * KnowledgeTree/MasteryGrids
+    * online tutorials
+    * online practice systems
+    * online homework systems
+
+These are also contract cheating:
+
+* Misrepresenting authorship to a version control system such as git:
+    * Forging git commit metadata (author, time, etc.)
+    * Creating git commits where the author recorded did not create the changes being committed.
+    * ...
+* Submitting participation exercises for someone else. Representing yourself as someone else, or having someone else represent themselves as you to an instructor, TA, or other UA employee.
+    * Attending lecture/lab/seminar for someone else.
+    * Having someone else attend lecture/lab/seminar for you.
 
 **Appropriate Collaboration:**  
 Students need to be able to recognize when they have crossed the line between appropriate collaboration and inappropriate collaboration. If students are unsure, they need to ask instructors to clarify what is allowed and what is not allowed.
@@ -498,9 +534,11 @@ Examples of consultation:
 
 * As long as you are a part of a group, you are responsible for everything in the group project, whether you participated in every component or not.  
 * A group may only submit work authored by group members or appropriately cited and credited code that does not violate the author's license.
+* Use of `git rebase`, force push, or any other operations that change or remove authorship, commit, or timing metadata are the same as lying that you wrote code that someone else actually wrote or lying about when you added code. These operations are strictly forbidden and will result in a score zero for the same as not participating in your group. They may be also reported to CNAS as under the Student Academic Integrity Policy if you are suspected of using these operations to gain an academic advantage.
+    * You are responsible for setting `git config pull.rebase false` on all repositories for this course.
 
 **Intellectual Violence:**  
-In this course, Intellectual Violence is considered bullying. Intellectual violence is when one teammate uses their skill, knowledge, or experience, to intimidate or control the other teammate(s) rather than sharing and helping them learn. Examples of Intellectual Violence
+In this course, Intellectual Violence is considered bullying. Intellectual violence is when one teammate uses their skill, knowledge, or experience, to intimidate or control the other teammate(s) rather than sharing and helping them learn. Examples of *Intellectual Violence*:
 
 * Using complex terminology or concepts to make others feel inferior.  
 * Dismissing or ridiculing colleagues’ ideas or contributions.  
@@ -513,30 +551,27 @@ In this course, Intellectual Violence is considered bullying. Intellectual viole
 * Using harsh or condescending language in comments, code reviews, pull requests, issues, commit messages, etc.  
 * Making contributors feel unwelcome.
 
-Instances of Intellectual Violence may result in reduced marks and/or be referred to the Dean of Students under the Student Conduct Policy.
+Instances of Intellectual Violence may result in reduced marks and/or be referred to the SSE under the Student Conduct Policy.
 
 **Exam Conduct:**   
 Please refer to the [Examinations](https://calendar.ualberta.ca/content.php?catoid=69&navoid=20927#examinations-exams) section of the Academic Calendar for more details on Conduct of Exams. 
 
-Some key points to be aware of for the final Exam:
-
-* Your student photo ID is required at exams to verify your identity.  
-* Students must arrive at the specified time to take the exam. Once the exam has started, students must remain in the physical in-person or remote environment for at least 30 minutes. Students who arrive more than 30 minutes late for an in-person exam will not be permitted to take the exam. Students who arrive more than 30 minutes late for an online exam may have their exam attempt removed or disqualified by the instructor. In both cases, students may apply for a deferred examination.  
-* All cell phones must be turned off and stored in your bags.
-
-<!-- HAZEL -->
-
-Some key points to be aware of for the midterm:
-
-* Your student photo ID is required at midterms to verify your identity.  
-* Students must arrive at the specified time to take the midterm. Once the midterm has started, students must remain in the physical in-person or remote environment for at least 30 minutes. Students who arrive more than 10 minutes late for an in-person midterm will not be permitted to take the midterm. Students may apply for a excused abscence.
-* All cell phones must be turned off and stored in your bags. Cell phones may not be on your person (pockets).
-* No headphones or ear buds allowed without express permission.
-* The exam will take 50 minutes. 10 minutes setup, 30 minutes midterm writing, 10 minutes of collection. 
-
-
-
-
+1. Do not start the test or open the test booklet until instructed.
+2. If you are not on the class list, you may not write this examination.
+3. If you do not present your Student ID, your examination may not be graded.
+    * Your student photo I.D. is required at exams to verify your identity.
+4. Final: If you enter more than 30 minutes after the start of the examination may not write this examination. You must remain seated until 30 minutes has passed.
+    * Final: Students must arrive at the specified time to take the exam. Once the exam has started, students must remain in the physical in-person or remote environment for at least 30 minutes. Students who arrive more than 30 minutes late for an in-person exam will not be permitted to take the exam. Students who arrive more than 30 minutes late for an online exam may have their exam attempt removed or disqualified by the instructor. In both cases students may apply for a deferred examination.
+    * Midterm: The exam will take 50 minutes. 10 minutes setup, 30 minutes midterm writing, 10 minutes of collection. Students who arrive more than 10 minutes late for an in-person midterm will not be permitted to take the midterm. Students may apply for a excused abscence.
+5. If you are sick, please do not attend the examination. Instead, fill out the absence for for the midterm or apply for a deferred final exam with your Faculty (e.g.
+Faculty of Science) for the final.
+6. Absolutely no electronic devices are allowed. No exceptions.This includes calculators, cell phones, smartwatches, and headphones. You may not have them near you, in your pocket, or take them to the washroom. If you brought electronics with you, you must leave them in your bag at the front of the classroom. If you are distracted by the sound of other students, bring ear plugs, not ear buds.
+  1. You must leave your bag at the front of the classroom. You may be able to see it, but it must be out of reach. If you brought electronics with you, you must turn them off (not just silent but all the way off) and leave them in your bag at the front of the classroom.
+  2. No smart glasses. We will be checking for smart glasses. If you need prescription glasses (like me), you may only bring glasses with no electronics. We may ask you to take off your glasses momentarily to inspect them.
+  3. We may be using radio detectors to find electronics.
+7. You may write on the exam if you need scratch paper.
+8. No notes are allowed.
+9. Place your student ID number on every page. If your exam pages come apart we will need this!
 
 **Accommodations for Students:**  
 In accordance with the University of Alberta’s [Accommodation Policy](https://www.ualberta.ca/en/alfresco/uappol/humanresources/accommodation/policy/accommodation-policy.pdf) and [Discrimination and Harassment Policy](https://www.ualberta.ca/en/alfresco/uappol/humanresources/discrimination-and-harassment/policy/discrimination-and-harassment-policy.pdf), accommodation support is available to eligible students who encounter limitations or restrictions to their ability to perform the daily activities necessary to pursue studies at a post-secondary level due to medical conditions and/or non-medical protected grounds. Accommodations are coordinated through the [Academic Success Centre](https://www.ualberta.ca/current-students/academic-success-centre/index.html), and students can learn more about eligibility on the [Register for Accommodations website](https://www.ualberta.ca/en/current-students/academic-success-centre/accessibility-resources/register/index.html). 
