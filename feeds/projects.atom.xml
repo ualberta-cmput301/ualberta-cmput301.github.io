@@ -19,14 +19,14 @@
 &lt;p&gt;Your team is expected to use GitHub for a git repository and wiki to share, manage, and store your project artifacts.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;See the Project Teams page for the assigned name of your organization, Example: &lt;code&gt;indigo&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Add CMPUT301W26 to it. Example &lt;code&gt;CMPUT301W26indigo&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Add CMPUT301F26 to it. Example &lt;code&gt;CMPUT301F26indigo&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Come up with a class project name, something interesting but respectful and professional, related to your team name. For example: &lt;code&gt;indigo-events&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Make a public git repository that is accessible at all times to team members, the TAs, and the instructor via GitHub. Record the repo URL.&lt;/li&gt;
 &lt;li&gt;Create a doc/directory in your repository, create a team.txt file within doc/, and have each of your team members make a distinct, versioned edit to that file. For each member, that edit must be a line with their GitHub username.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;(Later in the course, project documentation will be done using the GitHub wiki.)&lt;/p&gt;
 &lt;h3 id="submission-procedure"&gt;&lt;strong&gt;Submission Procedure&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;One team member uses &lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSfR2zLaN2euIFYJmWUCJ3kV1QHAenYu6djOPgabSyFCW9u6-A/viewform?usp=dialog"&gt;the Google form&lt;/a&gt; to submit project part 1.&lt;/p&gt;
+&lt;p&gt;One team member uses the google form at: https://canvas.ualberta.ca/courses/36448/assignments/799800/ to submit project part 1.&lt;/p&gt;
 &lt;h3 id="hints"&gt;&lt;strong&gt;Hints&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;This exercise can be completed with your team in the labs that cover git and GitHub.&lt;/p&gt;</content><category term="projects"/><category term="projects"/><category term="teams"/><category term="grading"/></entry><entry><title>Project Part 2</title><link href="https://ualberta-cmput301.github.io/projects/project_part2.html" rel="alternate"/><published>2026-06-04T00:00:00-06:00</published><updated>2026-06-04T00:00:00-06:00</updated><author><name>Abram Hindle</name></author><id>tag:ualberta-cmput301.github.io,2026-06-04:/projects/project_part2.html</id><summary type="html">&lt;p&gt;Project Part 2&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
@@ -369,7 +369,7 @@ Teams can decide to add their own feature to the project (it &lt;strong&gt;must 
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="submission-procedure"&gt;Submission Procedure&lt;/h3&gt;
-&lt;p&gt;All members of the team must submit the Google Form: &lt;a href="https://docs.google.com/forms/d/e/1FAIpQLScnnxz59OEHa64fi_NWycA-JZJCH5K5cCVrwheYg2WAyDxpFw/viewform?usp=dialog"&gt;Form&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;All members of the team must submit the Google Form linked on the assignment page: &lt;a href="https://canvas.ualberta.ca/courses/36448/assignments/799799"&gt;Form&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id="marking"&gt;Marking&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;If you do not form a team before the due date, you will receive a mark of zero.&lt;/li&gt;
