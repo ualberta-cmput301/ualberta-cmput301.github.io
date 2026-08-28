@@ -22,6 +22,7 @@ summary: Lecture, Labs, Contact Information, Lecturer, Teaching Assistants, Cour
 **Instructor:** Hazel Campbell  
 **Office:**	UComm   
 **E-mail:** [hazelcam@ualberta.ca](mailto:hazelcam@ualberta.ca)   
+    - ALL email must include CMPUT301 in the subject line
 
 **Office Hours: Immediately after class and by appointment** 
 
@@ -32,6 +33,8 @@ LEC A2/EA2 \- VVC 2-215 (MWF 11:00am \- 11:50am)
 **Instructor:** Abram Hindle  
 **Office:**	UComm  
 **E-mail:** [hindle1@ualberta.ca](mailto:hindle1@ualberta.ca)  
+    - ALL email must include CMPUT301 in the subject line
+
 **Web Page**: [https://softwareprocess.ca/](https://softwareprocess.ca/)  
 
 **Office Hours: Immediately after class and by appointment** 
