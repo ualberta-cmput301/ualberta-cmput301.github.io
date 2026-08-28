@@ -10,7 +10,7 @@ summary: Slides and per-topic resources
 [TOC]
 
 # Slides 
-* [Welcome]({attach}slides/00_Welcome_Tang.pdf) 
+* [Welcome]({attach}slides/Introducing%20Software%20Engineering.pdf) 
 * [Objects, UML, and Kotlin]({attach}slides/01_OO-2026.pdf)
 * [MVC and Android]({attach}slides/02-MVC-Android-2026.pdf)
 * [Software Process]({attach}slides/03_Process_2026.pdf)
