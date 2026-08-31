@@ -296,17 +296,18 @@ It is imperative that students review the dates of all course assessments upon r
 
 
 **Missed Labs:**   
-Labs are due Friday at 5PM on the same week the lab was presented. Project meetings are due at the time of the meeting, and they are included in the lab mark. Failure to attend and actively participate in project meetings will result in a lab mark of zero.
+Labs are due Friday at 5PM on the same week the lab was presented. Project meetings are due at the time of the meeting, and they are included in the lab mark. Failure to attend and actively participate in project meetings will result in a lab mark of zero. 
 
 <!-- Hazel, do we leave this in? -->
 The 2 lowest marks for Labs (including project meetings) will be dropped when calculating the course mark. No late labs will be accepted. Failure to complete a lab (or to attend a project meeting) on time for any reason will result in a mark of zero. Please note that you can miss 2 labs (or project meetings) without penalty.
+We will not apply excused abscences to labs except in exceptional circumstances as you are allowed to miss some.
 
 **Missed Lecture Participation:**  
 Participation exercises will be available at most lectures.
 
-The 6 lowest marks for lecture participation will be dropped when calculating the course mark. No late participation will be accepted. Failure to complete a participation exercise on time for any reason will result in a mark of zero. Please note that you can miss 6 lectures without penalty.
+The 6 lowest marks for lecture participation will be dropped when calculating the course mark. No late participation will be accepted. Failure to complete a participation exercise on time for any reason will result in a mark of zero. Please note that you can miss 6 lectures without penalty. We will not apply excused abscences to participation exercises except in exceptional circumstances as you can miss some.
 
-Submitting participation exercises is the responsibility of the student to do it in a timely manner.
+Submitting participation exercises is the responsibility of the student to do it in a timely manner. 
 
 **Missed Assignments, Project Parts, Quizzes, Midterm Exams:**  
 A student who cannot complete an assignment, project part, quiz, or midterm exam, due to incapacitating illness, severe domestic affliction or other compelling reasons must contact the instructor within two working days of missing the assessment, or as soon as possible, to request an excused absence using the absence form. If an excused absence is granted, then the deliverable weight will be split and shared over other deliverables in the same category (categories such as assignments, exams, project). If a Midterm exam is missed, then its weight will be transferred to the Final exam. An excused absence is a privilege and not a right. There is no guarantee that an absence will be excused. 
