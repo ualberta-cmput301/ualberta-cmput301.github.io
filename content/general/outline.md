@@ -110,7 +110,7 @@ See the resources page on the course webpage.
 See the online live schedule [here.](https://canvas.ualberta.ca/courses/36448/modules/items/4020614)
 
 **Other Course Fees:**  
-Students will be required to use the online service Firebase in order to complete the coursework and course project. The expected fees are $0, however, Firebase may assess fees if storage, bandwidth, user, or operation limits are exceeded. One member of the group will be required to supply payment information. It is the responsibility of the student to pay for any Firebase charges. If you are unable to pay these fees, you must contact your TA and instructor immediately. You might need a credit card.
+Students will be required to use the online service Firebase in order to complete the coursework and course project. The expected fees are $0, however, Firebase may assess fees if storage, bandwidth, user, or operation limits are exceeded, watch your account usage. One member of the group will be required to supply payment information. It is the responsibility of the student to pay for any Firebase charges. If you are unable to pay these fees, you must contact your TA and instructor immediately. You might need a credit card.
 
 **On-Line Homework Disclaimer:** 
 
@@ -140,7 +140,7 @@ There are online lecture components for sections A1/EA1, A2/EA2. Lectures are in
 **Recordings of Synchronous Activities:**
 
 A1/A2: * Please note that class times for this course will be recorded. Recordings of this course will be post to allow students to catch up on missed lectures due to illness and review for exams. Recordings will be disclosed to other students enrolled in this section of the class and University of Alberta instructors, chairs, deans, and decision makers, officers, etc. upon request.
-* Recordings of this course are to be used by students for the purposes of exam review prior to exams, and review by students with an excused absence or relevant accomodation only.
+* Recordings of this course are to be used by students for the purposes of exam review prior to exams, and review by students with an excused absence or relevant accommodation only.
 * Students have the right to not participate in the recording and are advised to turn off their cameras and audio prior to the recording, but students can still participate in the text-based chat. It is recommended that students remove all identifiable and personal belongings from the space in which they will be participating.  
 * Recordings will be made available until the day before the final exam, and accessible on Canvas. Please direct any questions about this collection to the instructor of the course.
 
@@ -175,7 +175,7 @@ The scores shown on Canvas are not accurate.
 
 **Midterm Dates**
 
-50 minute exams at:
+50 minute exam sessions at:
 
 - Midterm 1 - Friday, October 16, 2026
   - A1/EA1: 10:00 AM
@@ -188,7 +188,7 @@ There is no possibility of a re-examination in this course.
 
 **Final Letter Grades**  
 **University of Alberta Grading Policy**  
-Grades reflect judgments of student achievement made by instructors and must correspond to the associated descriptor. These judgements are based on a combination of absolute achievement and relative performance in a class. Faculties may define acceptable grading practices in their disciplines. Such grading practices must align with the [University of Alberta Assessment and Grading Policy](https://www.ualberta.ca/en/alfresco/uappol/academic/assessment-and-grading/policy/assessment-and-grading-policy.pdf) and its procedures.
+Grades reflect judgments of student achievement made by instructors and must correspond to the associated descriptor. These judgments are based on a combination of absolute achievement and relative performance in a class. Faculties may define acceptable grading practices in their disciplines. Such grading practices must align with the [University of Alberta Assessment and Grading Policy](https://www.ualberta.ca/en/alfresco/uappol/academic/assessment-and-grading/policy/assessment-and-grading-policy.pdf) and its procedures.
 
 **Course Grades Obtained by Undergraduate Students**:  
 This table reflects the GPA Point Value and Descriptor (e.g., Excellent, Good) for each Letter Grade.
@@ -286,7 +286,7 @@ If you believe your grade reflects an oversight—by the AI tool or a human revi
 No late work is accepted. This include midterms and final exams. No resubmissions. Late work will not be marked.
 
 **Absence Form:**  
-This course uses a Google form to request excused absences for term work. This form needs to be filled out by students if they wish to request an excused absence for any deliverable. Emails to instructors or TAs **will not be accepted** as timely notification for an excused absence. (Abscence Form)[https://canvas.ualberta.ca/courses/36448/pages/absence-declaration-form?module_item_id=4017667]
+This course uses a Google form to request excused absences for term work. This form needs to be filled out by students if they wish to request an excused absence for any deliverable. Emails to instructors or TAs **will not be accepted** as timely notification for an excused absence. [Absence Form](https://canvas.ualberta.ca/courses/36448/pages/absence-declaration-form?module_item_id=4017667)
 
 
 **Missed Term Work/Final Exam Due to Non-medical Protected Grounds (e.g., religious beliefs):**  
@@ -309,7 +309,7 @@ The 6 lowest marks for lecture participation will be dropped when calculating th
 Submitting participation exercises is the responsibility of the student to do it in a timely manner.
 
 **Missed Assignments, Project Parts, Quizzes, Midterm Exams:**  
-A student who cannot complete an assignment, project part, quiz, or midterm exam, due to incapacitating illness, severe domestic affliction or other compelling reasons must contact the instructor within two working days of missing the assessment, or as soon as possible, to request an excused absence using the absence form. If an excused absence is granted, then the deliverable weight will be split and shared over other deliverables in the same category. If a Midterm exam is missed, then its weight will be transferred to the Final exam. An excused absence is a privilege and not a right. There is no guarantee that an absence will be excused. 
+A student who cannot complete an assignment, project part, quiz, or midterm exam, due to incapacitating illness, severe domestic affliction or other compelling reasons must contact the instructor within two working days of missing the assessment, or as soon as possible, to request an excused absence using the absence form. If an excused absence is granted, then the deliverable weight will be split and shared over other deliverables in the same category (categories such as assignments, exams, project). If a Midterm exam is missed, then its weight will be transferred to the Final exam. An excused absence is a privilege and not a right. There is no guarantee that an absence will be excused. 
 Misrepresentation of facts to gain an excused absence is a serious breach of the [Student Academic Integrity Policy](https://www.ualberta.ca/en/alfresco/uappol/academic/student-academic-integrity/policy/student-academic-integrity-policy.pdf). In all cases, instructors may request adequate documentation to substantiate the reason for the absence, at their discretion.
 
 Failure to complete an assignment or contribute to a project part without an excused absence will result in a raw score of zero or a proportional score reduction.
@@ -565,7 +565,7 @@ Please refer to the [Examinations](https://calendar.ualberta.ca/content.php?cato
     * Your student photo I.D. is required at exams to verify your identity.
 4. Final: If you enter more than 30 minutes after the start of the examination may not write this examination. You must remain seated until 30 minutes has passed.
     * Final: Students must arrive at the specified time to take the exam. Once the exam has started, students must remain in the physical in-person or remote environment for at least 30 minutes. Students who arrive more than 30 minutes late for an in-person exam will not be permitted to take the exam. Students who arrive more than 30 minutes late for an online exam may have their exam attempt removed or disqualified by the instructor. In both cases students may apply for a deferred examination.
-    * Midterm: The exam will take 50 minutes. 10 minutes setup, 30 minutes midterm writing, 10 minutes of collection. Students who arrive more than 10 minutes late for an in-person midterm will not be permitted to take the midterm. Students may apply for a excused abscence.
+    * Midterm: The midterm exam session will take 50 minutes. 10 minutes setup, 30 minutes midterm exam writing, 10 minutes of collection. Students who arrive more than 10 minutes late for an in-person midterm will not be permitted to take the midterm. Students may apply for a excused absence.
 5. If you are sick, please do not attend the examination. Instead, fill out the absence for for the midterm or apply for a deferred final exam with your Faculty (e.g.
 Faculty of Science) for the final.
 6. Absolutely no electronic devices are allowed. No exceptions.This includes calculators, cell phones, smartwatches, and headphones. You may not have them near you, in your pocket, or take them to the washroom. If you brought electronics with you, you must leave them in your bag at the front of the classroom. If you are distracted by the sound of other students, bring ear plugs, not ear buds.
