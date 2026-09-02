@@ -8,8 +8,8 @@ summary: Exam Practice Questions
 ---
 
 
-The Midterm Exams consist of three exams, each with three questions,
-taking about 10 minutes each. You must complete your midterm during
+The Midterm Exams consist of 1 midterm exam, each with 1 or more questions.
+ou must complete your midterm during
 your scheduled class time—only for your section. Taking the same
 midterm twice is a violation of the Student Academic Integrity Policy,
 and neither will be graded.
@@ -17,28 +17,17 @@ and neither will be graded.
 The midterm exams are closed book with a cheat sheet. No collaboration
 is allowed. Solo and Confidential.
 
-You should prepare a cheat sheet:
+There is no cheat sheet.
 
-- 1 sheet double sided - US LETTER SIZE ONLY (8.5 inches by 11 inches)
-- Does not need to be hand written, but should be so you learn better.
-- Can not be shared, each cheat sheet has to be created individually.
-- You will not get the cheat sheet back.
+Exams are now 30 minutes with 10 minute setup and 10 minute tear down.
+You must be present in the class at the start of the exam (10 minutes in) to write the exam.
+You cannot leave until we have collected your exam. 
+
+The syllabus/outline has more details.
 
 ## 2026 Times
 
-50 minute exams at:
-
-- Midterm 1
-    - B1/EB1 January 30, 2026 10:00 AM
-    - B2/EB2 January 30, 2026 11:00 AM
-
-- Midterm 2
-    - B1/EB1 March 6, 2026 10:00 AM
-    - B2/EB2  March 6, 2026 11:00 AM
-
-- Midterm 3
-    - B1/EB1 April 10, 2026 10:00 AM
-    - B2/EB2 April 10, 2026 11:00 AM
+See outline.
 
 ### Topics
 
