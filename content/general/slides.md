@@ -10,6 +10,7 @@ summary: Slides and per-topic resources
 [TOC]
 
 # Slides 
+
 * [Welcome]({attach}slides/00_Welcome_2026.pdf) 
 * [Objects, UML, and Kotlin]({attach}slides/01_OO-2026.pdf)
 * [MVC and Android]({attach}slides/02-MVC-Android-2026.pdf)
@@ -22,7 +23,7 @@ summary: Slides and per-topic resources
 * [Git Version Control]({attach}slides/HDMofG-2026.pdf)
 
 [Hazel's Version Slides](https://drive.google.com/drive/folders/1_jV-C9vBdCHCFnITon13RiVzwwjpCZvx?usp=drive_link
----------------------------------------------------------------------------------------------------------
+
 # Archive 
 Below is an archive of old slides. Feel free to review for your own interest.
 
