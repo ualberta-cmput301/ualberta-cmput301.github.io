@@ -139,8 +139,10 @@ There are online lecture components for sections A1/EA1, A2/EA2. Lectures are in
 
 **Recordings of Synchronous Activities:**
 
-A1/A2: * Please note that class times for this course will be recorded. Recordings of this course will be post to allow students to catch up on missed lectures due to illness and review for exams. Recordings will be disclosed to other students enrolled in this section of the class and University of Alberta instructors, chairs, deans, and decision makers, officers, etc. upon request.
-* Recordings of this course are to be used by students for the purposes of exam review prior to exams, and review by students with an excused absence or relevant accommodation only.
+A1/A2:
+
+* Please note that class times for this course will be recorded. Recordings of this course will be post to allow students to catch up on missed lectures due to illness and review for exams. Recordings will be disclosed to other students enrolled in this section of the class and University of Alberta instructors, chairs, deans, and decision makers, officers, etc. upon request.
+* Recordings of this course are to be used by students for the purposes of exam review prior to exams, and review by students with an excused absence or relevant accomodation only.
 * Students have the right to not participate in the recording and are advised to turn off their cameras and audio prior to the recording, but students can still participate in the text-based chat. It is recommended that students remove all identifiable and personal belongings from the space in which they will be participating.  
 * Recordings will be made available until the day before the final exam, and accessible on Canvas. Please direct any questions about this collection to the instructor of the course.
 
@@ -278,7 +280,7 @@ If you believe your grade reflects an oversight—by the AI tool or a human revi
 
 **POLICIES FOR LATE AND MISSED WORK**
 
-* You must attend this class live, while the lectures are happening unless you have an acceptable excuse (incapacitating illness, severe domestic affliction). You must be in Edmonton and available to attend in-person. If you are not available to attend in person do not take this course. Following University policy, we absolutely do not provide any accommodations for travel. <https://calendar.ualberta.ca/content.php?catoid=69&navoid=20927#attendance> 
+* You must attend this class live, while the lectures are happening unless you have an acceptable excuse (incapacitating illness, etc.). You must be in Edmonton and available to attend in-person. If you are not available to attend in person do not take this course. Following University policy, we absolutely do not provide any accommodations for travel. <https://calendar.ualberta.ca/content.php?catoid=69&navoid=20927#attendance> 
     * "Unacceptable reasons include, but are not limited to personal events such as vacations, weddings, or travel arrangements. When a student is absent without acceptable excuse, a final grade will be computed using a raw score of zero for the work missed. Any student who applies for or obtains an excused absence by making false statements will be liable under the Student Academic Integrity Policy. Students should consult their Faculty for detailed information and requirements."
 
 **Late Policies:**
