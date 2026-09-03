@@ -466,13 +466,13 @@ It's better to document AI use than get questioned if you used it.
 The following are definitions for the different collaboration policies used in this course
 
 **Solo Effort:**  
-Participation exercises fall under the department's *Solo Effort* model unless announced by the instructor. *Solo Effort* must be completed by the student registered in the course without external assistance from any individual or organization.
+*Solo Effort* must be completed by the student registered in the course without external assistance from any individual or organization.
 
 * Students may only submit work authored by themselves.  
 * Students **may not** discuss or exchange solutions, steps, strategies, code, links, code, images, videos, output, comments, repositories, answers, etc.  
 * Students **may not** consult with other students on how to solve the problem, unlike the consultation model described below.  
-* Students **may not** submit a participation exercise, quiz, or exam without attending the relevant lecture, lab, seminar, or exam.  
-* Students **may not** share a participation exercise, quiz, or exam link (URL).  
+* Students **may not** submit a quiz, or exam without attending the relevant lecture, lab, seminar, or exam.  
+* Students **may not** share a quiz, or exam link (URL).  
 * Students **may not** represent themselves as someone else, (or have someone else represent themselves as the student) during lectures, labs, seminars, or exams.  
   * Including in-person or over Zoom, or any other remote video, voice call, chat, or email service.  
   * See Contract Cheating above.
