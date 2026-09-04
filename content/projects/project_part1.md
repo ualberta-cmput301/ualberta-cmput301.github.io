@@ -24,7 +24,7 @@ Your team is expected to use GitHub for a git repository and wiki to share, mana
 * Come up with a class project name, something interesting but respectful and professional, related to your team name. For example: `indigo-events`
 * Make a public git repository that is accessible at all times to team members, the TAs, and the instructor via GitHub. Record the repo URL.
 * Create a doc/directory in your repository, create a team.txt file within doc/, and have each of your team members make a distinct, versioned edit to that file. For each member, that edit must be a line with their GitHub username.
-* LICENSE your project with an opensource license.  Add a LICENSE file to the root of the directory that contains an opensource license that will be used for the project.
+* LICENSE your project with an opensource license.  Add a LICENSE file to the root of the directory the project, that contains an opensource license that will be used for the project.
 - [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0.txt) or [GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.txt) or [AGPL 3.0](https://www.gnu.org/licenses/agpl-3.0.txt) are recommended
 
 (Later in the course, project documentation will be done using the GitHub wiki.)
