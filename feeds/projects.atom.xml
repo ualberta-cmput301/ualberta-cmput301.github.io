@@ -1,5 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>CMPUT 301 - projects</title><link href="https://ualberta-cmput301.github.io/" rel="alternate"/><link href="https://ualberta-cmput301.github.io/feeds/projects.atom.xml" rel="self"/><id>https://ualberta-cmput301.github.io/</id><updated>2026-06-04T00:00:00-06:00</updated><subtitle>Software Engineering</subtitle><entry><title>Project Part 1</title><link href="https://ualberta-cmput301.github.io/projects/project_part1.html" rel="alternate"/><published>2026-06-04T00:00:00-06:00</published><updated>2026-06-04T00:00:00-06:00</updated><author><name>Abram Hindle</name></author><id>tag:ualberta-cmput301.github.io,2026-06-04:/projects/project_part1.html</id><summary type="html">&lt;p&gt;Project Part 1&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CMPUT 301 - projects</title><link href="https://ualberta-cmput301.github.io/" rel="alternate"/><link href="https://ualberta-cmput301.github.io/feeds/projects.atom.xml" rel="self"/><id>https://ualberta-cmput301.github.io/</id><updated>2026-08-04T00:00:00-06:00</updated><subtitle>Software Engineering</subtitle><entry><title>Wow Factor</title><link href="https://ualberta-cmput301.github.io/projects/WOW_Factor.html" rel="alternate"/><published>2026-08-04T00:00:00-06:00</published><updated>2026-08-04T00:00:00-06:00</updated><author><name>Abram Hindle</name></author><id>tag:ualberta-cmput301.github.io,2026-08-04:/projects/WOW_Factor.html</id><summary type="html">&lt;p&gt;Wow Factor&lt;/p&gt;</summary><content type="html">&lt;h3 id="wow-factor"&gt;WOW Factor:&lt;/h3&gt;
+&lt;p&gt;As a bonus 2% to your overall course grade, project teams are able to complete a “wow factor” that differentiates their project from other teams.
+This is an optional component and you can still receive 100% in the course even if you do not complete this.
+Some sample ideas of additions to the project are provided below.
+If you have a different idea than one of the suggestions below then you must approve it with your mentor TA first before working on the feature.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Reservation map&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Users can view a map of their past and active reservations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Match score&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Campsites can be ranked using a match score based on the user's filters.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Map view&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Users can view campsites on a map within a selected radius from their device location.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Advanced review system&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Users can reply to reviews in threads.&lt;/li&gt;
+&lt;li&gt;Users can react to reviews.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Featured carousel&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Users can view a carousel of featured campsites based on their preferences.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Accessibility mode&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Color blind mode.&lt;/li&gt;
+&lt;li&gt;Adjustable font, button, and UI component size.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Messaging system&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Users and campsite owners can exchange messages about reservations. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</content><category term="projects"/><category term="projects"/><category term="teams"/><category term="grading"/></entry><entry><title>Project Part 1</title><link href="https://ualberta-cmput301.github.io/projects/project_part1.html" rel="alternate"/><published>2026-06-04T00:00:00-06:00</published><updated>2026-06-04T00:00:00-06:00</updated><author><name>Abram Hindle</name></author><id>tag:ualberta-cmput301.github.io,2026-06-04:/projects/project_part1.html</id><summary type="html">&lt;p&gt;Project Part 1&lt;/p&gt;</summary><content type="html">&lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#learning-objectives"&gt;Learning Objectives&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="#exercise"&gt;Exercise&lt;/a&gt;&lt;/li&gt;
@@ -23,6 +73,8 @@
 &lt;li&gt;Come up with a class project name, something interesting but respectful and professional, related to your team name. For example: &lt;code&gt;indigo-events&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Make a public git repository that is accessible at all times to team members, the TAs, and the instructor via GitHub. Record the repo URL.&lt;/li&gt;
 &lt;li&gt;Create a doc/directory in your repository, create a team.txt file within doc/, and have each of your team members make a distinct, versioned edit to that file. For each member, that edit must be a line with their GitHub username.&lt;/li&gt;
+&lt;li&gt;LICENSE your project with an opensource license.  Add a LICENSE file to the root of the directory that contains an opensource license that will be used for the project.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.apache.org/licenses/LICENSE-2.0.txt"&gt;Apache 2.0&lt;/a&gt; or &lt;a href="https://www.gnu.org/licenses/gpl-3.0.txt"&gt;GPL 3.0&lt;/a&gt; or &lt;a href="https://www.gnu.org/licenses/agpl-3.0.txt"&gt;AGPL 3.0&lt;/a&gt; are recommended&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;(Later in the course, project documentation will be done using the GitHub wiki.)&lt;/p&gt;
 &lt;h3 id="submission-procedure"&gt;&lt;strong&gt;Submission Procedure&lt;/strong&gt;&lt;/h3&gt;
