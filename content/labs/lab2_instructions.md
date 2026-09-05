@@ -16,7 +16,7 @@ In Lab 2, we'll be doing the following:
 - Quick review of [OOP principles]({attach}slides/2026-Lab-2-OOP-Principles.pdf)
 - Android Basics ([Lab 2 Android Basics PDF under Lab 2]({attach}slides/2026-Lab-2-Android-Basics.pdf))
 - Displaying a list of items using Jetpack Compose 'LazyColumn' ([Lab 2 Demo Example - Instructions PDF under Lab 2]({attach}slides/2026-Lab-2-ListyCity-Instructions.pdf))
-- Lab Exercise - adding and removing items the city list (see the Lab 2 Participation Exercise below for more details.)
+- Lab Exercise - adding and removing items from the city list (see the Lab 2 Participation Exercise below for more details.)
 
 
 # Lab 2 Participation Exercise
