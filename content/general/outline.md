@@ -587,7 +587,13 @@ It is recommended that students register ***AS SOON AS POSSIBLE*** in order to e
 **Recording and/or Distribution of Course Materials:**  
 Audio or video recording, digital or otherwise, of lectures, labs, seminars or any other teaching environment by students is allowed only with the prior written consent of the instructor or as a part of an approved accommodation plan. Student or instructor content, digital or otherwise, created and/or used within the context of the course is to be used solely for personal study, and is not to be used or distributed for any other purpose without prior written consent from the content authors.  
 
+**Student Assignment, Lab, and Project Licensing:**
+Please license your deliverables explicitly using an free libre/open source license. This ensures TAs can work with your deliverable and fix it if necessary and it ensures that your group members all have rights to use contributions to the group project. 
 
+* LICENSE your deliverable with an opensource license by addin a LICENSE file to the root of the directory that contains the deliverable.
+- Recommended licenses: [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0.txt) or [GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.txt) or [AGPL 3.0](https://www.gnu.org/licenses/agpl-3.0.txt) are recommended
+
+When modifying opensource files remember to maintain the license header at the top of the file. Add your name to the copyright list if you modify the file. Do not remove people from the file.
 
 ---
 

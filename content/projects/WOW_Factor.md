@@ -1,3 +1,12 @@
+Title: Wow Factor
+date: 2026-08-04
+tags: projects, teams, grading
+authors: Abram Hindle, Michelle Deng, Raj Prasad, Henry Tang
+status: published
+summary: Wow Factor
+----
+
+
 # WOW Factor:
 
 As a bonus 2% to your overall course grade, project teams are able to complete a “wow factor” that differentiates their project from other teams.
