@@ -36,6 +36,17 @@
   --warning-border: yellow;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #0a0a0a;
+    --text-color: #e5e5e5;
+    --link-color: rgb(94, 179, 124);
+    --code-bg: #2f2f2f;
+    --stripe-bg: #1e1e1e;
+    --warning-bg: #3a2f00;
+  }
+}
+
 html {
   background-color: var(--bg-color);
   color: var(--text-color);

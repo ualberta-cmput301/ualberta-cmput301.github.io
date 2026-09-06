@@ -6,6 +6,12 @@ html {
     background-attachment: fixed;
 }
 
+@media (prefers-color-scheme: dark) {
+    html {
+        background-image: url("bg-dark.png");
+    }
+}
+
 .hybrid-exercise {
     box-sizing: border-box;
     width: 100%;
