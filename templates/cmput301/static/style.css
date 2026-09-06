@@ -34,9 +34,8 @@ body {
   max-width: 80ch;
   margin-left: auto;
   margin-right: auto;
-  font-family: Andika, sans-serif;
+  font-family: Andika, system-ui, sans-serif;
   letter-spacing: 0.033rem;
-  word-spacing: 110%;
   font-feature-settings: "cv10" 1, "cv39" 1;
   line-height: 1.3;
 }
