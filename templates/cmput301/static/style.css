@@ -25,9 +25,20 @@
 
 /** Site wide styles */
 
+:root {
+  --bg-color: white;
+  --text-color: black;
+  --link-color: rgb(39, 93, 56);
+  --code-bg: #eeeeee;
+  --stripe-bg: rgb(255, 243, 205);
+  --border-color: var(--text-color);
+  --warning-bg: white;
+  --warning-border: yellow;
+}
+
 html {
-  background-color: white;
-  color: black;
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 
 body {
@@ -74,11 +85,11 @@ h2 {
 }
 
 tr:nth-child(even) {
-  background-color: rgb(255, 243, 205);
+  background-color: var(--stripe-bg);
 }
 
 a, a:visited, a:active {
-  color: rgb(39, 93, 56);
+  color: var(--link-color);
 }
 
 a:hover {
@@ -86,7 +97,7 @@ a:hover {
 }
 
 code, pre {
-  background-color: #eeeeee;
+  background-color: var(--code-bg);
   padding: 0.1em;
   margin: 0 0.1em 0 0.1em;
   white-space: pre-wrap;
@@ -113,7 +124,7 @@ body>header hgroup>* {
 }
 
 body>header h1>a {
-  color: #000000;
+  color: var(--border-color);
   text-decoration: none;
 }
 
@@ -122,7 +133,7 @@ header > nav > ul {
   margin: 1ex 0;
   padding: 0 0 0.5ex 0;
   list-style-type: none;
-  border-bottom: 2px dashed #000000;
+  border-bottom: 2px dashed var(--border-color);
   display: flex;
   flex-flow: row wrap;
   align-items: center;
@@ -162,7 +173,7 @@ footer#contentinfo {
   margin-top: 0.2em;
   padding-top: 0.2em;
   padding-bottom: 0.4em;
-  border-top: 2px dashed #000000;
+  border-top: 2px dashed var(--border-color);
 }
 
 /** Post info time data **/
@@ -188,7 +199,7 @@ footer#contentinfo {
 }
 
 .option1 {
-  border-left: 1em solid rgb(255, 243, 205);
+  border-left: 1em solid var(--stripe-bg);
 }
 
 .option2 {
@@ -206,10 +217,10 @@ p>img {
 .warning {
   border-width: 0.5ch;
   border-style: dashed;
-  border-color: yellow;
-  background-color: white;
+  border-color: var(--warning-border);
+  background-color: var(--warning-bg);
   font-weight: bolder;
-  border-image-source: repeating-linear-gradient(-45deg, black, black 10px, yellow 10px, yellow 20px);
+  border-image-source: repeating-linear-gradient(-45deg, var(--border-color), var(--border-color) 10px, var(--warning-border) 10px, var(--warning-border) 20px);
   border-image-repeat: round;
   padding: 0.5ch 1ch;
   border-image-slice: 5;
