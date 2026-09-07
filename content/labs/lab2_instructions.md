@@ -25,6 +25,8 @@ Task: Modify/expand ListyCity to allow for the addition of new cities as well as
 
 **If you could not attend the labs or do not have the code for ListyCity, follow the instructions in Lab 2 Example - Instructions.** 
 
+**Include a README.md in your GitHub repository with Student Details, References and Resources, and Verbal Collaboration sections. You may use the README.md from the previous lab. Ensure all information is updated.**
+
 Hints:
 
 1. You may want to use the `onClick` callbacks of Compose components such as `Button`, as demonstrated in the lab.
