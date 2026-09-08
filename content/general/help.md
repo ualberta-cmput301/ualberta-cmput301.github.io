@@ -25,7 +25,7 @@ We will not tolerate harassment, bullying, threats, intimidation, insults, lying
     * Missed final exam:
         * Request a deferred exam from your faculty (Faculty of Science, Faculty of Arts, Faculty of Business, etc.)
     * Missed assignment/lab/project/quiz/lecture... everything except final exam:
-        * Fill in the <span style="font-size: 200%">🔗</span> [absence declaration form](https://docs.google.com/forms/d/e/1FAIpQLSdpxFcBlBWJOznUNiK3QN5KSfCyvQzcl6U6joHgfHiYgThk2g/viewform?usp=dialog) within 2 days of absence.
+        * Fill in the <span style="font-size: 200%">🔗</span> [absence declaration form](https://docs.google.com/forms/d/e/1FAIpQLSdHnDFCxinYkfvgVvRoMOr3dL_L94eAqaDJuZjABsTkaAFSvQ/viewform?usp=dialog) within 2 days of absence.
 * Extensions
     * No individual extensions are ever granted for any reason.
 
