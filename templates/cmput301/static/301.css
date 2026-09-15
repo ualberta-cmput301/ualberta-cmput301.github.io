@@ -4,8 +4,12 @@ html {
     background-repeat: repeat;
     background-size: 2lh;
     background-attachment: fixed;
-    color: black;
-    background-color: white;
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        background-image: url("bg-dark.png");
+    }
 }
 
 .hybrid-exercise {
