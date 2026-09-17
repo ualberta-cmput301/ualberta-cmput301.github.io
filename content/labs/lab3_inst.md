@@ -19,7 +19,7 @@ summary: Lab 3 Instructions
 
 ## 2. Demo Instructions
 
-During the lab demo, we'll implement "Add City" functionality:
+During the lab demo, we'll implement "Add City" functionality using OOP principles:
 
 1. Review [Lab 3 Slides]({attach}slides/2026-Lab-3-Slides.pdf)
 2. Follow along with [Lab 3 Instructions]({attach}slides/2026-Lab-3-instructions.pdf)
