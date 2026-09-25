@@ -135,7 +135,7 @@ Online learning may be new to you. Please refer to [Technology for Online Learni
 
 
 **Hybrid Synchronous Delivery:**  
-There are online lecture components for sections A1/EA1, A2/EA2. Lectures are in-person in section A3/EA3.
+Except in case for bad weather or some emergency, lectures are in-person.
 
 **Recordings of Synchronous Activities:**
 
