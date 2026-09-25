@@ -117,9 +117,7 @@ This task is for teams.
 
 Please submit:
 
-1. Your CCID (not your student id number!)
-
-2. Link to your branch in the repository at Canvas
+- Link to **your branch** (not main) in the repository at Canvas
 
 **Due Date**
 
