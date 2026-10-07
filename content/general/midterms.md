@@ -9,12 +9,12 @@ summary: Exam Practice Questions
 
 
 The Midterm Exams consist of 1 midterm exam, each with 1 or more questions.
-ou must complete your midterm during
+You must complete your midterm during
 your scheduled class time—only for your section. Taking the same
 midterm twice is a violation of the Student Academic Integrity Policy,
 and neither will be graded.
 
-The midterm exams are closed book with a cheat sheet. No collaboration
+The midterm exams are closed book. No collaboration
 is allowed. Solo and Confidential.
 
 There is no cheat sheet.
