@@ -115,7 +115,7 @@ US 01.02.02 As an entrant, I want to leave the waiting list for a campsite lotte
 
 US 01.03.01 As an entrant, I want to receive a notification when I win the campsite lottery.
 
-US 01.03.01 As an entrant, I want to receive a notification when I lose the campsite lottery.
+US 01.03.02 As an entrant, I want to receive a notification when I lose the campsite lottery.
 
 US 01.04.01 As an entrant, if I win the lottery, I want to see available dates that I can reserve the campsite for.
 
