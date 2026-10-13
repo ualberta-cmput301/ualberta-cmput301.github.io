@@ -12,7 +12,7 @@ summary: Lab 6 Instructions
 
 # Lab 6 Instructions 
 
-- Go over [Lab 6 Slides]({attach}slides/2026-Lab%206%20Slides%20v2.pdf)
+- Go over [Lab 6 Slides]({attach}slides/2026-Lab%206%20Slides%20v3.pdf)
 - Fork and clone the [Lab 6 GitHub Repo](https://github.com/cmput301-f26/lab-06) for your Canvas submission.
   This repo includes:
     - Walkthrough instructions
