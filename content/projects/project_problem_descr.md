@@ -95,6 +95,8 @@ As a (role), I want (goal).
 
 These descriptions may change to correct omissions and clarify noticed issues. New requirements will be introduced for the final project part.
 
+**UPDATE**: New requirements have been introduced for the final project part and are highlighted in <mark style="background-color: lightblue">light blue</mark>.
+
 **User:**
 
 US 01.01.01 As an entrant, I want to search for campsites.
@@ -119,8 +121,6 @@ US 01.03.02 As an entrant, I want to receive a notification when I lose the camp
 
 US 01.04.01 As an entrant, if I win the lottery, I want to see available dates that I can reserve the campsite for.
 
-<!-- US 01.02.06 As an entrant, if I win the lottery, I want to reserve a campsite for the dates I want. -->
-
 US 01.04.02 As an entrant, if I win a multiple campsite lottery, I want to choose which campsite to reserve and which dates I want.
 
 US 01.04.03 As an entrant, if I win the lottery, I want to decline a reservation if I changed my mind or if none of the remaining dates work for me.
@@ -141,7 +141,7 @@ US 01.07.03 As an entrant, I want to update my personal information, such as nam
 
 US 01.08.01 As an entrant, I want to delete my profile.
 
-<!-- <mark style="background-color: lightblue">US 01.08.02 As an entrant, I want to add, update, or remove my profile image.</mark> -->
+<mark style="background-color: lightblue">US 01.08.02 As an entrant, I want to add, update, or remove my profile image.</mark>
 
 US 01.09.01 As an entrant, I want to be identified by my device, so that I do not have to use a username and password.
 
@@ -153,9 +153,9 @@ US 01.12.01 As an entrant, I want to view campsite details by scanning the promo
 
 US 01.13.01 As an entrant, I want to give a rating for a campsite.
 
-<!-- <mark style="background-color: lightblue">US 01.13.02 As an entrant, I want to post a review for a campsite.</mark> -->
+<mark style="background-color: lightblue">US 01.13.02 As an entrant, I want to post a review for a campsite.</mark>
 
-<!-- <mark style="background-color: lightblue">US 01.14.01 As an entrant, I want to message the campsite owner for a reservation that I have.</mark> -->
+<mark style="background-color: lightblue">US 01.14.01 As an entrant, I want to message the campsite owner for a reservation that I have.</mark>
 
 **Campsite Owner:**
 
@@ -175,8 +175,6 @@ US 02.04.01 As a campsite owner, I want to list my campsite in a lottery for a c
 
 US 02.04.02 As a campsite owner, I want be able to list multiple campsites in a lottery for a certain period.
 
-<!-- <mark style="background-color: lightblue">US 02.02.02 As a campsite owner, I want be able to list multiple campsites with other campsite owners in a lottery for a certain period.</mark> -->
-
 US 02.04.03 As a campsite owner, I want to set a registration period.
 
 US 02.04.04 As a campsite owner, I want to set a booking period.
@@ -186,6 +184,8 @@ US 02.04.05 As a campsite owner, I want to set the number of lottery winners.
 US 02.04.06 As a campsite owner, I want to update my campsite lottery listing.
 
 US 02.04.07 As a campsite owner, I want to optionally set a capacity for my lottery waitlist.
+
+<mark style="background-color: lightblue">US 02.04.08 As a campsite owner, I want be able to list multiple campsites with other campsite owners in a lottery for a certain period.</mark>
 
 US 02.05.01 As a campsite owner, I want the system to automatically draw winners after the registration period ends.
 
@@ -227,9 +227,9 @@ US 03.07.01 As an admin, I want to remove campsite owners that violate app polic
 
 US 03.08.01 As an admin, I want to review logs of all notifications.
 
-<!-- <mark style="background-color: lightblue">US 03.09.01 As an admin, I want to remove campsite ratings that violate app policy.</mark> -->
+<mark style="background-color: lightblue">US 03.09.01 As an admin, I want to remove campsite ratings that violate app policy.</mark>
 
-<!-- <mark style="background-color: lightblue">US 03.10.01 As an admin, I want to remove campsite reviews that violate app policy.</mark> -->
+<mark style="background-color: lightblue">US 03.10.01 As an admin, I want to remove campsite reviews that violate app policy.</mark>
 
 US 03.11.01 As an admin, I should be able to be a campsite owner and/or entrant with my admin profile.
 
